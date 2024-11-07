@@ -1,0 +1,276 @@
+{
+  "$type": "Sungero.Metadata.EntityMetadata, Sungero.Metadata",
+  "NameGuid": "210b9d5c-0218-43c5-b950-c69a65caec9b",
+  "Name": "MobileAppSetting",
+  "Actions": [
+    {
+      "NameGuid": "5ee99b98-940f-4ea4-8b65-79d3df146ee5",
+      "Name": "AddChildEntity",
+      "GenerateHandler": true,
+      "IsAncestorMetadata": true,
+      "Overridden": [
+        "GenerateHandler"
+      ]
+    },
+    {
+      "NameGuid": "f27bf08f-e406-4a03-9eb5-fa8d0dfaac4d",
+      "Name": "CopyChildEntity",
+      "GenerateHandler": true,
+      "IsAncestorMetadata": true,
+      "Overridden": [
+        "GenerateHandler"
+      ]
+    },
+    {
+      "NameGuid": "67c5f308-061f-46fe-9376-80752f10e466",
+      "Name": "Reset",
+      "ActionArea": "Card",
+      "GenerateHandler": true,
+      "LargeIconName": "Action_Reset_large_67c5f308061f46fe937680752f10e466.png",
+      "SmallIconName": "Action_Reset_small_67c5f308061f46fe937680752f10e466.png"
+    },
+    {
+      "NameGuid": "008b69d9-def6-4741-8200-a204afee1448",
+      "Name": "AddFolder",
+      "ActionArea": "Card",
+      "GenerateHandler": true,
+      "LargeIconName": "Action_AddFolder_large_008b69d9def647418200a204afee1448.png",
+      "SmallIconName": "Action_AddFolder_small_008b69d9def647418200a204afee1448.png"
+    }
+  ],
+  "BaseGuid": "04581d26-0780-4cfd-b3cd-c2cafc5798b0",
+  "CanBeNavigationPropertyType": true,
+  "CanBeSearch": true,
+  "CanBeUsedInIntegration": false,
+  "Code": "MobAppSetting",
+  "CreationAreaMetadata": {
+    "NameGuid": "f7766750-eee2-4fcd-8003-5c06a90d1f44",
+    "Name": "CreationArea",
+    "Buttons": [],
+    "IsAncestorMetadata": true
+  },
+  "ExtraSearchProperties": [],
+  "FilterPanel": {
+    "NameGuid": "b0125fbd-3b91-4dbb-914a-689276216404",
+    "Name": "FilterPanel",
+    "Controls": [],
+    "IsAncestorMetadata": true
+  },
+  "Forms": [
+    {
+      "$type": "Sungero.Metadata.StandaloneFormMetadata, Sungero.Metadata",
+      "NameGuid": "2c397ca5-c000-4323-b71c-99cfc2a47e67",
+      "Name": "Card",
+      "Controls": [
+        {
+          "$type": "Sungero.Metadata.ControlGroupMetadata, Sungero.Metadata",
+          "NameGuid": "810c4757-7f97-465a-962b-15038c3cde32",
+          "Name": "ControlGroup"
+        },
+        {
+          "$type": "Sungero.Metadata.ControlMetadata, Sungero.Metadata",
+          "NameGuid": "d02a4f2a-07df-4c14-b4f3-4e53b2af67ca",
+          "Name": "Employee",
+          "ColumnNumber": 0,
+          "ColumnSpan": 1,
+          "DataBinderTypeName": "Sungero.Presentation.CommonDataBinders.DropDownEditorToNavigationBinder",
+          "ParentGuid": "810c4757-7f97-465a-962b-15038c3cde32",
+          "PropertyGuid": "e7cd1bbb-19b5-42ec-b5dc-af3dc3cf2119",
+          "RowNumber": 0,
+          "RowSpan": 1,
+          "Settings": []
+        },
+        {
+          "$type": "Sungero.Metadata.ControlGroupMetadata, Sungero.Metadata",
+          "NameGuid": "4ed36f13-9424-4eac-a790-272944c366c7",
+          "Name": "VisibleFolders",
+          "ColumnNumber": 0,
+          "ColumnSpan": 1,
+          "GroupType": "GroupBox",
+          "ParentGuid": "810c4757-7f97-465a-962b-15038c3cde32",
+          "RowNumber": 2,
+          "RowSpan": 1
+        },
+        {
+          "$type": "Sungero.Metadata.ControlMetadata, Sungero.Metadata",
+          "NameGuid": "f861bf30-e00d-4b14-9f02-a8ac981c773b",
+          "Name": "VisibleFolders",
+          "ColumnNumber": 0,
+          "ColumnSpan": 1,
+          "DataBinderTypeName": "Sungero.Presentation.CommonDataBinders.GridControlToChildCollectionBinder",
+          "HeaderLocation": "None",
+          "ParentGuid": "4ed36f13-9424-4eac-a790-272944c366c7",
+          "PropertyGuid": "cc863bce-b2e6-42f1-9a6e-93a36f58ae94",
+          "RowNumber": 0,
+          "RowSpan": 1,
+          "Settings": [
+            {
+              "Name": "Height",
+              "Value": 250
+            },
+            {
+              "Name": "NeedExpand",
+              "Value": true
+            }
+          ]
+        },
+        {
+          "$type": "Sungero.Metadata.ControlMetadata, Sungero.Metadata",
+          "NameGuid": "e0011372-b891-4e16-9554-b3fef51e8b4e",
+          "Name": "IsSubstitutionFoldersHidden",
+          "ColumnNumber": 0,
+          "ColumnSpan": 1,
+          "DataBinderTypeName": "Sungero.Presentation.CommonDataBinders.BooleanEditorToBooleanBinder",
+          "ParentGuid": "810c4757-7f97-465a-962b-15038c3cde32",
+          "PropertyGuid": "7958914a-ada3-435e-85be-91031e1c55ec",
+          "RowNumber": 1,
+          "RowSpan": 1,
+          "Settings": []
+        }
+      ]
+    }
+  ],
+  "HandledEvents": [
+    "BeforeSaveServer",
+    "AfterDeleteServer",
+    "AfterSaveServer",
+    "RefreshClient",
+    "CreatedServer"
+  ],
+  "IconResourcesKeys": [],
+  "IsVisible": false,
+  "OperationsClass": "",
+  "Overridden": [
+    "IsVisible",
+    "CanBeUsedInIntegration",
+    "CanBeSearch"
+  ],
+  "Properties": [
+    {
+      "$type": "Sungero.Metadata.NavigationPropertyMetadata, Sungero.Metadata",
+      "NameGuid": "e7cd1bbb-19b5-42ec-b5dc-af3dc3cf2119",
+      "Name": "Employee",
+      "Code": "Employee",
+      "EntityGuid": "b7905516-2be5-4931-961c-cb38d5677565",
+      "HandledEvents": [
+        "ChangedShared"
+      ],
+      "IsDisplayValue": true,
+      "IsQuickSearchAllowed": true,
+      "IsRequired": true,
+      "ListDataBinderTypeName": "Sungero.Presentation.CommonDataBinders.DropDownEditorToNavigationBinder",
+      "PreviousPropertyGuid": "1dcedc29-5140-4770-ac92-eabc212326a1"
+    },
+    {
+      "$type": "Sungero.Metadata.CollectionPropertyMetadata, Sungero.Metadata",
+      "NameGuid": "cc863bce-b2e6-42f1-9a6e-93a36f58ae94",
+      "Name": "VisibleFolders",
+      "Code": "VisibleFolders",
+      "EntityGuid": "da51e62f-53fd-42df-94f0-8f22cf245197",
+      "IsRequired": true,
+      "IsShowedInList": false,
+      "PreviousPropertyGuid": "e7cd1bbb-19b5-42ec-b5dc-af3dc3cf2119"
+    },
+    {
+      "$type": "Sungero.Metadata.BooleanPropertyMetadata, Sungero.Metadata",
+      "NameGuid": "7958914a-ada3-435e-85be-91031e1c55ec",
+      "Name": "IsSubstitutionFoldersHidden",
+      "Code": "SubstFldrHide",
+      "ListDataBinderTypeName": "Sungero.Presentation.CommonDataBinders.BooleanEditorToBooleanBinder",
+      "PreviousPropertyGuid": "cc863bce-b2e6-42f1-9a6e-93a36f58ae94"
+    }
+  ],
+  "PublicStructures": [
+    {
+      "Name": "MobileAppSettingChangedEventArgs",
+      "IsPublic": true,
+      "Properties": [
+        {
+          "Name": "UserId",
+          "TypeFullName": "global::System.Int64"
+        }
+      ],
+      "StructureNamespace": "Sungero.MobileApps.Structures.MobileAppSetting"
+    }
+  ],
+  "ResourcesKeys": [
+    "NonUniqueUserSetting",
+    "Bookmarks",
+    "SelectFolder",
+    "Folder",
+    "FolderListIsAlreadyUpdated",
+    "SelectAFolderToAdd",
+    "AddButton"
+  ],
+  "RibbonCardMetadata": {
+    "NameGuid": "b1c30401-56f2-491d-90fc-73e69336b12d",
+    "Name": "RibbonCard",
+    "Categories": [],
+    "Elements": [
+      {
+        "$type": "Sungero.Metadata.RibbonActionButtonMetadata, Sungero.Metadata",
+        "NameGuid": "9107126c-ce40-4cd8-b854-2e7a297159b1",
+        "Name": "CopyEntity",
+        "ActionGuid": "00fae4b6-935a-4047-831d-312fd3c02faf",
+        "Index": 35,
+        "IsAncestorMetadata": true,
+        "IsVisible": false,
+        "Overridden": [
+          "IsVisible"
+        ],
+        "ParentGuid": "f3b0ddcd-9d1e-4ca3-8780-695ae25a9e8b"
+      },
+      {
+        "$type": "Sungero.Metadata.RibbonActionButtonMetadata, Sungero.Metadata",
+        "NameGuid": "859f164c-e841-4d88-b202-ccd362937bd1",
+        "Name": "Reset",
+        "ActionGuid": "67c5f308-061f-46fe-9376-80752f10e466",
+        "Index": 51,
+        "ParentGuid": "f3b0ddcd-9d1e-4ca3-8780-695ae25a9e8b"
+      },
+      {
+        "$type": "Sungero.Metadata.RibbonActionButtonMetadata, Sungero.Metadata",
+        "NameGuid": "8468af6c-25f4-4bc7-8c49-6e0986865728",
+        "Name": "AddFolder",
+        "ActionGuid": "008b69d9-def6-4741-8200-a204afee1448",
+        "Index": 52,
+        "ParentGuid": "f3b0ddcd-9d1e-4ca3-8780-695ae25a9e8b"
+      }
+    ],
+    "Groups": [],
+    "IsAncestorMetadata": true,
+    "Pages": [],
+    "RibbonKind": "Card"
+  },
+  "RibbonCollectionMetadata": {
+    "NameGuid": "7025c510-2262-452e-a344-ce2ebc18a5e1",
+    "Name": "RibbonCollection",
+    "Categories": [],
+    "Elements": [
+      {
+        "$type": "Sungero.Metadata.RibbonActionButtonMetadata, Sungero.Metadata",
+        "NameGuid": "efe4a00f-bffb-41ce-8e5a-40162463bdea",
+        "Name": "CopyEntity",
+        "ActionGuid": "00fae4b6-935a-4047-831d-312fd3c02faf",
+        "DefaultIndexInQuickAccessToolBar": 20,
+        "Index": 20,
+        "IsAncestorMetadata": true,
+        "IsVisible": false,
+        "Overridden": [
+          "IsVisible",
+          "IsShowInContextMenu"
+        ],
+        "ParentGuid": "b88b0a3a-c1ca-4f7f-80a0-336cd61c9c94"
+      }
+    ],
+    "Groups": [],
+    "IsAncestorMetadata": true,
+    "Pages": []
+  },
+  "Versions": [
+    {
+      "Type": "EntityMetadata",
+      "Number": 12
+    }
+  ]
+}

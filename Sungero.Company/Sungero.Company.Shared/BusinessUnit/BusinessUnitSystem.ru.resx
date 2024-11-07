@@ -1,0 +1,166 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AccusativeDisplayName" xml:space="preserve">
+    <value>Нашу организацию</value>
+  </data>
+  <data name="CollectionDisplayName" xml:space="preserve">
+    <value>Наши организации</value>
+  </data>
+  <data name="DisplayName" xml:space="preserve">
+    <value>Наша организация</value>
+  </data>
+  <data name="Property_CEO" xml:space="preserve">
+    <value>Руководитель</value>
+  </data>
+  <data name="Property_Note" xml:space="preserve">
+    <value>Примечание</value>
+  </data>
+  <data name="Property_Company" xml:space="preserve">
+    <value>Организация</value>
+  </data>
+  <data name="Property_Email" xml:space="preserve">
+    <value>Эл. почта</value>
+  </data>
+  <data name="Property_HeadCompany" xml:space="preserve">
+    <value>Головная орг.</value>
+  </data>
+  <data name="Property_LegalAddress" xml:space="preserve">
+    <value>Юридический адрес</value>
+  </data>
+  <data name="Property_LegalName" xml:space="preserve">
+    <value>Юрид. наименование</value>
+  </data>
+  <data name="Property_Name" xml:space="preserve">
+    <value>Наименование</value>
+  </data>
+  <data name="Property_Phones" xml:space="preserve">
+    <value>Телефоны</value>
+  </data>
+  <data name="Property_PostalAddress" xml:space="preserve">
+    <value>Почтовый адрес</value>
+  </data>
+  <data name="Property_Region" xml:space="preserve">
+    <value>Регион</value>
+  </data>
+  <data name="Property_City" xml:space="preserve">
+    <value>Населенный пункт</value>
+  </data>
+  <data name="Property_TIN" xml:space="preserve">
+    <value>ИНН</value>
+  </data>
+  <data name="Property_TRRC" xml:space="preserve">
+    <value>КПП</value>
+  </data>
+  <data name="Property_Homepage" xml:space="preserve">
+    <value>Сайт</value>
+  </data>
+  <data name="Property_PSRN" xml:space="preserve">
+    <value>ОГРН</value>
+  </data>
+  <data name="Property_NCEO" xml:space="preserve">
+    <value>ОКПО</value>
+  </data>
+  <data name="Property_NCEA" xml:space="preserve">
+    <value>ОКВЭД</value>
+  </data>
+  <data name="Property_Account" xml:space="preserve">
+    <value>Номер счета</value>
+  </data>
+  <data name="Property_Bank" xml:space="preserve">
+    <value>Банк</value>
+  </data>
+  <data name="ControlGroup_bb54f7b1375543819b5a9c3cee9177cf" xml:space="preserve">
+    <value>Контактная информация</value>
+  </data>
+  <data name="ControlGroup_9da605c7bdd94e6993bc03b9e8426253" xml:space="preserve">
+    <value>Банковские реквизиты</value>
+  </data>
+  <data name="ControlGroup_9fdc669362014c9397edc404a1a81110" xml:space="preserve">
+    <value>Примечание</value>
+  </data>
+  <data name="Action_ShowDuplicates" xml:space="preserve">
+    <value>Показать дубли</value>
+  </data>
+  <data name="Action_ShowDuplicatesDescription" xml:space="preserve">
+    <value>Показать наши организации с совпадающим ИНН.</value>
+  </data>
+  <data name="Action_ShowDuplicatesHint" xml:space="preserve">
+    <value>Показать дубли</value>
+  </data>
+  <data name="Property_Code" xml:space="preserve">
+    <value>Код</value>
+  </data>
+  <data name="Property_Nonresident" xml:space="preserve">
+    <value>Нерезидент</value>
+  </data>
+  <data name="Property_CAO" xml:space="preserve">
+    <value>Главный бухгалтер</value>
+  </data>
+  <data name="Property_ExternalId" xml:space="preserve">
+    <value>ИД во внешней системе</value>
+  </data>
+  <data name="ControlGroup_f93b0d1dc9e8423e8922b103e17033b3" xml:space="preserve">
+    <value>Наша организация</value>
+  </data>
+  <data name="ControlGroup_3195751eedf84148bc33dbaf98d5f6a6" xml:space="preserve">
+    <value>Горизонтальная группа</value>
+  </data>
+</root>

@@ -1,0 +1,314 @@
+{
+  "663fbeab-07d3-95e6-60e1-d7aa45d418cb_Name": {
+    "default": " Set document status to \"Reviewed\"",
+    "ru-RU": "Установить статус документа \"Рассмотрен\""
+  },
+  "710de6df-e484-41ec-8823-8cbdb325ea32_Name": {
+    "default": "Set document status to \"Reviewed\"",
+    "ru-RU": "Установить статус документа \"Рассмотрен\""
+  },
+  "76d54359-2959-33e9-a80d-abcac3574c70_Name": {
+    "default": "Set document status to \"Reviewed\"",
+    "ru-RU": "Установить статус документа \"Рассмотрен\""
+  },
+  "b212434a-d5f1-8b97-03a7-4c2e69b4b03f_Name": {
+    "default": "Set document status to \"Reviewed\"",
+    "ru-RU": "Установить статус документа \"Рассмотрен\""
+  },
+  "b353386e-7e3b-3d64-2ec8-8b3f9bdc9e36_Name": {
+    "default": "Set document status to \"Reviewed\"",
+    "ru-RU": "Установить статус документа \"Рассмотрен\""
+  },
+  "c3c7ba03-1c04-b9a1-efa1-50b37e0e7e92_Name": {
+    "default": "Set document status to \"Reviewed\"",
+    "ru-RU": "Установить статус документа \"Рассмотрен\""
+  },
+  "cc061264-f76d-41d0-5106-855676807a2d_Name": {
+    "default": "Set document status to \"Reviewed\"",
+    "ru-RU": "Установить статус документа \"Рассмотрен\""
+  },
+  "d1457cd9-46aa-0f04-f4a9-2ff2a8962d64_Name": {
+    "default": " Set execution status to \"Execution not required\"",
+    "ru-RU": "Установить статус исполнения \"Не требует исполнения\""
+  },
+  "Description": {
+    "default": "Default process of memo approval that includes memo review by one or several addressees",
+    "ru-RU": "Типовой процесс для согласования служебных записок с возможностью рассмотрения документа  одним или несколькими адресатами",
+    "hash": "2fbfac7aa450dcdf2ebe00ae8e6803a9"
+  },
+  "Description_247509ee-3e3c-4153-87de-6254fa9febb3": {
+    "default": "Employees who must approve documents within the current task",
+    "ru-RU": "Сотрудники, с которыми необходимо согласовать документ в рамках текущей задачи",
+    "hash": "811a7ed81e7585513a75be7a7a192638"
+  },
+  "Description_43db6cf0-23af-4076-bc97-ceb6bd844768": {
+    "default": "Employees who must receive notices about sending the document to the next approval stage",
+    "ru-RU": "Сотрудники, которым необходимо отправить уведомление при отправке документа на повторное согласование",
+    "hash": "ed821876d28c137362b8407a808b2abf"
+  },
+  "Description_698c6aee-05bc-4c27-ae22-b5fe8579d39d": {
+    "default": "Employee who reviews the document",
+    "ru-RU": "Сотрудник, который рассматривает документ",
+    "hash": "2ce900883dd9a9cb034ef43c974d5740"
+  },
+  "Description_a7a18dca-e874-423b-a288-925fc0490314": {
+    "default": "Employees who review the document",
+    "ru-RU": "Сотрудники, которые рассматривают документ",
+    "hash": "9698263eb3154cceb1e0d13b79c95698"
+  },
+  "Description_bd0a12ba-7229-4d4f-9332-f4e74e9d2795": {
+    "default": "Employee who sent assignment for rework to the assignee",
+    "ru-RU": "Сотрудник, который направил задание на доработку исполнителю",
+    "hash": "abad29740492883c186fbb5f39e2e36f"
+  },
+  "Description_e4d9bcb6-47b4-4102-9e4e-dac423779f4c": {
+    "default": "Document has been reviewed and does not require further actions",
+    "ru-RU": "Документ рассмотрен и не требует выполнения каких-либо работ",
+    "hash": "27a864084977e987ca08268b3d7321ba"
+  },
+  "f375c4b7-7b49-459e-d3b6-b57a6935bfe8_Name": {
+    "default": "Set document status to \"On review\"",
+    "ru-RU": "Установить статус документа \"На рассмотрении\""
+  },
+  "Name": {
+    "default": "Default process of memo approval",
+    "ru-RU": "Процесс согласования служебных записок по умолчанию",
+    "hash": "9df967200e6a6ab205c8620951d6689c"
+  },
+  "Name_247509ee-3e3c-4153-87de-6254fa9febb3": {
+    "default": "Additional approvers",
+    "ru-RU": "Дополнительные согласующие",
+    "hash": "2079c6b972005587e6476fafd96783d4"
+  },
+  "Name_43db6cf0-23af-4076-bc97-ceb6bd844768": {
+    "default": "Recipients of notice on new approval stage",
+    "ru-RU": "Получатели уведомлений при повторном согласовании",
+    "hash": "d7d45efcf7becdabf04e5b3634526648"
+  },
+  "Name_698c6aee-05bc-4c27-ae22-b5fe8579d39d": {
+    "default": "Addresse",
+    "ru-RU": "Адресат",
+    "hash": "2cdc421d973f3dcab56570b53ba62587"
+  },
+  "Name_a7a18dca-e874-423b-a288-925fc0490314": {
+    "default": "Addressees",
+    "ru-RU": "Адресаты",
+    "hash": "b8c665faef91062ee598c876d1645184"
+  },
+  "Name_bd0a12ba-7229-4d4f-9332-f4e74e9d2795": {
+    "default": "Initiator of assignment for rework",
+    "ru-RU": "Отправитель задания на доработку",
+    "hash": "34297b4801de3d202d7a51583eb622ef"
+  },
+  "Name_e4d9bcb6-47b4-4102-9e4e-dac423779f4c": {
+    "default": "Addressee is informed about document",
+    "ru-RU": "Документ принят к сведению",
+    "hash": "f802646e1195c44ef6bac6f29a58a2ce"
+  },
+  "Subject_SE_1": {
+    "default": "Approve: {0}",
+    "ru-RU": "Согласуйте: {0}",
+    "hash": "76fe31b1d36124615ad5f4b3d8701635"
+  },
+  "Subject_SE_15": {
+    "default": "Document approved with suggestions: {0}",
+    "ru-RU": "Документ согласовали с замечаниями: {0}",
+    "hash": "1cecf7e203c65eeafa7a0458e690d8a9"
+  },
+  "Subject_SE_2": {
+    "default": "Approve: {0}",
+    "ru-RU": "Согласуйте: {0}",
+    "hash": "76fe31b1d36124615ad5f4b3d8701635"
+  },
+  "Subject_SE_27": {
+    "default": "Review: {0}",
+    "ru-RU": "Рассмотрите: {0}",
+    "hash": "d51a40eddef0b1e0eab8403a0b0d90be"
+  },
+  "Subject_SE_3": {
+    "default": "Rework: {0}",
+    "ru-RU": "Доработайте: {0}",
+    "hash": "ca276ccb9ced9ddaeab9d482049bfc7e"
+  },
+  "Subject_SE_41": {
+    "default": "Create order: {0}",
+    "ru-RU": "Создайте поручение: {0}",
+    "hash": "1911bbb31ab095afb1ec7ae8230cb43d"
+  },
+  "Subject_SE_42": {
+    "default": "Document review completed: {0}",
+    "ru-RU": "Завершено рассмотрение: {0}",
+    "hash": "fb59f7111d73eb4a933f5b173e396014"
+  },
+  "Subject_SE_45": {
+    "default": "Rework: {0}",
+    "ru-RU": "Доработайте: {0}",
+    "hash": "ca276ccb9ced9ddaeab9d482049bfc7e"
+  },
+  "Subject_SE_49": {
+    "default": "Review: {0}",
+    "ru-RU": "Рассмотрите: {0}",
+    "hash": "d51a40eddef0b1e0eab8403a0b0d90be"
+  },
+  "Subject_SE_55": {
+    "default": "Notice of sending document for reapproval: {0}",
+    "ru-RU": "Отправлен на повторное согласование: {0}",
+    "hash": "51fa4b62ed52e57c53671ed21d15f1b6"
+  },
+  "Subject_SE_56": {
+    "default": "Sign: {0}",
+    "ru-RU": "Подпишите: {0}",
+    "hash": "93e350663060bc255a72037dad5d266a"
+  },
+  "Subject_SE_59": {
+    "default": "Registration: {0}",
+    "ru-RU": "Зарегистрируйте: {0}",
+    "hash": "b94eb2c5a8a1f53e73ea2e6e818416c3"
+  },
+  "Subject_SE_61": {
+    "default": "Create orders: {0}",
+    "ru-RU": "Создайте поручения: {0}",
+    "hash": "1911bbb31ab095afb1ec7ae8230cb43d"
+  },
+  "Subject_SE_62": {
+    "default": "Review: {0}",
+    "ru-RU": "Рассмотрите: {0}",
+    "hash": "d51a40eddef0b1e0eab8403a0b0d90be"
+  },
+  "Subject_SE_7": {
+    "default": "Document approved with suggestions: {0}",
+    "ru-RU": "Документ согласовали с замечаниями: {0}",
+    "hash": "1cecf7e203c65eeafa7a0458e690d8a9"
+  },
+  "ThreadSubject_SE_1": {
+    "default": "Аpproval",
+    "ru-RU": "Согласование",
+    "hash": "feb26211dbd381f3d806ef6ccbe3eaf7"
+  },
+  "ThreadSubject_SE_2": {
+    "default": "Аpproval",
+    "ru-RU": "Согласование",
+    "hash": "feb26211dbd381f3d806ef6ccbe3eaf7"
+  },
+  "ThreadSubject_SE_27": {
+    "default": "Review",
+    "ru-RU": "Рассмотрение",
+    "hash": "9c884a9427cba68e7493aea413557504"
+  },
+  "ThreadSubject_SE_3": {
+    "default": "Rework",
+    "ru-RU": "Доработка",
+    "hash": "ab0eb9f9d0631491a8c038217f7d36b6"
+  },
+  "ThreadSubject_SE_41": {
+    "default": "Create order",
+    "ru-RU": "Создание поручение",
+    "hash": "eed384828fc0fe14547dd24541ad89e2"
+  },
+  "ThreadSubject_SE_42": {
+    "default": "Document review completed",
+    "ru-RU": "Завершено рассмотрение",
+    "hash": "d2fbab9e99f3e115c2b50a587b198786"
+  },
+  "ThreadSubject_SE_45": {
+    "default": "Rework",
+    "ru-RU": "Доработка",
+    "hash": "ab0eb9f9d0631491a8c038217f7d36b6"
+  },
+  "ThreadSubject_SE_49": {
+    "default": "Review",
+    "ru-RU": "Рассмотрение",
+    "hash": "9c884a9427cba68e7493aea413557504"
+  },
+  "ThreadSubject_SE_55": {
+    "default": "Notice of sending document for reapproval",
+    "ru-RU": "Отправлен на повторное согласование",
+    "hash": "ce860780b5fae1f2ef61c4da7dfc2137"
+  },
+  "ThreadSubject_SE_56": {
+    "default": "Signing",
+    "ru-RU": "Подписание",
+    "hash": "6016c3b3d47608357d93ac07ff36433c"
+  },
+  "ThreadSubject_SE_59": {
+    "default": "Register",
+    "ru-RU": "Регистрация",
+    "hash": "c0608404e1f79d5eb98a8a8a67297227"
+  },
+  "ThreadSubject_SE_61": {
+    "default": "Create orders",
+    "ru-RU": "Создание поручений",
+    "hash": "eed384828fc0fe14547dd24541ad89e2"
+  },
+  "ThreadSubject_SE_62": {
+    "default": "Review",
+    "ru-RU": "Рассмотрение",
+    "hash": "9c884a9427cba68e7493aea413557504"
+  },
+  "Title_SE_1": {
+    "default": "Approve by manager",
+    "ru-RU": "Согласование с руководителем"
+  },
+  "Title_SE_12": {
+    "default": "Skip approval by manager?",
+    "ru-RU": "Пропустить согласование с руководителем?",
+    "hash": "1f0664f08c3ad00c2215ba513aa819c8"
+  },
+  "Title_SE_2": {
+    "default": "Approve by additional approvers",
+    "ru-RU": "Согласование с доп. согласующими"
+  },
+  "Title_SE_40": {
+    "default": "Is document sent to several addressees?",
+    "ru-RU": "Несколько адресатов?",
+    "hash": "3f18a0aa587e7247184bcaf9b5f10d26"
+  },
+  "Title_SE_42": {
+    "default": "Notice to initiator about review completion",
+    "ru-RU": "Уведомление инициатора о рассмотрении"
+  },
+  "Title_SE_45": {
+    "default": "Rework",
+    "ru-RU": "Доработка"
+  },
+  "Title_SE_49": {
+    "default": "Review by several addressees",
+    "ru-RU": "Рассмотрение несколькими адресатами",
+    "hash": "a2a03afe220ef2380258b5280a5c560e"
+  },
+  "Title_SE_55": {
+    "default": "Notice of new approval stage beginning",
+    "ru-RU": "Уведомление о новом круге согласования",
+    "hash": "3a38345d171fccadbb4e3152a3338247"
+  },
+  "Title_SE_56": {
+    "default": "Signing",
+    "ru-RU": "Подписание",
+    "hash": "6016c3b3d47608357d93ac07ff36433c"
+  },
+  "Title_SE_57": {
+    "default": "Convert to PDF",
+    "ru-RU": "Преобразование в PDF",
+    "hash": "0257679f902d541c605b4a62ebdbe971"
+  },
+  "Title_SE_58": {
+    "default": "Is document number assigned automatically?",
+    "ru-RU": "Документ автонумеруемый?",
+    "hash": "ab5fde0b24479083e7cfb9f29b845933"
+  },
+  "Title_SE_59": {
+    "default": "Register",
+    "ru-RU": "Регистрация",
+    "hash": "835a9018f6a3f9a0f7dfad67260bcf9a"
+  },
+  "Title_SE_61": {
+    "default": "Create action items on document",
+    "ru-RU": "Создание поручений по документу",
+    "hash": "f9f1f744ad1872352a16113b840fc020"
+  },
+  "Title_SE_62": {
+    "default": "Review by addressee",
+    "ru-RU": "Рассмотрение адресатом",
+    "hash": "39521dee654fde3f7a0cdeba770dc0a2"
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "$type": "Sungero.Metadata.ModuleMetadata, Sungero.Metadata",
+  "NameGuid": "a37bcb31-c5ce-4052-af97-ab7cbd19bf27",
+  "Name": "PowerOfAttorneyKontur",
+  "AsyncHandlers": [],
+  "ClientAssemblyName": "Sungero.PowerOfAttorneyKontur.Client",
+  "ClientBaseAssemblyName": "Sungero.PowerOfAttorneyKontur.ClientBase",
+  "ClientBaseNamespace": "Sungero.PowerOfAttorneyKontur.ClientBase",
+  "ClientNamespace": "Sungero.PowerOfAttorneyKontur.Client",
+  "Code": "PoaKont",
+  "CompanyCode": "Sungero",
+  "Cover": {
+    "NameGuid": "3a75a5b8-91fc-4a2f-a8bf-b57d681485d6",
+    "Actions": [],
+    "Background": null,
+    "Footer": {
+      "NameGuid": "541306aa-5e2c-477d-91ec-6735e26b34ef",
+      "BackgroundPosition": "Stretch"
+    },
+    "Groups": [],
+    "Header": {
+      "NameGuid": "66834b67-6cff-4a5d-a589-5af9a5d85e16",
+      "BackgroundPosition": "Stretch"
+    },
+    "RemoteControls": [],
+    "Tabs": []
+  },
+  "Dependencies": [
+    {
+      "Id": "e4fe1153-919e-4732-aadc-2c8e9b5c0b5a",
+      "IsSolutionModule": true,
+      "MaxVersion": "",
+      "MinVersion": ""
+    }
+  ],
+  "IconResourcesKeys": [],
+  "Importance": "Medium",
+  "InterfaceAssemblyName": "Sungero.Domain.Interfaces",
+  "InterfaceNamespace": "Sungero.PowerOfAttorneyKontur",
+  "IsLicensed": true,
+  "IsolatedAssemblyName": "Sungero.PowerOfAttorneyKontur.Isolated",
+  "IsolatedNamespace": "Sungero.PowerOfAttorneyKontur.Isolated",
+  "IsVisible": false,
+  "Overridden": [
+    "IsLicensed",
+    "IsVisible"
+  ],
+  "PublicStructures": [],
+  "ResourceInterfaceAssemblyName": "Sungero.Domain.Interfaces",
+  "ResourceInterfaceNamespace": "Sungero.PowerOfAttorneyKontur",
+  "ResourcesKeys": [],
+  "ServerAssemblyName": "Sungero.PowerOfAttorneyKontur.Server",
+  "ServerNamespace": "Sungero.PowerOfAttorneyKontur.Server",
+  "SharedAssemblyName": "Sungero.PowerOfAttorneyKontur.Shared",
+  "SharedNamespace": "Sungero.PowerOfAttorneyKontur.Shared",
+  "SpecialFolders": [],
+  "Version": "4.11.37.0",
+  "Widgets": [],
+  "Versions": [
+    {
+      "Type": "ModuleMetadata",
+      "Number": 8
+    },
+    {
+      "Type": "DomainApi",
+      "Number": 3
+    }
+  ]
+}

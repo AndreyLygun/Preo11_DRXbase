@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="DisplayName" xml:space="preserve">
+    <value>Задача на верификацию комплекта документов</value>
+  </data>
+  <data name="AccusativeDisplayName" xml:space="preserve">
+    <value>Задачу на верификацию</value>
+  </data>
+  <data name="CollectionDisplayName" xml:space="preserve">
+    <value>Задачи на верификацию</value>
+  </data>
+  <data name="Property_Assignee" xml:space="preserve">
+    <value>Кому</value>
+  </data>
+  <data name="Resource_035869ed2baa4573bdfe9e4f5e10c4b3" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Control_035869ed2baa4573bdfe9e4f5e10c4b3_EmptyText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Property_Deadline" xml:space="preserve">
+    <value>Срок</value>
+  </data>
+  <data name="Property_ThreadSubject" xml:space="preserve">
+    <value>Тема в переписке</value>
+  </data>
+  <data name="AdditionalInfoTemplate" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Property_Addressee" xml:space="preserve">
+    <value>Переадресовано сотруднику</value>
+  </data>
+  <data name="Property_LeadingDocumentName" xml:space="preserve">
+    <value>Наименование ведущего документа комплекта</value>
+  </data>
+  <data name="Block_396294d1427341ecab526ed0cb277708" xml:space="preserve">
+    <value>Верификация</value>
+  </data>
+  <data name="Block_396294d1427341ecab526ed0cb277708_Property_fa2ed1ca3b2b4fd4a14e9da7e30de246" xml:space="preserve">
+    <value>Назначить права по умолчанию</value>
+  </data>
+  <data name="Block_7090e0bdea404ff49c5002d8858b6abf" xml:space="preserve">
+    <value>Анализ разделения комплекта на документы</value>
+  </data>
+</root>

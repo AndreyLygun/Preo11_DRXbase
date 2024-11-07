@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Property_Name" xml:space="preserve">
+    <value>Наименование</value>
+  </data>
+  <data name="DisplayName" xml:space="preserve">
+    <value>Должность</value>
+  </data>
+  <data name="AccusativeDisplayName" xml:space="preserve">
+    <value>Должность</value>
+  </data>
+  <data name="CollectionDisplayName" xml:space="preserve">
+    <value>Должности</value>
+  </data>
+  <data name="Property_Department" xml:space="preserve">
+    <value>Подразделение</value>
+  </data>
+  <data name="Action_ShowEmployeesWithSameJobTitle" xml:space="preserve">
+    <value>Показать сотрудников</value>
+  </data>
+  <data name="Action_ShowDuplicates" xml:space="preserve">
+    <value>Показать дубли</value>
+  </data>
+  <data name="Action_ShowDuplicatesHint" xml:space="preserve">
+    <value>Показать дубли</value>
+  </data>
+  <data name="Action_ShowDuplicatesDescription" xml:space="preserve">
+    <value>Открытие списка для просмотра дублей.</value>
+  </data>
+  <data name="Action_ShowEmployeesWithSameJobTitleHint" xml:space="preserve">
+    <value>Показать сотрудников</value>
+  </data>
+  <data name="Action_ShowEmployeesWithSameJobTitleDescription" xml:space="preserve">
+    <value>Показать сотрудников с такой же должностью, но другим подразделением.</value>
+  </data>
+  <data name="FilterPanel_Status_07d4a2f4a3ef4997ac7c585a323e8279" xml:space="preserve">
+    <value>Состояние</value>
+  </data>
+  <data name="FilterPanel_Active_eacbd7457336437792549714a8b83e05" xml:space="preserve">
+    <value>Действующие</value>
+  </data>
+  <data name="FilterPanel_Closed_42eed4470942414e98ffa5e00e65a25d" xml:space="preserve">
+    <value>Закрытые</value>
+  </data>
+  <data name="FilterPanel_BusinessUnit_f31c83094cf343eeac4f9a05e1b4ee98" xml:space="preserve">
+    <value>Наша организация</value>
+  </data>
+  <data name="FilterPanel_Department_d5600fe7fd35419381fdf9402907d884" xml:space="preserve">
+    <value>Подразделение</value>
+  </data>
+  <data name="FilterPanel_State_77af37f579e44a759110ec61887c28a1" xml:space="preserve">
+    <value>Состояние</value>
+  </data>
+  <data name="FilterPanel_IncludeSubdepartments_1d64d946d475453f8131f357b31dd4dd" xml:space="preserve">
+    <value>Учитывать подчиненные</value>
+  </data>
+  <data name="Property_ExternalId" xml:space="preserve">
+    <value>ИД во внешней системе</value>
+  </data>
+  <data name="ControlGroup_e7f90b5f53764c82b706ddfc629cda5d" xml:space="preserve">
+    <value>Должность</value>
+  </data>
+</root>

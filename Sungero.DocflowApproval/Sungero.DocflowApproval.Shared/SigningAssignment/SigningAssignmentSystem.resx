@@ -1,0 +1,223 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="DisplayName" xml:space="preserve">
+    <value>Signing</value>
+  </data>
+  <data name="AccusativeDisplayName" xml:space="preserve">
+    <value>Signing</value>
+  </data>
+  <data name="CollectionDisplayName" xml:space="preserve">
+    <value>Signing assignments</value>
+  </data>
+  <data name="AttachmentGroup_DocumentGroupTitle" xml:space="preserve">
+    <value>Document</value>
+  </data>
+  <data name="AttachmentGroup_DocumentGroupInformationMessage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="AttachmentGroup_AddendaGroupTitle" xml:space="preserve">
+    <value>AddendaGroup</value>
+  </data>
+  <data name="AttachmentGroup_AddendaGroupInformationMessage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="AttachmentGroup_OtherGroupTitle" xml:space="preserve">
+    <value>More</value>
+  </data>
+  <data name="AttachmentGroup_OtherGroupInformationMessage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Enum_Result_Sign" xml:space="preserve">
+    <value>Sign</value>
+  </data>
+  <data name="Action_Sign" xml:space="preserve">
+    <value>Sign</value>
+  </data>
+  <data name="Action_SignHint" xml:space="preserve">
+    <value>Sign document</value>
+  </data>
+  <data name="Action_SignConfirmationMessage" xml:space="preserve">
+    <value>Sign the document and its addenda?</value>
+  </data>
+  <data name="Action_SignDescription" xml:space="preserve">
+    <value>Complete the assignment and sign the document  with result "Approved"</value>
+  </data>
+  <data name="Action_ExtendDeadline" xml:space="preserve">
+    <value>Deadline Extension Request</value>
+  </data>
+  <data name="Action_ExtendDeadlineDescription" xml:space="preserve">
+    <value>Send request for deadline extension of assignment</value>
+  </data>
+  <data name="Action_ExtendDeadlineHint" xml:space="preserve">
+    <value>Request for Deadline Extension</value>
+  </data>
+  <data name="Action_ExtendDeadlineConfirmationMessage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Action_ExtendDeadlineConfirmationDescription" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Ribbon_DeadlineGroup_bf95b194c84246e88ae232bca8fa6d57" xml:space="preserve">
+    <value>Deadline</value>
+  </data>
+  <data name="Enum_Result_ForRework" xml:space="preserve">
+    <value>For Rework</value>
+  </data>
+  <data name="Action_ForRework" xml:space="preserve">
+    <value>For Rework</value>
+  </data>
+  <data name="Action_ForReworkHint" xml:space="preserve">
+    <value>Send Document for Rework</value>
+  </data>
+  <data name="Action_ForReworkConfirmationMessage" xml:space="preserve">
+    <value>Send the document for rework?</value>
+  </data>
+  <data name="Action_ForReworkDescription" xml:space="preserve">
+    <value>Send document for rework and sign the document with result "Not Approved".</value>
+  </data>
+  <data name="Property_ReworkPerformer" xml:space="preserve">
+    <value>Send for rework to</value>
+  </data>
+  <data name="Action_RejectConfirmationMessage" xml:space="preserve">
+    <value>Reject document signing?</value>
+  </data>
+  <data name="Action_Reject" xml:space="preserve">
+    <value>Reject</value>
+  </data>
+  <data name="Action_RejectDescription" xml:space="preserve">
+    <value>Reject on document signing and return the document to the employee responsible for the rework.</value>
+  </data>
+  <data name="Action_RejectHint" xml:space="preserve">
+    <value>Reject Signing Document</value>
+  </data>
+  <data name="Enum_Result_Reject" xml:space="preserve">
+    <value>Reject</value>
+  </data>
+  <data name="Control_45c3f7afea6f40948e21e643b6358f4a_EmptyText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Resource_45c3f7afea6f40948e21e643b6358f4a" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Control_c9c4beefec5b4b3796d4959c17991279_EmptyText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Resource_c9c4beefec5b4b3796d4959c17991279" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ControlGroup_4917364762724459ab15867c0b3c85a2" xml:space="preserve">
+    <value>Horizontal Group</value>
+  </data>
+  <data name="Control_1bbfaba9c44445878d1c51150787fb2e_EmptyText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Resource_1bbfaba9c44445878d1c51150787fb2e" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ControlGroup_ebfeb539df3646ebb16c88e4afe77109" xml:space="preserve">
+    <value>Main</value>
+  </data>
+  <data name="Resource_ad03c4af7bfe4967aa2cdaa3265bdbe3" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ControlGroup_ee74d7f0fcf2453bb4f639d79dbcda32" xml:space="preserve">
+    <value>Document Requisites</value>
+  </data>
+  <data name="Action_ApprovalForm" xml:space="preserve">
+    <value>Approval Form</value>
+  </data>
+  <data name="Action_ApprovalFormDescription" xml:space="preserve">
+    <value>View approval form for the document</value>
+  </data>
+  <data name="Action_ApprovalFormHint" xml:space="preserve">
+    <value>View Approval Form</value>
+  </data>
+  <data name="Action_ApprovalFormConfirmationMessage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Action_ApprovalFormConfirmationDescription" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Ribbon_ReportGroup_4deba3cfa3c44d52ab23d68388e86748" xml:space="preserve">
+    <value>Report</value>
+  </data>
+  <data name="ControlGroup_e5c15d946ab642cb94fc4c5a27b04b7b" xml:space="preserve">
+    <value>Approval Form</value>
+  </data>
+  <data name="Enum_Result_Forward" xml:space="preserve">
+    <value>Forward</value>
+  </data>
+  <data name="Action_Forward" xml:space="preserve">
+    <value>Forward</value>
+  </data>
+  <data name="Action_ForwardHint" xml:space="preserve">
+    <value>Forward Document Signing</value>
+  </data>
+  <data name="Action_ForwardConfirmationMessage" xml:space="preserve">
+    <value>Forward signing of the document?</value>
+  </data>
+  <data name="Action_ForwardDescription" xml:space="preserve">
+    <value>Send the document for signing to another employee</value>
+  </data>
+  <data name="Property_ForwardTo" xml:space="preserve">
+    <value>Forward to employee</value>
+  </data>
+</root>

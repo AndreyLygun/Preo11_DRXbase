@@ -1,0 +1,208 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AcquaintanceWithDocumentComplete" xml:space="preserve">
+    <value>Document review completed: {0}</value>
+  </data>
+  <data name="AssignmentCreated" xml:space="preserve">
+    <value>Action item created: {0}</value>
+  </data>
+  <data name="ResolutionPassed" xml:space="preserve">
+    <value>Resolution passed {0}</value>
+  </data>
+  <data name="CreateAssignment" xml:space="preserve">
+    <value>Create action item: {0}</value>
+  </data>
+  <data name="DocumentConsiderationStarted" xml:space="preserve">
+    <value>Document review started: {0}</value>
+  </data>
+  <data name="Consideration" xml:space="preserve">
+    <value>Review: {0}</value>
+  </data>
+  <data name="ReviewDocument" xml:space="preserve">
+    <value>Review document: {0}</value>
+  </data>
+  <data name="DocumentOnExecution" xml:space="preserve">
+    <value>Document is on execution.</value>
+  </data>
+  <data name="IncomingDocumentMustBeRegistered" xml:space="preserve">
+    <value>You can send incoming document for review only if it is registered.</value>
+  </data>
+  <data name="StateViewDocumentSent" xml:space="preserve">
+    <value>Document has been sent for review</value>
+  </data>
+  <data name="StateViewAuthor" xml:space="preserve">
+    <value>Author</value>
+  </data>
+  <data name="StateViewSendActionItemOnResolution" xml:space="preserve">
+    <value>Create action items on document</value>
+  </data>
+  <data name="PrepareDraftResolution" xml:space="preserve">
+    <value>Prepare draft resolution for addressee {1}: {0}</value>
+  </data>
+  <data name="ManagerIsInformed" xml:space="preserve">
+    <value>Informed: {0}</value>
+  </data>
+  <data name="CantRedirectWithoutAddressee" xml:space="preserve">
+    <value>Specify the employee who will review the document.</value>
+  </data>
+  <data name="FindNotDraftResolution" xml:space="preserve">
+    <value>You can add only draft resolution within this assignment.</value>
+  </data>
+  <data name="Forward" xml:space="preserve">
+    <value>Forwarded to {0}</value>
+  </data>
+  <data name="PreparingDraftResolution" xml:space="preserve">
+    <value>Prepare draft resolution</value>
+  </data>
+  <data name="ReworkPrepareDraftResolution" xml:space="preserve">
+    <value>Rework draft resolution for addressee {1}: {0}</value>
+  </data>
+  <data name="ReworkDraftResolutionThreadSubject" xml:space="preserve">
+    <value>Rework draft resolution</value>
+  </data>
+  <data name="ReviewCompletionNoticeThreadSubject" xml:space="preserve">
+    <value>Notice about document review completion</value>
+  </data>
+  <data name="ReviewBeginingNoticeThreadSubject" xml:space="preserve">
+    <value>Notice about document review start</value>
+  </data>
+  <data name="NoRightsToDocument" xml:space="preserve">
+    <value>There is no document, or you do not have sufficient access rights to it. Contact your system administrator.</value>
+  </data>
+  <data name="NeedToRework" xml:space="preserve">
+    <value>Rework: {0}</value>
+  </data>
+  <data name="AddresseeAlreadyExists" xml:space="preserve">
+    <value>{0} is already engaged in document review.</value>
+  </data>
+  <data name="ConfirmDeleteDraftResolutionsForWrongAddressee" xml:space="preserve">
+    <value>Action items assigned not on behalf of the addressee will be removed from the draft resolution.</value>
+  </data>
+  <data name="ReviewReworkAssignment" xml:space="preserve">
+    <value>Rework by initiator</value>
+  </data>
+  <data name="ReviewWithDraftResolutionExpressionName" xml:space="preserve">
+    <value>Assistant prepares draft resolution? (obsolete)</value>
+  </data>
+  <data name="GetAddresseesCountExpressionName" xml:space="preserve">
+    <value>Number of addressees</value>
+  </data>
+  <data name="GetAddresseesCountExpressionDescription" xml:space="preserve">
+    <value>Returns number of addressees of the task to review documents</value>
+  </data>
+  <data name="HasDraftResolutionBeenPreparedExpressionName" xml:space="preserve">
+    <value>Draft resolution is prepared? (obsolete)</value>
+  </data>
+  <data name="GetActionItemClerkExpressionName" xml:space="preserve">
+    <value>Employee that processes resolution</value>
+  </data>
+  <data name="GetActionItemClerkExpressionDescription" xml:space="preserve">
+    <value>Addressee assistant, employee responsible for registration group, or task initiator who creates action items based on addressee's resolution</value>
+  </data>
+  <data name="AreTasksCreatedForAllAddresseesExpressionName" xml:space="preserve">
+    <value>Tasks are created for each addressee?</value>
+  </data>
+  <data name="AreTasksCreatedForAllAddresseesExpressionDescription" xml:space="preserve">
+    <value>Subtasks are created for each addressee specified in the parent task</value>
+  </data>
+  <data name="HasDraftResolutionBeenPreparedExpressionDescription" xml:space="preserve">
+    <value>Addressee assistant has prepared action items and added them to draft resolution (obsolete)</value>
+  </data>
+  <data name="ReviewWithDraftResolutionExpressionDescription" xml:space="preserve">
+    <value>Assistant prepares draft resolution before sending documents to the addressee for review (obsolete)</value>
+  </data>
+  <data name="GetDefaultDeadlineExpressionName" xml:space="preserve">
+    <value>Default review deadline</value>
+  </data>
+  <data name="GetDefaultDeadlineExpressionDescription" xml:space="preserve">
+    <value>Deadline of assignment to review documents including the deadline specified in the task</value>
+  </data>
+  <data name="GetDefaultDeadlineAddressee" xml:space="preserve">
+    <value>Addressee</value>
+  </data>
+  <data name="NeedReviewWithDraftResolutionName" xml:space="preserve">
+    <value>Is the assistant preparing a draft resolution?</value>
+  </data>
+  <data name="NeedReviewWithDraftResolutionDescription" xml:space="preserve">
+    <value>Is preparation of draft resolution required?</value>
+  </data>
+  <data name="AIAssistantDraftActionItem" xml:space="preserve">
+    <value>Virtual assistant prepares draft action item?</value>
+  </data>
+  <data name="FindResolutionWithoutDeadline" xml:space="preserve">
+    <value>Required property "Deadline" is not specified in the draft resolution.</value>
+  </data>
+  <data name="IsAuthorAssistant" xml:space="preserve">
+    <value>Is the initiator an assistant?</value>
+  </data>
+  <data name="CanAddOnlyDraftResolutionToTask" xml:space="preserve">
+    <value>You can add only draft resolution within this task.</value>
+  </data>
+  <data name="GetStateViewFunctionName" xml:space="preserve">
+    <value>Task information</value>
+  </data>
+  <data name="GetStateViewFunctionDescription" xml:space="preserve">
+    <value>Display summary on task and its assignments</value>
+  </data>
+  <data name="CannotAddDraftResolutionIfWorkNotStarted" xml:space="preserve">
+    <value>To add a draft resolution, start working on the assignment first.</value>
+  </data>
+</root>

@@ -1,0 +1,133 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ImpossibleSpecifyDeadlineLessThenToday" xml:space="preserve">
+    <value>The deadline must be greater or equal to the current date.</value>
+  </data>
+  <data name="DeleteDocumentsDialogTitle" xml:space="preserve">
+    <value>Delete Documents</value>
+  </data>
+  <data name="DeleteDocumentsDialogText" xml:space="preserve">
+    <value>Select documents to be deleted.</value>
+  </data>
+  <data name="DeleteDocumentsDialogAttachments" xml:space="preserve">
+    <value>Documents</value>
+  </data>
+  <data name="DeleteDocumentsDialogNoticeAfterDelete" xml:space="preserve">
+    <value>Documents deleted.</value>
+  </data>
+  <data name="InstructionStep1" xml:space="preserve">
+    <value>1. Make sure that each document of the package is fully captured.</value>
+  </data>
+  <data name="InstructionStep2" xml:space="preserve">
+    <value>2. Repack documents if document pages are mixed,  imported by mistake, or have incorrect orientation.</value>
+  </data>
+  <data name="InstructionStep3" xml:space="preserve">
+    <value>3. Open the card of each document. On the “Verification” tab, check the data filled in by the system.</value>
+  </data>
+  <data name="InstructionStep4" xml:space="preserve">
+    <value>4. In the document card, on the “Properties” tab, specify the missing data, for example, the document subject.</value>
+  </data>
+  <data name="InstructionStep5" xml:space="preserve">
+    <value>5. Change the type of documents if required.</value>
+  </data>
+  <data name="InstructionStep6" xml:space="preserve">
+    <value>6. Register the documents if they are subject to registration.</value>
+  </data>
+  <data name="InstructionStep7" xml:space="preserve">
+    <value>7. Send the documents for further processing.</value>
+  </data>
+  <data name="InvalidDocumentWhenSendInWork" xml:space="preserve">
+    <value>To send the documents for further processing, fill in the required fields in the document cards.</value>
+  </data>
+  <data name="InvalidDocumentWhenCompleted" xml:space="preserve">
+    <value>To complete the assignment, fill in the required fields in the document cards.</value>
+  </data>
+  <data name="AttachedDocumentsLocked" xml:space="preserve">
+    <value>Documents from the document package are locked. To repack the documents, close their cards and contents.</value>
+  </data>
+  <data name="NoDocumentsSuitableForRepacking" xml:space="preserve">
+    <value>No documents for repacking found. Make sure that you have rights to change the attached documents, and that they are in the PDF format and not encrypted.</value>
+  </data>
+  <data name="RepackingIsInProgress" xml:space="preserve">
+    <value>Repacking is in progress. To make changes, go to the document repacking tab.</value>
+  </data>
+  <data name="SaveAssignmentBeforeRepacking" xml:space="preserve">
+    <value>To repack documents, save the assignment card.</value>
+  </data>
+  <data name="NoLicenseToRepacking" xml:space="preserve">
+    <value>To repack documents, you need a license for the "Intelligence" module.</value>
+  </data>
+  <data name="ShowRepackingResultsNotification" xml:space="preserve">
+    <value>Repacking in progress. To view the repacking results, update the assignment card after repacking is completed.</value>
+  </data>
+  <data name="CompleteWithActiveRepackingSession" xml:space="preserve">
+    <value>To complete the assignment, save your changes on the "Document Repacking" tab. If you do not want to save the changes, close the tab and click link "Complete repacking".</value>
+  </data>
+  <data name="DeleteDocumentsDialogImpossible" xml:space="preserve">
+    <value>To delete documents, complete repacking and update the assignment card.</value>
+  </data>
+  <data name="Forwarded" xml:space="preserve">
+    <value>Forwarded {0}</value>
+  </data>
+  <data name="Checked" xml:space="preserve">
+    <value>Checked.</value>
+  </data>
+</root>

@@ -1,0 +1,16 @@
+{
+  "Control_Caption_de94ebb77ba64c0aae97d2b863eeddf8": {
+    "en-US": "Subject",
+    "ru-RU": "Тема"
+  },
+  "Description": {
+    "en-US": "View of an assignment to check a report on the action item state without an attached document for employees included in role \"Users of manager's interface\".",
+    "ru-RU": "Отображение карточки задания на проверку отчета по поручению без документа для пользователей, которые входят в роль \"Пользователи интерфейса для руководителей\".",
+    "hash": "4be579a046b1cabd71cfa992fa37da47"
+  },
+  "Name": {
+    "en-US": "Assignment to check report on action item state without document (for managers)",
+    "ru-RU": "Задание на проверку отчета по поручению без документа (для руководителей)",
+    "hash": "03e3a0a07e062de97b5a5147b53a6f67"
+  }
+}

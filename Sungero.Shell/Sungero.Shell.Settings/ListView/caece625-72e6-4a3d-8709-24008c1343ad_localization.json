@@ -1,0 +1,12 @@
+{
+  "Description": {
+    "en-US": "Compact view of folder \"To process\" for employees included in role \"Users of manager's interface\".",
+    "ru-RU": "Компактное представление папки \"На обработку\" для пользователей, которые входят в роль \"Пользователи интерфейса для руководителей\".",
+    "hash": "d03d83b496e3ce6c40e53f157d6dc130"
+  },
+  "Name": {
+    "en-US": "To process (for managers)",
+    "ru-RU": "На обработку (для руководителей)",
+    "hash": "1bc041706aeed257d4aa9ae979322b59"
+  }
+}

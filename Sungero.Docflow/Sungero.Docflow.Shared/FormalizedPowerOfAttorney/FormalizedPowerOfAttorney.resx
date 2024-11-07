@@ -1,0 +1,232 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ErrorValidateUnifiedRegistrationNumber" xml:space="preserve">
+    <value>The registration number must be in the GUID format.</value>
+  </data>
+  <data name="RegistrationNumberInBrackets" xml:space="preserve">
+    <value> (reg. No. {0})</value>
+  </data>
+  <data name="UnifiedRegistrationNumber" xml:space="preserve">
+    <value> No. {0}</value>
+  </data>
+  <data name="ImportPowerOfAttorneyFromXml" xml:space="preserve">
+    <value>Import formalized POA</value>
+  </data>
+  <data name="File" xml:space="preserve">
+    <value>XML file</value>
+  </data>
+  <data name="SignatureFile" xml:space="preserve">
+    <value>Signature</value>
+  </data>
+  <data name="Import" xml:space="preserve">
+    <value>Import</value>
+  </data>
+  <data name="FormalizedPowerOfAttorneyImportFailed" xml:space="preserve">
+    <value>Cannot import the formalized power of attorney.</value>
+  </data>
+  <data name="XmlLoadFailed" xml:space="preserve">
+    <value>The selected document has invalid format.</value>
+  </data>
+  <data name="SignatureImportFailed" xml:space="preserve">
+    <value>Cannot import the digital signature.</value>
+  </data>
+  <data name="PowerOfAttorneySuccessfullyImported" xml:space="preserve">
+    <value>The formalized POA and digital signature have been imported successfully.</value>
+  </data>
+  <data name="Enum_Operation_ImportFromXml" xml:space="preserve">
+    <value>Import</value>
+  </data>
+  <data name="ImportFromXmlHistoryComment" xml:space="preserve">
+    <value>From XML file</value>
+  </data>
+  <data name="DuplicatesNotFound" xml:space="preserve">
+    <value>Duplicates not found.</value>
+  </data>
+  <data name="DuplicatesDetected" xml:space="preserve">
+    <value>Duplicate records found.</value>
+  </data>
+  <data name="FormalizedPowerOfAttorney" xml:space="preserve">
+    <value>{0} No. {1} dated {2}.</value>
+  </data>
+  <data name="GenerateBodyWithPdfError" xml:space="preserve">
+    <value>An error occurred when generating a formalized power of attorney. Correct the data and generate the power of attorney again.</value>
+  </data>
+  <data name="GenerateBodyWithPdfSuccess" xml:space="preserve">
+    <value>Formalized POA generated successfully.</value>
+  </data>
+  <data name="FPoAStateHasBeenUpdated" xml:space="preserve">
+    <value>Status of the formalized PoA has been updated.</value>
+  </data>
+  <data name="FormalizedPowerOfAttorneyRegistrationCompleted" xml:space="preserve">
+    <value>The formalized PoA has been successfully registered in the FTS register.{1} {1}{0}</value>
+  </data>
+  <data name="FPoAStateCheckFailed" xml:space="preserve">
+    <value>Cannot receive reply from the PoA management service. Check the document data and try again later.</value>
+  </data>
+  <data name="TitleForNotice" xml:space="preserve">
+    <value>POA revoked: {0}</value>
+  </data>
+  <data name="FormalizedPowerOfAttorneyRevocationReason" xml:space="preserve">
+    <value>{0}Formalized POA is revoked. Reason: {1}</value>
+  </data>
+  <data name="RevocationDialogTitle" xml:space="preserve">
+    <value>Create Power of Attorney Revocation</value>
+  </data>
+  <data name="RevocationDialogReasonFieldName" xml:space="preserve">
+    <value>Reason for revocation</value>
+  </data>
+  <data name="PowerOfAttorneyRevocationCreationFailed" xml:space="preserve">
+    <value>Cannot create a power of attorney revocation.</value>
+  </data>
+  <data name="FormalizedPowerOfAttorneySendForRegistrationError" xml:space="preserve">
+    <value>An error occurred while registering the formalized POA in the FTS register. Contact your system administrator.</value>
+  </data>
+  <data name="FillRevocationReason" xml:space="preserve">
+    <value>Specify a reason for revocation.</value>
+  </data>
+  <data name="FormalizedPowerOfAttorneySentForRegistrationSuccessfully" xml:space="preserve">
+    <value>Formalized POA has been sent to the FTS for registration.</value>
+  </data>
+  <data name="CreateRevocationDialogButtonName" xml:space="preserve">
+    <value>Create</value>
+  </data>
+  <data name="NoRightsToDocument" xml:space="preserve">
+    <value>You do not have sufficient access rights to the document. Contact your system administrator.</value>
+  </data>
+  <data name="ExternalSystemIsUnavailableErrorMessage" xml:space="preserve">
+    <value>An error occurred when registering the formalized power of attorney in the FTS register. Send the document again later.</value>
+  </data>
+  <data name="ConflictDifferentSignatureErrorMessage" xml:space="preserve">
+    <value>The formalized power of attorney is already registered in the FTS register. Update its status by clicking the "Check Status" button.</value>
+  </data>
+  <data name="DefaultErrorMessage" xml:space="preserve">
+    <value>An error occurred while registering the formalized power of attorney. Contact your system administrator.</value>
+  </data>
+  <data name="DifferentSignatureErrorMessage" xml:space="preserve">
+    <value>The signature does not fit the data specified in the formalized power of attorney. The document must be signed with the principal's certificate.</value>
+  </data>
+  <data name="UnsupportedPoAErrorMessage" xml:space="preserve">
+    <value>The data in the formalized PoA does not match the data in the FTS register. Contact your system administrator.</value>
+  </data>
+  <data name="FPoARegistrationInProcess" xml:space="preserve">
+    <value>The formalized PoA is being registered in the FTS register. After that, the document status will be updated.</value>
+  </data>
+  <data name="FPoARevocationInProcess" xml:space="preserve">
+    <value>The formalized PoA is being revoked from the FTS register. After that, the document status will be updated.</value>
+  </data>
+  <data name="FPoANotFound" xml:space="preserve">
+    <value>Cannot find the formalized PoA or connection to the PoA service is not set. Check the document status again later.</value>
+  </data>
+  <data name="FPoAAttributesNotMatchXml" xml:space="preserve">
+    <value>Data in the document card does not fit the data in the XML file. Change the data and check the status of formalized power of attorney again.</value>
+  </data>
+  <data name="FPoASetRevokedStateFailed" xml:space="preserve">
+    <value>Cannot check the formalized PoA status. Contact your system administrator.</value>
+  </data>
+  <data name="Enum_Operation_FtsStateChange" xml:space="preserve">
+    <value>Change status of registration in FTS register</value>
+  </data>
+  <data name="CannotGeneratePdfForImportedFPoA" xml:space="preserve">
+    <value>Cannot create a version for imported formalized power of attorney.</value>
+  </data>
+  <data name="Enum_Operation_FtsStateClear" xml:space="preserve">
+    <value>Clear the "In FTS register" field</value>
+  </data>
+  <data name="NoLicenseToPowerOfAttorneyKontur" xml:space="preserve">
+    <value>The action is availabe only if you have module "Formalized PoA. Connector to "Kontur. Power of Attorney".</value>
+  </data>
+  <data name="OpenInFtsRegistryErrorMessage" xml:space="preserve">
+    <value>To open the formalized PoA on the FTS website, specify TIN of the agent and principal.</value>
+  </data>
+  <data name="SyncFtsListStateSuccessNotification" xml:space="preserve">
+    <value>Status of the formalized PoA has been updated.{1} {1}{0}</value>
+  </data>
+  <data name="FormalizedPowerOfAttorneyRegistrationError" xml:space="preserve">
+    <value>An error has occurred while registering the formalized PoA in the FTS register. Read the error information in the document card.{1} {1}{0}</value>
+  </data>
+  <data name="RequiredPropertiesError" xml:space="preserve">
+    <value>The action is available if all required fields are filled in.</value>
+  </data>  
+  <data name="IncorrectMainPoAValidDates" xml:space="preserve">
+    <value>The expiration date of the original power of attorney must be later than the start date.</value>
+  </data>
+  <data name="MainPoaValidFromNotSpecifiedWhileTillSpecified" xml:space="preserve">
+    <value>Specify the start date of the power of attorney if the original power of attorney has an expiration date.</value>
+  </data>
+  <data name="MainPoaValidTillNotSpecifiedWhileFromSpecified" xml:space="preserve">
+    <value>Specify the expiration date of the power of attorney if the original power of attorney has a start date.</value>
+  </data>
+  <data name="TrustNotWithinMainPoADatesRange" xml:space="preserve">
+    <value>The validity period of the derivative power of attorney cannot be longer than that of the original power of attorney.</value>
+  </data>
+  <data name="ExcessiveStructuredPowers" xml:space="preserve">
+    <value>The powers delegated by the derivative power of attorney cannot exceed those of the original power of attorney</value>
+  </data>
+  <data name="AlreadyRevoked" xml:space="preserve">
+    <value>The formalized PoA has already been revoked from the FTS register. Update its status by clicking the "Check Status" button.</value>
+  </data>
+  <data name="NotRequiredAgentIfPersonOrLegalEntityFilled" xml:space="preserve">
+    <value>Specifying an agent for the "Natural person" and "Legal entity" agent types is not required in formalized PoA of the 003 format version.</value>
+  </data>
+  <data name="FPoAStateSyncWaitOrContactAdmin" xml:space="preserve">
+    <value>Cannot check the formalized PoA status. Check later or contact your system administrator.</value>
+  </data>
+</root>

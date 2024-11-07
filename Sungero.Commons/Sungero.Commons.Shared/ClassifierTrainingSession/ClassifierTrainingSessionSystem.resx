@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Property_Name" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="DisplayName" xml:space="preserve">
+    <value>Classifier Additional Training Session</value>
+  </data>
+  <data name="CollectionDisplayName" xml:space="preserve">
+    <value>Classifier Additional Training Sessions</value>
+  </data>
+  <data name="AccusativeDisplayName" xml:space="preserve">
+    <value>Classifier Additional Training Session</value>
+  </data>
+  <data name="Property_ClassifierId" xml:space="preserve">
+    <value>Classifier ID</value>
+  </data>
+  <data name="Property_OldModelId" xml:space="preserve">
+    <value>Model ID before training</value>
+  </data>
+  <data name="Property_FMeasure" xml:space="preserve">
+    <value>F1-score</value>
+  </data>
+  <data name="Property_ArioTaskId" xml:space="preserve">
+    <value>Ario task ID</value>
+  </data>
+  <data name="Property_TrainingStatus" xml:space="preserve">
+    <value>State</value>
+  </data>
+  <data name="Enum_TrainingStatus_Preparation" xml:space="preserve">
+    <value>Preparing data</value>
+  </data>
+  <data name="Enum_TrainingStatus_InProcess" xml:space="preserve">
+    <value>Training in process</value>
+  </data>
+  <data name="Enum_TrainingStatus_Completed" xml:space="preserve">
+    <value>Training completed</value>
+  </data>
+  <data name="ControlGroup_9f6c5a2fa35f49ceba0d3114026946d3" xml:space="preserve">
+    <value>Vertical Group</value>
+  </data>
+  <data name="Enum_TrainingStatus_Error" xml:space="preserve">
+    <value>An error occurred</value>
+  </data>
+  <data name="ControlGroup_709800d353b04ebc8088951c85d696f2" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Enum_TrainingStatus_Rollback" xml:space="preserve">
+    <value>Training cancelled</value>
+  </data>
+  <data name="Property_NewModelId" xml:space="preserve">
+    <value>Model ID after training</value>
+  </data>
+  <data name="Property_ClassifierType" xml:space="preserve">
+    <value>Classifier type</value>
+  </data>
+  <data name="Enum_ClassifierType_DocType" xml:space="preserve">
+    <value>By document types</value>
+  </data>
+  <data name="Enum_ClassifierType_FirstPage" xml:space="preserve">
+    <value>First page</value>
+  </data>
+  <data name="ControlGroup_81cb2c986fb640b386c806b9450a0909" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ControlGroup_84669ebfdcfd46388794c15f139f4132" xml:space="preserve">
+    <value>Session</value>
+  </data>
+</root>

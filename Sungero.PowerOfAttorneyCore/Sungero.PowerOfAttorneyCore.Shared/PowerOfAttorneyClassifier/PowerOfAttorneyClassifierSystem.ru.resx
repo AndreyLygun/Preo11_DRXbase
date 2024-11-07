@@ -1,0 +1,145 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Property_Name" xml:space="preserve">
+    <value>Имя</value>
+  </data>
+  <data name="DisplayName" xml:space="preserve">
+    <value>Полномочие электронной доверенности</value>
+  </data>
+  <data name="AccusativeDisplayName" xml:space="preserve">
+    <value>Полномочия электронной доверенности</value>
+  </data>
+  <data name="CollectionDisplayName" xml:space="preserve">
+    <value>Полномочия электронной доверенности</value>
+  </data>
+  <data name="Property_Code" xml:space="preserve">
+    <value>Код</value>
+  </data>
+  <data name="Property_Mnemonic" xml:space="preserve">
+    <value>Мнемоника</value>
+  </data>
+  <data name="Property_Description" xml:space="preserve">
+    <value>Описание</value>
+  </data>
+  <data name="Property_Started" xml:space="preserve">
+    <value>Действует с</value>
+  </data>
+  <data name="Property_Revoked" xml:space="preserve">
+    <value>Действует по</value>
+  </data>
+  <data name="Property_Note" xml:space="preserve">
+    <value>Примечание</value>
+  </data>
+  <data name="Property_Group" xml:space="preserve">
+    <value>Группа</value>
+  </data>
+  <data name="AdditionalInfoTemplate" xml:space="preserve">
+    <value>Код: [Code], Группа: [Group]</value>
+  </data>
+  <data name="ControlGroup_895d5e112df64ec59caa5ac27ac9c88b" xml:space="preserve">
+    <value>Примечание</value>
+  </data>
+  <data name="Form_e2c93936d76e40e3982af382acfc8f8e" xml:space="preserve">
+    <value>Дополнительно</value>
+  </data>
+  <data name="Property_NsiId" xml:space="preserve">
+    <value>Мнемоника владельца</value>
+  </data>
+  <data name="Property_Expiring" xml:space="preserve">
+    <value>Срок действия</value>
+  </data>
+  <data name="Property_PwrVisibility" xml:space="preserve">
+    <value>Область видимости</value>
+  </data>
+  <data name="Property_PwrRead" xml:space="preserve">
+    <value>Типы представителей</value>
+  </data>
+  <data name="Property_PwrIssuer" xml:space="preserve">
+    <value>Типы доверителей</value>
+  </data>
+  <data name="Property_Context" xml:space="preserve">
+    <value>Контекст</value>
+  </data>
+  <data name="Property_LegalRelations" xml:space="preserve">
+    <value>Правоотношения</value>
+  </data>
+  <data name="Property_LawDetails" xml:space="preserve">
+    <value>Реквизиты НПА</value>
+  </data>
+  <data name="Property_Autokey" xml:space="preserve">
+    <value>Внешний ИД</value>
+  </data>
+  <data name="Action_ShowDuplicates" xml:space="preserve">
+    <value>Показать дубли</value>
+  </data>
+  <data name="Action_ShowDuplicatesDescription" xml:space="preserve">
+    <value>Открытие списка для просмотра дублей.</value>
+  </data>
+  <data name="Action_ShowDuplicatesHint" xml:space="preserve">
+    <value>Показать дубли</value>
+  </data>
+  <data name="ControlGroup_a722a0b9df21474f8f4ea52a42fee849" xml:space="preserve">
+    <value>Дополнительное</value>
+  </data>
+  <data name="ControlGroup_fec29bb0a8cb4f9eb5a8518d031cd078" xml:space="preserve">
+    <value>Основное</value>
+  </data>
+</root>

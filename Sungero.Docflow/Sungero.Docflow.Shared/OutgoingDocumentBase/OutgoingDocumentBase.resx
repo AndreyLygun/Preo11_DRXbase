@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Contract" xml:space="preserve">
+    <value>Contract</value>
+  </data>
+  <data name="MarkDocumentAsObsolete" xml:space="preserve">
+    <value>Mark document as obsolete</value>
+  </data>
+  <data name="EnvelopePrinting" xml:space="preserve">
+    <value>Print envelopes</value>
+  </data>
+  <data name="EnvelopeFormat" xml:space="preserve">
+    <value>Envelope size</value>
+  </data>
+  <data name="NeedPrintSender" xml:space="preserve">
+    <value>Print return address</value>
+  </data>
+  <data name="DLEnvelope" xml:space="preserve">
+    <value>E65 (DL, euro, 110х220 mm)</value>
+  </data>
+  <data name="C4Envelope" xml:space="preserve">
+    <value>C4 (A4, 229х324 mm)</value>
+  </data>
+  <data name="C5Envelope" xml:space="preserve">
+    <value>C5 (A5, 162х229 mm)</value>
+  </data>
+  <data name="C65Envelope" xml:space="preserve">
+    <value>С65 (А4/3, 114х229 mm)</value>
+  </data>
+  <data name="FillDistributionListOnAdressesTab" xml:space="preserve">
+    <value>Fill in the distribution list on the "Addressees" tab.</value>
+  </data>
+  <data name="GetAddressees" xml:space="preserve">
+    <value>Address list</value>
+  </data>
+  <data name="PostalAddress" xml:space="preserve">
+    <value>Delivery address</value>
+  </data>
+  <data name="SpecifyMultipleRecipients" xml:space="preserve">
+    <value>To generate distribution sheet, specify several mail addressees.</value>
+  </data>
+  <data name="NeedFillAddressee" xml:space="preserve">
+    <value>At least one addressee must be filled in.</value>
+  </data>
+  <data name="AddresseeAppeal" xml:space="preserve">
+    <value>Addressee title</value>
+  </data>
+  <data name="AddresseeNameAndPatronymic" xml:space="preserve">
+    <value>Addressee name</value>
+  </data>
+  <data name="AddresseeAppealRespectedMale" xml:space="preserve">
+    <value>Dear Mr.</value>
+  </data>
+  <data name="AddresseeAppealRespectedFemale" xml:space="preserve">
+    <value>Dear Mrs.</value>
+  </data>
+</root>

@@ -1,0 +1,12 @@
+{
+  "Description": {
+    "en-US": "Compact view of folder \"Action items\" for employees included in role \"Users of manager's interface\".",
+    "ru-RU": "Компактное представление папки \"Согласование\" для пользователей, которые входят в роль \"Пользователи интерфейса для руководителей\".",
+    "hash": "0957ebce0a3a4f5a3b82e6912fa56335"
+  },
+  "Name": {
+    "en-US": "Approval (for managers)",
+    "ru-RU": "Согласование (для руководителей)",
+    "hash": "e1cfde7e163221df0e63e7f2a2a00bdd"
+  }
+}

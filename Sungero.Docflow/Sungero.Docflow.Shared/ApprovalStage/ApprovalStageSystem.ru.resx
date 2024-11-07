@@ -1,0 +1,273 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Property_Name" xml:space="preserve">
+    <value>Имя</value>
+  </data>
+  <data name="Property_StageType" xml:space="preserve">
+    <value>Тип этапа</value>
+  </data>
+  <data name="Enum_StageType_Manager" xml:space="preserve">
+    <value>Согласование с руководителем</value>
+  </data>
+  <data name="Enum_StageType_Approvers" xml:space="preserve">
+    <value>Согласование</value>
+  </data>
+  <data name="Enum_StageType_Sign" xml:space="preserve">
+    <value>Подписание</value>
+  </data>
+  <data name="Enum_StageType_Register" xml:space="preserve">
+    <value>Регистрация</value>
+  </data>
+  <data name="ControlGroup_16c2ae12e1124527b5a6ee1de47c6a56" xml:space="preserve">
+    <value>Этап</value>
+  </data>
+  <data name="Property_Sequence" xml:space="preserve">
+    <value>Старт</value>
+  </data>
+  <data name="Enum_Sequence_Parallel" xml:space="preserve">
+    <value>Одновременно</value>
+  </data>
+  <data name="Enum_Sequence_Serially" xml:space="preserve">
+    <value>Друг за другом</value>
+  </data>
+  <data name="Property_ReworkType" xml:space="preserve">
+    <value>Порядок доработки</value>
+  </data>
+  <data name="Enum_ReworkType_AfterAll" xml:space="preserve">
+    <value>После всех</value>
+  </data>
+  <data name="Enum_ReworkType_AfterEach" xml:space="preserve">
+    <value>После каждого с прерыванием</value>
+  </data>
+  <data name="Property_Assignee1" xml:space="preserve">
+    <value>Исполнитель</value>
+  </data>
+  <data name="DisplayName" xml:space="preserve">
+    <value>Этап согласования</value>
+  </data>
+  <data name="AccusativeDisplayName" xml:space="preserve">
+    <value>Этап согласования</value>
+  </data>
+  <data name="CollectionDisplayName" xml:space="preserve">
+    <value>Этапы согласования</value>
+  </data>
+  <data name="Property_NeedStrongSign" xml:space="preserve">
+    <value>Требовать усиленную подпись</value>
+  </data>
+  <data name="Enum_StageType_Sending" xml:space="preserve">
+    <value>Отправка контрагенту</value>
+  </data>
+  <data name="Enum_StageType_SimpleAgr" xml:space="preserve">
+    <value>Задание</value>
+  </data>
+  <data name="Property_StartDelayDays" xml:space="preserve">
+    <value>Отсрочка старта дней</value>
+  </data>
+  <data name="Enum_StageType_Print" xml:space="preserve">
+    <value>Печать</value>
+  </data>
+  <data name="Property_Subject" xml:space="preserve">
+    <value>Тема</value>
+  </data>
+  <data name="Property_AllowSendToRework" xml:space="preserve">
+    <value>Разрешить отправку на доработку</value>
+  </data>
+  <data name="Enum_StageType_Notice" xml:space="preserve">
+    <value>Уведомление</value>
+  </data>
+  <data name="Property_IsConfirmSigning" xml:space="preserve">
+    <value>Документ подписывается только в бумажном виде. 
+Результаты подписания вносит помощник (секретарь, делопроизводитель)</value>
+  </data>
+  <data name="Ribbon_Navigation_0b0c486cc876407d96b6ec9a8b3c6155" xml:space="preserve">
+    <value>Навигация</value>
+  </data>
+  <data name="Enum_StageType_Review" xml:space="preserve">
+    <value>Рассмотрение адресатом</value>
+  </data>
+  <data name="Enum_StageType_Execution" xml:space="preserve">
+    <value>Создание поручений по документу</value>
+  </data>
+  <data name="Property_IsResultSubmission" xml:space="preserve">
+    <value>Документ рассматривается только в бумажном виде. 
+Результаты рассмотрения вносит помощник (секретарь, делопроизводитель)</value>
+  </data>
+  <data name="Property_Note" xml:space="preserve">
+    <value>Примечание</value>
+  </data>
+  <data name="ControlGroup_052e0e321263451ba20297a04fcea5e1" xml:space="preserve">
+    <value>Примечание</value>
+  </data>
+  <data name="Property_Assignee" xml:space="preserve">
+    <value>Сотрудник/роль</value>
+  </data>
+  <data name="ControlGroup_ee6445fd4d534c43a1bde7edf2d737b8" xml:space="preserve">
+    <value>Настройки</value>
+  </data>
+  <data name="ControlGroup_f5e37b57bc0245519f8468221a271e7a" xml:space="preserve">
+    <value>Исполнитель</value>
+  </data>
+  <data name="ControlGroup_175ecb2ed7824a8da4222dc09dd43d56" xml:space="preserve">
+    <value>Исполнители</value>
+  </data>
+  <data name="Property_ApprovalRole" xml:space="preserve">
+    <value>Роль согласования</value>
+  </data>
+  <data name="Property_ApprovalRoles" xml:space="preserve">
+    <value>Роли согласования</value>
+  </data>
+  <data name="Property_AssigneeType" xml:space="preserve">
+    <value>Тип</value>
+  </data>
+  <data name="Enum_AssigneeType_Role" xml:space="preserve">
+    <value>Роль согласования</value>
+  </data>
+  <data name="Enum_AssigneeType_Employee" xml:space="preserve">
+    <value>Выделенный сотрудник</value>
+  </data>
+  <data name="Action_GetApprovalRulesWithImpossibleRoles" xml:space="preserve">
+    <value>Показать правила</value>
+  </data>
+  <data name="Action_GetApprovalRulesWithImpossibleRolesDescription" xml:space="preserve">
+    <value>Список правил, в которых не могут быть использованы выбранные роли</value>
+  </data>
+  <data name="Action_GetApprovalRulesWithImpossibleRolesHint" xml:space="preserve">
+    <value>Список правил, в которых не могут быть использованы выбранные роли</value>
+  </data>
+  <data name="Property_Recipients" xml:space="preserve">
+    <value>Сотрудники/группы</value>
+  </data>
+  <data name="Enum_StageType_CheckReturn" xml:space="preserve">
+    <value>Контроль возврата</value>
+  </data>
+  <data name="Property_AllowAdditionalApprovers" xml:space="preserve">
+    <value>Инициатор согласования может указывать дополнительных согласующих</value>
+  </data>
+  <data name="Property_AllowChangeReworkPerformer" xml:space="preserve">
+    <value>Разрешить выбор ответственного за доработку</value>
+  </data>
+  <data name="Property_ReworkPerformerType" xml:space="preserve">
+    <value>Ответственный</value>
+  </data>
+  <data name="Enum_ReworkPerformerType_FromRule" xml:space="preserve">
+    <value>Из правила</value>
+  </data>
+  <data name="Enum_ReworkPerformerType_EmployeeRole" xml:space="preserve">
+    <value>Сотрудник/роль</value>
+  </data>
+  <data name="Enum_ReworkPerformerType_Author" xml:space="preserve">
+    <value>Инициатор согласования</value>
+  </data>
+  <data name="Property_ReworkPerformer" xml:space="preserve">
+    <value>Сотрудник/роль</value>
+  </data>
+  <data name="ControlGroup_f39aa6d1a1424150a91e5f0d843c1963" xml:space="preserve">
+    <value>Доработка</value>
+  </data>
+  <data name="Enum_ReworkType_AfterComplete" xml:space="preserve">
+    <value>После выполнения задания</value>
+  </data>
+  <data name="Enum_ReworkPerformerType_ApprovalRole" xml:space="preserve">
+    <value>Роль согласования</value>
+  </data>
+  <data name="Property_ReworkApprovalRole" xml:space="preserve">
+    <value>Роль согласования</value>
+  </data>
+  <data name="Property_RightType" xml:space="preserve">
+    <value>Тип прав</value>
+  </data>
+  <data name="Enum_RightType_Read" xml:space="preserve">
+    <value>Просмотр</value>
+  </data>
+  <data name="Enum_RightType_Edit" xml:space="preserve">
+    <value>Изменение</value>
+  </data>
+  <data name="Property_NeedRestrictPerformerRights" xml:space="preserve">
+    <value>Понизить права исполнителей этапа до "Просмотр" после выполнения задания</value>
+  </data>
+  <data name="ControlGroup_f22603695bd14e4b9337bbe0d80f3b6b" xml:space="preserve">
+    <value>Права на документы</value>
+  </data>
+  <data name="Enum_RightType_FullAccess" xml:space="preserve">
+    <value>Полный доступ</value>
+  </data>
+  <data name="Property_AllowApproveWithSuggestions" xml:space="preserve">
+    <value>Разрешить согласование с замечаниями</value>
+  </data>
+  <data name="Form_3ff3826ef5c04b81a40a80888bd06ec9" xml:space="preserve">
+    <value>Инструкция</value>
+  </data>
+  <data name="Property_AssignmentInstruction" xml:space="preserve">
+    <value>Инструкция к заданию</value>
+  </data>
+  <data name="Control_e4710be771fa4493b95902ad1d238780_EmptyText" xml:space="preserve">
+    <value>Введите текст инструкции, который отобразится в карточке задания</value>
+  </data>
+  <data name="ControlGroup_31040ba0d0bb4289a76286bf250ed677" xml:space="preserve">
+    <value>Инструкция к заданию</value>
+  </data>
+  <data name="Instruction" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ControlGroup_7e63cbf904cf4f99865cf17ee25070b4" xml:space="preserve">
+    <value>Основное</value>
+  </data>
+</root>

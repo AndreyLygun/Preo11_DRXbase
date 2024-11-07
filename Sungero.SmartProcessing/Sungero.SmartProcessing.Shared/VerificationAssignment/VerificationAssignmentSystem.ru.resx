@@ -1,0 +1,202 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Enum_Result_Complete" xml:space="preserve">
+    <value>Проверено</value>
+  </data>
+  <data name="Action_Complete" xml:space="preserve">
+    <value>Проверено</value>
+  </data>
+  <data name="Action_CompleteHint" xml:space="preserve">
+    <value>Документы проверены</value>
+  </data>
+  <data name="Action_CompleteConfirmationMessage" xml:space="preserve">
+    <value>Завершить верификацию документов?</value>
+  </data>
+  <data name="Action_CompleteDescription" xml:space="preserve">
+    <value>Документы верифицированы и отправлены в работу.</value>
+  </data>
+  <data name="DisplayName" xml:space="preserve">
+    <value>Верификация комплекта</value>
+  </data>
+  <data name="AccusativeDisplayName" xml:space="preserve">
+    <value>Верификацию комплекта</value>
+  </data>
+  <data name="CollectionDisplayName" xml:space="preserve">
+    <value>Верификация комплектов</value>
+  </data>
+  <data name="Property_Addressee" xml:space="preserve">
+    <value>Переадресовать сотруднику</value>
+  </data>
+  <data name="Property_NewDeadline" xml:space="preserve">
+    <value>Новый срок</value>
+  </data>
+  <data name="Enum_Result_Forward" xml:space="preserve">
+    <value>Переадресовано</value>
+  </data>
+  <data name="Action_Forward" xml:space="preserve">
+    <value>Переадресовать</value>
+  </data>
+  <data name="Action_ForwardHint" xml:space="preserve">
+    <value>Переадресовать верификацию документа</value>
+  </data>
+  <data name="Action_ForwardConfirmationMessage" xml:space="preserve">
+    <value>Переадресовать задание?</value>
+  </data>
+  <data name="Action_ForwardDescription" xml:space="preserve">
+    <value>Отправка документа на верификацию другому сотруднику.</value>
+  </data>
+  <data name="Ribbon_DocumentProcessing_e7175b58e6f54aa79774c779fd9a0680" xml:space="preserve">
+    <value>Отправка документов</value>
+  </data>
+  <data name="Action_SendForApproval" xml:space="preserve">
+    <value>На согласование по регламенту</value>
+  </data>
+  <data name="Action_SendForApprovalDescription" xml:space="preserve">
+    <value>Отправка документа задачей на согласование по регламенту</value>
+  </data>
+  <data name="Action_SendForApprovalHint" xml:space="preserve">
+    <value>Отправить на согласование по регламенту</value>
+  </data>
+  <data name="Action_SendForFreeApproval" xml:space="preserve">
+    <value>На свободное согласование</value>
+  </data>
+  <data name="Action_SendForFreeApprovalDescription" xml:space="preserve">
+    <value>Отправка документа задачей на свободное согласование</value>
+  </data>
+  <data name="Action_SendForFreeApprovalHint" xml:space="preserve">
+    <value>Отправить на свободное согласование</value>
+  </data>
+  <data name="Action_SendForReview" xml:space="preserve">
+    <value>На рассмотрение руководителю</value>
+  </data>
+  <data name="Action_SendForReviewDescription" xml:space="preserve">
+    <value>Отправить документ задачей на рассмотрение руководителю</value>
+  </data>
+  <data name="Action_SendForReviewHint" xml:space="preserve">
+    <value>Отправить на рассмотрение</value>
+  </data>
+  <data name="Action_SendForExecution" xml:space="preserve">
+    <value>На исполнение поручением</value>
+  </data>
+  <data name="Action_SendForExecutionDescription" xml:space="preserve">
+    <value>Отправка поручения по текущему документу</value>
+  </data>
+  <data name="Action_SendForExecutionHint" xml:space="preserve">
+    <value>Отправить поручение по документу</value>
+  </data>
+  <data name="Action_DeleteDocuments" xml:space="preserve">
+    <value>Удалить документы</value>
+  </data>
+  <data name="Action_DeleteDocumentsDescription" xml:space="preserve">
+    <value>Удаление ошибочно занесенных документов из вложений в задании</value>
+  </data>
+  <data name="Action_DeleteDocumentsHint" xml:space="preserve">
+    <value>Удалить документы из системы</value>
+  </data>
+  <data name="Ribbon_DocumentsGroup_2fd2a95404cd49a7827379e74fb286ee" xml:space="preserve">
+    <value>Документы</value>
+  </data>
+  <data name="Action_ShowInvalidDocuments" xml:space="preserve">
+    <value>Показать документы</value>
+  </data>
+  <data name="Action_ShowInvalidDocumentsDescription" xml:space="preserve">
+    <value>Показать документы, имеющие незаполненные обязательные поля.</value>
+  </data>
+  <data name="Action_ShowInvalidDocumentsHint" xml:space="preserve">
+    <value>Показать документы</value>
+  </data>
+  <data name="Action_Repacking" xml:space="preserve">
+    <value>Перекомплектовать</value>
+  </data>
+  <data name="Action_RepackingDescription" xml:space="preserve">
+    <value>Перемещение, поворот и удаление страниц внутри комплекта. Перенос страниц в новые документы</value>
+  </data>
+  <data name="Action_RepackingHint" xml:space="preserve">
+    <value>Перемещение, поворот и удаление страниц внутри комплекта. Перенос страниц в новые документы.</value>
+  </data>
+  <data name="Ribbon_Repacking_3c8de44662964effb28b4487cb43525d" xml:space="preserve">
+    <value>Перекомплектование</value>
+  </data>
+  <data name="Action_SendForDocumentFlow" xml:space="preserve">
+    <value>На согласование по процессу</value>
+  </data>
+  <data name="Action_SendForDocumentFlowHint" xml:space="preserve">
+    <value>Отправить на согласование по процессу</value>
+  </data>
+  <data name="Action_SendForDocumentFlowDescription" xml:space="preserve">
+    <value>Отправка документа задачей на согласование по процессу</value>
+  </data>
+  <data name="ControlGroup_ebfeb539df3646ebb16c88e4afe77109" xml:space="preserve">
+    <value>Основное</value>
+  </data>
+  <data name="ControlGroup_4917364762724459ab15867c0b3c85a2" xml:space="preserve">
+    <value>Горизонтальная группа</value>
+  </data>
+  <data name="Action_CloseRepacking" xml:space="preserve">
+    <value>Завершить перекомплектование</value>
+  </data>
+  <data name="Action_CloseRepackingHint" xml:space="preserve">
+    <value>Завершить перекомплектование</value>
+  </data>
+  <data name="Action_CloseRepackingDescription" xml:space="preserve">
+    <value>Завершить перекомплектование</value>
+  </data>
+</root>

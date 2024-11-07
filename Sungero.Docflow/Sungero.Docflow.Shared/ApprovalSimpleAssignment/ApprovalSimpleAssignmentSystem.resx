@@ -1,0 +1,142 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Enum_Result_Complete" xml:space="preserve">
+    <value>Complete</value>
+  </data>
+  <data name="Action_Complete" xml:space="preserve">
+    <value>Complete</value>
+  </data>
+  <data name="Action_CompleteHint" xml:space="preserve">
+    <value>Complete</value>
+  </data>
+  <data name="Action_CompleteConfirmationMessage" xml:space="preserve">
+    <value>Complete the assignment?</value>
+  </data>
+  <data name="Action_CompleteDescription" xml:space="preserve">
+    <value>Complete the assignment</value>
+  </data>
+  <data name="ControlGroup_f334d8df59144a258062578ff1bd1da2" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ControlGroup_fd466d7ce80b46e087c78648751d1474" xml:space="preserve">
+    <value>Main</value>
+  </data>
+  <data name="ControlGroup_91a80f6ab8ad4928885aae889629bd30" xml:space="preserve">
+    <value>Horizontal Group</value>
+  </data>
+  <data name="ControlGroup_7bbceceedd8c47cdbf9a63407cddebea" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ControlGroup_f0ef4552748a4be2a28c8ba17feb8219" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Footer_ActiveEmptyText" xml:space="preserve">
+    <value>Type the text of assignment…</value>
+  </data>
+  <data name="DisplayName" xml:space="preserve">
+    <value>Assignment</value>
+  </data>
+  <data name="AccusativeDisplayName" xml:space="preserve">
+    <value>Assignment</value>
+  </data>
+  <data name="CollectionDisplayName" xml:space="preserve">
+    <value>Assignments</value>
+  </data>
+  <data name="Control_22f862c751f84aeba666fb50c5e781ab_EmptyText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ControlGroup_306fd1aeeb2c4372a25e493669a76406" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Control_d5adc950561648b89c2208f513e7c421_EmptyText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Form_198560bd7dae4e658afcd5b5d86534d6" xml:space="preserve">
+    <value>Stages</value>
+  </data>
+  <data name="ControlGroup_f85d35125d9c4336a42a535024942256" xml:space="preserve">
+    <value>Stages</value>
+  </data>
+  <data name="Property_StageSubject" xml:space="preserve">
+    <value>Approval stage subject</value>
+  </data>
+  <data name="Property_StageNumber" xml:space="preserve">
+    <value>Stage number</value>
+  </data>
+  <data name="Action_ExtendDeadline" xml:space="preserve">
+    <value>Deadline Extension Request</value>
+  </data>
+  <data name="Action_ExtendDeadlineDescription" xml:space="preserve">
+    <value>Send request for deadline extension of assignment</value>
+  </data>
+  <data name="Action_ExtendDeadlineHint" xml:space="preserve">
+    <value>Request for Deadline Extension</value>
+  </data>
+  <data name="Action_ExtendDeadlineConfirmationMessage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Action_ExtendDeadlineConfirmationDescription" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Ribbon_DeadlineGroup_2dc42822869146d59da6a9d03f187e3c" xml:space="preserve">
+    <value>Deadline</value>
+  </data>
+</root>

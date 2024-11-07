@@ -1,0 +1,23 @@
+{
+  "Control_Caption_f3028fddd3c04056bfbe2e71c39e246c": {
+    "en-US": "Subject",
+    "ru-RU": "Тема"
+  },
+  "ControlGroup_Caption_4917364762724459ab15867c0b3c85a2": {
+    "ru-RU": "Основное"
+  },
+  "Description": {
+    "en-US": "View of an assignment to finish document acquaintance for employees included in role \"Users of manager's interface\".",
+    "ru-RU": "Отображение карточки задания на завершение работ по ознакомлению для пользователей, которые входят в роль \"Пользователи интерфейса для руководителей\".",
+    "hash": "7f04dd5a7dc6fae458018cda1ba0bdb2"
+  },
+  "Name": {
+    "en-US": "Assignment to finish acquaintance (for managers)",
+    "ru-RU": "Задание на завершение работ по ознакомлению (для руководителей)",
+    "hash": "b5e819a85caaf51239d1ab5bd2fb8b19"
+  },
+  "Thread_Title_a2b1a03300e7415c9eca8ae12d0ed849": {
+    "en-US": "Thread",
+    "ru-RU": "Переписка"
+  }
+}

@@ -1,0 +1,178 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AutomaticRenewalContractExpires" xml:space="preserve">
+    <value>Завершается срок действия договора с автопролонгацией: "{0}"</value>
+  </data>
+  <data name="ContractKindName" xml:space="preserve">
+    <value>Договор</value>
+  </data>
+  <data name="ContractKindShortName" xml:space="preserve">
+    <value>Договор</value>
+  </data>
+  <data name="ContractTypeName" xml:space="preserve">
+    <value>Договор</value>
+  </data>
+  <data name="DefaultApprovalRuleNameContracts" xml:space="preserve">
+    <value>Правило по умолчанию для договорных документов</value>
+  </data>
+  <data name="DefaultApprovalRuleNameInvoice" xml:space="preserve">
+    <value>Правило по умолчанию для входящих счетов</value>
+  </data>
+  <data name="DescriptionContractsRegistrarRole" xml:space="preserve">
+    <value>Пользователи, имеющие право регистрировать договорные документы.</value>
+  </data>
+  <data name="DescriptionResponsibleForContractsRole" xml:space="preserve">
+    <value>Пользователи, имеющие право создавать  договорные документы.</value>
+  </data>
+  <data name="ExpiringContractsRenewalText" xml:space="preserve">
+    <value>{0} завершается срок действия договора с пролонгацией: "{1}"</value>
+  </data>
+  <data name="ExpiringContractsSubject" xml:space="preserve">
+    <value>Завершается срок действия договора: "{0}"</value>
+  </data>
+  <data name="ExpiringContractsText" xml:space="preserve">
+    <value>{0} завершается срок действия договора: "{1}"</value>
+  </data>
+  <data name="GiveInAccountant" xml:space="preserve">
+    <value>Передайте в бухгалтерию</value>
+  </data>
+  <data name="GiveInvoiceApprovalStageName" xml:space="preserve">
+    <value>Передача счета</value>
+  </data>
+  <data name="IncomingInvoiceKindName" xml:space="preserve">
+    <value>Входящий счет на оплату</value>
+  </data>
+  <data name="IncomingInvoiceKindShortName" xml:space="preserve">
+    <value>Вх. счет на оплату</value>
+  </data>
+  <data name="IncomingInvoiceTypeName" xml:space="preserve">
+    <value>Входящий счет на оплату</value>
+  </data>
+  <data name="RegistersAndSettingsSupAgreementIndex" xml:space="preserve">
+    <value>ДОП</value>
+  </data>
+  <data name="RegistersAndSettingsSupAgreementName" xml:space="preserve">
+    <value>Дополнительные соглашения</value>
+  </data>
+  <data name="RelationAccountingDescription" xml:space="preserve">
+    <value>Финансовый документ</value>
+  </data>
+  <data name="RelationAccountingSourceTitle" xml:space="preserve">
+    <value>Ведущий документ</value>
+  </data>
+  <data name="RelationAccountingTargetTitle" xml:space="preserve">
+    <value>Финансовые документы</value>
+  </data>
+  <data name="RelationSupAgreementDescription" xml:space="preserve">
+    <value>Дополнительное соглашение</value>
+  </data>
+  <data name="RelationSupAgreementSourceTitle" xml:space="preserve">
+    <value>Договорной документ</value>
+  </data>
+  <data name="RelationSupAgreementTargetTitle" xml:space="preserve">
+    <value>Дополнительные соглашения</value>
+  </data>
+  <data name="RoleDescriptionContractResponsible" xml:space="preserve">
+    <value>Сотрудник, ответственный за подготовку, согласование и исполнение договорного документа. Указывается в карточке документа.</value>
+  </data>
+  <data name="RoleDescriptionContractResponsibleManager" xml:space="preserve">
+    <value>Непосредственный руководитель сотрудника, ответственного за подготовку, согласование и исполнение договорного документа.</value>
+  </data>
+  <data name="SupAgreementKindName" xml:space="preserve">
+    <value>Дополнительное соглашение</value>
+  </data>
+  <data name="SupAgreementKindShortName" xml:space="preserve">
+    <value>Доп. соглашение</value>
+  </data>
+  <data name="SupAgreementTypeName" xml:space="preserve">
+    <value>Дополнительное соглашение</value>
+  </data>
+  <data name="ContractMilestoneTaskSubject" xml:space="preserve">
+    <value>Выполните работы: "{0}" по {1}</value>
+  </data>
+  <data name="ContractMilestoneTaskText" xml:space="preserve">
+    <value>Выполните работы по {0}.</value>
+  </data>
+  <data name="ContractMilestoneTaskTextNote" xml:space="preserve">
+    <value>Примечание: {0}</value>
+  </data>
+  <data name="OutgoingInvoiceTypeName" xml:space="preserve">
+    <value>Исходящий счет на оплату</value>
+  </data>
+  <data name="OutgoingInvoiceKindName" xml:space="preserve">
+    <value>Исходящий счет на оплату</value>
+  </data>
+  <data name="OutgoingInvoiceKindShortName" xml:space="preserve">
+    <value>Исх. счет на оплату</value>
+  </data>
+  <data name="RegistersAndSettingsOutgoingInvoiceIndex" xml:space="preserve">
+    <value>ИС</value>
+  </data>
+  <data name="RegistersAndSettingsOutgoingInvoiceName" xml:space="preserve">
+    <value>Исходящие счета на оплату</value>
+  </data>
+  <data name="RoleNameUsersWithAccessToContracts" xml:space="preserve">
+    <value>Пользователи с доступом к договорам</value>
+  </data>
+  <data name="DescriptionUsersWithAccessToContractsRole" xml:space="preserve">
+    <value>Пользователи, имеющие быстрый доступ к реестрам договорных документов и доверенностей, спискам входящих и исходящих счетов.</value>
+  </data>
+</root>

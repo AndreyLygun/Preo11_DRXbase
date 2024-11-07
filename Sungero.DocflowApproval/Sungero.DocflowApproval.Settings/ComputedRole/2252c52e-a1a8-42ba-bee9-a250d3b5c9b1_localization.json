@@ -1,0 +1,12 @@
+{
+  "Description": {
+    "default": "Employee responsible for document registration group.",
+    "ru-RU": "Ответственный за группу регистрации документов.",
+    "hash": "3aa9b9658e4e8c852f6286436efd6b37"
+  },
+  "Name": {
+    "default": "Document registrar",
+    "ru-RU": "Регистратор документа",
+    "hash": "95a7294b2113801bcb961db171dc4ca0"
+  }
+}

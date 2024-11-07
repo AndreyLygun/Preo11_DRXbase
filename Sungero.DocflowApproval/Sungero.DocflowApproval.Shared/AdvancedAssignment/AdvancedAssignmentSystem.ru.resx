@@ -1,0 +1,181 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Enum_Result_Complete" xml:space="preserve">
+    <value>Выполнено</value>
+  </data>
+  <data name="Action_Complete" xml:space="preserve">
+    <value>Выполнить</value>
+  </data>
+  <data name="Action_CompleteHint" xml:space="preserve">
+    <value>Выполнить с результатом "Выполнено"</value>
+  </data>
+  <data name="Action_CompleteConfirmationMessage" xml:space="preserve">
+    <value>Выполнить задание?</value>
+  </data>
+  <data name="Action_CompleteDescription" xml:space="preserve">
+    <value>Выполнение задания с результатом "Выполнено"</value>
+  </data>
+  <data name="DisplayName" xml:space="preserve">
+    <value>Расширенное задание</value>
+  </data>
+  <data name="AccusativeDisplayName" xml:space="preserve">
+    <value>Расширенное задание</value>
+  </data>
+  <data name="CollectionDisplayName" xml:space="preserve">
+    <value>Расширенные задания</value>
+  </data>
+  <data name="AttachmentGroup_DocumentGroupTitle" xml:space="preserve">
+    <value>Документ</value>
+  </data>
+  <data name="AttachmentGroup_AddendaGroupTitle" xml:space="preserve">
+    <value>Приложения</value>
+  </data>
+  <data name="AttachmentGroup_AddendaGroupInformationMessage" xml:space="preserve">
+    <value>Приложения к документу отсутствуют</value>
+  </data>
+  <data name="AttachmentGroup_OtherGroupTitle" xml:space="preserve">
+    <value>Дополнительно</value>
+  </data>
+  <data name="Property_ForwardTo" xml:space="preserve">
+    <value>Переадресовать сотруднику</value>
+  </data>
+  <data name="Enum_Result_Forward" xml:space="preserve">
+    <value>Переадресовать</value>
+  </data>
+  <data name="Action_Forward" xml:space="preserve">
+    <value>Переадресовать</value>
+  </data>
+  <data name="Action_ForwardHint" xml:space="preserve">
+    <value>Переадресовать задание</value>
+  </data>
+  <data name="Action_ForwardConfirmationMessage" xml:space="preserve">
+    <value>Переадресовать задание?</value>
+  </data>
+  <data name="Action_ForwardDescription" xml:space="preserve">
+    <value>Переадресация задания выбранному сотруднику</value>
+  </data>
+  <data name="Resource_1bbfaba9c44445878d1c51150787fb2e" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Control_1bbfaba9c44445878d1c51150787fb2e_EmptyText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Resource_c9c4beefec5b4b3796d4959c17991279" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Control_c9c4beefec5b4b3796d4959c17991279_EmptyText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Resource_45c3f7afea6f40948e21e643b6358f4a" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Control_45c3f7afea6f40948e21e643b6358f4a_EmptyText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Resource_ad03c4af7bfe4967aa2cdaa3265bdbe3" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ControlGroup_4917364762724459ab15867c0b3c85a2" xml:space="preserve">
+    <value>Горизонтальная группа</value>
+  </data>
+  <data name="ControlGroup_ebfeb539df3646ebb16c88e4afe77109" xml:space="preserve">
+    <value>Основное</value>
+  </data>
+  <data name="ControlGroup_2843c476ecee44d3a08869784756d9f0" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ControlGroup_7d052a6b05aa4586abbfca9d980cf36c" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ControlGroup_eca46beba27c4abc91e73bf3186fd8f8" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Property_ReworkPerformer" xml:space="preserve">
+    <value>Отв. за доработку</value>
+  </data>
+  <data name="Enum_Result_ForRework" xml:space="preserve">
+    <value>На доработку</value>
+  </data>
+  <data name="Action_ForRework" xml:space="preserve">
+    <value>На доработку</value>
+  </data>
+  <data name="Action_ForReworkHint" xml:space="preserve">
+    <value>Выполнить с результатом "На доработку"</value>
+  </data>
+  <data name="Action_ForReworkConfirmationMessage" xml:space="preserve">
+    <value>Выполнить задание с результатом "На доработку"?</value>
+  </data>
+  <data name="Action_ForReworkDescription" xml:space="preserve">
+    <value>Выполнение задания с результатом "На доработку"</value>
+  </data>
+  <data name="Action_ExtendDeadline" xml:space="preserve">
+    <value>Запросить продление срока</value>
+  </data>
+  <data name="Action_ExtendDeadlineHint" xml:space="preserve">
+    <value>Запросить продление срока задания</value>
+  </data>
+  <data name="Action_ExtendDeadlineDescription" xml:space="preserve">
+    <value>Отправить запрос продления срока задания.</value>
+  </data>
+  <data name="Ribbon_DeadlineGroup_1c1af1927eed4279bd0e0ec2fd0c2972" xml:space="preserve">
+    <value>Срок</value>
+  </data>
+</root>

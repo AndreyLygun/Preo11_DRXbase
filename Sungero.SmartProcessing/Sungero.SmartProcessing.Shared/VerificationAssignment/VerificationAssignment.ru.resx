@@ -1,0 +1,133 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ImpossibleSpecifyDeadlineLessThenToday" xml:space="preserve">
+    <value>Срок по заданию должен быть больше или равен текущей дате.</value>
+  </data>
+  <data name="DeleteDocumentsDialogTitle" xml:space="preserve">
+    <value>Удаление документов</value>
+  </data>
+  <data name="DeleteDocumentsDialogText" xml:space="preserve">
+    <value>Выберите документы для удаления.</value>
+  </data>
+  <data name="DeleteDocumentsDialogAttachments" xml:space="preserve">
+    <value>Документы</value>
+  </data>
+  <data name="DeleteDocumentsDialogNoticeAfterDelete" xml:space="preserve">
+    <value>Документы удалены.</value>
+  </data>
+  <data name="InstructionStep1" xml:space="preserve">
+    <value>1. Убедитесь, что документы комплекта занесены в полном объеме.</value>
+  </data>
+  <data name="InstructionStep2" xml:space="preserve">
+    <value>2. Если страницы документов следуют не по порядку, имеют неправильную ориентацию или занесены ошибочно, перекомплектуйте документы.</value>
+  </data>
+  <data name="InstructionStep3" xml:space="preserve">
+    <value>3. На закладке "Верификация" в карточке каждого документа проверьте корректность данных, заполненных системой.</value>
+  </data>
+  <data name="InstructionStep4" xml:space="preserve">
+    <value>4. На закладке "Свойства" укажите недостающие данные, например, содержание.</value>
+  </data>
+  <data name="InstructionStep5" xml:space="preserve">
+    <value>5. При необходимости смените тип документов.</value>
+  </data>
+  <data name="InstructionStep6" xml:space="preserve">
+    <value>6. Зарегистрируйте документы, если они подлежат регистрации.</value>
+  </data>
+  <data name="InstructionStep7" xml:space="preserve">
+    <value>7. Отправьте документы на дальнейшую обработку.</value>
+  </data>
+  <data name="InvalidDocumentWhenSendInWork" xml:space="preserve">
+    <value>Для отправки в работу заполните обязательные поля в карточках документов.</value>
+  </data>
+  <data name="InvalidDocumentWhenCompleted" xml:space="preserve">
+    <value>Для выполнения задания заполните обязательные поля в карточках документов.</value>
+  </data>
+  <data name="AttachedDocumentsLocked" xml:space="preserve">
+    <value>Документы в комплекте заблокированы. Для перекомплектования закройте их карточки и содержимое.</value>
+  </data>
+  <data name="NoDocumentsSuitableForRepacking" xml:space="preserve">
+    <value>Нет подходящих для перекомплектования документов. Убедитесь, что вложенные документы имеют формат PDF, не зашифрованы, и у вас есть права на их изменение.</value>
+  </data>
+  <data name="RepackingIsInProgress" xml:space="preserve">
+    <value>Перекомплектование уже идет. Перейдите на вкладку "Перекомплектование документов".</value>
+  </data>
+  <data name="SaveAssignmentBeforeRepacking" xml:space="preserve">
+    <value>Для перекомплектования сохраните карточку задания.</value>
+  </data>
+  <data name="NoLicenseToRepacking" xml:space="preserve">
+    <value>Для перекомплектования документов необходима лицензия на модуль "Интеллектуальные функции".</value>
+  </data>
+  <data name="ShowRepackingResultsNotification" xml:space="preserve">
+    <value>Идет перекомплектование. Для отображения результатов обновите карточку задания после завершения процесса.</value>
+  </data>
+  <data name="CompleteWithActiveRepackingSession" xml:space="preserve">
+    <value>Для выполнения задания сохраните изменения на вкладке "Перекомплектование документов". Если изменения не нужны, закройте вкладку и нажмите ссылку "Завершить перекомплектование".</value>
+  </data>
+  <data name="DeleteDocumentsDialogImpossible" xml:space="preserve">
+    <value>Для удаления документов завершите перекомплектование и обновите карточку задания.</value>
+  </data>
+  <data name="Forwarded" xml:space="preserve">
+    <value>Переадресовано {0}</value>
+  </data>
+  <data name="Checked" xml:space="preserve">
+    <value>Проверено.</value>
+  </data>
+</root>

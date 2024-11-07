@@ -1,0 +1,105 @@
+{
+  "$type": "Sungero.Metadata.EntityMetadata, Sungero.Metadata",
+  "NameGuid": "185bc813-fa53-4c29-a07c-6c04397dff41",
+  "Name": "PowerOfAttorneyBaseRepresentatives",
+  "AccessRightsMode": "NoRight",
+  "BaseGuid": "a3d38bf5-0414-41f6-bb33-a4621d2e5a60",
+  "CanBeNavigationPropertyType": true,
+  "Code": "Representativs",
+  "ExtraSearchProperties": [],
+  "IsChildEntity": true,
+  "Properties": [
+    {
+      "$type": "Sungero.Metadata.NavigationPropertyMetadata, Sungero.Metadata",
+      "NameGuid": "a1b4295a-ec9a-4385-acdc-19eabbebc699",
+      "Name": "PowerOfAttorneyBase",
+      "CanBeSearch": false,
+      "Code": "EDoc",
+      "EntityGuid": "a8d955b1-4b35-4013-b643-3ea9d80bd1ea",
+      "IsReferenceToRootEntity": true,
+      "IsShowedInList": false
+    },
+    {
+      "$type": "Sungero.Metadata.EnumPropertyMetadata, Sungero.Metadata",
+      "NameGuid": "c1408cb5-5291-4e53-99eb-b2c2f0dc41f6",
+      "Name": "AgentType",
+      "CanBeSearch": false,
+      "Code": "AgentType",
+      "DirectValues": [
+        {
+          "NameGuid": "b16a1f33-254b-4edc-bc33-96fcf4cbab46",
+          "Name": "LegalEntity",
+          "Code": "LegalEntity"
+        },
+        {
+          "NameGuid": "fc5c88b2-d640-476f-83b9-60aee25ed397",
+          "Name": "Entrepreneur",
+          "Code": "Entrepreneur"
+        },
+        {
+          "NameGuid": "8d85e120-b288-4f79-b15a-5fa87ff47ed8",
+          "Name": "Person",
+          "Code": "Person"
+        }
+      ],
+      "HandledEvents": [
+        "ChangedShared"
+      ],
+      "IsRequired": true,
+      "ListDataBinderTypeName": "Sungero.Presentation.CommonDataBinders.DropDownEditorToEnumerationBinder",
+      "PreviousPropertyGuid": "a1b4295a-ec9a-4385-acdc-19eabbebc699"
+    },
+    {
+      "$type": "Sungero.Metadata.NavigationPropertyMetadata, Sungero.Metadata",
+      "NameGuid": "054193f1-9bc7-4bed-a03a-df7353a14a26",
+      "Name": "IssuedTo",
+      "Code": "IssuedTo",
+      "EntityGuid": "294767f1-009f-4fbd-80fc-f98c49ddc560",
+      "FlatListInStandaloneLookup": true,
+      "HandledEvents": [
+        "LookupServer"
+      ],
+      "IsRequired": true,
+      "ListDataBinderTypeName": "Sungero.Presentation.CommonDataBinders.DropDownEditorToNavigationBinder",
+      "NeedPassEntityToLookupEvent": true,
+      "PreviousPropertyGuid": "c1408cb5-5291-4e53-99eb-b2c2f0dc41f6"
+    },
+    {
+      "$type": "Sungero.Metadata.NavigationPropertyMetadata, Sungero.Metadata",
+      "NameGuid": "36cae3e1-9df3-43c4-a4e1-11fb345c4543",
+      "Name": "Agent",
+      "CanBeSearch": false,
+      "Code": "Agent",
+      "EntityGuid": "f5509cdc-ac0c-4507-a4d3-61d7a0a9b6f6",
+      "FlatListInStandaloneLookup": true,
+      "ListDataBinderTypeName": "Sungero.Presentation.CommonDataBinders.DropDownEditorToNavigationBinder",
+      "PreviousPropertyGuid": "054193f1-9bc7-4bed-a03a-df7353a14a26"
+    }
+  ],
+  "PublicStructures": [],
+  "RibbonCardMetadata": {
+    "NameGuid": "75c96553-602a-4510-bae7-85afe8d21601",
+    "Name": "RibbonCard",
+    "Categories": [],
+    "Elements": [],
+    "Groups": [],
+    "IsAncestorMetadata": true,
+    "Pages": [],
+    "RibbonKind": "Card"
+  },
+  "RibbonCollectionMetadata": {
+    "NameGuid": "33ac22e9-7397-415a-88ad-8b9cd7164221",
+    "Name": "RibbonCollection",
+    "Categories": [],
+    "Elements": [],
+    "Groups": [],
+    "IsAncestorMetadata": true,
+    "Pages": []
+  },
+  "Versions": [
+    {
+      "Type": "EntityMetadata",
+      "Number": 12
+    }
+  ]
+}

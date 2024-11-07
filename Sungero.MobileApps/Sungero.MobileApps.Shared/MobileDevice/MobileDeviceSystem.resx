@@ -1,0 +1,154 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Property_Name" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="DisplayName" xml:space="preserve">
+    <value>Mobile Device</value>
+  </data>
+  <data name="CollectionDisplayName" xml:space="preserve">
+    <value>Mobile Devices</value>
+  </data>
+  <data name="AccusativeDisplayName" xml:space="preserve">
+    <value>Mobile Device</value>
+  </data>
+  <data name="Property_Employee" xml:space="preserve">
+    <value>Employee</value>
+  </data>
+  <data name="Property_DeviceId" xml:space="preserve">
+    <value>Device ID</value>
+  </data>
+  <data name="Property_OsVersion" xml:space="preserve">
+    <value>OS version</value>
+  </data>
+  <data name="Property_AppVersion" xml:space="preserve">
+    <value>App version</value>
+  </data>
+  <data name="Property_DeviceStatus" xml:space="preserve">
+    <value>Connection state</value>
+  </data>
+  <data name="Enum_DeviceStatus_None" xml:space="preserve">
+    <value>Initializing</value>
+  </data>
+  <data name="Enum_DeviceStatus_Enabled" xml:space="preserve">
+    <value>Active</value>
+  </data>
+  <data name="Enum_DeviceStatus_Disabled" xml:space="preserve">
+    <value>Locked</value>
+  </data>
+  <data name="AdditionalInfoTemplate" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Action_RequestLogs" xml:space="preserve">
+    <value>Request Logs</value>
+  </data>
+  <data name="Action_RequestLogsDescription" xml:space="preserve">
+    <value>Send a request to get log files from the mobile device</value>
+  </data>
+  <data name="Action_RequestLogsHint" xml:space="preserve">
+    <value>Send a request to get log files from the mobile device</value>
+  </data>
+  <data name="Action_RequestLogsConfirmationMessage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Action_RequestLogsConfirmationDescription" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Action_DeleteData" xml:space="preserve">
+    <value>Delete Data</value>
+  </data>
+  <data name="Action_DeleteDataDescription" xml:space="preserve">
+    <value>Send a request to delete the app data from the mobile device</value>
+  </data>
+  <data name="Action_DeleteDataHint" xml:space="preserve">
+    <value>Send a request to delete the app data from the mobile device. The data will be deleted when the device goes online.</value>
+  </data>
+  <data name="Action_DeleteDataConfirmationMessage" xml:space="preserve">
+    <value>Clear the app data from device?</value>
+  </data>
+  <data name="Action_DeleteDataConfirmationDescription" xml:space="preserve">
+    <value>The data will be deleted when the device goes online.</value>
+  </data>
+  <data name="Action_ResetSession" xml:space="preserve">
+    <value>Reset Session</value>
+  </data>
+  <data name="Action_ResetSessionDescription" xml:space="preserve">
+    <value>Reset employee's session on the mobile device.</value>
+  </data>
+  <data name="Action_ResetSessionHint" xml:space="preserve">
+    <value>Reset employee's session on the mobile device.</value>
+  </data>
+  <data name="Action_ResetSessionConfirmationMessage" xml:space="preserve">
+    <value>Reset session on the employee's device? The app data will be reloaded. It may take a long time.</value>
+  </data>
+  <data name="Action_ResetSessionConfirmationDescription" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Property_DeviceName" xml:space="preserve">
+    <value>Device</value>
+  </data>
+  <data name="Property_LastActivity" xml:space="preserve">
+    <value>Last Activity</value>
+  </data>
+  <data name="ControlGroup_442892aabea5433880725ebb7af5d242" xml:space="preserve">
+    <value>Mobile Device</value>
+  </data>
+</root>

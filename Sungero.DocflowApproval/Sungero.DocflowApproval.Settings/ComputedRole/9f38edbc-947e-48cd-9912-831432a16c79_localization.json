@@ -1,0 +1,12 @@
+{
+  "Description": {
+    "default": "Manager of the department to which the task initiator belongs.",
+    "ru-RU": "Руководитель подразделения, к которому относится инициатор задачи.",
+    "hash": "58663b5a3f5138f9808c9f47d73ad1af"
+  },
+  "Name": {
+    "default": "Manager of initiator's department",
+    "ru-RU": "Руководитель подразделения инициатора",
+    "hash": "3b3e9039fb7c64b1164754331e5f6ac0"
+  }
+}

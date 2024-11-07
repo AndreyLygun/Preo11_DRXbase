@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="TaskSubject" xml:space="preserve">
+    <value>Обработка: Документы от {0} для {1} (получены {2} через сервис обмена {3})</value>
+  </data>
+  <data name="AssignmentSubject" xml:space="preserve">
+    <value>Обработайте: Документы от {0} для {1} (получены {2} через сервис обмена {3})</value>
+  </data>
+  <data name="TaskActiveText" xml:space="preserve">
+    <value>Обработайте вложенные документы.</value>
+  </data>
+  <data name="NotAllDocumentTypesAreChanged" xml:space="preserve">
+    <value>Для выполнения задания смените тип и заполните необходимые реквизиты всех полученных документов.</value>
+  </data>
+  <data name="NotAllDocumentsSendedForProcessing" xml:space="preserve">
+    <value>Выполнить задание без отправки документов в работу?</value>
+  </data>
+  <data name="StateViewTaskBlockHeader" xml:space="preserve">
+    <value>Обработка входящих документов эл. обмена</value>
+  </data>
+  <data name="StateViewSender" xml:space="preserve">
+    <value>Отправитель: </value>
+  </data>
+  <data name="StateViewRecipient" xml:space="preserve">
+    <value>Получатель: </value>
+  </data>
+  <data name="StateViewAssignmentBlockHeader" xml:space="preserve">
+    <value>Задание на обработку</value>
+  </data>
+  <data name="StateViewInformationBlock" xml:space="preserve">
+    <value>Документ получен из сервиса обмена {0}. </value>
+  </data>
+  <data name="DocumentIsSignedByUs" xml:space="preserve">
+    <value>Документ {0} уже подписан нашей организацией в сервисе обмена.</value>
+  </data>
+  <data name="DocumentsIsRejectedByUs" xml:space="preserve">
+    <value>По документам {0} уже отправлен отказ в подписании. </value>
+  </data>
+  <data name="DocumentIsRejectedByUs" xml:space="preserve">
+    <value>По документу {0} уже отправлен отказ в подписании. </value>
+  </data>
+  <data name="OutcomingDocumentProcessingTaskActiveText" xml:space="preserve">
+    <value>Обработайте вложенные документы, отправленные нашей организацией через сервис обмена {0}.</value>
+  </data>
+  <data name="DocumentSentToAnotherResponsible" xml:space="preserve">
+    <value>Документ был отправлен в подразделение "{0}". Задание было переадресовано Вам, так как в абонентском ящике подразделения не был указан ответственный. Обратитесь к администратору для корректной настройки системы.</value>
+  </data>
+  <data name="DocumentSentToClosedBox" xml:space="preserve">
+    <value>Документ был отправлен в подразделение "{0}". Задание было переадресовано Вам, так как абонентский ящик подразделения закрыт. Обратитесь к администратору для корректной настройки системы.</value>
+  </data>
+  <data name="ExchangeDocumentProcessingTaskDefaultSubject" xml:space="preserve">
+    <value>Тема задания на обработку входящих документов эл. обмена</value>
+  </data>
+  <data name="GetStateViewFunctionName" xml:space="preserve">
+    <value>Информация по задаче</value>
+  </data>
+  <data name="GetStateViewFunctionDescription" xml:space="preserve">
+    <value>Отображение краткой сводки по задаче и ее заданиям</value>
+  </data>
+</root>

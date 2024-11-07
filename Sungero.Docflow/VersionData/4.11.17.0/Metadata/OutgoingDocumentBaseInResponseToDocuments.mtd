@@ -1,0 +1,65 @@
+{
+  "$type": "Sungero.Metadata.EntityMetadata, Sungero.Metadata",
+  "NameGuid": "2a74766a-7795-47ec-abba-eb5bd01f6f0b",
+  "Name": "OutgoingDocumentBaseInResponseToDocuments",
+  "AccessRightsMode": "NoRight",
+  "BaseGuid": "a3d38bf5-0414-41f6-bb33-a4621d2e5a60",
+  "CanBeNavigationPropertyType": true,
+  "Code": "InRespToInc",
+  "ExtraSearchProperties": [],
+  "IsChildEntity": true,
+  "Properties": [
+    {
+      "$type": "Sungero.Metadata.NavigationPropertyMetadata, Sungero.Metadata",
+      "NameGuid": "ede97568-43a0-400f-8585-0c0aeb9ee1e3",
+      "Name": "OutgoingDocumentBase",
+      "CanBeSearch": false,
+      "Code": "EDoc",
+      "EntityGuid": "f5f104fb-52e4-422b-9de1-a36937d85a2d",
+      "IsReferenceToRootEntity": true,
+      "IsShowedInList": false
+    },
+    {
+      "$type": "Sungero.Metadata.NavigationPropertyMetadata, Sungero.Metadata",
+      "NameGuid": "5d03f7e8-f2b3-4706-b70d-c85bcdbd80b1",
+      "Name": "Document",
+      "CanBeSearch": false,
+      "Code": "Document",
+      "EntityGuid": "4e7bf176-40b2-4e5d-b10b-af81ad7c62c3",
+      "FlatListInStandaloneLookup": true,
+      "HandledEvents": [
+        "LookupServer",
+        "ChangedShared"
+      ],
+      "ListDataBinderTypeName": "Sungero.Presentation.CommonDataBinders.DropDownEditorToNavigationBinder",
+      "NeedPassEntityToLookupEvent": true,
+      "PreviousPropertyGuid": "ede97568-43a0-400f-8585-0c0aeb9ee1e3"
+    }
+  ],
+  "PublicStructures": [],
+  "RibbonCardMetadata": {
+    "NameGuid": "85c2e473-1aa3-436a-84c3-674016d21d8c",
+    "Name": "RibbonCard",
+    "Categories": [],
+    "Elements": [],
+    "Groups": [],
+    "IsAncestorMetadata": true,
+    "Pages": [],
+    "RibbonKind": "Card"
+  },
+  "RibbonCollectionMetadata": {
+    "NameGuid": "a319288d-0c5a-4193-ac57-ceb98b15388c",
+    "Name": "RibbonCollection",
+    "Categories": [],
+    "Elements": [],
+    "Groups": [],
+    "IsAncestorMetadata": true,
+    "Pages": []
+  },
+  "Versions": [
+    {
+      "Type": "EntityMetadata",
+      "Number": 12
+    }
+  ]
+}

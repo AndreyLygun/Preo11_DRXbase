@@ -1,0 +1,12 @@
+{
+  "Description": {
+    "en-US": "Compact view of folder \"To get acquainted\" for employees included in role \"Users of manager's interface\".",
+    "ru-RU": "Компактное представление папки \"На ознакомление\" для пользователей, которые входят в роль \"Пользователи интерфейса для руководителей\".",
+    "hash": "cfac5a99d2de51125b795e5d02712980"
+  },
+  "Name": {
+    "en-US": "To get acquainted  (for managers)",
+    "ru-RU": "На ознакомление (для руководителей)",
+    "hash": "254a3032499751c75ea39726f37a7054"
+  }
+}

@@ -1,0 +1,160 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="OrderNumberName" xml:space="preserve">
+    <value>Порядковый номер</value>
+  </data>
+  <data name="Id" xml:space="preserve">
+    <value>ИД</value>
+  </data>
+  <data name="DocumentName" xml:space="preserve">
+    <value>Имя документа</value>
+  </data>
+  <data name="And" xml:space="preserve">
+    <value> и еще {0} {1}</value>
+  </data>
+  <data name="NoSkippedNumbers" xml:space="preserve">
+    <value>В журнале регистрации нет пропусков в нумерации за указанный период.</value>
+  </data>
+  <data name="SkippedNumbers" xml:space="preserve">
+    <value>В журнале регистрации пропущены порядковые номера:</value>
+  </data>
+  <data name="Document" xml:space="preserve">
+    <value>Документ</value>
+  </data>
+  <data name="NumberReserved" xml:space="preserve">
+    <value>Зарезервирован</value>
+  </data>
+  <data name="Note" xml:space="preserve">
+    <value>Примечание</value>
+  </data>
+  <data name="DateReg" xml:space="preserve">
+    <value>Дата рег.</value>
+  </data>
+  <data name="RegNumber" xml:space="preserve">
+    <value>Рег. номер</value>
+  </data>
+  <data name="ReportName" xml:space="preserve">
+    <value>Контроль пропусков в нумерации документов</value>
+  </data>
+  <data name="NumberIsSkipped" xml:space="preserve">
+    <value>Номер пропущен</value>
+  </data>
+  <data name="DocumentRegister" xml:space="preserve">
+    <value>журнала регистрации</value>
+  </data>
+  <data name="NumberNotOnFormat" xml:space="preserve">
+    <value>Не соотв. формату</value>
+  </data>
+  <data name="LeadingDocument" xml:space="preserve">
+    <value>Ведущий документ:</value>
+  </data>
+  <data name="Department" xml:space="preserve">
+    <value>Подразделение:</value>
+  </data>
+  <data name="BusinessUnit" xml:space="preserve">
+    <value>Наша организация:</value>
+  </data>
+  <data name="CurrentYear" xml:space="preserve">
+    <value>Текущий год</value>
+  </data>
+  <data name="PreviousYear" xml:space="preserve">
+    <value>Прошлый год</value>
+  </data>
+  <data name="CurrentWeek" xml:space="preserve">
+    <value>Текущая неделя</value>
+  </data>
+  <data name="PreviousWeek" xml:space="preserve">
+    <value>Прошлая неделя</value>
+  </data>
+  <data name="CurrentMonth" xml:space="preserve">
+    <value>Текущий месяц</value>
+  </data>
+  <data name="PreviousMonth" xml:space="preserve">
+    <value>Прошлый месяц</value>
+  </data>
+  <data name="CurrentQuarter" xml:space="preserve">
+    <value>Текущий квартал</value>
+  </data>
+  <data name="PreviousQuarter" xml:space="preserve">
+    <value>Прошлый квартал</value>
+  </data>
+  <data name="Period" xml:space="preserve">
+    <value>Период</value>
+  </data>
+  <data name="NumberFormat" xml:space="preserve">
+    <value>Формат номера:</value>
+  </data>
+  <data name="NumbersAreSkipped" xml:space="preserve">
+    <value>Номера пропущены</value>
+  </data>
+  <data name="ChronologicalError" xml:space="preserve">
+    <value>Нарушена хронология присвоения рег. номера</value>
+  </data>
+  <data name="PeriodFrom" xml:space="preserve">
+    <value>период с</value>
+  </data>
+  <data name="PeriodTo" xml:space="preserve">
+    <value>по</value>
+  </data>
+  <data name="CurrentDay" xml:space="preserve">
+    <value>Текущий день</value>
+  </data>
+</root>

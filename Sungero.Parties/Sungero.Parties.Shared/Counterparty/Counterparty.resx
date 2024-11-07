@@ -1,0 +1,225 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="NotValidTin" xml:space="preserve">
+    <value>TIN control digit is incorrect.</value>
+  </data>
+  <data name="TinDuplicate" xml:space="preserve">
+    <value>Duplicate found by TIN: {0} {1}.</value>
+  </data>
+  <data name="IncorrectAccountLength" xml:space="preserve">
+    <value>The number must contain a combination of 8-34 characters.
+The IBAN consists of up to 34 alphanumeric characters and may contain capital Latin letters.</value>
+  </data>
+  <data name="InvitationMessageHeader" xml:space="preserve">
+    <value>Note</value>
+  </data>
+  <data name="InvitationMessageDefault" xml:space="preserve">
+    <value>We invite you to exchange electronic documents.</value>
+  </data>
+  <data name="InvitationHeaderAccept" xml:space="preserve">
+    <value>Accept Invitation from Counterparty</value>
+  </data>
+  <data name="InvitationHeaderReject" xml:space="preserve">
+    <value>Decline Invitation from Counterparty</value>
+  </data>
+  <data name="InvitationBoxesNotAllowed" xml:space="preserve">
+    <value>You can already exchange documents with this counterparty via all available exchange services.</value>
+  </data>
+  <data name="InvitationBoxesNotFound" xml:space="preserve">
+    <value>To start legal document exchange, set up connection to exchange services.</value>
+  </data>
+  <data name="InvitationTitle" xml:space="preserve">
+    <value>Send Invitation to Counterparty</value>
+  </data>
+  <data name="NeedFillTinForSendInvitation" xml:space="preserve">
+    <value>To send an exchange invitation, specify counterparty's TIN.</value>
+  </data>
+  <data name="NeedFillTinForCanExchange" xml:space="preserve">
+    <value>To check exchangeability, specify counterparty's TIN.</value>
+  </data>
+  <data name="NotFoundInExchangeServices" xml:space="preserve">
+    <value>The counterparty is not registered in the supported exchange services. You can send an invitation to the counterparty by email.</value>
+  </data>
+  <data name="ExchangeServicesSeparator" xml:space="preserve">
+    <value>, </value>
+  </data>
+  <data name="ToManyExchangeServices" xml:space="preserve">
+    <value>{0} and others</value>
+  </data>
+  <data name="FoundInExchangeServices" xml:space="preserve">
+    <value>You can send exchange invitation to the counterparty.</value>
+  </data>
+  <data name="FoundInExchangeServicesDescription" xml:space="preserve">
+    <value>You can start legal document exchange with the counterparty 
+via exchange service: {0}.</value>
+  </data>
+  <data name="InvitationHeaderRestore" xml:space="preserve">
+    <value>Resume Exchange with Counterparty Exchange Box</value>
+  </data>
+  <data name="InvitationHeaderTermination" xml:space="preserve">
+    <value>Stop Exchange with Counterparty Exchange Box</value>
+  </data>
+  <data name="InvitationHeaderRevoke" xml:space="preserve">
+    <value>Revoke Exchange Invitation</value>
+  </data>
+  <data name="Enum_Operation_SentToCA" xml:space="preserve">
+    <value>Exchange invitation sent</value>
+  </data>
+  <data name="Enum_Operation_SentToUs" xml:space="preserve">
+    <value>Exchange invitation received</value>
+  </data>
+  <data name="Enum_Operation_Activated" xml:space="preserve">
+    <value>Exchange with counterparty allowed</value>
+  </data>
+  <data name="Enum_Operation_Closed" xml:space="preserve">
+    <value>Exchange with counterparty blocked</value>
+  </data>
+  <data name="Enum_OperationDetailed_Changed" xml:space="preserve">
+    <value>For {0} in {1} exchange service</value>
+  </data>
+  <data name="HaveDoubleCounterparties" xml:space="preserve">
+    <value>Exchange via all available exchange services is already configured for the counterparty duplicate.</value>
+  </data>
+  <data name="InvitationBoxesAndDoubleNotAllowed" xml:space="preserve">
+    <value>Exchange via all available exchange services is already configured for the counterparty and its duplicates.</value>
+  </data>
+  <data name="NoExchangeThroughThisService" xml:space="preserve">
+    <value>You cannot exchange documents with the counterparty via the selected exchange service.</value>
+  </data>
+  <data name="NeedSetExchange" xml:space="preserve">
+    <value>Initiate legal document exchange with the counterparty.</value>
+  </data>
+  <data name="NoRightsToChangeCard" xml:space="preserve">
+    <value>You are not authorized to change the counterparty card</value>
+  </data>
+  <data name="NotValidTinRegionCode" xml:space="preserve">
+    <value>TIN region code is incorrect.</value>
+  </data>
+  <data name="DuplicateNotFound" xml:space="preserve">
+    <value>Duplicates not found.</value>
+  </data>
+  <data name="NoDefaultBoxService" xml:space="preserve">
+    <value>Select counterparty exchange box that will be used to send documents via exchange box {0}</value>
+  </data>
+  <data name="ParameterSaveFromUI" xml:space="preserve">
+    <value>SaveFromUI:{0}</value>
+  </data>
+  <data name="ParameterIsForceDuplicateSave" xml:space="preserve">
+    <value>IsForceDuplicateSave:{0}</value>
+  </data>
+  <data name="NotOnlyDigitsTin" xml:space="preserve">
+    <value>TIN must contain only digits.</value>
+  </data>
+  <data name="ExchangeDialogCounterpartyInfo" xml:space="preserve">
+    <value>TIN/TRRC</value>
+  </data>
+  <data name="ExchangeDialogOperatorCode" xml:space="preserve">
+    <value>Operator roaming code</value>
+  </data>
+  <data name="ExchangeDialogOperatorCodeError" xml:space="preserve">
+    <value>The operator roaming code must consist of 3 characters. Check the code and send the invitation again.</value>
+  </data>
+  <data name="ExchangeDialogCounterpartyRejectTitle" xml:space="preserve">
+    <value>Stop Exchange</value>
+  </data>
+  <data name="ExchangeDialogCounterpartyRejectInfo" xml:space="preserve">
+    <value>After deleting the electronic exchange will be finalized. The counterparty exchange box will be deleted from the list.</value>
+  </data>
+  <data name="ExchangeDialogCounterpartyRejectDelete" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="ExchangeDialogCounterpartyRejectStop" xml:space="preserve">
+    <value>Stop Exchange</value>
+  </data>
+  <data name="ExchangeDialogCounterpartyRejectStopInfo" xml:space="preserve">
+    <value>Once stopped, the electronic exchange can be resumed later.</value>
+  </data>
+  <data name="ExchangeDialogCounterpartyRejectConfirm" xml:space="preserve">
+    <value>Stop electronic exchange?</value>
+  </data>
+  <data name="ExchangeDialogCounterpartyRejectSuccess" xml:space="preserve">
+    <value>Electronic exchange with exchange box "{0}" is finalized. The exchange box is deleted from the list.</value>
+  </data>
+  <data name="ExchangeDialogSaveButton" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="ExchangeDialogTitle" xml:space="preserve">
+    <value>Change Details of Electronic Exchange</value>
+  </data>
+  <data name="ExchangeDialogWarning" xml:space="preserve">
+    <value>Finalize the document exchange with the exchange box for all documents.</value>
+  </data>
+  <data name="ExchangeDialogButtonSend" xml:space="preserve">
+    <value>Send</value>
+  </data>
+  <data name="ExchangeDialogCounterpartyChangeIncorrectOrganisationId" xml:space="preserve">
+    <value>Counterparty's TIN/TRRC in the exchange service must be the same as those in the company card.</value>
+  </data>
+  <data name="ExchangeDialogCounterpartyUpdateSuccess" xml:space="preserve">
+    <value>Company details for electronic exchange have been changed successfully.</value>
+  </data>
+  <data name="ExchangeDialogOrganizationId" xml:space="preserve">
+    <value>Counterparty ID in exchange service</value>
+  </data>
+  <data name="ExchangeDialogCounterpartyBranchId" xml:space="preserve">
+    <value>Counterparty branch ID in exchange service</value>
+  </data>
+</root>

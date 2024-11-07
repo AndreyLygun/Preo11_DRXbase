@@ -1,0 +1,32 @@
+{
+  "Description": {
+    "default": "Request to performer to submit report on action item status",
+    "ru-RU": "Запрос на предоставление отчета по исполнению поручения у исполнителя",
+    "hash": "0cbc992d337ed2fbf42eb37efdf0f04f"
+  },
+  "Name": {
+    "default": "Request report on action item",
+    "ru-RU": "Запрос отчета по поручению",
+    "hash": "ed91111e1bcfad953c9f4d0bf45b0f97"
+  },
+  "Subject_SE_1": {
+    "default": "{0}",
+    "ru-RU": "{0}",
+    "hash": "031926624c88fbc0578b59ea78a99849"
+  },
+  "Subject_SE_2": {
+    "default": "{0}",
+    "ru-RU": "{0}",
+    "hash": "031926624c88fbc0578b59ea78a99849"
+  },
+  "Title_SE_1": {
+    "default": "Request report on action item execution",
+    "ru-RU": "Запрос отчета по поручению",
+    "hash": "7f0fc508386fc5fbc91988de3a88b2b4"
+  },
+  "Title_SE_2": {
+    "default": "Accept report on action item execution",
+    "ru-RU": "Приемка отчета по поручению",
+    "hash": "de4eb8ed40b1fd7d28378f7f97429078"
+  }
+}

@@ -1,0 +1,287 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="DisplayName" xml:space="preserve">
+    <value>Review</value>
+  </data>
+  <data name="AccusativeDisplayName" xml:space="preserve">
+    <value>Review</value>
+  </data>
+  <data name="CollectionDisplayName" xml:space="preserve">
+    <value>Assignments to review documents</value>
+  </data>
+  <data name="Enum_Result_Informed" xml:space="preserve">
+    <value>Informed</value>
+  </data>
+  <data name="Action_Informed" xml:space="preserve">
+    <value>Be Informed</value>
+  </data>
+  <data name="Action_InformedHint" xml:space="preserve">
+    <value>Be Informed About Document</value>
+  </data>
+  <data name="Action_InformedConfirmationMessage" xml:space="preserve">
+    <value>Complete document review without sending the action items for execution?</value>
+  </data>
+  <data name="Action_InformedDescription" xml:space="preserve">
+    <value>Review document without approving the draft resolution and sending it for execution.
+
+Action items will be deleted from the draft resolution</value>
+  </data>
+  <data name="AttachmentGroup_DocumentForReviewGroupTitle" xml:space="preserve">
+    <value>Document for review</value>
+  </data>
+  <data name="AttachmentGroup_DocumentForReviewGroupInformationMessage" xml:space="preserve">
+    <value>Attach document for review</value>
+  </data>
+  <data name="AttachmentGroup_AddendaGroupTitle" xml:space="preserve">
+    <value>Addenda</value>
+  </data>
+  <data name="AttachmentGroup_AddendaGroupInformationMessage" xml:space="preserve">
+    <value>There are no addenda to document</value>
+  </data>
+  <data name="AttachmentGroup_OtherGroupTitle" xml:space="preserve">
+    <value>Other attachments</value>
+  </data>
+  <data name="AttachmentGroup_OtherGroupInformationMessage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="AttachmentGroup_ResolutionGroupTitle" xml:space="preserve">
+    <value>Draft Resolution</value>
+  </data>
+  <data name="AttachmentGroup_ResolutionGroupInformationMessage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Property_Addressee" xml:space="preserve">
+    <value>Forward to employee</value>
+  </data>
+  <data name="Enum_Result_DraftResApprove" xml:space="preserve">
+    <value>Approve Draft Resolution</value>
+  </data>
+  <data name="Action_DraftResApproveDescription" xml:space="preserve">
+    <value>Approve draft resolution.
+
+Action items attached to draft resolution will be sent for execution</value>
+  </data>
+  <data name="Action_DraftResApproveConfirmationMessage" xml:space="preserve">
+    <value>Approve the draft resolution and send the action items for execution?</value>
+  </data>
+  <data name="Action_DraftResApprove" xml:space="preserve">
+    <value>Approve Draft Resolution</value>
+  </data>
+  <data name="Action_DraftResApproveHint" xml:space="preserve">
+    <value>Approve Draft Resolution</value>
+  </data>
+  <data name="Enum_Result_Forward" xml:space="preserve">
+    <value>Forward Review</value>
+  </data>
+  <data name="Action_Forward" xml:space="preserve">
+    <value>Forward Review</value>
+  </data>
+  <data name="Action_ForwardHint" xml:space="preserve">
+    <value>Forward Document Review</value>
+  </data>
+  <data name="Action_ForwardConfirmationMessage" xml:space="preserve">
+    <value>Forward the assignment to review the document?</value>
+  </data>
+  <data name="Action_ForwardDescription" xml:space="preserve">
+    <value>Assign document review to another employee</value>
+  </data>
+  <data name="Resource_1bbfaba9c44445878d1c51150787fb2e" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Control_1bbfaba9c44445878d1c51150787fb2e_EmptyText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Resource_c9c4beefec5b4b3796d4959c17991279" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Control_c9c4beefec5b4b3796d4959c17991279_EmptyText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Resource_45c3f7afea6f40948e21e643b6358f4a" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Control_45c3f7afea6f40948e21e643b6358f4a_EmptyText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Resource_ad03c4af7bfe4967aa2cdaa3265bdbe3" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ControlGroup_4917364762724459ab15867c0b3c85a2" xml:space="preserve">
+    <value>Horizontal Group</value>
+  </data>
+  <data name="ControlGroup_ebfeb539df3646ebb16c88e4afe77109" xml:space="preserve">
+    <value>Main</value>
+  </data>
+  <data name="ControlGroup_2843c476ecee44d3a08869784756d9f0" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ControlGroup_7d052a6b05aa4586abbfca9d980cf36c" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ControlGroup_eca46beba27c4abc91e73bf3186fd8f8" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ControlGroup_38dc7005cf144527856c12e24ec7990d" xml:space="preserve">
+    <value>Draft Resolution</value>
+  </data>
+  <data name="Action_CreateActionItem" xml:space="preserve">
+    <value>Create Action Item</value>
+  </data>
+  <data name="Footer_ActiveEmptyText" xml:space="preserve">
+    <value>Enter text of resolution or comment…</value>
+  </data>
+  <data name="autotext_d74c0b99-b7ca-480f-bb05-0fccf92a47b6_0" xml:space="preserve">
+    <value>For further work</value>
+  </data>
+  <data name="autotext_d74c0b99-b7ca-480f-bb05-0fccf92a47b6_1" xml:space="preserve">
+    <value>Prepare a response</value>
+  </data>
+  <data name="autotext_d74c0b99-b7ca-480f-bb05-0fccf92a47b6_2" xml:space="preserve">
+    <value>Review the document</value>
+  </data>
+  <data name="autotext_d74c0b99-b7ca-480f-bb05-0fccf92a47b6_3" xml:space="preserve">
+    <value>For execution</value>
+  </data>
+  <data name="autotext_d74c0b99-b7ca-480f-bb05-0fccf92a47b6_4" xml:space="preserve">
+    <value>Provide</value>
+  </data>
+  <data name="autotext_d74c0b99-b7ca-480f-bb05-0fccf92a47b6_5" xml:space="preserve">
+    <value>For your information</value>
+  </data>
+  <data name="Action_CreateActionItemDescription" xml:space="preserve">
+    <value>Create action item and send it for execution</value>
+  </data>
+  <data name="Action_CreateActionItemHint" xml:space="preserve">
+    <value>Create Action Item on Document</value>
+  </data>
+  <data name="Action_CreateActionItemConfirmationMessage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Action_CreateActionItemConfirmationDescription" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Ribbon_ExecutionGroup_51c9ce715f444738a32b31f11e937385" xml:space="preserve">
+    <value>Execution</value>
+  </data>
+  <data name="Enum_Result_ActionItemsSent" xml:space="preserve">
+    <value>Sent for Execution</value>
+  </data>
+  <data name="Action_ActionItemsSent" xml:space="preserve">
+    <value>Sent for Execution</value>
+  </data>
+  <data name="Action_ActionItemsSentHint" xml:space="preserve">
+    <value>Sent for Execution</value>
+  </data>
+  <data name="Action_ActionItemsSentConfirmationMessage" xml:space="preserve">
+    <value>Action items on the document are sent for execution. Complete the assignment?</value>
+  </data>
+  <data name="Action_ActionItemsSentDescription" xml:space="preserve">
+    <value>Confirm the fact of sending document for execution</value>
+  </data>
+  <data name="Enum_Result_DocsRework" xml:space="preserve">
+    <value>Return to initiator</value>
+  </data>
+  <data name="Action_DocsRework" xml:space="preserve">
+    <value>Return to Initiator</value>
+  </data>
+  <data name="Action_DocsReworkHint" xml:space="preserve">
+    <value>Return to Initiator for Rework</value>
+  </data>
+  <data name="Action_DocsReworkConfirmationMessage" xml:space="preserve">
+    <value>Send to the initiator for rework?</value>
+  </data>
+  <data name="Action_DocsReworkDescription" xml:space="preserve">
+    <value>Return to initiator for rework</value>
+  </data>
+  <data name="Enum_Result_DraftResRework" xml:space="preserve">
+    <value>Return to Assistant</value>
+  </data>
+  <data name="Action_DraftResRework" xml:space="preserve">
+    <value>Return to Assistant</value>
+  </data>
+  <data name="Action_DraftResReworkHint" xml:space="preserve">
+    <value>Return Draft Resolution for Rework</value>
+  </data>
+  <data name="Action_DraftResReworkConfirmationMessage" xml:space="preserve">
+    <value>Send the draft resolution for rework?</value>
+  </data>
+  <data name="Action_DraftResReworkDescription" xml:space="preserve">
+    <value>Send draft resolution to assistant for rework</value>
+  </data>
+  <data name="Enum_Result_ResPassed" xml:space="preserve">
+    <value>Resolution passed</value>
+  </data>
+  <data name="Action_ResPassed" xml:space="preserve">
+    <value>Resolution Passed</value>
+  </data>
+  <data name="Action_ResPassedHint" xml:space="preserve">
+    <value>Pass Resolution on Document</value>
+  </data>
+  <data name="Action_ResPassedConfirmationMessage" xml:space="preserve">
+    <value>Send the resolution for the action items to be created?</value>
+  </data>
+  <data name="Action_ResPassedDescription" xml:space="preserve">
+    <value>Send resolution to the assistant to create action items</value>
+  </data>
+  <data name="Property_AssistantPrepareResolution" xml:space="preserve">
+    <value>Assistant prepares draft resolution</value>
+  </data>
+</root>

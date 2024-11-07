@@ -1,0 +1,12 @@
+{
+  "Description": {
+    "en-US": "Compact view of folder \"To sign\" for employees included in role \"Users of manager's interface\".",
+    "ru-RU": "Компактное представление папки \"На подписание\" для пользователей, которые входят в роль \"Пользователи интерфейса для руководителей\".",
+    "hash": "2022bd58b64dc3f41ff4139fe2564a97"
+  },
+  "Name": {
+    "en-US": "To sign (for managers)",
+    "ru-RU": "На подписание (для руководителей)",
+    "hash": "e3cb87c2ba587f573d0b1acf789bfcd1"
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "$type": "Sungero.Metadata.EntityMetadata, Sungero.Metadata",
+  "NameGuid": "da51e62f-53fd-42df-94f0-8f22cf245197",
+  "Name": "MobileAppSettingVisibleFolders",
+  "AccessRightsMode": "NoRight",
+  "BaseGuid": "a3d38bf5-0414-41f6-bb33-a4621d2e5a60",
+  "CanBeNavigationPropertyType": true,
+  "Code": "VisibleFolders",
+  "ExtraSearchProperties": [],
+  "IsChildEntity": true,
+  "Properties": [
+    {
+      "$type": "Sungero.Metadata.NavigationPropertyMetadata, Sungero.Metadata",
+      "NameGuid": "2391ebb9-71da-46b7-bdc3-60d7c0be9634",
+      "Name": "MobileAppSetting",
+      "CanBeSearch": false,
+      "Code": "MobAppSetting",
+      "EntityGuid": "210b9d5c-0218-43c5-b950-c69a65caec9b",
+      "IsReferenceToRootEntity": true,
+      "IsShowedInList": false
+    },
+    {
+      "$type": "Sungero.Metadata.LongIntegerPropertyMetadata, Sungero.Metadata",
+      "NameGuid": "30be5c44-5c40-413d-8d85-d2486055d3e0",
+      "Name": "FolderId",
+      "CanBeSearch": false,
+      "Code": "FolderId",
+      "IsShowedInList": false,
+      "ListDataBinderTypeName": "Sungero.Presentation.CommonDataBinders.NumericEditorToIntAndDoubleBinder",
+      "PreviousPropertyGuid": "2391ebb9-71da-46b7-bdc3-60d7c0be9634"
+    },
+    {
+      "$type": "Sungero.Metadata.StringPropertyMetadata, Sungero.Metadata",
+      "NameGuid": "e0ffca8b-d6b6-479d-8d76-6792a02a35d2",
+      "Name": "FolderName",
+      "CanBeSearch": false,
+      "Code": "FolderName",
+      "IsEnabled": false,
+      "Length": 300,
+      "ListDataBinderTypeName": "Sungero.Presentation.CommonDataBinders.StringEditorToStringBinder",
+      "PreviousPropertyGuid": "30be5c44-5c40-413d-8d85-d2486055d3e0"
+    }
+  ],
+  "PublicStructures": [],
+  "RibbonCardMetadata": {
+    "NameGuid": "931363af-ee04-434f-bd49-fce5363cdb38",
+    "Name": "RibbonCard",
+    "Categories": [],
+    "Elements": [],
+    "Groups": [],
+    "IsAncestorMetadata": true,
+    "Pages": [],
+    "RibbonKind": "Card"
+  },
+  "RibbonCollectionMetadata": {
+    "NameGuid": "9e719b5c-82d4-4c07-b628-b48925055588",
+    "Name": "RibbonCollection",
+    "Categories": [],
+    "Elements": [],
+    "Groups": [],
+    "IsAncestorMetadata": true,
+    "Pages": []
+  },
+  "Versions": [
+    {
+      "Type": "EntityMetadata",
+      "Number": 12
+    }
+  ]
+}

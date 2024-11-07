@@ -1,0 +1,12 @@
+{
+  "Description": {
+    "en-US": "Compact view of folder \"To rework\" for employees included in role \"Users of manager's interface\".",
+    "ru-RU": "Компактное представление папки \"На доработку\" для пользователей, которые входят в роль \"Пользователи интерфейса для руководителей\".",
+    "hash": "224ca3f1528d51be9b4b478b49bcb7c1"
+  },
+  "Name": {
+    "en-US": "To rework  (for managers)",
+    "ru-RU": "На доработку (для руководителей)",
+    "hash": "1b7795ccc983cbbea83615ee4b3e3cb8"
+  }
+}

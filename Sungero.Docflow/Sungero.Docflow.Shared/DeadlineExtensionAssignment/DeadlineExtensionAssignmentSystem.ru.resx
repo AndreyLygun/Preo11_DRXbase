@@ -1,0 +1,133 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Action_ForReworkDescription" xml:space="preserve">
+    <value>Отказ в продлении срока задания</value>
+  </data>
+  <data name="Action_ForReworkConfirmationMessage" xml:space="preserve">
+    <value>Отказать в продлении срока?</value>
+  </data>
+  <data name="Action_ForReworkHint" xml:space="preserve">
+    <value>Отказать в продлении срока задания</value>
+  </data>
+  <data name="Enum_Result_ForRework" xml:space="preserve">
+    <value>Отказать</value>
+  </data>
+  <data name="Action_ForRework" xml:space="preserve">
+    <value>Отказать</value>
+  </data>
+  <data name="DisplayName" xml:space="preserve">
+    <value>Продление срока</value>
+  </data>
+  <data name="AccusativeDisplayName" xml:space="preserve">
+    <value>Продление срока</value>
+  </data>
+  <data name="CollectionDisplayName" xml:space="preserve">
+    <value>Задания на продление срока</value>
+  </data>
+  <data name="Property_NewDeadline" xml:space="preserve">
+    <value>Новый срок</value>
+  </data>
+  <data name="Property_ScheduledDate" xml:space="preserve">
+    <value>Текущий срок</value>
+  </data>
+  <data name="Footer_ActiveEmptyText" xml:space="preserve">
+    <value>Пояснение по принятому решению…</value>
+  </data>
+  <data name="Enum_Result_Accept" xml:space="preserve">
+    <value>Продлить</value>
+  </data>
+  <data name="Action_Accept" xml:space="preserve">
+    <value>Продлить</value>
+  </data>
+  <data name="Action_AcceptHint" xml:space="preserve">
+    <value>Продлить срок задания</value>
+  </data>
+  <data name="Action_AcceptConfirmationMessage" xml:space="preserve">
+    <value>Продлить срок задания?</value>
+  </data>
+  <data name="Action_AcceptDescription" xml:space="preserve">
+    <value>Продление срока задания на указанную дату</value>
+  </data>
+  <data name="Property_ForwardTo" xml:space="preserve">
+    <value>Переадресовать сотруднику</value>
+  </data>
+  <data name="Action_ForwardDescription" xml:space="preserve">
+    <value>Отправка запроса на продление срока другому сотруднику</value>
+  </data>
+  <data name="Action_ForwardHint" xml:space="preserve">
+    <value>Переадресовать продление срока</value>
+  </data>
+  <data name="Action_ForwardConfirmationMessage" xml:space="preserve">
+    <value>Переадресовать продление срока?</value>
+  </data>
+  <data name="Action_Forward" xml:space="preserve">
+    <value>Переадресовать </value>
+  </data>
+  <data name="Enum_Result_Forward" xml:space="preserve">
+    <value>Переадресовать</value>
+  </data>
+  <data name="ControlGroup_80a2eed3b3b94789a0a83a7ca501cdfc" xml:space="preserve">
+    <value>Сроки</value>
+  </data>
+  <data name="ControlGroup_ebfeb539df3646ebb16c88e4afe77109" xml:space="preserve">
+    <value>Основное</value>
+  </data>
+</root>

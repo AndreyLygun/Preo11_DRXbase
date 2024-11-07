@@ -1,0 +1,12 @@
+{
+  "Description": {
+    "default": "CEO of the business unit to which the task initiator belongs.",
+    "ru-RU": "Руководитель нашей организации, к которой относится инициатор задачи.",
+    "hash": "bb29cb090f99961848318c7f14878436"
+  },
+  "Name": {
+    "default": "CEO of initiator's business unit",
+    "ru-RU": "Руководитель нашей организации инициатора",
+    "hash": "444fb62b72cc15d701d25b2bba11f5d0"
+  }
+}

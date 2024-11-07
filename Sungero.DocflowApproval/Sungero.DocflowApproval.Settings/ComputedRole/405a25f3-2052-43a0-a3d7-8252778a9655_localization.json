@@ -1,0 +1,12 @@
+{
+  "Description": {
+    "default": "Employee responsible for a registration group that registers outgoing documents.",
+    "ru-RU": "Ответственный за группу регистрации документов исходящего документопотока.",
+    "hash": "a4274f111aaedf139345176a31d37ff1"
+  },
+  "Name": {
+    "default": "Registrar of outgoing correspondence",
+    "ru-RU": "Регистратор исходящей корреспонденции",
+    "hash": "94bce4dae94e6874d5310604f03ee82f"
+  }
+}

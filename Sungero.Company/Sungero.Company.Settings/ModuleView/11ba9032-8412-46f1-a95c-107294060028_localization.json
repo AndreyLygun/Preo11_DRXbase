@@ -1,0 +1,226 @@
+{
+  "Action_Description_64b8d7b662064694b26408fcceee7ec4": {
+    "default": "Configure access to business units, departments, and employees. To put rules into effect, enable the limit of the organizational structure visibility.",
+    "ru-RU": "Настройка доступности наших организаций, подразделений и сотрудников.  Для работы правил включите ограничение в настройках видимости оргструктуры.",
+    "hash": "c8ad826d1027447d0f9f0c43130b2fe4"
+  },
+  "Action_Description_65d57b6162804a86a11f24659165e287": {
+    "default": "Stores information about all individuals (counterparties, employees, contacts) that our company deals with.",
+    "ru-RU": "Справочник персон.",
+    "hash": "76830ba38196bff1b39d0222ca395aad"
+  },
+  "Action_Description_66eddf6e146c4ec3a2513998e3e2cafa": {
+    "default": "Stores information about the job titles of our employees.",
+    "ru-RU": "Справочник предназначен для хранения должностей наших сотрудников.",
+    "hash": "7f36978fd64102782c086788dd4ae201"
+  },
+  "Action_Description_678ae27cbd274f59b53df84fcea04f3b": {
+    "default": "Stores information about persons who substitute absent employees. Substitution is designed to delegate tasks, duties and access rights of an absent employee to another employee of your company.",
+    "ru-RU": "Замещение предназначено для передачи обязанностей и прав доступа сотрудника на время его отсутствия другому сотруднику компании.",
+    "hash": "6c2b7f1109c1eab0cba0d27ca1def952"
+  },
+  "Action_Description_72a376099bc74d189994c6793bbac1af": {
+    "default": "Stores settings of connections to services of formalized powers of attorney.",
+    "ru-RU": "Настройка подключений к сервисам электронных доверенностей.",
+    "hash": "a445023f81ef0edff3187232a3bb99d6"
+  },
+  "Action_Description_7f13a7e217c045dd8bfd13c0d57463cc": {
+    "default": "Stores configurations for business units, departments, or employees from different time zones. The databook allows the system to calculate task deadlines, and display correct date and time in reports.",
+    "ru-RU": "Настройка часовых поясов для филиалов, подразделений или сотрудников, которые работают в разных часовых зонах. Позволяет системе корректно вычислять сроки заданий, отображать дату и время в отчетах.",
+    "hash": "590d364e63986e53d61b9e3eeb0ea827"
+  },
+  "Action_Description_9d68c48edf6a41e4a1978897e07a01b7": {
+    "default": "Stores information about structure units of our company. A department may be either a part of a business unit or a stand-alone unit.",
+    "ru-RU": "Структурные части компании, осуществляющие свою деятельность в рамках деятельности нашей компании. Подразделения могут быть как привязаны к нашим организациям, так и быть обособленными.",
+    "hash": "c847425815536543d2c00c18df28c3bd"
+  },
+  "Action_Description_9fba8b9ceb47420f8875754bfd93dc27": {
+    "default": "Stores information about companies that our company deals with.",
+    "ru-RU": "Справочник организаций-контрагентов.",
+    "hash": "6ed246b04fb25d9cb45bd8601b87d2fe"
+  },
+  "Action_Description_a6c65e2705f44bbe876588587361543d": {
+    "default": "Limit access of employees to the organizational structure.",
+    "ru-RU": "Ограничение доступности оргструктуры для сотрудников.",
+    "hash": "bd4a82aa472e54bdbd6b7a7c5a09ab6c"
+  },
+  "Action_Description_baa2217701ea4bc78169681b040cb0f0": {
+    "default": "Stores information about connections to legal document exchange services.",
+    "ru-RU": "Настройка подключений к сервисам обмена юридически значимыми электронными документами.",
+    "hash": "160afc149ebf1930c39a6eeb17f86b55"
+  },
+  "Action_Description_bed8bf51547846729ca15bd189d22471": {
+    "default": "Assign assistants and select functions they will perform on behalf of managers.",
+    "ru-RU": "Назначение ассистентов и выбор функций, которые они будут выполнять за руководителей.",
+    "hash": "ffb7ce29ee48d73a477fed39ff48c1c9"
+  },
+  "Action_Description_c1757c0cf8054a6884340a135c9fbf2f": {
+    "default": "Stores information about certificates used to sign documents with an electronic signature.",
+    "ru-RU": "Сертификаты предназначены для установки электронной подписи на документы.",
+    "hash": "763d486fbc0f405e59efbce4e47ecb87"
+  },
+  "Action_Description_eabf818f2eca43eeae9e569463a58fa6": {
+    "default": "Stores information about accounts used to authenticate users.",
+    "ru-RU": "Учетные записи предназначены для входа пользователей в систему.",
+    "hash": "270baf62c62ddd34e0685203640e6bd2"
+  },
+  "Action_Description_f1cf4fbd57b44f5ba848dfb55a6b7d18": {
+    "default": "Stores information about our employees. Each employee is associated with an account.",
+    "ru-RU": "Справочник предназначен для хранения сведений о наших сотрудниках. Каждый сотрудник связан с учетной записью для работы с системой.",
+    "hash": "01d9565baeae3ad8509974dc042a6506"
+  },
+  "Action_Description_fc3ca435b95844b699f0fd26ca54df37": {
+    "default": "Stores information about all legal entities of our company.",
+    "ru-RU": "Юридические лица, филиалы и представительства, в лице которых действует наша компания.",
+    "hash": "19dd3e5104c38cdd9c4f24415ea19dad"
+  },
+  "Action_Description_fca9ba4443d84b56b43aef014fa175fc": {
+    "default": "Stores information about working days, days off and holidays.",
+    "ru-RU": "Календари рабочего времени содержат информацию по рабочему времени, выходным и праздничным дням.",
+    "hash": "f55cd6200371bbc04e3cb03b6da2c1b6"
+  },
+  "Action_Description_fd0cc0990ffb49f4be000c87e0203eab": {
+    "default": "Stores information about roles. Roles help you to group users according to their responsibilities.",
+    "ru-RU": "Роли предназначены для группировки сотрудников по функциональным обязанностям.",
+    "hash": "8a38f78329ebcc0434b31a7572f679ef"
+  },
+  "Action_Title_445ea5f44607404ca461e6864218f448": {
+    "default": "New Department",
+    "ru-RU": "Создать подразделение",
+    "hash": "33cc5954f3c44a7d2136528e997e3ced"
+  },
+  "Action_Title_64b8d7b662064694b26408fcceee7ec4": {
+    "default": "Organizational Structure Visibility Rules",
+    "ru-RU": "Правила видимости оргструктуры",
+    "hash": "29441727b098410c6ee5095da3ef5078"
+  },
+  "Action_Title_65d57b6162804a86a11f24659165e287": {
+    "default": "Persons",
+    "ru-RU": "Персоны",
+    "hash": "2fcc675fa94cac470934d87696f017ca"
+  },
+  "Action_Title_66eddf6e146c4ec3a2513998e3e2cafa": {
+    "default": "Job Titles",
+    "ru-RU": "Должности",
+    "hash": "e90fa7baf3a3b7b6203b772ba0de1bd2"
+  },
+  "Action_Title_678ae27cbd274f59b53df84fcea04f3b": {
+    "default": "Substitutions",
+    "ru-RU": "Замещения",
+    "hash": "3232663997c32fa17951995941f9fc6a"
+  },
+  "Action_Title_72a376099bc74d189994c6793bbac1af": {
+    "default": "Our Connections to POA Service",
+    "ru-RU": "Наши подключения к сервису доверенностей",
+    "hash": "741b5c5feebc6568b818af1921bd9fe0"
+  },
+  "Action_Title_7f13a7e217c045dd8bfd13c0d57463cc": {
+    "default": "Time Zones",
+    "ru-RU": "Часовые пояса",
+    "hash": "6cbb29cf3d09daa8ad3617709532e629"
+  },
+  "Action_Title_9b74f73b175f40dcbf050f6be4895a9c": {
+    "default": "New Employee",
+    "ru-RU": "Создать сотрудника",
+    "hash": "58ea390c1b238ae3edc04d7dce94625a"
+  },
+  "Action_Title_9d68c48edf6a41e4a1978897e07a01b7": {
+    "default": "Departments",
+    "ru-RU": "Подразделения",
+    "hash": "370be76d375b498c06997ea36d6a4dbf"
+  },
+  "Action_Title_9fba8b9ceb47420f8875754bfd93dc27": {
+    "default": "Companies",
+    "ru-RU": "Организации",
+    "hash": "2a40c8a277ebc700e9f4c92c2b3b8186"
+  },
+  "Action_Title_a6c65e2705f44bbe876588587361543d": {
+    "default": "Organizational Structure Visibility Settings",
+    "ru-RU": "Настройки видимости оргструктуры",
+    "hash": "a3bb810fe960a086a5cb2c72c7e6329b"
+  },
+  "Action_Title_baa2217701ea4bc78169681b040cb0f0": {
+    "default": "Our Exchange Boxes",
+    "ru-RU": "Наши абонентские ящики сервисов обмена",
+    "hash": "d2da5fc6f72611ce4df6be63be7dc8ff"
+  },
+  "Action_Title_be6df752233043489cda8a729e7ad96c": {
+    "default": "New Business Unit",
+    "ru-RU": "Создать нашу организацию",
+    "hash": "ffdaa282da357bc98a204e0a994932ce"
+  },
+  "Action_Title_bed8bf51547846729ca15bd189d22471": {
+    "default": "Assistant Managers",
+    "ru-RU": "Ассистенты руководителей",
+    "hash": "0d36130714cfc80d8082c9567158ab7a"
+  },
+  "Action_Title_c1757c0cf8054a6884340a135c9fbf2f": {
+    "default": "Public Key Certificates",
+    "ru-RU": "Цифровые сертификаты",
+    "hash": "556d5e46a67d2edcdd6eece343c64435"
+  },
+  "Action_Title_eabf818f2eca43eeae9e569463a58fa6": {
+    "default": "Accounts",
+    "ru-RU": "Учетные записи",
+    "hash": "485dbbe375b2ce69a7fb197af16ca3d8"
+  },
+  "Action_Title_f1cf4fbd57b44f5ba848dfb55a6b7d18": {
+    "default": "Employees",
+    "ru-RU": "Сотрудники",
+    "hash": "cc22a93735c0da53f53ef9e61581acea"
+  },
+  "Action_Title_fc3ca435b95844b699f0fd26ca54df37": {
+    "default": "Business Units",
+    "ru-RU": "Наши организации",
+    "hash": "062954484ba9ea2fd6ab73174c694fc5"
+  },
+  "Action_Title_fca9ba4443d84b56b43aef014fa175fc": {
+    "default": "Working Time Calendars",
+    "ru-RU": "Календари рабочего времени",
+    "hash": "735ce2be32335f724beca3506dc015d8"
+  },
+  "Action_Title_fd0cc0990ffb49f4be000c87e0203eab": {
+    "default": "Roles",
+    "ru-RU": "Роли",
+    "hash": "64276701af946215224a9cd06454b74d"
+  },
+  "Group_Title_68df04814fb4404cae07637782bebc16": {
+    "default": "Integration",
+    "ru-RU": "Интеграция",
+    "hash": "9f1b2b35e63516c580a9524eb51d8213"
+  },
+  "Group_Title_7cc5a1e5eba5420ca52c90d77aaa9f1d": {
+    "default": "Corporate Structure",
+    "ru-RU": "Организационная структура",
+    "hash": "4265928c5ee09e76b066c43b2ec7ebd0"
+  },
+  "Group_Title_a24430ea6e6c4d2da17fdbb37f9416b5": {
+    "default": "Employees",
+    "ru-RU": "Персонал",
+    "hash": "89f3355413837c4b16068b8a408e3c24"
+  },
+  "Group_Title_b89b97a4318b440cb05c7627aacff3bd": {
+    "default": "Related Information",
+    "ru-RU": "Связанная информация",
+    "hash": "4f3a6a60b3de9b5162f268b4b1aa8fdf"
+  },
+  "Header_Description_44c54208fe3246169983301f0dad52ad": {
+    "default": "This module is where you can manage internal corporate structure.",
+    "ru-RU": "Модуль предназначен для управления внутренней структурой нашей компании.",
+    "hash": "cd80462bfcd1aaa64a6132f4a5bfefff"
+  },
+  "Header_Title_44c54208fe3246169983301f0dad52ad": {
+    "default": "Our Company",
+    "ru-RU": "Компания",
+    "hash": "c9f39be570a4b3350529d29f64902f01"
+  },
+  "Name": {
+    "default": "Company (for configuration)",
+    "ru-RU": "Компания (для настройки)",
+    "hash": "d277b535809d3792f71ff20718c1988b"
+  },
+  "Tab_Title_24eff53a65d849c6b9927dece99fdb93": {
+    "default": "Tab",
+    "hash": "308b6abade3f7962098e8bd8cb7db726"
+  }
+}

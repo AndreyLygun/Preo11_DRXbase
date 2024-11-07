@@ -1,0 +1,191 @@
+{
+  "Description": {
+    "en-US": "Simple action item for execution by one assignee",
+    "ru-RU": "Простое поручение, работы по которому выполняет один исполнитель",
+    "hash": "c3eb9e2df44069f8153919805889f2ad"
+  },
+  "Name": {
+    "en-US": "Simple action item",
+    "ru-RU": "Простое поручение",
+    "hash": "506dc3a8c903605dc69c8f408b5a8915"
+  },
+  "Subject_SE_1": {
+    "en-US": "{0}",
+    "ru-RU": "{0}",
+    "hash": "031926624c88fbc0578b59ea78a99849"
+  },
+  "Subject_SE_25": {
+    "en-US": "{0}",
+    "ru-RU": "{0}",
+    "hash": "031926624c88fbc0578b59ea78a99849"
+  },
+  "Subject_SE_27": {
+    "en-US": "{0}",
+    "ru-RU": "{0}",
+    "hash": "031926624c88fbc0578b59ea78a99849"
+  },
+  "Subject_SE_36": {
+    "en-US": "{0}",
+    "ru-RU": "{0}",
+    "hash": "031926624c88fbc0578b59ea78a99849"
+  },
+  "Subject_SE_39": {
+    "en-US": "{0}",
+    "ru-RU": "{0}",
+    "hash": "031926624c88fbc0578b59ea78a99849"
+  },
+  "Subject_SE_45": {
+    "en-US": "{0}",
+    "ru-RU": "{0}",
+    "hash": "031926624c88fbc0578b59ea78a99849"
+  },
+  "Subject_SE_54": {
+    "en-US": "{0}",
+    "ru-RU": "{0}",
+    "hash": "031926624c88fbc0578b59ea78a99849"
+  },
+  "Subject_SE_6": {
+    "en-US": "{0}",
+    "ru-RU": "{0}",
+    "hash": "031926624c88fbc0578b59ea78a99849"
+  },
+  "ThreadSubject_SE_1": {
+    "en-US": "Execution of action item",
+    "ru-RU": "Исполнение поручения",
+    "hash": "fcd794aa50252cb0151fe36e7b021b9e"
+  },
+  "ThreadSubject_SE_25": {
+    "en-US": "Notice of action item execution",
+    "ru-RU": "Уведомление о создании поручения",
+    "hash": "5e759095250868ff8c33401d7a567d9d"
+  },
+  "ThreadSubject_SE_27": {
+    "en-US": "Notice to supervisor",
+    "ru-RU": "Уведомление контролеру",
+    "hash": "6d8f753b6f0afbe16e5442cd0a6f9f45"
+  },
+  "ThreadSubject_SE_36": {
+    "en-US": "Work acceptance notice",
+    "ru-RU": "Уведомление о приемке работ",
+    "hash": "8b0b3cf676d4612e2502746d4c80f74f"
+  },
+  "ThreadSubject_SE_39": {
+    "en-US": "Notice about action item execution",
+    "ru-RU": "Уведомление об исполнении поручения",
+    "hash": "81e6c6ce3db13c6171d22e0f811f41b0"
+  },
+  "ThreadSubject_SE_45": {
+    "en-US": "Notice about action item execution",
+    "ru-RU": "Уведомление об исполнении поручения",
+    "hash": "81e6c6ce3db13c6171d22e0f811f41b0"
+  },
+  "ThreadSubject_SE_6": {
+    "en-US": "Accept work by supervisor",
+    "ru-RU": "Приемка работ контролером",
+    "hash": "14a9df7f4b0749f31f1fb3317fa7154b"
+  },
+  "Title_SE_1": {
+    "en-US": "Execute action item",
+    "ru-RU": "Исполнение поручения"
+  },
+  "Title_SE_10": {
+    "en-US": "Does action item include participation of co-assignees?",
+    "ru-RU": "Поручение с соисполнителями?"
+  },
+  "Title_SE_11": {
+    "en-US": "Wait for creation of assignment to main assignee",
+    "ru-RU": "Ожидание создания задания основному исполнителю"
+  },
+  "Title_SE_18": {
+    "en-US": "Process result of action item execution",
+    "ru-RU": "Обработка результата исполнения поручения"
+  },
+  "Title_SE_2": {
+    "en-US": "Wait for unlocking of parent assignment ",
+    "ru-RU": "Ожидание разблокировки ведущего задания"
+  },
+  "Title_SE_22": {
+    "en-US": "Assign access rights to task and documents to participants ",
+    "ru-RU": "Назначение участникам прав на документы и задачу"
+  },
+  "Title_SE_25": {
+    "en-US": "Notice to observers about start of action item execution",
+    "ru-RU": "Уведомление наблюдателей о начале исполнения поручения"
+  },
+  "Title_SE_27": {
+    "en-US": "Notice of being assigned as supervisor",
+    "ru-RU": "Уведомление о назначении контролером"
+  },
+  "Title_SE_29": {
+    "en-US": "Is action item assigned to co-assignee?",
+    "ru-RU": "Поручение соисполнителю?"
+  },
+  "Title_SE_31": {
+    "en-US": "Is task initiator not supervisor?",
+    "ru-RU": "Отправитель не является контролером?"
+  },
+  "Title_SE_32": {
+    "en-US": "Is supervisor of action item the same as that of action item part?",
+    "ru-RU": "Общий и контролер пункта совпадают?"
+  },
+  "Title_SE_34": {
+    "en-US": "Is assignee not assigned as supervisor?",
+    "ru-RU": "Исполнитель не является контролером?"
+  },
+  "Title_SE_35": {
+    "en-US": "Is it an action item part?",
+    "ru-RU": "Пункт составного поручения?"
+  },
+  "Title_SE_36": {
+    "en-US": "Notice to assignee about work acceptance",
+    "ru-RU": "Уведомление исполнителю о приемке работ"
+  },
+  "Title_SE_39": {
+    "en-US": "Notice to initiator of compound action item on execution",
+    "ru-RU": "Уведомление инициатору составного поручения об исполнении"
+  },
+  "Title_SE_41": {
+    "en-US": "Are task initiator and assignee not the same employee?",
+    "ru-RU": "Исполнитель и отправитель различаются?"
+  },
+  "Title_SE_43": {
+    "en-US": "Is task initiator not a supervisor or assignee?",
+    "ru-RU": "Отправитель не исполнитель и не контролер?"
+  },
+  "Title_SE_45": {
+    "en-US": "Notice to initiator about action item execution",
+    "ru-RU": "Уведомление инициатору поручения об исполнении"
+  },
+  "Title_SE_46": {
+    "en-US": "Is it an action item part?",
+    "ru-RU": "Пункт составного поручения?"
+  },
+  "Title_SE_5": {
+    "en-US": "Is action item supervised?",
+    "ru-RU": "Поручение на контроле?"
+  },
+  "Title_SE_54": {
+    "en-US": "Send action items to co-assignees",
+    "ru-RU": "Отправка поручений соисполнителям"
+  },
+  "Title_SE_55": {
+    "en-US": "Does virtual assistant prepare action item draft?",
+    "ru-RU": "Вирт. помощник готовит проект поручения?"
+  },
+  "Title_SE_56": {
+    "en-US": "Process document by Directum Ario services",
+    "ru-RU": "Обработка документа сервисами Directum Ario"
+  },
+  "Title_SE_57": {
+    "en-US": "Create draft of child action item",
+    "ru-RU": "Создание проекта подчиненного поручения"
+  },
+  "Title_SE_58": {
+    "en-US": "Delete child action items that were not sent for execution",
+    "ru-RU": "Удаление неотправленных подчиненных поручений"
+  },
+  "Title_SE_6": {
+    "en-US": "Accept work by supervisor",
+    "ru-RU": "Приемка работ контролером"
+  }
+}

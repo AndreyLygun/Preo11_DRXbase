@@ -1,0 +1,142 @@
+{
+  "3d93c8b6-fa14-88a0-2dbc-d2a3071dca89_Name": {
+    "default": "New approval deadline",
+    "ru-RU": "Новый срок согласования",
+    "hash": "248e3f33eee3c7113b1d28ce581b26d1"
+  },
+  "Description": {
+    "default": "Document approval with the specified employees",
+    "ru-RU": "Cогласование документа с указанным списком сотрудников",
+    "hash": "e4e28390b31feeba141852553f93b531"
+  },
+  "Description_405089e9-0371-44d5-98f9-9f7a0f9d1466": {
+    "default": "Employees to notify about sending document for re-approval",
+    "ru-RU": "Сотрудники, которым необходимо отправить уведомление при отправке документа на повторное согласование.",
+    "hash": "fa77edecc83dbd6c23376242900cf593"
+  },
+  "Description_7dd1803e-346d-467b-b91e-8c59a7da5f6a": {
+    "default": "Employee who sent assignment for rework to the assignee",
+    "ru-RU": "Сотрудник, который направил задание на доработку исполнителю",
+    "hash": "abad29740492883c186fbb5f39e2e36f"
+  },
+  "Description_9a157f98-c62f-4fff-91c4-d040a1bfbf88": {
+    "default": "Employees who must approve documents within the current task",
+    "ru-RU": "Сотрудники, с которыми необходимо согласовать документ",
+    "hash": "138bcd229128d29ce080689cd355b50a"
+  },
+  "Description_ede7105e-163a-45cc-b9f6-04c64534c695": {
+    "default": "Employee who received the assignment for rework",
+    "ru-RU": "Сотрудник, которому направили задание на доработку",
+    "hash": "c7e0ddb79f36abc6b95db600b12b7e1d"
+  },
+  "Name": {
+    "default": "Free approval",
+    "ru-RU": "Свободное согласование",
+    "hash": "90e1cb82aec6870651baa1246b32c441"
+  },
+  "Name_405089e9-0371-44d5-98f9-9f7a0f9d1466": {
+    "default": "Recipients of notice on new approval stage",
+    "ru-RU": "Получатели уведомления при повторном согласовании",
+    "hash": "af0ffd9585f313977a3c6627ca2eb69e"
+  },
+  "Name_7dd1803e-346d-467b-b91e-8c59a7da5f6a": {
+    "default": "Sent for rework by",
+    "ru-RU": "Отправил на доработку",
+    "hash": "ae8d7013ebc76e3b1334cc3fae551b22"
+  },
+  "Name_9a157f98-c62f-4fff-91c4-d040a1bfbf88": {
+    "default": "Approvers",
+    "ru-RU": "Согласующие",
+    "hash": "eab364b7fde8c471e622bb3a6c260e5b"
+  },
+  "Name_ede7105e-163a-45cc-b9f6-04c64534c695": {
+    "default": "Employee responsible for rework",
+    "ru-RU": "Ответственный за доработку",
+    "hash": "3129bff471909b87792c4cdcfbb7acb8"
+  },
+  "Subject_SE_1": {
+    "default": "Make revisions to {0}",
+    "ru-RU": "Доработайте: {0}",
+    "hash": "98ff588b845a21b3d3cb161314751a0d"
+  },
+  "Subject_SE_11": {
+    "default": "Sent for reapproval: {0}",
+    "ru-RU": "Отправлен на повторное согласование: {0}",
+    "hash": "ef1c542256bc3e57660476db888313d0"
+  },
+  "Subject_SE_2": {
+    "default": "Approve: {0}",
+    "ru-RU": "Согласуйте: {0}",
+    "hash": "76fe31b1d36124615ad5f4b3d8701635"
+  },
+  "Subject_SE_3": {
+    "default": "Approval completed: {0}",
+    "ru-RU": "Согласование завершено: {0}",
+    "hash": "4aaf96ea8d4e11ff6e77a40922045f05"
+  },
+  "Subject_SE_4": {
+    "default": "Sent for rework: {0}",
+    "ru-RU": "Отправлен на доработку: {0}",
+    "hash": "0d382ede9fb8611a1038c2fa0a36196b"
+  },
+  "Subject_SE_6": {
+    "default": "Approval completed: {0}",
+    "ru-RU": "Согласование завершено: {0}",
+    "hash": "4aaf96ea8d4e11ff6e77a40922045f05"
+  },
+  "ThreadSubject_SE_3": {
+    "default": "Complete document approval",
+    "ru-RU": "Завершение согласования",
+    "hash": "32b23e8c42d1e67a962f6486eeff7d6e"
+  },
+  "Title_SE_1": {
+    "default": "Rework document",
+    "ru-RU": "Доработка документа",
+    "hash": "9ed0f115fc280b5d060ae97f07571bd7"
+  },
+  "Title_SE_10": {
+    "default": "Receive assignment after document is approved?",
+    "ru-RU": "По завершении получить задание?",
+    "hash": "3505f77a4f02a10d453811b1a9f4b5c8"
+  },
+  "Title_SE_11": {
+    "default": "Notice on new approval stage",
+    "ru-RU": "Уведомление о новом круге согласования",
+    "hash": "34f94012c5aba9885b89c6f3066f716e"
+  },
+  "Title_SE_12": {
+    "default": "Manage observers access rights",
+    "ru-RU": "Назначение прав наблюдателям",
+    "hash": "1b3c994b5949395094f49e26d9506d8c"
+  },
+  "Title_SE_2": {
+    "default": "Approve document",
+    "ru-RU": "Согласование документа",
+    "hash": "aebc8fb8239b6061d1f18c2130d8407e"
+  },
+  "Title_SE_3": {
+    "default": "Finalize approval",
+    "ru-RU": "Завершение согласования",
+    "hash": "638eeb4c2d5865a45c75350943221e74"
+  },
+  "Title_SE_4": {
+    "default": "Notice of sending document for rework",
+    "ru-RU": "Уведомление об отправке на доработку",
+    "hash": "da07b2af9e4a68bb3dfaade0df9dac95"
+  },
+  "Title_SE_5": {
+    "default": "Wait for sending document for rework",
+    "ru-RU": "Ожидание отправки на доработку",
+    "hash": "8a5a0721bdda5cd2d77c3d5d1a57e5d0"
+  },
+  "Title_SE_6": {
+    "default": "Notice of completed document approval",
+    "ru-RU": "Уведомление о завершении согласования",
+    "hash": "d13d7a8bf69275be39f8c3c01cc0b79e"
+  },
+  "Title_SE_9": {
+    "default": "Is approval completed?",
+    "ru-RU": "Согласование завершено?",
+    "hash": "bc8f57cef264bc0c8766ec46ed1eb664"
+  }
+}

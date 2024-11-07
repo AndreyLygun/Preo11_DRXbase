@@ -1,0 +1,12 @@
+{
+  "Description": {
+    "default": "Employee responsible for preparation, approval, and execution of the document. They are specified in the document card.",
+    "ru-RU": "Сотрудник, ответственный за подготовку, согласование и исполнение документа.",
+    "hash": "98f36a4e5b437052131ff0ddac0f645e"
+  },
+  "Name": {
+    "default": "Responsible for document",
+    "ru-RU": "Ответственный за документ",
+    "hash": "6612c696f6eb40c1a6dd8b8637b6cdf7"
+  }
+}

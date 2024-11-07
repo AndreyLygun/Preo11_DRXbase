@@ -1,0 +1,78 @@
+{
+  "Description": {
+    "en-US": "Compound action item for independent execution by several equal assignees",
+    "ru-RU": "Составное поручение, работы по которому выполняют несколько равноправных исполнителей независимо друг от друга",
+    "hash": "64ca8a083b227e7bf6fbb8af594a2ff2"
+  },
+  "Name": {
+    "en-US": "Compound action item",
+    "ru-RU": "Составное поручение",
+    "hash": "8629844dc862bde91bbe28afa91087ae"
+  },
+  "Subject_SE_14": {
+    "en-US": "{0}",
+    "ru-RU": "{0}",
+    "hash": "031926624c88fbc0578b59ea78a99849"
+  },
+  "Subject_SE_23": {
+    "en-US": "{0}",
+    "ru-RU": "{0}",
+    "hash": "031926624c88fbc0578b59ea78a99849"
+  },
+  "Subject_SE_30": {
+    "en-US": "{0}",
+    "ru-RU": "{0}",
+    "hash": "031926624c88fbc0578b59ea78a99849"
+  },
+  "ThreadSubject_SE_14": {
+    "en-US": "Notice of action item execution",
+    "ru-RU": "Уведомление о создании поручения",
+    "hash": "5e759095250868ff8c33401d7a567d9d"
+  },
+  "ThreadSubject_SE_23": {
+    "en-US": "Notice to supervisor",
+    "ru-RU": "Уведомление контролеру",
+    "hash": "6d8f753b6f0afbe16e5442cd0a6f9f45"
+  },
+  "ThreadSubject_SE_30": {
+    "en-US": "Action item part",
+    "ru-RU": "Пункт поручения",
+    "hash": "707d0c7219f853fb235b4d00cfa148e0"
+  },
+  "Title_SE_1": {
+    "en-US": "Wait for unlocking of parent assignment ",
+    "ru-RU": "Ожидание разблокировки ведущего задания"
+  },
+  "Title_SE_12": {
+    "en-US": "Assign access rights to task and documents to participants ",
+    "ru-RU": "Назначение участникам прав на документы и задачу"
+  },
+  "Title_SE_14": {
+    "en-US": "Notice to observers about start of action item execution",
+    "ru-RU": "Уведомление наблюдателей о начале исполнения поручения"
+  },
+  "Title_SE_23": {
+    "en-US": "Notice of being assigned as supervisor",
+    "ru-RU": "Уведомление о назначении контролером"
+  },
+  "Title_SE_24": {
+    "en-US": "Is supervisor of action item the same as that of action item part?",
+    "ru-RU": "Общий и контролер пункта совпадают?"
+  },
+  "Title_SE_25": {
+    "en-US": "Is it an action item part?",
+    "ru-RU": "Пункт составного поручения?"
+  },
+  "Title_SE_26": {
+    "en-US": "Is task initiator not supervisor?",
+    "ru-RU": "Отправитель не является контролером?"
+  },
+  "Title_SE_27": {
+    "en-US": "Is action item assigned to co-assignee?",
+    "ru-RU": "Поручение соисполнителю?"
+  },
+  "Title_SE_30": {
+    "en-US": "Send tasks based on action item parts",
+    "ru-RU": "Отправка задач по пунктам поручений"
+  }
+}

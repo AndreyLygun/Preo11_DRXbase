@@ -1,0 +1,20 @@
+{
+  "Control_Caption_21c5669143fc484b966569aae11a8da6": {
+    "en-US": "Subject",
+    "ru-RU": "Тема"
+  },
+  "Description": {
+    "en-US": "View of an assignment to approve a document for employees included in role \"Users of manager's interface\" (within free-form approval).",
+    "ru-RU": "Отображение карточки задания на свободное согласование для пользователей, которые входят в роль \"Пользователи интерфейса для руководителей\".",
+    "hash": "e002a80006b2a1827fbe79e7a0442280"
+  },
+  "Name": {
+    "en-US": "Assignment to approve document within free-form approval (for managers)",
+    "ru-RU": "Задание на согласование (для руководителей) в свободном согласовании",
+    "hash": "dff9458b92bea48ffd3f8f02a5328bad"
+  },
+  "Thread_Title_a2b1a03300e7415c9eca8ae12d0ed849": {
+    "en-US": "Thread",
+    "ru-RU": "Переписка"
+  }
+}

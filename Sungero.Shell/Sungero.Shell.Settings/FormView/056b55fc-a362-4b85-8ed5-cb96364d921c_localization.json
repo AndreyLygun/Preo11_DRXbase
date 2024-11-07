@@ -1,0 +1,16 @@
+{
+  "Control_Caption_af802eb392ad46bc9d5ed79a79fe5851": {
+    "en-US": "Subject",
+    "ru-RU": "Тема"
+  },
+  "Description": {
+    "en-US": "View of an assignment to extend deadline without an attached document for employees included in role \"Users of manager's interface\".",
+    "ru-RU": "Отображение карточки задания на продление срока без документа для пользователей, которые входят в роль \"Пользователи интерфейса для руководителей\".",
+    "hash": "81ca6d22f9913ed1f042c9f37030a227"
+  },
+  "Name": {
+    "en-US": "Assignment to extend deadline without document (for managers)",
+    "ru-RU": "Задание на продление срока без документа (для руководителей)",
+    "hash": "f24143237c3787b197636f990367dfd4"
+  }
+}

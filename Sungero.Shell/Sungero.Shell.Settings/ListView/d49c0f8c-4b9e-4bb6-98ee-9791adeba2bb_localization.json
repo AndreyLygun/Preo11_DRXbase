@@ -1,0 +1,12 @@
+{
+  "Description": {
+    "en-US": "Compact view of folder \"To verification\" for employees included in role \"Users of manager's interface\".",
+    "ru-RU": "Компактное представление папки \"На верификацию\" для пользователей, которые входят в роль \"Пользователи интерфейса для руководителей\".",
+    "hash": "e085eb587ff6b0aa3fe0b83e77034d79"
+  },
+  "Name": {
+    "en-US": "To verification  (for managers)",
+    "ru-RU": "На верификацию (для руководителей)",
+    "hash": "6882a35cf73b5bb814f2b6f080659593"
+  }
+}

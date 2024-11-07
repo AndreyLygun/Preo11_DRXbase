@@ -1,0 +1,139 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="DisplayName" xml:space="preserve">
+    <value>Request to extend deadline</value>
+  </data>
+  <data name="AccusativeDisplayName" xml:space="preserve">
+    <value>Request to extend deadline</value>
+  </data>
+  <data name="CollectionDisplayName" xml:space="preserve">
+    <value>Requests to extend deadline</value>
+  </data>
+  <data name="Property_Assignee" xml:space="preserve">
+    <value>Assignee</value>
+  </data>
+  <data name="Property_NewDeadline" xml:space="preserve">
+    <value>New deadline</value>
+  </data>
+  <data name="Property_CurrentDeadline" xml:space="preserve">
+    <value>Current deadline</value>
+  </data>
+  <data name="Resource_035869ed2baa4573bdfe9e4f5e10c4b3" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Resource_74e85eafe5944dc5b4724e791948b781" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Control_74e85eafe5944dc5b4724e791948b781_EmptyText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ControlGroup_3849ac3b252941c6aa0d03907f402a05" xml:space="preserve">
+    <value>Vertical Group</value>
+  </data>
+  <data name="ControlGroup_73e7c55ab14d49d89a690ed7d46bf563" xml:space="preserve">
+    <value>Main</value>
+  </data>
+  <data name="ControlGroup_3ac9d65f504b4a6eac9dc57bc9b7d311" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ControlGroup_23f620999b9c49d486cf8d5736be4ac5" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ControlGroup_0cbdf7b631c648818d275d13996b0ee5" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Footer_ActiveEmptyText" xml:space="preserve">
+    <value>Reason for deadline extension…</value>
+  </data>
+  <data name="Action_StartConfirmationMessage" xml:space="preserve">
+    <value>Send the deadline extension request?</value>
+  </data>
+  <data name="Property_StartedBy" xml:space="preserve">
+    <value>Sent by</value>
+  </data>
+  <data name="Action_RestartConfirmationMessage" xml:space="preserve">
+    <value>Restart the deadline extension request?</value>
+  </data>
+  <data name="Action_AbortConfirmationMessage" xml:space="preserve">
+    <value>Abort the deadline extension request?</value>
+  </data>
+  <data name="Enum_Status_Completed" xml:space="preserve">
+    <value>Completed</value>
+  </data>
+  <data name="Enum_Status_Aborted" xml:space="preserve">
+    <value>Aborted</value>
+  </data>
+  <data name="Block_b09cd9744e0548fb865bd80528574e0c" xml:space="preserve">
+    <value>Request deadline extension</value>
+  </data>
+  <data name="Block_334c7f61e8f64726b704e073e8f766cc" xml:space="preserve">
+    <value>Accept rejection of deadline extension</value>
+  </data>
+  <data name="Block_1ae7c36019d8413f926df4f47137858d" xml:space="preserve">
+    <value>Process assignment deadline extension</value>
+  </data>
+  <data name="Block_1fdd1c56f2674b0dbed9df9a9a299c43" xml:space="preserve">
+    <value>Process task deadline extension</value>
+  </data>
+  <data name="Block_854c9d5b87504f0a8ad0a7db9f1de470" xml:space="preserve">
+    <value>Notice of deadline extension</value>
+  </data>
+</root>

@@ -1,0 +1,256 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="DisplayName" xml:space="preserve">
+    <value>Docflow. Document Circulation</value>
+  </data>
+  <data name="CoverTitle" xml:space="preserve">
+    <value>DocflowApproval</value>
+  </data>
+  <data name="Block_5a8803f0499b4e1f9e8eb335bda41063" xml:space="preserve">
+    <value>Approval</value>
+  </data>
+  <data name="Block_f505526d13cc463db19582d7b348cb18" xml:space="preserve">
+    <value>Rework</value>
+  </data>
+  <data name="Block_5a8803f0499b4e1f9e8eb335bda41063_Property_3d542c20720e4a7e855b52e8afedd5ab" xml:space="preserve">
+    <value>Enable approval with suggestions</value>
+  </data>
+  <data name="Block_5a8803f0499b4e1f9e8eb335bda41063_Property_13819027c33342bb98f6f8973c978946" xml:space="preserve">
+    <value>Allow changing properties</value>
+  </data>
+  <data name="Block_5a8803f0499b4e1f9e8eb335bda41063_Property_0eac358798794e91bff8f0bb0027f6a2" xml:space="preserve">
+    <value>Additional approvers</value>
+  </data>
+  <data name="Block_5a8803f0499b4e1f9e8eb335bda41063_Property_f6fe047f90db439e8e419e7d9cf6e37f" xml:space="preserve">
+    <value>Require advanced electronic signature</value>
+  </data>
+  <data name="Block_5a8803f0499b4e1f9e8eb335bda41063_Property_208f7e4dd1874059bdcef28a56776f6b" xml:space="preserve">
+    <value>Allow selection of employee responsible for document rework</value>
+  </data>
+  <data name="Block_5a8803f0499b4e1f9e8eb335bda41063_Property_9a1deccea0a648f3a4457717d521d909" xml:space="preserve">
+    <value>Send for rework to</value>
+  </data>
+  <data name="Block_c583a018517a4b94a80a3fc0e5df7225" xml:space="preserve">
+    <value>Process document</value>
+  </data>
+  <data name="Block_c583a018517a4b94a80a3fc0e5df7225_Property_daf7a53501aa4250bfb06f532fd6821a" xml:space="preserve">
+    <value>Print</value>
+  </data>
+  <data name="Block_c583a018517a4b94a80a3fc0e5df7225_Property_187531d059114315b5899bfa99a95987" xml:space="preserve">
+    <value>Register</value>
+  </data>
+  <data name="Block_c583a018517a4b94a80a3fc0e5df7225_Property_810a744aa82f43139b5364d774a8e92c" xml:space="preserve">
+    <value>Send to counterparty</value>
+  </data>
+  <data name="Block_c583a018517a4b94a80a3fc0e5df7225_Property_26f11275bc08451db9465428b4482edd" xml:space="preserve">
+    <value>Create action items</value>
+  </data>
+  <data name="Block_5a8803f0499b4e1f9e8eb335bda41063_Property_025d3502f19b4dd09ad018f8f391c959" xml:space="preserve">
+    <value>Hide document properties</value>
+  </data>
+  <data name="Block_c583a018517a4b94a80a3fc0e5df7225_Property_9843f45d0a1748b29a11049c39f91a07" xml:space="preserve">
+    <value>Allow sending for rework</value>
+  </data>
+  <data name="Block_c583a018517a4b94a80a3fc0e5df7225_Property_2f55c323776a477cb0eb796ec3b60a57" xml:space="preserve">
+    <value>Allow selection of employee responsible for document rework</value>
+  </data>
+  <data name="Block_c583a018517a4b94a80a3fc0e5df7225_Property_64054b54d47346b59b000c3d5ae0608a" xml:space="preserve">
+    <value>Send for rework to</value>
+  </data>
+  <data name="Block_f505526d13cc463db19582d7b348cb18_Property_957e8c1d94754c25b446c1ea98e4177a" xml:space="preserve">
+    <value>Allow changing delivery method</value>
+  </data>
+  <data name="Block_5a8803f0499b4e1f9e8eb335bda41063_Property_09c42bfec89e4bb6975264f7b5054913" xml:space="preserve">
+    <value>Delivery method</value>
+  </data>
+  <data name="Block_5a8803f0499b4e1f9e8eb335bda41063_Property_40716b0ea76744b7be69c48512b1bd56" xml:space="preserve">
+    <value>Exchange service</value>
+  </data>
+  <data name="Block_c583a018517a4b94a80a3fc0e5df7225_Property_ea2f4e5261d0484e968c03d7b4c783f8" xml:space="preserve">
+    <value>Delivery method</value>
+  </data>
+  <data name="Block_c583a018517a4b94a80a3fc0e5df7225_Property_57ceaee1c41b4f338c0abcb6bfe17762" xml:space="preserve">
+    <value>Exchange service</value>
+  </data>
+  <data name="Block_f505526d13cc463db19582d7b348cb18_Property_1d2bc7bc1a564376906596cdb0cc9c1e" xml:space="preserve">
+    <value>Delivery Method</value>
+  </data>
+  <data name="Block_f505526d13cc463db19582d7b348cb18_Property_e5b131a05b2542f68bd6b27166c17c41" xml:space="preserve">
+    <value>Exchange Service</value>
+  </data>
+  <data name="Block_12f8c17b5f0c43ba8696163fdd6ab4fb" xml:space="preserve">
+    <value>Signing</value>
+  </data>
+  <data name="Block_2e31c26b04ed48ca9d2135a529a3d716" xml:space="preserve">
+    <value>Check return from counterparty</value>
+  </data>
+  <data name="Block_b37ed8b93bd34baf85365a383865214f" xml:space="preserve">
+    <value>Wait for signing by counterparty</value>
+  </data>
+  <data name="Block_b37ed8b93bd34baf85365a383865214f_Property_7fbf57acf98e446e93a7eef7b7ce927d" xml:space="preserve">
+    <value>Document</value>
+  </data>
+  <data name="Block_b37ed8b93bd34baf85365a383865214f_Property_62722b304d1c40b9910d7a7cf63f4edd_Enum_9ea58df54d244bd59dc2170c06c7bb72" xml:space="preserve">
+    <value>Signed</value>
+  </data>
+  <data name="Block_b37ed8b93bd34baf85365a383865214f_Property_62722b304d1c40b9910d7a7cf63f4edd_Enum_4bf9e77039c24c4f93efe91ef80bc1d2" xml:space="preserve">
+    <value>Not signed</value>
+  </data>
+  <data name="Block_12f8c17b5f0c43ba8696163fdd6ab4fb_Property_359bacc2a08546d09b1c51e4f7f48c25" xml:space="preserve">
+    <value>Allow selection of employee responsible for document rework</value>
+  </data>
+  <data name="Block_12f8c17b5f0c43ba8696163fdd6ab4fb_Property_30d2c4babb584c0db64fc19281fc4902" xml:space="preserve">
+    <value>Send for rework to</value>
+  </data>
+  <data name="Block_12f8c17b5f0c43ba8696163fdd6ab4fb_Property_05b3e92aa03d4b2d8ad7e75ef6629f08" xml:space="preserve">
+    <value>Require advanced electronic signature</value>
+  </data>
+  <data name="Block_831222ddb8354a40ac15cda559b3d175" xml:space="preserve">
+    <value>Advanced Assignment</value>
+  </data>
+  <data name="Block_831222ddb8354a40ac15cda559b3d175_Property_d86037e0570f4cdebfb024daf66add61" xml:space="preserve">
+    <value>Allow Forward</value>
+  </data>
+  <data name="Block_831222ddb8354a40ac15cda559b3d175_Property_24ac13cfcac64697ae74b40fa8085201" xml:space="preserve">
+    <value>Allow send for rework</value>
+  </data>
+  <data name="Block_831222ddb8354a40ac15cda559b3d175_Property_bd945135278645a5839f79439070e782" xml:space="preserve">
+    <value>Allow change rework performer</value>
+  </data>
+  <data name="Block_831222ddb8354a40ac15cda559b3d175_Property_5ef9ff58264f4b0684457e90f2d93d27" xml:space="preserve">
+    <value>Rework performer</value>
+  </data>
+  <data name="Block_2ca43602b96443b19e7be0c2cc0e3864" xml:space="preserve">
+    <value>Convert to PDF</value>
+  </data>
+  <data name="Block_2ca43602b96443b19e7be0c2cc0e3864_Property_a69dc934f7a44298a7947ad4e222de02" xml:space="preserve">
+    <value>Documents</value>
+  </data>
+  <data name="AsyncHandler_Description_e51bd993fcb94193aed917f7d10fe44c" xml:space="preserve">
+    <value>Execute actions required when process-based approval task is aborted.</value>
+  </data>
+  <data name="Block_12f8c17b5f0c43ba8696163fdd6ab4fb_Property_c1c0c0af201942388db743d10c5a039c" xml:space="preserve">
+    <value>Allow forwarding</value>
+  </data>
+  <data name="Block_2ca43602b96443b19e7be0c2cc0e3864_Property_bdff51bf44a5428b86577168456cf781_Enum_141b987259b148f9aae9d5d2d782d230" xml:space="preserve">
+    <value>Execution expired</value>
+  </data>
+  <data name="Block_2ca43602b96443b19e7be0c2cc0e3864_Property_c056e6fe1306463a89a3400ac285dcb2" xml:space="preserve">
+    <value>Waiting Period</value>
+  </data>
+  <data name="Block_5a8803f0499b4e1f9e8eb335bda41063_Property_0379835bbb8c47878a28ea96556af2a7" xml:space="preserve">
+    <value>Allow adding approvers</value>
+  </data>
+  <data name="Block_12f8c17b5f0c43ba8696163fdd6ab4fb_Property_a7d421e520894f1491876f893d52b141" xml:space="preserve">
+    <value>Send even if document is signed</value>
+  </data>
+  <data name="Block_5a8803f0499b4e1f9e8eb335bda41063_Property_f3687bcfd14f4c9d8116b66017d2813f" xml:space="preserve">
+    <value>Addressees</value>
+  </data>
+  <data name="Block_5a8803f0499b4e1f9e8eb335bda41063_Property_e6d215908ffb48c19ec0e8c845753914" xml:space="preserve">
+    <value>Addressees</value>
+  </data>
+  <data name="Block_f505526d13cc463db19582d7b348cb18_Property_b9039a4b73ca434e9b5b41d3c85f4fac" xml:space="preserve">
+    <value>Addressees</value>
+  </data>
+  <data name="Block_f505526d13cc463db19582d7b348cb18_Property_5bc0acda78584182b2d709e98dc9e554" xml:space="preserve">
+    <value>Addressees</value>
+  </data>
+  <data name="Block_f505526d13cc463db19582d7b348cb18_Property_88a34c5c2c4b4e9fad8a5415758d46f5" xml:space="preserve">
+    <value>Allow changing list of approvers</value>
+  </data>
+  <data name="Block_f505526d13cc463db19582d7b348cb18_Property_0ed20d46831947a28fac290055ce0cb6" xml:space="preserve">
+    <value>Notice recipients</value>
+  </data>
+  <data name="Block_f505526d13cc463db19582d7b348cb18_Property_daa4d85ec172432c912eacf93d92aedf" xml:space="preserve">
+    <value>New approvers</value>
+  </data>
+  <data name="Block_5a8803f0499b4e1f9e8eb335bda41063_Property_031dd869c9544ba0ac2e51fbc872cbc9" xml:space="preserve">
+    <value>Send even if document is approved</value>
+  </data>
+  <data name="Block_f505526d13cc463db19582d7b348cb18_Property_616033b76bd84cc1b35e638a655edbd0" xml:space="preserve">
+    <value>Allow changing approval deadline</value>
+  </data>
+  <data name="Block_f505526d13cc463db19582d7b348cb18_Property_286902aa8c75444faeb1bf271810253c" xml:space="preserve">
+    <value>Current approval deadline</value>
+  </data>
+  <data name="Block_1037fa7a84e8480c9d69a9239c7a84ce" xml:space="preserve">
+    <value>Register formalized PoA or PoA revocation in FTS</value>
+  </data>
+  <data name="Block_1037fa7a84e8480c9d69a9239c7a84ce_Property_be663b5d4f304ed7bacd5a02dfca754a" xml:space="preserve">
+    <value>Document</value>
+  </data>
+  <data name="Block_1037fa7a84e8480c9d69a9239c7a84ce_Property_62722b304d1c40b9910d7a7cf63f4edd_Enum_6557b95b7c9c46ac9bd5d36546b11e0c" xml:space="preserve">
+    <value>Registration error</value>
+  </data>
+  <data name="Block_1037fa7a84e8480c9d69a9239c7a84ce_Property_62722b304d1c40b9910d7a7cf63f4edd_Enum_9ea58df54d244bd59dc2170c06c7bb72" xml:space="preserve">
+    <value>Registered</value>
+  </data>
+  <data name="Block_1037fa7a84e8480c9d69a9239c7a84ce_Property_80f5456b0b024eecb897bdd85ea62f1f" xml:space="preserve">
+    <value>Error message</value>
+  </data>
+  <data name="Block_2ca43602b96443b19e7be0c2cc0e3864_Property_3fa4a5a99ead4367a10a9233c5aeae70" xml:space="preserve">
+    <value>Add registration details</value>
+  </data>
+  <data name="Block_2ca43602b96443b19e7be0c2cc0e3864_Property_bdff51bf44a5428b86577168456cf781_Enum_3810df77deb240ea9a14c437de539e1b" xml:space="preserve">
+    <value>Convert error</value>
+  </data>
+</root>

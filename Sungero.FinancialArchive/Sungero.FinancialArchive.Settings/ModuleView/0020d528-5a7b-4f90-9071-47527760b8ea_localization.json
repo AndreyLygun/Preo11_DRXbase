@@ -1,0 +1,206 @@
+{
+  "Action_Description_038f385efe874dc0a0680d8d44d70fc3": {
+    "default": "Stores information about all individuals (counterparties, employees, contacts) that our company deals with",
+    "ru-RU": "Физические лица (контрагенты, сотрудники, контакты), с которыми взаимодействует наша организация",
+    "hash": "c6045b4efc6f142e6a8f400eded5bef6"
+  },
+  "Action_Description_06fdd2bfd91f4e12a1300a70fefa8f3e": {
+    "default": "Powers of attorney, including formalized powers of attorney, issued to business unit employees",
+    "ru-RU": "Доверенности, выданные сотрудникам нашей организации, в том числе электронные",
+    "hash": "d3b1c8c730f93f19fb930830cec1e9ae"
+  },
+  "Action_Description_073560bc4536409b98c56a1845da39ad": {
+    "default": "Contains the list of all financial documents: contract statements, waybills, tax invoices, and universal transfer documents",
+    "ru-RU": "Список всех финансовых документов: актов, накладных, счетов-фактур и универсальных передаточных документов",
+    "hash": "fb134e1560f6a2ca72eedb40184081f5"
+  },
+  "Action_Description_0a3f107f7cf049b2a24a258e8c3fadfd": {
+    "default": "Provides information on documents sent to counterparties and waiting for their signature.",
+    "ru-RU": "Перечень документов, отправленных контрагентам через сервисы обмена и ожидающих подписания.",
+    "hash": "6163dc9f419ea18d6641aa01527850f1"
+  },
+  "Action_Description_12abd37fb8cf450689ddff8f86d54ac5": {
+    "default": "Create contract statements, waybills, tax invoices, and universal transfer documents",
+    "ru-RU": "Быстрое создание актов, накладных, счетов-фактур, универсальных передаточных документов",
+    "hash": "2fea3f08c288c37e09c4cad657de121b"
+  },
+  "Action_Description_17ebe7e4962b4fea90301ae76c8ca28b": {
+    "default": "Electronic financial documents to be signed by our company or by a counterparty",
+    "ru-RU": "Финансовые документы в электронном формате, которые ожидают подписания нашей организацией или контрагентом",
+    "hash": "9e60b81c4548208e4a096837dca3acb4"
+  },
+  "Action_Description_27a36ee2a47b47fd848638db21d8012c": {
+    "default": "Search for financial documents by requisites",
+    "ru-RU": "Поиск финансовых документов по реквизитам",
+    "hash": "6d23b86342849baf03898d403b5d5e21"
+  },
+  "Action_Description_35b0be63ca5c454c8f7675acd28c2e78": {
+    "default": "Personal settings for working in the system",
+    "ru-RU": "Личные настройки отдельных параметров работы системы",
+    "hash": "2fbb0041e0ad7bb6abfd485b57e2429e"
+  },
+  "Action_Description_631d6ed7200b49c89b26e65456581d0c": {
+    "default": "Contains the list of all active, terminated and closed contracts and supplemental agreements",
+    "ru-RU": "Список всех действующих, расторгнутых и исполненных договоров и дополнительных соглашений",
+    "hash": "cd3fc73b34b31f7fb4bec07417f1f614"
+  },
+  "Action_Description_646149afdab6478cb480b9b5e722867e": {
+    "default": "Stores information about companies that our company deals with",
+    "ru-RU": "Организации, с которыми взаимодействует наша компания",
+    "hash": "d57d9e5371eddcb39d9a86b2c06ae7de"
+  },
+  "Action_Description_8bed84cb32cf4139b2647ec60a558961": {
+    "default": "Stores information about representatives of your counterparties so you can contact them quickly",
+    "ru-RU": "Информация о контактных лицах организаций",
+    "hash": "3280ad9f63d8b8f04138d0f533c9c6e2"
+  },
+  "Action_Description_98bbf7a51da040e78db9a5b876782559": {
+    "default": "Bulk export of documents from archive to submit them to a tax authority or for other inspections",
+    "ru-RU": "Массовая выгрузка документов из архива для их предоставления в налоговые органы или для прочих проверок",
+    "hash": "c3c897205e45e00504e6a60c4dbea2ab"
+  },
+  "Action_Description_cacc4c064e6347fab4d9e3bf8c3fa323": {
+    "default": "List of all module reports.",
+    "ru-RU": "Список всех отчетов модуля.",
+    "hash": "b2a754516188f6920ebe8840d7220e33"
+  },
+  "Action_Description_d0672623d7224d3c898822fa9e917dfa": {
+    "default": "Financial documents which have no versions or whose last version is not a scanned copy",
+    "ru-RU": "Финансовые документы, у которых последняя версия не является скан-копией или версии отсутствуют",
+    "hash": "4001c6562b5a12d64a339cc32bf7881d"
+  },
+  "Action_Description_dff81004ed1b468b905296ee261edfb1": {
+    "default": "Upload file in a special format (universal transfer document, universal corrective document, goods transfer document, work results transfer document) to send it via legal document exchange services. Sign the created financial document with electronic signature and send it to counterparty",
+    "ru-RU": "Загрузить файл обмена установленного формата (УПД, УКД, ДПТ, ДПРР) для отправки через сервисы юридически значимого электронного документооборота. После загрузки в системе будет создан финансово-хозяйственный документ, который необходимо будет подписать электронной подписью и отправить контрагенту",
+    "hash": "6a93a90edffd8743cd77acbac689774b"
+  },
+  "Action_Title_038f385efe874dc0a0680d8d44d70fc3": {
+    "default": "Persons",
+    "ru-RU": "Персоны",
+    "hash": "2fcc675fa94cac470934d87696f017ca"
+  },
+  "Action_Title_06fdd2bfd91f4e12a1300a70fefa8f3e": {
+    "default": "Power of Attorney List",
+    "ru-RU": "Реестр доверенностей",
+    "hash": "0a6fc01bc02e855d70f2bc1ec2f41ca8"
+  },
+  "Action_Title_073560bc4536409b98c56a1845da39ad": {
+    "default": "Financial Documents",
+    "ru-RU": "Финансовые документы",
+    "hash": "ac17465bf73edff278e34c303e570a36"
+  },
+  "Action_Title_0a3f107f7cf049b2a24a258e8c3fadfd": {
+    "default": "Documents awaiting counterparty's signature in exchange services",
+    "ru-RU": "Документы на подписании у контрагентов в сервисах обмена",
+    "hash": "8221d8ba27f33c7155982839048c3282"
+  },
+  "Action_Title_12abd37fb8cf450689ddff8f86d54ac5": {
+    "default": "New Document",
+    "ru-RU": "Создать документ",
+    "hash": "505c1f1703ca0d50878e24fafa099a10"
+  },
+  "Action_Title_17ebe7e4962b4fea90301ae76c8ca28b": {
+    "default": "Waiting for Signature",
+    "ru-RU": "Ожидают подписания",
+    "hash": "03241172a0a4dbd12b3b83912e1eb678"
+  },
+  "Action_Title_27a36ee2a47b47fd848638db21d8012c": {
+    "default": "Search in Archive",
+    "ru-RU": "Поиск по архиву",
+    "hash": "b4ebfeca4a57cc7da06186f6da231665"
+  },
+  "Action_Title_35b0be63ca5c454c8f7675acd28c2e78": {
+    "default": "Personal Settings",
+    "ru-RU": "Персональные настройки",
+    "hash": "816ac553d3c885c5ec617e3a207da9c8"
+  },
+  "Action_Title_631d6ed7200b49c89b26e65456581d0c": {
+    "default": "Contracts and Supplemental Agreements",
+    "ru-RU": "Договоры и дополнительные соглашения",
+    "hash": "259d642760878379496a0739437011a0"
+  },
+  "Action_Title_646149afdab6478cb480b9b5e722867e": {
+    "default": "Companies",
+    "ru-RU": "Организации",
+    "hash": "2a40c8a277ebc700e9f4c92c2b3b8186"
+  },
+  "Action_Title_8bed84cb32cf4139b2647ec60a558961": {
+    "default": "Contact Persons",
+    "ru-RU": "Контакты",
+    "hash": "e07b077cefa44d1fd9fa0412a53214fd"
+  },
+  "Action_Title_98bbf7a51da040e78db9a5b876782559": {
+    "default": "Export Documents",
+    "ru-RU": "Выгрузка документов",
+    "hash": "f1f20c9504118154806ce8eb501dd003"
+  },
+  "Action_Title_cacc4c064e6347fab4d9e3bf8c3fa323": {
+    "default": "All Reports",
+    "ru-RU": "Все отчеты",
+    "hash": "a7888b33b5089d380498792cb7b091f6"
+  },
+  "Action_Title_d0672623d7224d3c898822fa9e917dfa": {
+    "default": "Missing Scanned Copies",
+    "ru-RU": "Отсутствуют скан-копии",
+    "hash": "399300f6d50add2900ba68ef1c625713"
+  },
+  "Action_Title_dff81004ed1b468b905296ee261edfb1": {
+    "default": "Import XML File for Sending",
+    "ru-RU": "Импортировать XML-файл для отправки",
+    "hash": "64287a620dd6830189cdde30a5046e74"
+  },
+  "Group_Title_0ad2d49c7635418dbaa95ffa57e60621": {
+    "default": "Settings",
+    "ru-RU": "Настройки",
+    "hash": "57b7fc0bc0d4865c3c17bc04940219ff"
+  },
+  "Group_Title_0bd8596b77154608ba0e06303e5a186c": {
+    "default": "Documents",
+    "ru-RU": "Документы",
+    "hash": "81aea7b35bf41d1b67b701e1fba4026b"
+  },
+  "Group_Title_3f0484cc253b4aeb9999c5d641ddb8cc": {
+    "default": "Archive Integrity Control",
+    "ru-RU": "Контроль полноты архива",
+    "hash": "a2c9255a9a5fe7a2f5d66eac0883e492"
+  },
+  "Group_Title_5efb22de22454563bc9d39a785bdbd87": {
+    "default": "Reports",
+    "ru-RU": "Отчеты",
+    "hash": "269295bfcf8b9d5f4d39a3bda47e4e2f"
+  },
+  "Group_Title_6718b5e1b0cb46e98caf743872f8cb83": {
+    "default": "Document Search",
+    "ru-RU": "Поиск документов",
+    "hash": "5653f38c1dd166b7a1442fdbbf4d88f2"
+  },
+  "Group_Title_994a6373e40e45b6bc43e08dc62c2189": {
+    "default": "Electronic Exchange",
+    "ru-RU": "Электронный обмен",
+    "hash": "65c6e48af83bc976b5967aea2c47affd"
+  },
+  "Group_Title_b54fb37fde594b9f89f600dedf821950": {
+    "default": "Related Information",
+    "ru-RU": "Связанная информация",
+    "hash": "4f3a6a60b3de9b5162f268b4b1aa8fdf"
+  },
+  "Header_Description_933fc11b4b6a4fb29525d3f0b0042488": {
+    "default": "This module is where you can store, manage and search for financial and economic documents as well as prepare for a tax audit",
+    "ru-RU": "Модуль предназначен для учета, хранения и поиска финансово-хозяйственных документов, а также для подготовки к проверкам",
+    "hash": "2c265a0d2ec8fcdfc86fec3d49189396"
+  },
+  "Header_Title_933fc11b4b6a4fb29525d3f0b0042488": {
+    "default": "Financial Archive",
+    "ru-RU": "Финансовый архив",
+    "hash": "b365b2b11ce806d4af5c194566c50a3c"
+  },
+  "Name": {
+    "default": "Financial archive",
+    "ru-RU": "Финансовый архив",
+    "hash": "63bfc2aa48a367fb3a95cd545a36f09e"
+  },
+  "Tab_Title_d6f59965d0024a909a9ccdaf49b9e781": {
+    "default": "Tab",
+    "hash": "308b6abade3f7962098e8bd8cb7db726"
+  }
+}

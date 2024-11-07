@@ -1,0 +1,12 @@
+{
+  "Description": {
+    "en-US": "Compact view of folder \"Action items\" for employees included in role \"Users of manager's interface\".",
+    "ru-RU": "Компактное представление папки \"Поручения\" для пользователей, которые входят в роль \"Пользователи интерфейса для руководителей\".",
+    "hash": "d1a125ebffb8d0db0b116ae39f43448e"
+  },
+  "Name": {
+    "en-US": "Action items (for managers)",
+    "ru-RU": "Поручения (для руководителей)",
+    "hash": "b35abe7179800e4abf98062308b776bc"
+  }
+}

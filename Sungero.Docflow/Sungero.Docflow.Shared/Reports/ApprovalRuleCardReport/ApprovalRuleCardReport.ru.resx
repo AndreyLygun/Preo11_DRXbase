@@ -1,0 +1,208 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AllKinds" xml:space="preserve">
+    <value>Все виды документов (для документопотока "{0}")</value>
+  </data>
+  <data name="Criterion" xml:space="preserve">
+    <value>Критерий</value>
+  </data>
+  <data name="All" xml:space="preserve">
+    <value>Все</value>
+  </data>
+  <data name="RuleVersion" xml:space="preserve">
+    <value>Версия</value>
+  </data>
+  <data name="RulePriority" xml:space="preserve">
+    <value>Приоритет</value>
+  </data>
+  <data name="RuleDocumentFlow" xml:space="preserve">
+    <value>Документопоток</value>
+  </data>
+  <data name="RuleAllowSmallApproval" xml:space="preserve">
+    <value>Разрешено согласование с уменьшающимся кругом</value>
+  </data>
+  <data name="RuleStatus" xml:space="preserve">
+    <value>Состояние</value>
+  </data>
+  <data name="ValueId" xml:space="preserve">
+    <value>ИД</value>
+  </data>
+  <data name="Value" xml:space="preserve">
+    <value>Значение</value>
+  </data>
+  <data name="RuleNote" xml:space="preserve">
+    <value>Примечание</value>
+  </data>
+  <data name="If" xml:space="preserve">
+    <value>&lt;b&gt;Ветка:&lt;/b&gt;</value>
+  </data>
+  <data name="ShemaHeader" xml:space="preserve">
+    <value>Схема правила согласования</value>
+  </data>
+  <data name="StageType" xml:space="preserve">
+    <value>Тип этапа</value>
+  </data>
+  <data name="Performers" xml:space="preserve">
+    <value>Исполнители</value>
+  </data>
+  <data name="Deadline" xml:space="preserve">
+    <value>Срок</value>
+  </data>
+  <data name="Settings" xml:space="preserve">
+    <value>Настройки</value>
+  </data>
+  <data name="Start" xml:space="preserve">
+    <value>Старт</value>
+  </data>
+  <data name="Rework" xml:space="preserve">
+    <value>Доработка</value>
+  </data>
+  <data name="NeedStrongSign" xml:space="preserve">
+    <value>Требовать усиленную подпись</value>
+  </data>
+  <data name="AllowAdditionalApprovers" xml:space="preserve">
+    <value>Инициатор может указывать доп. согласующих</value>
+  </data>
+  <data name="AllowSendToRework" xml:space="preserve">
+    <value>разрешена отправка на доработку</value>
+  </data>
+  <data name="ConfirmSinging" xml:space="preserve">
+    <value>Документ подписывается только в бумажном виде</value>
+  </data>
+  <data name="Subject" xml:space="preserve">
+    <value>Тема</value>
+  </data>
+  <data name="ReslutSubmission" xml:space="preserve">
+    <value>Документ рассматривается только в бумажном виде.</value>
+  </data>
+  <data name="EmptyString" xml:space="preserve">
+    <value>&lt;пусто&gt;</value>
+  </data>
+  <data name="SignatureSettingsHeader" xml:space="preserve">
+    <value>Право подписи</value>
+  </data>
+  <data name="ColumnRecipient" xml:space="preserve">
+    <value>Сотрудник/Роль</value>
+  </data>
+  <data name="Priority" xml:space="preserve">
+    <value>Приоритет</value>
+  </data>
+  <data name="ColumnID" xml:space="preserve">
+    <value>ИД</value>
+  </data>
+  <data name="ColumnBusinessUnitsAndDepartments" xml:space="preserve">
+    <value>Наши организации и подразделения</value>
+  </data>
+  <data name="ColumnDocumentKindsAndCategories" xml:space="preserve">
+    <value>Виды и категории документов</value>
+  </data>
+  <data name="ColumnNote" xml:space="preserve">
+    <value>Примечание</value>
+  </data>
+  <data name="ColumnLimits" xml:space="preserve">
+    <value>Лимит</value>
+  </data>
+  <data name="ColumnValidTill" xml:space="preserve">
+    <value>Срок действия</value>
+  </data>
+  <data name="ElseIf" xml:space="preserve">
+    <value>&lt;b&gt;Ветка:&lt;/b&gt;</value>
+  </data>
+  <data name="EndIf" xml:space="preserve">
+    <value>&lt;b&gt;Конец ветки:&lt;/b&gt;</value>
+  </data>
+  <data name="Stage" xml:space="preserve">
+    <value>Этап</value>
+  </data>
+  <data name="Parameters" xml:space="preserve">
+    <value>Параметры</value>
+  </data>
+  <data name="And" xml:space="preserve">
+    <value>&lt;b&gt;и &lt;/b&gt;</value>
+  </data>
+  <data name="True" xml:space="preserve">
+    <value>&lt;b&gt; - Да&lt;/b&gt;</value>
+  </data>
+  <data name="False" xml:space="preserve">
+    <value>&lt;b&gt; - Нет&lt;/b&gt;</value>
+  </data>
+  <data name="StartDelayDays" xml:space="preserve">
+    <value>Отсрочка старта дней</value>
+  </data>
+  <data name="SignatureSettingsEmpty" xml:space="preserve">
+    <value>Подходящие права подписи отсутствуют.</value>
+  </data>
+  <data name="ReworkDeadline" xml:space="preserve">
+    <value>Срок доработки</value>
+  </data>
+  <data name="ReworkPerformer" xml:space="preserve">
+    <value>Отв. за доработку</value>
+  </data>
+  <data name="RuleNeedRestrictInitiatorAccessRights" xml:space="preserve">
+    <value>Права инициатора согласования на документы понижаются до "Просмотр"&lt;br&gt; </value>
+  </data>
+  <data name="AccessRightsForEmployee" xml:space="preserve">
+    <value>Права доступа исполнителя</value>
+  </data>
+  <data name="StageAllowApproveWithSuggestions" xml:space="preserve">
+    <value>Согласование с замечаниями: Разрешено</value>
+  </data>
+</root>

@@ -1,0 +1,208 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AcquaintanceWithDocumentComplete" xml:space="preserve">
+    <value>Завершено рассмотрение: {0}</value>
+  </data>
+  <data name="AssignmentCreated" xml:space="preserve">
+    <value>Создано поручение: {0}</value>
+  </data>
+  <data name="ResolutionPassed" xml:space="preserve">
+    <value>Вынесена резолюция: {0}</value>
+  </data>
+  <data name="CreateAssignment" xml:space="preserve">
+    <value>Создайте поручение: {0}</value>
+  </data>
+  <data name="DocumentConsiderationStarted" xml:space="preserve">
+    <value>Начато рассмотрение: {0}</value>
+  </data>
+  <data name="Consideration" xml:space="preserve">
+    <value>Рассмотрение: {0}</value>
+  </data>
+  <data name="ReviewDocument" xml:space="preserve">
+    <value>Рассмотрите: {0}</value>
+  </data>
+  <data name="DocumentOnExecution" xml:space="preserve">
+    <value>Документ находится на исполнении.</value>
+  </data>
+  <data name="IncomingDocumentMustBeRegistered" xml:space="preserve">
+    <value>Для отправки входящего документа на рассмотрение требуется его регистрация.</value>
+  </data>
+  <data name="StateViewDocumentSent" xml:space="preserve">
+    <value>Документ отправлен на рассмотрение</value>
+  </data>
+  <data name="StateViewAuthor" xml:space="preserve">
+    <value>Автор</value>
+  </data>
+  <data name="StateViewSendActionItemOnResolution" xml:space="preserve">
+    <value>Создание поручений по документу</value>
+  </data>
+  <data name="PrepareDraftResolution" xml:space="preserve">
+    <value>Подготовьте проект резолюции, адресат {1}: {0}</value>
+  </data>
+  <data name="ManagerIsInformed" xml:space="preserve">
+    <value>Принято к сведению: {0}</value>
+  </data>
+  <data name="CantRedirectWithoutAddressee" xml:space="preserve">
+    <value>Для переадресации укажите сотрудника, который будет рассматривать документ.</value>
+  </data>
+  <data name="FindNotDraftResolution" xml:space="preserve">
+    <value>В рамках этого задания можно добавить только проект резолюции.</value>
+  </data>
+  <data name="Forward" xml:space="preserve">
+    <value>Переадресовано {0}</value>
+  </data>
+  <data name="PreparingDraftResolution" xml:space="preserve">
+    <value>Подготовка проекта резолюции</value>
+  </data>
+  <data name="ReworkPrepareDraftResolution" xml:space="preserve">
+    <value>Доработайте проект резолюции, адресат {1}: {0}</value>
+  </data>
+  <data name="ReworkDraftResolutionThreadSubject" xml:space="preserve">
+    <value>Доработка проекта резолюции</value>
+  </data>
+  <data name="ReviewCompletionNoticeThreadSubject" xml:space="preserve">
+    <value>Уведомление о завершении рассмотрения</value>
+  </data>
+  <data name="ReviewBeginingNoticeThreadSubject" xml:space="preserve">
+    <value>Уведомление о начале рассмотрения</value>
+  </data>
+  <data name="NoRightsToDocument" xml:space="preserve">
+    <value>Отсутствует документ или права доступа на него. Обратитесь к администратору системы.</value>
+  </data>
+  <data name="NeedToRework" xml:space="preserve">
+    <value>Доработайте: {0}</value>
+  </data>
+  <data name="AddresseeAlreadyExists" xml:space="preserve">
+    <value>{0} уже участвует в рассмотрении документа.</value>
+  </data>
+  <data name="ConfirmDeleteDraftResolutionsForWrongAddressee" xml:space="preserve">
+    <value>Поручения из проекта резолюции, выданные не от имени адресата, удалятся.</value>
+  </data>
+  <data name="ReviewReworkAssignment" xml:space="preserve">
+    <value>Доработка инициатором</value>
+  </data>
+  <data name="ReviewWithDraftResolutionExpressionName" xml:space="preserve">
+    <value>Помощник готовит проект резолюции? (устаревшая)</value>
+  </data>
+  <data name="GetAddresseesCountExpressionName" xml:space="preserve">
+    <value>Количество адресатов</value>
+  </data>
+  <data name="GetAddresseesCountExpressionDescription" xml:space="preserve">
+    <value>Возвращает количество адресатов в задаче на рассмотрение</value>
+  </data>
+  <data name="HasDraftResolutionBeenPreparedExpressionName" xml:space="preserve">
+    <value>Подготовлен проект резолюции? (устаревшая)</value>
+  </data>
+  <data name="GetActionItemClerkExpressionName" xml:space="preserve">
+    <value>Ответственный за обработку резолюции</value>
+  </data>
+  <data name="GetActionItemClerkExpressionDescription" xml:space="preserve">
+    <value>Помощник адресата, ответственный за группу регистрации или инициатор, который создает поручения по резолюции адресата</value>
+  </data>
+  <data name="AreTasksCreatedForAllAddresseesExpressionName" xml:space="preserve">
+    <value>Задачи созданы для всех адресатов?</value>
+  </data>
+  <data name="AreTasksCreatedForAllAddresseesExpressionDescription" xml:space="preserve">
+    <value>Для всех адресатов из основной задачи созданы подзадачи</value>
+  </data>
+  <data name="HasDraftResolutionBeenPreparedExpressionDescription" xml:space="preserve">
+    <value>Помощником адресата подготовлены поручения и вложены в Проект резолюции (устаревшая)</value>
+  </data>
+  <data name="ReviewWithDraftResolutionExpressionDescription" xml:space="preserve">
+    <value>Помощник готовит проект резолюции перед рассмотрением документа адресатом (устаревшая)</value>
+  </data>
+  <data name="GetDefaultDeadlineExpressionName" xml:space="preserve">
+    <value>Срок рассмотрения по умолчанию</value>
+  </data>
+  <data name="GetDefaultDeadlineExpressionDescription" xml:space="preserve">
+    <value>Срок задания на рассмотрение с учетом указанного в задаче</value>
+  </data>
+  <data name="GetDefaultDeadlineAddressee" xml:space="preserve">
+    <value>Адресат</value>
+  </data>
+  <data name="NeedReviewWithDraftResolutionName" xml:space="preserve">
+    <value>Помощник готовит проект резолюции?</value>
+  </data>
+  <data name="NeedReviewWithDraftResolutionDescription" xml:space="preserve">
+    <value>Есть необходимость подготовки проекта резолюции?</value>
+  </data>
+  <data name="AIAssistantDraftActionItem" xml:space="preserve">
+    <value>Виртуальный помощник готовит проект поручения?</value>
+  </data>
+  <data name="FindResolutionWithoutDeadline" xml:space="preserve">
+    <value>Не заполнено обязательное свойство "Срок" в проекте резолюции.</value>
+  </data>
+  <data name="IsAuthorAssistant" xml:space="preserve">
+    <value>Инициатор является помощником?</value>
+  </data>
+  <data name="CanAddOnlyDraftResolutionToTask" xml:space="preserve">
+    <value>В рамках этой задачи можно добавить только проект резолюции.</value>
+  </data>
+  <data name="GetStateViewFunctionName" xml:space="preserve">
+    <value>Информация по задаче</value>
+  </data>
+  <data name="GetStateViewFunctionDescription" xml:space="preserve">
+    <value>Отображение краткой сводки по задаче и ее заданиям</value>
+  </data>
+  <data name="CannotAddDraftResolutionIfWorkNotStarted" xml:space="preserve">
+    <value>Для добавления проекта резолюции необходимо взять задание в работу.</value>
+  </data>
+</root>

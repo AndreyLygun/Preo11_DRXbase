@@ -1,0 +1,67 @@
+{
+  "Description": {
+    "default": "Request to an employee to return original or copy of a paper document",
+    "ru-RU": "Запрос на возврат оригинала или копии бумажного документа от сотрудника",
+    "hash": "c3a64267a47acee198ad37fa983ef42a"
+  },
+  "Name": {
+    "default": "Document return check",
+    "ru-RU": "Контроль возврата документа",
+    "hash": "a23b7ebce5dffd2cfd7ac5269e1dbbc4"
+  },
+  "Subject_SE_2": {
+    "default": "Return: {0}",
+    "ru-RU": "Верните: {0}",
+    "hash": "b30b571c99bdbdce258ccda835698723"
+  },
+  "Subject_SE_3": {
+    "default": "Check return: {0}",
+    "ru-RU": "Проконтролируйте возврат: {0}",
+    "hash": "451e3a950eb2a1c1dd389eea5d491481"
+  },
+  "Title_SE_1": {
+    "default": "Delay creation of assignment to return document",
+    "ru-RU": "Отсрочка создания задания на возврат документа",
+    "hash": "81e6df8e7af6212969e67d4153ae7514"
+  },
+  "Title_SE_10": {
+    "default": "Wait for document acceptance",
+    "ru-RU": "Ожидание приемки документа",
+    "hash": "0014d3f71234b2ca756b9596148ed41c"
+  },
+  "Title_SE_12": {
+    "default": "Is document returned by employee?",
+    "ru-RU": "Документ возвращен сотрудником?",
+    "hash": "52923f110293ff17f2517c46e4b8395f"
+  },
+  "Title_SE_17": {
+    "default": "Is document accepted?",
+    "ru-RU": "Документ принят?",
+    "hash": "1726519aae0ad712067bc6c2478a8a3d"
+  },
+  "Title_SE_2": {
+    "default": "Return document",
+    "ru-RU": "Возврат документа",
+    "hash": "01f3e104dd0f8d001535f74156ea9b6d"
+  },
+  "Title_SE_3": {
+    "default": "Check document return",
+    "ru-RU": "Контроль возврата документа",
+    "hash": "ba20d0cdb8d6e35836e4e100f162b0db"
+  },
+  "Title_SE_5": {
+    "default": "Is document returned by employee?",
+    "ru-RU": "Документ возвращен сотрудником?",
+    "hash": "52923f110293ff17f2517c46e4b8395f"
+  },
+  "Title_SE_6": {
+    "default": "Is document held by employee?",
+    "ru-RU": "Документ у сотрудника?",
+    "hash": "b64f732c6b45ea01a22357d3c1eb0aa7"
+  },
+  "Title_SE_8": {
+    "default": "Wait for document return",
+    "ru-RU": "Ожидание возврата документа",
+    "hash": "340f152c985b6bcdbec7121863247563"
+  }
+}

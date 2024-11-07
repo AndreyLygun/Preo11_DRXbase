@@ -1,0 +1,91 @@
+<?xml version="1.0"?>
+<RouteScheme xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" MaxBlockId="2">
+  <Blocks>
+    <BlockBase xsi:type="StartBlock">
+      <Id>1</Id>
+      <BlockTypeId xsi:nil="true" />
+      <CustomProperties />
+      <ParameterOperations />
+      <Operations />
+    </BlockBase>
+    <BlockBase xsi:type="FinishBlock">
+      <Id>2</Id>
+      <BlockTypeId xsi:nil="true" />
+      <CustomProperties />
+      <ParameterOperations />
+      <Operations />
+      <UnderReview>false</UnderReview>
+      <ReviewAssignmentId>0</ReviewAssignmentId>
+    </BlockBase>
+  </Blocks>
+  <Edges>
+    <Edge>
+      <Id>1</Id>
+      <Source>1</Source>
+      <Target>2</Target>
+    </Edge>
+  </Edges>
+  <Layout>
+    <BlocksLayout>
+      <BlockLayout>
+        <BlockId>1</BlockId>
+        <Bounds>
+          <Location>
+            <X>5</X>
+            <Y>5</Y>
+          </Location>
+          <Size>
+            <Width>48</Width>
+            <Height>48</Height>
+          </Size>
+          <X>5</X>
+          <Y>5</Y>
+          <Width>48</Width>
+          <Height>48</Height>
+        </Bounds>
+      </BlockLayout>
+      <BlockLayout>
+        <BlockId>2</BlockId>
+        <Bounds>
+          <Location>
+            <X>5</X>
+            <Y>98</Y>
+          </Location>
+          <Size>
+            <Width>48</Width>
+            <Height>48</Height>
+          </Size>
+          <X>5</X>
+          <Y>98</Y>
+          <Width>48</Width>
+          <Height>48</Height>
+        </Bounds>
+      </BlockLayout>
+    </BlocksLayout>
+    <EdgesLayout>
+      <EdgeLayout>
+        <DestinationAnchor>-1</DestinationAnchor>
+        <EdgeId>1</EdgeId>
+        <EndPoint>
+          <X>29</X>
+          <Y>98</Y>
+        </EndPoint>
+        <OriginAnchor>-1</OriginAnchor>
+        <Points>
+          <Point>
+            <X>29</X>
+            <Y>53</Y>
+          </Point>
+          <Point>
+            <X>29</X>
+            <Y>98</Y>
+          </Point>
+        </Points>
+        <StartPoint>
+          <X>29</X>
+          <Y>53</Y>
+        </StartPoint>
+      </EdgeLayout>
+    </EdgesLayout>
+  </Layout>
+</RouteScheme>

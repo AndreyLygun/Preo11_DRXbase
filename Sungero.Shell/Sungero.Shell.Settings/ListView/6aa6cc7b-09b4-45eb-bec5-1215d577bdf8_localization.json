@@ -1,0 +1,12 @@
+{
+  "Description": {
+    "en-US": "Compact view of folder \"From counterparties\" for employees included in role \"Users of manager's interface\".",
+    "ru-RU": "Компактное представление папки \"От контрагентов\" для пользователей, которые входят в роль \"Пользователи интерфейса для руководителей\".",
+    "hash": "5130add3dcd69b20982652bb54d088dd"
+  },
+  "Name": {
+    "en-US": "From counterparties  (for managers)",
+    "ru-RU": "От контрагентов (для руководителей)",
+    "hash": "2a4a2973cf1cf18e89b50b096f2c9d47"
+  }
+}

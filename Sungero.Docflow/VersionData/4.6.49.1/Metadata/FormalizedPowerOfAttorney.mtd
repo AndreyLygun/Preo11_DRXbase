@@ -1,0 +1,2317 @@
+{
+  "$type": "Sungero.Metadata.DocumentMetadata, Sungero.Content.Shared",
+  "NameGuid": "104472db-b71b-42a8-bca5-581a08d1ca7b",
+  "Name": "FormalizedPowerOfAttorney",
+  "AccessRightsMode": "Both",
+  "Actions": [
+    {
+      "NameGuid": "05fbe763-f698-4c36-a486-e2e53f0f0e7a",
+      "Name": "ConvertToPdf",
+      "GenerateHandler": true,
+      "IsAncestorMetadata": true,
+      "Overridden": [
+        "GenerateHandler"
+      ],
+      "Versions": []
+    },
+    {
+      "NameGuid": "dff5eb20-eca8-4636-8334-7ade6a76561b",
+      "Name": "DeliverDocument",
+      "GenerateHandler": true,
+      "IsAncestorMetadata": true,
+      "Overridden": [
+        "GenerateHandler"
+      ],
+      "Versions": []
+    },
+    {
+      "NameGuid": "dc95c777-e769-40e7-8be3-f7e0fb4168fa",
+      "Name": "OpenDocumentEdit",
+      "FastActionIconName": "pack://application:,,,/Sungero.Content.ClientBase;component/Images/BMP/16x16/EditDocument_dark.svg",
+      "GenerateHandler": true,
+      "IsAncestorMetadata": true,
+      "IsVisibleInFastActions": true,
+      "Overridden": [
+        "GenerateHandler"
+      ]
+    },
+    {
+      "NameGuid": "7a0d8bb0-0de6-4f37-8417-a61ede7c111d",
+      "Name": "EditVersion",
+      "CollectionPropertyGuid": "56cbe741-880f-4e6f-9567-343d08494b59",
+      "GenerateHandler": true,
+      "IsAncestorMetadata": true,
+      "Overridden": [
+        "GenerateHandler"
+      ]
+    },
+    {
+      "NameGuid": "00fae4b6-935a-4047-831d-312fd3c02faf",
+      "Name": "CopyEntity",
+      "GenerateHandler": true,
+      "IsAncestorMetadata": true,
+      "Overridden": [
+        "GenerateHandler"
+      ]
+    },
+    {
+      "NameGuid": "cff11896-d843-428c-b768-dc6c7fe62d7a",
+      "Name": "CreateVersionFromLastVersion",
+      "GenerateHandler": true,
+      "IsAncestorMetadata": true,
+      "Overridden": [
+        "GenerateHandler"
+      ]
+    },
+    {
+      "NameGuid": "bcae7c12-fb5c-4383-a18f-ec9eb9bae3a8",
+      "Name": "ImportVersion",
+      "CollectionPropertyGuid": "56cbe741-880f-4e6f-9567-343d08494b59",
+      "GenerateHandler": true,
+      "IsAncestorMetadata": true,
+      "Overridden": [
+        "GenerateHandler"
+      ]
+    },
+    {
+      "NameGuid": "91113570-18a5-4f42-b321-607acce3f4b9",
+      "Name": "CreateVersion",
+      "CollectionPropertyGuid": "56cbe741-880f-4e6f-9567-343d08494b59",
+      "GenerateHandler": true,
+      "IsAncestorMetadata": true,
+      "Overridden": [
+        "GenerateHandler"
+      ]
+    },
+    {
+      "NameGuid": "c3de8ac4-c856-4c03-bfe3-e59db9e7c7d9",
+      "Name": "ImportInNewVersion",
+      "GenerateHandler": true,
+      "IsAncestorMetadata": true,
+      "Overridden": [
+        "GenerateHandler"
+      ]
+    },
+    {
+      "NameGuid": "046c6bfc-a9fb-4896-88ae-98805d0869da",
+      "Name": "ImportInLastVersion",
+      "GenerateHandler": true,
+      "IsAncestorMetadata": true,
+      "Overridden": [
+        "GenerateHandler"
+      ]
+    },
+    {
+      "NameGuid": "63dc0a6c-df88-4187-810e-db3afe0214c5",
+      "Name": "ScanInNewVersion",
+      "GenerateHandler": true,
+      "IsAncestorMetadata": true,
+      "Overridden": [
+        "GenerateHandler"
+      ]
+    },
+    {
+      "NameGuid": "b807b816-dafa-4b17-acac-f06aa306c543",
+      "Name": "CreateFromFile",
+      "GenerateHandler": true,
+      "IsAncestorMetadata": true,
+      "Overridden": [
+        "GenerateHandler"
+      ]
+    },
+    {
+      "NameGuid": "c80c04bb-b41c-435b-9b33-699e01504513",
+      "Name": "CreateFromScanner",
+      "GenerateHandler": true,
+      "IsAncestorMetadata": true,
+      "IsVisibleInWebClient": false,
+      "Overridden": [
+        "GenerateHandler"
+      ]
+    },
+    {
+      "NameGuid": "2cd06508-0938-4197-85ca-ce1cb0ce9750",
+      "Name": "CreateDocumentFromVersion",
+      "CollectionPropertyGuid": "56cbe741-880f-4e6f-9567-343d08494b59",
+      "GenerateHandler": true,
+      "IsAncestorMetadata": true,
+      "IsVisibleInDesktopClient": false,
+      "Overridden": [
+        "GenerateHandler"
+      ]
+    },
+    {
+      "NameGuid": "bada190c-5ad2-4129-ab51-553b481492f0",
+      "Name": "CreateFromTemplate",
+      "GenerateHandler": true,
+      "IsAncestorMetadata": true,
+      "Overridden": [
+        "GenerateHandler"
+      ],
+      "Versions": []
+    },
+    {
+      "NameGuid": "7e266eeb-d41e-4a6e-97b8-94b33124428d",
+      "Name": "ImportVersionWithSignature",
+      "ActionArea": "Card",
+      "GenerateHandler": true,
+      "LargeIconName": "Action_ImportDocument_large_7e266eebd41e4a6e97b894b33124428d.png",
+      "SmallIconName": "Action_ImportDocument_small_7e266eebd41e4a6e97b894b33124428d.png"
+    },
+    {
+      "NameGuid": "65fb7fcc-ca39-4ffd-a921-ed152ce56888",
+      "Name": "ShowDuplicates",
+      "ActionArea": "Card",
+      "GenerateHandler": true,
+      "LargeIconName": "Action_ShowDuplicates_large_65fb7fccca394ffda921ed152ce56888.png",
+      "SmallIconName": "Action_ShowDuplicates_small_65fb7fccca394ffda921ed152ce56888.png",
+      "Versions": []
+    },
+    {
+      "NameGuid": "156e674e-4091-4d78-a986-0bdc0f41ebed",
+      "Name": "GenerateBodyWithPdf",
+      "ActionArea": "Card",
+      "GenerateHandler": true,
+      "LargeIconName": "Action_GenerateBodyWithPdf_large_156e674e40914d78a9860bdc0f41ebed.png",
+      "SmallIconName": "Action_GenerateBodyWithPdf_small_156e674e40914d78a9860bdc0f41ebed.png"
+    },
+    {
+      "NameGuid": "4cc0569d-b24c-4cbe-a821-524a9fed021f",
+      "Name": "CheckStateWithService",
+      "ActionArea": "Card",
+      "GenerateHandler": true,
+      "LargeIconName": "Action_CheckRegistrationState_large_4cc0569db24c4cbea821524a9fed021f.png",
+      "SmallIconName": "Action_CheckRegistrationState_small_4cc0569db24c4cbea821524a9fed021f.png"
+    },
+    {
+      "NameGuid": "d16e58a3-e6a1-4d91-b942-7e2e53e40f01",
+      "Name": "RegisterWithService",
+      "ActionArea": "Card",
+      "GenerateHandler": true,
+      "LargeIconName": null,
+      "SmallIconName": "Action_RegisterWithFTS_small_d16e58a3e6a14d91b9427e2e53e40f01.png"
+    },
+    {
+      "NameGuid": "f9f0fb2c-28a6-48b7-936c-65215f521d85",
+      "Name": "CreateRevocation",
+      "ActionArea": "Card",
+      "GenerateHandler": true,
+      "LargeIconName": null,
+      "SmallIconName": "Action_CreateRevocation_small_f9f0fb2c28a648b7936c65215f521d85.png"
+    }
+  ],
+  "BaseGuid": "a8d955b1-4b35-4013-b643-3ea9d80bd1ea",
+  "CanBeNavigationPropertyType": true,
+  "CanBeSearch": true,
+  "CreationAreaMetadata": {
+    "NameGuid": "01403d88-dd86-41ff-aa3b-40002653507a",
+    "Name": "CreationArea",
+    "Buttons": [],
+    "IsAncestorMetadata": true,
+    "Versions": []
+  },
+  "DocumentVersionCreationSources": [],
+  "ExtraSearchProperties": [],
+  "FilterPanel": {
+    "NameGuid": "80d3ce1a-9a72-443a-8b6c-6c6eef0c8d0f",
+    "Name": "FilterPanel",
+    "Controls": [
+      {
+        "$type": "Sungero.Metadata.FilterListItemMetadata, Sungero.Metadata",
+        "NameGuid": "1af0d6c5-45e5-44e3-82c5-60f013a38bf7",
+        "Name": "ObsoleteState",
+        "IsAncestorMetadata": true,
+        "Overridden": [
+          "PreviousGuid"
+        ],
+        "ParentGuid": "80df9537-5493-472c-9bc3-1cd830f57507",
+        "PreviousGuid": "8ae8e456-7aa1-450d-95ff-cc9f19dd952a"
+      },
+      {
+        "$type": "Sungero.Metadata.FilterListItemMetadata, Sungero.Metadata",
+        "NameGuid": "45b781fa-d44a-4bd4-98e8-8e69d70e1183",
+        "Name": "NotRegistered",
+        "IsAncestorMetadata": true,
+        "Overridden": [
+          "PreviousGuid"
+        ],
+        "ParentGuid": "80df9537-5493-472c-9bc3-1cd830f57507",
+        "PreviousGuid": "96529416-2836-4b4c-a375-1d704487ffaf",
+        "Versions": []
+      },
+      {
+        "$type": "Sungero.Metadata.FilterListItemMetadata, Sungero.Metadata",
+        "NameGuid": "f9963eaf-6974-4dd0-a188-712fe10c50a6",
+        "Name": "DraftState",
+        "IsAncestorMetadata": true,
+        "Overridden": [
+          "PreviousGuid"
+        ],
+        "ParentGuid": "80df9537-5493-472c-9bc3-1cd830f57507",
+        "PreviousGuid": "45b781fa-d44a-4bd4-98e8-8e69d70e1183"
+      },
+      {
+        "$type": "Sungero.Metadata.FilterListItemMetadata, Sungero.Metadata",
+        "NameGuid": "8ae8e456-7aa1-450d-95ff-cc9f19dd952a",
+        "Name": "ActiveState",
+        "IsAncestorMetadata": true,
+        "Overridden": [
+          "PreviousGuid"
+        ],
+        "ParentGuid": "80df9537-5493-472c-9bc3-1cd830f57507",
+        "PreviousGuid": "1fcb3ea0-5470-4a83-bc54-a10322f40105"
+      },
+      {
+        "$type": "Sungero.Metadata.FilterListItemMetadata, Sungero.Metadata",
+        "NameGuid": "96529416-2836-4b4c-a375-1d704487ffaf",
+        "Name": "Reserved",
+        "IsAncestorMetadata": true,
+        "IsVisible": false,
+        "Overridden": [
+          "IsVisible",
+          "PreviousGuid"
+        ],
+        "ParentGuid": "80df9537-5493-472c-9bc3-1cd830f57507",
+        "Versions": []
+      },
+      {
+        "$type": "Sungero.Metadata.FilterListItemMetadata, Sungero.Metadata",
+        "NameGuid": "1fcb3ea0-5470-4a83-bc54-a10322f40105",
+        "Name": "Registered",
+        "IsAncestorMetadata": true,
+        "Overridden": [
+          "PreviousGuid"
+        ],
+        "ParentGuid": "80df9537-5493-472c-9bc3-1cd830f57507",
+        "PreviousGuid": "f9963eaf-6974-4dd0-a188-712fe10c50a6",
+        "Versions": []
+      }
+    ],
+    "IsAncestorMetadata": true,
+    "Overridden": [
+      "Controls"
+    ],
+    "Versions": []
+  },
+  "Forms": [
+    {
+      "$type": "Sungero.Metadata.InplaceFormMetadata, Sungero.Metadata",
+      "NameGuid": "a1ced6b8-fe17-4f61-8310-0fb8faf6b263",
+      "Name": "State",
+      "Controls": [],
+      "IsAncestorMetadata": true,
+      "Overridden": [
+        "SettingsResourceKey"
+      ],
+      "Versions": []
+    },
+    {
+      "$type": "Sungero.Metadata.InplaceFormMetadata, Sungero.Metadata",
+      "NameGuid": "30d15053-0c64-40f2-89b8-b68c0c9fd574",
+      "Name": "Tracking",
+      "Controls": [],
+      "IsAncestorMetadata": true,
+      "IsVisible": false,
+      "Overridden": [
+        "IsVisible",
+        "SettingsResourceKey"
+      ],
+      "Versions": []
+    },
+    {
+      "$type": "Sungero.Metadata.StandaloneFormMetadata, Sungero.Metadata",
+      "NameGuid": "fa03f748-4397-42ef-bdc2-22119af7bf7f",
+      "Name": "Card",
+      "Controls": [
+        {
+          "$type": "Sungero.Metadata.ControlGroupMetadata, Sungero.Metadata",
+          "NameGuid": "28a6d4a8-a26a-467b-8fe6-da426092ec4a",
+          "Name": "RightGroup",
+          "IsAncestorMetadata": true,
+          "Overridden": [
+            "Controls"
+          ],
+          "SharedNestedGroupsAlignment": true,
+          "Versions": []
+        },
+        {
+          "$type": "Sungero.Metadata.ControlGroupMetadata, Sungero.Metadata",
+          "NameGuid": "3d411ab8-967c-43b4-ab77-0240b19d9921",
+          "Name": "Representative",
+          "ColumnDefinitions": [
+            {
+              "Percentage": 50.0
+            },
+            {
+              "Percentage": 50.0
+            }
+          ],
+          "GroupType": "WithTitleNoBorder",
+          "IsAncestorMetadata": true,
+          "Overridden": [
+            "Controls",
+            "ColumnDefinitions"
+          ],
+          "Versions": []
+        },
+        {
+          "$type": "Sungero.Metadata.ControlGroupMetadata, Sungero.Metadata",
+          "NameGuid": "2cf357f4-9e0d-4e83-8920-a09720cad45d",
+          "Name": "Principal",
+          "ColumnDefinitions": [
+            {
+              "Percentage": 50.0
+            },
+            {
+              "Percentage": 50.0
+            }
+          ],
+          "GroupType": "WithTitleNoBorder",
+          "IsAncestorMetadata": true,
+          "Overridden": [
+            "Controls",
+            "ColumnDefinitions"
+          ],
+          "Versions": []
+        },
+        {
+          "$type": "Sungero.Metadata.ControlMetadata, Sungero.Metadata",
+          "NameGuid": "1bbcd0ea-cec9-4532-acb5-716688b1eed7",
+          "Name": "OurSigningReason",
+          "ColumnNumber": 0,
+          "ColumnSpan": 2,
+          "DataBinderTypeName": "Sungero.Presentation.CommonDataBinders.DropDownEditorToNavigationBinder",
+          "ParentGuid": "2cf357f4-9e0d-4e83-8920-a09720cad45d",
+          "PropertyGuid": "184ab537-5748-454f-8a9c-cdbdd506321e",
+          "RowNumber": 2,
+          "RowSpan": 1,
+          "Settings": []
+        },
+        {
+          "$type": "Sungero.Metadata.ControlMetadata, Sungero.Metadata",
+          "NameGuid": "8d9071a4-4b96-4f96-bc6f-3ca2ceabed37",
+          "Name": "Performer",
+          "ColumnNumber": 0,
+          "ColumnSpan": 2,
+          "DataBinderTypeName": "Sungero.Presentation.CommonDataBinders.DropDownEditorToNavigationBinder",
+          "ParentGuid": "3d411ab8-967c-43b4-ab77-0240b19d9921",
+          "PropertyGuid": "27dee161-2fb4-46bb-9fd9-da61c92e534c",
+          "RowNumber": 2,
+          "RowSpan": 1,
+          "Settings": []
+        },
+        {
+          "$type": "Sungero.Metadata.ControlMetadata, Sungero.Metadata",
+          "NameGuid": "91cff7df-3783-4f86-8122-f6238e9ba7c0",
+          "Name": "RegistrationNumber",
+          "ColumnNumber": 0,
+          "ColumnSpan": 1,
+          "DataBinderTypeName": "Sungero.Presentation.CommonDataBinders.StringEditorToStringBinder",
+          "ParentGuid": "4e1d78fc-6f6c-4c81-bf9a-a1fa2031a46b",
+          "PropertyGuid": "263cf068-e224-4a83-9df0-198e828101d1",
+          "RowNumber": 1,
+          "RowSpan": 1,
+          "Settings": [],
+          "Versions": []
+        },
+        {
+          "$type": "Sungero.Metadata.ControlMetadata, Sungero.Metadata",
+          "NameGuid": "670056d3-a80d-41c2-9053-7ace73f8c3e3",
+          "Name": "RegistrationDate",
+          "ColumnNumber": 0,
+          "ColumnSpan": 1,
+          "DataBinderTypeName": "Sungero.Presentation.CommonDataBinders.DateTimeEditorToDateTimeBinder",
+          "ParentGuid": "4e1d78fc-6f6c-4c81-bf9a-a1fa2031a46b",
+          "PropertyGuid": "3e55f091-41a4-4e58-a9c5-dbe90782ccec",
+          "RowNumber": 2,
+          "RowSpan": 1,
+          "Settings": [],
+          "Versions": []
+        },
+        {
+          "$type": "Sungero.Metadata.ControlMetadata, Sungero.Metadata",
+          "NameGuid": "ec742a73-eb83-4925-a43c-a0a7cf42eae0",
+          "Name": "Log",
+          "ColumnNumber": 0,
+          "ColumnSpan": 1,
+          "DataBinderTypeName": "Sungero.Presentation.CommonDataBinders.DropDownEditorToNavigationBinder",
+          "ParentGuid": "4e1d78fc-6f6c-4c81-bf9a-a1fa2031a46b",
+          "PropertyGuid": "4c5fb509-bffb-40dc-9042-71271b13b452",
+          "RowNumber": 3,
+          "RowSpan": 1,
+          "Settings": [],
+          "Versions": []
+        },
+        {
+          "$type": "Sungero.Metadata.ControlMetadata, Sungero.Metadata",
+          "NameGuid": "7df27ccd-a542-45df-b052-40089a659cbf",
+          "Name": "DeliveryMethod",
+          "ColumnNumber": 0,
+          "ColumnSpan": 1,
+          "DataBinderTypeName": "Sungero.Presentation.CommonDataBinders.DropDownEditorToNavigationBinder",
+          "ParentGuid": "4e1d78fc-6f6c-4c81-bf9a-a1fa2031a46b",
+          "PropertyGuid": "bbbc063d-7367-4ea8-a777-5dd1bbe8e216",
+          "RowNumber": 4,
+          "RowSpan": 1,
+          "Settings": [],
+          "Versions": []
+        },
+        {
+          "$type": "Sungero.Metadata.ControlGroupMetadata, Sungero.Metadata",
+          "NameGuid": "4e1d78fc-6f6c-4c81-bf9a-a1fa2031a46b",
+          "Name": "Registration",
+          "ColumnNumber": 0,
+          "ColumnSpan": 1,
+          "GroupType": "WithTitleNoBorder",
+          "ParentGuid": "28a6d4a8-a26a-467b-8fe6-da426092ec4a",
+          "RowNumber": 0,
+          "RowSpan": 1,
+          "Versions": []
+        },
+        {
+          "$type": "Sungero.Metadata.ControlMetadata, Sungero.Metadata",
+          "NameGuid": "dcb9c439-4f4f-42d2-87de-6f225f4a2812",
+          "Name": "FileList",
+          "ColumnNumber": 0,
+          "ColumnSpan": 1,
+          "DataBinderTypeName": "Sungero.Presentation.CommonDataBinders.DropDownEditorToNavigationBinder",
+          "ParentGuid": "696a8bb8-3e12-44c8-927a-37d955cfbf0f",
+          "PropertyGuid": "d9f96caf-6431-49ee-baf3-deeaed16301b",
+          "RowNumber": 0,
+          "RowSpan": 1,
+          "Settings": [],
+          "Versions": []
+        },
+        {
+          "$type": "Sungero.Metadata.ControlMetadata, Sungero.Metadata",
+          "NameGuid": "20e94ab7-b355-42b7-b03e-10bba9c2e85c",
+          "Name": "AddedToFileList",
+          "ColumnNumber": 0,
+          "ColumnSpan": 1,
+          "DataBinderTypeName": "Sungero.Presentation.CommonDataBinders.DateTimeEditorToDateTimeBinder",
+          "ParentGuid": "696a8bb8-3e12-44c8-927a-37d955cfbf0f",
+          "PropertyGuid": "6be07088-b419-43e2-a96b-6de225f37279",
+          "RowNumber": 1,
+          "RowSpan": 1,
+          "Settings": [],
+          "Versions": []
+        },
+        {
+          "$type": "Sungero.Metadata.ControlGroupMetadata, Sungero.Metadata",
+          "NameGuid": "696a8bb8-3e12-44c8-927a-37d955cfbf0f",
+          "Name": "File",
+          "ColumnNumber": 0,
+          "ColumnSpan": 1,
+          "GroupType": "WithTitleNoBorder",
+          "ParentGuid": "28a6d4a8-a26a-467b-8fe6-da426092ec4a",
+          "RowNumber": 1,
+          "RowSpan": 1,
+          "Versions": []
+        },
+        {
+          "$type": "Sungero.Metadata.ControlMetadata, Sungero.Metadata",
+          "NameGuid": "e300028a-5e1f-485d-8069-17e121bb9ba9",
+          "Name": "LifeCycleState",
+          "ColumnNumber": 0,
+          "ColumnSpan": 1,
+          "DataBinderTypeName": "Sungero.Presentation.CommonDataBinders.DropDownEditorToEnumerationBinder",
+          "ParentGuid": "1b194ce3-c440-4887-9f0d-1cdc4303c583",
+          "PropertyGuid": "ec082683-e3d8-4cf2-8cfa-1461ee0e6fc0",
+          "RowNumber": 0,
+          "RowSpan": 1,
+          "Settings": [],
+          "Versions": []
+        },
+        {
+          "$type": "Sungero.Metadata.ControlMetadata, Sungero.Metadata",
+          "NameGuid": "e81f0c5e-b58a-4007-aeeb-b672ea52875b",
+          "Name": "RegistrationState",
+          "ColumnNumber": 0,
+          "ColumnSpan": 1,
+          "DataBinderTypeName": "Sungero.Presentation.CommonDataBinders.DropDownEditorToEnumerationBinder",
+          "ParentGuid": "1b194ce3-c440-4887-9f0d-1cdc4303c583",
+          "PropertyGuid": "7de0cf0f-958c-4b43-9ade-c2d4048f6503",
+          "RowNumber": 1,
+          "RowSpan": 1,
+          "Settings": [],
+          "Versions": []
+        },
+        {
+          "$type": "Sungero.Metadata.ControlMetadata, Sungero.Metadata",
+          "NameGuid": "c45cfe6a-44c0-4368-9482-e4b0a91c3e05",
+          "Name": "EndorsementState",
+          "ColumnNumber": 0,
+          "ColumnSpan": 1,
+          "DataBinderTypeName": "Sungero.Presentation.CommonDataBinders.DropDownEditorToEnumerationBinder",
+          "ParentGuid": "1b194ce3-c440-4887-9f0d-1cdc4303c583",
+          "PropertyGuid": "fdcc98d0-a972-4b77-9e03-bd9a29a9b6fb",
+          "RowNumber": 3,
+          "RowSpan": 1,
+          "Settings": [],
+          "Versions": []
+        },
+        {
+          "$type": "Sungero.Metadata.ControlMetadata, Sungero.Metadata",
+          "NameGuid": "4ebb565b-b94d-4652-95fb-a553ba4900b8",
+          "Name": "CounterpartyEndorsementState",
+          "ColumnNumber": 0,
+          "ColumnSpan": 1,
+          "DataBinderTypeName": "Sungero.Presentation.CommonDataBinders.DropDownEditorToEnumerationBinder",
+          "ParentGuid": "1b194ce3-c440-4887-9f0d-1cdc4303c583",
+          "PropertyGuid": "fec695ea-aa2c-4d91-89fd-52c644da24c5",
+          "RowNumber": 4,
+          "RowSpan": 1,
+          "Settings": [],
+          "Versions": []
+        },
+        {
+          "$type": "Sungero.Metadata.ControlMetadata, Sungero.Metadata",
+          "NameGuid": "6db13098-8df5-4096-8fd5-ffc5f9d4dfc5",
+          "Name": "ExecutionState",
+          "ColumnNumber": 0,
+          "ColumnSpan": 1,
+          "DataBinderTypeName": "Sungero.Presentation.CommonDataBinders.DropDownEditorToEnumerationBinder",
+          "ParentGuid": "1b194ce3-c440-4887-9f0d-1cdc4303c583",
+          "PropertyGuid": "5c742813-b74b-4d04-9de0-889f4e40083d",
+          "RowNumber": 6,
+          "RowSpan": 1,
+          "Settings": [],
+          "Versions": []
+        },
+        {
+          "$type": "Sungero.Metadata.ControlMetadata, Sungero.Metadata",
+          "NameGuid": "2574d8e0-ddb0-4af7-a692-711434658d6a",
+          "Name": "ControlExecutionState",
+          "ColumnNumber": 0,
+          "ColumnSpan": 1,
+          "DataBinderTypeName": "Sungero.Presentation.CommonDataBinders.DropDownEditorToEnumerationBinder",
+          "ParentGuid": "1b194ce3-c440-4887-9f0d-1cdc4303c583",
+          "PropertyGuid": "669e7119-15cd-46b6-9e4e-442b29d08a03",
+          "RowNumber": 7,
+          "RowSpan": 1,
+          "Settings": [],
+          "Versions": []
+        },
+        {
+          "$type": "Sungero.Metadata.ControlGroupMetadata, Sungero.Metadata",
+          "NameGuid": "1b194ce3-c440-4887-9f0d-1cdc4303c583",
+          "Name": "State",
+          "ColumnNumber": 0,
+          "ColumnSpan": 1,
+          "GroupType": "WithTitleNoBorder",
+          "ParentGuid": "28a6d4a8-a26a-467b-8fe6-da426092ec4a",
+          "RowNumber": 2,
+          "RowSpan": 1,
+          "Versions": []
+        },
+        {
+          "$type": "Sungero.Metadata.ControlGroupMetadata, Sungero.Metadata",
+          "NameGuid": "72e49225-1e83-4e65-bb33-ea838a458e43",
+          "Name": "LocationStateGroup",
+          "ColumnNumber": 0,
+          "ColumnSpan": 1,
+          "GroupType": "WithTitleNoBorder",
+          "ParentGuid": "28a6d4a8-a26a-467b-8fe6-da426092ec4a",
+          "RowNumber": 4,
+          "RowSpan": 1,
+          "Versions": []
+        },
+        {
+          "$type": "Sungero.Metadata.LabelControlMetadata, Sungero.Metadata",
+          "NameGuid": "4628212b-0304-439a-b3fb-29f0a1ea289e",
+          "Name": "LocationState",
+          "ColumnNumber": 0,
+          "ColumnSpan": 1,
+          "DataBinderTypeName": "Sungero.Presentation.CommonDataBinders.LabelToTextSourceBinder",
+          "HeaderLocation": "None",
+          "ParentGuid": "72e49225-1e83-4e65-bb33-ea838a458e43",
+          "PropertyGuid": "f322dee8-ec6b-453b-b47f-1be96421bd75",
+          "RowNumber": 0,
+          "RowSpan": 1,
+          "Settings": [
+            {
+              "Name": "Height",
+              "Value": 100
+            }
+          ],
+          "Versions": []
+        },
+        {
+          "$type": "Sungero.Metadata.ControlMetadata, Sungero.Metadata",
+          "NameGuid": "174ad90c-64a4-439e-aa4f-0c7286c511df",
+          "Name": "ExchangeState",
+          "ColumnNumber": 0,
+          "ColumnSpan": 1,
+          "DataBinderTypeName": "Sungero.Presentation.CommonDataBinders.DropDownEditorToEnumerationBinder",
+          "ParentGuid": "1b194ce3-c440-4887-9f0d-1cdc4303c583",
+          "PropertyGuid": "0d4c6141-a3e9-431c-8138-305443f31d8b",
+          "RowNumber": 5,
+          "RowSpan": 1,
+          "Settings": [],
+          "Versions": []
+        },
+        {
+          "$type": "Sungero.Metadata.ControlMetadata, Sungero.Metadata",
+          "NameGuid": "a52c6e12-1b2c-4fc8-941d-7846542e3105",
+          "Name": "VerificationState",
+          "ColumnNumber": 0,
+          "ColumnSpan": 1,
+          "DataBinderTypeName": "Sungero.Presentation.CommonDataBinders.DropDownEditorToEnumerationBinder",
+          "ParentGuid": "1b194ce3-c440-4887-9f0d-1cdc4303c583",
+          "PropertyGuid": "9b7cc9f8-d575-45a0-b9e3-e6c820a1fc83",
+          "RowNumber": 2,
+          "RowSpan": 1,
+          "Settings": [],
+          "Versions": []
+        },
+        {
+          "$type": "Sungero.Metadata.ControlMetadata, Sungero.Metadata",
+          "NameGuid": "376689e3-6575-400e-8db1-653cd1b30946",
+          "Name": "UnifiedRegistrationNumber",
+          "ColumnNumber": 0,
+          "ColumnSpan": 1,
+          "DataBinderTypeName": "Sungero.Presentation.CommonDataBinders.StringEditorToStringBinder",
+          "ParentGuid": "4e1d78fc-6f6c-4c81-bf9a-a1fa2031a46b",
+          "PropertyGuid": "0487f45f-c7f0-4db7-8e0a-1f1662be09d4",
+          "RowNumber": 0,
+          "RowSpan": 1,
+          "Settings": []
+        },
+        {
+          "$type": "Sungero.Metadata.ControlMetadata, Sungero.Metadata",
+          "NameGuid": "3d117112-7932-4535-b4da-de27473da420",
+          "Name": "Powers",
+          "ColumnNumber": 0,
+          "ColumnSpan": 2,
+          "DataBinderTypeName": "Sungero.Presentation.CommonDataBinders.TextEditorToTextBinder",
+          "ParentGuid": "3d411ab8-967c-43b4-ab77-0240b19d9921",
+          "PropertyGuid": "7fe89d0e-ec6e-4ecb-bb59-9016bf2e959c",
+          "RowNumber": 3,
+          "RowSpan": 1,
+          "Settings": [
+            {
+              "Name": "Height",
+              "Value": 40
+            }
+          ]
+        },
+        {
+          "$type": "Sungero.Metadata.ControlMetadata, Sungero.Metadata",
+          "NameGuid": "c886a1d4-eff0-45b8-a034-cf1627ec015d",
+          "Name": "AgentType",
+          "ColumnNumber": 0,
+          "ColumnSpan": 2,
+          "DataBinderTypeName": "Sungero.Presentation.CommonDataBinders.DropDownEditorToEnumerationBinder",
+          "ParentGuid": "3d411ab8-967c-43b4-ab77-0240b19d9921",
+          "PropertyGuid": "4e652847-1b23-4a05-92cd-6ceee2ecf78e",
+          "RowNumber": 0,
+          "RowSpan": 1,
+          "Settings": []
+        },
+        {
+          "$type": "Sungero.Metadata.ControlMetadata, Sungero.Metadata",
+          "NameGuid": "a5d89695-ff00-4807-b175-4336a48c7146",
+          "Name": "IssuedToParty",
+          "ColumnNumber": 0,
+          "ColumnSpan": 1,
+          "DataBinderTypeName": "Sungero.Presentation.CommonDataBinders.DropDownEditorToNavigationBinder",
+          "ParentGuid": "3d411ab8-967c-43b4-ab77-0240b19d9921",
+          "PropertyGuid": "6e284451-f1b1-4a00-9eed-98eac5ff1f86",
+          "RowNumber": 1,
+          "RowSpan": 1,
+          "Settings": []
+        },
+        {
+          "$type": "Sungero.Metadata.ControlMetadata, Sungero.Metadata",
+          "NameGuid": "72db76cd-b108-49b6-bb67-0a272a0a9e90",
+          "Name": "Representative",
+          "ColumnNumber": 1,
+          "ColumnSpan": 1,
+          "DataBinderTypeName": "Sungero.Presentation.CommonDataBinders.DropDownEditorToNavigationBinder",
+          "ParentGuid": "3d411ab8-967c-43b4-ab77-0240b19d9921",
+          "PropertyGuid": "b096a18a-4775-4a27-a5c1-38a9818b24d8",
+          "RowNumber": 1,
+          "RowSpan": 1,
+          "Settings": []
+        },
+        {
+          "$type": "Sungero.Metadata.ControlMetadata, Sungero.Metadata",
+          "NameGuid": "09b8c877-bb4f-4b32-9a98-32d12a8dae24",
+          "Name": "BusinessUnit",
+          "ColumnNumber": 0,
+          "ColumnSpan": 1,
+          "DataBinderTypeName": "Sungero.Presentation.CommonDataBinders.DropDownEditorToNavigationBinder",
+          "ParentGuid": "2cf357f4-9e0d-4e83-8920-a09720cad45d",
+          "PropertyGuid": "ed9f1bb0-d1cf-467e-8067-aca85212e44d",
+          "RowNumber": 0,
+          "RowSpan": 1,
+          "Settings": [],
+          "Versions": []
+        },
+        {
+          "$type": "Sungero.Metadata.ControlMetadata, Sungero.Metadata",
+          "NameGuid": "597fdf12-2533-4c36-b69a-e250aa909158",
+          "Name": "Department",
+          "ColumnNumber": 1,
+          "ColumnSpan": 1,
+          "DataBinderTypeName": "Sungero.Presentation.CommonDataBinders.DropDownEditorToNavigationBinder",
+          "ParentGuid": "2cf357f4-9e0d-4e83-8920-a09720cad45d",
+          "PropertyGuid": "fba56283-50dd-4ef9-8d22-e339feff7440",
+          "RowNumber": 0,
+          "RowSpan": 1,
+          "Settings": [],
+          "Versions": []
+        },
+        {
+          "$type": "Sungero.Metadata.ControlMetadata, Sungero.Metadata",
+          "NameGuid": "f52462d2-8d54-4592-9b3d-657da4591f56",
+          "Name": "OurSignatory",
+          "ColumnNumber": 0,
+          "ColumnSpan": 1,
+          "DataBinderTypeName": "Sungero.Presentation.CommonDataBinders.DropDownEditorToNavigationBinder",
+          "ParentGuid": "2cf357f4-9e0d-4e83-8920-a09720cad45d",
+          "PropertyGuid": "a8cc5c2a-cf89-4611-a4f4-524975ad6abb",
+          "RowNumber": 1,
+          "RowSpan": 1,
+          "Settings": [],
+          "Versions": []
+        },
+        {
+          "$type": "Sungero.Metadata.ControlMetadata, Sungero.Metadata",
+          "NameGuid": "dcab7ecf-faed-4bd6-8e0f-a391e95f08dc",
+          "Name": "Preparer",
+          "ColumnNumber": 1,
+          "ColumnSpan": 1,
+          "DataBinderTypeName": "Sungero.Presentation.CommonDataBinders.DropDownEditorToNavigationBinder",
+          "ParentGuid": "2cf357f4-9e0d-4e83-8920-a09720cad45d",
+          "PropertyGuid": "4bc98f75-10a0-4d54-9f5a-2b88388376b2",
+          "RowNumber": 1,
+          "RowSpan": 1,
+          "Settings": [],
+          "Versions": []
+        },
+        {
+          "$type": "Sungero.Metadata.ControlMetadata, Sungero.Metadata",
+          "NameGuid": "3c3c9cb6-ccfb-442b-8d02-db44d8500f02",
+          "Name": "FtsListState",
+          "ColumnNumber": 0,
+          "ColumnSpan": 1,
+          "DataBinderTypeName": "Sungero.Presentation.CommonDataBinders.DropDownEditorToEnumerationBinder",
+          "ParentGuid": "1b194ce3-c440-4887-9f0d-1cdc4303c583",
+          "PropertyGuid": "a73cda1f-9cde-4462-8da4-51d07272e22e",
+          "RowNumber": 8,
+          "RowSpan": 1,
+          "Settings": []
+        },
+        {
+          "$type": "Sungero.Metadata.ControlGroupMetadata, Sungero.Metadata",
+          "NameGuid": "5ea11aa4-2168-485c-b01f-e7cfba92c3ec",
+          "Name": "Details",
+          "ColumnNumber": 0,
+          "ColumnSpan": 1,
+          "GroupType": "WithTitleNoBorder",
+          "ParentGuid": "28a6d4a8-a26a-467b-8fe6-da426092ec4a",
+          "RowNumber": 3,
+          "RowSpan": 1
+        },
+        {
+          "$type": "Sungero.Metadata.LabelControlMetadata, Sungero.Metadata",
+          "NameGuid": "a762819e-8dda-42bd-8758-2a26a36e0445",
+          "Name": "RegistrationError",
+          "ColumnNumber": 0,
+          "ColumnSpan": 1,
+          "DataBinderTypeName": "Sungero.Presentation.CommonDataBinders.LabelToTextSourceBinder",
+          "HeaderLocation": "None",
+          "ParentGuid": "5ea11aa4-2168-485c-b01f-e7cfba92c3ec",
+          "PropertyGuid": "6d41cc8f-790d-4994-a2e0-9237945a2886",
+          "RowNumber": 0,
+          "RowSpan": 1,
+          "Settings": [
+            {
+              "Name": "Height",
+              "Value": 120
+            }
+          ]
+        }
+      ],
+      "IsAncestorMetadata": true,
+      "Overridden": [
+        "SettingsResourceKey"
+      ],
+      "Versions": []
+    }
+  ],
+  "HandledEvents": [
+    "CreatingFromServer",
+    "RefreshClient",
+    "CreatedServer",
+    "RefreshClient",
+    "BeforeSaveServer",
+    "ClosingClient",
+    "FilteringServer",
+    "WriteHistoryServer"
+  ],
+  "IconName": "FormalizedPowerOfAttorney.ico",
+  "IconResourcesKeys": [],
+  "OpenCardByDefaultInCollection": true,
+  "OperationsClass": "",
+  "Overridden": [
+    "CanBeSearch",
+    "DocumentVersionCreationSources",
+    "IconName"
+  ],
+  "Properties": [
+    {
+      "$type": "Sungero.Metadata.EnumPropertyMetadata, Sungero.Metadata",
+      "NameGuid": "ec082683-e3d8-4cf2-8cfa-1461ee0e6fc0",
+      "Name": "LifeCycleState",
+      "IsAncestorMetadata": true,
+      "Overridden": [
+        "Values"
+      ],
+      "Versions": []
+    },
+    {
+      "$type": "Sungero.Metadata.StringPropertyMetadata, Sungero.Metadata",
+      "NameGuid": "7fe89d0e-ec6e-4ecb-bb59-9016bf2e959c",
+      "Name": "Powers",
+      "IsAncestorMetadata": true,
+      "Overridden": [
+        "CanBeSearch",
+        "PreviousPropertyGuid"
+      ],
+      "PreviousPropertyGuid": "27dee161-2fb4-46bb-9fd9-da61c92e534c"
+    },
+    {
+      "$type": "Sungero.Metadata.NavigationPropertyMetadata, Sungero.Metadata",
+      "NameGuid": "ed9f1bb0-d1cf-467e-8067-aca85212e44d",
+      "Name": "BusinessUnit",
+      "IsAncestorMetadata": true,
+      "Overridden": [
+        "IsRequired"
+      ],
+      "Versions": []
+    },
+    {
+      "$type": "Sungero.Metadata.NavigationPropertyMetadata, Sungero.Metadata",
+      "NameGuid": "fba56283-50dd-4ef9-8d22-e339feff7440",
+      "Name": "Department",
+      "IsAncestorMetadata": true,
+      "Overridden": [
+        "IsRequired"
+      ],
+      "Versions": []
+    },
+    {
+      "$type": "Sungero.Metadata.IntegerPropertyMetadata, Sungero.Metadata",
+      "NameGuid": "f348032e-2d86-4f4a-b7d7-c60d86427cfa",
+      "Name": "LastVersionSignatureType",
+      "IsAncestorMetadata": true,
+      "Overridden": [
+        "PreviousPropertyGuid"
+      ],
+      "PreviousPropertyGuid": "0658df80-f11a-482b-92e1-18fa78fc7778"
+    },
+    {
+      "$type": "Sungero.Metadata.BooleanPropertyMetadata, Sungero.Metadata",
+      "NameGuid": "6e04681d-21d6-405e-bb01-775dc84ddb08",
+      "Name": "HasPublicBody",
+      "IsAncestorMetadata": true,
+      "Overridden": [
+        "PreviousPropertyGuid"
+      ],
+      "PreviousPropertyGuid": "aae1f6ae-d090-4c5a-963e-44c8b79dc92b"
+    },
+    {
+      "$type": "Sungero.Metadata.NavigationPropertyMetadata, Sungero.Metadata",
+      "NameGuid": "0658df80-f11a-482b-92e1-18fa78fc7778",
+      "Name": "Project",
+      "IsAncestorMetadata": true,
+      "Overridden": [
+        "PreviousPropertyGuid"
+      ],
+      "PreviousPropertyGuid": "0151c009-8d64-41e3-a675-9ffb1c6bccc7",
+      "Versions": []
+    },
+    {
+      "$type": "Sungero.Metadata.BooleanPropertyMetadata, Sungero.Metadata",
+      "NameGuid": "246e4bcc-0dea-4599-bbb9-ddfdc6f63bc1",
+      "Name": "HasRelations",
+      "IsAncestorMetadata": true,
+      "Overridden": [
+        "PreviousPropertyGuid"
+      ],
+      "PreviousPropertyGuid": "0487f45f-c7f0-4db7-8e0a-1f1662be09d4",
+      "Versions": []
+    },
+    {
+      "$type": "Sungero.Metadata.NavigationPropertyMetadata, Sungero.Metadata",
+      "NameGuid": "50e10772-7165-4916-b8c5-b9ed30c3c151",
+      "Name": "DocumentGroup",
+      "IsAncestorMetadata": true,
+      "Overridden": [
+        "PreviousPropertyGuid"
+      ],
+      "PreviousPropertyGuid": "f72f5dba-0004-4b1b-ad6b-8d6ba20f0145",
+      "Versions": []
+    },
+    {
+      "$type": "Sungero.Metadata.NavigationPropertyMetadata, Sungero.Metadata",
+      "NameGuid": "a8cc5c2a-cf89-4611-a4f4-524975ad6abb",
+      "Name": "OurSignatory",
+      "IsAncestorMetadata": true,
+      "Overridden": [
+        "PreviousPropertyGuid"
+      ],
+      "PreviousPropertyGuid": "fba56283-50dd-4ef9-8d22-e339feff7440",
+      "Versions": []
+    },
+    {
+      "$type": "Sungero.Metadata.StringPropertyMetadata, Sungero.Metadata",
+      "NameGuid": "4bc39efb-1f46-4a1e-8b8c-04f2b90d6a8b",
+      "Name": "Subject",
+      "IsAncestorMetadata": true,
+      "Overridden": [
+        "PreviousPropertyGuid",
+        "IsRequired"
+      ],
+      "PreviousPropertyGuid": "af32429c-9697-4f3c-a3e2-ef30296e18b8",
+      "Versions": []
+    },
+    {
+      "$type": "Sungero.Metadata.NavigationPropertyMetadata, Sungero.Metadata",
+      "NameGuid": "27dee161-2fb4-46bb-9fd9-da61c92e534c",
+      "Name": "IssuedTo",
+      "IsAncestorMetadata": true,
+      "Overridden": [
+        "PreviousPropertyGuid",
+        "IsRequired"
+      ],
+      "PreviousPropertyGuid": "91ac0e49-10fc-45a2-848a-0541e7fdd7cd"
+    },
+    {
+      "$type": "Sungero.Metadata.DateTimePropertyMetadata, Sungero.Metadata",
+      "NameGuid": "55bf4691-0542-4cf6-a9c2-a7ae4be4be22",
+      "Name": "ValidTill",
+      "IsAncestorMetadata": true,
+      "Overridden": [
+        "PreviousPropertyGuid"
+      ],
+      "PreviousPropertyGuid": "184ab537-5748-454f-8a9c-cdbdd506321e"
+    },
+    {
+      "$type": "Sungero.Metadata.DateTimePropertyMetadata, Sungero.Metadata",
+      "NameGuid": "af32429c-9697-4f3c-a3e2-ef30296e18b8",
+      "Name": "ValidFrom",
+      "IsAncestorMetadata": true,
+      "Overridden": [
+        "PreviousPropertyGuid"
+      ],
+      "PreviousPropertyGuid": "a8cc5c2a-cf89-4611-a4f4-524975ad6abb"
+    },
+    {
+      "$type": "Sungero.Metadata.CollectionPropertyMetadata, Sungero.Metadata",
+      "NameGuid": "56cbe741-880f-4e6f-9567-343d08494b59",
+      "Name": "Versions",
+      "EntityGuid": "5a205c9c-5cb1-431a-a6a5-420d474c74d5",
+      "IsAncestorMetadata": true,
+      "Overridden": [
+        "EntityGuid"
+      ],
+      "Versions": []
+    },
+    {
+      "$type": "Sungero.Metadata.CollectionPropertyMetadata, Sungero.Metadata",
+      "NameGuid": "15280407-331e-42f6-b263-041a495b66cd",
+      "Name": "Tracking",
+      "EntityGuid": "14c63ddd-aa2e-43c3-9a3b-f5e6a73a1858",
+      "IsAncestorMetadata": true,
+      "Overridden": [
+        "EntityGuid"
+      ],
+      "Versions": []
+    },
+    {
+      "$type": "Sungero.Metadata.StringPropertyMetadata, Sungero.Metadata",
+      "NameGuid": "0487f45f-c7f0-4db7-8e0a-1f1662be09d4",
+      "Name": "UnifiedRegistrationNumber",
+      "Code": "UnifiedRegNum",
+      "HandledEvents": [
+        "ValueInputClient",
+        "ChangedShared"
+      ],
+      "IsEnabled": false,
+      "ListDataBinderTypeName": "Sungero.Presentation.CommonDataBinders.StringEditorToStringBinder",
+      "PreviousPropertyGuid": "7fe89d0e-ec6e-4ecb-bb59-9016bf2e959c"
+    },
+    {
+      "$type": "Sungero.Metadata.EnumPropertyMetadata, Sungero.Metadata",
+      "NameGuid": "a73cda1f-9cde-4462-8da4-51d07272e22e",
+      "Name": "FtsListState",
+      "CanBeSearch": false,
+      "Code": "FtsListState",
+      "DirectValues": [
+        {
+          "NameGuid": "21594f2d-d637-49ce-941c-d9779a18020a",
+          "Name": "OnRegistration",
+          "Code": "OnRegistration"
+        },
+        {
+          "NameGuid": "1f5600ab-3a5e-47cb-8652-17b0f98ce2d8",
+          "Name": "Rejected",
+          "Code": "Rejected"
+        },
+        {
+          "NameGuid": "133a5952-a701-4177-a5e5-c7a96fc46f1c",
+          "Name": "Registered",
+          "Code": "Registered"
+        },
+        {
+          "NameGuid": "f276a718-c269-43a8-8d57-5ed164678bef",
+          "Name": "OnRevoke",
+          "Code": "OnRevoke"
+        },
+        {
+          "NameGuid": "4a442708-7845-4390-9d90-89436c5b916c",
+          "Name": "Revoked",
+          "Code": "Revoked"
+        }
+      ],
+      "HandledEvents": [
+        "ChangedShared"
+      ],
+      "IsEnabled": false,
+      "ListDataBinderTypeName": "Sungero.Presentation.CommonDataBinders.DropDownEditorToEnumerationBinder",
+      "PreviousPropertyGuid": "e8153176-8158-4720-acea-2c0da69052d8"
+    },
+    {
+      "$type": "Sungero.Metadata.TextPropertyMetadata, Sungero.Metadata",
+      "NameGuid": "6d41cc8f-790d-4994-a2e0-9237945a2886",
+      "Name": "FtsRejectReason",
+      "CanBeSearch": false,
+      "Code": "FtsRejectRsn",
+      "IsEnabled": false,
+      "IsShowedInList": false,
+      "ListDataBinderTypeName": "Sungero.Presentation.CommonDataBinders.StringEditorToTextBinder",
+      "PreviousPropertyGuid": "a73cda1f-9cde-4462-8da4-51d07272e22e"
+    }
+  ],
+  "PublicConstants": [
+    {
+      "Name": "DifferentSignatureError",
+      "ParentClasses": [
+        "FormalizedPowerOfAttorney",
+        "FPoARegistrationErrors"
+      ],
+      "TypeName": "System.String",
+      "Value": "\"conflictdifferentsignature\""
+    },
+    {
+      "Name": "ExternalSystemIsUnavailableError",
+      "ParentClasses": [
+        "FormalizedPowerOfAttorney",
+        "FPoARegistrationErrors"
+      ],
+      "TypeName": "System.String",
+      "Value": "\"externalsystemisunavailable\""
+    },
+    {
+      "Name": "FPoARevocationReasonMaxLength",
+      "ParentClasses": [
+        "FormalizedPowerOfAttorney"
+      ],
+      "TypeName": "System.Int32",
+      "Value": "500"
+    },
+    {
+      "Name": "FPoAWasJustImportedParamName",
+      "ParentClasses": [
+        "FormalizedPowerOfAttorney"
+      ],
+      "TypeName": "System.String",
+      "Value": "\"FPoAWasJustImported\""
+    },
+    {
+      "Name": "HtmlExtension",
+      "ParentClasses": [
+        "FormalizedPowerOfAttorney"
+      ],
+      "TypeName": "System.String",
+      "Value": "\"html\""
+    },
+    {
+      "Name": "InvalidCertificateError",
+      "ParentClasses": [
+        "FormalizedPowerOfAttorney",
+        "FPoARegistrationErrors"
+      ],
+      "TypeName": "System.String",
+      "Value": "\"invalidcertificate\""
+    },
+    {
+      "Name": "IsLastVersionApprovedParamName",
+      "ParentClasses": [
+        "FormalizedPowerOfAttorney"
+      ],
+      "TypeName": "System.String",
+      "Value": "\"IsLastVersionApproved\""
+    },
+    {
+      "Name": "PoANotFoundError",
+      "ParentClasses": [
+        "FormalizedPowerOfAttorney",
+        "FPoAState"
+      ],
+      "TypeName": "System.String",
+      "Value": "\"poaNotFound\""
+    },
+    {
+      "Name": "RepeatedRegistrationError",
+      "ParentClasses": [
+        "FormalizedPowerOfAttorney",
+        "FPoARegistrationErrors"
+      ],
+      "TypeName": "System.String",
+      "Value": "\"conflictsamecontentandsamesignature\""
+    },
+    {
+      "Name": "RussianFederationCountryCode",
+      "ParentClasses": [
+        "FormalizedPowerOfAttorney"
+      ],
+      "TypeName": "System.String",
+      "Value": "\"643\""
+    },
+    {
+      "Name": "SendForRegistrationError",
+      "ParentClasses": [
+        "FormalizedPowerOfAttorney",
+        "FPoARegistrationErrors"
+      ],
+      "TypeName": "System.String",
+      "Value": "\"sendforregistrationerror\""
+    },
+    {
+      "Name": "UnsupportedPoA",
+      "ParentClasses": [
+        "FormalizedPowerOfAttorney",
+        "FPoARegistrationErrors"
+      ],
+      "TypeName": "System.String",
+      "Value": "\"unsupportedpoa\""
+    },
+    {
+      "Name": "XmlExtension",
+      "ParentClasses": [
+        "FormalizedPowerOfAttorney"
+      ],
+      "TypeName": "System.String",
+      "Value": "\"xml\""
+    }
+  ],
+  "PublicFunctions": [
+    {
+      "Name": "AddNewVersionIfLastVersionApproved",
+      "Parameters": [
+        {
+          "Name": "formalizedPowerOfAttorney",
+          "ParameterType": "global::Sungero.Docflow.IFormalizedPowerOfAttorney",
+          "ParameterTypeFullName": "Sungero.Docflow.IFormalizedPowerOfAttorney, Sungero.Domain.Interfaces"
+        }
+      ],
+      "ReturnType": "void",
+      "ReturnTypeFullName": "System.Void"
+    },
+    {
+      "Name": "CanCheckStateWithService",
+      "Parameters": [
+        {
+          "Name": "formalizedPowerOfAttorney",
+          "ParameterType": "global::Sungero.Docflow.IFormalizedPowerOfAttorney",
+          "ParameterTypeFullName": "Sungero.Docflow.IFormalizedPowerOfAttorney, Sungero.Domain.Interfaces"
+        }
+      ],
+      "Placement": "Shared",
+      "ReturnType": "global::System.Boolean",
+      "ReturnTypeFullName": "System.Boolean"
+    },
+    {
+      "Name": "CanCreateRevocation",
+      "Parameters": [
+        {
+          "Name": "formalizedPowerOfAttorney",
+          "ParameterType": "global::Sungero.Docflow.IFormalizedPowerOfAttorney",
+          "ParameterTypeFullName": "Sungero.Docflow.IFormalizedPowerOfAttorney, Sungero.Domain.Interfaces"
+        }
+      ],
+      "Placement": "Shared",
+      "ReturnType": "global::System.Boolean",
+      "ReturnTypeFullName": "System.Boolean"
+    },
+    {
+      "Name": "CanGenerateBodyWithPdf",
+      "Parameters": [
+        {
+          "Name": "formalizedPowerOfAttorney",
+          "ParameterType": "global::Sungero.Docflow.IFormalizedPowerOfAttorney",
+          "ParameterTypeFullName": "Sungero.Docflow.IFormalizedPowerOfAttorney, Sungero.Domain.Interfaces"
+        }
+      ],
+      "Placement": "Shared",
+      "ReturnType": "global::System.Boolean",
+      "ReturnTypeFullName": "System.Boolean"
+    },
+    {
+      "Name": "CanImportVersionWithSignature",
+      "Parameters": [
+        {
+          "Name": "formalizedPowerOfAttorney",
+          "ParameterType": "global::Sungero.Docflow.IFormalizedPowerOfAttorney",
+          "ParameterTypeFullName": "Sungero.Docflow.IFormalizedPowerOfAttorney, Sungero.Domain.Interfaces"
+        }
+      ],
+      "Placement": "Shared",
+      "ReturnType": "global::System.Boolean",
+      "ReturnTypeFullName": "System.Boolean"
+    },
+    {
+      "Name": "CanRegisterWithService",
+      "Parameters": [
+        {
+          "Name": "formalizedPowerOfAttorney",
+          "ParameterType": "global::Sungero.Docflow.IFormalizedPowerOfAttorney",
+          "ParameterTypeFullName": "Sungero.Docflow.IFormalizedPowerOfAttorney, Sungero.Domain.Interfaces"
+        }
+      ],
+      "Placement": "Shared",
+      "ReturnType": "global::System.Boolean",
+      "ReturnTypeFullName": "System.Boolean"
+    },
+    {
+      "Name": "CheckFormalizedPowerOfAttorneyState",
+      "IsRemote": true,
+      "Parameters": [
+        {
+          "Name": "formalizedPowerOfAttorney",
+          "ParameterType": "global::Sungero.Docflow.IFormalizedPowerOfAttorney",
+          "ParameterTypeFullName": "Sungero.Docflow.IFormalizedPowerOfAttorney, Sungero.Domain.Interfaces"
+        }
+      ],
+      "Placement": "Shared",
+      "ReturnType": "global::System.String",
+      "ReturnTypeFullName": "System.String"
+    },
+    {
+      "Name": "CheckPdfConvertibilityByExtension",
+      "Parameters": [
+        {
+          "Name": "formalizedPowerOfAttorney",
+          "ParameterType": "global::Sungero.Docflow.IFormalizedPowerOfAttorney",
+          "ParameterTypeFullName": "Sungero.Docflow.IFormalizedPowerOfAttorney, Sungero.Domain.Interfaces"
+        },
+        {
+          "Name": "extension",
+          "ParameterType": "global::System.String",
+          "ParameterTypeFullName": "System.String"
+        }
+      ],
+      "ReturnType": "global::System.Boolean",
+      "ReturnTypeFullName": "System.Boolean"
+    },
+    {
+      "Name": "CheckSignature",
+      "Parameters": [
+        {
+          "Name": "formalizedPowerOfAttorney",
+          "ParameterType": "global::Sungero.Docflow.IFormalizedPowerOfAttorney",
+          "ParameterTypeFullName": "Sungero.Docflow.IFormalizedPowerOfAttorney, Sungero.Domain.Interfaces"
+        }
+      ],
+      "ReturnType": "void",
+      "ReturnTypeFullName": "System.Void"
+    },
+    {
+      "Name": "ConvertSignatureFromBase64",
+      "Parameters": [
+        {
+          "Name": "formalizedPowerOfAttorney",
+          "ParameterType": "global::Sungero.Docflow.IFormalizedPowerOfAttorney",
+          "ParameterTypeFullName": "Sungero.Docflow.IFormalizedPowerOfAttorney, Sungero.Domain.Interfaces"
+        },
+        {
+          "Name": "signature",
+          "ParameterType": "global::Sungero.Docflow.Structures.Module.IByteArray",
+          "ParameterTypeFullName": "Sungero.Docflow.Structures.Module.IByteArray"
+        }
+      ],
+      "ReturnType": "global::Sungero.Docflow.Structures.Module.IByteArray",
+      "ReturnTypeFullName": "Sungero.Docflow.Structures.Module.IByteArray"
+    },
+    {
+      "Name": "CreateRevocation",
+      "IsRemote": true,
+      "Parameters": [
+        {
+          "Name": "formalizedPowerOfAttorney",
+          "ParameterType": "global::Sungero.Docflow.IFormalizedPowerOfAttorney",
+          "ParameterTypeFullName": "Sungero.Docflow.IFormalizedPowerOfAttorney, Sungero.Domain.Interfaces"
+        },
+        {
+          "Name": "reason",
+          "ParameterType": "global::System.String",
+          "ParameterTypeFullName": "System.String"
+        }
+      ],
+      "Placement": "Shared",
+      "ReturnType": "global::Sungero.Docflow.IPowerOfAttorneyRevocation",
+      "ReturnTypeFullName": "Sungero.Docflow.IPowerOfAttorneyRevocation, Sungero.Domain.Interfaces"
+    },
+    {
+      "Name": "CreateSetSignatureSettingsValidTillAsyncHandler",
+      "IsRemote": true,
+      "Parameters": [
+        {
+          "Name": "formalizedPowerOfAttorney",
+          "ParameterType": "global::Sungero.Docflow.IFormalizedPowerOfAttorney",
+          "ParameterTypeFullName": "Sungero.Docflow.IFormalizedPowerOfAttorney, Sungero.Domain.Interfaces"
+        },
+        {
+          "Name": "validTill",
+          "ParameterType": "global::System.DateTime",
+          "ParameterTypeFullName": "System.DateTime"
+        }
+      ],
+      "Placement": "Shared",
+      "ReturnType": "void",
+      "ReturnTypeFullName": "System.Void"
+    },
+    {
+      "Name": "EnqueueValidation",
+      "Parameters": [
+        {
+          "Name": "formalizedPowerOfAttorney",
+          "ParameterType": "global::Sungero.Docflow.IFormalizedPowerOfAttorney",
+          "ParameterTypeFullName": "Sungero.Docflow.IFormalizedPowerOfAttorney, Sungero.Domain.Interfaces"
+        },
+        {
+          "Name": "serviceConnection",
+          "ParameterType": "global::Sungero.PowerOfAttorneyCore.IPowerOfAttorneyServiceConnection",
+          "ParameterTypeFullName": "Sungero.PowerOfAttorneyCore.IPowerOfAttorneyServiceConnection, Sungero.Domain.Interfaces"
+        },
+        {
+          "Name": "queueItem",
+          "ParameterType": "global::Sungero.Docflow.IPowerOfAttorneyQueueItem",
+          "ParameterTypeFullName": "Sungero.Docflow.IPowerOfAttorneyQueueItem, Sungero.Domain.Interfaces"
+        }
+      ],
+      "ReturnType": "global::System.Boolean",
+      "ReturnTypeFullName": "System.Boolean"
+    },
+    {
+      "Name": "FillDocumentName",
+      "Parameters": [
+        {
+          "Name": "formalizedPowerOfAttorney",
+          "ParameterType": "global::Sungero.Docflow.IFormalizedPowerOfAttorney",
+          "ParameterTypeFullName": "Sungero.Docflow.IFormalizedPowerOfAttorney, Sungero.Domain.Interfaces"
+        },
+        {
+          "Name": "xdoc",
+          "ParameterType": "System.Xml.Linq.XDocument"
+        }
+      ],
+      "ReturnType": "void",
+      "ReturnTypeFullName": "System.Void"
+    },
+    {
+      "Name": "FillFormalizedPowerOfAttorney",
+      "Parameters": [
+        {
+          "Name": "formalizedPowerOfAttorney",
+          "ParameterType": "global::Sungero.Docflow.IFormalizedPowerOfAttorney",
+          "ParameterTypeFullName": "Sungero.Docflow.IFormalizedPowerOfAttorney, Sungero.Domain.Interfaces"
+        },
+        {
+          "Name": "xml",
+          "ParameterType": "global::Sungero.Docflow.Structures.Module.IByteArray",
+          "ParameterTypeFullName": "Sungero.Docflow.Structures.Module.IByteArray"
+        }
+      ],
+      "ReturnType": "void",
+      "ReturnTypeFullName": "System.Void"
+    },
+    {
+      "Name": "FillIssuedToFromXml",
+      "Parameters": [
+        {
+          "Name": "formalizedPowerOfAttorney",
+          "ParameterType": "global::Sungero.Docflow.IFormalizedPowerOfAttorney",
+          "ParameterTypeFullName": "Sungero.Docflow.IFormalizedPowerOfAttorney, Sungero.Domain.Interfaces"
+        },
+        {
+          "Name": "xdoc",
+          "ParameterType": "System.Xml.Linq.XDocument"
+        }
+      ],
+      "ReturnType": "void",
+      "ReturnTypeFullName": "System.Void"
+    },
+    {
+      "Name": "FillRegistrationData",
+      "Parameters": [
+        {
+          "Name": "formalizedPowerOfAttorney",
+          "ParameterType": "global::Sungero.Docflow.IFormalizedPowerOfAttorney",
+          "ParameterTypeFullName": "Sungero.Docflow.IFormalizedPowerOfAttorney, Sungero.Domain.Interfaces"
+        },
+        {
+          "Name": "number",
+          "ParameterType": "global::System.String",
+          "ParameterTypeFullName": "System.String"
+        },
+        {
+          "Name": "date",
+          "ParameterType": "global::System.Nullable<global::System.DateTime>",
+          "ParameterTypeFullName": "System.Nullable"
+        }
+      ],
+      "ReturnType": "void",
+      "ReturnTypeFullName": "System.Void"
+    },
+    {
+      "Name": "FillUnifiedRegistrationNumberFromXml",
+      "Parameters": [
+        {
+          "Name": "formalizedPowerOfAttorney",
+          "ParameterType": "global::Sungero.Docflow.IFormalizedPowerOfAttorney",
+          "ParameterTypeFullName": "Sungero.Docflow.IFormalizedPowerOfAttorney, Sungero.Domain.Interfaces"
+        },
+        {
+          "Name": "xdoc",
+          "ParameterType": "System.Xml.Linq.XDocument"
+        },
+        {
+          "Name": "powerOfAttorneyInfo",
+          "ParameterType": "System.Xml.Linq.XElement"
+        },
+        {
+          "Name": "poaUnifiedRegNumberAttributeName",
+          "ParameterType": "global::System.String",
+          "ParameterTypeFullName": "System.String"
+        }
+      ],
+      "ReturnType": "void",
+      "ReturnTypeFullName": "System.Void"
+    },
+    {
+      "Name": "FillValidDatesFromXml",
+      "Parameters": [
+        {
+          "Name": "formalizedPowerOfAttorney",
+          "ParameterType": "global::Sungero.Docflow.IFormalizedPowerOfAttorney",
+          "ParameterTypeFullName": "Sungero.Docflow.IFormalizedPowerOfAttorney, Sungero.Domain.Interfaces"
+        },
+        {
+          "Name": "xdoc",
+          "ParameterType": "System.Xml.Linq.XDocument"
+        },
+        {
+          "Name": "powerOfAttorneyInfo",
+          "ParameterType": "System.Xml.Linq.XElement"
+        },
+        {
+          "Name": "poaValidFromAttributeName",
+          "ParameterType": "global::System.String",
+          "ParameterTypeFullName": "System.String"
+        },
+        {
+          "Name": "poaValidTillAttributeName",
+          "ParameterType": "global::System.String",
+          "ParameterTypeFullName": "System.String"
+        }
+      ],
+      "ReturnType": "void",
+      "ReturnTypeFullName": "System.Void"
+    },
+    {
+      "Name": "FormalizedPowerOfAttorneyIsLocked",
+      "Parameters": [
+        {
+          "Name": "formalizedPowerOfAttorney",
+          "ParameterType": "global::Sungero.Docflow.IFormalizedPowerOfAttorney",
+          "ParameterTypeFullName": "Sungero.Docflow.IFormalizedPowerOfAttorney, Sungero.Domain.Interfaces"
+        }
+      ],
+      "ReturnType": "global::System.Boolean",
+      "ReturnTypeFullName": "System.Boolean"
+    },
+    {
+      "Name": "GenerateFormalizedPowerOfAttorneyBody",
+      "IsRemote": true,
+      "Parameters": [
+        {
+          "Name": "formalizedPowerOfAttorney",
+          "ParameterType": "global::Sungero.Docflow.IFormalizedPowerOfAttorney",
+          "ParameterTypeFullName": "Sungero.Docflow.IFormalizedPowerOfAttorney, Sungero.Domain.Interfaces"
+        }
+      ],
+      "Placement": "Shared",
+      "ReturnType": "global::System.Boolean",
+      "ReturnTypeFullName": "System.Boolean"
+    },
+    {
+      "Name": "GenerateFormalizedPowerOfAttorneyPdf",
+      "IsRemote": true,
+      "Parameters": [
+        {
+          "Name": "formalizedPowerOfAttorney",
+          "ParameterType": "global::Sungero.Docflow.IFormalizedPowerOfAttorney",
+          "ParameterTypeFullName": "Sungero.Docflow.IFormalizedPowerOfAttorney, Sungero.Domain.Interfaces"
+        }
+      ],
+      "Placement": "Shared",
+      "ReturnType": "void",
+      "ReturnTypeFullName": "System.Void"
+    },
+    {
+      "Name": "GetAttributeValueByName",
+      "Parameters": [
+        {
+          "Name": "formalizedPowerOfAttorney",
+          "ParameterType": "global::Sungero.Docflow.IFormalizedPowerOfAttorney",
+          "ParameterTypeFullName": "Sungero.Docflow.IFormalizedPowerOfAttorney, Sungero.Domain.Interfaces"
+        },
+        {
+          "Name": "element",
+          "ParameterType": "System.Xml.Linq.XElement"
+        },
+        {
+          "Name": "attributeName",
+          "ParameterType": "global::System.String",
+          "ParameterTypeFullName": "System.String"
+        }
+      ],
+      "ReturnType": "global::System.String",
+      "ReturnTypeFullName": "System.String"
+    },
+    {
+      "Name": "GetBodyToConvertToPdf",
+      "Parameters": [
+        {
+          "Name": "formalizedPowerOfAttorney",
+          "ParameterType": "global::Sungero.Docflow.IFormalizedPowerOfAttorney",
+          "ParameterTypeFullName": "Sungero.Docflow.IFormalizedPowerOfAttorney, Sungero.Domain.Interfaces"
+        },
+        {
+          "Name": "version",
+          "ParameterType": "global::Sungero.Content.IElectronicDocumentVersions",
+          "ParameterTypeFullName": "Sungero.Content.IElectronicDocumentVersions, Sungero.Content.Shared"
+        },
+        {
+          "Name": "isSignatureMark",
+          "ParameterType": "global::System.Boolean",
+          "ParameterTypeFullName": "System.Boolean"
+        }
+      ],
+      "ReturnType": "global::Sungero.Docflow.Structures.OfficialDocument.IVersionBody",
+      "ReturnTypeFullName": "Sungero.Docflow.Structures.OfficialDocument.IVersionBody"
+    },
+    {
+      "Name": "GetDateFromXml",
+      "Parameters": [
+        {
+          "Name": "formalizedPowerOfAttorney",
+          "ParameterType": "global::Sungero.Docflow.IFormalizedPowerOfAttorney",
+          "ParameterTypeFullName": "Sungero.Docflow.IFormalizedPowerOfAttorney, Sungero.Domain.Interfaces"
+        },
+        {
+          "Name": "element",
+          "ParameterType": "System.Xml.Linq.XElement"
+        },
+        {
+          "Name": "attributeName",
+          "ParameterType": "global::System.String",
+          "ParameterTypeFullName": "System.String"
+        }
+      ],
+      "ReturnType": "global::System.Nullable<global::System.DateTime>",
+      "ReturnTypeFullName": "System.Nullable"
+    },
+    {
+      "Name": "GetFormalizedPowerOfAttorneyAsHtml",
+      "Parameters": [
+        {
+          "Name": "formalizedPowerOfAttorney",
+          "ParameterType": "global::Sungero.Docflow.IFormalizedPowerOfAttorney",
+          "ParameterTypeFullName": "Sungero.Docflow.IFormalizedPowerOfAttorney, Sungero.Domain.Interfaces"
+        },
+        {
+          "Name": "version",
+          "ParameterType": "global::Sungero.Content.IElectronicDocumentVersions",
+          "ParameterTypeFullName": "Sungero.Content.IElectronicDocumentVersions, Sungero.Content.Shared"
+        }
+      ],
+      "ReturnType": "global::System.String",
+      "ReturnTypeFullName": "System.String"
+    },
+    {
+      "Name": "GetFormalizedPowerOfAttorneyDuplicates",
+      "IsRemote": true,
+      "Parameters": [
+        {
+          "Name": "formalizedPowerOfAttorney",
+          "ParameterType": "global::Sungero.Docflow.IFormalizedPowerOfAttorney",
+          "ParameterTypeFullName": "Sungero.Docflow.IFormalizedPowerOfAttorney, Sungero.Domain.Interfaces"
+        }
+      ],
+      "Placement": "Shared",
+      "ReturnType": "global::System.Collections.Generic.List<global::Sungero.Docflow.IFormalizedPowerOfAttorney>",
+      "ReturnTypeFullName": "System.Collections.Generic.List"
+    },
+    {
+      "Name": "GetIssuedToFullNameFromXml",
+      "Parameters": [
+        {
+          "Name": "formalizedPowerOfAttorney",
+          "ParameterType": "global::Sungero.Docflow.IFormalizedPowerOfAttorney",
+          "ParameterTypeFullName": "Sungero.Docflow.IFormalizedPowerOfAttorney, Sungero.Domain.Interfaces"
+        },
+        {
+          "Name": "individualElement",
+          "ParameterType": "System.Xml.Linq.XElement"
+        }
+      ],
+      "ReturnType": "global::System.String",
+      "ReturnTypeFullName": "System.String"
+    },
+    {
+      "Name": "GetIssuedToInfoFromXml",
+      "Parameters": [
+        {
+          "Name": "formalizedPowerOfAttorney",
+          "ParameterType": "global::Sungero.Docflow.IFormalizedPowerOfAttorney",
+          "ParameterTypeFullName": "Sungero.Docflow.IFormalizedPowerOfAttorney, Sungero.Domain.Interfaces"
+        },
+        {
+          "Name": "xdoc",
+          "ParameterType": "System.Xml.Linq.XDocument"
+        }
+      ],
+      "ReturnType": "global::Sungero.Docflow.Structures.FormalizedPowerOfAttorney.IIssuedToInfo",
+      "ReturnTypeFullName": "Sungero.Docflow.Structures.FormalizedPowerOfAttorney.IIssuedToInfo"
+    },
+    {
+      "Name": "GetPoAFormatVersionFromXml",
+      "Parameters": [
+        {
+          "Name": "formalizedPowerOfAttorney",
+          "ParameterType": "global::Sungero.Docflow.IFormalizedPowerOfAttorney",
+          "ParameterTypeFullName": "Sungero.Docflow.IFormalizedPowerOfAttorney, Sungero.Domain.Interfaces"
+        },
+        {
+          "Name": "xdoc",
+          "ParameterType": "System.Xml.Linq.XDocument"
+        }
+      ],
+      "ReturnType": "global::System.String",
+      "ReturnTypeFullName": "System.String"
+    },
+    {
+      "Name": "GetRepresentativeElements",
+      "Parameters": [
+        {
+          "Name": "formalizedPowerOfAttorney",
+          "ParameterType": "global::Sungero.Docflow.IFormalizedPowerOfAttorney",
+          "ParameterTypeFullName": "Sungero.Docflow.IFormalizedPowerOfAttorney, Sungero.Domain.Interfaces"
+        },
+        {
+          "Name": "xdoc",
+          "ParameterType": "System.Xml.Linq.XDocument"
+        }
+      ],
+      "ReturnType": "global::System.Collections.Generic.List<System.Xml.Linq.XElement>",
+      "ReturnTypeFullName": "System.Collections.Generic.List"
+    },
+    {
+      "Name": "GetRevocation",
+      "IsRemote": true,
+      "Parameters": [
+        {
+          "Name": "formalizedPowerOfAttorney",
+          "ParameterType": "global::Sungero.Docflow.IFormalizedPowerOfAttorney",
+          "ParameterTypeFullName": "Sungero.Docflow.IFormalizedPowerOfAttorney, Sungero.Domain.Interfaces"
+        }
+      ],
+      "Placement": "Shared",
+      "ReturnType": "global::Sungero.Docflow.IPowerOfAttorneyRevocation",
+      "ReturnTypeFullName": "Sungero.Docflow.IPowerOfAttorneyRevocation, Sungero.Domain.Interfaces"
+    },
+    {
+      "Name": "GetSignatureForMark",
+      "Parameters": [
+        {
+          "Name": "formalizedPowerOfAttorney",
+          "ParameterType": "global::Sungero.Docflow.IFormalizedPowerOfAttorney",
+          "ParameterTypeFullName": "Sungero.Docflow.IFormalizedPowerOfAttorney, Sungero.Domain.Interfaces"
+        },
+        {
+          "Name": "versionId",
+          "ParameterType": "global::System.Int32",
+          "ParameterTypeFullName": "System.Int32"
+        }
+      ],
+      "ReturnType": "Sungero.Domain.Shared.ISignature"
+    },
+    {
+      "Name": "HandleRegistrationError",
+      "Parameters": [
+        {
+          "Name": "formalizedPowerOfAttorney",
+          "ParameterType": "global::Sungero.Docflow.IFormalizedPowerOfAttorney",
+          "ParameterTypeFullName": "Sungero.Docflow.IFormalizedPowerOfAttorney, Sungero.Domain.Interfaces"
+        },
+        {
+          "Name": "errorCode",
+          "ParameterType": "global::System.String",
+          "ParameterTypeFullName": "System.String"
+        }
+      ],
+      "ReturnType": "void",
+      "ReturnTypeFullName": "System.Void"
+    },
+    {
+      "Name": "ImportFormalizedPowerOfAttorneyFromXmlAndSign",
+      "IsRemote": true,
+      "Parameters": [
+        {
+          "Name": "formalizedPowerOfAttorney",
+          "ParameterType": "global::Sungero.Docflow.IFormalizedPowerOfAttorney",
+          "ParameterTypeFullName": "Sungero.Docflow.IFormalizedPowerOfAttorney, Sungero.Domain.Interfaces"
+        },
+        {
+          "Name": "xml",
+          "ParameterType": "global::Sungero.Docflow.Structures.Module.IByteArray",
+          "ParameterTypeFullName": "Sungero.Docflow.Structures.Module.IByteArray"
+        },
+        {
+          "Name": "signature",
+          "ParameterType": "global::Sungero.Docflow.Structures.Module.IByteArray",
+          "ParameterTypeFullName": "Sungero.Docflow.Structures.Module.IByteArray"
+        }
+      ],
+      "Placement": "Shared",
+      "ReturnType": "void",
+      "ReturnTypeFullName": "System.Void"
+    },
+    {
+      "Name": "ImportSignature",
+      "Parameters": [
+        {
+          "Name": "formalizedPowerOfAttorney",
+          "ParameterType": "global::Sungero.Docflow.IFormalizedPowerOfAttorney",
+          "ParameterTypeFullName": "Sungero.Docflow.IFormalizedPowerOfAttorney, Sungero.Domain.Interfaces"
+        },
+        {
+          "Name": "xml",
+          "ParameterType": "global::Sungero.Docflow.Structures.Module.IByteArray",
+          "ParameterTypeFullName": "Sungero.Docflow.Structures.Module.IByteArray"
+        },
+        {
+          "Name": "signature",
+          "ParameterType": "global::Sungero.Docflow.Structures.Module.IByteArray",
+          "ParameterTypeFullName": "Sungero.Docflow.Structures.Module.IByteArray"
+        }
+      ],
+      "ReturnType": "void",
+      "ReturnTypeFullName": "System.Void"
+    },
+    {
+      "Name": "RegisterFormalizedPowerOfAttorneyWithService",
+      "IsRemote": true,
+      "Parameters": [
+        {
+          "Name": "formalizedPowerOfAttorney",
+          "ParameterType": "global::Sungero.Docflow.IFormalizedPowerOfAttorney",
+          "ParameterTypeFullName": "Sungero.Docflow.IFormalizedPowerOfAttorney, Sungero.Domain.Interfaces"
+        }
+      ],
+      "Placement": "Shared",
+      "ReturnType": "global::Sungero.PowerOfAttorneyCore.Structures.Module.IResponseResult",
+      "ReturnTypeFullName": "Sungero.PowerOfAttorneyCore.Structures.Module.IResponseResult"
+    },
+    {
+      "Name": "SendNoticeForRevokedFormalizedPoA",
+      "Parameters": [
+        {
+          "Name": "formalizedPowerOfAttorney",
+          "ParameterType": "global::Sungero.Docflow.IFormalizedPowerOfAttorney",
+          "ParameterTypeFullName": "Sungero.Docflow.IFormalizedPowerOfAttorney, Sungero.Domain.Interfaces"
+        }
+      ],
+      "ReturnType": "void",
+      "ReturnTypeFullName": "System.Void"
+    },
+    {
+      "Name": "SetActiveLifeCycleState",
+      "Parameters": [
+        {
+          "Name": "formalizedPowerOfAttorney",
+          "ParameterType": "global::Sungero.Docflow.IFormalizedPowerOfAttorney",
+          "ParameterTypeFullName": "Sungero.Docflow.IFormalizedPowerOfAttorney, Sungero.Domain.Interfaces"
+        }
+      ],
+      "Placement": "Shared",
+      "ReturnType": "void",
+      "ReturnTypeFullName": "System.Void"
+    },
+    {
+      "Name": "SetLifeCycleAndFtsListStates",
+      "Parameters": [
+        {
+          "Name": "formalizedPowerOfAttorney",
+          "ParameterType": "global::Sungero.Docflow.IFormalizedPowerOfAttorney",
+          "ParameterTypeFullName": "Sungero.Docflow.IFormalizedPowerOfAttorney, Sungero.Domain.Interfaces"
+        }
+      ],
+      "Placement": "Shared",
+      "ReturnType": "void",
+      "ReturnTypeFullName": "System.Void"
+    },
+    {
+      "Name": "SetLifeCycleAndFtsListStates",
+      "Parameters": [
+        {
+          "Name": "formalizedPowerOfAttorney",
+          "ParameterType": "global::Sungero.Docflow.IFormalizedPowerOfAttorney",
+          "ParameterTypeFullName": "Sungero.Docflow.IFormalizedPowerOfAttorney, Sungero.Domain.Interfaces"
+        },
+        {
+          "Name": "lifeCycleState",
+          "ParameterType": "global::System.Nullable<global::Sungero.Core.Enumeration>",
+          "ParameterTypeFullName": "System.Nullable"
+        },
+        {
+          "Name": "ftsListState",
+          "ParameterType": "global::System.Nullable<global::Sungero.Core.Enumeration>",
+          "ParameterTypeFullName": "System.Nullable"
+        }
+      ],
+      "Placement": "Shared",
+      "ReturnType": "void",
+      "ReturnTypeFullName": "System.Void"
+    },
+    {
+      "Name": "SetRevokedState",
+      "Parameters": [
+        {
+          "Name": "formalizedPowerOfAttorney",
+          "ParameterType": "global::Sungero.Docflow.IFormalizedPowerOfAttorney",
+          "ParameterTypeFullName": "Sungero.Docflow.IFormalizedPowerOfAttorney, Sungero.Domain.Interfaces"
+        }
+      ],
+      "ReturnType": "global::System.Boolean",
+      "ReturnTypeFullName": "System.Boolean"
+    },
+    {
+      "Name": "SetRevokedState",
+      "Parameters": [
+        {
+          "Name": "formalizedPowerOfAttorney",
+          "ParameterType": "global::Sungero.Docflow.IFormalizedPowerOfAttorney",
+          "ParameterTypeFullName": "Sungero.Docflow.IFormalizedPowerOfAttorney, Sungero.Domain.Interfaces"
+        },
+        {
+          "Name": "serviceConnection",
+          "ParameterType": "global::Sungero.PowerOfAttorneyCore.IPowerOfAttorneyServiceConnection",
+          "ParameterTypeFullName": "Sungero.PowerOfAttorneyCore.IPowerOfAttorneyServiceConnection, Sungero.Domain.Interfaces"
+        }
+      ],
+      "ReturnType": "global::System.Boolean",
+      "ReturnTypeFullName": "System.Boolean"
+    },
+    {
+      "Name": "SetRevokedState",
+      "Parameters": [
+        {
+          "Name": "formalizedPowerOfAttorney",
+          "ParameterType": "global::Sungero.Docflow.IFormalizedPowerOfAttorney",
+          "ParameterTypeFullName": "Sungero.Docflow.IFormalizedPowerOfAttorney, Sungero.Domain.Interfaces"
+        },
+        {
+          "Name": "reason",
+          "ParameterType": "global::System.String",
+          "ParameterTypeFullName": "System.String"
+        },
+        {
+          "Name": "revocationDate",
+          "ParameterType": "global::System.DateTime",
+          "ParameterTypeFullName": "System.DateTime"
+        }
+      ],
+      "ReturnType": "global::System.Boolean",
+      "ReturnTypeFullName": "System.Boolean"
+    },
+    {
+      "Name": "ShowCreateRevocationDialog",
+      "Parameters": [
+        {
+          "Name": "formalizedPowerOfAttorney",
+          "ParameterType": "global::Sungero.Docflow.IFormalizedPowerOfAttorney",
+          "ParameterTypeFullName": "Sungero.Docflow.IFormalizedPowerOfAttorney, Sungero.Domain.Interfaces"
+        }
+      ],
+      "Placement": "Client",
+      "ReturnType": "void",
+      "ReturnTypeFullName": "System.Void"
+    },
+    {
+      "Name": "ShowImportVersionWithSignatureDialog",
+      "Parameters": [
+        {
+          "Name": "formalizedPowerOfAttorney",
+          "ParameterType": "global::Sungero.Docflow.IFormalizedPowerOfAttorney",
+          "ParameterTypeFullName": "Sungero.Docflow.IFormalizedPowerOfAttorney, Sungero.Domain.Interfaces"
+        }
+      ],
+      "Placement": "Client",
+      "ReturnType": "global::System.Boolean",
+      "ReturnTypeFullName": "System.Boolean"
+    },
+    {
+      "Name": "TryGetPoAInfoElement",
+      "Parameters": [
+        {
+          "Name": "formalizedPowerOfAttorney",
+          "ParameterType": "global::Sungero.Docflow.IFormalizedPowerOfAttorney",
+          "ParameterTypeFullName": "Sungero.Docflow.IFormalizedPowerOfAttorney, Sungero.Domain.Interfaces"
+        },
+        {
+          "Name": "xdoc",
+          "ParameterType": "System.Xml.Linq.XDocument"
+        }
+      ],
+      "ReturnType": "System.Xml.Linq.XElement"
+    },
+    {
+      "Name": "TryGetPoAInfoElement",
+      "Parameters": [
+        {
+          "Name": "formalizedPowerOfAttorney",
+          "ParameterType": "global::Sungero.Docflow.IFormalizedPowerOfAttorney",
+          "ParameterTypeFullName": "Sungero.Docflow.IFormalizedPowerOfAttorney, Sungero.Domain.Interfaces"
+        },
+        {
+          "Name": "xdoc",
+          "ParameterType": "System.Xml.Linq.XDocument"
+        },
+        {
+          "Name": "poaElementName",
+          "ParameterType": "global::System.String",
+          "ParameterTypeFullName": "System.String"
+        },
+        {
+          "Name": "documentElementName",
+          "ParameterType": "global::System.String",
+          "ParameterTypeFullName": "System.String"
+        },
+        {
+          "Name": "poaInfoElementName",
+          "ParameterType": "global::System.String",
+          "ParameterTypeFullName": "System.String"
+        }
+      ],
+      "ReturnType": "System.Xml.Linq.XElement"
+    },
+    {
+      "Name": "TrySetLifeCycleAndFtsListStates",
+      "Parameters": [
+        {
+          "Name": "formalizedPowerOfAttorney",
+          "ParameterType": "global::Sungero.Docflow.IFormalizedPowerOfAttorney",
+          "ParameterTypeFullName": "Sungero.Docflow.IFormalizedPowerOfAttorney, Sungero.Domain.Interfaces"
+        },
+        {
+          "Name": "lifeCycleState",
+          "ParameterType": "global::System.Nullable<global::Sungero.Core.Enumeration>",
+          "ParameterTypeFullName": "System.Nullable"
+        },
+        {
+          "Name": "ftsListState",
+          "ParameterType": "global::System.Nullable<global::Sungero.Core.Enumeration>",
+          "ParameterTypeFullName": "System.Nullable"
+        }
+      ],
+      "ReturnType": "global::System.Boolean",
+      "ReturnTypeFullName": "System.Boolean"
+    },
+    {
+      "Name": "UpdateValidationServiceStatus",
+      "Parameters": [
+        {
+          "Name": "formalizedPowerOfAttorney",
+          "ParameterType": "global::Sungero.Docflow.IFormalizedPowerOfAttorney",
+          "ParameterTypeFullName": "Sungero.Docflow.IFormalizedPowerOfAttorney, Sungero.Domain.Interfaces"
+        },
+        {
+          "Name": "serviceConnection",
+          "ParameterType": "global::Sungero.PowerOfAttorneyCore.IPowerOfAttorneyServiceConnection",
+          "ParameterTypeFullName": "Sungero.PowerOfAttorneyCore.IPowerOfAttorneyServiceConnection, Sungero.Domain.Interfaces"
+        },
+        {
+          "Name": "queueItem",
+          "ParameterType": "global::Sungero.Docflow.IPowerOfAttorneyQueueItem",
+          "ParameterTypeFullName": "Sungero.Docflow.IPowerOfAttorneyQueueItem, Sungero.Domain.Interfaces"
+        }
+      ],
+      "ReturnType": "global::System.Boolean",
+      "ReturnTypeFullName": "System.Boolean"
+    },
+    {
+      "Name": "ValidateFormalizedPoABeforeSending",
+      "IsRemote": true,
+      "Parameters": [
+        {
+          "Name": "formalizedPowerOfAttorney",
+          "ParameterType": "global::Sungero.Docflow.IFormalizedPowerOfAttorney",
+          "ParameterTypeFullName": "Sungero.Docflow.IFormalizedPowerOfAttorney, Sungero.Domain.Interfaces"
+        }
+      ],
+      "Placement": "Shared",
+      "ReturnType": "global::System.String",
+      "ReturnTypeFullName": "System.String"
+    },
+    {
+      "Name": "ValidateFormalizedPowerOfAttorneyXml",
+      "Parameters": [
+        {
+          "Name": "formalizedPowerOfAttorney",
+          "ParameterType": "global::Sungero.Docflow.IFormalizedPowerOfAttorney",
+          "ParameterTypeFullName": "Sungero.Docflow.IFormalizedPowerOfAttorney, Sungero.Domain.Interfaces"
+        },
+        {
+          "Name": "xml",
+          "ParameterType": "global::Sungero.Docflow.Structures.Module.IByteArray",
+          "ParameterTypeFullName": "Sungero.Docflow.Structures.Module.IByteArray"
+        }
+      ],
+      "ReturnType": "void",
+      "ReturnTypeFullName": "System.Void"
+    },
+    {
+      "Name": "ValidateGeneratedFormalizedPowerOfAttorneyXml",
+      "Parameters": [
+        {
+          "Name": "formalizedPowerOfAttorney",
+          "ParameterType": "global::Sungero.Docflow.IFormalizedPowerOfAttorney",
+          "ParameterTypeFullName": "Sungero.Docflow.IFormalizedPowerOfAttorney, Sungero.Domain.Interfaces"
+        },
+        {
+          "Name": "xml",
+          "ParameterType": "global::Sungero.Docflow.Structures.Module.IByteArray",
+          "ParameterTypeFullName": "Sungero.Docflow.Structures.Module.IByteArray"
+        }
+      ],
+      "ReturnType": "global::System.Boolean",
+      "ReturnTypeFullName": "System.Boolean"
+    },
+    {
+      "Name": "VerifyExternalSignature",
+      "Parameters": [
+        {
+          "Name": "formalizedPowerOfAttorney",
+          "ParameterType": "global::Sungero.Docflow.IFormalizedPowerOfAttorney",
+          "ParameterTypeFullName": "Sungero.Docflow.IFormalizedPowerOfAttorney, Sungero.Domain.Interfaces"
+        },
+        {
+          "Name": "xml",
+          "ParameterType": "global::Sungero.Docflow.Structures.Module.IByteArray",
+          "ParameterTypeFullName": "Sungero.Docflow.Structures.Module.IByteArray"
+        },
+        {
+          "Name": "signature",
+          "ParameterType": "global::Sungero.Docflow.Structures.Module.IByteArray",
+          "ParameterTypeFullName": "Sungero.Docflow.Structures.Module.IByteArray"
+        }
+      ],
+      "ReturnType": "void",
+      "ReturnTypeFullName": "System.Void"
+    }
+  ],
+  "PublicStructures": [
+    {
+      "Name": "IssuedToInfo",
+      "IsPublic": true,
+      "Properties": [
+        {
+          "Name": "FullName",
+          "IsNullable": true,
+          "TypeFullName": "global::System.String"
+        },
+        {
+          "Name": "TIN",
+          "IsNullable": true,
+          "TypeFullName": "global::System.String"
+        },
+        {
+          "Name": "INILA",
+          "IsNullable": true,
+          "TypeFullName": "global::System.String"
+        }
+      ],
+      "StructureNamespace": "Sungero.Docflow.Structures.FormalizedPowerOfAttorney"
+    }
+  ],
+  "ResourcesKeys": [
+    "ErrorValidateUnifiedRegistrationNumber",
+    "RegistrationNumberInBrackets",
+    "UnifiedRegistrationNumber",
+    "ImportPowerOfAttorneyFromXml",
+    "File",
+    "SignatureFile",
+    "Import",
+    "FormalizedPowerOfAttorneyImportFailed",
+    "XmlLoadFailed",
+    "SignatureImportFailed",
+    "PowerOfAttorneySuccessfullyImported",
+    "Enum_Operation_ImportFromXml",
+    "ImportFromXmlHistoryComment",
+    "DuplicatesNotFound",
+    "DuplicatesDetected",
+    "FormalizedPowerOfAttorney",
+    "GenerateBodyWithPdfError",
+    "GenerateBodyWithPdfSuccess",
+    "FPoAStateHasBeenUpdated",
+    "FormalizedPowerOfAttorneyRegistrationCompleted",
+    "FPoAStateCheckFailed",
+    "TitleForNotice",
+    "FormalizedPowerOfAttorneyRevocationReason",
+    "RevocationDialogTitle",
+    "RevocationDialogReasonFieldName",
+    "PowerOfAttorneyRevocationCreationFailed",
+    "FormalizedPowerOfAttorneySendForRegistrationError",
+    "FillRevocationReason",
+    "FormalizedPowerOfAttorneySentForRegistrationSuccessfully",
+    "FailedToCreatePoA",
+    "CreateRevocationDialogButtonName",
+    "NoRightsToDocument",
+    "ExternalSystemIsUnavailableErrorMessage",
+    "ConflictDifferentSignatureErrorMessage",
+    "DefaultErrorMessage",
+    "DifferentSignatureErrorMessage",
+    "UnsupportedPoAErrorMessage",
+    "FPoARegistrationInProcess",
+    "FPoARevocationInProcess",
+    "FPoANotFound",
+    "FPoAAttributesNotMatchXml",
+    "FPoASetRevokedStateFailed",
+    "Enum_Operation_FtsStateChange",
+    "CannotGeneratePdfForImportedFPoA",
+    "Enum_Operation_FtsStateClear"
+  ],
+  "RibbonCardMetadata": {
+    "NameGuid": "016935a1-6312-4303-9cad-7752d5a87967",
+    "Name": "RibbonCard",
+    "Categories": [],
+    "Elements": [
+      {
+        "$type": "Sungero.Metadata.RibbonStaticDropDownButtonMetadata, Sungero.Metadata",
+        "NameGuid": "79d7acaa-bca4-4e99-9fb2-947a236ec1a8",
+        "Name": "ImportDocument",
+        "Index": 40,
+        "IsAncestorMetadata": true,
+        "IsVisible": false,
+        "Overridden": [
+          "IsVisible"
+        ],
+        "ParentGuid": "4f04b1b4-b6b2-424f-a95a-9a6927cfbdb4"
+      },
+      {
+        "$type": "Sungero.Metadata.RibbonActionButtonMetadata, Sungero.Metadata",
+        "NameGuid": "c43817e9-9654-4640-99a3-e3804c48a2e2",
+        "Name": "ExportVersion",
+        "ActionGuid": "623e47f7-f308-49b5-95e1-8432fb324f3f",
+        "Index": 53,
+        "IsAncestorMetadata": true,
+        "Overridden": [
+          "Index"
+        ],
+        "ParentGuid": "4f04b1b4-b6b2-424f-a95a-9a6927cfbdb4"
+      },
+      {
+        "$type": "Sungero.Metadata.RibbonActionButtonMetadata, Sungero.Metadata",
+        "NameGuid": "b562b23f-b043-430a-ae20-53e9b7f461f1",
+        "Name": "ImportFromXml",
+        "ActionGuid": "7e266eeb-d41e-4a6e-97b8-94b33124428d",
+        "Index": 43,
+        "ParentGuid": "4f04b1b4-b6b2-424f-a95a-9a6927cfbdb4"
+      },
+      {
+        "$type": "Sungero.Metadata.RibbonActionButtonMetadata, Sungero.Metadata",
+        "NameGuid": "c0f642e9-81fe-46b3-bc7f-f9921564bd76",
+        "Name": "CreateVersionFromLastVersion",
+        "ActionGuid": "cff11896-d843-428c-b768-dc6c7fe62d7a",
+        "Index": 32,
+        "IsAncestorMetadata": true,
+        "Overridden": [
+          "Index"
+        ],
+        "ParentGuid": "4f04b1b4-b6b2-424f-a95a-9a6927cfbdb4"
+      },
+      {
+        "$type": "Sungero.Metadata.RibbonActionButtonMetadata, Sungero.Metadata",
+        "NameGuid": "8ea510fe-0e54-468f-a633-0de2e39b30d4",
+        "Name": "GenerateBodyWithPdf",
+        "ActionGuid": "156e674e-4091-4d78-a986-0bdc0f41ebed",
+        "Index": 22,
+        "ParentGuid": "4f04b1b4-b6b2-424f-a95a-9a6927cfbdb4"
+      },
+      {
+        "$type": "Sungero.Metadata.RibbonActionButtonMetadata, Sungero.Metadata",
+        "NameGuid": "dfdb537a-a6e9-4d92-8668-40b274542cdd",
+        "Name": "CheckPowerOfAttorney",
+        "ActionGuid": "4cc0569d-b24c-4cbe-a821-524a9fed021f",
+        "Index": 54,
+        "ParentGuid": "4f04b1b4-b6b2-424f-a95a-9a6927cfbdb4"
+      },
+      {
+        "$type": "Sungero.Metadata.RibbonActionButtonMetadata, Sungero.Metadata",
+        "NameGuid": "e88f6335-8f35-4036-9768-3c92d3637842",
+        "Name": "RegisterWithService",
+        "ActionGuid": "d16e58a3-e6a1-4d91-b942-7e2e53e40f01",
+        "Index": 54,
+        "ParentGuid": "4f04b1b4-b6b2-424f-a95a-9a6927cfbdb4"
+      },
+      {
+        "$type": "Sungero.Metadata.RibbonActionButtonMetadata, Sungero.Metadata",
+        "NameGuid": "35435a38-fa2d-48b6-a7c8-b228a1857317",
+        "Name": "CreateRevocation",
+        "ActionGuid": "f9f0fb2c-28a6-48b7-936c-65215f521d85",
+        "Index": 55,
+        "ParentGuid": "4f04b1b4-b6b2-424f-a95a-9a6927cfbdb4"
+      }
+    ],
+    "Groups": [],
+    "IsAncestorMetadata": true,
+    "Pages": [],
+    "RibbonKind": "Card"
+  },
+  "RibbonCollectionMetadata": {
+    "NameGuid": "6ff08291-7798-4d83-bcd6-69ec55cac1d5",
+    "Name": "RibbonCollection",
+    "Categories": [],
+    "Elements": [],
+    "Groups": [],
+    "IsAncestorMetadata": true,
+    "Pages": []
+  },
+  "Versions": [
+    {
+      "Type": "DocumentMetadata",
+      "Number": 2
+    },
+    {
+      "Type": "EntityMetadata",
+      "Number": 11
+    }
+  ]
+}

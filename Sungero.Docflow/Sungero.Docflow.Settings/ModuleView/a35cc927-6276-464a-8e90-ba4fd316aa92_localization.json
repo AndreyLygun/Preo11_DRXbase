@@ -1,0 +1,487 @@
+{
+  "Action_Description_02f2b9a30e74486baffaaca3ceb07f91": {
+    "en-US": "Settings for connection to the Directum Ario service.",
+    "ru-RU": "Параметры подключения к сервису Directum Ario.",
+    "hash": "419e414e39d2f8461899cbb927342a6f"
+  },
+  "Action_Description_07707d8ff2b64affa01f4976b9142d44": {
+    "en-US": "Rules to distribute documents among file storages by certain criteria.",
+    "ru-RU": "Правила распределения документов по файловым хранилищам согласно критериям.",
+    "hash": "6ea920ab410d868155f78af5653be54d"
+  },
+  "Action_Description_0d5c78d077ca4920ab6be8a200105211": {
+    "en-US": "Associated applications are grouped into file types.",
+    "ru-RU": "Типы файлов предназначены для группировки приложений-обработчиков.",
+    "hash": "45be0121fca465e573ede7157a3de26c"
+  },
+  "Action_Description_0e5b5bfb28d040e492794b2b5433f47e": {
+    "en-US": "Provides an automatic selection of a document register according to document requisites.",
+    "ru-RU": "Правила автоматического подбора журнала регистрации в соответствии с реквизитами документа.",
+    "hash": "0793cc5ba8ac0cec97d714717e1836f9"
+  },
+  "Action_Description_1eb0d14e65bc4aacb34da9c417b7cc45": {
+    "en-US": "Stores information on websites used for counterparty due diligence",
+    "ru-RU": "Справочник предназначен для настройки сайтов, используемых для проверки надежности контрагента.",
+    "hash": "4efb76f360f3d49290ae7ba773baea7e"
+  },
+  "Action_Description_25bc9fc9aae64e37a8424ba803c4ab10": {
+    "en-US": "List of employees authorized to sign documents.",
+    "ru-RU": "Справочник сотрудников, имеющих право подписи документов.",
+    "hash": "f0b071962a587957feedf20468f1a59e"
+  },
+  "Action_Description_3e1cb57b518d4c1f80e1f01ae8b3bcc1": {
+    "en-US": "Configure additional parameters of acquaintance tasks and action items.",
+    "ru-RU": "Дополнительные настройки отдельных параметров поручения и ознакомления.",
+    "hash": "a255a0efef7795a09af95a9a9d51cdef"
+  },
+  "Action_Description_41c3bb2015224902b2539922b2d77d43": {
+    "en-US": "Stores case files created within your company. Case files contain documents related to a particular topic or an activity.",
+    "ru-RU": "Систематизированный перечень дел. В дела помещаются документы, относящиеся к одному вопросу или участку деятельности.",
+    "hash": "3198d6d54b345ab3ec55bf02a0db4ec4"
+  },
+  "Action_Description_441dcf65fee44b79bf4ba0c05890f4b7": {
+    "en-US": "Stores the list of methods used to deliver documents to our company or counterparties.",
+    "ru-RU": "Перечень способов, используемых для доставки документов в компанию и их отправки контрагентам.",
+    "hash": "c2c9ce75175603252baf6563880d8069"
+  },
+  "Action_Description_44a50a4ab3bc403b88fab8ccee6ad162": {
+    "en-US": "Configure computed roles that help you to group employees automatically. The role members are determined by expressions.",
+    "ru-RU": "Настроить вычисляемые роли. Они предназначены для автоматической группировки сотрудников. Состав роли определяется с помощью выражений.",
+    "hash": "257dff258fc955599ebe2012bac4acfe"
+  },
+  "Action_Description_4895b9924cc147dcb086a212d6ca1c92": {
+    "en-US": "Classifies contracts within one document kind.",
+    "ru-RU": "Дополнительная классификация договоров в рамках видов документов.",
+    "hash": "e260250478108e88bde8c74d4175d932"
+  },
+  "Action_Description_60166679992d4e7b8f4ebfba8b7fc51f": {
+    "en-US": "Copy case files created within a particular period.",
+    "ru-RU": "Копирование дел за определенный период.",
+    "hash": "3828efc9c5397642bb63bcf32e6d7676"
+  },
+  "Action_Description_684cecad5af148a082584ac46f04061a": {
+    "en-US": "Stores information about countries.",
+    "ru-RU": "Справочник стран.",
+    "hash": "0c2dc85ce1f40233de47681bca865540"
+  },
+  "Action_Description_692b754f21894f9f8a360ca54e2b1bbb": {
+    "en-US": "Stores information about VAT rates.",
+    "ru-RU": "Ставки налога на добавленную стоимость.",
+    "hash": "b8a7326e7a76f681fcd54eb880b51c8b"
+  },
+  "Action_Description_76731aab74f74703a0448d89c72a560d": {
+    "en-US": "Configure views of card forms.",
+    "ru-RU": "Настроить представление форм карточек.",
+    "hash": "303aef5842d5111afd5bda14232409f8"
+  },
+  "Action_Description_7b30f67a8da84e34b051fc946b30fd31": {
+    "en-US": "Stores information about currencies.",
+    "ru-RU": "Справочник валют.",
+    "hash": "f0064ce9de7d21906c6c4c68d8087abe"
+  },
+  "Action_Description_7dd10184c60d4b44846e39b3324df260": {
+    "en-US": "Stores information about document kinds that define the way documents are numbered and processed.",
+    "ru-RU": "Классификация документов, определяющая документопоток, тип нумерации и порядок обработки документа.",
+    "hash": "79b71ab46796a978436fc261e80c11e3"
+  },
+  "Action_Description_8a394876c7454917b59ea20d839bad48": {
+    "en-US": "Stores settings of connections to services of formalized powers of attorney.",
+    "ru-RU": "Настройка подключений к сервисам электронных доверенностей.",
+    "hash": "a445023f81ef0edff3187232a3bb99d6"
+  },
+  "Action_Description_8c1b91a210564ccea054dcd22203030f": {
+    "en-US": "Stores information about the way documents are approved.",
+    "ru-RU": "Справочник содержит регламенты обработки документов в компании.",
+    "hash": "3c2d96c267b178fa8dd8e0e4ba810028"
+  },
+  "Action_Description_8d5613e50f40455eb7232a37fc1f1f2d": {
+    "en-US": "Stores information about cities, towns and other settlements.",
+    "ru-RU": "Справочник населенных пунктов.",
+    "hash": "f52ab3d1cf2003435d0c6527a2068859"
+  },
+  "Action_Description_8f923617121d4c199c366c4b6bfc2e69": {
+    "en-US": "List of all module reports.",
+    "ru-RU": "Список всех отчетов модуля.",
+    "hash": "b2a754516188f6920ebe8840d7220e33"
+  },
+  "Action_Description_9225b2d713fb452fb353220d3869c9ff": {
+    "en-US": "Stores information about relation types used to group documents according to their purpose.",
+    "ru-RU": "Справочник содержит типы связей, группирующие документы по их назначению.",
+    "hash": "d1465ba9a454e473469f38203e5f966e"
+  },
+  "Action_Description_928a65d175ea48cd9d6c506d0d31f194": {
+    "en-US": "List of unified forms used to create documents.",
+    "ru-RU": "Перечень унифицированных форм, используемых при создании документов.",
+    "hash": "6d459d47aa7756d86d25479db126cba7"
+  },
+  "Action_Description_93382f0343014607921e0c6e42034a69": {
+    "en-US": "Stores information about the stages of document approval.",
+    "ru-RU": "Этапы обработки, из которых состоят правила согласования документов.",
+    "hash": "a30dccb536536c978d5cb2bb76b2f90b"
+  },
+  "Action_Description_97579201419f4816b1393871c4b9e64b": {
+    "en-US": "Stores information about applications that are used to define available file extensions.",
+    "ru-RU": "Справочник определяет расширения файлов, которые можно использовать в документах.",
+    "hash": "346cb64c7252ab12490c4ee5fc5138ca"
+  },
+  "Action_Description_99526d81ce02450ba88294d3874d2d36": {
+    "en-US": "Rules to automatically grant access rights to documents according to their requisites",
+    "ru-RU": "Правила автоматического назначения прав в соответствии с реквизитами документа.",
+    "hash": "5059e4b3ce2c448c72a474255548dcd7"
+  },
+  "Action_Description_aa5e9d52c493497aaf95df6a267ff29e": {
+    "en-US": "Provides information on the way documents are numbered and registered.",
+    "ru-RU": "Порядок нумерации и регистрации документов в разрезе классификаторов документа.",
+    "hash": "c21f346b552e1e444c87a93a4a0f78a8"
+  },
+  "Action_Description_aaeb14bbf874402b9d4a6cf0a8b6c2cb": {
+    "en-US": "Configure document topics and subtopics.",
+    "ru-RU": "Настройка рубрик и подрубрик документов.",
+    "hash": "2f43664fb8b89c2b961036de6dcac612"
+  },
+  "Action_Description_adbb3a6451a44a859fe7aa0235e39fa3": {
+    "en-US": "Configure process schemes and selection criteria.",
+    "ru-RU": "Настроить схемы процессов и критерии выбора схемы.",
+    "hash": "8ca4eff3eed3d71978b287bb4f8f9122"
+  },
+  "Action_Description_b62c3df5c6a748c3ae7965a2245de534": {
+    "en-US": "Stores information about employee groups that keep record of documents in specific document registers.",
+    "ru-RU": "Группы сотрудников, которыми производится регистрация, учет и хранение документов в определенных журналах регистрации.",
+    "hash": "aeeb265b3f5bfc6e024a6ae3e629de17"
+  },
+  "Action_Description_b6bbb4690942456badffa5335ebbbabc": {
+    "en-US": "List of all module reports.",
+    "ru-RU": "Список всех отчетов модуля.",
+    "hash": "b2a754516188f6920ebe8840d7220e33"
+  },
+  "Action_Description_b96bb38892b94f98a488cf7364898f2d": {
+    "en-US": "List of the document numbering skips in the document register with an allowance for the period and the numbering separator.",
+    "ru-RU": "Отчет для контроля пропусков в нумерации документов в указанном журнале с учетом периода и разреза нумерации.",
+    "hash": "94d76ef49e41909184fb4f373532a50f"
+  },
+  "Action_Description_db6885c100f24e4ba9b2e767f7c9459d": {
+    "en-US": "Provides information on approval rules settings broken down by company structure, docflows and document kinds.",
+    "ru-RU": "Контроль настройки правил согласования в разрезе организационной структуры, документопотоков и видов документов.",
+    "hash": "5165deb51270278b49cc54e27fe57815"
+  },
+  "Action_Description_dcd923acf52046ed9528d973734ab7d5": {
+    "en-US": "Stores information about connections to legal document exchange services.",
+    "ru-RU": "Настройка подключений к сервисам обмена юридически значимыми электронными документами.",
+    "hash": "160afc149ebf1930c39a6eeb17f86b55"
+  },
+  "Action_Description_e021bae41f424f319e0f1c7b582587c9": {
+    "en-US": "Stores information about states and provinces of the country",
+    "ru-RU": "Справочник предназначен для хранения сведений об административно-территориальном делении стран.",
+    "hash": "09332396b5edbde2ef87e5a92eb4a7eb"
+  },
+  "Action_Description_e0652fb1248e4e3da74bdc679486abb9": {
+    "en-US": "Stores information about periods of time within which your case files should be kept.",
+    "ru-RU": "Перечень регламентированных сроков хранения дел.",
+    "hash": "a4ad0523e4ee33090f37c29a152d8791"
+  },
+  "Action_Description_f2fa664e2e7f4a28a0f00e80a58e2185": {
+    "en-US": "Quickly invite a counterparty by its TIN and TRRC to exchange legal documents via exchange services.",
+    "ru-RU": "Быстрое приглашение контрагента по его ИНН/КПП к электронному обмену через сервисы юридически значимого документооборота.",
+    "hash": "ca79a2392ec849cb9e39d36bf532dde0"
+  },
+  "Action_Description_f488c1e6ebf241b5b5e60f4d7ad7250e": {
+    "en-US": "Stores the list of registers used to keep record of documents processed within your company.",
+    "ru-RU": "Перечень журналов, используемых для учета, нумерации и регистрации документов.",
+    "hash": "38b58f8c355d23c590ee70d72b7a4591"
+  },
+  "Action_Title_02f2b9a30e74486baffaaca3ceb07f91": {
+    "en-US": "Smart Document Processing",
+    "ru-RU": "Интеллектуальная обработка документов",
+    "hash": "cf256fa4b77c8398c271bad30f6b794d"
+  },
+  "Action_Title_07707d8ff2b64affa01f4976b9142d44": {
+    "en-US": "Document Storage Policies",
+    "ru-RU": "Политики хранения документов",
+    "hash": "33f375d04ed1eed5d8b401dccb7f7f14"
+  },
+  "Action_Title_0d5c78d077ca4920ab6be8a200105211": {
+    "en-US": "File Types",
+    "ru-RU": "Типы файлов",
+    "hash": "ae9a0cc5f12427efabf4ffbec57295ee"
+  },
+  "Action_Title_0e5b5bfb28d040e492794b2b5433f47e": {
+    "en-US": "Registration Settings",
+    "ru-RU": "Настройки регистрации",
+    "hash": "41da1b96249e41829f70b6ee539b478c"
+  },
+  "Action_Title_1eb0d14e65bc4aacb34da9c417b7cc45": {
+    "en-US": "Counterparty Due Diligence Websites",
+    "ru-RU": "Сайты проверки контрагента",
+    "hash": "c015578b3732963a85ea8ad6797498c1"
+  },
+  "Action_Title_25bc9fc9aae64e37a8424ba803c4ab10": {
+    "en-US": "Signature Settings",
+    "ru-RU": "Право подписи",
+    "hash": "0a1754f8c561adae863cac28171546e6"
+  },
+  "Action_Title_3e1cb57b518d4c1f80e1f01ae8b3bcc1": {
+    "en-US": "Record Management Setting",
+    "ru-RU": "Настройки делопроизводства",
+    "hash": "6694e13e39b6fb924d6b2cd874c0ddea"
+  },
+  "Action_Title_41c3bb2015224902b2539922b2d77d43": {
+    "en-US": "Case File List",
+    "ru-RU": "Номенклатура дел",
+    "hash": "1eee60e99a08acfd0dc1c68911c384c3"
+  },
+  "Action_Title_441dcf65fee44b79bf4ba0c05890f4b7": {
+    "en-US": "Document Delivery Methods",
+    "ru-RU": "Способы доставки документов",
+    "hash": "1d17da950c5ff6fe09c33bf7774d5abd"
+  },
+  "Action_Title_44a50a4ab3bc403b88fab8ccee6ad162": {
+    "en-US": "Computed Roles",
+    "ru-RU": "Вычисляемые роли",
+    "hash": "75edebda464993c4ceb2e9149dcb748d"
+  },
+  "Action_Title_4895b9924cc147dcb086a212d6ca1c92": {
+    "en-US": "Contract Categories",
+    "ru-RU": "Категории договоров",
+    "hash": "51771e16fbda3abcef146295d41db0b6"
+  },
+  "Action_Title_60166679992d4e7b8f4ebfba8b7fc51f": {
+    "en-US": "Create Case File List",
+    "ru-RU": "Создание номенклатуры дел",
+    "hash": "d4c0c6416692146c48ff6193d2c4506c"
+  },
+  "Action_Title_684cecad5af148a082584ac46f04061a": {
+    "en-US": "Countries",
+    "ru-RU": "Страны",
+    "hash": "51a3b366b3e90bdfa6866dafbd5a1c7c"
+  },
+  "Action_Title_692b754f21894f9f8a360ca54e2b1bbb": {
+    "en-US": "VAT Rates",
+    "ru-RU": "Ставки НДС",
+    "hash": "96b532d89b62285c3f633e3e4ed3336f"
+  },
+  "Action_Title_76731aab74f74703a0448d89c72a560d": {
+    "en-US": "Form Views",
+    "ru-RU": "Представления форм",
+    "hash": "aa0a53543aae4f95d2d29574e7177c66"
+  },
+  "Action_Title_7b30f67a8da84e34b051fc946b30fd31": {
+    "en-US": "Currencies",
+    "ru-RU": "Валюты",
+    "hash": "b614ddce2ec9224102f6d6616f7bd986"
+  },
+  "Action_Title_7dd10184c60d4b44846e39b3324df260": {
+    "en-US": "Document Kinds",
+    "ru-RU": "Виды документов",
+    "hash": "4a3d703d16c244ba2ae386ba6e16ca30"
+  },
+  "Action_Title_8a394876c7454917b59ea20d839bad48": {
+    "en-US": "Our Connections to POA Service",
+    "ru-RU": "Наши подключения к сервису доверенностей",
+    "hash": "741b5c5feebc6568b818af1921bd9fe0"
+  },
+  "Action_Title_8c1b91a210564ccea054dcd22203030f": {
+    "en-US": "Approval Rules",
+    "ru-RU": "Правила согласования",
+    "hash": "2ead557ddaa32b4322a67158795809c1"
+  },
+  "Action_Title_8d5613e50f40455eb7232a37fc1f1f2d": {
+    "en-US": "Cities",
+    "ru-RU": "Населенные пункты",
+    "hash": "48d26da9058e3f32da9fe63722a700cc"
+  },
+  "Action_Title_8f923617121d4c199c366c4b6bfc2e69": {
+    "en-US": "All Reports",
+    "ru-RU": "Все отчеты",
+    "hash": "a7888b33b5089d380498792cb7b091f6"
+  },
+  "Action_Title_9225b2d713fb452fb353220d3869c9ff": {
+    "en-US": "Relation Types",
+    "ru-RU": "Типы связей",
+    "hash": "64f0fa56d7a6701b4a88861cf31f29b3"
+  },
+  "Action_Title_928a65d175ea48cd9d6c506d0d31f194": {
+    "en-US": "Document Templates",
+    "ru-RU": "Шаблоны документов",
+    "hash": "e201e93193d2b3b705e9279fd8735b5e"
+  },
+  "Action_Title_93382f0343014607921e0c6e42034a69": {
+    "en-US": "Approval Stages",
+    "ru-RU": "Этапы согласования",
+    "hash": "e10eb10ae978293437e57f1f58275444"
+  },
+  "Action_Title_97579201419f4816b1393871c4b9e64b": {
+    "en-US": "Associated Applications",
+    "ru-RU": "Приложения-обработчики",
+    "hash": "ddc09d0dc03cc8cef0e842ad250eee79"
+  },
+  "Action_Title_99526d81ce02450ba88294d3874d2d36": {
+    "en-US": "Rules to Grant Access",
+    "ru-RU": "Правила назначения прав",
+    "hash": "7c0695da1c0949240ee9663498b5f052"
+  },
+  "Action_Title_a495b0d6cea340c589a4e8295c405f08": {
+    "en-US": "New City",
+    "ru-RU": "Создать населенный пункт",
+    "hash": "cd58356a6504263bb854d814a49a28c7"
+  },
+  "Action_Title_aa5e9d52c493497aaf95df6a267ff29e": {
+    "en-US": "Registration Settings",
+    "ru-RU": "Настройки регистрации",
+    "hash": "41da1b96249e41829f70b6ee539b478c"
+  },
+  "Action_Title_aaeb14bbf874402b9d4a6cf0a8b6c2cb": {
+    "en-US": "Document Topics",
+    "ru-RU": "Рубрики документов",
+    "hash": "144539eba37c6af874f3dcffb33b488b"
+  },
+  "Action_Title_adbb3a6451a44a859fe7aa0235e39fa3": {
+    "en-US": "Process Kinds",
+    "ru-RU": "Варианты процессов",
+    "hash": "f00438ed60916f64fe72d0ed4d37097f"
+  },
+  "Action_Title_b62c3df5c6a748c3ae7965a2245de534": {
+    "en-US": "Registration Groups",
+    "ru-RU": "Группы регистрации",
+    "hash": "b7d59be6c90deb3d4ef5966ff75ddb85"
+  },
+  "Action_Title_b6bbb4690942456badffa5335ebbbabc": {
+    "en-US": "All Reports",
+    "ru-RU": "Все отчеты",
+    "hash": "a7888b33b5089d380498792cb7b091f6"
+  },
+  "Action_Title_b96bb38892b94f98a488cf7364898f2d": {
+    "en-US": "Document Numbering Skips",
+    "ru-RU": "Контроль пропусков в нумерации документов",
+    "hash": "3d23d126b2caeec323094bd37bfe99b7"
+  },
+  "Action_Title_db6885c100f24e4ba9b2e767f7c9459d": {
+    "en-US": "Approval Rules Summary Report",
+    "ru-RU": "Сводный отчет по правилам согласования",
+    "hash": "7a686a75eec275f81e7e0edc1fcd9b62"
+  },
+  "Action_Title_dcd923acf52046ed9528d973734ab7d5": {
+    "en-US": "Our Exchange Boxes",
+    "ru-RU": "Наши абонентские ящики сервисов обмена",
+    "hash": "d2da5fc6f72611ce4df6be63be7dc8ff"
+  },
+  "Action_Title_e021bae41f424f319e0f1c7b582587c9": {
+    "en-US": "Regions",
+    "ru-RU": "Регионы",
+    "hash": "f233ec0ee1088fc53e0c7d2ed365233b"
+  },
+  "Action_Title_e0652fb1248e4e3da74bdc679486abb9": {
+    "en-US": "Case File Retention Periods",
+    "ru-RU": "Сроки хранения дел",
+    "hash": "07e91f0ede6f4cc1d2adbdad9756030a"
+  },
+  "Action_Title_f2fa664e2e7f4a28a0f00e80a58e2185": {
+    "en-US": "Invite Counterparty by TIN",
+    "ru-RU": "Пригласить контрагента по ИНН",
+    "hash": "8f1458a173549f8d169a320c8f7f5a46"
+  },
+  "Action_Title_f488c1e6ebf241b5b5e60f4d7ad7250e": {
+    "en-US": "Document Registers",
+    "ru-RU": "Журналы регистрации",
+    "hash": "b700acbed8da7747033d55bc425a71af"
+  },
+  "Description": {
+    "en-US": "This view is where you can configure document classification, registration, and storage, as well as processes used to work with documents and integration with other systems.",
+    "ru-RU": "Обложка модуля для настройки классификации, регистрации, хранения документов, а также процессов работы с ними и интеграции с другими системами.",
+    "hash": "2424001a0dc454ee3c3e0f175b413eb2"
+  },
+  "Group_Title_03953cd1464e4021995a8d01e7f30cce": {
+    "en-US": "Configure Document Flow",
+    "ru-RU": "Настройка документооборота",
+    "hash": "3c2ba3ac8d85e65e5a9828829f393b88"
+  },
+  "Group_Title_1364064f11f544d982eb10a70d3ca4d1": {
+    "en-US": "Additional Information",
+    "ru-RU": "Дополнительная информация",
+    "hash": "4194d526bea8064582ae4638a6d50251"
+  },
+  "Group_Title_19905dd8c6f944edb6511a562c0cedc9": {
+    "en-US": "Electronic Exchange",
+    "ru-RU": "Электронный обмен",
+    "hash": "65c6e48af83bc976b5967aea2c47affd"
+  },
+  "Group_Title_2da3a8af8f3448b497d6f6923bdef280": {
+    "en-US": "Registration and Numbering",
+    "ru-RU": "Регистрация и нумерация",
+    "hash": "3aa3ee2207e1cfc50b3369714661efda"
+  },
+  "Group_Title_50c93dcc895b49fb83cffc8a148c341f": {
+    "en-US": "Reports",
+    "ru-RU": "Отчеты",
+    "hash": "269295bfcf8b9d5f4d39a3bda47e4e2f"
+  },
+  "Group_Title_8b3157f0533744738f6ad45440e91e91": {
+    "en-US": "Related Information",
+    "ru-RU": "Связанная информация",
+    "hash": "4f3a6a60b3de9b5162f268b4b1aa8fdf"
+  },
+  "Group_Title_adb3a461391b419198d0b541c381c9fe": {
+    "en-US": "Integration",
+    "ru-RU": "Интеграция",
+    "hash": "9f1b2b35e63516c580a9524eb51d8213"
+  },
+  "Group_Title_b967c8f6bf1949f287b3a44af47f39bb": {
+    "en-US": "Document Classification",
+    "ru-RU": "Классификация документов",
+    "hash": "36813651624e48c9f0789a00ca477470"
+  },
+  "Group_Title_c4589826fe114e69856480d7a0886087": {
+    "en-US": "Case File Management",
+    "ru-RU": "Номенклатура дел",
+    "hash": "dda9cb5d17198a107677d91ccaa0a09b"
+  },
+  "Group_Title_da754cc97f514f36b1bb6ada3bca0fa8": {
+    "en-US": "Group",
+    "ru-RU": "Настройки согласования",
+    "hash": "931096d2de346afd91d7cb88a535f809"
+  },
+  "Group_Title_f4953d5857e547248737c5058c7c9a11": {
+    "en-US": "Related Information",
+    "ru-RU": "Связанная информация",
+    "hash": "4f3a6a60b3de9b5162f268b4b1aa8fdf"
+  },
+  "Group_Title_f9ac6d8d703147c7bcbb3c7558a11e7a": {
+    "en-US": "Reports",
+    "ru-RU": "Отчеты",
+    "hash": "269295bfcf8b9d5f4d39a3bda47e4e2f"
+  },
+  "Group_Title_fb5d11d168684adc8edf489608968817": {
+    "en-US": "Territorial System",
+    "ru-RU": "Территориальное устройство",
+    "hash": "7c31678db09f700f97a6ccaff0468dc2"
+  },
+  "Header_Description_3962886e45864d5dbb8cd234d444b3d0": {
+    "en-US": "This module is where you can manage document classification, registration, and storage, as well as configure integrations and document workflow.",
+    "ru-RU": "Модуль предназначен для настройки классификации, регистрации, хранения документов, а также процессов работы с документами и интеграций.",
+    "hash": "cf1002a5ea6f1044b820d1dda09e6eaa"
+  },
+  "Header_Title_3962886e45864d5dbb8cd234d444b3d0": {
+    "en-US": "Docflow Settings",
+    "ru-RU": "Настройки документооборота",
+    "hash": "92908e139b2431323ea029ed1a4fdb9f"
+  },
+  "Name": {
+    "en-US": "Docflow settings",
+    "ru-RU": "Настройки документооборота",
+    "hash": "55246fb6d695a0e5a343b722dec10d1f"
+  },
+  "Tab_Title_04882b1f66d940f19ae65a646c43247c": {
+    "en-US": "Documents",
+    "ru-RU": "Документы",
+    "hash": "81aea7b35bf41d1b67b701e1fba4026b"
+  },
+  "Tab_Title_b46cde75c02943ef8884a80cffc34a66": {
+    "en-US": "Common Settings",
+    "ru-RU": "Общие настройки",
+    "hash": "54d303b7c0b1df86c36accaf3a191e15"
+  },
+  "Tab_Title_fb8eac84dd1e4c479952f35b6bd253de": {
+    "en-US": "Processes",
+    "ru-RU": "Процессы",
+    "hash": "503cf2f529d0dcf7002e36bffd35aedf"
+  }
+}

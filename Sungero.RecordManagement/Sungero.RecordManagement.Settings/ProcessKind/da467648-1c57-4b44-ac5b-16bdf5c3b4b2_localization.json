@@ -1,0 +1,47 @@
+{
+  "Description": {
+    "en-US": "Employees' acquaintance with electronic documents or hard copies against personal signature",
+    "ru-RU": "Ознакомление сотрудников организации с документами в электронном виде или под личную подпись",
+    "hash": "eb403cfd840035733a6cba42ddfa168f"
+  },
+  "Name": {
+    "en-US": "Acquaintance with document",
+    "ru-RU": "Ознакомление с документом",
+    "hash": "a21e816a0f098945771b40d5dd5d5f3d"
+  },
+  "Subject_SE_11": {
+    "en-US": "Finish acquaintance: {0}",
+    "ru-RU": "Завершите работы по ознакомлению: {0}",
+    "hash": "ba212be8f374fafb2d9e9f0475c28a48"
+  },
+  "Subject_SE_3": {
+    "en-US": "Get acquainted with: {0}",
+    "ru-RU": "Ознакомьтесь: {0}",
+    "hash": "e44117b39181d9167bb95f262e26325a"
+  },
+  "Subject_SE_7": {
+    "en-US": "Acquaintance complete: {0}",
+    "ru-RU": "Ознакомление завершено: {0}",
+    "hash": "c130a2cfbdb69ba31662551bcc7b1a83"
+  },
+  "Title_SE_11": {
+    "en-US": "Finalize document acquaintance",
+    "ru-RU": "Завершение работ по ознакомлению"
+  },
+  "Title_SE_13": {
+    "en-US": "Assign access rights to acquaintance participants",
+    "ru-RU": "Назначение прав участникам ознакомления"
+  },
+  "Title_SE_3": {
+    "en-US": "Acquaintance with document",
+    "ru-RU": "Ознакомление с документом"
+  },
+  "Title_SE_4": {
+    "en-US": "Receive assignment after action item is executed?",
+    "ru-RU": "По завершении получить задание?"
+  },
+  "Title_SE_7": {
+    "en-US": "Notice about document acquaintance completion",
+    "ru-RU": "Уведомление о завершении ознакомления"
+  }
+}

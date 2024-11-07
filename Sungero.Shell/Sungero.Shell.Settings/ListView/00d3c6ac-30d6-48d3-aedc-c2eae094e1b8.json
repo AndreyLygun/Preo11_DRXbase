@@ -1,0 +1,376 @@
+{
+  "$type": "Sungero.DataExport.ExportingObject, Sungero.DataExport",
+  "FolderType": "0d61168d-1ae5-4570-a42e-bdd5f3b07b02",
+  "EntityType": null,
+  "ContextType": "Folder",
+  "ListViewType": "Compact",
+  "EmbeddedViewType": "Card",
+  "List": {
+    "$type": "Sungero.NoCode.Settings.Interfaces.Models.List.ListSettings, Sungero.NoCode.Settings.Interfaces",
+    "Grid": {
+      "$type": "Sungero.NoCode.Settings.Interfaces.Models.List.GridSettings, Sungero.NoCode.Settings.Interfaces",
+      "BaseEntityTypeGuid": "ea683a63-273e-43ae-bcf1-7a443698008a",
+      "Columns": {
+        "$type": "System.Collections.Generic.List`1[[Sungero.NoCode.Settings.Interfaces.Models.List.ColumnSettings, Sungero.NoCode.Settings.Interfaces]], System.Private.CoreLib",
+        "$values": [
+          {
+            "$type": "Sungero.NoCode.Settings.Interfaces.Models.List.ColumnSettings, Sungero.NoCode.Settings.Interfaces",
+            "EntityTypeGuid": "91cbfdc8-5d5d-465e-95a4-3235b8c01d5b",
+            "PropertyGuid": "d7319199-3333-49cc-a7b9-8467617ccf20",
+            "Width": 4.0,
+            "VisibleIndex": 2,
+            "IsVisible": false,
+            "IsHiddenInUI": false,
+            "IsRelativeWidth": true,
+            "SortOrder": null
+          },
+          {
+            "$type": "Sungero.NoCode.Settings.Interfaces.Models.List.ColumnSettings, Sungero.NoCode.Settings.Interfaces",
+            "EntityTypeGuid": "91cbfdc8-5d5d-465e-95a4-3235b8c01d5b",
+            "PropertyGuid": "70ebf34e-fb24-438e-9c15-20c2234e771d",
+            "Width": 49.0,
+            "VisibleIndex": 8,
+            "IsVisible": true,
+            "IsHiddenInUI": false,
+            "IsRelativeWidth": true,
+            "SortOrder": null
+          },
+          {
+            "$type": "Sungero.NoCode.Settings.Interfaces.Models.List.ColumnSettings, Sungero.NoCode.Settings.Interfaces",
+            "EntityTypeGuid": "91cbfdc8-5d5d-465e-95a4-3235b8c01d5b",
+            "PropertyGuid": "51a65ccf-9098-46d5-a853-c9a7f7e95d28",
+            "Width": 19.0,
+            "VisibleIndex": 10,
+            "IsVisible": true,
+            "IsHiddenInUI": false,
+            "IsRelativeWidth": true,
+            "SortOrder": null
+          },
+          {
+            "$type": "Sungero.NoCode.Settings.Interfaces.Models.List.ColumnSettings, Sungero.NoCode.Settings.Interfaces",
+            "EntityTypeGuid": "91cbfdc8-5d5d-465e-95a4-3235b8c01d5b",
+            "PropertyGuid": "4d924904-9c82-4187-ac18-b3620cf6ec87",
+            "Width": 14.0,
+            "VisibleIndex": 3,
+            "IsVisible": false,
+            "IsHiddenInUI": false,
+            "IsRelativeWidth": true,
+            "SortOrder": null
+          },
+          {
+            "$type": "Sungero.NoCode.Settings.Interfaces.Models.List.ColumnSettings, Sungero.NoCode.Settings.Interfaces",
+            "EntityTypeGuid": "91cbfdc8-5d5d-465e-95a4-3235b8c01d5b",
+            "PropertyGuid": "dcb1774a-22e7-4e3a-987a-7691478265c8",
+            "Width": 14.0,
+            "VisibleIndex": 4,
+            "IsVisible": false,
+            "IsHiddenInUI": false,
+            "IsRelativeWidth": true,
+            "SortOrder": null
+          },
+          {
+            "$type": "Sungero.NoCode.Settings.Interfaces.Models.List.ColumnSettings, Sungero.NoCode.Settings.Interfaces",
+            "EntityTypeGuid": "91cbfdc8-5d5d-465e-95a4-3235b8c01d5b",
+            "PropertyGuid": "93248e42-4fd7-4d99-bba7-2ddd610d1d75",
+            "Width": 24.0,
+            "VisibleIndex": 5,
+            "IsVisible": true,
+            "IsHiddenInUI": true,
+            "IsRelativeWidth": false,
+            "SortOrder": null
+          },
+          {
+            "$type": "Sungero.NoCode.Settings.Interfaces.Models.List.ColumnSettings, Sungero.NoCode.Settings.Interfaces",
+            "EntityTypeGuid": "91cbfdc8-5d5d-465e-95a4-3235b8c01d5b",
+            "PropertyGuid": "5380ec02-41db-47eb-8c29-18704454f122",
+            "Width": 14.0,
+            "VisibleIndex": 12,
+            "IsVisible": true,
+            "IsHiddenInUI": false,
+            "IsRelativeWidth": true,
+            "SortOrder": null
+          },
+          {
+            "$type": "Sungero.NoCode.Settings.Interfaces.Models.List.ColumnSettings, Sungero.NoCode.Settings.Interfaces",
+            "EntityTypeGuid": "91cbfdc8-5d5d-465e-95a4-3235b8c01d5b",
+            "PropertyGuid": "db1786dd-6ce3-4aaa-b33f-2d82f3842fe2",
+            "Width": 14.0,
+            "VisibleIndex": 13,
+            "IsVisible": true,
+            "IsHiddenInUI": false,
+            "IsRelativeWidth": true,
+            "SortOrder": 1
+          },
+          {
+            "$type": "Sungero.NoCode.Settings.Interfaces.Models.List.ColumnSettings, Sungero.NoCode.Settings.Interfaces",
+            "EntityTypeGuid": "91cbfdc8-5d5d-465e-95a4-3235b8c01d5b",
+            "PropertyGuid": "e305f4f0-c2ee-468b-b38f-d46a7ea0ad47",
+            "Width": 14.0,
+            "VisibleIndex": 14,
+            "IsVisible": false,
+            "IsHiddenInUI": false,
+            "IsRelativeWidth": true,
+            "SortOrder": null
+          },
+          {
+            "$type": "Sungero.NoCode.Settings.Interfaces.Models.List.ColumnSettings, Sungero.NoCode.Settings.Interfaces",
+            "EntityTypeGuid": "91cbfdc8-5d5d-465e-95a4-3235b8c01d5b",
+            "PropertyGuid": "f8670a5a-50c8-4646-9088-e4a249a09ed0",
+            "Width": 14.0,
+            "VisibleIndex": 6,
+            "IsVisible": false,
+            "IsHiddenInUI": false,
+            "IsRelativeWidth": true,
+            "SortOrder": null
+          },
+          {
+            "$type": "Sungero.NoCode.Settings.Interfaces.Models.List.ColumnSettings, Sungero.NoCode.Settings.Interfaces",
+            "EntityTypeGuid": "91cbfdc8-5d5d-465e-95a4-3235b8c01d5b",
+            "PropertyGuid": "93bb2c73-9d99-496a-923c-3963a086f017",
+            "Width": 14.0,
+            "VisibleIndex": 7,
+            "IsVisible": false,
+            "IsHiddenInUI": false,
+            "IsRelativeWidth": true,
+            "SortOrder": null
+          },
+          {
+            "$type": "Sungero.NoCode.Settings.Interfaces.Models.List.ColumnSettings, Sungero.NoCode.Settings.Interfaces",
+            "EntityTypeGuid": "91cbfdc8-5d5d-465e-95a4-3235b8c01d5b",
+            "PropertyGuid": "cfdeb53d-17ff-4944-b0f6-9c60c26a7d3d",
+            "Width": 24.0,
+            "VisibleIndex": 9,
+            "IsVisible": true,
+            "IsHiddenInUI": false,
+            "IsRelativeWidth": false,
+            "SortOrder": null
+          },
+          {
+            "$type": "Sungero.NoCode.Settings.Interfaces.Models.List.ColumnSettings, Sungero.NoCode.Settings.Interfaces",
+            "EntityTypeGuid": "91cbfdc8-5d5d-465e-95a4-3235b8c01d5b",
+            "PropertyGuid": "46569f0c-18b1-48e0-96a2-7f97215e2f2e",
+            "Width": 20.0,
+            "VisibleIndex": 16,
+            "IsVisible": false,
+            "IsHiddenInUI": false,
+            "IsRelativeWidth": true,
+            "SortOrder": null
+          },
+          {
+            "$type": "Sungero.NoCode.Settings.Interfaces.Models.List.ColumnSettings, Sungero.NoCode.Settings.Interfaces",
+            "EntityTypeGuid": "91cbfdc8-5d5d-465e-95a4-3235b8c01d5b",
+            "PropertyGuid": "b864937c-582d-4f6f-8ceb-eecdec37e0fd",
+            "Width": 10.0,
+            "VisibleIndex": 17,
+            "IsVisible": false,
+            "IsHiddenInUI": false,
+            "IsRelativeWidth": true,
+            "SortOrder": null
+          },
+          {
+            "$type": "Sungero.NoCode.Settings.Interfaces.Models.List.ColumnSettings, Sungero.NoCode.Settings.Interfaces",
+            "EntityTypeGuid": "91cbfdc8-5d5d-465e-95a4-3235b8c01d5b",
+            "PropertyGuid": "423fdc55-8b91-4f0c-81a6-82c71f79db49",
+            "Width": 10.0,
+            "VisibleIndex": 18,
+            "IsVisible": false,
+            "IsHiddenInUI": false,
+            "IsRelativeWidth": true,
+            "SortOrder": null
+          },
+          {
+            "$type": "Sungero.NoCode.Settings.Interfaces.Models.List.ColumnSettings, Sungero.NoCode.Settings.Interfaces",
+            "EntityTypeGuid": "91cbfdc8-5d5d-465e-95a4-3235b8c01d5b",
+            "PropertyGuid": "3030ce66-555f-454b-9ec0-653fceb86ec4",
+            "Width": 10.0,
+            "VisibleIndex": 19,
+            "IsVisible": false,
+            "IsHiddenInUI": false,
+            "IsRelativeWidth": true,
+            "SortOrder": null
+          },
+          {
+            "$type": "Sungero.NoCode.Settings.Interfaces.Models.List.ColumnSettings, Sungero.NoCode.Settings.Interfaces",
+            "EntityTypeGuid": "91cbfdc8-5d5d-465e-95a4-3235b8c01d5b",
+            "PropertyGuid": "11828a44-2815-45a1-8694-e4fc34351b45",
+            "Width": 10.0,
+            "VisibleIndex": 20,
+            "IsVisible": false,
+            "IsHiddenInUI": false,
+            "IsRelativeWidth": true,
+            "SortOrder": null
+          },
+          {
+            "$type": "Sungero.NoCode.Settings.Interfaces.Models.List.ColumnSettings, Sungero.NoCode.Settings.Interfaces",
+            "EntityTypeGuid": "91cbfdc8-5d5d-465e-95a4-3235b8c01d5b",
+            "PropertyGuid": "14fda39b-c81c-4e1c-8fc4-bf3144460f57",
+            "Width": 14.0,
+            "VisibleIndex": 11,
+            "IsVisible": false,
+            "IsHiddenInUI": false,
+            "IsRelativeWidth": true,
+            "SortOrder": null
+          },
+          {
+            "$type": "Sungero.NoCode.Settings.Interfaces.Models.List.ColumnSettings, Sungero.NoCode.Settings.Interfaces",
+            "EntityTypeGuid": "079b6ce1-8a62-41a6-aa89-0de5e5266253",
+            "PropertyGuid": "e77d465f-5b7c-427e-b4ca-eb875912c705",
+            "Width": 10.416666666666668,
+            "VisibleIndex": 0,
+            "IsVisible": false,
+            "IsHiddenInUI": false,
+            "IsRelativeWidth": true,
+            "SortOrder": null
+          },
+          {
+            "$type": "Sungero.NoCode.Settings.Interfaces.Models.List.ColumnSettings, Sungero.NoCode.Settings.Interfaces",
+            "EntityTypeGuid": "69ac657a-0e74-46be-acba-f6bbbbd2bc73",
+            "PropertyGuid": "745cfb3b-34a1-4442-ad7e-70bf4e9210bf",
+            "Width": 10.416666666666668,
+            "VisibleIndex": 0,
+            "IsVisible": false,
+            "IsHiddenInUI": false,
+            "IsRelativeWidth": true,
+            "SortOrder": null
+          },
+          {
+            "$type": "Sungero.NoCode.Settings.Interfaces.Models.List.ColumnSettings, Sungero.NoCode.Settings.Interfaces",
+            "EntityTypeGuid": "69ac657a-0e74-46be-acba-f6bbbbd2bc73",
+            "PropertyGuid": "1e3bfaa2-6022-40d2-bfaf-e6554f42667c",
+            "Width": 10.416666666666668,
+            "VisibleIndex": 0,
+            "IsVisible": false,
+            "IsHiddenInUI": false,
+            "IsRelativeWidth": true,
+            "SortOrder": null
+          }
+        ]
+      }
+    },
+    "Filters": {
+      "$type": "System.Collections.Generic.List`1[[Sungero.NoCode.Settings.Interfaces.Models.List.FilterSettings, Sungero.NoCode.Settings.Interfaces]], System.Private.CoreLib",
+      "$values": [
+        {
+          "$type": "Sungero.NoCode.Settings.Interfaces.Models.List.FilterSettings, Sungero.NoCode.Settings.Interfaces",
+          "IsVisible": true,
+          "NameGuid": "9c3f497b-7435-43ac-bafd-54808bb660bc",
+          "Name": null
+        },
+        {
+          "$type": "Sungero.NoCode.Settings.Interfaces.Models.List.FilterSettings, Sungero.NoCode.Settings.Interfaces",
+          "IsVisible": true,
+          "NameGuid": "9c3f497b-7435-43ac-bafd-54808bb660bc",
+          "Name": null
+        },
+        {
+          "$type": "Sungero.NoCode.Settings.Interfaces.Models.List.FilterSettings, Sungero.NoCode.Settings.Interfaces",
+          "IsVisible": true,
+          "NameGuid": "de9e8746-c9d0-44f7-b351-2c1eec470eb5",
+          "Name": null
+        },
+        {
+          "$type": "Sungero.NoCode.Settings.Interfaces.Models.List.FilterSettings, Sungero.NoCode.Settings.Interfaces",
+          "IsVisible": true,
+          "NameGuid": "d63efeea-cb9a-4f43-aefe-899fe87b6527",
+          "Name": null
+        },
+        {
+          "$type": "Sungero.NoCode.Settings.Interfaces.Models.List.FilterSettings, Sungero.NoCode.Settings.Interfaces",
+          "IsVisible": true,
+          "NameGuid": "6c98c7b0-1415-499c-9d3f-c5f7e3f13507",
+          "Name": null
+        },
+        {
+          "$type": "Sungero.NoCode.Settings.Interfaces.Models.List.FilterSettings, Sungero.NoCode.Settings.Interfaces",
+          "IsVisible": true,
+          "NameGuid": "3ea76524-54a0-45fb-8206-299f804a7ad0",
+          "Name": null
+        },
+        {
+          "$type": "Sungero.NoCode.Settings.Interfaces.Models.List.FilterSettings, Sungero.NoCode.Settings.Interfaces",
+          "IsVisible": true,
+          "NameGuid": "b54241b2-d7dc-47f4-b70e-18ec914e85c8",
+          "Name": null
+        },
+        {
+          "$type": "Sungero.NoCode.Settings.Interfaces.Models.List.FilterSettings, Sungero.NoCode.Settings.Interfaces",
+          "IsVisible": true,
+          "NameGuid": "23f9cb62-ead7-4491-94e8-5113898849cb",
+          "Name": null
+        },
+        {
+          "$type": "Sungero.NoCode.Settings.Interfaces.Models.List.FilterSettings, Sungero.NoCode.Settings.Interfaces",
+          "IsVisible": true,
+          "NameGuid": "d78d2c96-1979-4d15-80d3-49a7a3664496",
+          "Name": null
+        },
+        {
+          "$type": "Sungero.NoCode.Settings.Interfaces.Models.List.FilterSettings, Sungero.NoCode.Settings.Interfaces",
+          "IsVisible": true,
+          "NameGuid": "b90ac9bd-bfbf-482e-94ba-64a2b2c5a716",
+          "Name": null
+        },
+        {
+          "$type": "Sungero.NoCode.Settings.Interfaces.Models.List.FilterSettings, Sungero.NoCode.Settings.Interfaces",
+          "IsVisible": true,
+          "NameGuid": "5f8c1a32-883b-4f83-a95c-0a48474e59ec",
+          "Name": null
+        },
+        {
+          "$type": "Sungero.NoCode.Settings.Interfaces.Models.List.FilterSettings, Sungero.NoCode.Settings.Interfaces",
+          "IsVisible": true,
+          "NameGuid": "4dd71e45-e256-42c9-9e46-50080a7cbf2d",
+          "Name": null
+        },
+        {
+          "$type": "Sungero.NoCode.Settings.Interfaces.Models.List.FilterSettings, Sungero.NoCode.Settings.Interfaces",
+          "IsVisible": true,
+          "NameGuid": "bf0f9991-9649-4a8e-98f5-f944db30e77b",
+          "Name": null
+        },
+        {
+          "$type": "Sungero.NoCode.Settings.Interfaces.Models.List.FilterSettings, Sungero.NoCode.Settings.Interfaces",
+          "IsVisible": true,
+          "NameGuid": "03cf1d01-b565-4971-9a1d-f591096008c7",
+          "Name": null
+        },
+        {
+          "$type": "Sungero.NoCode.Settings.Interfaces.Models.List.FilterSettings, Sungero.NoCode.Settings.Interfaces",
+          "IsVisible": true,
+          "NameGuid": "d0640cd0-6fa0-44ec-b91d-21da32ec7859",
+          "Name": null
+        },
+        {
+          "$type": "Sungero.NoCode.Settings.Interfaces.Models.List.FilterSettings, Sungero.NoCode.Settings.Interfaces",
+          "IsVisible": false,
+          "NameGuid": "b77decd0-9d21-4102-be64-4aa62a50e12f",
+          "Name": null
+        },
+        {
+          "$type": "Sungero.NoCode.Settings.Interfaces.Models.List.FilterSettings, Sungero.NoCode.Settings.Interfaces",
+          "IsVisible": false,
+          "NameGuid": "cfb162a4-e17a-408f-af88-eeb4acec0fbd",
+          "Name": null
+        }
+      ]
+    },
+    "Ribbon": {
+      "$type": "Sungero.NoCode.Settings.Interfaces.Models.Entity.Ribbon.RibbonSettings, Sungero.NoCode.Settings.Interfaces",
+      "Groups": {
+        "$type": "System.Collections.ObjectModel.ReadOnlyCollection`1[[Sungero.NoCode.Settings.Interfaces.Models.Entity.Ribbon.RibbonSettingsGroup, Sungero.NoCode.Settings.Interfaces]], System.Private.CoreLib",
+        "$values": []
+      },
+      "Buttons": {
+        "$type": "System.Collections.ObjectModel.ReadOnlyCollection`1[[Sungero.NoCode.Settings.Interfaces.Models.Entity.Ribbon.RibbonSettingsButton, Sungero.NoCode.Settings.Interfaces]], System.Private.CoreLib",
+        "$values": []
+      }
+    }
+  },
+  "Criteria": "{\"$type\":\"Sungero.NoCode.Expression.UnionExpression, Sungero.NoCode.Expression\",\"Expressions\":[{\"$type\":\"Sungero.NoCode.Expression.ConditionExpression, Sungero.NoCode.Expression\",\"LeftExpression\":{\"$type\":\"Sungero.NoCode.Expression.SimpleExpression, Sungero.NoCode.Expression\",\"Tokens\":[{\"$type\":\"Sungero.NoCode.Expression.Tokens.FunctionToken, Sungero.NoCode.Expression\",\"Name\":\"GetCurrentUser\",\"ParentTypeId\":\"32f58d8b-2a33-4eb5-813e-5cd602356b06\",\"Parameters\":[]}],\"Version\":2},\"Operator\":{\"$type\":\"Sungero.NoCode.Expression.Tokens.FunctionToken, Sungero.NoCode.Expression\",\"Name\":\"IncludedIn\",\"ParentTypeId\":\"04608308-d517-4988-93b4-4312c3ed0c4c\",\"Parameters\":[{\"$type\":\"Sungero.NoCode.Expression.Tokens.FunctionParameter, Sungero.NoCode.Expression\",\"Name\":\"value\",\"Type\":\"Sungero.Domain.Shared.IEntity, Sungero.Domain.Shared\"},{\"$type\":\"Sungero.NoCode.Expression.Tokens.FunctionParameter, Sungero.NoCode.Expression\",\"Name\":\"collection\",\"Type\":\"System.Collections.Generic.IEnumerable`1[[Sungero.Domain.Shared.IEntity, Sungero.Domain.Shared]], System.Private.CoreLib\"}]},\"RightExpression\":{\"$type\":\"Sungero.NoCode.Expression.EntityListExpression, Sungero.NoCode.Expression\",\"EntityTokens\":[{\"$type\":\"Sungero.NoCode.Expression.Tokens.EntityAdaptationToken`1[[System.Guid, System.Private.CoreLib]], Sungero.NoCode.Expression\",\"Value\":\"fc4f9d00-fc90-456f-8b55-37d325b21e6d\",\"TypeGuid\":\"5e9b55c2-c1f5-4e4f-aa09-7b6d461d87ed\"}],\"Version\":0},\"LogicalOperator\":null,\"Version\":3}],\"Version\":0}",
+  "Priority": 0,
+  "SettingsVersion": 2,
+  "Uuid": "00d3c6ac-30d6-48d3-aedc-c2eae094e1b8",
+  "ModuleNameGuid": "fcc573ab-5f4e-4b20-88e8-7b1e11a7a59a",
+  "StoreAsDefaultSetting": true,
+  "Status": "Active"
+}

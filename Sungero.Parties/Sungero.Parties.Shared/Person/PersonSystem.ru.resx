@@ -1,0 +1,158 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="DisplayName" xml:space="preserve">
+    <value>Персона</value>
+  </data>
+  <data name="AccusativeDisplayName" xml:space="preserve">
+    <value>Персону</value>
+  </data>
+  <data name="CollectionDisplayName" xml:space="preserve">
+    <value>Персоны</value>
+  </data>
+  <data name="Property_LastName" xml:space="preserve">
+    <value>Фамилия</value>
+  </data>
+  <data name="Property_FirstName" xml:space="preserve">
+    <value>Имя</value>
+  </data>
+  <data name="Property_MiddleName" xml:space="preserve">
+    <value>Отчество</value>
+  </data>
+  <data name="Property_DateOfBirth" xml:space="preserve">
+    <value>Дата рождения</value>
+  </data>
+  <data name="Property_Sex" xml:space="preserve">
+    <value>Пол</value>
+  </data>
+  <data name="Enum_Sex_Male" xml:space="preserve">
+    <value>Мужской</value>
+  </data>
+  <data name="Enum_Sex_Female" xml:space="preserve">
+    <value>Женский</value>
+  </data>
+  <data name="Property_LegalAddress" xml:space="preserve">
+    <value>Адрес регистрации</value>
+  </data>
+  <data name="Property_INILA" xml:space="preserve">
+    <value>СНИЛС</value>
+  </data>
+  <data name="Property_Name" xml:space="preserve">
+    <value>ФИО</value>
+  </data>
+  <data name="Property_ShortName" xml:space="preserve">
+    <value>Фамилия и инициалы</value>
+  </data>
+  <data name="ControlGroup_9e3df66a01e8408aaa4ca5c92a1227fb" xml:space="preserve">
+    <value>Контактная информация</value>
+  </data>
+  <data name="ControlGroup_4b9defe5f46d4581b50a5c0be4a80a50" xml:space="preserve">
+    <value>Банковские реквизиты</value>
+  </data>
+  <data name="ControlGroup_69a4139490424b338d9ce5253d0a8c27" xml:space="preserve">
+    <value>Примечание</value>
+  </data>
+  <data name="Action_ShowDuplicatesDescription" xml:space="preserve">
+    <value>Показать персон с совпадающим ИНН.</value>
+  </data>
+  <data name="Action_ShowDuplicatesHint" xml:space="preserve">
+    <value>Показать дубли</value>
+  </data>
+  <data name="Action_ShowCounterpartyDocumentsHint" xml:space="preserve">
+    <value>Показать комплект документов с информацией о персоне</value>
+  </data>
+  <data name="Action_ShowCounterpartyDocumentsDescription" xml:space="preserve">
+    <value>Показать комплект документов с информацией о персоне (копия паспорта, ИНН и прочие документы)
+</value>
+  </data>
+  <data name="Property_Citizenship" xml:space="preserve">
+    <value>Гражданство</value>
+  </data>
+  <data name="Property_IdentityKind" xml:space="preserve">
+    <value>Вид документа</value>
+  </data>
+  <data name="Property_IdentitySeries" xml:space="preserve">
+    <value>Серия</value>
+  </data>
+  <data name="Property_IdentityNumber" xml:space="preserve">
+    <value>Номер</value>
+  </data>
+  <data name="Property_IdentityDateOfIssue" xml:space="preserve">
+    <value>Дата выдачи</value>
+  </data>
+  <data name="Property_IdentityExpirationDate" xml:space="preserve">
+    <value>Срок действия</value>
+  </data>
+  <data name="Property_IdentityAuthority" xml:space="preserve">
+    <value>Кем выдан</value>
+  </data>
+  <data name="Property_IdentityAuthorityCode" xml:space="preserve">
+    <value>Код подразделения</value>
+  </data>
+  <data name="Property_BirthPlace" xml:space="preserve">
+    <value>Место рождения</value>
+  </data>
+  <data name="Form_bdeac4a0e71345579b3bc378592c3afa" xml:space="preserve">
+    <value>Документ, удостоверяющий личность</value>
+  </data>
+  <data name="ControlGroup_762bde6523c54f2cb4e0f3686a1963b8" xml:space="preserve">
+    <value>Документ, удостоверяющий личность</value>
+  </data>
+</root>

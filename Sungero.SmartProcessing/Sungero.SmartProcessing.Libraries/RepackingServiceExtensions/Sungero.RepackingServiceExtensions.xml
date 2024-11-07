@@ -1,0 +1,222 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Sungero.RepackingServiceExtensions</name>
+    </assembly>
+    <members>
+        <member name="T:Sungero.RepackingServiceExtensions.Connection">
+            <summary>
+            Подключение к сервису перекомплектования.
+            </summary>
+        </member>
+        <member name="F:Sungero.RepackingServiceExtensions.Connection.Client">
+            <summary>
+            Http клиент подключения к сервису перекомплектования.
+            </summary>
+        </member>
+        <member name="F:Sungero.RepackingServiceExtensions.Connection.Logger">
+            <summary>
+            Logger.
+            </summary>
+        </member>
+        <member name="P:Sungero.RepackingServiceExtensions.Connection.ServiceUrl">
+            <summary>
+            URL сервиса перекомплектования.
+            </summary>
+        </member>
+        <member name="P:Sungero.RepackingServiceExtensions.Connection.Timeout">
+            <summary>
+            Время ожидания запроса к сервису.
+            </summary>
+        </member>
+        <member name="P:Sungero.RepackingServiceExtensions.Connection.Secret">
+            <summary>
+            JSON web key.
+            </summary>
+        </member>
+        <member name="M:Sungero.RepackingServiceExtensions.Connection.SendRequest(System.String,System.Net.Http.HttpMethod,System.String)">
+            <summary>
+            Отправить запрос сервису перекомплектования.
+            </summary>
+            <param name="requestUri">Адрес запроса.</param>
+            <param name="httpMethod">Метод отправки запроса.</param>
+            <param name="jsonContent">Тело запроса.</param>
+            <returns>Результат запроса.</returns>
+        </member>
+        <member name="M:Sungero.RepackingServiceExtensions.Connection.#ctor(System.String,System.String,System.TimeSpan)">
+            <summary>
+            Конструктор.
+            </summary>
+            <param name="serviceUrl">URL сервиса перекомплектования.</param>
+            <param name="jwtSecret">Ключ для проверки подписи токена.</param>
+            <param name="requestTimeout">Время ожидания запроса к сервису.</param>
+        </member>
+        <member name="T:Sungero.RepackingServiceExtensions.Connector">
+            <summary>
+            Точка доступа к сервису перекомплектования.
+            </summary>
+        </member>
+        <member name="P:Sungero.RepackingServiceExtensions.Connector.Connection">
+            <summary>
+            Соединение с сервисом перекомплектования.
+            </summary>
+        </member>
+        <member name="M:Sungero.RepackingServiceExtensions.Connector.OpenSession(System.String,System.Collections.Generic.Dictionary{System.String,System.String},System.Collections.Generic.List{Sungero.RepackingServiceExtensions.Document},System.Int32)">
+            <summary>
+            Инициализировать сессию перекомплектования.
+            </summary>
+            <param name="types">Доступные в сессии типы документов.</param>
+            <param name="documents">Список документов.</param>
+            <returns>Ссылка на сессию перекомплектования.</returns>
+        </member>
+        <member name="M:Sungero.RepackingServiceExtensions.Connector.GetDocumentContent(System.String)">
+            <summary>
+            Получить тело измененного документа.
+            </summary>
+            <param name="docDownloadUrl">Ссылка для скачивания документа.</param>
+            <returns>Тело документа.</returns>
+        </member>
+        <member name="M:Sungero.RepackingServiceExtensions.Connector.Get(System.String,System.String,System.TimeSpan)">
+            <summary>
+            Инициализирует новый экземпляр класса <see cref="T:Sungero.RepackingServiceExtensions.Connector"></see>.
+            </summary>
+            <param name="serviceUrl">URL сервиса перекомплектования.</param>
+            <param name="signingKey">Ключ для проверки подписи токена.</param>
+            <param name="requestTimeout">Время ожидания запроса к сервису.</param>
+            <returns>Коннектор.</returns>
+        </member>
+        <member name="M:Sungero.RepackingServiceExtensions.Connector.Get(System.String,System.String,System.Int32)">
+            <summary>
+            Инициализирует новый экземпляр класса <see cref="T:Sungero.RepackingServiceExtensions.Connector"></see>.
+            </summary>
+            <param name="serviceUrl">URL сервиса перекомплектования.</param>
+            <param name="signingKey">Ключ для проверки подписи токена.</param>
+            <param name="requestTimeoutInSeconds">Время ожидания запроса к сервису в секундах.</param>
+            <returns>Коннектор.</returns>
+        </member>
+        <member name="M:Sungero.RepackingServiceExtensions.Connector.#ctor(System.String,System.String,System.TimeSpan)">
+            <summary>
+            Коннектор.
+            </summary>
+            <param name="serviceUrl">URL сервиса перекомплектования.</param>
+            <param name="signingKey">Ключ для проверки подписи токена.</param>
+            <param name="requestTimeout">Время ожидания запроса к сервису.</param>
+        </member>
+        <member name="T:Sungero.RepackingServiceExtensions.Document">
+            <summary>
+            Документ для перекомплектования.
+            </summary>
+        </member>
+        <member name="P:Sungero.RepackingServiceExtensions.Document.Name">
+            <summary>
+            Имя документа.
+            </summary>
+        </member>
+        <member name="P:Sungero.RepackingServiceExtensions.Document.DownloadUrl">
+            <summary>
+            URL для загрузки тела документа сервисом.
+            </summary>
+        </member>
+        <member name="P:Sungero.RepackingServiceExtensions.Document.Id">
+            <summary>
+            ИД документа.
+            </summary>
+        </member>
+        <member name="P:Sungero.RepackingServiceExtensions.Document.TypeId">
+            <summary>
+            ИД типа документа.
+            </summary>
+        </member>
+        <member name="T:Sungero.RepackingServiceExtensions.JsonWebToken">
+            <summary>
+            JSON Web Token.
+            </summary>
+        </member>
+        <member name="M:Sungero.RepackingServiceExtensions.JsonWebToken.Create(System.Object,System.String)">
+            <summary>
+            Создать JSON Web Token.
+            </summary>
+            <param name="payload">Полезная нагрузка токена: Dictionary(string, object).</param>
+            <param name="secret">Ключ для проверки подписи токена.</param>
+            <returns>Токен.</returns>
+            <remarks>https://github.com/jwt-dotnet/jwt</remarks>
+        </member>
+        <member name="M:Sungero.RepackingServiceExtensions.JsonWebToken.CreateAdminPayload">
+            <summary>
+            Создать полезную назгузку для администратора.
+            </summary>
+            <returns>Полезная назгузка для администратора.</returns>
+        </member>
+        <member name="M:Sungero.RepackingServiceExtensions.JsonWebToken.CreateSessionPayload(System.String,System.Int32)">
+            <summary>
+            Создать полезную назгузку для сессии пользователя.
+            </summary>
+            <param name="sessionId">Ид сессии.</param>
+            <param name="sessionUserId">Ид пользователя.</param>
+            <returns>Полезная назгузка для сессии пользователя.</returns>
+        </member>
+        <member name="T:Sungero.RepackingServiceExtensions.Session">
+            <summary>
+            Сессия перекомплектования.
+            </summary>
+        </member>
+        <member name="P:Sungero.RepackingServiceExtensions.Session.WebHookUrl">
+            <summary>
+            URL функции сервиса интеграции.
+            </summary>
+        </member>
+        <member name="P:Sungero.RepackingServiceExtensions.Session.Id">
+            <summary>
+            ИД сессии.
+            </summary>
+        </member>
+        <member name="P:Sungero.RepackingServiceExtensions.Session.Documents">
+            <summary>
+            Список документов.
+            </summary>
+        </member>
+        <member name="P:Sungero.RepackingServiceExtensions.Session.Types">
+            <summary>
+            Доступные типы документов.
+            </summary>
+        </member>
+        <member name="P:Sungero.RepackingServiceExtensions.Session.UserId">
+            <summary>
+            ИД пользователя, под которым запущена сессия.
+            </summary>
+        </member>
+        <member name="P:Sungero.RepackingServiceExtensions.Session.Connection">
+            <summary>
+            Соеднинение с сервисом перекомплектования.
+            </summary>
+        </member>
+        <member name="M:Sungero.RepackingServiceExtensions.Session.BuildContent">
+            <summary>
+            Получить тело запроса к сервису.
+            </summary>
+            <returns>Тело запроса к сервису</returns>
+        </member>
+        <member name="M:Sungero.RepackingServiceExtensions.Session.Open">
+            <summary>
+            Начать сессию перекомплектования.
+            </summary>
+            <param name="session">Сессия.</param>
+        </member>
+        <member name="M:Sungero.RepackingServiceExtensions.Session.GetUrl">
+            <summary>
+            Получить URL сессии перекомплектования.
+            </summary>
+            <returns>URL сессии перекомплектования.</returns>
+        </member>
+        <member name="M:Sungero.RepackingServiceExtensions.Session.#ctor(Sungero.RepackingServiceExtensions.Connection,System.String,System.Collections.Generic.Dictionary{System.String,System.String},System.Collections.Generic.List{Sungero.RepackingServiceExtensions.Document},System.Int32)">
+            <summary>
+            Конструктор.
+            </summary>
+            <param name="connection">Соеднинение с сервисом перекомплектования.</param>
+            <param name="webHookUrl">URL функции сервиса интеграции.</param>
+            <param name="types">Доступные типы документов.</param>
+            <param name="documents">Список документов.</param>
+            <param name="userId">ИД пользователя, под которым запущена сессия.</param>
+        </member>
+    </members>
+</doc>

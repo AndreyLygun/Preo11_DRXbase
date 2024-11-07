@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<queries>
+  <query key="SungeroMobileDeviceIndex0Query">
+    <mssql><![CDATA[CREATE NONCLUSTERED INDEX {1} ON {0}
+(
+[Employee] ASC,
+[DeviceId] ASC
+) WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF,
+SORT_IN_TEMPDB = OFF, DROP_EXISTING = OFF, ONLINE = OFF,
+ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]]]></mssql>
+    <postgres><![CDATA[CREATE INDEX IF NOT EXISTS {1} ON {0} (employee, deviceid)]]></postgres>
+  </query>
+</queries>

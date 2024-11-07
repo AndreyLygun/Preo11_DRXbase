@@ -1,0 +1,234 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ErrorValidateUnifiedRegistrationNumber" xml:space="preserve">
+    <value>Номер должен соответствовать формату Guid.</value>
+  </data>
+  <data name="RegistrationNumberInBrackets" xml:space="preserve">
+    <value> (рег. № {0})</value>
+  </data>
+  <data name="UnifiedRegistrationNumber" xml:space="preserve">
+    <value> № {0}</value>
+  </data>
+  <data name="ImportPowerOfAttorneyFromXml" xml:space="preserve">
+    <value>Импорт эл. доверенности</value>
+  </data>
+  <data name="File" xml:space="preserve">
+    <value>XML-файл</value>
+  </data>
+  <data name="SignatureFile" xml:space="preserve">
+    <value>Эл. подпись</value>
+  </data>
+  <data name="Import" xml:space="preserve">
+    <value>Импортировать</value>
+  </data>
+  <data name="FormalizedPowerOfAttorneyImportFailed" xml:space="preserve">
+    <value>Не удалось импортировать доверенность.</value>
+  </data>
+  <data name="XmlLoadFailed" xml:space="preserve">
+    <value>Выбранный документ не соответствует формату.</value>
+  </data>
+  <data name="SignatureImportFailed" xml:space="preserve">
+    <value>Не удалось импортировать подпись.</value>
+  </data>
+  <data name="PowerOfAttorneySuccessfullyImported" xml:space="preserve">
+    <value>Эл. доверенность и подпись к ней импортированы успешно.</value>
+  </data>
+  <data name="Enum_Operation_ImportFromXml" xml:space="preserve">
+    <value>Импорт</value>
+  </data>
+  <data name="ImportFromXmlHistoryComment" xml:space="preserve">
+    <value>Из XML-файла</value>
+  </data>
+  <data name="DuplicatesNotFound" xml:space="preserve">
+    <value>Дубли не найдены.</value>
+  </data>
+  <data name="DuplicatesDetected" xml:space="preserve">
+    <value>Обнаружены дублирующие записи.</value>
+  </data>
+  <data name="FormalizedPowerOfAttorney" xml:space="preserve">
+    <value>{0} №{1} от {2}.</value>
+  </data>
+  <data name="GenerateBodyWithPdfError" xml:space="preserve">
+    <value>При формировании эл. доверенности произошла ошибка. Скорректируйте данные и сформируйте документ повторно.</value>
+  </data>
+  <data name="GenerateBodyWithPdfSuccess" xml:space="preserve">
+    <value>Эл. доверенность сформирована успешно.</value>
+  </data>
+  <data name="FPoAStateHasBeenUpdated" xml:space="preserve">
+    <value>Актуальный статус эл. доверенности установлен.</value>
+  </data>
+  <data name="FormalizedPowerOfAttorneyRegistrationCompleted" xml:space="preserve">
+    <value>Эл. доверенность зарегистрирована в реестре ФНС успешно.{1} {1}{0}</value>
+  </data>
+  <data name="FPoAStateCheckFailed" xml:space="preserve">
+    <value>Не удалось получить ответ от сервиса. Проверьте данные и повторите проверку эл. доверенности.</value>
+  </data>
+  <data name="TitleForNotice" xml:space="preserve">
+    <value>Отозвана доверенность: {0}</value>
+  </data>
+  <data name="FormalizedPowerOfAttorneyRevocationReason" xml:space="preserve">
+    <value>{0}Эл. доверенность отозвана. Причина: {1}</value>
+  </data>
+  <data name="RevocationDialogTitle" xml:space="preserve">
+    <value>Создание заявления на отзыв эл. доверенности</value>
+  </data>
+  <data name="RevocationDialogReasonFieldName" xml:space="preserve">
+    <value>Причина отзыва</value>
+  </data>
+  <data name="PowerOfAttorneyRevocationCreationFailed" xml:space="preserve">
+    <value>Не удалось создать заявление на отзыв электронной доверенности.</value>
+  </data>
+  <data name="FormalizedPowerOfAttorneySendForRegistrationError" xml:space="preserve">
+    <value>При регистрации эл. доверенности в реестре ФНС произошла ошибка. Обратитесь к администратору.
+</value>
+  </data>
+  <data name="FillRevocationReason" xml:space="preserve">
+    <value>Заполните причину отзыва.</value>
+  </data>
+  <data name="FormalizedPowerOfAttorneySentForRegistrationSuccessfully" xml:space="preserve">
+    <value>Эл. доверенность отправлена на регистрацию в реестре ФНС.</value>
+  </data>
+  <data name="CreateRevocationDialogButtonName" xml:space="preserve">
+    <value>Создать</value>
+  </data>
+  <data name="NoRightsToDocument" xml:space="preserve">
+    <value>Отсутствуют права на документ. Обратитесь к администратору системы</value>
+  </data>
+  <data name="ExternalSystemIsUnavailableErrorMessage" xml:space="preserve">
+    <value>При регистрации в реестре ФНС произошла ошибка. Отправьте эл. доверенность на регистрацию позднее.</value>
+  </data>
+  <data name="ConflictDifferentSignatureErrorMessage" xml:space="preserve">
+    <value>Эл. доверенность уже зарегистрирована в реестре ФНС. Обновите статус по кнопке "Проверить статус".</value>
+  </data>
+  <data name="DefaultErrorMessage" xml:space="preserve">
+    <value>При регистрации эл. доверенности произошла ошибка. Обратитесь к администратору.</value>
+  </data>
+  <data name="DifferentSignatureErrorMessage" xml:space="preserve">
+    <value>Подпись не соответствует данным в эл. доверенности. Подпишите документ сертификатом доверителя.</value>
+  </data>
+  <data name="UnsupportedPoAErrorMessage" xml:space="preserve">
+    <value>Информация в эл. доверенности не совпадает с данными в реестре ФНС. Обратитесь к администратору.</value>
+  </data>
+  <data name="FPoARegistrationInProcess" xml:space="preserve">
+    <value>Идет регистрация эл. доверенности в реестре ФНС. После завершения обновится статус документа.</value>
+  </data>
+  <data name="FPoARevocationInProcess" xml:space="preserve">
+    <value>Идет отзыв эл. доверенности в реестре ФНС. После завершения обновится статус документа.</value>
+  </data>
+  <data name="FPoANotFound" xml:space="preserve">
+    <value>Не найдена эл. доверенность или отсутствует подключение к сервису доверенностей. Повторите проверку позднее.</value>
+  </data>
+  <data name="FPoAAttributesNotMatchXml" xml:space="preserve">
+    <value>Данные в карточке не соответствуют XML-файлу. Скорректируйте данные и повторите проверку эл. доверенности.</value>
+  </data>
+  <data name="FPoASetRevokedStateFailed" xml:space="preserve">
+    <value>Не удалось проверить статус эл. доверенности. Обратитесь к администратору.</value>
+  </data>
+  <data name="Enum_Operation_FtsStateChange" xml:space="preserve">
+    <value>Отметка о статусе в реестре ФНС</value>
+  </data>
+  <data name="CannotGeneratePdfForImportedFPoA" xml:space="preserve">
+    <value>Для импортированной эл. доверенности невозможно повторно создать версию.</value>
+  </data>
+  <data name="Enum_Operation_FtsStateClear" xml:space="preserve">
+    <value>Очистка статуса "В реестре ФНС"</value>
+  </data>
+  <data name="NoLicenseToPowerOfAttorneyKontur" xml:space="preserve">
+    <value>Действие доступно при наличии лицензии на модуль 
+"Эл. доверенности. Коннектор к Контур.Доверенность"</value>
+  </data>
+  <data name="OpenInFtsRegistryErrorMessage" xml:space="preserve">
+    <value>Для открытия эл. доверенности на сайте заполните ИНН представителя и доверителя.</value>
+  </data>
+  <data name="SyncFtsListStateSuccessNotification" xml:space="preserve">
+    <value>Актуальный статус эл. доверенности установлен.{1} {1}{0}</value>
+  </data>
+  <data name="FormalizedPowerOfAttorneyRegistrationError" xml:space="preserve">
+    <value>При регистрации эл. доверенности в реестре ФНС произошла ошибка. Ознакомьтесь с ошибкой в карточке документа.{1} {1}{0}</value>
+  </data>
+  <data name="RequiredPropertiesError" xml:space="preserve">
+    <value>Действие доступно, если заполнены все обязательные поля.</value>
+  </data>
+  <data name="IncorrectMainPoAValidDates" xml:space="preserve">
+    <value>Дата завершения действия ведущей доверенности должна быть больше даты начала.</value>
+  </data>
+  <data name="MainPoaValidFromNotSpecifiedWhileTillSpecified" xml:space="preserve">
+    <value>В случае указания даты завершения действия ведущей доверенности необходимо указать дату начала.</value>
+  </data>
+  <data name="MainPoaValidTillNotSpecifiedWhileFromSpecified" xml:space="preserve">
+    <value>В случае указания даты начала действия ведущей доверенности необходимо указать дату завершения.</value>
+  </data>
+  <data name="TrustNotWithinMainPoADatesRange" xml:space="preserve">
+    <value>Период действия создаваемой доверенности должен быть меньше или равен периоду действия ведущей доверенности</value>
+  </data>
+  <data name="ExcessiveStructuredPowers" xml:space="preserve">
+    <value>Набор полномочий создаваемой доверенности не может быть шире, чем у ведущей доверенности</value>
+  </data>
+  <data name="AlreadyRevoked" xml:space="preserve">
+    <value>Эл. доверенность уже отозвана в реестре ФНС. Обновите статус по кнопке "Проверить статус".</value>
+  </data>
+  <data name="NotRequiredAgentIfPersonOrLegalEntityFilled" xml:space="preserve">
+    <value>Для представителя типа Физическое лицо или Юридическое лицо в доверенностях формата 003 не требуется указывать представителя</value>
+  </data>
+  <data name="FPoAStateSyncWaitOrContactAdmin" xml:space="preserve">
+    <value>Не удалось установить актуальный статус доверенности. Проверьте позже или обратитесь к администратору.</value>
+  </data>
+</root>

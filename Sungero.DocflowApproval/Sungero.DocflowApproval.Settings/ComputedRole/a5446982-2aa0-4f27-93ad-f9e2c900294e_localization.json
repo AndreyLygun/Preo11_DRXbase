@@ -1,0 +1,12 @@
+{
+  "Description": {
+    "default": "Employee responsible for interaction with the counterparty.",
+    "ru-RU": "Сотрудник, который отвечает за взаимодействие с контрагентом.",
+    "hash": "65fce2af673e365d958415a570638c1b"
+  },
+  "Name": {
+    "default": "Responsible for counterparty",
+    "ru-RU": "Ответственный за контрагента",
+    "hash": "218a071d14f4ef2aece354e9c7850a05"
+  }
+}

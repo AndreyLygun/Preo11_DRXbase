@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="MeetingDisplayValueWithDate" xml:space="preserve">
+    <value>{0} dated {1}</value>
+  </data>
+  <data name="MeetingDateIsWeekend" xml:space="preserve">
+    <value>Meeting date falls on a non-business day.</value>
+  </data>
+  <data name="MeetingTimeIsWeekend" xml:space="preserve">
+    <value>Meeting time falls on non-working time.</value>
+  </data>
+  <data name="NoLicenceToCreateAgenda" xml:space="preserve">
+    <value>To create a meeting agenda, you  need a license for the "Meetings" module.</value>
+  </data>
+  <data name="DurationMustBePositive" xml:space="preserve">
+    <value>Duration must be a positive value.</value>
+  </data>
+  <data name="HtmlDescriptionMeetingTemplate" xml:space="preserve">
+    <value>&lt;p&gt;Meeting: &lt;a href="{0}"&gt;{1}&lt;/a&gt;{2}{3}{4}{5}&lt;/p&gt;</value>
+  </data>
+  <data name="HtmlMeetingDocumentsTemplate" xml:space="preserve">
+    <value>&lt;br&gt;&lt;br&gt;Meeting documents:&lt;br&gt;{0}</value>
+  </data>
+  <data name="HtmlChairpersonTemplate" xml:space="preserve">
+    <value>&lt;br&gt;&lt;br&gt;Chairperson – {0}</value>
+  </data>
+  <data name="HtmlSecretaryTemplate" xml:space="preserve">
+    <value>&lt;br&gt;Secretary – {0}</value>
+  </data>
+  <data name="NewMembersAdded" xml:space="preserve">
+    <value>New participants added.</value>
+  </data>
+  <data name="MembersAlreadyEntered" xml:space="preserve">
+    <value>The participants have been added earlier.</value>
+  </data>
+  <data name="EmptyMeetingSubject" xml:space="preserve">
+    <value>Fill in Meeting Subject</value>
+  </data>
+  <data name="SelectDepartmentOrRole" xml:space="preserve">
+    <value>Select Department or Role</value>
+  </data>
+  <data name="GetStateViewFunctionName" xml:space="preserve">
+    <value>Action items on meeting</value>
+  </data>
+  <data name="GetStateViewFunctionDescription" xml:space="preserve">
+    <value>Display summary on assigned action items based on the meeting results</value>
+  </data>
+</root>

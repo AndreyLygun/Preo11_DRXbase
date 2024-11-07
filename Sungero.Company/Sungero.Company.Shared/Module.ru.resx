@@ -1,0 +1,148 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="NoSpacesInCode" xml:space="preserve">
+    <value>Использование пробелов в коде запрещено.</value>
+  </data>
+  <data name="Jobtitle" xml:space="preserve">
+    <value>Должность</value>
+  </data>
+  <data name="Departments" xml:space="preserve">
+    <value>Подразделения</value>
+  </data>
+  <data name="BusinessUnits" xml:space="preserve">
+    <value>Наши организации</value>
+  </data>
+  <data name="ManagerOfDepartmens" xml:space="preserve">
+    <value>Руководитель подразделений</value>
+  </data>
+  <data name="BusinessUnitsCEO" xml:space="preserve">
+    <value>Руководитель наших организаций</value>
+  </data>
+  <data name="Roles" xml:space="preserve">
+    <value>Роли</value>
+  </data>
+  <data name="ManagersAssistants" xml:space="preserve">
+    <value>Ассистенты руководителей</value>
+  </data>
+  <data name="Substitutions" xml:space="preserve">
+    <value>Замещения</value>
+  </data>
+  <data name="Manager" xml:space="preserve">
+    <value>Руководитель</value>
+  </data>
+  <data name="Assistant" xml:space="preserve">
+    <value>Ассистент</value>
+  </data>
+  <data name="Substitute" xml:space="preserve">
+    <value>Замещающий</value>
+  </data>
+  <data name="Employee" xml:space="preserve">
+    <value>Сотрудник</value>
+  </data>
+  <data name="Period" xml:space="preserve">
+    <value>Срок</value>
+  </data>
+  <data name="Permanently" xml:space="preserve">
+    <value>постоянно</value>
+  </data>
+  <data name="From" xml:space="preserve">
+    <value>с</value>
+  </data>
+  <data name="To" xml:space="preserve">
+    <value>по</value>
+  </data>
+  <data name="VisibilitySettingsNotAvailable" xml:space="preserve">
+    <value>Настройки видимости доступны только администратору.</value>
+  </data>
+  <data name="BusinessUnitsCAO" xml:space="preserve">
+    <value>Главный бухгалтер</value>
+  </data>
+  <data name="RoleNameUsersWithAccessToCompany" xml:space="preserve">
+    <value>Пользователи с доступом к орг. структуре</value>
+  </data>
+  <data name="DescriptionUsersWithAccessToCompanyRole" xml:space="preserve">
+    <value>Пользователи, имеющие быстрый доступ к справочникам "Сотрудники", "Подразделения", "Наши организации" и т.п.</value>
+  </data>
+  <data name="CreateBusinessUnitFunctionName" xml:space="preserve">
+    <value>Создать нашу организацию</value>
+  </data>
+  <data name="CreateEmployeeFunctionName" xml:space="preserve">
+    <value>Создать сотрудника</value>
+  </data>
+  <data name="ShowVisibilitySettingsFunctionName" xml:space="preserve">
+    <value>Настройки видимости оргструктуры</value>
+  </data>
+  <data name="ShowVisibilitySettingsFunctionDescription" xml:space="preserve">
+    <value>Ограничение доступности оргструктуры для сотрудников.</value>
+  </data>
+  <data name="CreateDepartmentFunctionName" xml:space="preserve">
+    <value>Создать подразделение</value>
+  </data>
+  <data name="GetAllActiveNoSystemGroupsFunctionName" xml:space="preserve">
+    <value>Получить несистемные группы и роли</value>
+  </data>
+  <data name="GetAllActiveNoSystemGroupsFunctionDescription" xml:space="preserve">
+    <value>Получить все действующие несистемные группы и роли.</value>
+  </data>
+  <data name="GetActiveManagersAssistantsFunctionName" xml:space="preserve">
+    <value>Получить помощников руководителей</value>
+  </data>
+</root>

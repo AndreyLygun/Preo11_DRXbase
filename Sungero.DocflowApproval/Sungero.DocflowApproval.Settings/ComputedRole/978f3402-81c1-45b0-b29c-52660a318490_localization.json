@@ -1,0 +1,12 @@
+{
+  "Description": {
+    "default": "Assistant or secretary of a signatory.",
+    "ru-RU": "Помощник подписывающего или секретарь.",
+    "hash": "eff2f023932440a1c2e16bdb190e9c3e"
+  },
+  "Name": {
+    "default": "Responsible for printing",
+    "ru-RU": "Ответственный за печать",
+    "hash": "0a6b7e85ea787b01278abab0334a555c"
+  }
+}

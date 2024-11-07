@@ -1,0 +1,1249 @@
+{
+  "$type": "Sungero.Metadata.ModuleMetadata, Sungero.Metadata",
+  "NameGuid": "59797aba-7718-45df-8ac1-5bb7a36c7a66",
+  "Name": "FinancialArchive",
+  "AsyncHandlers": [],
+  "ClientAssemblyName": "Sungero.FinancialArchive.Client",
+  "ClientBaseAssemblyName": "Sungero.FinancialArchive.ClientBase",
+  "ClientBaseNamespace": "Sungero.FinancialArchive.ClientBase",
+  "ClientNamespace": "Sungero.FinancialArchive.Client",
+  "Code": "FinArch",
+  "CompanyCode": "Sungero",
+  "Cover": {
+    "NameGuid": "92f52917-55e5-4c84-990f-66a7e1d44aa5",
+    "Actions": [],
+    "Background": null,
+    "Footer": {
+      "NameGuid": "a6c2ae31-f627-41f9-b165-c7aae837dddb",
+      "BackgroundPosition": "Stretch",
+      "Versions": []
+    },
+    "Groups": [],
+    "Header": {
+      "NameGuid": "3509d115-6227-4916-971e-075291cf7c7d",
+      "BackgroundPosition": "Stretch",
+      "Versions": []
+    },
+    "RemoteControls": [],
+    "Tabs": [],
+    "Versions": []
+  },
+  "Dependencies": [
+    {
+      "Id": "e4fe1153-919e-4732-aadc-2c8e9b5c0b5a",
+      "IsSolutionModule": true,
+      "MaxVersion": "",
+      "MinVersion": ""
+    },
+    {
+      "Id": "df83a2ea-8d43-4ec4-a34a-2e61863014df",
+      "MaxVersion": "",
+      "MinVersion": "3.4.0.0"
+    }
+  ],
+  "ExplorerTreeOrder": [
+    {
+      "ItemId": "74c9ddd4-4bc4-42b6-8bb0-c91d5e21fb8a",
+      "Versions": []
+    },
+    {
+      "ItemId": "f50c4d8a-56bc-43ef-bac3-856f57ca70be",
+      "PreviousItemId": "74c9ddd4-4bc4-42b6-8bb0-c91d5e21fb8a",
+      "Versions": []
+    },
+    {
+      "ItemId": "4e81f9ca-b95a-4fd4-bf76-ea7176c215a7",
+      "PreviousItemId": "f50c4d8a-56bc-43ef-bac3-856f57ca70be",
+      "Versions": []
+    },
+    {
+      "ItemId": "f2f5774d-5ca3-4725-b31d-ac618f6b8850",
+      "PreviousItemId": "4e81f9ca-b95a-4fd4-bf76-ea7176c215a7",
+      "Versions": []
+    },
+    {
+      "ItemId": "58986e23-2b0a-4082-af37-bd1991bc6f7e",
+      "PreviousItemId": "f2f5774d-5ca3-4725-b31d-ac618f6b8850",
+      "Versions": []
+    },
+    {
+      "ItemId": "e905b97d-baef-4fa2-9e79-3140cf9d7f6a",
+      "PreviousItemId": "58986e23-2b0a-4082-af37-bd1991bc6f7e"
+    },
+    {
+      "ItemId": "8722ad99-aaa6-4a7d-b460-8b90fb69df92",
+      "PreviousItemId": "e905b97d-baef-4fa2-9e79-3140cf9d7f6a"
+    },
+    {
+      "ItemId": "1bf9d09c-177e-4d12-9a08-78af6d3691dc",
+      "PreviousItemId": "8722ad99-aaa6-4a7d-b460-8b90fb69df92"
+    },
+    {
+      "ItemId": "e5081ffe-8a47-41fd-ad9f-407d1b181464",
+      "PreviousItemId": "1bf9d09c-177e-4d12-9a08-78af6d3691dc",
+      "Versions": []
+    }
+  ],
+  "HandledEvents": [
+    "InitializingServer"
+  ],
+  "IconResourcesKeys": [],
+  "Importance": "High",
+  "InitializationFunctions": [
+    {
+      "Name": "CreateDefaultRule",
+      "Parameters": [
+        {
+          "Name": "ruleName",
+          "ParameterType": "global::System.String",
+          "ParameterTypeFullName": "System.String"
+        },
+        {
+          "Name": "documentFlow",
+          "ParameterType": "global::Sungero.Core.Enumeration",
+          "ParameterTypeFullName": "Sungero.Core.Enumeration, Sungero.Domain.Shared"
+        },
+        {
+          "Name": "stages",
+          "ParameterType": "global::System.Collections.Generic.List<global::Sungero.Core.Enumeration>",
+          "ParameterTypeFullName": "System.Collections.Generic.List"
+        }
+      ],
+      "ReturnType": "global::Sungero.Contracts.IContractsApprovalRule",
+      "ReturnTypeFullName": "Sungero.Contracts.IContractsApprovalRule, Sungero.Domain.Interfaces"
+    }
+  ],
+  "InterfaceAssemblyName": "Sungero.Domain.Interfaces",
+  "InterfaceNamespace": "Sungero.FinancialArchive",
+  "IsolatedAssemblyName": "Sungero.FinancialArchive.Isolated",
+  "IsolatedNamespace": "Sungero.FinancialArchive.Isolated",
+  "IsVisible": false,
+  "Libraries": [
+    {
+      "NameGuid": "6e5a6db1-e7ba-4abb-8f9e-a6430214c1ba",
+      "Name": "FDP",
+      "Scope": "Server",
+      "Versions": []
+    }
+  ],
+  "Overridden": [
+    "IsLicensed",
+    "Importance",
+    "IsVisible"
+  ],
+  "PublicConstants": [
+    {
+      "Name": "ContractStatementKind",
+      "ParentClasses": [
+        "Module",
+        "Initialize"
+      ],
+      "TypeName": "System.Guid",
+      "Value": "new System.Guid(\"C1F11157-4E42-4CE0-9423-AE05567B162E\")"
+    },
+    {
+      "Name": "ContractStatementRegister",
+      "ParentClasses": [
+        "Module",
+        "Initialize"
+      ],
+      "TypeName": "System.Guid",
+      "Value": "new System.Guid(\"D9B3A138-0507-4CF3-B3B2-A7B231666838\")"
+    },
+    {
+      "Name": "DocumentKindTypeGuid",
+      "ParentClasses": [
+        "Module",
+        "Initialize"
+      ],
+      "TypeName": "System.Guid",
+      "Value": "new System.Guid(\"14a59623-89a2-4ea8-b6e9-2ad4365f358c\")"
+    },
+    {
+      "Name": "FinancialArchiveResponsibleRole",
+      "ParentClasses": [
+        "Module"
+      ],
+      "TypeName": "System.Guid",
+      "Value": "new System.Guid(\"A35F4302-848F-4022-84DD-4AA2978ECF9A\")"
+    },
+    {
+      "Name": "IncomingTaxInvoiceKind",
+      "ParentClasses": [
+        "Module",
+        "Initialize"
+      ],
+      "TypeName": "System.Guid",
+      "Value": "new System.Guid(\"B873AF20-E9DC-419F-9090-D98BEB630B8D\")"
+    },
+    {
+      "Name": "IncomingTaxInvoiceRegister",
+      "ParentClasses": [
+        "Module",
+        "Initialize"
+      ],
+      "TypeName": "System.Guid",
+      "Value": "new System.Guid(\"96320BC9-D54B-4979-B5E1-867462214EBE\")"
+    },
+    {
+      "Name": "OutgoingTaxInvoiceKind",
+      "ParentClasses": [
+        "Module",
+        "Initialize"
+      ],
+      "TypeName": "System.Guid",
+      "Value": "new System.Guid(\"D3EABD23-7B4D-401B-ACAD-D4142EAAF3BC\")"
+    },
+    {
+      "Name": "OutgoingTaxInvoiceRegister",
+      "ParentClasses": [
+        "Module",
+        "Initialize"
+      ],
+      "TypeName": "System.Guid",
+      "Value": "new System.Guid(\"CAEF4DA9-A844-4A81-A885-0C0D4F51ACA5\")"
+    },
+    {
+      "Name": "UniversalBasicKind",
+      "ParentClasses": [
+        "Module",
+        "Initialize"
+      ],
+      "TypeName": "System.Guid",
+      "Value": "new System.Guid(\"846B074A-2AF0-44B4-9611-ECC87EBE1A60\")"
+    },
+    {
+      "Name": "UniversalRegister",
+      "ParentClasses": [
+        "Module",
+        "Initialize"
+      ],
+      "TypeName": "System.Guid",
+      "Value": "new System.Guid(\"E4BE2FB7-66F3-4B1B-963C-ADAB5E5329AA\")"
+    },
+    {
+      "Name": "UniversalTaxInvoiceAndBasicKind",
+      "ParentClasses": [
+        "Module",
+        "Initialize"
+      ],
+      "TypeName": "System.Guid",
+      "Value": "new System.Guid(\"CAC00143-A9A0-4EE1-98D1-F996A9F4CC5E\")"
+    },
+    {
+      "Name": "UsersWithAccessToFinancialArchiveRole",
+      "ParentClasses": [
+        "Module"
+      ],
+      "TypeName": "System.Guid",
+      "Value": "new System.Guid(\"FF14062C-DA57-4D9C-A82D-3EDEE9DBE840\")"
+    },
+    {
+      "Name": "WaybillDocumentKind",
+      "ParentClasses": [
+        "Module",
+        "Initialize"
+      ],
+      "TypeName": "System.Guid",
+      "Value": "new System.Guid(\"8DCF8D7A-9868-4620-83FF-8FF81A5BE520\")"
+    },
+    {
+      "Name": "WaybillRegister",
+      "ParentClasses": [
+        "Module",
+        "Initialize"
+      ],
+      "TypeName": "System.Guid",
+      "Value": "new System.Guid(\"5BD989EA-B4B0-429D-8186-8E3C24B3F273\")"
+    }
+  ],
+  "PublicFunctions": [
+    {
+      "Name": "AddOrReplaceSellerTitleInfo",
+      "IsRemote": true,
+      "Parameters": [
+        {
+          "Name": "document",
+          "ParameterType": "global::Sungero.Docflow.IAccountingDocumentBase",
+          "ParameterTypeFullName": "Sungero.Docflow.IAccountingDocumentBase, Sungero.Domain.Interfaces"
+        }
+      ],
+      "Placement": "Shared",
+      "ReturnType": "void",
+      "ReturnTypeFullName": "System.Void"
+    },
+    {
+      "Name": "CreateContractStatementDocument",
+      "Parameters": [
+        {
+          "Name": "comment",
+          "ParameterType": "global::System.String",
+          "ParameterTypeFullName": "System.String"
+        },
+        {
+          "Name": "box",
+          "ParameterType": "global::Sungero.ExchangeCore.IBoxBase",
+          "ParameterTypeFullName": "Sungero.ExchangeCore.IBoxBase, Sungero.Domain.Interfaces"
+        },
+        {
+          "Name": "counterparty",
+          "ParameterType": "global::Sungero.Parties.ICounterparty",
+          "ParameterTypeFullName": "Sungero.Parties.ICounterparty, Sungero.Domain.Interfaces"
+        },
+        {
+          "Name": "info",
+          "ParameterType": "global::Sungero.Exchange.IExchangeDocumentInfo",
+          "ParameterTypeFullName": "Sungero.Exchange.IExchangeDocumentInfo, Sungero.Domain.Interfaces"
+        }
+      ],
+      "ReturnType": "global::Sungero.FinancialArchive.IContractStatement",
+      "ReturnTypeFullName": "Sungero.FinancialArchive.IContractStatement, Sungero.Domain.Interfaces"
+    },
+    {
+      "Name": "CreateIncomingTaxInvoiceDocument",
+      "Parameters": [
+        {
+          "Name": "comment",
+          "ParameterType": "global::System.String",
+          "ParameterTypeFullName": "System.String"
+        },
+        {
+          "Name": "box",
+          "ParameterType": "global::Sungero.ExchangeCore.IBoxBase",
+          "ParameterTypeFullName": "Sungero.ExchangeCore.IBoxBase, Sungero.Domain.Interfaces"
+        },
+        {
+          "Name": "counterparty",
+          "ParameterType": "global::Sungero.Parties.ICounterparty",
+          "ParameterTypeFullName": "Sungero.Parties.ICounterparty, Sungero.Domain.Interfaces"
+        },
+        {
+          "Name": "isAdjustment",
+          "ParameterType": "global::System.Boolean",
+          "ParameterTypeFullName": "System.Boolean"
+        },
+        {
+          "Name": "corrected",
+          "ParameterType": "global::Sungero.Docflow.IAccountingDocumentBase",
+          "ParameterTypeFullName": "Sungero.Docflow.IAccountingDocumentBase, Sungero.Domain.Interfaces"
+        },
+        {
+          "Name": "info",
+          "ParameterType": "global::Sungero.Exchange.IExchangeDocumentInfo",
+          "ParameterTypeFullName": "Sungero.Exchange.IExchangeDocumentInfo, Sungero.Domain.Interfaces"
+        }
+      ],
+      "ReturnType": "global::Sungero.FinancialArchive.IIncomingTaxInvoice",
+      "ReturnTypeFullName": "Sungero.FinancialArchive.IIncomingTaxInvoice, Sungero.Domain.Interfaces"
+    },
+    {
+      "Name": "CreateOutgoingTaxInvoiceDocument",
+      "Parameters": [
+        {
+          "Name": "comment",
+          "ParameterType": "global::System.String",
+          "ParameterTypeFullName": "System.String"
+        },
+        {
+          "Name": "box",
+          "ParameterType": "global::Sungero.ExchangeCore.IBoxBase",
+          "ParameterTypeFullName": "Sungero.ExchangeCore.IBoxBase, Sungero.Domain.Interfaces"
+        },
+        {
+          "Name": "counterparty",
+          "ParameterType": "global::Sungero.Parties.ICounterparty",
+          "ParameterTypeFullName": "Sungero.Parties.ICounterparty, Sungero.Domain.Interfaces"
+        },
+        {
+          "Name": "isAdjustment",
+          "ParameterType": "global::System.Boolean",
+          "ParameterTypeFullName": "System.Boolean"
+        },
+        {
+          "Name": "corrected",
+          "ParameterType": "global::Sungero.Docflow.IAccountingDocumentBase",
+          "ParameterTypeFullName": "Sungero.Docflow.IAccountingDocumentBase, Sungero.Domain.Interfaces"
+        },
+        {
+          "Name": "info",
+          "ParameterType": "global::Sungero.Exchange.IExchangeDocumentInfo",
+          "ParameterTypeFullName": "Sungero.Exchange.IExchangeDocumentInfo, Sungero.Domain.Interfaces"
+        }
+      ],
+      "ReturnType": "global::Sungero.FinancialArchive.IOutgoingTaxInvoice",
+      "ReturnTypeFullName": "Sungero.FinancialArchive.IOutgoingTaxInvoice, Sungero.Domain.Interfaces"
+    },
+    {
+      "Name": "CreateUniversalBasic",
+      "Parameters": [
+        {
+          "Name": "comment",
+          "ParameterType": "global::System.String",
+          "ParameterTypeFullName": "System.String"
+        },
+        {
+          "Name": "box",
+          "ParameterType": "global::Sungero.ExchangeCore.IBoxBase",
+          "ParameterTypeFullName": "Sungero.ExchangeCore.IBoxBase, Sungero.Domain.Interfaces"
+        },
+        {
+          "Name": "counterparty",
+          "ParameterType": "global::Sungero.Parties.ICounterparty",
+          "ParameterTypeFullName": "Sungero.Parties.ICounterparty, Sungero.Domain.Interfaces"
+        },
+        {
+          "Name": "isAdjustment",
+          "ParameterType": "global::System.Boolean",
+          "ParameterTypeFullName": "System.Boolean"
+        },
+        {
+          "Name": "corrected",
+          "ParameterType": "global::Sungero.Docflow.IAccountingDocumentBase",
+          "ParameterTypeFullName": "Sungero.Docflow.IAccountingDocumentBase, Sungero.Domain.Interfaces"
+        },
+        {
+          "Name": "info",
+          "ParameterType": "global::Sungero.Exchange.IExchangeDocumentInfo",
+          "ParameterTypeFullName": "Sungero.Exchange.IExchangeDocumentInfo, Sungero.Domain.Interfaces"
+        }
+      ],
+      "ReturnType": "global::Sungero.Docflow.IAccountingDocumentBase",
+      "ReturnTypeFullName": "Sungero.Docflow.IAccountingDocumentBase, Sungero.Domain.Interfaces"
+    },
+    {
+      "Name": "CreateUniversalTaxInvoiceAndBasic",
+      "Parameters": [
+        {
+          "Name": "comment",
+          "ParameterType": "global::System.String",
+          "ParameterTypeFullName": "System.String"
+        },
+        {
+          "Name": "box",
+          "ParameterType": "global::Sungero.ExchangeCore.IBoxBase",
+          "ParameterTypeFullName": "Sungero.ExchangeCore.IBoxBase, Sungero.Domain.Interfaces"
+        },
+        {
+          "Name": "counterparty",
+          "ParameterType": "global::Sungero.Parties.ICounterparty",
+          "ParameterTypeFullName": "Sungero.Parties.ICounterparty, Sungero.Domain.Interfaces"
+        },
+        {
+          "Name": "isAdjustment",
+          "ParameterType": "global::System.Boolean",
+          "ParameterTypeFullName": "System.Boolean"
+        },
+        {
+          "Name": "corrected",
+          "ParameterType": "global::Sungero.Docflow.IAccountingDocumentBase",
+          "ParameterTypeFullName": "Sungero.Docflow.IAccountingDocumentBase, Sungero.Domain.Interfaces"
+        },
+        {
+          "Name": "info",
+          "ParameterType": "global::Sungero.Exchange.IExchangeDocumentInfo",
+          "ParameterTypeFullName": "Sungero.Exchange.IExchangeDocumentInfo, Sungero.Domain.Interfaces"
+        }
+      ],
+      "ReturnType": "global::Sungero.Docflow.IAccountingDocumentBase",
+      "ReturnTypeFullName": "Sungero.Docflow.IAccountingDocumentBase, Sungero.Domain.Interfaces"
+    },
+    {
+      "Name": "CreateWaybillDocument",
+      "Parameters": [
+        {
+          "Name": "comment",
+          "ParameterType": "global::System.String",
+          "ParameterTypeFullName": "System.String"
+        },
+        {
+          "Name": "box",
+          "ParameterType": "global::Sungero.ExchangeCore.IBoxBase",
+          "ParameterTypeFullName": "Sungero.ExchangeCore.IBoxBase, Sungero.Domain.Interfaces"
+        },
+        {
+          "Name": "counterparty",
+          "ParameterType": "global::Sungero.Parties.ICounterparty",
+          "ParameterTypeFullName": "Sungero.Parties.ICounterparty, Sungero.Domain.Interfaces"
+        },
+        {
+          "Name": "info",
+          "ParameterType": "global::Sungero.Exchange.IExchangeDocumentInfo",
+          "ParameterTypeFullName": "Sungero.Exchange.IExchangeDocumentInfo, Sungero.Domain.Interfaces"
+        }
+      ],
+      "ReturnType": "global::Sungero.FinancialArchive.IWaybill",
+      "ReturnTypeFullName": "Sungero.FinancialArchive.IWaybill, Sungero.Domain.Interfaces"
+    },
+    {
+      "Name": "GenerateSellerTitle",
+      "IsRemote": true,
+      "Parameters": [
+        {
+          "Name": "document",
+          "ParameterType": "global::Sungero.Docflow.IAccountingDocumentBase",
+          "ParameterTypeFullName": "Sungero.Docflow.IAccountingDocumentBase, Sungero.Domain.Interfaces"
+        },
+        {
+          "Name": "sellerTitle",
+          "ParameterType": "global::Sungero.Docflow.Structures.AccountingDocumentBase.ISellerTitle",
+          "ParameterTypeFullName": "Sungero.Docflow.Structures.AccountingDocumentBase.ISellerTitle"
+        }
+      ],
+      "Placement": "Shared",
+      "ReturnType": "void",
+      "ReturnTypeFullName": "System.Void"
+    },
+    {
+      "Name": "GetEmailAddressees",
+      "Parameters": [
+        {
+          "Name": "document",
+          "ParameterType": "global::Sungero.Docflow.IAccountingDocumentBase",
+          "ParameterTypeFullName": "Sungero.Docflow.IAccountingDocumentBase, Sungero.Domain.Interfaces"
+        }
+      ],
+      "Placement": "Shared",
+      "ReturnType": "global::System.Collections.Generic.List<global::Sungero.Docflow.Structures.OfficialDocument.IEmailAddressee>",
+      "ReturnTypeFullName": "System.Collections.Generic.List"
+    },
+    {
+      "Name": "GetReceiverSignatureId",
+      "Parameters": [
+        {
+          "Name": "document",
+          "ParameterType": "global::Sungero.Docflow.IOfficialDocument",
+          "ParameterTypeFullName": "Sungero.Docflow.IOfficialDocument, Sungero.Domain.Interfaces"
+        },
+        {
+          "Name": "version",
+          "ParameterType": "global::Sungero.Content.IElectronicDocumentVersions",
+          "ParameterTypeFullName": "Sungero.Content.IElectronicDocumentVersions, Sungero.Content.Shared"
+        }
+      ],
+      "ReturnType": "global::System.Nullable<global::System.Int64>",
+      "ReturnTypeFullName": "System.Nullable"
+    },
+    {
+      "Name": "GetSenderSignatureId",
+      "Parameters": [
+        {
+          "Name": "document",
+          "ParameterType": "global::Sungero.Docflow.IOfficialDocument",
+          "ParameterTypeFullName": "Sungero.Docflow.IOfficialDocument, Sungero.Domain.Interfaces"
+        },
+        {
+          "Name": "version",
+          "ParameterType": "global::Sungero.Content.IElectronicDocumentVersions",
+          "ParameterTypeFullName": "Sungero.Content.IElectronicDocumentVersions, Sungero.Content.Shared"
+        }
+      ],
+      "ReturnType": "global::System.Nullable<global::System.Int64>",
+      "ReturnTypeFullName": "System.Nullable"
+    },
+    {
+      "Name": "HasSellerSignatoryInfo",
+      "IsRemote": true,
+      "Parameters": [
+        {
+          "Name": "document",
+          "ParameterType": "global::Sungero.Docflow.IAccountingDocumentBase",
+          "ParameterTypeFullName": "Sungero.Docflow.IAccountingDocumentBase, Sungero.Domain.Interfaces"
+        }
+      ],
+      "Placement": "Shared",
+      "ReturnType": "global::System.Boolean",
+      "ReturnTypeFullName": "System.Boolean"
+    },
+    {
+      "Name": "HasSellerTitleInfo",
+      "IsRemote": true,
+      "Parameters": [
+        {
+          "Name": "document",
+          "ParameterType": "global::Sungero.Docflow.IAccountingDocumentBase",
+          "ParameterTypeFullName": "Sungero.Docflow.IAccountingDocumentBase, Sungero.Domain.Interfaces"
+        }
+      ],
+      "Placement": "Shared",
+      "ReturnType": "global::System.Boolean",
+      "ReturnTypeFullName": "System.Boolean"
+    },
+    {
+      "Name": "HasUnsignedSellerTitle",
+      "IsRemote": true,
+      "Parameters": [
+        {
+          "Name": "statement",
+          "ParameterType": "global::Sungero.Docflow.IAccountingDocumentBase",
+          "ParameterTypeFullName": "Sungero.Docflow.IAccountingDocumentBase, Sungero.Domain.Interfaces"
+        }
+      ],
+      "Placement": "Shared",
+      "ReturnType": "global::System.Boolean",
+      "ReturnTypeFullName": "System.Boolean"
+    },
+    {
+      "Name": "ImportAndShowDocumentFromFileDialog",
+      "Placement": "Client",
+      "ReturnType": "void",
+      "ReturnTypeFullName": "System.Void"
+    },
+    {
+      "Name": "ImportFormalizedDocument",
+      "Parameters": [
+        {
+          "Name": "file",
+          "ParameterType": "global::System.String",
+          "ParameterTypeFullName": "System.String"
+        },
+        {
+          "Name": "requireFtsId",
+          "ParameterType": "global::System.Boolean",
+          "ParameterTypeFullName": "System.Boolean"
+        }
+      ],
+      "Placement": "Client",
+      "ReturnType": "global::Sungero.Docflow.IAccountingDocumentBase",
+      "ReturnTypeFullName": "Sungero.Docflow.IAccountingDocumentBase, Sungero.Domain.Interfaces"
+    },
+    {
+      "Name": "ImportFormalizedDocument",
+      "Parameters": [
+        {
+          "Name": "xml",
+          "ParameterType": "global::Sungero.Docflow.Structures.Module.IByteArray",
+          "ParameterTypeFullName": "Sungero.Docflow.Structures.Module.IByteArray"
+        },
+        {
+          "Name": "requireFtsId",
+          "ParameterType": "global::System.Boolean",
+          "ParameterTypeFullName": "System.Boolean"
+        }
+      ],
+      "Placement": "Client",
+      "ReturnType": "global::Sungero.Docflow.IAccountingDocumentBase",
+      "ReturnTypeFullName": "Sungero.Docflow.IAccountingDocumentBase, Sungero.Domain.Interfaces"
+    },
+    {
+      "Name": "ImportFormalizedDocument",
+      "IsRemote": true,
+      "Parameters": [
+        {
+          "Name": "file",
+          "ParameterType": "global::Sungero.Docflow.Structures.Module.IByteArray",
+          "ParameterTypeFullName": "Sungero.Docflow.Structures.Module.IByteArray"
+        },
+        {
+          "Name": "requireFtsId",
+          "ParameterType": "global::System.Boolean",
+          "ParameterTypeFullName": "System.Boolean"
+        }
+      ],
+      "Placement": "Shared",
+      "ReturnType": "global::Sungero.FinancialArchive.Structures.Module.IImportResult",
+      "ReturnTypeFullName": "Sungero.FinancialArchive.Structures.Module.IImportResult"
+    }
+  ],
+  "PublicStructures": [
+    {
+      "Name": "ImportResult",
+      "IsPublic": true,
+      "Properties": [
+        {
+          "Name": "IsSuccess",
+          "TypeFullName": "global::System.Boolean"
+        },
+        {
+          "Name": "Error",
+          "IsNullable": true,
+          "TypeFullName": "global::System.String"
+        },
+        {
+          "Name": "Document",
+          "IsEntity": true,
+          "IsNullable": true,
+          "TypeFullName": "global::Sungero.Docflow.IAccountingDocumentBase"
+        },
+        {
+          "Name": "Body",
+          "IsArray": true,
+          "TypeFullName": "global::System.Byte[]"
+        },
+        {
+          "Name": "PublicBody",
+          "IsArray": true,
+          "TypeFullName": "global::System.Byte[]"
+        },
+        {
+          "Name": "BusinessUnitName",
+          "IsNullable": true,
+          "TypeFullName": "global::System.String"
+        },
+        {
+          "Name": "BusinessUnitTin",
+          "IsNullable": true,
+          "TypeFullName": "global::System.String"
+        },
+        {
+          "Name": "BusinessUnitTrrc",
+          "IsNullable": true,
+          "TypeFullName": "global::System.String"
+        },
+        {
+          "Name": "BusinessUnitType",
+          "IsNullable": true,
+          "TypeFullName": "global::System.String"
+        },
+        {
+          "Name": "IsBusinessUnitFound",
+          "TypeFullName": "global::System.Boolean"
+        },
+        {
+          "Name": "CounterpartyName",
+          "IsNullable": true,
+          "TypeFullName": "global::System.String"
+        },
+        {
+          "Name": "CounterpartyTin",
+          "IsNullable": true,
+          "TypeFullName": "global::System.String"
+        },
+        {
+          "Name": "CounterpartyTrrc",
+          "IsNullable": true,
+          "TypeFullName": "global::System.String"
+        },
+        {
+          "Name": "CounterpartyType",
+          "IsNullable": true,
+          "TypeFullName": "global::System.String"
+        },
+        {
+          "Name": "IsCounterpartyFound",
+          "TypeFullName": "global::System.Boolean"
+        },
+        {
+          "Name": "IsCounterpartyCanExchange",
+          "TypeFullName": "global::System.Boolean"
+        },
+        {
+          "Name": "SenderFtsId",
+          "IsNullable": true,
+          "TypeFullName": "global::System.String"
+        },
+        {
+          "Name": "ReceiverFtsId",
+          "IsNullable": true,
+          "TypeFullName": "global::System.String"
+        }
+      ],
+      "StructureNamespace": "Sungero.FinancialArchive.Structures.Module"
+    }
+  ],
+  "ResourceInterfaceAssemblyName": "Sungero.Domain.Interfaces",
+  "ResourceInterfaceNamespace": "Sungero.FinancialArchive",
+  "ResourcesKeys": [
+    "RoleNameFinancialArchiveResponsible",
+    "DescriptionFinancialArchiveResponsible",
+    "Counterparty",
+    "RegistrationDateFrom",
+    "RegistrationDateTo",
+    "WaybillDocumentKindName",
+    "WaybillDocumentKindShortName",
+    "WaybillDocumentTypeName",
+    "IncomingTaxInvoiceTypeName",
+    "OutgoingTaxInvoiceTypeName",
+    "IncomingTaxInvoiceKindName",
+    "OutgoingTaxInvoiceKindName",
+    "OutgoingTaxInvoiceKindShortName",
+    "IncomingTaxInvoiceKindShortName",
+    "BuyerTitleVersionNote",
+    "RegistersAndSettingsOutgoingTaxInvoiceName",
+    "RegistersAndSettingsOutgoingTaxInvoiceIndex",
+    "RegistersAndSettingsWaybillName",
+    "RegistersAndSettingsWaybillIndex",
+    "RegistersAndSettingsActIndex",
+    "RegistersAndSettingsActName",
+    "ContractStatementKindName",
+    "ContractStatementKindShortName",
+    "ContractStatementTypeName",
+    "SellerTitleVersionNote",
+    "UniversalTransferDocumentTypeName",
+    "UniversalTaxInvoiceAndBasicKindName",
+    "UniversalTaxInvoiceAndBasicKindShortName",
+    "UniversalBasicKindName",
+    "UniversalBasicKindShortName",
+    "RegistersAndSettingsIncomingTaxInvoiceIndex",
+    "RegistersAndSettingsIncomingTaxInvoiceName",
+    "RegistersAndSettingsUniversalName",
+    "RegistersAndSettingsUniversalIndex",
+    "DefaultApprovalRuleNameFinancial",
+    "ImportDialog_CannotImportDocument",
+    "ImportDialog_File",
+    "ImportDialog_CannotRecognizeDocument",
+    "ImportDialog_Import",
+    "ImportDialog_NoBusinessUnitWithFTSId",
+    "ImportDialog_NoBusinessUnitWithTIN",
+    "ImportDialog_NoCounterpartyWithFTSId",
+    "ImportDialog_NoCounterpartyWithTIN",
+    "ImportDialog_Title",
+    "NoRightsToCreateDocument",
+    "ImportDialog_NoExchangeWithCounterparty",
+    "RoleNameUsersWithAccessToFinancialArchive",
+    "DescriptionUsersWithAccessToFinancialArchiveRole",
+    "ImportAndShowDocumentFromFileDialogFunctionName",
+    "ImportAndShowDocumentFromFileDialogFunctionDescription"
+  ],
+  "ServerAssemblyName": "Sungero.FinancialArchive.Server",
+  "ServerNamespace": "Sungero.FinancialArchive.Server",
+  "SharedAssemblyName": "Sungero.FinancialArchive.Shared",
+  "SharedNamespace": "Sungero.FinancialArchive.Shared",
+  "SpecialFolders": [
+    {
+      "NameGuid": "e905b97d-baef-4fa2-9e79-3140cf9d7f6a",
+      "Name": "FinContractList",
+      "DefaultContentType": "59079f7f-a326-4947-bbd6-0ae6dfb5f59b",
+      "DisplayType": "Module",
+      "FilterPanel": {
+        "NameGuid": "a9bea60d-a7d1-48df-b255-3df35affb23a",
+        "Name": "FilterPanel",
+        "Controls": [
+          {
+            "$type": "Sungero.Metadata.FilterGroupMetadata, Sungero.Metadata",
+            "NameGuid": "a0a50937-c134-480b-ac1b-4f243c632158",
+            "Name": "DocumentTypeGroup",
+            "Versions": []
+          },
+          {
+            "$type": "Sungero.Metadata.FilterListMetadata, Sungero.Metadata",
+            "NameGuid": "c69ed4ca-a5c8-4cd2-9e80-f2c3524b9e88",
+            "Name": "DocumentType",
+            "IsMultiSelect": true,
+            "ParentGuid": "a0a50937-c134-480b-ac1b-4f243c632158",
+            "Versions": []
+          },
+          {
+            "$type": "Sungero.Metadata.FilterListItemMetadata, Sungero.Metadata",
+            "NameGuid": "c2b54587-ca98-405f-bf5c-f9915bf4a082",
+            "Name": "Contracts",
+            "IsSelected": true,
+            "ParentGuid": "c69ed4ca-a5c8-4cd2-9e80-f2c3524b9e88",
+            "Versions": []
+          },
+          {
+            "$type": "Sungero.Metadata.FilterListItemMetadata, Sungero.Metadata",
+            "NameGuid": "76a91694-35d5-4287-acb7-5a306593b19f",
+            "Name": "SupAgreements",
+            "IsSelected": true,
+            "ParentGuid": "c69ed4ca-a5c8-4cd2-9e80-f2c3524b9e88",
+            "PreviousGuid": "c2b54587-ca98-405f-bf5c-f9915bf4a082",
+            "Versions": []
+          },
+          {
+            "$type": "Sungero.Metadata.FilterGroupMetadata, Sungero.Metadata",
+            "NameGuid": "8a24496b-1405-46a1-bc2d-fb82caef7f01",
+            "Name": "Main",
+            "PreviousGuid": "a0a50937-c134-480b-ac1b-4f243c632158",
+            "Versions": []
+          },
+          {
+            "$type": "Sungero.Metadata.FilterNavigationMetadata, Sungero.Metadata",
+            "NameGuid": "71b0751c-0f13-41db-a54a-239f5b907299",
+            "Name": "DocumentKind",
+            "EntityGuid": "14a59623-89a2-4ea8-b6e9-2ad4365f358c",
+            "HandledEvents": [
+              "FilteringServer"
+            ],
+            "ParentGuid": "8a24496b-1405-46a1-bc2d-fb82caef7f01",
+            "Versions": []
+          },
+          {
+            "$type": "Sungero.Metadata.FilterNavigationMetadata, Sungero.Metadata",
+            "NameGuid": "3327d220-714e-4d46-af90-6beb8ab478b0",
+            "Name": "Category",
+            "EntityGuid": "eb34ad64-f23b-4c9f-9d48-74834fbbe33e",
+            "ParentGuid": "8a24496b-1405-46a1-bc2d-fb82caef7f01",
+            "PreviousGuid": "71b0751c-0f13-41db-a54a-239f5b907299",
+            "Versions": []
+          },
+          {
+            "$type": "Sungero.Metadata.FilterNavigationMetadata, Sungero.Metadata",
+            "NameGuid": "fb951ac4-1402-48eb-a0c3-5f4593514c9e",
+            "Name": "Contractor",
+            "EntityGuid": "294767f1-009f-4fbd-80fc-f98c49ddc560",
+            "LookupMode": "Standalone",
+            "ParentGuid": "8a24496b-1405-46a1-bc2d-fb82caef7f01",
+            "PreviousGuid": "3327d220-714e-4d46-af90-6beb8ab478b0",
+            "Versions": []
+          },
+          {
+            "$type": "Sungero.Metadata.FilterNavigationMetadata, Sungero.Metadata",
+            "NameGuid": "66aaa03a-0c7f-4376-a078-cbce68a89fc7",
+            "Name": "BusinessUnit",
+            "EntityGuid": "eff95720-181f-4f7d-892d-dec034c7b2ab",
+            "ParentGuid": "8a24496b-1405-46a1-bc2d-fb82caef7f01",
+            "PreviousGuid": "fb951ac4-1402-48eb-a0c3-5f4593514c9e",
+            "Versions": []
+          },
+          {
+            "$type": "Sungero.Metadata.FilterNavigationMetadata, Sungero.Metadata",
+            "NameGuid": "2ce4fbf0-5dd5-468f-bc08-c628f8af5926",
+            "Name": "Department",
+            "EntityGuid": "61b1c19f-26e2-49a5-b3d3-0d3618151e12",
+            "LookupMode": "Standalone",
+            "ParentGuid": "8a24496b-1405-46a1-bc2d-fb82caef7f01",
+            "PreviousGuid": "66aaa03a-0c7f-4376-a078-cbce68a89fc7",
+            "Versions": []
+          },
+          {
+            "$type": "Sungero.Metadata.FilterGroupMetadata, Sungero.Metadata",
+            "NameGuid": "353cfe6f-f5df-4a3c-8c6e-fcdfca31065b",
+            "Name": "Period",
+            "PreviousGuid": "8a24496b-1405-46a1-bc2d-fb82caef7f01",
+            "Versions": []
+          },
+          {
+            "$type": "Sungero.Metadata.FilterListMetadata, Sungero.Metadata",
+            "NameGuid": "725d4342-ec70-49ac-b63c-9ac79402ca14",
+            "Name": "DateFlagsList",
+            "ParentGuid": "353cfe6f-f5df-4a3c-8c6e-fcdfca31065b",
+            "Versions": []
+          },
+          {
+            "$type": "Sungero.Metadata.FilterListItemMetadata, Sungero.Metadata",
+            "NameGuid": "a992a6ed-cb18-495d-9432-e49c7129b738",
+            "Name": "CurrentMonth",
+            "IsSelected": true,
+            "ParentGuid": "725d4342-ec70-49ac-b63c-9ac79402ca14",
+            "Versions": []
+          },
+          {
+            "$type": "Sungero.Metadata.FilterListItemMetadata, Sungero.Metadata",
+            "NameGuid": "12b708ba-2d7b-4ebd-96e5-679b93c785ab",
+            "Name": "PreviousMonth",
+            "ParentGuid": "725d4342-ec70-49ac-b63c-9ac79402ca14",
+            "PreviousGuid": "a992a6ed-cb18-495d-9432-e49c7129b738",
+            "Versions": []
+          },
+          {
+            "$type": "Sungero.Metadata.FilterListItemMetadata, Sungero.Metadata",
+            "NameGuid": "6d4bd9f6-fede-4197-8152-06c5a2094a99",
+            "Name": "CurrentQuarter",
+            "ParentGuid": "725d4342-ec70-49ac-b63c-9ac79402ca14",
+            "PreviousGuid": "12b708ba-2d7b-4ebd-96e5-679b93c785ab",
+            "Versions": []
+          },
+          {
+            "$type": "Sungero.Metadata.FilterListItemMetadata, Sungero.Metadata",
+            "NameGuid": "203dca24-7590-40f4-a737-d7228488a8ac",
+            "Name": "PreviousQuarter",
+            "ParentGuid": "725d4342-ec70-49ac-b63c-9ac79402ca14",
+            "PreviousGuid": "6d4bd9f6-fede-4197-8152-06c5a2094a99",
+            "Versions": []
+          },
+          {
+            "$type": "Sungero.Metadata.FilterListItemMetadata, Sungero.Metadata",
+            "NameGuid": "d95f0aaa-5ad0-4e5f-bc84-5e57fb186e00",
+            "Name": "ManualPeriod",
+            "ParentGuid": "725d4342-ec70-49ac-b63c-9ac79402ca14",
+            "PreviousGuid": "203dca24-7590-40f4-a737-d7228488a8ac",
+            "Versions": []
+          },
+          {
+            "$type": "Sungero.Metadata.FilterDateRangeMetadata, Sungero.Metadata",
+            "NameGuid": "fbe2169b-09e7-4a86-883d-201e86f7add9",
+            "Name": "DateRange",
+            "MasterControlId": "d95f0aaa-5ad0-4e5f-bc84-5e57fb186e00",
+            "ParentGuid": "353cfe6f-f5df-4a3c-8c6e-fcdfca31065b",
+            "PreviousGuid": "725d4342-ec70-49ac-b63c-9ac79402ca14",
+            "Versions": []
+          }
+        ]
+      },
+      "HandledEvents": [
+        "PreFilteringServer",
+        "DataQueryServer"
+      ],
+      "IconPath": "FinContractList_e905b97dbaef4fa29e793140cf9d7f6a.ico",
+      "IsShow": true,
+      "Kind": "Computable",
+      "NeedShowMarkedCount": false,
+      "OpenCardByDefault": true,
+      "SupportedDescendantsTypes": [
+        "f37c7e63-b134-4446-9b5b-f8811f6c9666",
+        "306da7fa-dc27-437c-bb83-42c92436b7e2",
+        "265f2c57-6a8a-4a15-833b-ca00e8047fa5"
+      ]
+    },
+    {
+      "NameGuid": "8722ad99-aaa6-4a7d-b460-8b90fb69df92",
+      "Name": "DocumentsWithoutScan",
+      "DefaultContentType": "96c4f4f3-dc74-497a-b347-e8faf4afe320",
+      "DisplayType": "Module",
+      "FilterPanel": {
+        "NameGuid": "a1f123f7-799c-4a1c-a335-7e11a080b3dd",
+        "Name": "FilterPanel",
+        "Controls": [
+          {
+            "$type": "Sungero.Metadata.FilterGroupMetadata, Sungero.Metadata",
+            "NameGuid": "667e16be-e255-4d94-a5e2-320f0eac5aed",
+            "Name": "GeneralGroup",
+            "Versions": []
+          },
+          {
+            "$type": "Sungero.Metadata.FilterNavigationMetadata, Sungero.Metadata",
+            "NameGuid": "cee132cb-b22a-4db6-851e-2bdd97a2bc10",
+            "Name": "BusinessUnit",
+            "EntityGuid": "eff95720-181f-4f7d-892d-dec034c7b2ab",
+            "ParentGuid": "667e16be-e255-4d94-a5e2-320f0eac5aed",
+            "Versions": []
+          },
+          {
+            "$type": "Sungero.Metadata.FilterNavigationMetadata, Sungero.Metadata",
+            "NameGuid": "26ae1d21-70a7-4a3b-af57-b71d86175773",
+            "Name": "Department",
+            "EntityGuid": "61b1c19f-26e2-49a5-b3d3-0d3618151e12",
+            "ParentGuid": "667e16be-e255-4d94-a5e2-320f0eac5aed",
+            "PreviousGuid": "cee132cb-b22a-4db6-851e-2bdd97a2bc10",
+            "Versions": []
+          },
+          {
+            "$type": "Sungero.Metadata.FilterNavigationMetadata, Sungero.Metadata",
+            "NameGuid": "aedd0ce8-75f7-4d4c-9ceb-70a423c9d5ff",
+            "Name": "Counterparty",
+            "EntityGuid": "294767f1-009f-4fbd-80fc-f98c49ddc560",
+            "ParentGuid": "667e16be-e255-4d94-a5e2-320f0eac5aed",
+            "PreviousGuid": "26ae1d21-70a7-4a3b-af57-b71d86175773",
+            "Versions": []
+          },
+          {
+            "$type": "Sungero.Metadata.FilterGroupMetadata, Sungero.Metadata",
+            "NameGuid": "7d220d55-c68d-4008-b4a3-f71d0402ad10",
+            "Name": "Period",
+            "PreviousGuid": "667e16be-e255-4d94-a5e2-320f0eac5aed",
+            "Versions": []
+          },
+          {
+            "$type": "Sungero.Metadata.FilterDateRangeMetadata, Sungero.Metadata",
+            "NameGuid": "0d49d222-b101-495d-a94c-a1d086b0be11",
+            "Name": "DateRange",
+            "MasterControlId": "09adba19-6729-4921-a52a-66f6d2b8f2f3",
+            "ParentGuid": "7d220d55-c68d-4008-b4a3-f71d0402ad10",
+            "PreviousGuid": "46215b76-456d-46ec-bc61-f632bf433701",
+            "Versions": []
+          },
+          {
+            "$type": "Sungero.Metadata.FilterListMetadata, Sungero.Metadata",
+            "NameGuid": "46215b76-456d-46ec-bc61-f632bf433701",
+            "Name": "DateFlagsList",
+            "ParentGuid": "7d220d55-c68d-4008-b4a3-f71d0402ad10",
+            "Versions": []
+          },
+          {
+            "$type": "Sungero.Metadata.FilterListItemMetadata, Sungero.Metadata",
+            "NameGuid": "6440f7aa-2749-4144-96a3-78793f467ce3",
+            "Name": "CurrentMonth",
+            "ParentGuid": "46215b76-456d-46ec-bc61-f632bf433701",
+            "Versions": []
+          },
+          {
+            "$type": "Sungero.Metadata.FilterListItemMetadata, Sungero.Metadata",
+            "NameGuid": "a3ab0f55-db89-408e-a328-d8ebcfc73af8",
+            "Name": "PreviousMonth",
+            "ParentGuid": "46215b76-456d-46ec-bc61-f632bf433701",
+            "PreviousGuid": "6440f7aa-2749-4144-96a3-78793f467ce3",
+            "Versions": []
+          },
+          {
+            "$type": "Sungero.Metadata.FilterListItemMetadata, Sungero.Metadata",
+            "NameGuid": "4901580b-df0c-44ab-9de9-076ef1dc6fe9",
+            "Name": "CurrentQuarter",
+            "ParentGuid": "46215b76-456d-46ec-bc61-f632bf433701",
+            "PreviousGuid": "a3ab0f55-db89-408e-a328-d8ebcfc73af8",
+            "Versions": []
+          },
+          {
+            "$type": "Sungero.Metadata.FilterListItemMetadata, Sungero.Metadata",
+            "NameGuid": "3ec9d46e-958d-4461-91f9-c6f9e19be41a",
+            "Name": "PreviousQuarter",
+            "ParentGuid": "46215b76-456d-46ec-bc61-f632bf433701",
+            "PreviousGuid": "4901580b-df0c-44ab-9de9-076ef1dc6fe9",
+            "Versions": []
+          },
+          {
+            "$type": "Sungero.Metadata.FilterListItemMetadata, Sungero.Metadata",
+            "NameGuid": "09adba19-6729-4921-a52a-66f6d2b8f2f3",
+            "Name": "ManualPeriod",
+            "IsSelected": true,
+            "ParentGuid": "46215b76-456d-46ec-bc61-f632bf433701",
+            "PreviousGuid": "3ec9d46e-958d-4461-91f9-c6f9e19be41a",
+            "Versions": []
+          }
+        ]
+      },
+      "HandledEvents": [
+        "DataQueryServer"
+      ],
+      "IsShow": false,
+      "Kind": "Computable",
+      "NeedShowMarkedCount": false,
+      "OpenCardByDefault": true
+    },
+    {
+      "NameGuid": "1bf9d09c-177e-4d12-9a08-78af6d3691dc",
+      "Name": "SignAwaitedDocuments",
+      "DefaultContentType": "96c4f4f3-dc74-497a-b347-e8faf4afe320",
+      "DisplayType": "Module",
+      "FilterPanel": {
+        "NameGuid": "9e215a71-60d5-43b4-8774-5540330edb98",
+        "Name": "FilterPanel",
+        "Controls": [
+          {
+            "$type": "Sungero.Metadata.FilterGroupMetadata, Sungero.Metadata",
+            "NameGuid": "50859127-1bb0-4e86-bb40-709fc58d9829",
+            "Name": "GeneralGroup",
+            "Versions": []
+          },
+          {
+            "$type": "Sungero.Metadata.FilterGroupMetadata, Sungero.Metadata",
+            "NameGuid": "999bbe74-01b8-42a8-b027-dc3a81e12c6a",
+            "Name": "Period",
+            "PreviousGuid": "6f0bf757-76a7-40f4-8fe2-54436a6bada7",
+            "Versions": []
+          },
+          {
+            "$type": "Sungero.Metadata.FilterNavigationMetadata, Sungero.Metadata",
+            "NameGuid": "e39e51ce-1254-488d-a65d-debb76c43fa3",
+            "Name": "BusinessUnit",
+            "EntityGuid": "eff95720-181f-4f7d-892d-dec034c7b2ab",
+            "ParentGuid": "50859127-1bb0-4e86-bb40-709fc58d9829",
+            "Versions": []
+          },
+          {
+            "$type": "Sungero.Metadata.FilterNavigationMetadata, Sungero.Metadata",
+            "NameGuid": "66e1de53-0fa9-4ca7-b4a4-d46a1bdc063a",
+            "Name": "Department",
+            "EntityGuid": "61b1c19f-26e2-49a5-b3d3-0d3618151e12",
+            "ParentGuid": "50859127-1bb0-4e86-bb40-709fc58d9829",
+            "PreviousGuid": "e39e51ce-1254-488d-a65d-debb76c43fa3",
+            "Versions": []
+          },
+          {
+            "$type": "Sungero.Metadata.FilterNavigationMetadata, Sungero.Metadata",
+            "NameGuid": "84e6d802-c845-4e9b-8b5d-491fa028f3b3",
+            "Name": "Counterparty",
+            "EntityGuid": "294767f1-009f-4fbd-80fc-f98c49ddc560",
+            "ParentGuid": "50859127-1bb0-4e86-bb40-709fc58d9829",
+            "PreviousGuid": "66e1de53-0fa9-4ca7-b4a4-d46a1bdc063a",
+            "Versions": []
+          },
+          {
+            "$type": "Sungero.Metadata.FilterListMetadata, Sungero.Metadata",
+            "NameGuid": "c869b384-6c00-46c5-9cd7-2199ac4523c3",
+            "Name": "FlagsList",
+            "ParentGuid": "999bbe74-01b8-42a8-b027-dc3a81e12c6a",
+            "Versions": []
+          },
+          {
+            "$type": "Sungero.Metadata.FilterDateRangeMetadata, Sungero.Metadata",
+            "NameGuid": "85c0b312-97f9-452d-97c8-fe19d5b54998",
+            "Name": "DateRange",
+            "MasterControlId": "423337c5-f5f6-4429-ac04-c535619d88f2",
+            "ParentGuid": "999bbe74-01b8-42a8-b027-dc3a81e12c6a",
+            "PreviousGuid": "c869b384-6c00-46c5-9cd7-2199ac4523c3",
+            "Versions": []
+          },
+          {
+            "$type": "Sungero.Metadata.FilterListItemMetadata, Sungero.Metadata",
+            "NameGuid": "0b0da2af-10de-40b7-8581-09c558eada7f",
+            "Name": "CurrentMonth",
+            "ParentGuid": "c869b384-6c00-46c5-9cd7-2199ac4523c3",
+            "Versions": []
+          },
+          {
+            "$type": "Sungero.Metadata.FilterListItemMetadata, Sungero.Metadata",
+            "NameGuid": "8d15a6aa-0456-4576-97be-427ddb30bdc2",
+            "Name": "PreviousMonth",
+            "ParentGuid": "c869b384-6c00-46c5-9cd7-2199ac4523c3",
+            "PreviousGuid": "0b0da2af-10de-40b7-8581-09c558eada7f",
+            "Versions": []
+          },
+          {
+            "$type": "Sungero.Metadata.FilterListItemMetadata, Sungero.Metadata",
+            "NameGuid": "68fd3a17-b259-4d38-8f97-0213b9a7940e",
+            "Name": "CurrentQuarter",
+            "ParentGuid": "c869b384-6c00-46c5-9cd7-2199ac4523c3",
+            "PreviousGuid": "8d15a6aa-0456-4576-97be-427ddb30bdc2",
+            "Versions": []
+          },
+          {
+            "$type": "Sungero.Metadata.FilterListItemMetadata, Sungero.Metadata",
+            "NameGuid": "8875736d-b68f-48ff-bbb7-94249900167f",
+            "Name": "PreviousQuarter",
+            "ParentGuid": "c869b384-6c00-46c5-9cd7-2199ac4523c3",
+            "PreviousGuid": "68fd3a17-b259-4d38-8f97-0213b9a7940e",
+            "Versions": []
+          },
+          {
+            "$type": "Sungero.Metadata.FilterListItemMetadata, Sungero.Metadata",
+            "NameGuid": "423337c5-f5f6-4429-ac04-c535619d88f2",
+            "Name": "ManualPeriod",
+            "IsSelected": true,
+            "ParentGuid": "c869b384-6c00-46c5-9cd7-2199ac4523c3",
+            "PreviousGuid": "8875736d-b68f-48ff-bbb7-94249900167f",
+            "Versions": []
+          },
+          {
+            "$type": "Sungero.Metadata.FilterGroupMetadata, Sungero.Metadata",
+            "NameGuid": "6f0bf757-76a7-40f4-8fe2-54436a6bada7",
+            "Name": "SignAwaitedBy",
+            "PreviousGuid": "50859127-1bb0-4e86-bb40-709fc58d9829",
+            "Versions": []
+          },
+          {
+            "$type": "Sungero.Metadata.FilterListMetadata, Sungero.Metadata",
+            "NameGuid": "324217b6-829b-458b-b969-0161ee334d38",
+            "Name": "FlagsList",
+            "IsMultiSelect": true,
+            "ParentGuid": "6f0bf757-76a7-40f4-8fe2-54436a6bada7",
+            "Versions": []
+          },
+          {
+            "$type": "Sungero.Metadata.FilterListItemMetadata, Sungero.Metadata",
+            "NameGuid": "d7c87bdd-dcf0-443a-8afc-4d4c68f924c5",
+            "Name": "ByBusinessUnit",
+            "ParentGuid": "324217b6-829b-458b-b969-0161ee334d38",
+            "Versions": []
+          },
+          {
+            "$type": "Sungero.Metadata.FilterListItemMetadata, Sungero.Metadata",
+            "NameGuid": "30e433aa-b053-4b80-b51b-e5dd15593dd2",
+            "Name": "ByCounterparty",
+            "ParentGuid": "324217b6-829b-458b-b969-0161ee334d38",
+            "PreviousGuid": "d7c87bdd-dcf0-443a-8afc-4d4c68f924c5",
+            "Versions": []
+          }
+        ]
+      },
+      "HandledEvents": [
+        "DataQueryServer"
+      ],
+      "IsShow": false,
+      "Kind": "Computable",
+      "NeedShowMarkedCount": false,
+      "OpenCardByDefault": true
+    }
+  ],
+  "Version": "4.11.37.0",
+  "Widgets": [],
+  "Versions": [
+    {
+      "Type": "ModuleMetadata",
+      "Number": 8
+    },
+    {
+      "Type": "DomainApi",
+      "Number": 3
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "$type": "Sungero.Metadata.EntityMetadata, Sungero.Metadata",
+  "NameGuid": "370a7c1f-1896-4dc3-84d9-0cd94b4d6f91",
+  "Name": "DocumentFlowTaskRevokedDocumentsRights",
+  "AccessRightsMode": "NoRight",
+  "BaseGuid": "a3d38bf5-0414-41f6-bb33-a4621d2e5a60",
+  "CanBeNavigationPropertyType": true,
+  "Code": "TFlwRvkRights",
+  "ExtraSearchProperties": [],
+  "IsChildEntity": true,
+  "Properties": [
+    {
+      "$type": "Sungero.Metadata.NavigationPropertyMetadata, Sungero.Metadata",
+      "NameGuid": "eae9003a-6588-4737-927f-1561ab36ac63",
+      "Name": "DocumentFlowTask",
+      "CanBeSearch": false,
+      "Code": "Task",
+      "EntityGuid": "c51a9c15-4449-4411-b17b-2ea3ce891ab6",
+      "IsReferenceToRootEntity": true,
+      "IsShowedInList": false
+    },
+    {
+      "$type": "Sungero.Metadata.LongIntegerPropertyMetadata, Sungero.Metadata",
+      "NameGuid": "afe6e48f-c9dd-44cf-90b0-9131c6634cf8",
+      "Name": "EntityId",
+      "CanBeSearch": false,
+      "Code": "EntityId",
+      "IsVisibility": false,
+      "ListDataBinderTypeName": "Sungero.Presentation.CommonDataBinders.NumericEditorToIntAndDoubleBinder",
+      "PreviousPropertyGuid": "eae9003a-6588-4737-927f-1561ab36ac63"
+    },
+    {
+      "$type": "Sungero.Metadata.EnumPropertyMetadata, Sungero.Metadata",
+      "NameGuid": "91727bbe-4f67-486c-86d7-c2c95a7ebd20",
+      "Name": "RightType",
+      "CanBeSearch": false,
+      "Code": "RightType",
+      "DirectValues": [
+        {
+          "NameGuid": "fa71f365-f597-4ada-9e76-9adad59fd75a",
+          "Name": "Read",
+          "Code": "Read"
+        },
+        {
+          "NameGuid": "7a3b47d3-97f8-4a1d-969e-ecc024550c57",
+          "Name": "Edit",
+          "Code": "Edit"
+        },
+        {
+          "NameGuid": "72537d33-3ee9-4ac7-98d6-5e528bb97026",
+          "Name": "FullAccess",
+          "Code": "FullAccess"
+        }
+      ],
+      "IsShowedInList": false,
+      "IsVisibility": false,
+      "ListDataBinderTypeName": "Sungero.Presentation.CommonDataBinders.DropDownEditorToEnumerationBinder",
+      "PreviousPropertyGuid": "afe6e48f-c9dd-44cf-90b0-9131c6634cf8"
+    }
+  ],
+  "PublicStructures": [],
+  "RibbonCardMetadata": {
+    "NameGuid": "5247e448-88f9-42e9-88a9-716f6551b881",
+    "Name": "RibbonCard",
+    "Categories": [],
+    "Elements": [],
+    "Groups": [],
+    "IsAncestorMetadata": true,
+    "Pages": [],
+    "RibbonKind": "Card"
+  },
+  "RibbonCollectionMetadata": {
+    "NameGuid": "da71c4f6-f444-4acd-9400-dab8e7c8e3f2",
+    "Name": "RibbonCollection",
+    "Categories": [],
+    "Elements": [],
+    "Groups": [],
+    "IsAncestorMetadata": true,
+    "Pages": []
+  },
+  "Versions": [
+    {
+      "Type": "EntityMetadata",
+      "Number": 12
+    }
+  ]
+}

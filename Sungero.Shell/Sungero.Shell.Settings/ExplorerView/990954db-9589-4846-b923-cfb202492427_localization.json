@@ -1,0 +1,12 @@
+{
+  "Description": {
+    "en-US": "Explorer view for employees included in role \"Users of manager's interface\".",
+    "ru-RU": "Представление проводника для пользователей, которые входят в роль \"Пользователи интерфейса для руководителей\".",
+    "hash": "a75ed5e1df040bff8a5b9b05a344f396"
+  },
+  "Name": {
+    "en-US": "For managers",
+    "ru-RU": "Для руководителей",
+    "hash": "08d8eb56ca0b0532d2e3b1680d2b3816"
+  }
+}

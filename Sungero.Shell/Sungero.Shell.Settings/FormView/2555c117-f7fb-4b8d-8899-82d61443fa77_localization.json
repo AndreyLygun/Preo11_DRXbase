@@ -1,0 +1,16 @@
+{
+  "Control_Caption_65bbf598e5994f38bd2b63e65b29bbd1": {
+    "en-US": "Subject",
+    "ru-RU": "Тема"
+  },
+  "Description": {
+    "en-US": "View of an assignment to submit a report on the action item state without an attached document for employees included in role \"Users of manager's interface\".",
+    "ru-RU": "Отображение карточки задания на подготовку отчета по поручению без документа для пользователей, которые входят в роль \"Пользователи интерфейса для руководителей\".",
+    "hash": "66aa186ca0a853da7eee081af5aa5652"
+  },
+  "Name": {
+    "en-US": "Assignment to submit report on action item state without document (for managers)",
+    "ru-RU": "Задание на подготовку отчета по поручению без документа (для руководителей)",
+    "hash": "203bf707e544d1389339b13a4f7bde9f"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "Description": {
+    "en-US": "Compact view of folder \"To print\" for employees included in role \"Users of manager's interface\".",
+    "ru-RU": "Компактное представление папки \"На печать\" для пользователей, которые входят в роль \"Пользователи интерфейса для руководителей\".",
+    "hash": "c9a066e04dbac150121f5571524c7f71"
+  },
+  "Name": {
+    "en-US": "To print (for managers)",
+    "ru-RU": "На печать (для руководителей)",
+    "hash": "3ecabf059c6e70a38db99feeb0ec86cc"
+  }
+}

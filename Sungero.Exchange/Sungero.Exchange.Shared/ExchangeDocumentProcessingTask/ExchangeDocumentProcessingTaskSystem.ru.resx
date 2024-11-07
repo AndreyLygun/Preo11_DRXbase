@@ -1,0 +1,133 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Property_Box" xml:space="preserve">
+    <value>Абонентский ящик</value>
+  </data>
+  <data name="Property_Counterparty" xml:space="preserve">
+    <value>Контрагент</value>
+  </data>
+  <data name="Property_ExchangeService" xml:space="preserve">
+    <value>Сервис обмена</value>
+  </data>
+  <data name="Property_Assignee" xml:space="preserve">
+    <value>Кому</value>
+  </data>
+  <data name="Property_Deadline" xml:space="preserve">
+    <value>Срок</value>
+  </data>
+  <data name="AttachmentGroup_NeedSigningTitle" xml:space="preserve">
+    <value>Требуют подписания</value>
+  </data>
+  <data name="AttachmentGroup_NeedSigningInformationMessage" xml:space="preserve">
+    <value>Нет документов для подписания</value>
+  </data>
+  <data name="AttachmentGroup_DontNeedSigningTitle" xml:space="preserve">
+    <value>Не требуют подписания</value>
+  </data>
+  <data name="AttachmentGroup_DontNeedSigningInformationMessage" xml:space="preserve">
+    <value>Вложений нет</value>
+  </data>
+  <data name="DisplayName" xml:space="preserve">
+    <value>Задача на обработку входящих документов эл. обмена</value>
+  </data>
+  <data name="AccusativeDisplayName" xml:space="preserve">
+    <value>Задачу на обработку входящих документов эл. обмена</value>
+  </data>
+  <data name="CollectionDisplayName" xml:space="preserve">
+    <value>Задачи на обработку входящих документов эл. обмена</value>
+  </data>
+  <data name="Property_IncomeDate" xml:space="preserve">
+    <value>Дата получения</value>
+  </data>
+  <data name="Property_IsIncoming" xml:space="preserve">
+    <value>Входящее сообщение</value>
+  </data>
+  <data name="Property_Addressee" xml:space="preserve">
+    <value>Адресат</value>
+  </data>
+  <data name="AdditionalInfoTemplate" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Action_DeleteEntityConfirmationMessage" xml:space="preserve">
+    <value>Удалить запись?</value>
+  </data>
+  <data name="Action_StartConfirmationMessage" xml:space="preserve">
+    <value>Отправить задачу?</value>
+  </data>
+  <data name="Action_StartByForceConfirmationMessage" xml:space="preserve">
+    <value>Отправить задачу?</value>
+  </data>
+  <data name="Action_RestartConfirmationMessage" xml:space="preserve">
+    <value>Рестартовать задачу?</value>
+  </data>
+  <data name="Action_AbortConfirmationMessage" xml:space="preserve">
+    <value>Прекратить задачу?</value>
+  </data>
+  <data name="Property_CounterpartyDepartmentBox" xml:space="preserve">
+    <value>Подразделение</value>
+  </data>
+  <data name="Block_30a1a8c772a14979b64c36110a6608f0" xml:space="preserve">
+    <value>Обработка входящих документов эл. обмена</value>
+  </data>
+  <data name="Block_30a1a8c772a14979b64c36110a6608f0_Property_b78966f56c2843058273ad6708b59836" xml:space="preserve">
+    <value>Назначить права по умолчанию</value>
+  </data>
+</root>

@@ -1,0 +1,16 @@
+{
+  "Control_Caption_7c290ab72e6749f49ab846e8e2c69af0": {
+    "en-US": "Subject",
+    "ru-RU": "Тема"
+  },
+  "Description": {
+    "en-US": "View of an assignment to complete document approval for employees included in role \"Users of manager's interface\".",
+    "ru-RU": "Отображение карточки задания на завершение работ по согласованию для пользователей, которые входят в роль \"Пользователи интерфейса для руководителей\".",
+    "hash": "853df50c06ffa4a95dbe2f270d9933f5"
+  },
+  "Name": {
+    "en-US": "Assignment to complete document approval (for managers)",
+    "ru-RU": "Задание на завершение согласования (для руководителей)",
+    "hash": "8ba13f574119e1aa0fc65ce90a30fdd3"
+  }
+}

@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="NoImportDocumentLicense" xml:space="preserve">
+    <value>Для импорта XML-файла требуется наличие лицензии на модуль "Финансовый архив".</value>
+  </data>
+  <data name="NoSearchDocumentLicense" xml:space="preserve">
+    <value>Для поиска документов по архиву требуется наличие лицензии на модуль "Финансовый архив".</value>
+  </data>
+  <data name="CreateFinancialDocumentFunctionName" xml:space="preserve">
+    <value>Создать документ</value>
+  </data>
+  <data name="CreateFinancialDocumentFunctionDescription" xml:space="preserve">
+    <value>Быстрое создание актов, накладных, счетов-фактур, универсальных передаточных документов.</value>
+  </data>
+  <data name="ImportAndShowDocumentFromFileFunctionName" xml:space="preserve">
+    <value>Импортировать XML-файл для отправки</value>
+  </data>
+  <data name="ImportAndShowDocumentFromFileFunctionDescription" xml:space="preserve">
+    <value>Загрузить файл обмена установленного формата (УПД, УКД, ДПТ, ДПРР) для отправки через сервисы юридически значимого электронного документооборота. После загрузки в системе будет создан финансово-хозяйственный документ, который необходимо будет подписать электронной подписью и отправить контрагенту.</value>
+  </data>
+  <data name="SearchByRequisitesFunctionName" xml:space="preserve">
+    <value>Поиск по архиву</value>
+  </data>
+  <data name="SearchByRequisitesFunctionDescription" xml:space="preserve">
+    <value>Поиск финансовых документов по реквизитам.</value>
+  </data>
+  <data name="SearchByRequisitesAndExportFunctionName" xml:space="preserve">
+    <value>Выгрузка документов</value>
+  </data>
+  <data name="SearchByRequisitesAndExportFunctionDescription" xml:space="preserve">
+    <value>Массовая выгрузка документов из архива для их предоставления в налоговые органы или для прочих проверок.</value>
+  </data>
+  <data name="NoRightsToCreateFinancialDocument" xml:space="preserve">
+    <value>Нет прав на создание финансовых документов. Обратитесь к администратору.</value>
+  </data>
+</root>

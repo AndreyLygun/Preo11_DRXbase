@@ -1,0 +1,338 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<queries>
+  <query key="SourceQuery">
+    <default><![CDATA[select * 
+from Sungero_Reports_IncDocProcessing
+where ReportSessionId = @ReportSessionId]]></default>
+  </query>
+  <query key="DataQuery">
+    <mssql><![CDATA[insert into {1}
+select
+  doc.Id as docId,
+  doc.RegNumber_Docflow_Sungero as docNumber,
+  doc.RegDate_Docflow_Sungero as docDate,
+  cor.Name as counterparty,
+  doc.Subject_Docflow_Sungero as subject,
+  case doc.ExecutionState_Docflow_Sungero
+    when 'OnReview'      then '{3}'
+    when 'Sending'       then '{4}'
+    when 'WithoutExecut' then '{5}'
+    when 'OnExecution'   then '{6}'
+    when 'Executed'      then '{7}'
+    when 'Aborted'       then '{8}'
+    else ''
+  end as state,
+  (
+    select top 1 executionDate
+    from {2}
+    where docId = doc.Id
+      and executionDate is not null
+  ) as completed,
+  replace(replace(
+  (select assigneesTable.ShortName + 'char(10)' as 'data()'
+  from
+    (select
+      tasks.docId,
+      tasks.empId,
+      tasks.ShortName,
+      MIN(tasks.Created) as created
+    from
+      {2} as tasks
+    where tasks.docId = doc.Id
+    group by tasks.docId, tasks.empId, tasks.ShortName
+    ) as assigneesTable
+  order by assigneesTable.created
+  for xml path ('')), 'char(10) ', char(10)), 'char(10)', char(10)) as assignees,
+  replace(replace(
+    (select 
+      coalesce(persCopy.ShortName, empCopy.Name) + 'char(10)' as 'data()'
+    from Sungero_Core_Recipient empCopy
+    left join Sungero_Parties_Counterparty persCopy on
+      persCopy.Id = empCopy.Person_Company_Sungero
+    where empCopy.Id in  
+      (select distinct
+        isnull(obs.Observer, reviewObs.Observer)
+      from Sungero_WF_Attachment attCopy
+      left join Sungero_RecMan_TAIObservers obs on
+        obs.Task = attCopy.Task
+      left join Sungero_RecMan_TRevObservers reviewObs on
+        reviewObs.Task = attCopy.Task
+      where attCopy.AttachmentId = doc.Id
+        and not exists
+          (select * 
+          from {2} tasksCopy
+          where tasksCopy.docId = attCopy.AttachmentId
+            and tasksCopy.empId = isnull(obs.Observer, reviewObs.Observer)))
+  for xml path ('')), 'char(10) ', char(10)), 'char(10)', char(10)) as copy,
+  CAST('' as varchar(1000)) as hyperlink,
+  '{9}' as reportSessionId
+from
+  Sungero_Content_EDoc as doc
+  join {0} adocs on
+    adocs.Id = doc.Id
+  join Sungero_Docflow_DocumentKind dockind on
+    dockind.Id = doc.DocumentKind_Docflow_Sungero
+  left join Sungero_Parties_Counterparty cor on
+    cor.Id = doc.InCorr_Docflow_Sungero
+where
+  dockind.DocumentFlow = 'incoming']]></mssql>
+    <postgres><![CDATA[insert into {1}
+select
+  doc.Id as docId,
+  doc.RegNumber_Docflow_Sungero as docNumber,
+  doc.RegDate_Docflow_Sungero as docDate,
+  cor.Name as counterparty,
+  doc.Subject_Docflow_Sungero as subject,
+  case doc.ExecutionState_Docflow_Sungero
+    when 'OnReview'      then '{3}'
+    when 'Sending'       then '{4}'
+    when 'WithoutExecut' then '{5}'
+    when 'OnExecution'   then '{6}'
+    when 'Executed'      then '{7}'
+    when 'Aborted'       then '{8}'
+    else ''
+  end as state,
+  (
+    select executionDate
+    from {2}
+    where docId = doc.Id
+      and executionDate is not null
+    limit 1
+  ) as completed,
+  (select string_agg(assignees, E'\r\n')
+  from
+    (select assigneesTable.ShortName as assignees
+    from
+      (select
+        tasks.docId,
+        tasks.empId,
+        tasks.ShortName,
+        MIN(tasks.Created) as created
+      from {2} as tasks
+      where tasks.docId = doc.Id
+      group by tasks.docId, tasks.empId, tasks.ShortName
+      ) as assigneesTable
+    order by assigneesTable.created)  t) as assignees,
+  (select string_agg(shortname, E'\r\n')
+  from
+    (select coalesce(persCopy.ShortName, empCopy.Name) as shortname
+     from Sungero_Core_Recipient empCopy
+     left join Sungero_Parties_Counterparty persCopy on
+       persCopy.Id = empCopy.Person_Company_Sungero
+     where empCopy.Id in
+       (select distinct
+         coalesce(obs.Observer, reviewObs.Observer)
+       from Sungero_WF_Attachment attCopy
+         left join Sungero_RecMan_TAIObservers obs on
+           obs.Task = attCopy.Task
+         left join Sungero_RecMan_TRevObservers reviewObs on
+           reviewObs.Task = attCopy.Task
+       where attCopy.AttachmentId = doc.Id
+         and not exists
+         (select * 
+           from {2} tasksCopy
+           where tasksCopy.docId = attCopy.AttachmentId
+             and tasksCopy.empId = coalesce(obs.Observer, reviewObs.Observer)))) as copyTable) as copy,		
+  '' as hyperlink,
+  '{9}' as ReportSessionId
+from
+  Sungero_Content_EDoc as doc
+  join {0} adocs on
+    adocs.Id = doc.Id  
+  join Sungero_Docflow_DocumentKind dockind on
+    dockind.Id = doc.DocumentKind_Docflow_Sungero
+  left join Sungero_Parties_Counterparty cor on
+    cor.Id = doc.InCorr_Docflow_Sungero
+where dockind.DocumentFlow = 'incoming'
+order by doc.id ;]]></postgres>
+  </query>
+  <query key="CreateHyperlinksTableQuery">
+    <mssql><![CDATA[create table {0}
+  (DocId bigint NOT NULL,
+   Hyperlink nvarchar(max) NOT NULL)]]></mssql>
+    <postgres><![CDATA[create table {0}
+  (DocId bigint NOT NULL,
+   Hyperlink citext NOT NULL)]]></postgres>
+  </query>
+  <query key="DocIdSelectQuery">
+    <default><![CDATA[select docId from {0} where ReportSessionId = '{1}']]></default>
+  </query>
+  <query key="UpdateHyperlinksQuery">
+    <mssql><![CDATA[update {0}
+set {0}.hyperlink = hyperlinks.Hyperlink
+from {1} hyperlinks
+where {0}.docId = hyperlinks.DocId
+  and {0}.ReportSessionId = '{2}']]></mssql>
+    <postgres><![CDATA[update {0} docs
+set hyperlink = hyperlinks.Hyperlink
+from {1} hyperlinks
+where docs.docId = hyperlinks.DocId
+  and ReportSessionId = '{2}']]></postgres>
+  </query>
+  <query key="CreateIncomingDocumentsProcessingReportSourceTable">
+    <mssql><![CDATA[create table {0}
+([docId] bigint NOT NULL,
+ [docNumber] nvarchar(max),
+ [docDate] datetime,
+ [counterparty] nvarchar(max) NOT NULL,
+ [subject] nvarchar(max) NOT NULL,
+ [state] nvarchar(max) NOT NULL,
+ [completed] datetime,
+ [assignees] nvarchar(max),
+ [copy] nvarchar(max),
+ [hyperlink] nvarchar(max),
+ [ReportSessionId] nvarchar(max) NOT NULL)]]></mssql>
+    <postgres><![CDATA[create table {0}
+(docId bigint NOT NULL,
+ docNumber citext,
+ docDate timestamp,
+ counterparty citext NOT NULL,
+ subject citext NOT NULL,
+ state citext NOT NULL,
+ completed timestamp,
+ assignees citext,
+ copy citext,
+ hyperlink citext,
+ ReportSessionId citext NOT NULL)]]></postgres>
+  </query>
+  <query key="TasksQuery">
+    <mssql><![CDATA[select assignments.Id as assignmentId, 
+  att.AttachmentId as docId,
+  emp.Id as empId,
+  pers.ShortName,
+  assignments.Created,
+  assignments.Completed,
+  assignments.Result,
+  assignments.Status,
+  assignments.Discriminator,
+  cast(null as datetime) as executionDate
+into {1}
+from Sungero_WF_Attachment att
+  join {0} adocs on
+    adocs.Id = att.AttachmentId
+  left join Sungero_WF_Assignment assignments on
+    assignments.Task = att.Task
+    and (assignments.Discriminator in ('d238ef51-607e-46a5-b86a-ede4482f7f19', 'f44faafc-cd55-4c5b-b16d-93b6fc966ffb',
+                                      '69ac657a-0e74-46be-acba-f6bbbbd2bc73', '018e582e-5b0e-4e4f-af57-be1e0a468efa',
+                                      '7cca016a-80f0-4562-9042-57bb748d5b30', 'e2dd5bf3-54c8-4846-b158-9c42d09fbc33',
+                                      '1d5433e5-b285-4310-9a63-fc4e76f0a9b7', '50e39d87-4fc6-4847-8bad-20847b9ba020',
+                                      '079b6ce1-8a62-41a6-aa89-0de5e5266253', '495600a5-5f7a-49aa-ac49-9351c9af1109')
+         or assignments.Discriminator = '01dd1422-80d7-4505-9719-842ca2433647' and assignments.createactitems_docappr_sungero = 1)
+    and assignments.Status != 'Aborted'
+  left join Sungero_Core_Recipient emp on
+    assignments.Performer = emp.Id
+  left join Sungero_Parties_Counterparty pers on
+    pers.Id = emp.Person_Company_Sungero]]></mssql>
+    <postgres><![CDATA[select assignments.Id as assignmentId,
+  att.AttachmentId as docId,
+  emp.Id as empId,
+  pers.ShortName,
+  assignments.Created,
+  assignments.Completed,
+  assignments.Result,
+  assignments.Status,
+  assignments.Discriminator,
+  cast(null as timestamp) as executionDate
+into {1}
+from Sungero_WF_Attachment att
+  join {0} adocs on
+    adocs.Id = att.AttachmentId
+  left join Sungero_WF_Assignment assignments on
+    assignments.Task = att.Task
+    and (assignments.Discriminator in ('d238ef51-607e-46a5-b86a-ede4482f7f19', 'f44faafc-cd55-4c5b-b16d-93b6fc966ffb',
+                                      '69ac657a-0e74-46be-acba-f6bbbbd2bc73', '018e582e-5b0e-4e4f-af57-be1e0a468efa',
+                                      '7cca016a-80f0-4562-9042-57bb748d5b30', 'e2dd5bf3-54c8-4846-b158-9c42d09fbc33',
+                                      '1d5433e5-b285-4310-9a63-fc4e76f0a9b7', '50e39d87-4fc6-4847-8bad-20847b9ba020',
+                                      '079b6ce1-8a62-41a6-aa89-0de5e5266253', '495600a5-5f7a-49aa-ac49-9351c9af1109')
+         or assignments.Discriminator = '01dd1422-80d7-4505-9719-842ca2433647' and assignments.createactitems_docappr_sungero = true)
+    and assignments.Status != 'Aborted'
+  left join Sungero_Core_Recipient emp on
+    assignments.Performer = emp.Id
+  left join Sungero_Parties_Counterparty pers on
+    pers.Id = emp.Person_Company_Sungero
+ order by docId;]]></postgres>
+  </query>
+  <query key="UpdateExecutionDate">
+    <mssql><![CDATA[update taskOrig
+set executionDate = 
+case
+  when Discriminator in ('d238ef51-607e-46a5-b86a-ede4482f7f19', -- ActionItemExecutionAssignment
+                         'f44faafc-cd55-4c5b-b16d-93b6fc966ffb') -- ActionItemSupervisorAssignment
+    then case
+      when Result in ('Done', 'Agree') then Completed
+      else null
+    end
+
+  when Discriminator in ('50e39d87-4fc6-4847-8bad-20847b9ba020', -- DocumentReviewAssignment            Informed
+                         '69ac657a-0e74-46be-acba-f6bbbbd2bc73', -- ReviewManagerAssignment             Explored
+                         '7cca016a-80f0-4562-9042-57bb748d5b30', -- PreparingDraftResolutionAssignment  Explored
+                         'e2dd5bf3-54c8-4846-b158-9c42d09fbc33', -- ReviewDraftResolutionAssignment     Informed
+                         '079b6ce1-8a62-41a6-aa89-0de5e5266253') -- ApprovalReviewAssignment            Informed
+    and Result in ('Informed', 'Explored')
+    then Completed
+
+  when Discriminator = '1d5433e5-b285-4310-9a63-fc4e76f0a9b7' -- ReviewReworkAssignment
+    then null
+
+  when Discriminator in ('018e582e-5b0e-4e4f-af57-be1e0a468efa', -- ReviewResolutionAssignment
+                         '01dd1422-80d7-4505-9719-842ca2433647', -- DocumentProcessingAssignment
+                         '495600a5-5f7a-49aa-ac49-9351c9af1109') -- ApprovalExecutionAssignment
+    and Status = 'Completed'
+    and not exists (select 1
+                    from {0}
+                    where Discriminator in ('d238ef51-607e-46a5-b86a-ede4482f7f19', -- ActionItemExecutionAssignment
+                                            'f44faafc-cd55-4c5b-b16d-93b6fc966ffb') -- ActionItemSupervisorAssignment
+                      and Status = 'InProcess')
+    then Completed
+
+  else null
+end
+
+from {0} taskOrig
+  join (select docId, max(Created) as MaxCreated
+        from {0}
+        group by docId) taskCopy
+  on taskOrig.docId = taskCopy.docId
+    and taskOrig.Created = taskCopy.MaxCreated]]></mssql>
+    <postgres><![CDATA[update {0} taskOrig
+set executionDate = 
+case
+  when Discriminator in ('d238ef51-607e-46a5-b86a-ede4482f7f19', -- ActionItemExecutionAssignment
+                         'f44faafc-cd55-4c5b-b16d-93b6fc966ffb') -- ActionItemSupervisorAssignment
+    then case
+      when Result in ('Done', 'Agree') then Completed
+      else null
+    end
+
+  when Discriminator in ('50e39d87-4fc6-4847-8bad-20847b9ba020', -- DocumentReviewAssignment            Informed
+                         '69ac657a-0e74-46be-acba-f6bbbbd2bc73', -- ReviewManagerAssignment             Explored
+                         '7cca016a-80f0-4562-9042-57bb748d5b30', -- PreparingDraftResolutionAssignment  Explored
+                         'e2dd5bf3-54c8-4846-b158-9c42d09fbc33', -- ReviewDraftResolutionAssignment     Informed
+                         '079b6ce1-8a62-41a6-aa89-0de5e5266253') -- ApprovalReviewAssignment            Informed
+    and Result in ('Informed', 'Explored')
+    then Completed
+
+  when Discriminator = '1d5433e5-b285-4310-9a63-fc4e76f0a9b7' -- ReviewReworkAssignment
+    then null
+
+  when Discriminator in ('018e582e-5b0e-4e4f-af57-be1e0a468efa', -- ReviewResolutionAssignment
+                         '01dd1422-80d7-4505-9719-842ca2433647', -- DocumentProcessingAssignment
+                         '495600a5-5f7a-49aa-ac49-9351c9af1109') -- ApprovalExecutionAssignment
+    and Status = 'Completed'
+    and not exists (select 1
+                    from {0}
+                    where Discriminator in ('d238ef51-607e-46a5-b86a-ede4482f7f19', -- ActionItemExecutionAssignment
+                                            'f44faafc-cd55-4c5b-b16d-93b6fc966ffb') -- ActionItemSupervisorAssignment
+                      and Status = 'InProcess')
+    then Completed
+
+  else null
+end
+
+from (select docId, max(Created) as MaxCreated
+      from {0}
+      group by docId) taskCopy
+where taskOrig.docId = taskCopy.docId
+  and taskOrig.Created = taskCopy.MaxCreated]]></postgres>
+  </query>
+</queries>

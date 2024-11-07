@@ -1,0 +1,21 @@
+{
+  "Description": {
+    "en-US": "Sending of notifications on receipt of documents from exchange service",
+    "ru-RU": "Отправка извещений контрагенту о получении документов из сервиса обмена",
+    "hash": "27243fc2990c7b4326a07c87c3573cae"
+  },
+  "Name": {
+    "en-US": "Sending of notifications on document receipt",
+    "ru-RU": "Отправка извещений о получении",
+    "hash": "3d8612af03d50575b13d8e0e263a2cb2"
+  },
+  "Subject_SE_1": {
+    "en-US": "Confirm receipt of documents to exchange box {0}",
+    "ru-RU": "Подтвердите получение документов на абонентский ящик {0}",
+    "hash": "34397334240beea34a8ea61588b3ebc3"
+  },
+  "Title_SE_1": {
+    "en-US": "Send document receipt notifications",
+    "ru-RU": "Отправка извещений о получении документов"
+  }
+}

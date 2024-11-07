@@ -1,0 +1,214 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="DisplayName" xml:space="preserve">
+    <value>Сотрудник</value>
+  </data>
+  <data name="AccusativeDisplayName" xml:space="preserve">
+    <value>Сотрудника</value>
+  </data>
+  <data name="CollectionDisplayName" xml:space="preserve">
+    <value>Сотрудники</value>
+  </data>
+  <data name="Property_Person" xml:space="preserve">
+    <value>Персона</value>
+  </data>
+  <data name="Property_Department" xml:space="preserve">
+    <value>Подразделение</value>
+  </data>
+  <data name="Property_JobTitle" xml:space="preserve">
+    <value>Должность</value>
+  </data>
+  <data name="Property_Phone" xml:space="preserve">
+    <value>Рабочий телефон</value>
+  </data>
+  <data name="Property_Note" xml:space="preserve">
+    <value>Примечание</value>
+  </data>
+  <data name="Property_Name" xml:space="preserve">
+    <value>ФИО</value>
+  </data>
+  <data name="Property_Description" xml:space="preserve">
+    <value>Описание</value>
+  </data>
+  <data name="Property_Email" xml:space="preserve">
+    <value>Эл. почта</value>
+  </data>
+  <data name="Property_NeedNotifyExpiredAssignments" xml:space="preserve">
+    <value>О просроченных заданиях</value>
+  </data>
+  <data name="Property_NeedNotifyNewAssignments" xml:space="preserve">
+    <value>О новых заданиях</value>
+  </data>
+  <data name="AdditionalInfoTemplate" xml:space="preserve">
+    <value>[JobTitle]/[Department]</value>
+  </data>
+  <data name="ControlGroup_7f84e66e461d45b6af4c1c786cf4427e" xml:space="preserve">
+    <value>Левая группа</value>
+  </data>
+  <data name="ControlGroup_8fd91d31742d436298477ab019995687" xml:space="preserve">
+    <value>Контактная информация</value>
+  </data>
+  <data name="ControlGroup_6f9b2b0181714d038c0ee00558c2f9b4" xml:space="preserve">
+    <value>Примечание</value>
+  </data>
+  <data name="Ribbon_Photo_4e9d322c2a754c5697ec1d3e56482f21" xml:space="preserve">
+    <value>Фотография</value>
+  </data>
+  <data name="ControlGroup_0b3bb168612249a59633c5b81742ae05" xml:space="preserve">
+    <value>Основное</value>
+  </data>
+  <data name="ControlGroup_2c0826c892f34f649c8aa320b064db91" xml:space="preserve">
+    <value>Уведомлять по электронной почте</value>
+  </data>
+  <data name="Action_DeletePersonalPhotoDescription" xml:space="preserve">
+    <value>Удалить фотографию сотрудника.</value>
+  </data>
+  <data name="Ribbon_Certificates_075abdcb39fa40498bd289a6de868b0e" xml:space="preserve">
+    <value>Сертификаты</value>
+  </data>
+  <data name="Action_OpenCertificatesList" xml:space="preserve">
+    <value>Показать сертификаты</value>
+  </data>
+  <data name="Action_OpenCertificatesListDescription" xml:space="preserve">
+    <value>Открыть список цифровых сертификатов сотрудника</value>
+  </data>
+  <data name="Action_OpenCertificatesListHint" xml:space="preserve">
+    <value>Показать сертификаты</value>
+  </data>
+  <data name="FilterPanel_Status_07d4a2f4a3ef4997ac7c585a323e8279" xml:space="preserve">
+    <value>Состояние</value>
+  </data>
+  <data name="FilterPanel_Active_ef8415d034c0496c96e482ecf6ac8b5e" xml:space="preserve">
+    <value>Действующие</value>
+  </data>
+  <data name="FilterPanel_Closed_6f0075265ac84d5580a77f1c1e35e549" xml:space="preserve">
+    <value>Закрытые</value>
+  </data>
+  <data name="FilterPanel_BusinessUnit_69a555afffe2446491760df729878c3f" xml:space="preserve">
+    <value>Наша организация</value>
+  </data>
+  <data name="FilterPanel_Department_ad4c655446db44b49498f11167e67e27" xml:space="preserve">
+    <value>Подразделение</value>
+  </data>
+  <data name="FilterPanel_State_07d4a2f4a3ef4997ac7c585a323e8279" xml:space="preserve">
+    <value>Состояние</value>
+  </data>
+  <data name="FilterPanel_JobTitle_60b0ca07d02d4343a4107a2e43c0c95b" xml:space="preserve">
+    <value>Должность</value>
+  </data>
+  <data name="Action_ShowResponsibilitiesReport" xml:space="preserve">
+    <value>Полномочия и зоны ответственности</value>
+  </data>
+  <data name="Action_ShowResponsibilitiesReportDescription" xml:space="preserve">
+    <value>Показать справочники и роли, в которых указан сотрудник, а также наши организации, подразделения, этапы согласования, группы регистрации, информацию по замещениям и другие данные.</value>
+  </data>
+  <data name="Action_ShowResponsibilitiesReportHint" xml:space="preserve">
+    <value>Полномочия и зоны ответственности сотрудника</value>
+  </data>
+  <data name="Ribbon_Reports_643237fb52f54f15b5499a2f8dbafe19" xml:space="preserve">
+    <value>Отчеты</value>
+  </data>
+  <data name="Ribbon_ReportCommands_8ea4f11bc35941e394bf6f67b415832a" xml:space="preserve">
+    <value>Отчеты</value>
+  </data>
+  <data name="Action_ShowRespondingDocuments" xml:space="preserve">
+    <value>Договорные и финансовые документы</value>
+  </data>
+  <data name="Action_ShowRespondingDocumentsDescription" xml:space="preserve">
+    <value>Незакрытые договоры, дополнительные соглашения и финансово-хозяйственные документы, закрепленные за сотрудником.</value>
+  </data>
+  <data name="Action_ShowRespondingDocumentsHint" xml:space="preserve">
+    <value>Договорные и финансовые документы в работе</value>
+  </data>
+  <data name="Ribbon_Documents_73f21febd46c4be2b622e4daddf13d73" xml:space="preserve">
+    <value>Документы</value>
+  </data>
+  <data name="Ribbon_Documents_8b9eb5a62596447abbfd678b758f620d" xml:space="preserve">
+    <value>Документы</value>
+  </data>
+  <data name="Property_PersonnelNumber" xml:space="preserve">
+    <value>Табельный номер</value>
+  </data>
+  <data name="Property_NeedNotifyAssignmentsSummary" xml:space="preserve">
+    <value>О текущих заданиях и задачах в виде сводки</value>
+  </data>
+  <data name="Property_ExternalId" xml:space="preserve">
+    <value>ИД во внешней системе</value>
+  </data>
+  <data name="Action_OpenPersonalSettings" xml:space="preserve">
+    <value>Мои настройки</value>
+  </data>
+  <data name="Action_OpenPersonalSettingsHint" xml:space="preserve">
+    <value>Настроить параметры работы системы</value>
+  </data>
+  <data name="Action_OpenPersonalSettingsDescription" xml:space="preserve">
+    <value>Личные настройки отдельных параметров работы системы.</value>
+  </data>
+  <data name="Ribbon_Settings_1311d677184641e69fbd5cb697bc2097" xml:space="preserve">
+    <value>Настройки</value>
+  </data>
+  <data name="ControlGroup_a01165135e0c4eff878369233eb2e2ab" xml:space="preserve">
+    <value>Сотрудник</value>
+  </data>
+  <data name="ControlGroup_afaca6fb849e489688184e345e72a8b6" xml:space="preserve">
+    <value>Правая группа</value>
+  </data>
+</root>

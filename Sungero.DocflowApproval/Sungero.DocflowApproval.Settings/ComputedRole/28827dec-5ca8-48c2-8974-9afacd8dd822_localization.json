@@ -1,0 +1,12 @@
+{
+  "Description": {
+    "default": "CEO of the business unit specified in the card of the document attached to the task.",
+    "ru-RU": "Руководитель нашей организации, которая указана в карточке документа, вложенного в задачу.",
+    "hash": "37a58b64552867449b2f95891ec77c6c"
+  },
+  "Name": {
+    "default": "CEO of business unit specified in document card",
+    "ru-RU": "Руководитель нашей организации, указанной в карточке документа",
+    "hash": "c0c91abba8a47d542cf7bd0fb94ae906"
+  }
+}

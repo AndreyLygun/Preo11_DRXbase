@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="DisplayName" xml:space="preserve">
+    <value>Результат обработки документа для исполнения</value>
+  </data>
+  <data name="AccusativeDisplayName" xml:space="preserve">
+    <value>Результат обработки документа для исполнения</value>
+  </data>
+  <data name="CollectionDisplayName" xml:space="preserve">
+    <value>Результаты обработки документов для исполнения</value>
+  </data>
+  <data name="Property_TaskId" xml:space="preserve">
+    <value>ИД задачи</value>
+  </data>
+  <data name="Property_TaskType" xml:space="preserve">
+    <value>Тип задачи</value>
+  </data>
+  <data name="Enum_TaskType_DocumentReview" xml:space="preserve">
+    <value>Задача на рассмотрение документа</value>
+  </data>
+  <data name="Enum_TaskType_ActionItem" xml:space="preserve">
+    <value>Задача на исполнение поручения</value>
+  </data>
+  <data name="Property_ArioTaskStatus" xml:space="preserve">
+    <value>Статус задачи в Directum Ario</value>
+  </data>
+  <data name="Property_ArioTaskId" xml:space="preserve">
+    <value>ИД задачи в Directum Ario</value>
+  </data>
+  <data name="Enum_ArioTaskStatus_InProcess" xml:space="preserve">
+    <value>В работе</value>
+  </data>
+  <data name="Enum_ArioTaskStatus_Success" xml:space="preserve">
+    <value>Завершена</value>
+  </data>
+  <data name="Enum_ArioTaskStatus_ErrorOccured" xml:space="preserve">
+    <value>Произошла ошибка</value>
+  </data>
+  <data name="Property_AIManagerAssistant" xml:space="preserve">
+    <value>Виртуальный ассистент</value>
+  </data>
+  <data name="Property_ArioResultJson" xml:space="preserve">
+    <value>Результат обработки в JSON формате</value>
+  </data>
+  <data name="ControlGroup_f357a9833d8840829d0395131f94d17f" xml:space="preserve">
+    <value>Обработка сервисами Directum Ario</value>
+  </data>
+  <data name="ControlGroup_45c38e463a6048e6b67b706e69e23264" xml:space="preserve">
+    <value>Поручение</value>
+  </data>
+  <data name="Property_ActionItemId" xml:space="preserve">
+    <value>ИД поручения</value>
+  </data>
+  <data name="ControlGroup_d029941a7d6e44a4aa4aed40fcea2fd8" xml:space="preserve">
+    <value>Проект подчиненного поручения</value>
+  </data>
+  <data name="Property_Assignee" xml:space="preserve">
+    <value>Исполнитель</value>
+  </data>
+  <data name="ControlGroup_273d5e1a23194cf29cf2ca93090b0c13" xml:space="preserve">
+    <value>Результат обработки</value>
+  </data>
+</root>

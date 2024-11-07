@@ -1,0 +1,339 @@
+{
+  "$type": "Sungero.Metadata.EntityMetadata, Sungero.Metadata",
+  "NameGuid": "9096689e-574f-476d-aa32-621396fee84f",
+  "Name": "MarkKind",
+  "BaseGuid": "04581d26-0780-4cfd-b3cd-c2cafc5798b0",
+  "CanBeNavigationPropertyType": true,
+  "CanBeSearch": true,
+  "Code": "MarkKind",
+  "CreationAreaMetadata": {
+    "NameGuid": "f7766750-eee2-4fcd-8003-5c06a90d1f44",
+    "Name": "CreationArea",
+    "Buttons": [],
+    "IsAncestorMetadata": true
+  },
+  "ExtraSearchProperties": [],
+  "FilterPanel": {
+    "NameGuid": "b0125fbd-3b91-4dbb-914a-689276216404",
+    "Name": "FilterPanel",
+    "Controls": [],
+    "IsAncestorMetadata": true
+  },
+  "Forms": [
+    {
+      "$type": "Sungero.Metadata.StandaloneFormMetadata, Sungero.Metadata",
+      "NameGuid": "7349dcf8-efe2-4145-acfe-eb1b85e1a8f2",
+      "Name": "Card",
+      "Controls": [
+        {
+          "$type": "Sungero.Metadata.ControlGroupMetadata, Sungero.Metadata",
+          "NameGuid": "1c8d282f-fe86-4702-893a-7d949cebe486",
+          "Name": "ControlGroup"
+        },
+        {
+          "$type": "Sungero.Metadata.ControlMetadata, Sungero.Metadata",
+          "NameGuid": "7fd6cd67-f0a6-4434-ab41-0e13b56d63ff",
+          "Name": "Name",
+          "ColumnNumber": 0,
+          "ColumnSpan": 1,
+          "DataBinderTypeName": "Sungero.Presentation.CommonDataBinders.StringEditorToStringBinder",
+          "ParentGuid": "1c8d282f-fe86-4702-893a-7d949cebe486",
+          "PropertyGuid": "c765b474-8153-46c7-ab75-0759e66b25f9",
+          "RowNumber": 0,
+          "RowSpan": 1,
+          "Settings": []
+        },
+        {
+          "$type": "Sungero.Metadata.ControlGroupMetadata, Sungero.Metadata",
+          "NameGuid": "73bb032f-87a2-41c1-8ab2-ffa4862e4bb1",
+          "Name": "Notes",
+          "ColumnNumber": 0,
+          "ColumnSpan": 1,
+          "GroupType": "GroupBox",
+          "ParentGuid": "1c8d282f-fe86-4702-893a-7d949cebe486",
+          "RowNumber": 4,
+          "RowSpan": 1
+        },
+        {
+          "$type": "Sungero.Metadata.ControlMetadata, Sungero.Metadata",
+          "NameGuid": "45ad3676-c38c-4fda-b69c-131a192cc988",
+          "Name": "Note",
+          "ColumnNumber": 0,
+          "ColumnSpan": 1,
+          "DataBinderTypeName": "Sungero.Presentation.CommonDataBinders.TextEditorToTextBinder",
+          "HeaderLocation": "None",
+          "ParentGuid": "73bb032f-87a2-41c1-8ab2-ffa4862e4bb1",
+          "PropertyGuid": "054efd14-11fd-4ec5-b009-480b81c8b902",
+          "RowNumber": 0,
+          "RowSpan": 1,
+          "Settings": [
+            {
+              "Name": "NeedAutosize",
+              "Value": false
+            },
+            {
+              "Name": "NeedExpand",
+              "Value": true
+            }
+          ]
+        },
+        {
+          "$type": "Sungero.Metadata.ControlMetadata, Sungero.Metadata",
+          "NameGuid": "65d908fe-fcf0-4df7-a903-007472acc368",
+          "Name": "MarkContentClassName",
+          "ColumnNumber": 0,
+          "ColumnSpan": 1,
+          "DataBinderTypeName": "Sungero.Presentation.CommonDataBinders.StringEditorToStringBinder",
+          "ParentGuid": "1c8d282f-fe86-4702-893a-7d949cebe486",
+          "PropertyGuid": "74b61a8b-15b2-4c7b-86fb-4dc9d6083840",
+          "RowNumber": 1,
+          "RowSpan": 1,
+          "Settings": []
+        },
+        {
+          "$type": "Sungero.Metadata.ControlMetadata, Sungero.Metadata",
+          "NameGuid": "088e20b1-155a-4c5f-9c1f-22ee468b53c6",
+          "Name": "MarkContentFunctionName",
+          "ColumnNumber": 0,
+          "ColumnSpan": 1,
+          "DataBinderTypeName": "Sungero.Presentation.CommonDataBinders.StringEditorToStringBinder",
+          "ParentGuid": "1c8d282f-fe86-4702-893a-7d949cebe486",
+          "PropertyGuid": "cae0dc2f-e63d-4451-82ae-67d15a0b2563",
+          "RowNumber": 2,
+          "RowSpan": 1,
+          "Settings": []
+        },
+        {
+          "$type": "Sungero.Metadata.ControlMetadata, Sungero.Metadata",
+          "NameGuid": "3ce70780-aad5-468b-9a58-4c60b8d349d9",
+          "Name": "OnBlankPage",
+          "ColumnNumber": 0,
+          "ColumnSpan": 1,
+          "DataBinderTypeName": "Sungero.Presentation.CommonDataBinders.BooleanEditorToBooleanBinder",
+          "ParentGuid": "1c8d282f-fe86-4702-893a-7d949cebe486",
+          "PropertyGuid": "1fcb2307-8b3d-4c82-9bf9-724b6f50ca96",
+          "RowNumber": 3,
+          "RowSpan": 1,
+          "Settings": []
+        }
+      ]
+    }
+  ],
+  "HandledEvents": [
+    "BeforeDeleteServer",
+    "CreatingFromServer",
+    "CreatedServer"
+  ],
+  "IconResourcesKeys": [],
+  "IntegrationServiceName": "DocflowMarkKind",
+  "IsVisible": false,
+  "OperationsClass": "",
+  "Overridden": [
+    "IsVisible",
+    "CanBeSearch"
+  ],
+  "Properties": [
+    {
+      "$type": "Sungero.Metadata.StringPropertyMetadata, Sungero.Metadata",
+      "NameGuid": "c765b474-8153-46c7-ab75-0759e66b25f9",
+      "Name": "Name",
+      "Code": "Name",
+      "IsDisplayValue": true,
+      "IsQuickSearchAllowed": true,
+      "ListDataBinderTypeName": "Sungero.Presentation.CommonDataBinders.StringEditorToStringBinder",
+      "PreviousPropertyGuid": "1dcedc29-5140-4770-ac92-eabc212326a1"
+    },
+    {
+      "$type": "Sungero.Metadata.StringPropertyMetadata, Sungero.Metadata",
+      "NameGuid": "e351de9f-5338-4c54-8bad-b3277c56ab48",
+      "Name": "Sid",
+      "CanBeSearch": false,
+      "Code": "Sid",
+      "Length": 36,
+      "ListDataBinderTypeName": "Sungero.Presentation.CommonDataBinders.StringEditorToStringBinder",
+      "PreviousPropertyGuid": "c765b474-8153-46c7-ab75-0759e66b25f9"
+    },
+    {
+      "$type": "Sungero.Metadata.StringPropertyMetadata, Sungero.Metadata",
+      "NameGuid": "054efd14-11fd-4ec5-b009-480b81c8b902",
+      "Name": "Note",
+      "Code": "Note",
+      "Length": 1000,
+      "ListDataBinderTypeName": "Sungero.Presentation.CommonDataBinders.StringEditorToStringBinder",
+      "PreviousPropertyGuid": "e351de9f-5338-4c54-8bad-b3277c56ab48"
+    },
+    {
+      "$type": "Sungero.Metadata.StringPropertyMetadata, Sungero.Metadata",
+      "NameGuid": "74b61a8b-15b2-4c7b-86fb-4dc9d6083840",
+      "Name": "MarkContentClassName",
+      "CanBeSearch": false,
+      "Code": "MarkContClName",
+      "IsShowedInList": false,
+      "ListDataBinderTypeName": "Sungero.Presentation.CommonDataBinders.StringEditorToStringBinder",
+      "PreviousPropertyGuid": "054efd14-11fd-4ec5-b009-480b81c8b902"
+    },
+    {
+      "$type": "Sungero.Metadata.StringPropertyMetadata, Sungero.Metadata",
+      "NameGuid": "cae0dc2f-e63d-4451-82ae-67d15a0b2563",
+      "Name": "MarkContentFunctionName",
+      "CanBeSearch": false,
+      "Code": "MarkContFnName",
+      "IsShowedInList": false,
+      "ListDataBinderTypeName": "Sungero.Presentation.CommonDataBinders.StringEditorToStringBinder",
+      "PreviousPropertyGuid": "74b61a8b-15b2-4c7b-86fb-4dc9d6083840"
+    },
+    {
+      "$type": "Sungero.Metadata.BooleanPropertyMetadata, Sungero.Metadata",
+      "NameGuid": "1fcb2307-8b3d-4c82-9bf9-724b6f50ca96",
+      "Name": "OnBlankPage",
+      "Code": "OnBlankPage",
+      "ListDataBinderTypeName": "Sungero.Presentation.CommonDataBinders.BooleanEditorToBooleanBinder",
+      "PreviousPropertyGuid": "cae0dc2f-e63d-4451-82ae-67d15a0b2563"
+    }
+  ],
+  "PublicConstants": [
+    {
+      "Name": "ElectronicSignatureMarkKindClassName",
+      "ParentClasses": [
+        "MarkKind"
+      ],
+      "TypeName": "System.String",
+      "Value": "\"Sungero.Docflow.Functions.OfficialDocument\""
+    },
+    {
+      "Name": "ElectronicSignatureMarkKindFunctionName",
+      "ParentClasses": [
+        "MarkKind"
+      ],
+      "TypeName": "System.String",
+      "Value": "\"GetSignatureMarkAsHtml\""
+    },
+    {
+      "Name": "ElectronicSignatureMarkKindSid",
+      "ParentClasses": [
+        "MarkKind"
+      ],
+      "TypeName": "System.String",
+      "Value": "\"E195526C-DF17-42B4-B588-8C7C46E28A27\""
+    },
+    {
+      "Name": "ReceiptMarkKindClassName",
+      "ParentClasses": [
+        "MarkKind"
+      ],
+      "TypeName": "System.String",
+      "Value": "\"Sungero.Docflow.Functions.OfficialDocument\""
+    },
+    {
+      "Name": "ReceiptMarkKindFunctionName",
+      "ParentClasses": [
+        "MarkKind"
+      ],
+      "TypeName": "System.String",
+      "Value": "\"GetRegistrationStampAsHtml\""
+    },
+    {
+      "Name": "ReceiptMarkKindSid",
+      "ParentClasses": [
+        "MarkKind"
+      ],
+      "TypeName": "System.String",
+      "Value": "\"6A7B90CB-7E64-4A97-AB0B-F8C3F476C843\""
+    },
+    {
+      "Name": "RegDateMarkKindClassName",
+      "ParentClasses": [
+        "MarkKind"
+      ],
+      "TypeName": "System.String",
+      "Value": "\"Sungero.Docflow.Functions.OfficialDocument\""
+    },
+    {
+      "Name": "RegDateMarkKindFunctionName",
+      "ParentClasses": [
+        "MarkKind"
+      ],
+      "TypeName": "System.String",
+      "Value": "\"GetRegistrationDateMarkContent\""
+    },
+    {
+      "Name": "RegistrationDateMarkKindSid",
+      "ParentClasses": [
+        "MarkKind"
+      ],
+      "TypeName": "System.String",
+      "Value": "\"FB49FB00-76D8-4FD0-BEFA-FD33C9F94EA2\""
+    },
+    {
+      "Name": "RegistrationNumberMarkKindSid",
+      "ParentClasses": [
+        "MarkKind"
+      ],
+      "TypeName": "System.String",
+      "Value": "\"B618C700-665A-4825-A523-EBDDEA5CDB32\""
+    },
+    {
+      "Name": "RegNumberMarkKindClassName",
+      "ParentClasses": [
+        "MarkKind"
+      ],
+      "TypeName": "System.String",
+      "Value": "\"Sungero.Docflow.Functions.OfficialDocument\""
+    },
+    {
+      "Name": "RegNumberMarkKindFunctionName",
+      "ParentClasses": [
+        "MarkKind"
+      ],
+      "TypeName": "System.String",
+      "Value": "\"GetRegistrationNumberMarkContent\""
+    }
+  ],
+  "PublicFunctions": [
+    {
+      "Name": "GetMarkKind",
+      "Parameters": [
+        {
+          "Name": "sid",
+          "ParameterType": "global::System.String",
+          "ParameterTypeFullName": "System.String"
+        }
+      ],
+      "ReturnType": "global::Sungero.Docflow.IMarkKind",
+      "ReturnTypeFullName": "Sungero.Docflow.IMarkKind, Sungero.Domain.Interfaces"
+    }
+  ],
+  "PublicStructures": [],
+  "ResourcesKeys": [
+    "SignatureMarkKindName",
+    "CanNotDeleteMarkKind",
+    "ReceiptMarkKindName",
+    "RegistrationDateMarkKindName",
+    "RegistrationNumberMarkKindName"
+  ],
+  "RibbonCardMetadata": {
+    "NameGuid": "eeb35271-0493-4968-a1c6-164f734e6e8a",
+    "Name": "RibbonCard",
+    "Categories": [],
+    "Elements": [],
+    "Groups": [],
+    "IsAncestorMetadata": true,
+    "Pages": [],
+    "RibbonKind": "Card"
+  },
+  "RibbonCollectionMetadata": {
+    "NameGuid": "7694db38-1d67-47c1-8304-bd6f4ed791fd",
+    "Name": "RibbonCollection",
+    "Categories": [],
+    "Elements": [],
+    "Groups": [],
+    "IsAncestorMetadata": true,
+    "Pages": []
+  },
+  "Versions": [
+    {
+      "Type": "EntityMetadata",
+      "Number": 12
+    }
+  ]
+}

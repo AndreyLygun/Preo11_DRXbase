@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Forwarded" xml:space="preserve">
+    <value>Переадресовано {0}</value>
+  </data>
+  <data name="AutoformatTaskSubject" xml:space="preserve">
+    <value>&lt;Тема будет сформирована автоматически&gt;</value>
+  </data>
+  <data name="CompleteWithoutCreatingActionItem" xml:space="preserve">
+    <value>Выполнить задание без создания и отправки поручения?</value>
+  </data>
+  <data name="CreateActionItem" xml:space="preserve">
+    <value>Создать поручение</value>
+  </data>
+  <data name="ActionItemsShouldBeStarted" xml:space="preserve">
+    <value>Задание не было выполнено, так как поручение не стартовано.</value>
+  </data>
+  <data name="ActionItemsShouldBeCreated" xml:space="preserve">
+    <value>Задание не выполнено, так как не создано ни одного поручения.</value>
+  </data>
+  <data name="NoResponsibleToReturn" xml:space="preserve">
+    <value>Не удалось определить ответственного за возврат документа (ИД документа = {0}).</value>
+  </data>
+  <data name="TaskPerformers" xml:space="preserve">
+    <value>Все участники процесса</value>
+  </data>
+  <data name="TaskPerformersDescription" xml:space="preserve">
+    <value>Получить исполнителей всех подзадач и заданий процесса.</value>
+  </data>
+  <data name="NeedCommentToSendForRework" xml:space="preserve">
+    <value>Оставьте комментарий в тексте задания, прежде чем отправить документ на доработку.</value>
+  </data>
+  <data name="ForRework" xml:space="preserve">
+    <value>На доработку.</value>
+  </data>
+  <data name="CantSendForReworkWithoutPerformer" xml:space="preserve">
+    <value>Для отправки на доработку укажите сотрудника, который будет дорабатывать документ.</value>
+  </data>
+  <data name="NoDataToDisplay" xml:space="preserve">
+    <value>Нет данных для отображения</value>
+  </data>
+  <data name="GeneralPdfConvertError" xml:space="preserve">
+    <value>Не удалось преобразовать документ в формат PDF.</value>
+  </data>
+  <data name="SpecifyEmployeeToForwardTo" xml:space="preserve">
+    <value>Для переадресации укажите сотрудника, который будет согласовывать документ.</value>
+  </data>
+  <data name="GetCountExpressionElementName" xml:space="preserve">
+    <value>Количество</value>
+  </data>
+  <data name="GetCountExpressionElementDescription" xml:space="preserve">
+    <value>Количество элементов</value>
+  </data>
+  <data name="IncreaseParameter" xml:space="preserve">
+    <value>Увеличить на</value>
+  </data>
+  <data name="IncreaseParameterDescription" xml:space="preserve">
+    <value>Возвращает увеличенный целочисленный параметр</value>
+  </data>
+  <data name="NumberToAdd" xml:space="preserve">
+    <value>Прибавляемое число</value>
+  </data>
+  <data name="SaveDocumentsBeforeComplete" xml:space="preserve">
+    <value>Для выполнения задания сохраните документ и его приложения.</value>
+  </data>
+  <data name="NoLicenseForRegisterToFts" xml:space="preserve">
+    <value>Для регистрации документа в реестре ФНС необходима лицензия на модуль "Эл. доверенности. Коннектор к Контур.Доверенность".</value>
+  </data>
+</root>

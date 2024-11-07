@@ -1,0 +1,220 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="DisplayName" xml:space="preserve">
+    <value>Задача на ознакомление с документом</value>
+  </data>
+  <data name="AccusativeDisplayName" xml:space="preserve">
+    <value>Задачу на ознакомление с документом</value>
+  </data>
+  <data name="CollectionDisplayName" xml:space="preserve">
+    <value>Задачи на ознакомление с документами</value>
+  </data>
+  <data name="Control_679cef60166e482cbfa7a1ec861f0263_EmptyText" xml:space="preserve">
+    <value>Укажите наблюдателей…</value>
+  </data>
+  <data name="Property_MaxDeadline" xml:space="preserve">
+    <value>Конечный срок</value>
+  </data>
+  <data name="Property_IsElectronicAcquaintance" xml:space="preserve">
+    <value>Ознакомление в электронном виде</value>
+  </data>
+  <data name="Property_Deadline" xml:space="preserve">
+    <value>Срок</value>
+  </data>
+  <data name="Property_Performers" xml:space="preserve">
+    <value>Участники</value>
+  </data>
+  <data name="AttachmentGroup_DocumentGroupTitle" xml:space="preserve">
+    <value>Документ на ознакомление</value>
+  </data>
+  <data name="AttachmentGroup_DocumentGroupInformationMessage" xml:space="preserve">
+    <value>Документ не вложен</value>
+  </data>
+  <data name="ControlGroup_06683da4f5734c96b52e2ea23b27aa7f" xml:space="preserve">
+    <value>Кого ознакомить</value>
+  </data>
+  <data name="AttachmentGroup_AddendaGroupTitle" xml:space="preserve">
+    <value>Приложения</value>
+  </data>
+  <data name="AttachmentGroup_AddendaGroupInformationMessage" xml:space="preserve">
+    <value>Приложений к документу нет</value>
+  </data>
+  <data name="AttachmentGroup_OtherGroupTitle" xml:space="preserve">
+    <value>Дополнительно</value>
+  </data>
+  <data name="AttachmentGroup_OtherGroupInformationMessage" xml:space="preserve">
+    <value>Вложений нет</value>
+  </data>
+  <data name="Property_AcquaintanceVersions" xml:space="preserve">
+    <value>Версии документов для ознакомления</value>
+  </data>
+  <data name="Ribbon_ReportGroup_ff4d194ebd114a24ba2f4a2f934ce241" xml:space="preserve">
+    <value>Ознакомление</value>
+  </data>
+  <data name="Action_ShowAcquaintanceReport" xml:space="preserve">
+    <value>Лист ознакомления</value>
+  </data>
+  <data name="Action_ShowAcquaintanceReportDescription" xml:space="preserve">
+    <value>Открытие листа ознакомления с документом</value>
+  </data>
+  <data name="Action_ShowAcquaintanceReportHint" xml:space="preserve">
+    <value>Открыть лист ознакомления</value>
+  </data>
+  <data name="Action_SaveToAcquaintanceList" xml:space="preserve">
+    <value>Сохранить список</value>
+  </data>
+  <data name="Action_SaveToAcquaintanceListDescription" xml:space="preserve">
+    <value>Сохранение состава участников ознакомления в новый список.</value>
+  </data>
+  <data name="Action_SaveToAcquaintanceListHint" xml:space="preserve">
+    <value>Сохранить участников ознакомления в список</value>
+  </data>
+  <data name="Action_FillFromAcquaintanceList" xml:space="preserve">
+    <value>Заполнить из списка</value>
+  </data>
+  <data name="Action_FillFromAcquaintanceListDescription" xml:space="preserve">
+    <value>Заполнение состава участников из списка ознакомления.</value>
+  </data>
+  <data name="Action_FillFromAcquaintanceListHint" xml:space="preserve">
+    <value>Заполнить участников из списка ознакомления</value>
+  </data>
+  <data name="Action_ShowAcquaintanceFormReport" xml:space="preserve">
+    <value>Распечатать бланк</value>
+  </data>
+  <data name="Action_ShowAcquaintanceFormReportDescription" xml:space="preserve">
+    <value>Печать бланка листа ознакомления для личного подписания сотрудниками.</value>
+  </data>
+  <data name="Action_ShowAcquaintanceFormReportHint" xml:space="preserve">
+    <value>Распечатать бланк листа ознакомления</value>
+  </data>
+  <data name="Action_ShowNotAutomatedEmployees" xml:space="preserve">
+    <value>Без учетных записей</value>
+  </data>
+  <data name="Action_ShowNotAutomatedEmployeesDescription" xml:space="preserve">
+    <value>Показать сотрудников без активных учетных записей, на которых не настроено замещение.</value>
+  </data>
+  <data name="Action_ShowNotAutomatedEmployeesHint" xml:space="preserve">
+    <value>Показать сотрудников без учетных записей</value>
+  </data>
+  <data name="Ribbon_EmployeesCommands_e5ed64437c164470a71c95af72753ef5" xml:space="preserve">
+    <value>Сотрудники</value>
+  </data>
+  <data name="Property_ExcludedPerformers" xml:space="preserve">
+    <value>Кроме</value>
+  </data>
+  <data name="Control_f5abf72c89374da09c589de1a18332e9_EmptyText" xml:space="preserve">
+    <value>Укажите сотрудников, которых нужно исключить из задачи на ознакомление…</value>
+  </data>
+  <data name="Action_StartConfirmationMessage" xml:space="preserve">
+    <value>Отправить задачу?</value>
+  </data>
+  <data name="Action_AbortConfirmationMessage" xml:space="preserve">
+    <value>Прекратить задачу?</value>
+  </data>
+  <data name="Action_RestartConfirmationMessage" xml:space="preserve">
+    <value>Рестартовать задачу?</value>
+  </data>
+  <data name="Action_StartByForceConfirmationMessage" xml:space="preserve">
+    <value>Отправить задачу?</value>
+  </data>
+  <data name="Action_DeleteEntityConfirmationMessage" xml:space="preserve">
+    <value>Удалить запись?</value>
+  </data>
+  <data name="Action_DeleteEntityConfirmationDescription" xml:space="preserve">
+    <value>Удаление записи отменить невозможно.</value>
+  </data>
+  <data name="Property_ReceiveOnCompletion" xml:space="preserve">
+    <value>По завершении получить</value>
+  </data>
+  <data name="Enum_ReceiveOnCompletion_Assignment" xml:space="preserve">
+    <value>Задание</value>
+  </data>
+  <data name="Enum_ReceiveOnCompletion_Notice" xml:space="preserve">
+    <value>Уведомление</value>
+  </data>
+  <data name="Action_ExcludeFromAcquaintance" xml:space="preserve">
+    <value>Исключить из ознакомления</value>
+  </data>
+  <data name="Action_ExcludeFromAcquaintanceDescription" xml:space="preserve">
+    <value>Исключение участников из процесса ознакомления с документом.</value>
+  </data>
+  <data name="Action_ExcludeFromAcquaintanceHint" xml:space="preserve">
+    <value>Исключить участников из ознакомления</value>
+  </data>
+  <data name="Ribbon_ExcludingGroup_065a91ea4db2435bb26a16065148ab58" xml:space="preserve">
+    <value>Исключение</value>
+  </data>
+  <data name="Block_59f552452b1e42e39f4962ec8c73cf2f" xml:space="preserve">
+    <value>Ознакомление с документом</value>
+  </data>
+  <data name="Block_02c0752abd6e4c19b1f354e7e7a896de" xml:space="preserve">
+    <value>Завершение работ по ознакомлению</value>
+  </data>
+  <data name="Block_cb69dcc5d5bc4ad699c5b8a914a85630" xml:space="preserve">
+    <value>Назначение прав участникам ознакомления</value>
+  </data>
+  <data name="ControlGroup_73e7c55ab14d49d89a690ed7d46bf563" xml:space="preserve">
+    <value>Основное</value>
+  </data>
+  <data name="ControlGroup_3849ac3b252941c6aa0d03907f402a05" xml:space="preserve">
+    <value>Вертикальная группа</value>
+  </data>
+</root>

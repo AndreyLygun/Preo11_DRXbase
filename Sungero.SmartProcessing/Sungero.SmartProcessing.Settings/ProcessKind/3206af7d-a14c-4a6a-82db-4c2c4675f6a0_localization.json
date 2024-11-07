@@ -1,0 +1,42 @@
+{
+  "Description": {
+    "default": "Verification of document package received from scanner or via email",
+    "ru-RU": "Верификация сотрудником комплекта документов, поступившего со сканера или электронной почты",
+    "hash": "1c1999c03f7843ba4c2d3fbbae8eed89"
+  },
+  "Instruction_SE_2": {
+    "default": "1. Make sure that each document of the package is fully captured.\n2. Repack documents if document pages are mixed,  imported by mistake, or have incorrect orientation.\n3. Open the card of each document. On the “Verification” tab, check the data filled in by the system.\n4. In the document card, on the “Properties” tab, specify the missing data, for example, the document subject.\n5. Change the type of documents if required.\n6. Register the documents if they are subject to registration.\n7. Send the documents for further processing.",
+    "ru-RU": "1. Убедитесь, что документы комплекта занесены в полном объеме.\n2. Если страницы документов следуют не по порядку, имеют неправильную ориентацию или занесены ошибочно, перекомплектуйте документы.\n3. На закладке \"Верификация\" в карточке каждого документа проверьте корректность данных, заполненных системой.\n4. На закладке \"Свойства\" укажите недостающие данные, например, содержание.\n5. При необходимости смените тип документов.\n6. Зарегистрируйте документы, если они подлежат регистрации.\n7. Отправьте документы на дальнейшую обработку.",
+    "hash": "26709a7dfa2f933f2d9e12f97fa60324"
+  },
+  "Name": {
+    "default": "Verification of document package",
+    "ru-RU": "Верификация комплекта документов",
+    "hash": "e0e6782c4ee59b63b8fa86987f09a66f"
+  },
+  "Subject_SE_2": {
+    "default": "{0}",
+    "ru-RU": "{0}",
+    "hash": "031926624c88fbc0578b59ea78a99849"
+  },
+  "ThreadSubject_SE_2": {
+    "default": "Verification",
+    "ru-RU": "Верификация",
+    "hash": "d88a232f905e3220b7a2101aafdc6a97"
+  },
+  "Title_SE_2": {
+    "default": "Verify document package",
+    "ru-RU": "Верификация комплекта документов",
+    "hash": "f51c1bbcbe5439cec369136a98a32e76"
+  },
+  "Title_SE_3": {
+    "default": "Process recognition of document types and properties",
+    "ru-RU": "Анализ распознавания типов документов и свойств",
+    "hash": "4c05af603530c982cf9d0c24fe111970"
+  },
+  "Title_SE_4": {
+    "default": "Process separation of package into documents",
+    "ru-RU": "Анализ разделения комплекта на документы",
+    "hash": "b34c557cc230d1b8a8cd93b4280b0f53"
+  }
+}

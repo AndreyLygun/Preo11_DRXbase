@@ -1,0 +1,12 @@
+{
+  "Description": {
+    "default": "Employee specified as a signatory in the document card.",
+    "ru-RU": "Сотрудник, указанный подписывающим в карточке документа.",
+    "hash": "032f338507ea6bc0c41c20d48c179f78"
+  },
+  "Name": {
+    "default": "Signatory",
+    "ru-RU": "Подписывающий",
+    "hash": "a81ce4996dcd2d64035947134218f9cb"
+  }
+}

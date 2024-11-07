@@ -1,0 +1,136 @@
+{
+  "$type": "Sungero.Metadata.EntityMetadata, Sungero.Metadata",
+  "NameGuid": "11c9727d-9fa1-4a08-8737-e3d174de5223",
+  "Name": "AccessRightsBulkQueueItem",
+  "AccessRightsMode": "NoRight",
+  "BaseGuid": "4e09273f-8b3a-489e-814e-a4ebfbba3e6c",
+  "CanBeNavigationPropertyType": true,
+  "CanBeUsedInIntegration": false,
+  "CreationAreaMetadata": {
+    "NameGuid": "f7766750-eee2-4fcd-8003-5c06a90d1f44",
+    "Name": "CreationArea",
+    "Buttons": [],
+    "IsAncestorMetadata": true,
+    "Versions": []
+  },
+  "ExtraSearchProperties": [],
+  "FilterPanel": {
+    "NameGuid": "b0125fbd-3b91-4dbb-914a-689276216404",
+    "Name": "FilterPanel",
+    "Controls": [],
+    "IsAncestorMetadata": true,
+    "Versions": []
+  },
+  "HandledEvents": [
+    "CreatedServer"
+  ],
+  "IconResourcesKeys": [],
+  "IntegrationServiceName": "DocflowAccessRightsBulkQueueItem",
+  "IsAutoCreated": true,
+  "OperationsClass": "",
+  "Overridden": [
+    "IsAutoCreated",
+    "NeedWriteHistory",
+    "CanBeUsedInIntegration"
+  ],
+  "Properties": [
+    {
+      "$type": "Sungero.Metadata.EnumPropertyMetadata, Sungero.Metadata",
+      "NameGuid": "8c23dbed-5e18-4155-ae12-f4d10095e30b",
+      "Name": "ProcessingStatus",
+      "DirectValues": [
+        {
+          "NameGuid": "52a65869-5f16-4457-a56f-b2abd5e87ce0",
+          "Name": "Scheduled",
+          "Code": "Scheduled"
+        },
+        {
+          "NameGuid": "1b39e907-325d-48c1-b1e3-e72bde8d38bf",
+          "Name": "InProcess",
+          "Code": "InProcess"
+        },
+        {
+          "NameGuid": "4fd18613-6c81-4548-a49d-5847cdc9c3ff",
+          "Name": "Processed",
+          "Code": "Processed"
+        },
+        {
+          "NameGuid": "4110d0ee-ee7f-48ed-8ac6-18a9456d5af5",
+          "Name": "Suspended",
+          "Code": "Suspended"
+        }
+      ],
+      "IsAncestorMetadata": true,
+      "Overridden": [
+        "Values"
+      ],
+      "Versions": []
+    },
+    {
+      "$type": "Sungero.Metadata.IntegerPropertyMetadata, Sungero.Metadata",
+      "NameGuid": "1e7b2103-12bf-49a5-9600-98c44f3b10c4",
+      "Name": "RuleId",
+      "Code": "RuleId",
+      "IsEnabled": false,
+      "ListDataBinderTypeName": "Sungero.Presentation.CommonDataBinders.NumericEditorToIntAndDoubleBinder",
+      "PreviousPropertyGuid": "86dd7602-3ca0-45fc-b623-52ebb1efc92e"
+    },
+    {
+      "$type": "Sungero.Metadata.TextPropertyMetadata, Sungero.Metadata",
+      "NameGuid": "18325f5f-05a3-4770-8225-1adcefb480d4",
+      "Name": "DocumentsIds",
+      "Code": "DocumentsIds",
+      "ListDataBinderTypeName": "Sungero.Presentation.CommonDataBinders.StringEditorToTextBinder",
+      "PreviousPropertyGuid": "1e7b2103-12bf-49a5-9600-98c44f3b10c4"
+    },
+    {
+      "$type": "Sungero.Metadata.StringPropertyMetadata, Sungero.Metadata",
+      "NameGuid": "76dcc74f-4178-4ff2-8220-5c8655bd4e5a",
+      "Name": "LaunchId",
+      "CanBeSearch": false,
+      "Code": "LaunchId",
+      "IsEnabled": false,
+      "IsVisibility": false,
+      "Length": 36,
+      "ListDataBinderTypeName": "Sungero.Presentation.CommonDataBinders.StringEditorToStringBinder",
+      "PreviousPropertyGuid": "18325f5f-05a3-4770-8225-1adcefb480d4"
+    },
+    {
+      "$type": "Sungero.Metadata.IntegerPropertyMetadata, Sungero.Metadata",
+      "NameGuid": "977c350b-a9b3-4a6a-8154-4f40eebebde5",
+      "Name": "Priority",
+      "CanBeSearch": false,
+      "Code": "Priority",
+      "IsEnabled": false,
+      "ListDataBinderTypeName": "Sungero.Presentation.CommonDataBinders.NumericEditorToIntAndDoubleBinder",
+      "PreviousPropertyGuid": "76dcc74f-4178-4ff2-8220-5c8655bd4e5a"
+    }
+  ],
+  "PublicStructures": [],
+  "ResourcesKeys": [],
+  "RibbonCardMetadata": {
+    "NameGuid": "4f4a0c1b-17c5-4793-aeb3-29ef8be3650e",
+    "Name": "RibbonCard",
+    "Categories": [],
+    "Elements": [],
+    "Groups": [],
+    "IsAncestorMetadata": true,
+    "Pages": [],
+    "RibbonKind": "Card"
+  },
+  "RibbonCollectionMetadata": {
+    "NameGuid": "7e4e6d72-9338-4baa-ac62-e0fa027bd401",
+    "Name": "RibbonCollection",
+    "Categories": [],
+    "Elements": [],
+    "Groups": [],
+    "IsAncestorMetadata": true,
+    "Pages": []
+  },
+  "Versions": [
+    {
+      "Type": "EntityMetadata",
+      "Number": 11
+    }
+  ]
+}

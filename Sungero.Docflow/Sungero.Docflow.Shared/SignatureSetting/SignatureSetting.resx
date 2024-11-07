@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="NegativeAmount" xml:space="preserve">
+    <value>Amount cannot be negative.</value>
+  </data>
+  <data name="IncorrectValidDates" xml:space="preserve">
+    <value>The expiration date of the signature setting must be later than the start date.</value>
+  </data>
+  <data name="DocumentAmountLessThen" xml:space="preserve">
+    <value> - documents with amount less than {0} {1}</value>
+  </data>
+  <data name="IncorrectValidTill" xml:space="preserve">
+    <value>Validity period of the signing authority must not exceed the one of the power of attorney.</value>
+  </data>
+  <data name="IncorrectDocumentType" xml:space="preserve">
+    <value>Select a power of attorney.</value>
+  </data>
+  <data name="IncompatibleDocumentKindsExcluded" xml:space="preserve">
+    <value>Incompatible document kinds have been excluded from criteria.</value>
+  </data>
+  <data name="IncompatibleCategoriesExcluded" xml:space="preserve">
+    <value>Incompatible contract categories have been excluded from criteria.</value>
+  </data>
+  <data name="DocumentCategories" xml:space="preserve">
+    <value> - contract categories </value>
+  </data>
+  <data name="DocumentAdditionalCategories" xml:space="preserve">
+    <value> and category </value>
+  </data>
+  <data name="DefaultSignatureSettingNote" xml:space="preserve">
+    <value>Business unit manager – all documents that belong to the business unit</value>
+  </data>
+  <data name="Statute" xml:space="preserve">
+    <value>Company charter</value>
+  </data>
+  <data name="DutiesDisplayName" xml:space="preserve">
+    <value>Official Duties ({0})</value>
+  </data>
+  <data name="FormalizedPoASigningReasonDocumentName" xml:space="preserve">
+    <value>POA</value>
+  </data>
+  <data name="SettingValidityPeriodShouldNotExtendDocumentValidityPeriod" xml:space="preserve">
+    <value>Signature setting validity period must be shorter or equal to the power of attorney validity period.</value>
+  </data>
+  <data name="SignatoryDataDoesNotMatchWithDocument" xml:space="preserve">
+    <value>The specified data does not match the underlying document.</value>
+  </data>
+  <data name="FormalizedPoATooManyBusinessUnits" xml:space="preserve">
+    <value>You can specify only one business unit in a signature setting based on a formalized power of attorney.</value>
+  </data>
+  <data name="FormalizedPoAIsNotActive" xml:space="preserve">
+    <value>Only a valid formalized POA can be specified in a signature setting.</value>
+  </data>
+</root>

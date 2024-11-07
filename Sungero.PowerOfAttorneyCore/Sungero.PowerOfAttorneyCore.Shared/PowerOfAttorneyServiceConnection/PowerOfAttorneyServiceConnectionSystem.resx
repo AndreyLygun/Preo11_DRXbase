@@ -1,0 +1,133 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Property_BusinessUnit" xml:space="preserve">
+    <value>Business unit</value>
+  </data>
+  <data name="DisplayName" xml:space="preserve">
+    <value>Connection of Business Unit to POA Service</value>
+  </data>
+  <data name="CollectionDisplayName" xml:space="preserve">
+    <value>Connections of Business Unit to POA Service</value>
+  </data>
+  <data name="AccusativeDisplayName" xml:space="preserve">
+    <value>Connection of Business Unit to POA Service</value>
+  </data>
+  <data name="Property_ServiceApp" xml:space="preserve">
+    <value>POA Service</value>
+  </data>
+  <data name="Property_OrganizationId" xml:space="preserve">
+    <value>ID in POA Service</value>
+  </data>
+  <data name="Property_ConnectionStatus" xml:space="preserve">
+    <value>Connection</value>
+  </data>
+  <data name="Enum_ConnectionStatus_Connected" xml:space="preserve">
+    <value>Established</value>
+  </data>
+  <data name="Enum_ConnectionStatus_Error" xml:space="preserve">
+    <value>An error occurred</value>
+  </data>
+  <data name="Property_Name" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="Property_Note" xml:space="preserve">
+    <value>Note</value>
+  </data>
+  <data name="ControlGroup_685d8eec112a4bd9beed5bf22e791c26" xml:space="preserve">
+    <value>Note</value>
+  </data>
+  <data name="Action_CheckConnection" xml:space="preserve">
+    <value>Check Connection</value>
+  </data>
+  <data name="Action_CheckConnectionDescription" xml:space="preserve">
+    <value>Check connection to the POA service</value>
+  </data>
+  <data name="Action_CheckConnectionHint" xml:space="preserve">
+    <value>Check connection to the POA service</value>
+  </data>
+  <data name="Action_CheckConnectionConfirmationMessage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Action_CheckConnectionConfirmationDescription" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Ribbon_ServiceSettings_9825d2f3d59745699dbd4f12f89df076" xml:space="preserve">
+    <value>Settings</value>
+  </data>
+  <data name="Action_ForceSave" xml:space="preserve">
+    <value>Save connection</value>
+  </data>
+  <data name="Action_ForceSaveDescription" xml:space="preserve">
+    <value>Save changes in connection</value>
+  </data>
+  <data name="Action_ForceSaveHint" xml:space="preserve">
+    <value>Save changes in connection</value>
+  </data>
+  <data name="Action_ForceSaveConfirmationMessage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Action_ForceSaveConfirmationDescription" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ControlGroup_5ab0bc4684c34885bb426b9c0a6d7b2f" xml:space="preserve">
+    <value>Service Connection</value>
+  </data>
+</root>

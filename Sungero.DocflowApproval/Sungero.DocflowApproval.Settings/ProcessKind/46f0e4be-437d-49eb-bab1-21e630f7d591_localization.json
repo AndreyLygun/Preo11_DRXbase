@@ -1,0 +1,390 @@
+{
+  "Description": {
+    "default": "Default approval process for contracts and supplemental agreements that includes sending documents to a counterparty and requesting their signature",
+    "ru-RU": "Типовой процесс для согласования договоров и дополнительных соглашений с отправкой контрагенту и запросом подписи получателя ",
+    "hash": "3d19647ab733e07ca99ee1eda95a9003"
+  },
+  "Description_11bd7fec-ea69-46a7-a942-0f2aa03a7568": {
+    "default": "Employee who sent assignment for rework to the assignee",
+    "ru-RU": "Сотрудник, который направил задание на доработку исполнителю",
+    "hash": "abad29740492883c186fbb5f39e2e36f"
+  },
+  "Description_26723c12-e852-441f-94b3-d8e197623e1a": {
+    "default": "Delivery method selected for document sending",
+    "ru-RU": "Способ доставки, который указан для передачи документа",
+    "hash": "8c60ee86b62e65c0ad5012c7adab3573"
+  },
+  "Description_57b6ce28-9ea1-45e9-805b-6cfcb1a3bec2": {
+    "default": "Employee who received the assignment for rework",
+    "ru-RU": "Сотрудник, которому направили задание на доработку",
+    "hash": "c7e0ddb79f36abc6b95db600b12b7e1d"
+  },
+  "Description_5f409ca6-3488-452a-8998-95727cc57114": {
+    "default": "Employees who must approve documents within the current task",
+    "ru-RU": "Сотрудники, с которыми необходимо согласовать документ в рамках текущей задачи",
+    "hash": "811a7ed81e7585513a75be7a7a192638"
+  },
+  "Description_7e39112c-82b4-4c22-a869-5af49ec31e05": {
+    "default": "Document exchange service specified for document sending",
+    "ru-RU": "Сервис обмена, который указан для передачи документа",
+    "hash": "0e90c17a77fa16234e1c18d6889290ae"
+  },
+  "Description_f7917b2d-6fa4-4e2b-899e-bd1c0ad9b5a7": {
+    "default": "Employees who must receive notices about sending the document to the next approval stage",
+    "ru-RU": "Сотрудники, которым необходимо отправить уведомление при отправке документа на повторное согласование",
+    "hash": "ed821876d28c137362b8407a808b2abf"
+  },
+  "Name": {
+    "default": "Default process of contractual document approval",
+    "ru-RU": "Процесс согласования договорных документов по умолчанию",
+    "hash": "ac8491f56bdfc0db244c3a9193fe9682"
+  },
+  "Name_11bd7fec-ea69-46a7-a942-0f2aa03a7568": {
+    "default": "Initiator of assignment for rework",
+    "ru-RU": "Отправитель задания на доработку",
+    "hash": "34297b4801de3d202d7a51583eb622ef"
+  },
+  "Name_26723c12-e852-441f-94b3-d8e197623e1a": {
+    "default": "Delivery method",
+    "ru-RU": "Способ доставки",
+    "hash": "df8412dcd5417253644ca87359cc8593"
+  },
+  "Name_57b6ce28-9ea1-45e9-805b-6cfcb1a3bec2": {
+    "default": "Responsible for rework",
+    "ru-RU": "Ответственный за доработку",
+    "hash": "ceaa9a4d3bef7fa2502ff38535b9ef13"
+  },
+  "Name_5f409ca6-3488-452a-8998-95727cc57114": {
+    "default": "Additional approvers",
+    "ru-RU": "Дополнительные согласующие",
+    "hash": "2079c6b972005587e6476fafd96783d4"
+  },
+  "Name_7e39112c-82b4-4c22-a869-5af49ec31e05": {
+    "default": "Document exchange service",
+    "ru-RU": "Сервис обмена",
+    "hash": "e2af359486e9476f34822bb75969ebfb"
+  },
+  "Name_f7917b2d-6fa4-4e2b-899e-bd1c0ad9b5a7": {
+    "default": "Recipients of notice on new approval stage",
+    "ru-RU": "Получатели уведомлений при повторном согласовании",
+    "hash": "d7d45efcf7becdabf04e5b3634526648"
+  },
+  "Subject_SE_1": {
+    "default": "Approve: {0}",
+    "ru-RU": "Согласуйте: {0}",
+    "hash": "76fe31b1d36124615ad5f4b3d8701635"
+  },
+  "Subject_SE_10": {
+    "default": "Registration: {0}",
+    "ru-RU": "Зарегистрируйте: {0}",
+    "hash": "b94eb2c5a8a1f53e73ea2e6e818416c3"
+  },
+  "Subject_SE_15": {
+    "default": "Document approved with suggestions: {0}",
+    "ru-RU": "Документ согласован с замечаниями: {0}",
+    "hash": "d75e1b83e6f60e632dd2693181cb87a2"
+  },
+  "Subject_SE_2": {
+    "default": "Approve: {0}",
+    "ru-RU": "Согласуйте: {0}",
+    "hash": "76fe31b1d36124615ad5f4b3d8701635"
+  },
+  "Subject_SE_21": {
+    "default": "Sending: {0}",
+    "ru-RU": "Отправьте:{0}",
+    "hash": "a28553ec176800a1c61a3455f5a63f11"
+  },
+  "Subject_SE_22": {
+    "default": "Print and sending: {0}",
+    "ru-RU": "Распечатайте и отправьте : {0}",
+    "hash": "d98308ec08d7314232b5ddda75e683e0"
+  },
+  "Subject_SE_24": {
+    "default": "Print and submit for signature: {0}",
+    "ru-RU": "Распечатайте и передайте на подпись: {0}",
+    "hash": "b4113894bf97c1247c8b42f36bbc1d11"
+  },
+  "Subject_SE_25": {
+    "default": "Sending: {0}",
+    "ru-RU": "Отправьте контрагенту: {0}",
+    "hash": "cafb3dfbb55c7c762e0b6fa861583373"
+  },
+  "Subject_SE_26": {
+    "default": "Document signed: {0}",
+    "ru-RU": "Подписан документ: {0}",
+    "hash": "39337435edb954506972a385bf1a86ad"
+  },
+  "Subject_SE_29": {
+    "default": "\nCheck return: {0}",
+    "ru-RU": "Проконтролируйте возврат: {0}",
+    "hash": "86e87a8aca23adc6cd3919eab805cb11"
+  },
+  "Subject_SE_3": {
+    "default": "Rework: {0}",
+    "ru-RU": "Доработайте: {0}",
+    "hash": "ca276ccb9ced9ddaeab9d482049bfc7e"
+  },
+  "Subject_SE_31": {
+    "default": "Document signed: {0}",
+    "ru-RU": "Подписан документ: {0}",
+    "hash": "39337435edb954506972a385bf1a86ad"
+  },
+  "Subject_SE_32": {
+    "default": "Approve: {0}",
+    "ru-RU": "Согласуйте: {0}",
+    "hash": "76fe31b1d36124615ad5f4b3d8701635"
+  },
+  "Subject_SE_36": {
+    "default": "Rework: {0}",
+    "ru-RU": "Доработайте: {0}",
+    "hash": "ca276ccb9ced9ddaeab9d482049bfc7e"
+  },
+  "Subject_SE_44": {
+    "default": "Document not signed: {0}",
+    "ru-RU": "Отказ подписании: {0}",
+    "hash": "9bd76c9b7a14df381febae959f6cad7a"
+  },
+  "Subject_SE_54": {
+    "default": "Approve: {0}",
+    "ru-RU": "Согласуйте: {0}",
+    "hash": "76fe31b1d36124615ad5f4b3d8701635"
+  },
+  "Subject_SE_58": {
+    "default": "Notification of assignment transfer for revision: {0}",
+    "ru-RU": "\nУведомление о передаче задания на доработку: {0}",
+    "hash": "75b101e92acd20c8217a61899e009310"
+  },
+  "Subject_SE_6": {
+    "default": "Document signed: {0}",
+    "ru-RU": "Подписание завершено: {0}",
+    "hash": "6d173e0e673b749a27f45123f42b4eb8"
+  },
+  "Subject_SE_7": {
+    "default": "Document approved with comments: {0}",
+    "ru-RU": "Документ согласован с замечаниями: {0}",
+    "hash": "d8cef56374876fec226b74615c2ffbe8"
+  },
+  "Subject_SE_72": {
+    "default": "Notice of sending document for reapproval: {0}",
+    "ru-RU": "Отправлен на повторное согласование: {0}",
+    "hash": "51fa4b62ed52e57c53671ed21d15f1b6"
+  },
+  "Subject_SE_8": {
+    "default": "Print: {0}",
+    "ru-RU": "Распечатайте: {0}",
+    "hash": "b36a9757d677ae88f4bd43796b24b44c"
+  },
+  "Subject_SE_9": {
+    "default": "Sign: {0}",
+    "ru-RU": "Подпишите: {0}",
+    "hash": "93e350663060bc255a72037dad5d266a"
+  },
+  "ThreadSubject_SE_1": {
+    "default": "Аpproval",
+    "ru-RU": "Согласование",
+    "hash": "feb26211dbd381f3d806ef6ccbe3eaf7"
+  },
+  "ThreadSubject_SE_10": {
+    "default": "Register",
+    "ru-RU": "Регистрация",
+    "hash": "c0608404e1f79d5eb98a8a8a67297227"
+  },
+  "ThreadSubject_SE_15": {
+    "default": "Document approved with suggestions",
+    "ru-RU": "Документ согласован с замечаниями",
+    "hash": "f321808adb5568938c761b34957551f2"
+  },
+  "ThreadSubject_SE_2": {
+    "default": "Аpproval",
+    "ru-RU": "Согласование",
+    "hash": "feb26211dbd381f3d806ef6ccbe3eaf7"
+  },
+  "ThreadSubject_SE_21": {
+    "default": "Send document",
+    "ru-RU": "Отправка документа",
+    "hash": "0c6d97a6230f15d2dd6889c5b70863bd"
+  },
+  "ThreadSubject_SE_22": {
+    "default": "Print and send documents",
+    "ru-RU": "Печать и отправка документа",
+    "hash": "d507e6ed1c9dc2eee171826d24ac9e68"
+  },
+  "ThreadSubject_SE_24": {
+    "default": "Printing",
+    "ru-RU": "Печать документа",
+    "hash": "dbe14a7b9a983a6980268f6bebfa1ddc"
+  },
+  "ThreadSubject_SE_25": {
+    "default": "Sending to recipient",
+    "ru-RU": "Отправка контрагенту",
+    "hash": "d193820edb20ff1df1004331bbad109d"
+  },
+  "ThreadSubject_SE_26": {
+    "default": "Document signed notice",
+    "ru-RU": "Подписан документ",
+    "hash": "79c7a18ec392b91fd5a4a363bafcdbe4"
+  },
+  "ThreadSubject_SE_29": {
+    "default": "Control return",
+    "ru-RU": "Контроль возврата",
+    "hash": "b7eca59a8fd7df87565cb4f5cc501a6f"
+  },
+  "ThreadSubject_SE_3": {
+    "default": "Rework",
+    "ru-RU": "Доработка",
+    "hash": "ab0eb9f9d0631491a8c038217f7d36b6"
+  },
+  "ThreadSubject_SE_31": {
+    "default": "Document signed notice",
+    "ru-RU": "Подписан документ",
+    "hash": "79c7a18ec392b91fd5a4a363bafcdbe4"
+  },
+  "ThreadSubject_SE_32": {
+    "default": "Аpproval",
+    "ru-RU": "Согласование",
+    "hash": "feb26211dbd381f3d806ef6ccbe3eaf7"
+  },
+  "ThreadSubject_SE_36": {
+    "default": "Rework",
+    "ru-RU": "Доработка",
+    "hash": "ab0eb9f9d0631491a8c038217f7d36b6"
+  },
+  "ThreadSubject_SE_44": {
+    "default": "Notice of refusal to sign {0}",
+    "ru-RU": "Отказ в подписании: {0}",
+    "hash": "c15b531dd7d72484a710f00660fb74a2"
+  },
+  "ThreadSubject_SE_54": {
+    "default": "Аpproval",
+    "ru-RU": "Согласование",
+    "hash": "feb26211dbd381f3d806ef6ccbe3eaf7"
+  },
+  "ThreadSubject_SE_58": {
+    "default": "Sent for rework",
+    "ru-RU": "Отправлен на доработку",
+    "hash": "9734754c83423b01bff3aa27d807ab25"
+  },
+  "ThreadSubject_SE_6": {
+    "default": "Notice of document signing",
+    "ru-RU": "Уведомление о завершении подписания",
+    "hash": "f2c96b783d826d34d4c0f4599f4a1ae6"
+  },
+  "ThreadSubject_SE_7": {
+    "default": "Document approved with comments",
+    "ru-RU": "Документ согласован с замечаниями",
+    "hash": "ff0a4718301a9869600970dfe9ebb273"
+  },
+  "ThreadSubject_SE_72": {
+    "default": "Notice of sending document for reapproval",
+    "ru-RU": "Отправлен на повторное согласование",
+    "hash": "ce860780b5fae1f2ef61c4da7dfc2137"
+  },
+  "ThreadSubject_SE_8": {
+    "default": "Print documents",
+    "ru-RU": "Печать документов",
+    "hash": "34ee6dd0a141af1ab559c00b283476ad"
+  },
+  "ThreadSubject_SE_9": {
+    "default": "Signing",
+    "ru-RU": "Подписание",
+    "hash": "6016c3b3d47608357d93ac07ff36433c"
+  },
+  "Title_SE_1": {
+    "default": "Approve by manager",
+    "ru-RU": "Согласование с руководителем"
+  },
+  "Title_SE_10": {
+    "default": "Register",
+    "ru-RU": "Регистрация"
+  },
+  "Title_SE_12": {
+    "default": "Skip approval by manager?",
+    "ru-RU": "Пропустить согласование с руководителем?",
+    "hash": "63170d98a33cecccc9fa7cf17e260a24"
+  },
+  "Title_SE_2": {
+    "default": "Approve by additional approvers",
+    "ru-RU": "Согласование с доп. согласующими"
+  },
+  "Title_SE_24": {
+    "default": "Printing",
+    "ru-RU": "Печать"
+  },
+  "Title_SE_25": {
+    "default": "Send to counterparty",
+    "ru-RU": "Отправка контрагенту"
+  },
+  "Title_SE_26": {
+    "default": "Notice of contract signing by counterparty",
+    "ru-RU": "Уведомление о подписании договора контрагентом"
+  },
+  "Title_SE_27": {
+    "default": "Wait for signing by counterparty",
+    "ru-RU": "Ожидание подписания контрагентом"
+  },
+  "Title_SE_29": {
+    "default": "Check return from counterparty",
+    "ru-RU": "Контроль возврата от контрагента"
+  },
+  "Title_SE_3": {
+    "default": "Rework",
+    "ru-RU": "Доработка"
+  },
+  "Title_SE_31": {
+    "default": "Notice to initatior about document signing",
+    "ru-RU": "Уведомление инициатора о подписании"
+  },
+  "Title_SE_39": {
+    "default": "Is document to be delivered on paper?",
+    "ru-RU": "Способ доставки – на бумажном носителе?",
+    "hash": "53ebc717176824358e1f55e3a63fe7fc"
+  },
+  "Title_SE_44": {
+    "default": "Notice of counterparty refusal to sign the contract",
+    "ru-RU": "Уведомление об отказе в подписании договора контрагентом"
+  },
+  "Title_SE_48": {
+    "default": "Convert to PDF",
+    "ru-RU": "Преобразование в PDF"
+  },
+  "Title_SE_54": {
+    "default": "Approve with chief accountant",
+    "ru-RU": "Согласование с главным бухгалтером"
+  },
+  "Title_SE_58": {
+    "default": "Notice of assigning new employee responsible for rework",
+    "ru-RU": "Уведомление о назначении ответственного за доработку"
+  },
+  "Title_SE_59": {
+    "default": "Is employee responsible for rework an initiator?",
+    "ru-RU": "Ответственный за доработку - инициатор?"
+  },
+  "Title_SE_63": {
+    "default": "Is contract signed by counterparty?",
+    "ru-RU": "Договор подписан контрагентом?",
+    "hash": "da693ada542ff5abeb79d16f54713b97"
+  },
+  "Title_SE_68": {
+    "default": "Is document to be delivered on paper?",
+    "ru-RU": "Способ доставки – на бумажном носителе?",
+    "hash": "53ebc717176824358e1f55e3a63fe7fc"
+  },
+  "Title_SE_72": {
+    "default": "Notice of new approval stage beginning",
+    "ru-RU": "Уведомление о новом круге согласования",
+    "hash": "3a38345d171fccadbb4e3152a3338247"
+  },
+  "Title_SE_73": {
+    "default": "Assign access rights to employee responsible for rework",
+    "ru-RU": "Назначение прав отв. за доработку",
+    "hash": "8d397b9222b19c3fe7e8ceff72b9345b"
+  },
+  "Title_SE_74": {
+    "default": "AND",
+    "ru-RU": "И"
+  },
+  "Title_SE_9": {
+    "default": "Signing",
+    "ru-RU": "Подписание"
+  }
+}

@@ -1,0 +1,231 @@
+{
+  "Action_Description_05cdf7bc439b42b39e4cab094e00567f": {
+    "default": "Stores information about representatives of your counterparties so you can contact them quickly.",
+    "ru-RU": "Информация о контактных лицах организаций.",
+    "hash": "4db4c9914567df896f8f9d89de6d1205"
+  },
+  "Action_Description_0aeb3cfa8e034f309ee666e7c8bb3112": {
+    "default": "Stores information about all individuals (counterparties, employees, contacts) that our company deals with.",
+    "ru-RU": "Физические лица (контрагенты, сотрудники, контакты), с которыми взаимодействует наша организация.",
+    "hash": "23e76a2f13dd39816d5190ece75cfdda"
+  },
+  "Action_Description_117c1fca1d98488cb5a8f2a1be998ba8": {
+    "default": "Powers of attorney, including formalized powers of attorney, issued to business unit employees.",
+    "ru-RU": "Доверенности, выданные сотрудникам нашей организации, в том числе электронные.",
+    "hash": "52da757e62a9b12cdbcffe8c99b48156"
+  },
+  "Action_Description_1dd1827ef0e748e997ddc02101958849": {
+    "default": "Contractual documents concluded, executed, terminated or cancelled during a specified period of time.",
+    "ru-RU": "Договорные документы, заключенные, исполненные, расторгнутые или аннулированные за определенный период.",
+    "hash": "b8f369863f6eea6bcc25318a5210ef45"
+  },
+  "Action_Description_344300e57f5a46ec8fe07a6519952c99": {
+    "default": "Contains the list of all contracts.",
+    "ru-RU": "Реестр договоров содержит список всех договоров.",
+    "hash": "01e5f16b9aa7082c7157d9b214246f5f"
+  },
+  "Action_Description_43e051d2ac3c4601a9f56e628e54fe66": {
+    "default": "List of all reports on document flow.",
+    "ru-RU": "Список всех отчетов по документообороту.",
+    "hash": "6a67149078f7959073189c6a793ac187"
+  },
+  "Action_Description_465c22f7704d4c89aa1458f1573cca19": {
+    "default": "Invoices issued to counterparties.",
+    "ru-RU": "Счета на оплату, выставленные контрагентам.",
+    "hash": "d6f4045ccf56fc630cdd7fd9d31d2be8"
+  },
+  "Action_Description_4bcce750e322469d9b642002b5ca6db0": {
+    "default": "Stores information about companies that our company deals with.",
+    "ru-RU": "Организации, с которыми взаимодействует наша компания.",
+    "hash": "3a083e0f61d291eb8b55405458bea5cc"
+  },
+  "Action_Description_5b47903e890b4b178824951e2c4968d1": {
+    "default": "Personal settings for working in the system.",
+    "ru-RU": "Личные настройки отдельных параметров работы системы.",
+    "hash": "070dffa0a403109e04b439983dd5923c"
+  },
+  "Action_Description_8034197ab98847cbbcc376412933ae60": {
+    "default": "List of documents that were not returned from departments.",
+    "ru-RU": "Перечень документов, которые не были возвращены из подразделений.",
+    "hash": "ca525ccc166282291437f2eaa222c95e"
+  },
+  "Action_Description_8b105de8113f4292b613bfc7ad21dd98": {
+    "default": "Create a new contract, supplemental agreement or appendix to contract.",
+    "ru-RU": "Быстрое создание договоров, дополнительных соглашений, приложений",
+    "hash": "c3b00d7a9056909895421e73af572781"
+  },
+  "Action_Description_b19de4b360634f2f946d62adb3a6bbef": {
+    "default": "Invoices received from counterparties.",
+    "ru-RU": "Счета на оплату, полученные от контрагентов.",
+    "hash": "126fd3132b153fe3e99a6c043f4f3c1d"
+  },
+  "Action_Description_b7a8482d3e2147b78bfedeee31c3d828": {
+    "default": "Contractual and financial documents sent to counterparties for signing that should be returned.",
+    "ru-RU": "Договорные и финансово-хозяйственные документы, которые отправлены контрагентам на подписание и возврат которых необходимо проконтролировать.",
+    "hash": "93b6bf5caf4a26f236f3457bcb3baaa7"
+  },
+  "Action_Description_de4eef5207a343e49c90f52c86ea434b": {
+    "default": "Search contractual documents by common registration data.",
+    "ru-RU": "Поиск договорных документов по основным регистрационным данным.",
+    "hash": "60447e895bcd6a81821fb614c45a3918"
+  },
+  "Action_Description_e3a422003a974b93b16ca13766953bf5": {
+    "default": "Contractual and financial documents submitted to employees that should be returned.",
+    "ru-RU": "Договорные и финансово-хозяйственные документы, которые выданы сотрудникам и подлежат возврату.",
+    "hash": "8b3ac4d4e8d3642edf556cc59656c6c3"
+  },
+  "Action_Description_edf7e27deea1469aa961e29e3b7f3319": {
+    "default": "Contractual documents whose validity period is about to expire.",
+    "ru-RU": "Договорные документы, срок действия которых подходит к концу.",
+    "hash": "fa8a4949a8f08c796f942bb265b5a8fe"
+  },
+  "Action_Description_f4fee943505049bf996412e8536acae7": {
+    "default": "Search for contractual documents related to a specific counterparty.",
+    "ru-RU": "Показать все договорные документы, связанные с указанным контрагентом.",
+    "hash": "446217ce0e572cc549c1fa6bb5c29e94"
+  },
+  "Action_Title_05cdf7bc439b42b39e4cab094e00567f": {
+    "default": "Contact Persons",
+    "ru-RU": "Контакты",
+    "hash": "e07b077cefa44d1fd9fa0412a53214fd"
+  },
+  "Action_Title_0aeb3cfa8e034f309ee666e7c8bb3112": {
+    "default": "Persons",
+    "ru-RU": "Персоны",
+    "hash": "2fcc675fa94cac470934d87696f017ca"
+  },
+  "Action_Title_117c1fca1d98488cb5a8f2a1be998ba8": {
+    "default": "Power of Attorney List",
+    "ru-RU": "Реестр доверенностей",
+    "hash": "0a6fc01bc02e855d70f2bc1ec2f41ca8"
+  },
+  "Action_Title_1dd1827ef0e748e997ddc02101958849": {
+    "default": "Contract History",
+    "ru-RU": "История договоров",
+    "hash": "97f1f5f69246bf750707be69663038f6"
+  },
+  "Action_Title_344300e57f5a46ec8fe07a6519952c99": {
+    "default": "Contract List",
+    "ru-RU": "Реестр договоров",
+    "hash": "220b11231dcebbc6df4cc0964f8956d8"
+  },
+  "Action_Title_43e051d2ac3c4601a9f56e628e54fe66": {
+    "default": "All Reports",
+    "ru-RU": "Все отчеты",
+    "hash": "a7888b33b5089d380498792cb7b091f6"
+  },
+  "Action_Title_465c22f7704d4c89aa1458f1573cca19": {
+    "default": "Outgoing Invoices",
+    "ru-RU": "Исходящие счета",
+    "hash": "a16ea6da85e785a2903642453ed58200"
+  },
+  "Action_Title_4bcce750e322469d9b642002b5ca6db0": {
+    "default": "Companies",
+    "ru-RU": "Организации",
+    "hash": "2a40c8a277ebc700e9f4c92c2b3b8186"
+  },
+  "Action_Title_5b47903e890b4b178824951e2c4968d1": {
+    "default": "Personal Settings",
+    "ru-RU": "Персональные настройки",
+    "hash": "816ac553d3c885c5ec617e3a207da9c8"
+  },
+  "Action_Title_8034197ab98847cbbcc376412933ae60": {
+    "default": "Check Document Return",
+    "ru-RU": "Контроль возврата документов",
+    "hash": "a784f02d331459fab8d2bcb81a47a99c"
+  },
+  "Action_Title_8b105de8113f4292b613bfc7ad21dd98": {
+    "default": "New Document",
+    "ru-RU": "Создать документ",
+    "hash": "505c1f1703ca0d50878e24fafa099a10"
+  },
+  "Action_Title_b19de4b360634f2f946d62adb3a6bbef": {
+    "default": "Incoming Invoices",
+    "ru-RU": "Входящие счета",
+    "hash": "e53a5fb8586b84cc9926bf14958d1acf"
+  },
+  "Action_Title_b7a8482d3e2147b78bfedeee31c3d828": {
+    "default": "Held by Counterparties",
+    "ru-RU": "Документы у контрагентов",
+    "hash": "d73c1ac8bdaf9cef614d18b5ce3d0bf0"
+  },
+  "Action_Title_de4eef5207a343e49c90f52c86ea434b": {
+    "default": "Search by Registration Data",
+    "ru-RU": "Поиск по регистрационным данным",
+    "hash": "4ab3b2c64821992a8863adbf45627c18"
+  },
+  "Action_Title_e3a422003a974b93b16ca13766953bf5": {
+    "default": "Held by Employees",
+    "ru-RU": "Документы у сотрудников",
+    "hash": "624c816de3085e6658f5246c4355f92a"
+  },
+  "Action_Title_edf7e27deea1469aa961e29e3b7f3319": {
+    "default": "Set to Expire Soon",
+    "ru-RU": "Договоры на завершении",
+    "hash": "ad1b0f541cf0a8f93f17a5fa1b431384"
+  },
+  "Action_Title_f4fee943505049bf996412e8536acae7": {
+    "default": "Search by Counterparty",
+    "ru-RU": "Договорные документы по контрагенту",
+    "hash": "3a734a2d262ac708688b43edaca4ff2d"
+  },
+  "Group_Title_0bc02f81ffb543b6bb94a215e7300f3b": {
+    "default": "Settings",
+    "ru-RU": "Настройки",
+    "hash": "57b7fc0bc0d4865c3c17bc04940219ff"
+  },
+  "Group_Title_2e158e3c772840219e5115f9d80000c5": {
+    "default": "Related Information",
+    "ru-RU": "Связанная информация",
+    "hash": "4f3a6a60b3de9b5162f268b4b1aa8fdf"
+  },
+  "Group_Title_56c4b4c3df744ae7bbe1f72b4d7d98d3": {
+    "default": "Document Search",
+    "ru-RU": "Поиск документов",
+    "hash": "5653f38c1dd166b7a1442fdbbf4d88f2"
+  },
+  "Group_Title_6eec2949e2a64c64b40cdc453b29a540": {
+    "default": "Contractual Documents",
+    "ru-RU": "Договорные документы",
+    "hash": "609095ce8d7a50fba4412e27ccced98a"
+  },
+  "Group_Title_701f6dda9ea14207b3ee5397a10eb63c": {
+    "default": "Reports",
+    "ru-RU": "Отчеты",
+    "hash": "269295bfcf8b9d5f4d39a3bda47e4e2f"
+  },
+  "Group_Title_804f5c35616347f496c66549ec1a6d22": {
+    "default": "Powers of Attorney",
+    "ru-RU": "Доверенности",
+    "hash": "0e625caeee5b6ad4f7a57d1096a7038d"
+  },
+  "Group_Title_844ff58811ae4c70aa321f933bdbdfc8": {
+    "default": "Invoices",
+    "ru-RU": "Счета",
+    "hash": "b277f89eacf0e599fa6149dff674648b"
+  },
+  "Group_Title_8b6647a6fb474dfab723ac8ed7fb3bd2": {
+    "default": "Control",
+    "ru-RU": "Контроль",
+    "hash": "fdeeebff7cbacc5bdd28e019a0c76137"
+  },
+  "Header_Description_aeb46ace0f57455ebb73b5e17ae75de0": {
+    "default": "This module is where you can automate your contract management process.",
+    "ru-RU": "Модуль предназначен для автоматизации работы с договорными документами",
+    "hash": "f693c570ce663ca83c7447ac73cfbce5"
+  },
+  "Header_Title_aeb46ace0f57455ebb73b5e17ae75de0": {
+    "default": "Contracts",
+    "ru-RU": "Договоры",
+    "hash": "bb1058643733e0e659f85d26fcd0fe25"
+  },
+  "Name": {
+    "default": "Contracts",
+    "ru-RU": "Договоры",
+    "hash": "bb1058643733e0e659f85d26fcd0fe25"
+  },
+  "Tab_Title_806cb1306d604d52bd62a9036068f7a0": {
+    "default": "Tab",
+    "hash": "308b6abade3f7962098e8bd8cb7db726"
+  }
+}

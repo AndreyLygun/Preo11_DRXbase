@@ -1,0 +1,9 @@
+{
+  "$type": "Sungero.DataExport.ExportingObject, Sungero.DataExport",
+  "Uuid": "6ea9a047-b597-42eb-8f90-da8c559dd057",
+  "ModuleNameGuid": "593dcc11-15ee-49f2-b4ef-bf4cf7867055",
+  "HelpCode": "sungero_meetingsui",
+  "Status": "Active",
+  "SortingPriority": "High",
+  "StoreAsDefaultSetting": true
+}

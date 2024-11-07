@@ -1,0 +1,20 @@
+{
+  "Control_Caption_0b77ae2859e04446b2fc2c26dc6197cb": {
+    "en-US": "Subject",
+    "ru-RU": "Тема"
+  },
+  "Description": {
+    "en-US": "View of an assignment to accept work for employees included in role \"Users of manager's interface\".",
+    "ru-RU": "Отображение карточки задания на приемку для пользователей, которые входят в роль \"Пользователи интерфейса для руководителей\".",
+    "hash": "ad74da462a4c6d67db847977ad15a622"
+  },
+  "Name": {
+    "en-US": "Assignment to accept work by supervisor (for managers)",
+    "ru-RU": "Задание на приемку работ (для руководителей)",
+    "hash": "de5d9b667e0af7cca5e4edd9075f81e9"
+  },
+  "Thread_Title_a2b1a03300e7415c9eca8ae12d0ed849": {
+    "en-US": "Thread",
+    "ru-RU": "Переписка"
+  }
+}

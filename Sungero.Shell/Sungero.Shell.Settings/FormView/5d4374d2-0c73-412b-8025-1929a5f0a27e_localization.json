@@ -1,0 +1,20 @@
+{
+  "Control_Caption_50defd3f3a9b4315aad689eabca8c757": {
+    "en-US": "Subject",
+    "ru-RU": "Тема"
+  },
+  "Description": {
+    "en-US": "View of an assignment to check document return for employees included in role \"Users of manager's interface\" (within rule-based approval).",
+    "ru-RU": "Отображение карточки задания на контроль возврата (регламент) для пользователей, которые входят в роль \"Пользователи интерфейса для руководителей\".",
+    "hash": "cb632f255ec8b21fb9ab85e12466dbe5"
+  },
+  "Name": {
+    "en-US": "Assignment to check document return within rule-based approval (for managers)",
+    "ru-RU": "Задание на контроль возврата (для руководителей) в согласовании по регламенту",
+    "hash": "3aa4cae63f5d67588abb32175f0be70c"
+  },
+  "Thread_Title_a2b1a03300e7415c9eca8ae12d0ed849": {
+    "en-US": "Thread",
+    "ru-RU": "Переписка"
+  }
+}

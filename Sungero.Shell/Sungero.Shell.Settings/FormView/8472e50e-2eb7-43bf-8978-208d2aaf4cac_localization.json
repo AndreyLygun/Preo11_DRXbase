@@ -1,0 +1,19 @@
+{
+  "Control_Caption_a20d706c589c41d0acf441de09ea2a2c": {
+    "en-US": "Subject",
+    "ru-RU": "Тема"
+  },
+  "ControlGroup1_Caption_ebfeb539df3646ebb16c88e4afe77109": {
+    "ru-RU": "Основное"
+  },
+  "Description": {
+    "en-US": "View of an assignment to check return for employees included in role \"Users of manager's interface\" (within a no-code task).",
+    "ru-RU": "Отображение карточки задания на контроль возврата (no-code) для пользователей, которые входят в роль \"Пользователи интерфейса для руководителей\".",
+    "hash": "836e459e1ebaf8fc2283383f8f62437a"
+  },
+  "Name": {
+    "en-US": "Assignment to check document return (for managers)",
+    "ru-RU": "Задание на контроль возврата документа (для руководителей)",
+    "hash": "521e4d1c1df8dc0c350bf097e8630307"
+  }
+}

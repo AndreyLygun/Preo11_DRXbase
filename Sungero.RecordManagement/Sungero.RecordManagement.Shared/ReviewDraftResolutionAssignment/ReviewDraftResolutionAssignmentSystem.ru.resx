@@ -1,0 +1,163 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Action_ForExecutionDescription" xml:space="preserve">
+    <value>Утверждение проекта резолюции.
+
+Поручения из проекта резолюции отправятся на исполнение.</value>
+  </data>
+  <data name="Action_ForExecutionConfirmationMessage" xml:space="preserve">
+    <value>Утвердить проект резолюции и отправить поручения в работу?</value>
+  </data>
+  <data name="Action_ForExecutionHint" xml:space="preserve">
+    <value>Утвердить проект резолюции</value>
+  </data>
+  <data name="Enum_Result_ForExecution" xml:space="preserve">
+    <value>Отправить на исполнение</value>
+  </data>
+  <data name="Action_ForExecution" xml:space="preserve">
+    <value>Утвердить проект резолюции</value>
+  </data>
+  <data name="AccusativeDisplayName" xml:space="preserve">
+    <value>Рассмотрение руководителем</value>
+  </data>
+  <data name="DisplayName" xml:space="preserve">
+    <value>Рассмотрение руководителем</value>
+  </data>
+  <data name="CollectionDisplayName" xml:space="preserve">
+    <value>Задания на рассмотрение руководителем</value>
+  </data>
+  <data name="Enum_Result_Informed" xml:space="preserve">
+    <value>Принято к сведению</value>
+  </data>
+  <data name="Action_Informed" xml:space="preserve">
+    <value>Принято к сведению</value>
+  </data>
+  <data name="Action_InformedHint" xml:space="preserve">
+    <value>Документ принят к сведению</value>
+  </data>
+  <data name="Action_InformedConfirmationMessage" xml:space="preserve">
+    <value>Завершить рассмотрение документа без отправки поручений в работу?</value>
+  </data>
+  <data name="Action_InformedDescription" xml:space="preserve">
+    <value>Ознакомление с документом без вынесения резолюции и отправки его в работу.
+
+Поручения из проекта резолюции удалятся.</value>
+  </data>
+  <data name="ControlGroup_98b3598573134efca29ff0e5523886f7" xml:space="preserve">
+    <value>Проект резолюции</value>
+  </data>
+  <data name="Enum_Result_AddResolution" xml:space="preserve">
+    <value>Вернуть помощнику</value>
+  </data>
+  <data name="Action_AddResolution" xml:space="preserve">
+    <value>Вернуть помощнику</value>
+  </data>
+  <data name="Action_AddResolutionHint" xml:space="preserve">
+    <value>Вернуть проект резолюции на доработку</value>
+  </data>
+  <data name="Action_AddResolutionConfirmationMessage" xml:space="preserve">
+    <value>Отправить проект резолюции на доработку?</value>
+  </data>
+  <data name="Action_AddResolutionDescription" xml:space="preserve">
+    <value>Отправка проекта резолюции помощнику на доработку.</value>
+  </data>
+  <data name="Enum_Result_Forward" xml:space="preserve">
+    <value>Переадресовать рассмотрение</value>
+  </data>
+  <data name="Action_Forward" xml:space="preserve">
+    <value>Переадресовать рассмотрение</value>
+  </data>
+  <data name="Action_ForwardHint" xml:space="preserve">
+    <value>Переадресовать рассмотрение документа</value>
+  </data>
+  <data name="Action_ForwardConfirmationMessage" xml:space="preserve">
+    <value>Переадресовать рассмотрение документа?</value>
+  </data>
+  <data name="Action_ForwardDescription" xml:space="preserve">
+    <value>Отправка документа на рассмотрение другому сотруднику.
+
+Поручения из проекта резолюции удалятся.</value>
+  </data>
+  <data name="Property_Addressee" xml:space="preserve">
+    <value>Переадресовать сотруднику</value>
+  </data>
+  <data name="Property_NeedDeleteActionItems" xml:space="preserve">
+    <value>Удалять проект резолюции</value>
+  </data>
+  <data name="Ribbon_AsgGroup_ac82503a7a4749d0b90c9bb512c4559c" xml:space="preserve">
+    <value>Рассмотрение</value>
+  </data>
+  <data name="Ribbon_DraftRresolutionGroup_311d41bac996490f92423bcb37e1cb74" xml:space="preserve">
+    <value>Проект резолюции</value>
+  </data>
+  <data name="Ribbon_MainPage_21a316275f5844168c4a90f538ee2e57" xml:space="preserve">
+    <value>Главная</value>
+  </data>
+  <data name="Footer_ActiveEmptyText" xml:space="preserve">
+    <value>Текст задания…</value>
+  </data>
+  <data name="ControlGroup_ebfeb539df3646ebb16c88e4afe77109" xml:space="preserve">
+    <value>Основное</value>
+  </data>
+  <data name="ControlGroup_4917364762724459ab15867c0b3c85a2" xml:space="preserve">
+    <value>Горизонтальная группа</value>
+  </data>
+</root>

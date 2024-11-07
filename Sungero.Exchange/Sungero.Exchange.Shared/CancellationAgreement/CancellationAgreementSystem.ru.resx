@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="DisplayName" xml:space="preserve">
+    <value>Соглашение об аннулировании</value>
+  </data>
+  <data name="AccusativeDisplayName" xml:space="preserve">
+    <value>Соглашение об аннулировании</value>
+  </data>
+  <data name="CollectionDisplayName" xml:space="preserve">
+    <value>Соглашения об аннулировании</value>
+  </data>
+  <data name="Property_Reason" xml:space="preserve">
+    <value>Причина аннулирования</value>
+  </data>
+  <data name="Resource_fc50c88831554ff196e8ff7064894ead" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Control_fc50c88831554ff196e8ff7064894ead_EmptyText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Resource_ddf41ead829a4a3f8d12d40a52b7440c" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Control_ddf41ead829a4a3f8d12d40a52b7440c_EmptyText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Resource_a915c070568d4f08a7365fbdabe9e559" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Control_a915c070568d4f08a7365fbdabe9e559_EmptyText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Resource_89c5c5d1362044b082a83f12ccaf3a47" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Control_89c5c5d1362044b082a83f12ccaf3a47_EmptyText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Resource_560833ba36b94d9cb995526605b7a18c" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Control_560833ba36b94d9cb995526605b7a18c_EmptyText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Resource_ec6b0466845548209befc1355479c1ec" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Control_ec6b0466845548209befc1355479c1ec_EmptyText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Resource_36145f13dd4145b794a8125baff136b5" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Control_36145f13dd4145b794a8125baff136b5_EmptyText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Property_ServiceDocumentId" xml:space="preserve">
+    <value>ИД документа в СО</value>
+  </data>
+  <data name="Enum_LifeCycleState_Obsolete" xml:space="preserve">
+    <value>Устаревший</value>
+  </data>
+</root>

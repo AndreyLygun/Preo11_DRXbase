@@ -1,0 +1,336 @@
+{
+  "$type": "Sungero.Metadata.EntityMetadata, Sungero.Metadata",
+  "NameGuid": "66bde409-ecf7-4982-9278-c4da37e57fec",
+  "Name": "HistoricalMessagesDownloadSession",
+  "BaseGuid": "04581d26-0780-4cfd-b3cd-c2cafc5798b0",
+  "CanBeNavigationPropertyType": true,
+  "CanBeUsedInIntegration": true,
+  "Code": "HxMsgDLSession",
+  "CreationAreaMetadata": {
+    "NameGuid": "f7766750-eee2-4fcd-8003-5c06a90d1f44",
+    "Name": "CreationArea",
+    "Buttons": [],
+    "IsAncestorMetadata": true
+  },
+  "ExtraSearchProperties": [],
+  "FilterPanel": {
+    "NameGuid": "b0125fbd-3b91-4dbb-914a-689276216404",
+    "Name": "FilterPanel",
+    "Controls": [],
+    "IsAncestorMetadata": true
+  },
+  "Forms": [
+    {
+      "$type": "Sungero.Metadata.StandaloneFormMetadata, Sungero.Metadata",
+      "NameGuid": "d17878bd-f9a7-4abb-b1e3-8806ee0ebd0a",
+      "Name": "Card",
+      "Controls": [
+        {
+          "$type": "Sungero.Metadata.ControlGroupMetadata, Sungero.Metadata",
+          "NameGuid": "f205026b-10bb-4aa9-a8dd-78a7a9f0cc7f",
+          "Name": "DownloadSession",
+          "ColumnDefinitions": [
+            {
+              "Percentage": 50.0
+            },
+            {
+              "Percentage": 50.0
+            }
+          ]
+        },
+        {
+          "$type": "Sungero.Metadata.ControlMetadata, Sungero.Metadata",
+          "NameGuid": "13a4f96e-55a1-4902-a65b-b177790b4324",
+          "Name": "PeriodStartDate",
+          "ColumnNumber": 0,
+          "ColumnSpan": 1,
+          "DataBinderTypeName": "Sungero.Presentation.CommonDataBinders.DateTimeEditorToDateTimeBinder",
+          "ParentGuid": "f205026b-10bb-4aa9-a8dd-78a7a9f0cc7f",
+          "PropertyGuid": "fc0b0fb0-9964-4124-be3c-5080d7661be0",
+          "RowNumber": 1,
+          "RowSpan": 1,
+          "Settings": []
+        },
+        {
+          "$type": "Sungero.Metadata.ControlMetadata, Sungero.Metadata",
+          "NameGuid": "208acc1f-d551-4267-9fa1-9aa0043cbc97",
+          "Name": "PeriodEndDate",
+          "ColumnNumber": 1,
+          "ColumnSpan": 1,
+          "DataBinderTypeName": "Sungero.Presentation.CommonDataBinders.DateTimeEditorToDateTimeBinder",
+          "ParentGuid": "f205026b-10bb-4aa9-a8dd-78a7a9f0cc7f",
+          "PropertyGuid": "f1ffbdcd-d739-4d02-b6e7-a9027c0ee473",
+          "RowNumber": 1,
+          "RowSpan": 1,
+          "Settings": []
+        },
+        {
+          "$type": "Sungero.Metadata.ControlMetadata, Sungero.Metadata",
+          "NameGuid": "e4a80edc-b859-46fd-8c40-2ff5e2fb6d0e",
+          "Name": "BusinessUnitBox",
+          "ColumnNumber": 0,
+          "ColumnSpan": 1,
+          "DataBinderTypeName": "Sungero.Presentation.CommonDataBinders.DropDownEditorToNavigationBinder",
+          "ParentGuid": "f205026b-10bb-4aa9-a8dd-78a7a9f0cc7f",
+          "PropertyGuid": "796c622f-4bb7-4505-8fcc-83d73f065bcf",
+          "RowNumber": 0,
+          "RowSpan": 1,
+          "Settings": []
+        },
+        {
+          "$type": "Sungero.Metadata.ControlMetadata, Sungero.Metadata",
+          "NameGuid": "e937329d-6f4e-47b7-89e5-b52efcc02743",
+          "Name": "CurrentUploadDate",
+          "ColumnNumber": 0,
+          "ColumnSpan": 1,
+          "DataBinderTypeName": "Sungero.Presentation.CommonDataBinders.DateTimeEditorToDateTimeBinder",
+          "ParentGuid": "f205026b-10bb-4aa9-a8dd-78a7a9f0cc7f",
+          "PropertyGuid": "40d21491-35f1-484c-a0e1-af6eb87465ac",
+          "RowNumber": 2,
+          "RowSpan": 1,
+          "Settings": []
+        },
+        {
+          "$type": "Sungero.Metadata.ControlMetadata, Sungero.Metadata",
+          "NameGuid": "b78c7932-389c-440d-8b8f-4946b9e39bca",
+          "Name": "DownloadStatus",
+          "ColumnNumber": 1,
+          "ColumnSpan": 1,
+          "DataBinderTypeName": "Sungero.Presentation.CommonDataBinders.DropDownEditorToEnumerationBinder",
+          "ParentGuid": "f205026b-10bb-4aa9-a8dd-78a7a9f0cc7f",
+          "PropertyGuid": "808b2b97-e059-4982-bc17-16d638bd7b23",
+          "RowNumber": 0,
+          "RowSpan": 1,
+          "Settings": []
+        },
+        {
+          "$type": "Sungero.Metadata.ControlMetadata, Sungero.Metadata",
+          "NameGuid": "b950bfbc-e07a-4905-9cf8-05e6d42b24a3",
+          "Name": "LastIncomingMessageId",
+          "ColumnNumber": 0,
+          "ColumnSpan": 1,
+          "DataBinderTypeName": "Sungero.Presentation.CommonDataBinders.StringEditorToStringBinder",
+          "ParentGuid": "f205026b-10bb-4aa9-a8dd-78a7a9f0cc7f",
+          "PropertyGuid": "52d07f27-07a9-4b14-916b-38b04b6ac13b",
+          "RowNumber": 3,
+          "RowSpan": 1,
+          "Settings": []
+        },
+        {
+          "$type": "Sungero.Metadata.ControlMetadata, Sungero.Metadata",
+          "NameGuid": "6cabe1d2-1d3f-4c69-b8e4-d23ae0c7c3e3",
+          "Name": "LastOutgoingMessageId",
+          "ColumnNumber": 1,
+          "ColumnSpan": 1,
+          "DataBinderTypeName": "Sungero.Presentation.CommonDataBinders.StringEditorToStringBinder",
+          "ParentGuid": "f205026b-10bb-4aa9-a8dd-78a7a9f0cc7f",
+          "PropertyGuid": "706f106b-6a63-45d1-9d1f-9bc92742a716",
+          "RowNumber": 2,
+          "RowSpan": 1,
+          "Settings": []
+        }
+      ]
+    }
+  ],
+  "HandledEvents": [
+    "BeforeSaveServer"
+  ],
+  "IconResourcesKeys": [],
+  "IsAutoCreated": true,
+  "IsVisible": false,
+  "OperationsClass": "",
+  "Overridden": [
+    "IsAutoCreated",
+    "IsVisible",
+    "CanBeUsedInIntegration",
+    "HideFromNavigationEditorCreationArea",
+    "HideFromCreationArea"
+  ],
+  "Properties": [
+    {
+      "$type": "Sungero.Metadata.StringPropertyMetadata, Sungero.Metadata",
+      "NameGuid": "b752e915-1848-4b70-b452-6dcb2f01d8d5",
+      "Name": "Name",
+      "Code": "Name",
+      "IsDisplayValue": true,
+      "IsQuickSearchAllowed": true,
+      "ListDataBinderTypeName": "Sungero.Presentation.CommonDataBinders.StringEditorToStringBinder",
+      "PreviousPropertyGuid": "1dcedc29-5140-4770-ac92-eabc212326a1"
+    },
+    {
+      "$type": "Sungero.Metadata.DateTimePropertyMetadata, Sungero.Metadata",
+      "NameGuid": "fc0b0fb0-9964-4124-be3c-5080d7661be0",
+      "Name": "PeriodBegin",
+      "CanBeSearch": false,
+      "Code": "PeriodBegin",
+      "IsRequired": true,
+      "ListDataBinderTypeName": "Sungero.Presentation.CommonDataBinders.DateTimeEditorToDateTimeBinder",
+      "PreviousPropertyGuid": "b752e915-1848-4b70-b452-6dcb2f01d8d5"
+    },
+    {
+      "$type": "Sungero.Metadata.DateTimePropertyMetadata, Sungero.Metadata",
+      "NameGuid": "f1ffbdcd-d739-4d02-b6e7-a9027c0ee473",
+      "Name": "PeriodEnd",
+      "CanBeSearch": false,
+      "Code": "PeriodEnd",
+      "IsRequired": true,
+      "ListDataBinderTypeName": "Sungero.Presentation.CommonDataBinders.DateTimeEditorToDateTimeBinder",
+      "PreviousPropertyGuid": "fc0b0fb0-9964-4124-be3c-5080d7661be0"
+    },
+    {
+      "$type": "Sungero.Metadata.NavigationPropertyMetadata, Sungero.Metadata",
+      "NameGuid": "796c622f-4bb7-4505-8fcc-83d73f065bcf",
+      "Name": "BusinessUnitBox",
+      "CanBeSearch": false,
+      "Code": "BUnitBox",
+      "EntityGuid": "2dd7a803-8db7-40e1-9da6-b41c62d367c8",
+      "FlatListInStandaloneLookup": true,
+      "IsRequired": true,
+      "ListDataBinderTypeName": "Sungero.Presentation.CommonDataBinders.DropDownEditorToNavigationBinder",
+      "PreviousPropertyGuid": "f1ffbdcd-d739-4d02-b6e7-a9027c0ee473"
+    },
+    {
+      "$type": "Sungero.Metadata.DateTimePropertyMetadata, Sungero.Metadata",
+      "NameGuid": "40d21491-35f1-484c-a0e1-af6eb87465ac",
+      "Name": "LastMessageDate",
+      "CanBeSearch": false,
+      "Code": "LastMsgDate",
+      "DateTimeFormat": "DateTime",
+      "ListDataBinderTypeName": "Sungero.Presentation.CommonDataBinders.DateTimeEditorToDateTimeBinder",
+      "PreviousPropertyGuid": "706f106b-6a63-45d1-9d1f-9bc92742a716"
+    },
+    {
+      "$type": "Sungero.Metadata.EnumPropertyMetadata, Sungero.Metadata",
+      "NameGuid": "808b2b97-e059-4982-bc17-16d638bd7b23",
+      "Name": "DownloadingState",
+      "CanBeSearch": false,
+      "Code": "DLState",
+      "DirectValues": [
+        {
+          "NameGuid": "9b19136c-bc56-446a-9bde-3fcca3ccecf0",
+          "Name": "InWork",
+          "Code": "InWork"
+        },
+        {
+          "NameGuid": "46af62c0-1c60-4630-98ed-66587a8626f9",
+          "Name": "Aborted",
+          "Code": "Aborted"
+        },
+        {
+          "NameGuid": "eb3eb07e-1f87-42d9-a2b5-e84e9bd947c1",
+          "Name": "Completed",
+          "Code": "Completed"
+        }
+      ],
+      "ListDataBinderTypeName": "Sungero.Presentation.CommonDataBinders.DropDownEditorToEnumerationBinder",
+      "PreviousPropertyGuid": "796c622f-4bb7-4505-8fcc-83d73f065bcf"
+    },
+    {
+      "$type": "Sungero.Metadata.StringPropertyMetadata, Sungero.Metadata",
+      "NameGuid": "52d07f27-07a9-4b14-916b-38b04b6ac13b",
+      "Name": "LastIncomingMessageId",
+      "Code": "LastIncMessId",
+      "ListDataBinderTypeName": "Sungero.Presentation.CommonDataBinders.StringEditorToStringBinder",
+      "PreviousPropertyGuid": "808b2b97-e059-4982-bc17-16d638bd7b23"
+    },
+    {
+      "$type": "Sungero.Metadata.StringPropertyMetadata, Sungero.Metadata",
+      "NameGuid": "706f106b-6a63-45d1-9d1f-9bc92742a716",
+      "Name": "LastOutgoingMessageId",
+      "Code": "LastOutMesId",
+      "ListDataBinderTypeName": "Sungero.Presentation.CommonDataBinders.StringEditorToStringBinder",
+      "PreviousPropertyGuid": "52d07f27-07a9-4b14-916b-38b04b6ac13b"
+    }
+  ],
+  "PublicFunctions": [
+    {
+      "Name": "GetAdditionalInfo",
+      "Parameters": [
+        {
+          "Name": "historicalMessagesDownloadSession",
+          "ParameterType": "global::Sungero.ExchangeCore.IHistoricalMessagesDownloadSession",
+          "ParameterTypeFullName": "Sungero.ExchangeCore.IHistoricalMessagesDownloadSession, Sungero.Domain.Interfaces"
+        }
+      ],
+      "ReturnType": "global::System.String",
+      "ReturnTypeFullName": "System.String"
+    },
+    {
+      "Name": "GetDocumentInfos",
+      "Parameters": [
+        {
+          "Name": "historicalMessagesDownloadSession",
+          "ParameterType": "global::Sungero.ExchangeCore.IHistoricalMessagesDownloadSession",
+          "ParameterTypeFullName": "Sungero.ExchangeCore.IHistoricalMessagesDownloadSession, Sungero.Domain.Interfaces"
+        }
+      ],
+      "ReturnType": "global::System.Collections.Generic.List<global::Sungero.Exchange.IExchangeDocumentInfo>",
+      "ReturnTypeFullName": "System.Collections.Generic.List"
+    },
+    {
+      "Name": "GetMainInfo",
+      "Parameters": [
+        {
+          "Name": "historicalMessagesDownloadSession",
+          "ParameterType": "global::Sungero.ExchangeCore.IHistoricalMessagesDownloadSession",
+          "ParameterTypeFullName": "Sungero.ExchangeCore.IHistoricalMessagesDownloadSession, Sungero.Domain.Interfaces"
+        }
+      ],
+      "ReturnType": "global::System.String",
+      "ReturnTypeFullName": "System.String"
+    },
+    {
+      "Name": "GetNotProcessedMessageQueueItems",
+      "Parameters": [
+        {
+          "Name": "historicalMessagesDownloadSession",
+          "ParameterType": "global::Sungero.ExchangeCore.IHistoricalMessagesDownloadSession",
+          "ParameterTypeFullName": "Sungero.ExchangeCore.IHistoricalMessagesDownloadSession, Sungero.Domain.Interfaces"
+        }
+      ],
+      "ReturnType": "global::System.Collections.Generic.List<global::Sungero.ExchangeCore.IMessageQueueItem>",
+      "ReturnTypeFullName": "System.Collections.Generic.List"
+    },
+    {
+      "Name": "GetSuspendedMessageQueueItems",
+      "Parameters": [
+        {
+          "Name": "historicalMessagesDownloadSession",
+          "ParameterType": "global::Sungero.ExchangeCore.IHistoricalMessagesDownloadSession",
+          "ParameterTypeFullName": "Sungero.ExchangeCore.IHistoricalMessagesDownloadSession, Sungero.Domain.Interfaces"
+        }
+      ],
+      "ReturnType": "global::System.Collections.Generic.List<global::Sungero.ExchangeCore.IMessageQueueItem>",
+      "ReturnTypeFullName": "System.Collections.Generic.List"
+    }
+  ],
+  "PublicStructures": [],
+  "ResourcesKeys": [
+    "HistoricalMessageDownloadSessionName"
+  ],
+  "RibbonCardMetadata": {
+    "NameGuid": "9bcb127a-4f54-4849-a821-744104880437",
+    "Name": "RibbonCard",
+    "Categories": [],
+    "Elements": [],
+    "Groups": [],
+    "IsAncestorMetadata": true,
+    "Pages": [],
+    "RibbonKind": "Card"
+  },
+  "RibbonCollectionMetadata": {
+    "NameGuid": "9f54fd65-61d1-4312-a579-cb4027cbf46d",
+    "Name": "RibbonCollection",
+    "Categories": [],
+    "Elements": [],
+    "Groups": [],
+    "IsAncestorMetadata": true,
+    "Pages": []
+  },
+  "Versions": [
+    {
+      "Type": "EntityMetadata",
+      "Number": 12
+    }
+  ]
+}

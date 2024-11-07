@@ -1,0 +1,390 @@
+{
+  "$type": "Sungero.Metadata.EntityMetadata, Sungero.Metadata",
+  "NameGuid": "fa9b109f-ec37-4d99-aec0-cf95fd7acdd4",
+  "Name": "AIManagersAssistant",
+  "Actions": [
+    {
+      "NameGuid": "5ee99b98-940f-4ea4-8b65-79d3df146ee5",
+      "Name": "AddChildEntity",
+      "GenerateHandler": true,
+      "IsAncestorMetadata": true,
+      "Overridden": [
+        "GenerateHandler"
+      ]
+    },
+    {
+      "NameGuid": "f27bf08f-e406-4a03-9eb5-fa8d0dfaac4d",
+      "Name": "CopyChildEntity",
+      "GenerateHandler": true,
+      "IsAncestorMetadata": true,
+      "Overridden": [
+        "GenerateHandler"
+      ]
+    },
+    {
+      "NameGuid": "3f334f1e-d7a4-4ca5-bd1a-f26b35ccfae8",
+      "Name": "DeleteChildEntity",
+      "GenerateHandler": true,
+      "IsAncestorMetadata": true,
+      "Overridden": [
+        "GenerateHandler"
+      ]
+    },
+    {
+      "NameGuid": "7bba6824-0160-4e8a-b238-6185e8a3c5db",
+      "Name": "UnpublishClassifierModel",
+      "ActionArea": "Card",
+      "GenerateHandler": true,
+      "LargeIconName": "Action_ResetClassifier_large_7bba682401604e8ab2386185e8a3c5db.png",
+      "SmallIconName": "Action_ResetClassifier_small_7bba682401604e8ab2386185e8a3c5db.png"
+    },
+    {
+      "NameGuid": "74e581f5-b310-4a50-aee0-3db8a4f5c69e",
+      "Name": "TrainClassifierModel",
+      "ActionArea": "Card",
+      "GenerateHandler": true,
+      "LargeIconName": "Action_TrainClassifierModel_large_74e581f5b3104a50aee03db8a4f5c69e.png",
+      "SmallIconName": "Action_TrainClassifierModel_small_74e581f5b3104a50aee03db8a4f5c69e.png"
+    }
+  ],
+  "BaseGuid": "a03d0912-5ff1-4261-9d4b-64e210bca325",
+  "CanBeNavigationPropertyType": true,
+  "CanBeSearch": false,
+  "CreationAreaMetadata": {
+    "NameGuid": "f7766750-eee2-4fcd-8003-5c06a90d1f44",
+    "Name": "CreationArea",
+    "Buttons": [],
+    "IsAncestorMetadata": true
+  },
+  "ExtraSearchProperties": [],
+  "FilterPanel": {
+    "NameGuid": "b0125fbd-3b91-4dbb-914a-689276216404",
+    "Name": "FilterPanel",
+    "Controls": [],
+    "IsAncestorMetadata": true
+  },
+  "Forms": [
+    {
+      "$type": "Sungero.Metadata.StandaloneFormMetadata, Sungero.Metadata",
+      "NameGuid": "8db4191e-6537-4e48-adb8-3e4820dad71d",
+      "Name": "Card",
+      "Controls": [
+        {
+          "$type": "Sungero.Metadata.ControlGroupMetadata, Sungero.Metadata",
+          "NameGuid": "950fe8b5-fcea-449b-bb2d-613d3e5bb54e",
+          "Name": "Assistant",
+          "IsAncestorMetadata": true,
+          "Overridden": [
+            "Controls"
+          ]
+        },
+        {
+          "$type": "Sungero.Metadata.ControlMetadata, Sungero.Metadata",
+          "NameGuid": "68941c3f-dfbe-43ec-bc1d-f8fb580c3127",
+          "Name": "Manager",
+          "ColumnNumber": 0,
+          "ColumnSpan": 1,
+          "DataBinderTypeName": "Sungero.Presentation.CommonDataBinders.DropDownEditorToNavigationBinder",
+          "ParentGuid": "950fe8b5-fcea-449b-bb2d-613d3e5bb54e",
+          "PropertyGuid": "a5eb60eb-40a6-4b27-8b10-91b4bb91473b",
+          "RowNumber": 0,
+          "RowSpan": 1,
+          "Settings": []
+        },
+        {
+          "$type": "Sungero.Metadata.ControlMetadata, Sungero.Metadata",
+          "NameGuid": "86596b34-cdc5-4cc6-a3ed-9502c5d405f8",
+          "Name": "Status",
+          "ColumnNumber": 0,
+          "ColumnSpan": 1,
+          "DataBinderTypeName": "Sungero.Presentation.CommonDataBinders.DropDownEditorToEnumerationBinder",
+          "ParentGuid": "950fe8b5-fcea-449b-bb2d-613d3e5bb54e",
+          "PropertyGuid": "1dcedc29-5140-4770-ac92-eabc212326a1",
+          "RowNumber": 1,
+          "RowSpan": 1,
+          "Settings": []
+        },
+        {
+          "$type": "Sungero.Metadata.ControlMetadata, Sungero.Metadata",
+          "NameGuid": "e4a09192-5783-4730-ad89-1dbf70346900",
+          "Name": "PreparesActionItemDrafts",
+          "ColumnNumber": 0,
+          "ColumnSpan": 1,
+          "DataBinderTypeName": "Sungero.Presentation.CommonDataBinders.BooleanEditorToBooleanBinder",
+          "ParentGuid": "950fe8b5-fcea-449b-bb2d-613d3e5bb54e",
+          "PropertyGuid": "30a613ab-46aa-4692-aed5-e618f3b4e35f",
+          "RowNumber": 5,
+          "RowSpan": 1,
+          "Settings": []
+        },
+        {
+          "$type": "Sungero.Metadata.ControlMetadata, Sungero.Metadata",
+          "NameGuid": "1c7861c9-28e4-42ce-8281-69ece7a39b80",
+          "Name": "PreparesResolution",
+          "ColumnNumber": 0,
+          "ColumnSpan": 1,
+          "DataBinderTypeName": "Sungero.Presentation.CommonDataBinders.BooleanEditorToBooleanBinder",
+          "ParentGuid": "950fe8b5-fcea-449b-bb2d-613d3e5bb54e",
+          "PropertyGuid": "41f6ca45-c728-4283-9bb4-bf9a06b24b51",
+          "RowNumber": 6,
+          "RowSpan": 1,
+          "Settings": []
+        }
+      ],
+      "IsAncestorMetadata": true,
+      "Overridden": [
+        "SettingsResourceKey"
+      ]
+    },
+    {
+      "$type": "Sungero.Metadata.InplaceFormMetadata, Sungero.Metadata",
+      "NameGuid": "5d99880a-b8e6-40b4-b5cc-e5d4b836d034",
+      "Name": "Extra",
+      "Controls": [
+        {
+          "$type": "Sungero.Metadata.ControlGroupMetadata, Sungero.Metadata",
+          "NameGuid": "7358ed54-176d-460a-bd22-86072e84017a",
+          "Name": "ClassifiersParameters",
+          "GroupType": "WithTitleNoBorder"
+        },
+        {
+          "$type": "Sungero.Metadata.ControlMetadata, Sungero.Metadata",
+          "NameGuid": "3928bc2a-e031-4834-9c44-223dd7a7f554",
+          "Name": "Classifiers",
+          "ColumnNumber": 0,
+          "ColumnSpan": 1,
+          "DataBinderTypeName": "Sungero.Presentation.CommonDataBinders.GridControlToChildCollectionBinder",
+          "HeaderLocation": "None",
+          "ParentGuid": "7358ed54-176d-460a-bd22-86072e84017a",
+          "PropertyGuid": "2a71b7e9-7384-4868-834b-312dd30d1b41",
+          "RowNumber": 0,
+          "RowSpan": 1,
+          "Settings": []
+        }
+      ],
+      "ParentFormGuid": "8db4191e-6537-4e48-adb8-3e4820dad71d"
+    }
+  ],
+  "HandledEvents": [
+    "BeforeSaveServer",
+    "CreatedServer",
+    "CreatingFromServer"
+  ],
+  "IconName": "AIManagersAssistant.ico",
+  "IconResourcesKeys": [],
+  "IntegrationServiceName": "IntelligenceAIManagersAssistant",
+  "OperationsClass": "",
+  "Overridden": [
+    "HideFromCreationArea",
+    "IconName",
+    "CanBeSearch"
+  ],
+  "Properties": [
+    {
+      "$type": "Sungero.Metadata.CollectionPropertyMetadata, Sungero.Metadata",
+      "NameGuid": "2a71b7e9-7384-4868-834b-312dd30d1b41",
+      "Name": "Classifiers",
+      "Code": "AIClassifiers",
+      "EntityGuid": "2be8589f-99bd-4c62-96dd-593fc1b2e61a",
+      "HandledEvents": [
+        "AddedShared"
+      ],
+      "IsShowedInList": false,
+      "PreviousPropertyGuid": "41f6ca45-c728-4283-9bb4-bf9a06b24b51"
+    }
+  ],
+  "PublicConstants": [
+    {
+      "Name": "LowerClassificationLimit",
+      "ParentClasses": [
+        "AIManagersAssistant"
+      ],
+      "TypeName": "System.Int32",
+      "Value": "40"
+    }
+  ],
+  "PublicFunctions": [
+    {
+      "Name": "CreateAssigneeClassifier",
+      "IsRemote": true,
+      "Parameters": [
+        {
+          "Name": "aIManagersAssistant",
+          "ParameterType": "global::Sungero.Intelligence.IAIManagersAssistant",
+          "ParameterTypeFullName": "Sungero.Intelligence.IAIManagersAssistant, Sungero.Domain.Interfaces"
+        }
+      ],
+      "Placement": "Shared",
+      "ReturnType": "global::System.Boolean",
+      "ReturnTypeFullName": "System.Boolean"
+    },
+    {
+      "Name": "CreateClassifier",
+      "Parameters": [
+        {
+          "Name": "aIManagersAssistant",
+          "ParameterType": "global::Sungero.Intelligence.IAIManagersAssistant",
+          "ParameterTypeFullName": "Sungero.Intelligence.IAIManagersAssistant, Sungero.Domain.Interfaces"
+        },
+        {
+          "Name": "classifierType",
+          "ParameterType": "global::Sungero.Core.Enumeration",
+          "ParameterTypeFullName": "Sungero.Core.Enumeration, Sungero.Domain.Shared"
+        }
+      ],
+      "ReturnType": "global::System.Nullable<global::System.Int32>",
+      "ReturnTypeFullName": "System.Nullable"
+    },
+    {
+      "Name": "ResetClassifierTraining",
+      "IsRemote": true,
+      "Parameters": [
+        {
+          "Name": "aIManagersAssistant",
+          "ParameterType": "global::Sungero.Intelligence.IAIManagersAssistant",
+          "ParameterTypeFullName": "Sungero.Intelligence.IAIManagersAssistant, Sungero.Domain.Interfaces"
+        },
+        {
+          "Name": "classifierType",
+          "ParameterType": "global::Sungero.Core.Enumeration",
+          "ParameterTypeFullName": "Sungero.Core.Enumeration, Sungero.Domain.Shared"
+        }
+      ],
+      "Placement": "Shared",
+      "ReturnType": "global::System.String",
+      "ReturnTypeFullName": "System.String"
+    }
+  ],
+  "PublicStructures": [
+    {
+      "Name": "TrainingQueueResult",
+      "IsPublic": true,
+      "Properties": [
+        {
+          "Name": "Type",
+          "IsNullable": true,
+          "TypeFullName": "global::System.String"
+        },
+        {
+          "Name": "Message",
+          "IsNullable": true,
+          "TypeFullName": "global::System.String"
+        },
+        {
+          "Name": "Count",
+          "TypeFullName": "global::System.Int32"
+        },
+        {
+          "Name": "HasError",
+          "TypeFullName": "global::System.Boolean"
+        }
+      ],
+      "StructureNamespace": "Sungero.Intelligence.Structures.AIManagersAssistant"
+    }
+  ],
+  "ResourcesKeys": [
+    "AIAssistantOnlyOne",
+    "WrongClassificationLimit",
+    "ResetClassifierResults",
+    "ResetClassifierResultsDescription",
+    "DateFrom",
+    "ClassifierTrainingDialogTitle",
+    "WrongDatePeriod",
+    "TrainButton",
+    "TraininResultsWillReset",
+    "FailedToCreateClassifier",
+    "ClassifierModelNotFound",
+    "FailedToUnpublishClassifierModel",
+    "ClassifierTrainingAlreadyStarted",
+    "EmptyDateFromMinTrainCount"
+  ],
+  "RibbonCardMetadata": {
+    "NameGuid": "58050eb5-84e4-4fc3-98ca-89ae99462e34",
+    "Name": "RibbonCard",
+    "Categories": [],
+    "Elements": [
+      {
+        "$type": "Sungero.Metadata.RibbonActionButtonMetadata, Sungero.Metadata",
+        "NameGuid": "211a539e-80f7-4ff8-a13e-855957ff6e68",
+        "Name": "DeleteEntity",
+        "ActionGuid": "18cdb157-e89a-488b-8cea-bce6a63d0a13",
+        "Index": 42,
+        "IsAncestorMetadata": true,
+        "Overridden": [
+          "Index"
+        ],
+        "ParentGuid": "f3b0ddcd-9d1e-4ca3-8780-695ae25a9e8b"
+      },
+      {
+        "$type": "Sungero.Metadata.RibbonActionButtonMetadata, Sungero.Metadata",
+        "NameGuid": "e34e3e39-bcb9-4de3-a0ea-849c79ad9dcb",
+        "Name": "Cancel",
+        "ActionGuid": "8049bcb6-eb35-463f-bb18-45090e8b3add",
+        "Index": 54,
+        "IsAncestorMetadata": true,
+        "Overridden": [
+          "Index"
+        ],
+        "ParentGuid": "f3b0ddcd-9d1e-4ca3-8780-695ae25a9e8b"
+      },
+      {
+        "$type": "Sungero.Metadata.RibbonActionButtonMetadata, Sungero.Metadata",
+        "NameGuid": "6ecf8abf-7ebe-40eb-9497-353db6415945",
+        "Name": "OpenInNewTab",
+        "ActionGuid": "d1d0ab2f-c398-43f6-b01f-5f2f5169c4f6",
+        "Index": 42,
+        "IsAncestorMetadata": true,
+        "Overridden": [
+          "Index"
+        ],
+        "ParentGuid": "f3b0ddcd-9d1e-4ca3-8780-695ae25a9e8b"
+      },
+      {
+        "$type": "Sungero.Metadata.RibbonActionButtonMetadata, Sungero.Metadata",
+        "NameGuid": "3f39fbe7-d2a9-47e9-b666-10b5be214329",
+        "Name": "TrainClassifier",
+        "ActionGuid": "74e581f5-b310-4a50-aee0-3db8a4f5c69e",
+        "ButtonSize": "Large",
+        "Index": -1,
+        "ParentGuid": "c2b1aee9-062a-434f-893a-98d1dea21083"
+      },
+      {
+        "$type": "Sungero.Metadata.RibbonActionButtonMetadata, Sungero.Metadata",
+        "NameGuid": "694dd585-01d1-45e2-9f91-23f18d6a151c",
+        "Name": "ResetClassifier",
+        "ActionGuid": "7bba6824-0160-4e8a-b238-6185e8a3c5db",
+        "ButtonSize": "Large",
+        "Index": 0,
+        "ParentGuid": "c2b1aee9-062a-434f-893a-98d1dea21083"
+      }
+    ],
+    "Groups": [
+      {
+        "NameGuid": "c2b1aee9-062a-434f-893a-98d1dea21083",
+        "Name": "TrainingCommands",
+        "IconName": null,
+        "Index": 21,
+        "ParentGuid": "21a31627-5f58-4416-8c4a-90f538ee2e57",
+        "SmallIconName": null
+      }
+    ],
+    "IsAncestorMetadata": true,
+    "Pages": [],
+    "RibbonKind": "Card"
+  },
+  "RibbonCollectionMetadata": {
+    "NameGuid": "e81708c3-90f3-4d37-926a-6438e89c93dd",
+    "Name": "RibbonCollection",
+    "Categories": [],
+    "Elements": [],
+    "Groups": [],
+    "IsAncestorMetadata": true,
+    "Pages": []
+  },
+  "Versions": [
+    {
+      "Type": "EntityMetadata",
+      "Number": 12
+    }
+  ]
+}

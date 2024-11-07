@@ -1,0 +1,235 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="DisplayName" xml:space="preserve">
+    <value>Электронная доверенность</value>
+  </data>
+  <data name="CollectionDisplayName" xml:space="preserve">
+    <value>Электронные доверенности</value>
+  </data>
+  <data name="AccusativeDisplayName" xml:space="preserve">
+    <value>Электронную доверенность</value>
+  </data>
+  <data name="Property_UnifiedRegistrationNumber" xml:space="preserve">
+    <value>Единый рег. №</value>
+  </data>
+  <data name="ControlGroup_4e1d78fc6f6c4c81bf9aa1fa2031a46b" xml:space="preserve">
+    <value>Дата и номер</value>
+  </data>
+  <data name="ControlGroup_696a8bb83e1244c8927a37d955cfbf0f" xml:space="preserve">
+    <value>Хранение</value>
+  </data>
+  <data name="ControlGroup_1b194ce3c44048879f0d1cdc4303c583" xml:space="preserve">
+    <value>Жизненный цикл</value>
+  </data>
+  <data name="ControlGroup_72e492251e834e65bb33ea838a458e43" xml:space="preserve">
+    <value>Местонахождение</value>
+  </data>
+  <data name="Action_ImportVersionWithSignature" xml:space="preserve">
+    <value>Импортировать</value>
+  </data>
+  <data name="Action_ImportVersionWithSignatureDescription" xml:space="preserve">
+    <value>Импорт эл. доверенности и подписи к ней</value>
+  </data>
+  <data name="Action_ImportVersionWithSignatureHint" xml:space="preserve">
+    <value>Импортировать эл. доверенность и подпись к ней</value>
+  </data>
+  <data name="Action_ShowDuplicatesHint" xml:space="preserve">
+    <value>Показать дубли</value>
+  </data>
+  <data name="Action_ShowDuplicatesDescription" xml:space="preserve">
+    <value>Открытие списка для просмотра дублей.</value>
+  </data>
+  <data name="Action_ShowDuplicates" xml:space="preserve">
+    <value>Показать дубли</value>
+  </data>
+  <data name="Action_GenerateBodyWithPdf" xml:space="preserve">
+    <value>Сформировать</value>
+  </data>
+  <data name="Action_GenerateBodyWithPdfDescription" xml:space="preserve">
+    <value>Создание эл. доверенности в форматах XML и PDF</value>
+  </data>
+  <data name="Action_GenerateBodyWithPdfHint" xml:space="preserve">
+    <value>Сформировать эл. доверенность</value>
+  </data>
+  <data name="Action_CheckStateWithService" xml:space="preserve">
+    <value>Проверить статус</value>
+  </data>
+  <data name="Action_CheckStateWithServiceDescription" xml:space="preserve">
+    <value>Проверка статуса эл. доверенности в реестре ФНС</value>
+  </data>
+  <data name="Action_CheckStateWithServiceHint" xml:space="preserve">
+    <value>Проверка статуса эл. доверенности в реестре ФНС</value>
+  </data>
+  <data name="Action_RegisterWithService" xml:space="preserve">
+    <value>Зарегистрировать в ФНС</value>
+  </data>
+  <data name="Action_RegisterWithServiceDescription" xml:space="preserve">
+    <value>Отправка эл. доверенности на регистрацию в реестре ФНС</value>
+  </data>
+  <data name="Action_RegisterWithServiceHint" xml:space="preserve">
+    <value>Отправка эл. доверенности на регистрацию в реестре ФНС</value>
+  </data>
+  <data name="Action_CreateRevocation" xml:space="preserve">
+    <value>Заявление на отзыв</value>
+  </data>
+  <data name="Action_CreateRevocationDescription" xml:space="preserve">
+    <value>Создание заявления на отзыв эл. доверенности в форматах XML и PDF. Если заявление уже создано, откроется карточка документа.</value>
+  </data>
+  <data name="Action_CreateRevocationHint" xml:space="preserve">
+    <value>Создать заявление на отзыв</value>
+  </data>
+  <data name="Property_FtsListState" xml:space="preserve">
+    <value>В реестре ФНС</value>
+  </data>
+  <data name="Enum_FtsListState_OnRegistration" xml:space="preserve">
+    <value>На регистрации</value>
+  </data>
+  <data name="Enum_FtsListState_Rejected" xml:space="preserve">
+    <value>Ошибка регистрации</value>
+  </data>
+  <data name="Enum_FtsListState_Registered" xml:space="preserve">
+    <value>Зарегистрирован</value>
+  </data>
+  <data name="Enum_FtsListState_OnRevoke" xml:space="preserve">
+    <value>Запрошен отзыв</value>
+  </data>
+  <data name="Enum_FtsListState_Revoked" xml:space="preserve">
+    <value>Отозван</value>
+  </data>
+  <data name="Property_FtsRejectReason" xml:space="preserve">
+    <value>Ошибка регистрации в ФНС</value>
+  </data>
+  <data name="ControlGroup_5ea11aa42168485cb01fe7cfba92c3ec" xml:space="preserve">
+    <value>Подробнее</value>
+  </data>
+  <data name="Action_OpenInFtsRegistryDescription" xml:space="preserve">
+    <value>Открытие информации об эл. доверенности на сайте ФНС</value>
+  </data>
+  <data name="Action_OpenInFtsRegistryHint" xml:space="preserve">
+    <value>Открытие информации об эл. доверенности на сайте ФНС</value>
+  </data>
+  <data name="Action_OpenInFtsRegistry" xml:space="preserve">
+    <value>Открыть на сайте</value>
+  </data>
+  <data name="Ribbon_FTSRegistry_16ca3bfb2b76469d88e808b6fc4da5db" xml:space="preserve">
+    <value>Реестр ФНС</value>
+  </data>
+  <data name="Property_RegisteredSignatureId" xml:space="preserve">
+    <value>ИД подписи</value>
+  </data>
+  <data name="Property_FormatVersion" xml:space="preserve">
+    <value>Версия формата</value>
+  </data>
+  <data name="Enum_FormatVersion_Version002" xml:space="preserve">
+    <value>002</value>
+  </data>
+  <data name="Enum_FormatVersion_Version003" xml:space="preserve">
+    <value>003</value>
+  </data>
+  <data name="Enum_PowersType_Classifier" xml:space="preserve">
+    <value>Из списка</value>
+  </data>
+  <data name="Enum_PowersType_FreeForm" xml:space="preserve">
+    <value>В свободной форме</value>
+  </data>
+  <data name="Property_PowersType" xml:space="preserve">
+    <value>Тип полномочий</value>
+  </data>
+  <data name="Property_StructuredPowers" xml:space="preserve">
+    <value>Полномочия</value>
+  </data>
+  <data name="Property_DelegationType" xml:space="preserve">
+    <value>Возможность передоверия</value>
+  </data>
+  <data name="Enum_DelegationType_NoDelegation" xml:space="preserve">
+    <value>Без передоверия</value>
+  </data>
+  <data name="Enum_DelegationType_WithDelegation" xml:space="preserve">
+    <value>С последующим передоверием</value>
+  </data>
+  <data name="Form_7224872c078e4214a2b313e069bba9ff" xml:space="preserve">
+    <value>На основании</value>
+  </data>
+  <data name="Property_MainPoAPrincipal" xml:space="preserve">
+    <value>Доверитель</value>
+  </data>
+  <data name="Property_MainPoAUnifiedNumber" xml:space="preserve">
+    <value>Единый рег. №</value>
+  </data>
+  <data name="Property_MainPoARegistrationNumber" xml:space="preserve">
+    <value>Внутренний номер</value>
+  </data>
+  <data name="Property_MainPoAValidFrom" xml:space="preserve">
+    <value>Действует с</value>
+  </data>
+  <data name="Property_MainPoAValidTill" xml:space="preserve">
+    <value>Действует по</value>
+  </data>
+  <data name="Property_IsDelegated" xml:space="preserve">
+    <value>По передоверию</value>
+  </data>
+  <data name="Property_MainPoA" xml:space="preserve">
+    <value>На основании</value>
+  </data>
+  <data name="Property_IsNotarized" xml:space="preserve">
+    <value>Нотариальная</value>
+  </data>
+</root>

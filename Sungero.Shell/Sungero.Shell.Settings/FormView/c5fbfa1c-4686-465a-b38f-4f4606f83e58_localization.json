@@ -1,0 +1,23 @@
+{
+  "Control_Caption_f6fb9bb799dd45ec870853f8aa155f1b": {
+    "en-US": "Subject",
+    "ru-RU": "Тема"
+  },
+  "ControlGroup1_Caption_ebfeb539df3646ebb16c88e4afe77109": {
+    "ru-RU": "Основное"
+  },
+  "Description": {
+    "en-US": "View of an assignment to get acquainted with a document for employees included in role \"Users of manager's interface\".",
+    "ru-RU": "Отображение карточки задания на ознакомление для пользователей, которые входят в роль \"Пользователи интерфейса для руководителей\".",
+    "hash": "6d86145454bc34cda3beb9f35363a00b"
+  },
+  "Name": {
+    "en-US": "Assignment to get acquainted with document (for managers)",
+    "ru-RU": "Задание на ознакомление (для руководителей)",
+    "hash": "dbecb86d0a89137dd80c9d5801fad387"
+  },
+  "Thread_Title_a2b1a03300e7415c9eca8ae12d0ed849": {
+    "en-US": "Thread",
+    "ru-RU": "Переписка"
+  }
+}

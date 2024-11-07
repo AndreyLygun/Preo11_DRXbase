@@ -1,0 +1,12 @@
+{
+  "Description": {
+    "en-US": "Compact view of folder \"To approve\" for employees included in role \"Users of manager's interface\".",
+    "ru-RU": "Компактное представление папки \"На согласование\" для пользователей, которые входят в роль \"Пользователи интерфейса для руководителей\".",
+    "hash": "85d50ced5e0bb7774c7846c592653c93"
+  },
+  "Name": {
+    "en-US": "To approve (for managers)",
+    "ru-RU": "На согласование (для руководителей)",
+    "hash": "4ee4adef753ccaf5d231548196c85afe"
+  }
+}

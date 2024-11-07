@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Property_Name" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="DisplayName" xml:space="preserve">
+    <value>Exchange Queue</value>
+  </data>
+  <data name="AccusativeDisplayName" xml:space="preserve">
+    <value>Exchange Queue</value>
+  </data>
+  <data name="CollectionDisplayName" xml:space="preserve">
+    <value>Exchange Queues</value>
+  </data>
+  <data name="Property_ExternalId" xml:space="preserve">
+    <value>ID in exchange service</value>
+  </data>
+  <data name="Property_Box" xml:space="preserve">
+    <value>Exchange box</value>
+  </data>
+  <data name="Property_Retries" xml:space="preserve">
+    <value>Number of retries</value>
+  </data>
+  <data name="Property_Note" xml:space="preserve">
+    <value>Note</value>
+  </data>
+  <data name="Property_ProcessingStatus" xml:space="preserve">
+    <value>Processing status</value>
+  </data>
+  <data name="Enum_ProcessingStatus_NotProcessed" xml:space="preserve">
+    <value>Not processed</value>
+  </data>
+  <data name="Enum_ProcessingStatus_Error" xml:space="preserve">
+    <value>An error occurred</value>
+  </data>
+  <data name="Enum_ProcessingStatus_TaskSendWaiting" xml:space="preserve">
+    <value>Waiting for task start</value>
+  </data>
+  <data name="ControlGroup_c93744cbd15741a697b3b8ee4c6499da" xml:space="preserve">
+    <value>Queue Item</value>
+  </data>
+  <data name="ControlGroup_9268206f26b0427fb0a4232538e8afef" xml:space="preserve">
+    <value>Note</value>
+  </data>
+  <data name="Property_LastUpdate" xml:space="preserve">
+    <value>Date modified</value>
+  </data>
+  <data name="Property_RootBox" xml:space="preserve">
+    <value>Head box</value>
+  </data>
+  <data name="Property_AsyncHandlerId" xml:space="preserve">
+    <value>ID of async hander</value>
+  </data>
+</root>

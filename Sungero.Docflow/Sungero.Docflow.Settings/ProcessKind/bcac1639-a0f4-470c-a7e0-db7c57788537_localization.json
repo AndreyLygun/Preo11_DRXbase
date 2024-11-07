@@ -1,0 +1,57 @@
+{
+  "Description": {
+    "default": "Standard request from an assignee to extend assignment deadline. The new deadline is specified in cards of assignment, task or document",
+    "ru-RU": "Универсальный запрос на продление срока задания от исполнителя. Срок обновляется в карточках задания, задачи или документа",
+    "hash": "a10d454284a475aea4e0376a549cdaf5"
+  },
+  "Name": {
+    "default": "Request to extend deadline",
+    "ru-RU": "Запрос на продление срока",
+    "hash": "9db7456829f267191ad4b057084fd095"
+  },
+  "Subject_SE_1": {
+    "default": ">> Extend deadline: {0}",
+    "ru-RU": ">> Продлите срок: {0}",
+    "hash": "c8d2579a225ad1bda3c3b88facd02fb0"
+  },
+  "Subject_SE_2": {
+    "default": ">> Deadline extension rejected: {0}",
+    "ru-RU": ">> Отказано в продлении срока: {0}",
+    "hash": "283edddc14395e9dfdd8da59684d5cc7"
+  },
+  "Subject_SE_8": {
+    "default": "{0}",
+    "ru-RU": "{0}",
+    "hash": "031926624c88fbc0578b59ea78a99849"
+  },
+  "Title_SE_1": {
+    "default": "Request to extend deadline",
+    "ru-RU": "Запрос продления срока",
+    "hash": "4433b5f2c8c56ac5a690c1e1aa4f2d50"
+  },
+  "Title_SE_2": {
+    "default": "Accept denial to extend deadline",
+    "ru-RU": "Приемка отказа в продлении срока",
+    "hash": "c9c8cd0e770d441ff10fdee30623c63a"
+  },
+  "Title_SE_6": {
+    "default": "Process extension of assignment deadline",
+    "ru-RU": "Обработка продления срока задания",
+    "hash": "c0272373c41cb6267504c8e04cc149fd"
+  },
+  "Title_SE_7": {
+    "default": "Process extension of task deadline",
+    "ru-RU": "Обработка продления срока задачи",
+    "hash": "eb13f57a210e00baac9bf9360473cb11"
+  },
+  "Title_SE_8": {
+    "default": "Notice of assignment deadline extension",
+    "ru-RU": "Уведомление о продлении срока",
+    "hash": "16c1390b12bf89560d3fa3264d36a26f"
+  },
+  "Title_SE_9": {
+    "default": "Is parent assignment in process?",
+    "ru-RU": "Ведущее задание в работе?",
+    "hash": "ddbc9fd5f918e6a62cb514b343e94bfa"
+  }
+}

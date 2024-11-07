@@ -1,0 +1,157 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Property_Name" xml:space="preserve">
+    <value>Имя</value>
+  </data>
+  <data name="DisplayName" xml:space="preserve">
+    <value>Условие</value>
+  </data>
+  <data name="AccusativeDisplayName" xml:space="preserve">
+    <value>Условия</value>
+  </data>
+  <data name="CollectionDisplayName" xml:space="preserve">
+    <value>Условия</value>
+  </data>
+  <data name="Property_ConditionType" xml:space="preserve">
+    <value>Тип условия</value>
+  </data>
+  <data name="Property_Amount" xml:space="preserve">
+    <value>Сумма</value>
+  </data>
+  <data name="Enum_ConditionType_AmountIsMore" xml:space="preserve">
+    <value>Общая сумма</value>
+  </data>
+  <data name="Enum_ConditionType_Nonresident" xml:space="preserve">
+    <value>Контрагент-нерезидент</value>
+  </data>
+  <data name="Enum_ConditionType_Currency" xml:space="preserve">
+    <value>Валюта</value>
+  </data>
+  <data name="Property_Currencies" xml:space="preserve">
+    <value>Валюты</value>
+  </data>
+  <data name="Property_DocumentKinds" xml:space="preserve">
+    <value>Виды документов</value>
+  </data>
+  <data name="Property_AmountOperator" xml:space="preserve">
+    <value>Сумма</value>
+  </data>
+  <data name="Property_Note" xml:space="preserve">
+    <value>Примечание</value>
+  </data>
+  <data name="ControlGroup_ef5bcb7012d44cea9d9fd78ecb39b65a" xml:space="preserve">
+    <value>Примечание</value>
+  </data>
+  <data name="Enum_ConditionType_ProjectDocument" xml:space="preserve">
+    <value>Документ по проекту</value>
+  </data>
+  <data name="Enum_ConditionType_DocumentKind" xml:space="preserve">
+    <value>Вид документа</value>
+  </data>
+  <data name="Property_ConditionDocumentKinds" xml:space="preserve">
+    <value>Виды документов</value>
+  </data>
+  <data name="Enum_ConditionType_RolesComparer" xml:space="preserve">
+    <value>Исполнители ролей согласования совпадают</value>
+  </data>
+  <data name="Property_ApprovalRole" xml:space="preserve">
+    <value>Роль согласования</value>
+  </data>
+  <data name="Property_ApprovalRoleForComparison" xml:space="preserve">
+    <value>Роль для сравнения</value>
+  </data>
+  <data name="Enum_ConditionType_RoleEmpComparer" xml:space="preserve">
+    <value>Исполнитель роли согласования совпадает с сотрудником</value>
+  </data>
+  <data name="Property_RecipientForComparison" xml:space="preserve">
+    <value>Сотрудник/Роль</value>
+  </data>
+  <data name="Enum_ConditionType_DeliveryMethod" xml:space="preserve">
+    <value>Способ доставки документов</value>
+  </data>
+  <data name="Property_DeliveryMethods" xml:space="preserve">
+    <value>Способы доставки</value>
+  </data>
+  <data name="Enum_ConditionType_SignedByCParty" xml:space="preserve">
+    <value>Подписан контрагентом</value>
+  </data>
+  <data name="Enum_ConditionType_HasAddenda" xml:space="preserve">
+    <value>Вложено приложение</value>
+  </data>
+  <data name="Property_AddendaDocumentKind" xml:space="preserve">
+    <value>Вид документа</value>
+  </data>
+  <data name="Enum_ConditionType_EmployeeInRole" xml:space="preserve">
+    <value>Сотрудник входит в роль согласования</value>
+  </data>
+  <data name="ControlGroup_0b8b5e67c616452a9613e31f30901639" xml:space="preserve">
+    <value>Условие</value>
+  </data>
+  <data name="ControlGroup_ea6e809515f5491fbad41de51b5f5473" xml:space="preserve">
+    <value>Основное</value>
+  </data>
+  <data name="ControlGroup_f816fbaa71674dd6a62b640f0f2350b6" xml:space="preserve">
+    <value>Условия</value>
+  </data>
+  <data name="ControlGroup_f904772f63c74cbfbbf2f4b3ff15249d" xml:space="preserve">
+    <value>Дополнительные условия</value>
+  </data>
+</root>

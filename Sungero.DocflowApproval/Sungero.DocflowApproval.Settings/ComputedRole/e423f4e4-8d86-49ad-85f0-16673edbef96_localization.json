@@ -1,0 +1,12 @@
+{
+  "Description": {
+    "default": "Manager of the department specified in the card of the document attached to the task.",
+    "ru-RU": "Руководитель подразделения, которое указано в карточке документа, вложенного в задачу.",
+    "hash": "a6ec2074f510f7026bb49d3f62f4e686"
+  },
+  "Name": {
+    "default": "Manager of department specified in document card",
+    "ru-RU": "Руководитель подразделения, указанного в карточке документа",
+    "hash": "dee63473fb9706172eab469b8cb381d6"
+  }
+}

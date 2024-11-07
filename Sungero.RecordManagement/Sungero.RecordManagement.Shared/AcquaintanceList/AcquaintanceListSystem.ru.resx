@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Property_Name" xml:space="preserve">
+    <value>Наименование</value>
+  </data>
+  <data name="DisplayName" xml:space="preserve">
+    <value>Список ознакомления/рассмотрения</value>
+  </data>
+  <data name="AccusativeDisplayName" xml:space="preserve">
+    <value>Список ознакомления/рассмотрения</value>
+  </data>
+  <data name="CollectionDisplayName" xml:space="preserve">
+    <value>Списки ознакомления/рассмотрения</value>
+  </data>
+  <data name="Property_Note" xml:space="preserve">
+    <value>Примечание</value>
+  </data>
+  <data name="Property_Participants" xml:space="preserve">
+    <value>Участники</value>
+  </data>
+  <data name="ControlGroup_b117e8d37f4a4ed49e61b3a48521f6f2" xml:space="preserve">
+    <value>Состав</value>
+  </data>
+  <data name="ControlGroup_e137477665d54567950ebb5e6221c9b7" xml:space="preserve">
+    <value>Примечание</value>
+  </data>
+  <data name="Property_ExcludedParticipants" xml:space="preserve">
+    <value>Кроме</value>
+  </data>
+  <data name="Control_ff1b7308f06b42f7bf1c263566cf6746_EmptyText" xml:space="preserve">
+    <value>Укажите сотрудников, которых нужно исключить из списка ознакомления или рассмотрения…</value>
+  </data>
+  <data name="ControlGroup_00f940243f4040849fc3d1ded3a41382" xml:space="preserve">
+    <value>Список ознакомления</value>
+  </data>
+  <data name="ControlGroup_2c15356a894b4579b1ec04bae1d90539" xml:space="preserve">
+    <value>Основное</value>
+  </data>
+</root>

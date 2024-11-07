@@ -1,0 +1,196 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Property_AddApprovers" xml:space="preserve">
+    <value>Доп. согласующие</value>
+  </data>
+  <data name="Property_Signatory" xml:space="preserve">
+    <value>На подпись</value>
+  </data>
+  <data name="Enum_Result_Approved" xml:space="preserve">
+    <value>Согласовать</value>
+  </data>
+  <data name="Action_Approved" xml:space="preserve">
+    <value>Согласовать</value>
+  </data>
+  <data name="Action_ApprovedHint" xml:space="preserve">
+    <value>Согласовать документ</value>
+  </data>
+  <data name="Action_ApprovedConfirmationMessage" xml:space="preserve">
+    <value>Согласовать документ?</value>
+  </data>
+  <data name="Action_ApprovedDescription" xml:space="preserve">
+    <value>Выполнение задания и подписание документа с результатом "Согласовано"</value>
+  </data>
+  <data name="Action_ForRevision" xml:space="preserve">
+    <value>На доработку</value>
+  </data>
+  <data name="Action_ForRevisionHint" xml:space="preserve">
+    <value>Отправить документ на доработку</value>
+  </data>
+  <data name="Action_ForRevisionConfirmationMessage" xml:space="preserve">
+    <value>Отправить документ на доработку?</value>
+  </data>
+  <data name="Action_ForRevisionDescription" xml:space="preserve">
+    <value>Отправка на доработку и подписание документа с результатом "Не согласовано"</value>
+  </data>
+  <data name="Enum_Result_ForRevision" xml:space="preserve">
+    <value>На доработку</value>
+  </data>
+  <data name="ControlGroup_46b96671b49c4f6bb30f0efb74ce1b42" xml:space="preserve">
+    <value>Параметры согласования</value>
+  </data>
+  <data name="DisplayName" xml:space="preserve">
+    <value>Согласование руководителем</value>
+  </data>
+  <data name="AccusativeDisplayName" xml:space="preserve">
+    <value>Согласование руководителем</value>
+  </data>
+  <data name="CollectionDisplayName" xml:space="preserve">
+    <value>Согласование руководителем</value>
+  </data>
+  <data name="Ribbon_AsgGroup_ac82503a7a4749d0b90c9bb512c4559c" xml:space="preserve">
+    <value>Согласование</value>
+  </data>
+  <data name="Form_Page" xml:space="preserve">
+    <value>Регламент</value>
+  </data>
+  <data name="Property_Stage" xml:space="preserve">
+    <value>Этап</value>
+  </data>
+  <data name="Property_ApprovalRule" xml:space="preserve">
+    <value>Правило</value>
+  </data>
+  <data name="Footer_ActiveEmptyText" xml:space="preserve">
+    <value>Комментарий…</value>
+  </data>
+  <data name="Action_ApprovalForm" xml:space="preserve">
+    <value>Лист согласования</value>
+  </data>
+  <data name="Action_ApprovalFormDescription" xml:space="preserve">
+    <value>Открытие листа согласования по документу.</value>
+  </data>
+  <data name="Action_ApprovalFormHint" xml:space="preserve">
+    <value>Открыть лист согласования</value>
+  </data>
+  <data name="Ribbon_Approval_a5f9e7593e71466ba121d5def3106c61" xml:space="preserve">
+    <value>Отчет</value>
+  </data>
+  <data name="Form_5996ef4061d54bf6a43a730c3990fdac" xml:space="preserve">
+    <value>Регламент</value>
+  </data>
+  <data name="Property_Addressee" xml:space="preserve">
+    <value>Адресат</value>
+  </data>
+  <data name="Property_StageNumber" xml:space="preserve">
+    <value>Номер этапа</value>
+  </data>
+  <data name="Control_20a388d961934b4a9bdaad0a101da86b_EmptyText" xml:space="preserve">
+    <value>Укажите дополнительных согласующих…</value>
+  </data>
+  <data name="Property_DeliveryMethod" xml:space="preserve">
+    <value>Способ доставки</value>
+  </data>
+  <data name="Property_ExchangeService" xml:space="preserve">
+    <value>Сервис обмена</value>
+  </data>
+  <data name="Action_ExtendDeadline" xml:space="preserve">
+    <value>Запросить продление срока</value>
+  </data>
+  <data name="Action_ExtendDeadlineDescription" xml:space="preserve">
+    <value>Отправить запрос продления срока задания</value>
+  </data>
+  <data name="Action_ExtendDeadlineHint" xml:space="preserve">
+    <value>Запросить продление срока задания</value>
+  </data>
+  <data name="Ribbon_DeadlineGroup_7c47f1c02b6c4ddcb7f9fd056ad73446" xml:space="preserve">
+    <value>Срок</value>
+  </data>
+  <data name="ControlGroup_bfb4c19ea366491fa02e665cb1b5a1dd" xml:space="preserve">
+    <value>Реквизиты документа</value>
+  </data>
+  <data name="Property_ReworkPerformer" xml:space="preserve">
+    <value>Отв. за доработку</value>
+  </data>
+  <data name="Property_Addressees" xml:space="preserve">
+    <value>Адресаты</value>
+  </data>
+  <data name="Enum_Result_WithSuggestions" xml:space="preserve">
+    <value>Согласовать с замечаниями</value>
+  </data>
+  <data name="Action_WithSuggestionsDescription" xml:space="preserve">
+    <value>Выполнение задания и подписание документа с результатом "Согласовано с замечаниями". Замечания отражают особое мнение согласующего, на которое следует обратить внимание на следующих этапах согласования</value>
+  </data>
+  <data name="Action_WithSuggestionsConfirmationMessage" xml:space="preserve">
+    <value>Согласовать документ с замечаниями?</value>
+  </data>
+  <data name="Action_WithSuggestions" xml:space="preserve">
+    <value>Согласовать с замечаниями</value>
+  </data>
+  <data name="Action_WithSuggestionsHint" xml:space="preserve">
+    <value>Согласовать документ с замечаниями</value>
+  </data>
+  <data name="ControlGroup_34e047ef714240bf9bb90485d47609c2" xml:space="preserve">
+    <value>Этапы</value>
+  </data>
+  <data name="ControlGroup_1dd65c7ecebb4e20951f0681dcc878d2" xml:space="preserve">
+    <value>Основное</value>
+  </data>
+</root>

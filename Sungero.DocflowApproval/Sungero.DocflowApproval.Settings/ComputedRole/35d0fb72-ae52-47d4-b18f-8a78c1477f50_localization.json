@@ -1,0 +1,17 @@
+{
+  "DecisionTableCriterionColumn_DisplayName_3cb9c77e989a9d42853e316efa7c7988": {
+    "default": "Manager's assistant",
+    "ru-RU": "Помощник руководителя",
+    "hash": "53ae79439abc6aab80bf157a34f8f668"
+  },
+  "Description": {
+    "default": "Employee who creates action items based on manager's resolution and sends them for execution.",
+    "ru-RU": "Сотрудник, который формирует и отправляет поручения по вынесенной резолюции.",
+    "hash": "bb94d0b840a77da82fe880ab02db1b0d"
+  },
+  "Name": {
+    "default": "Responsible for resolution processing",
+    "ru-RU": "Ответственный за обработку резолюции",
+    "hash": "27b6b8d4d95fbe8b629edb58aa1211f9"
+  }
+}

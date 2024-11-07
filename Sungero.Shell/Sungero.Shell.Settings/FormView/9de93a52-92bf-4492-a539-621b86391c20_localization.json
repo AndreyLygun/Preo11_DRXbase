@@ -1,0 +1,20 @@
+{
+  "Control_Caption_cd0ec087633e4c43878f7a97a1bfe02c": {
+    "en-US": "Subject",
+    "ru-RU": "Тема"
+  },
+  "Description": {
+    "en-US": "View of a simple assignment with available option to send for rework for employees included in role \"Users of manager's interface\" (within rule-based approval).",
+    "ru-RU": "Отображение карточки простого задания с возможностью отправить на доработку (регламент) для пользователей, которые входят в роль \"Пользователи интерфейса для руководителей\".",
+    "hash": "6268ffeae42c883467a941439094a22c"
+  },
+  "Name": {
+    "en-US": "Assignment with available option to send for rework within rule-based approval (for managers)",
+    "ru-RU": "Задание с возможностью отправки на доработку (для руководителей) в согласовании по регламенту",
+    "hash": "899d7676404c37aa2ec7eb55fe710009"
+  },
+  "Thread_Title_a2b1a03300e7415c9eca8ae12d0ed849": {
+    "en-US": "Thread",
+    "ru-RU": "Переписка"
+  }
+}

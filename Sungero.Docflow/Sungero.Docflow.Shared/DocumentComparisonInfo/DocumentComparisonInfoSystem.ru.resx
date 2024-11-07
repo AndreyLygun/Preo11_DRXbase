@@ -1,0 +1,160 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Property_Name" xml:space="preserve">
+    <value>Имя</value>
+  </data>
+  <data name="DisplayName" xml:space="preserve">
+    <value>Результат сравнения</value>
+  </data>
+  <data name="AccusativeDisplayName" xml:space="preserve">
+    <value>Результат сравнения</value>
+  </data>
+  <data name="CollectionDisplayName" xml:space="preserve">
+    <value>Результаты сравнения</value>
+  </data>
+  <data name="Property_Author" xml:space="preserve">
+    <value>Инициатор сравнения</value>
+  </data>
+  <data name="Property_FirstDocumentId" xml:space="preserve">
+    <value>ИД эталонного документа</value>
+  </data>
+  <data name="Property_SecondDocumentId" xml:space="preserve">
+    <value>ИД документа для сравнения</value>
+  </data>
+  <data name="Property_FirstVersionExtension" xml:space="preserve">
+    <value>Расширение эталонной версии</value>
+  </data>
+  <data name="Property_SecondVersionExtension" xml:space="preserve">
+    <value>Расширение версии для сравнения</value>
+  </data>
+  <data name="Property_FirstArioTaskId" xml:space="preserve">
+    <value>ИД задачи в Ario на преобразование эталонной версии</value>
+  </data>
+  <data name="Property_SecondArioTaskId" xml:space="preserve">
+    <value>ИД задачи в Ario на преобразование версии для сравнения</value>
+  </data>
+  <data name="Property_FirstPdfVersion" xml:space="preserve">
+    <value>Сконвертированная эталонная версия</value>
+  </data>
+  <data name="Property_SecondPdfVersion" xml:space="preserve">
+    <value>Сконвертированная версия для сравнения</value>
+  </data>
+  <data name="Property_ResultPdf" xml:space="preserve">
+    <value>Результат сравнения</value>
+  </data>
+  <data name="Property_DifferencesCount" xml:space="preserve">
+    <value>Число различий</value>
+  </data>
+  <data name="Property_ErrorMessage" xml:space="preserve">
+    <value>Сообщение об ошибке</value>
+  </data>
+  <data name="ControlGroup_7f86c41f681a4e90a24b8ee54f305c22" xml:space="preserve">
+    <value>Документы для сравнения</value>
+  </data>
+  <data name="ControlGroup_a72aecea31e3499fa324ef52750f42b5" xml:space="preserve">
+    <value>Состояние обработки</value>
+  </data>
+  <data name="Action_OpenResultPdf" xml:space="preserve">
+    <value>Открыть результат</value>
+  </data>
+  <data name="Action_OpenResultPdfDescription" xml:space="preserve">
+    <value>Открытие результата сравнения</value>
+  </data>
+  <data name="Action_OpenResultPdfHint" xml:space="preserve">
+    <value>Открытие результата сравнения</value>
+  </data>
+  <data name="Property_ProcessingStatus" xml:space="preserve">
+    <value>Статус обработки</value>
+  </data>
+  <data name="Enum_ProcessingStatus_Started" xml:space="preserve">
+    <value>Сравнение начато</value>
+  </data>
+  <data name="Enum_ProcessingStatus_PdfConverting" xml:space="preserve">
+    <value>Конвертация в PDF</value>
+  </data>
+  <data name="Enum_ProcessingStatus_Error" xml:space="preserve">
+    <value>Возникла ошибка</value>
+  </data>
+  <data name="Enum_ProcessingStatus_PdfConverted" xml:space="preserve">
+    <value>Сконвертировано в PDF</value>
+  </data>
+  <data name="Enum_ProcessingStatus_Compared" xml:space="preserve">
+    <value>Сравнение завершено</value>
+  </data>
+  <data name="Property_DeletionDate" xml:space="preserve">
+    <value>Плановая дата удаления</value>
+  </data>
+  <data name="Property_FirstVersionNumber" xml:space="preserve">
+    <value>Номер эталонной версии</value>
+  </data>
+  <data name="Property_SecondVersionNumber" xml:space="preserve">
+    <value>Номер версии для сравнения</value>
+  </data>
+  <data name="Property_FirstVersionHash" xml:space="preserve">
+    <value>Хэш эталонной версии</value>
+  </data>
+  <data name="Property_SecondVersionHash" xml:space="preserve">
+    <value>Хэш версии для сравнения</value>
+  </data>
+  <data name="ControlGroup_1abca6c33ff047db9668262c9094160e" xml:space="preserve">
+    <value>Результат сравнения</value>
+  </data>
+</root>

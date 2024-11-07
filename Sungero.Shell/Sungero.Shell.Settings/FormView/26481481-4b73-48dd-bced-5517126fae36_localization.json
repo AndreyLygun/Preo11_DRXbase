@@ -1,0 +1,19 @@
+{
+  "Control_Caption_526f97d8365648eab32d3a324ed23a26": {
+    "en-US": "Subject",
+    "ru-RU": "Тема"
+  },
+  "ControlGroup1_Caption_ebfeb539df3646ebb16c88e4afe77109": {
+    "ru-RU": "Основное"
+  },
+  "Description": {
+    "en-US": "View of an assignment to return a document for employees included in role \"Users of manager's interface\".",
+    "ru-RU": "Отображение карточки задания на возврат документа для пользователей, которые входят в роль \"Пользователи интерфейса для руководителей\".",
+    "hash": "73f3a84c41dba1758c8c51c534203f49"
+  },
+  "Name": {
+    "en-US": "Assignment to return document (for managers)",
+    "ru-RU": "Задание на возврат документа (для руководителей)",
+    "hash": "03c695f2bbb9c4c51842fe60b18e6154"
+  }
+}

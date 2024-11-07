@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ConflictTaskSubject" xml:space="preserve">
+    <value>Resolve conflicts occurred while syncing counterparties for {0} with {1} exchange service ({2})</value>
+  </data>
+  <data name="ConflictTaskSingle" xml:space="preserve">
+    <value>Counterparty {0} with TIN {1} has been received via the exchange service.
+The TIN is equal to the TIN of counterparties that have been already added to the system, and whose TRRC is either different or not specified.
+Change the TRRC of one of the attached companies or create a company with the counterparty details received from the exchange service.
+The details received from the exchange service:
+TIN: {1}
+TRRC: {2}</value>
+  </data>
+  <data name="ConflictTaskSingleOgrn" xml:space="preserve">
+    <value>{0}PSRN: {1}</value>
+  </data>
+  <data name="ConflictTaskMany" xml:space="preserve">
+    <value>Close unused counterparty duplicates:</value>
+  </data>
+  <data name="ConflictTaskThreadSubject" xml:space="preserve">
+    <value>Process sync conflicts</value>
+  </data>
+  <data name="ConflictTaskExchangeDuplicates" xml:space="preserve">
+    <value>An exchange request has been received from counterparty {0} with TIN {1}, TRRC {2}.
+Details of the electronic exchange are the same as those of other counterparty exchange boxes in the system.
+For proper synchronization, change the details of the electronic exchange for one of the following companies.
+Details from exchange service ({6}):
+TIN: {1}
+TRRC: {2}
+Counterparty ID: {3}
+Exchange participant ID: {4}
+Branch ID: {5}</value>
+  </data>
+</root>

@@ -1,0 +1,163 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="DisplayName" xml:space="preserve">
+    <value>Person</value>
+  </data>
+  <data name="AccusativeDisplayName" xml:space="preserve">
+    <value>Person</value>
+  </data>
+  <data name="CollectionDisplayName" xml:space="preserve">
+    <value>Persons</value>
+  </data>
+  <data name="Property_LastName" xml:space="preserve">
+    <value>Last name</value>
+  </data>
+  <data name="Property_FirstName" xml:space="preserve">
+    <value>First name</value>
+  </data>
+  <data name="Property_MiddleName" xml:space="preserve">
+    <value>Middle</value>
+  </data>
+  <data name="Property_DateOfBirth" xml:space="preserve">
+    <value>Date of birth</value>
+  </data>
+  <data name="Property_Sex" xml:space="preserve">
+    <value>Sex</value>
+  </data>
+  <data name="Enum_Sex_Male" xml:space="preserve">
+    <value>Male</value>
+  </data>
+  <data name="Enum_Sex_Female" xml:space="preserve">
+    <value>Female</value>
+  </data>
+  <data name="ControlGroup_88f7c7f9e8814430b7ba7a038e3a591d" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Property_LegalAddress" xml:space="preserve">
+    <value>Permanent address</value>
+  </data>
+  <data name="Property_INILA" xml:space="preserve">
+    <value>INILA</value>
+  </data>
+  <data name="Property_Name" xml:space="preserve">
+    <value>Full name</value>
+  </data>
+  <data name="Control_18e3db055cb94547b9db0899a57805df_EmptyText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Property_ShortName" xml:space="preserve">
+    <value>Short name</value>
+  </data>
+  <data name="ControlGroup_9e3df66a01e8408aaa4ca5c92a1227fb" xml:space="preserve">
+    <value>Contacts</value>
+  </data>
+  <data name="ControlGroup_4b9defe5f46d4581b50a5c0be4a80a50" xml:space="preserve">
+    <value>Bank Details</value>
+  </data>
+  <data name="ControlGroup_69a4139490424b338d9ce5253d0a8c27" xml:space="preserve">
+    <value>Note</value>
+  </data>
+  <data name="Action_ShowDuplicatesDescription" xml:space="preserve">
+    <value>Show persons with identical TIN.</value>
+  </data>
+  <data name="Action_ShowDuplicatesHint" xml:space="preserve">
+    <value>Show Duplicate Persons</value>
+  </data>
+  <data name="Action_ShowCounterpartyDocumentsHint" xml:space="preserve">
+    <value>Show Package of Documents with Person Information</value>
+  </data>
+  <data name="Action_ShowCounterpartyDocumentsDescription" xml:space="preserve">
+    <value>Show package of documents containing information about the person (copy of the passport, TIN and other documents)</value>
+  </data>
+  <data name="Property_Citizenship" xml:space="preserve">
+    <value>Citizenship</value>
+  </data>
+  <data name="Property_IdentityKind" xml:space="preserve">
+    <value>Document kind</value>
+  </data>
+  <data name="Property_IdentitySeries" xml:space="preserve">
+    <value>Serial Number</value>
+  </data>
+  <data name="Property_IdentityNumber" xml:space="preserve">
+    <value>Individual Number</value>
+  </data>
+  <data name="Property_IdentityDateOfIssue" xml:space="preserve">
+    <value>Date of issue</value>
+  </data>
+  <data name="Property_IdentityExpirationDate" xml:space="preserve">
+    <value>Date of expiration</value>
+  </data>
+  <data name="Property_IdentityAuthority" xml:space="preserve">
+    <value>Issuing authority</value>
+  </data>
+  <data name="Property_IdentityAuthorityCode" xml:space="preserve">
+    <value>Issuing authority code</value>
+  </data>
+  <data name="Property_BirthPlace" xml:space="preserve">
+    <value>Place of birth</value>
+  </data>
+  <data name="Form_bdeac4a0e71345579b3bc378592c3afa" xml:space="preserve">
+    <value>Identity Document</value>
+  </data>
+  <data name="ControlGroup_762bde6523c54f2cb4e0f3686a1963b8" xml:space="preserve">
+    <value>Identity Document</value>
+  </data>
+</root>

@@ -1,0 +1,13 @@
+DROP INDEX if exists idx_edoc_acccparty;
+DROP INDEX if exists idx_edoc_businessunit;
+DROP INDEX if exists idx_edoc_department;
+DROP INDEX if exists idx_edoc_counterparty;
+DROP INDEX if exists idx_edoc_docregister;
+DROP INDEX if exists idx_edoc_documentgroup;
+DROP INDEX if exists idx_edoc_documentkind;
+DROP INDEX if exists idx_edoc_incorr;
+DROP INDEX if exists idx_edoc_respempl;
+DROP INDEX if exists idx_edoc_regstate;
+DROP INDEX if exists idx_EDoc_Discr_DocDate_LifeCycleState_IntApprState_SecureObject;
+DROP INDEX if exists idx_EDoc_Discr_DocDate_RegState_DocKind_SecureObject;
+DROP INDEX if exists idx_EDoc_Discriminator_DocumentDate_RegState_SecureObject;

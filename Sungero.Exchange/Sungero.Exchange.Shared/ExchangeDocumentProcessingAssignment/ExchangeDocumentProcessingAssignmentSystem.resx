@@ -1,0 +1,248 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Enum_Result_Complete" xml:space="preserve">
+    <value>Processed</value>
+  </data>
+  <data name="Action_Complete" xml:space="preserve">
+    <value>Processed</value>
+  </data>
+  <data name="Action_CompleteHint" xml:space="preserve">
+    <value>Documents Processed</value>
+  </data>
+  <data name="Action_CompleteConfirmationMessage" xml:space="preserve">
+    <value>Finish document processing?</value>
+  </data>
+  <data name="Action_CompleteDescription" xml:space="preserve">
+    <value>Document type is changed for all received documents. Required requisites are completed. Documents are sent for further processing in the system.</value>
+  </data>
+  <data name="Enum_Result_ReAddress" xml:space="preserve">
+    <value>Forwarded</value>
+  </data>
+  <data name="Action_ReAddress" xml:space="preserve">
+    <value>Forward</value>
+  </data>
+  <data name="Action_ReAddressHint" xml:space="preserve">
+    <value>Forward Assignment</value>
+  </data>
+  <data name="Action_ReAddressConfirmationMessage" xml:space="preserve">
+    <value>Forward the assignment?</value>
+  </data>
+  <data name="Action_ReAddressDescription" xml:space="preserve">
+    <value>Forward the assignment to the selected employee</value>
+  </data>
+  <data name="Enum_Result_Abort" xml:space="preserve">
+    <value>Rejected</value>
+  </data>
+  <data name="Action_Abort" xml:space="preserve">
+    <value>Reject</value>
+  </data>
+  <data name="Action_AbortHint" xml:space="preserve">
+    <value>Send Rejection on Documents</value>
+  </data>
+  <data name="Action_AbortConfirmationMessage" xml:space="preserve">
+    <value>Reject signing of documents?</value>
+  </data>
+  <data name="Action_AbortDescription" xml:space="preserve">
+    <value>Send a notification of clarification for the documents that require a signature. If the attached documents do not require a signature, the notification will not be sent to exchange service.
+
+All attached documents will be marked as obsolete.
+
+This command is only available if you are included into role "Users authorized to work via exchange service".</value>
+  </data>
+  <data name="Property_Counterparty" xml:space="preserve">
+    <value>Counterparty</value>
+  </data>
+  <data name="Property_Box" xml:space="preserve">
+    <value>Exchange box</value>
+  </data>
+  <data name="Property_ExchangeService" xml:space="preserve">
+    <value>Exchange service</value>
+  </data>
+  <data name="Resource_c9c4beefec5b4b3796d4959c17991279" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Resource_45c3f7afea6f40948e21e643b6358f4a" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Resource_ad03c4af7bfe4967aa2cdaa3265bdbe3" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Property_Addressee" xml:space="preserve">
+    <value>Forward to employee</value>
+  </data>
+  <data name="Property_NewDeadline" xml:space="preserve">
+    <value>New deadline</value>
+  </data>
+  <data name="DisplayName" xml:space="preserve">
+    <value>Process documents</value>
+  </data>
+  <data name="AccusativeDisplayName" xml:space="preserve">
+    <value>Process documents</value>
+  </data>
+  <data name="CollectionDisplayName" xml:space="preserve">
+    <value>Assignments to process documents</value>
+  </data>
+  <data name="Action_SendForApproval" xml:space="preserve">
+    <value>For Rule-based Approval</value>
+  </data>
+  <data name="Action_SendForApprovalDescription" xml:space="preserve">
+    <value>Send document for approval according to approval rules</value>
+  </data>
+  <data name="Action_SendForApprovalHint" xml:space="preserve">
+    <value>Send for rule-based approval</value>
+  </data>
+  <data name="Action_SendForApprovalConfirmationMessage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Action_SendForApprovalConfirmationDescription" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Action_SendForFreeApproval" xml:space="preserve">
+    <value>For Free Approval</value>
+  </data>
+  <data name="Action_SendForFreeApprovalDescription" xml:space="preserve">
+    <value>Send document for free approval by task</value>
+  </data>
+  <data name="Action_SendForFreeApprovalHint" xml:space="preserve">
+    <value>Send for free approval</value>
+  </data>
+  <data name="Action_SendForFreeApprovalConfirmationMessage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Action_SendForFreeApprovalConfirmationDescription" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Action_SendForReview" xml:space="preserve">
+    <value>To Manager for Review</value>
+  </data>
+  <data name="Action_SendForReviewDescription" xml:space="preserve">
+    <value>Send document to manager for review</value>
+  </data>
+  <data name="Action_SendForReviewHint" xml:space="preserve">
+    <value>Send for Review</value>
+  </data>
+  <data name="Action_SendForReviewConfirmationMessage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Action_SendForReviewConfirmationDescription" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Action_SendForExecution" xml:space="preserve">
+    <value>To Assignees as Action Item</value>
+  </data>
+  <data name="Action_SendForExecutionDescription" xml:space="preserve">
+    <value>Send action item on the current document</value>
+  </data>
+  <data name="Action_SendForExecutionHint" xml:space="preserve">
+    <value>Send Action Item on Document</value>
+  </data>
+  <data name="Action_SendForExecutionConfirmationMessage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Action_SendForExecutionConfirmationDescription" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Ribbon_DocumentProcessing_499e2cef7e174104a26812432322501a" xml:space="preserve">
+    <value>Send Documents</value>
+  </data>
+  <data name="Ribbon_AsgGroup_ac82503a7a4749d0b90c9bb512c4559c" xml:space="preserve">
+    <value>Process Documents</value>
+  </data>
+  <data name="Resource_1bbfaba9c44445878d1c51150787fb2e" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ControlGroup_4917364762724459ab15867c0b3c85a2" xml:space="preserve">
+    <value>Vertical Group</value>
+  </data>
+  <data name="Action_MarkReadHint" xml:space="preserve">
+    <value>Mark as read</value>
+  </data>
+  <data name="Action_CompleteByForceHint" xml:space="preserve">
+    <value>Complete the assignment forcibly</value>
+  </data>
+  <data name="Property_Performer" xml:space="preserve">
+    <value>To</value>
+  </data>
+  <data name="Property_BusinessUnitBox" xml:space="preserve">
+    <value>Business unit box</value>
+  </data>
+  <data name="Action_DeleteEntityConfirmationMessage" xml:space="preserve">
+    <value>Delete the item?</value>
+  </data>
+  <data name="Property_CounterpartyDepartmentBox" xml:space="preserve">
+    <value>Department</value>
+  </data>
+  <data name="Action_SendForDocumentFlow" xml:space="preserve">
+    <value>For Process-Based Approval</value>
+  </data>
+  <data name="Action_SendForDocumentFlowDescription" xml:space="preserve">
+    <value>Send the document for process-based approval</value>
+  </data>
+  <data name="Action_SendForDocumentFlowHint" xml:space="preserve">
+    <value>Send for process-based approval</value>
+  </data>
+  <data name="Action_SendForDocumentFlowConfirmationMessage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Action_SendForDocumentFlowConfirmationDescription" xml:space="preserve">
+    <value />
+  </data>
+</root>

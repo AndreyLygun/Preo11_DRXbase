@@ -1,0 +1,197 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Enum_Result_Done" xml:space="preserve">
+    <value>Выполнено</value>
+  </data>
+  <data name="Action_Done" xml:space="preserve">
+    <value>Выполнить</value>
+  </data>
+  <data name="Action_DoneHint" xml:space="preserve">
+    <value>Выполнить поручение</value>
+  </data>
+  <data name="Action_DoneDescription" xml:space="preserve">
+    <value>Выполнение поручения</value>
+  </data>
+  <data name="Action_DoneConfirmationMessage" xml:space="preserve">
+    <value>Выполнить поручение?</value>
+  </data>
+  <data name="Action_CreateChildActionItem" xml:space="preserve">
+    <value>Создать подчиненное поручение</value>
+  </data>
+  <data name="Action_CreateChildActionItemDescription" xml:space="preserve">
+    <value>Создание подчиненного поручения от текущего</value>
+  </data>
+  <data name="Action_CreateChildActionItemHint" xml:space="preserve">
+    <value>Создать подчиненное поручение</value>
+  </data>
+  <data name="Property_ActionItem" xml:space="preserve">
+    <value>Поручение</value>
+  </data>
+  <data name="Action_ExtendDeadline" xml:space="preserve">
+    <value>Запросить продление срока</value>
+  </data>
+  <data name="Action_ExtendDeadlineDescription" xml:space="preserve">
+    <value>Отправить запрос продления срока поручения</value>
+  </data>
+  <data name="Action_ExtendDeadlineHint" xml:space="preserve">
+    <value>Запросить продление срока поручения</value>
+  </data>
+  <data name="ControlGroup_23bc4bb048724e98b2ba75e9072a2cf0" xml:space="preserve">
+    <value>Основное</value>
+  </data>
+  <data name="Ribbon_Executing_3c558f6eb5fa4bc2b21a1f751e3da397" xml:space="preserve">
+    <value>Поручение</value>
+  </data>
+  <data name="Ribbon_AsgGroup_ac82503a7a4749d0b90c9bb512c4559c" xml:space="preserve">
+    <value>Исполнение</value>
+  </data>
+  <data name="Property_AssignedBy" xml:space="preserve">
+    <value>Выдал</value>
+  </data>
+  <data name="Property_ScheduledDate" xml:space="preserve">
+    <value>Плановый срок</value>
+  </data>
+  <data name="Footer_ActiveEmptyText" xml:space="preserve">
+    <value>Отчет по исполнению поручения…</value>
+  </data>
+  <data name="Action_RequireReport" xml:space="preserve">
+    <value>Запросить отчет</value>
+  </data>
+  <data name="Action_RequireReportDescription" xml:space="preserve">
+    <value>Запрос отчета о состоянии работ у исполнителей подчиненных поручений</value>
+  </data>
+  <data name="Action_RequireReportHint" xml:space="preserve">
+    <value>Запросить отчет у исполнителей подчиненных поручений</value>
+  </data>
+  <data name="Ribbon_JobControl_255d43b227b947ffb228e46610369804" xml:space="preserve">
+    <value>Контроль</value>
+  </data>
+  <data name="DisplayName" xml:space="preserve">
+    <value>Исполнение поручения</value>
+  </data>
+  <data name="AccusativeDisplayName" xml:space="preserve">
+    <value>Исполнение поручения</value>
+  </data>
+  <data name="CollectionDisplayName" xml:space="preserve">
+    <value>Задания на исполнение поручения</value>
+  </data>
+  <data name="Property_NeedAbortChildActionItems" xml:space="preserve">
+    <value>Необходимо прекратить подчиненные поручения</value>
+  </data>
+  <data name="Property_Deadline" xml:space="preserve">
+    <value>Срок</value>
+  </data>
+  <data name="Form_c4e57967ac04483d99c71002c4610e1f" xml:space="preserve">
+    <value>Поручение</value>
+  </data>
+  <data name="ControlGroup_8474eea3a99c4c2c9fe2086d9ca84a5e" xml:space="preserve">
+    <value>Пояснение</value>
+  </data>
+  <data name="Ribbon_DocumentPackage_c42b6a36d87e4fa3989efe1564655efd" xml:space="preserve">
+    <value>Результат</value>
+  </data>
+  <data name="Action_CreateReplyLetter" xml:space="preserve">
+    <value>Создать исх. письмо</value>
+  </data>
+  <data name="Action_CreateReplyLetterDescription" xml:space="preserve">
+    <value>Создание ответного исходящего письма. 
+Документ будет вложен в группу "Результаты исполнения".</value>
+  </data>
+  <data name="Action_CreateReplyLetterHint" xml:space="preserve">
+    <value>Создать исходящее письмо</value>
+  </data>
+  <data name="Action_PrintActionItem" xml:space="preserve">
+    <value>Печать поручения</value>
+  </data>
+  <data name="Action_PrintActionItemDescription" xml:space="preserve">
+    <value>Печать поручения для передачи сотруднику, который не работает в системе.</value>
+  </data>
+  <data name="Action_PrintActionItemHint" xml:space="preserve">
+    <value>Печать поручения</value>
+  </data>
+  <data name="Enum_Result_Forwarded" xml:space="preserve">
+    <value>Переадресовано</value>
+  </data>
+  <data name="Action_Forwarded" xml:space="preserve">
+    <value>Переадресовать</value>
+  </data>
+  <data name="Action_ForwardedHint" xml:space="preserve">
+    <value>Переадресовать исполнение поручения</value>
+  </data>
+  <data name="Action_ForwardedConfirmationMessage" xml:space="preserve">
+    <value>Переадресовать исполнение поручения?</value>
+  </data>
+  <data name="Action_ForwardedDescription" xml:space="preserve">
+    <value>Отправка задания на исполнение поручения другому сотруднику.</value>
+  </data>
+  <data name="ControlGroup_3b62b657402e4c838af8d91d0a3e96d5" xml:space="preserve">
+    <value>Проект подчиненного поручения</value>
+  </data>
+  <data name="AttachmentGroup_ActionItemDraftGroupTitle" xml:space="preserve">
+    <value>Проект подчиненного поручения</value>
+  </data>
+  <data name="AttachmentGroup_ActionItemDraftGroupInformationMessage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ControlGroup_a1cb2e6fe813407e9c1e4e1fc176bd54" xml:space="preserve">
+    <value>Дерево поручений</value>
+  </data>
+</root>

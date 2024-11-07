@@ -1,0 +1,148 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Property_Name" xml:space="preserve">
+    <value>Имя</value>
+  </data>
+  <data name="DisplayName" xml:space="preserve">
+    <value>Пакет бинарных образов документов</value>
+  </data>
+  <data name="AccusativeDisplayName" xml:space="preserve">
+    <value>Пакет бинарных образов документов</value>
+  </data>
+  <data name="CollectionDisplayName" xml:space="preserve">
+    <value>Пакеты бинарных образов документов</value>
+  </data>
+  <data name="Enum_SourceType_Mail" xml:space="preserve">
+    <value>Почта</value>
+  </data>
+  <data name="Enum_SourceType_Folder" xml:space="preserve">
+    <value>Папка</value>
+  </data>
+  <data name="Property_SourceType" xml:space="preserve">
+    <value>Тип источника</value>
+  </data>
+  <data name="Property_PackageFolderPath" xml:space="preserve">
+    <value>Путь к пакету</value>
+  </data>
+  <data name="Property_SenderLine" xml:space="preserve">
+    <value>Линия</value>
+  </data>
+  <data name="Property_FromAddress" xml:space="preserve">
+    <value>Адрес</value>
+  </data>
+  <data name="Property_FromName" xml:space="preserve">
+    <value>Имя</value>
+  </data>
+  <data name="Property_To" xml:space="preserve">
+    <value>Кому</value>
+  </data>
+  <data name="Property_CC" xml:space="preserve">
+    <value>Копия</value>
+  </data>
+  <data name="Property_MailBodyBlob" xml:space="preserve">
+    <value>Бинарный образ тела письма</value>
+  </data>
+  <data name="ControlGroup_bc0b8f70289b4337aad42c0e789d416e" xml:space="preserve">
+    <value>От кого</value>
+  </data>
+  <data name="ControlGroup_c972b9fe7ccb4d5086c00df1d80c0f7e" xml:space="preserve">
+    <value>Кому</value>
+  </data>
+  <data name="ControlGroup_89d977b6f4824c33a80e141eab4885ee" xml:space="preserve">
+    <value>Копия</value>
+  </data>
+  <data name="Property_Subject" xml:space="preserve">
+    <value>Тема</value>
+  </data>
+  <data name="Property_ProcessState" xml:space="preserve">
+    <value>Обработка</value>
+  </data>
+  <data name="Enum_ProcessState_InProcess" xml:space="preserve">
+    <value>В процессе</value>
+  </data>
+  <data name="Enum_ProcessState_Processed" xml:space="preserve">
+    <value>Завершена</value>
+  </data>
+  <data name="Property_Blobs" xml:space="preserve">
+    <value>Бинарные образы документов</value>
+  </data>
+  <data name="Property_PackageId" xml:space="preserve">
+    <value>Идентификатор пакета</value>
+  </data>
+  <data name="Property_SourceName" xml:space="preserve">
+    <value>Имя источника</value>
+  </data>
+  <data name="Property_DcsProcessingBeginDate" xml:space="preserve">
+    <value>Дата начала обработки пакета DCS</value>
+  </data>
+  <data name="Property_MessageId" xml:space="preserve">
+    <value>Идентификатор сообщения</value>
+  </data>
+  <data name="Property_Priority" xml:space="preserve">
+    <value>Приоритет</value>
+  </data>
+  <data name="Property_SendDate" xml:space="preserve">
+    <value>Дата отправки</value>
+  </data>
+  <data name="ControlGroup_cf609c96cea443579f5aaf01b1a4270b" xml:space="preserve">
+    <value>Пакет бинарных образов документов</value>
+  </data>
+</root>

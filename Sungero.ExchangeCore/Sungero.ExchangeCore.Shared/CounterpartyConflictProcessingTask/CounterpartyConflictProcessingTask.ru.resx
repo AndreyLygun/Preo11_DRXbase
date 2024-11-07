@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ConflictTaskSubject" xml:space="preserve">
+    <value>Обработка конфликтов синхронизации контрагентов для {0} с сервисом обмена {1} ({2})</value>
+  </data>
+  <data name="ConflictTaskSingle" xml:space="preserve">
+    <value>Из сервиса обмена поступил контрагент {0} с ИНН {1}.
+Данный ИНН совпадает с ИНН имеющихся контрагентов в системе, у которых отсутствует или указан другой КПП.
+Измените КПП у одной из вложенных организаций либо создайте новую организацию с реквизитами контрагента из сервиса обмена.
+Реквизиты из сервиса обмена:
+ИНН: {1}
+КПП: {2}</value>
+  </data>
+  <data name="ConflictTaskSingleOgrn" xml:space="preserve">
+    <value>{0}ОГРН: {1}</value>
+  </data>
+  <data name="ConflictTaskMany" xml:space="preserve">
+    <value>Переведите неиспользуемые дубли организаций в закрытое состояние:</value>
+  </data>
+  <data name="ConflictTaskThreadSubject" xml:space="preserve">
+    <value>Обработка конфликтов синхронизации</value>
+  </data>
+  <data name="ConflictTaskExchangeDuplicates" xml:space="preserve">
+    <value>Поступил запрос на обмен с контрагентом {0} с ИНН {1}, КПП {2}.
+Реквизиты электронного обмена совпадают с реквизитами имеющихся абонентских ящиков контрагентов в системе.
+Измените реквизиты электронного обмена у одной из вложенных организаций для корректной синхронизации.
+Реквизиты из сервиса обмена ({6}):
+ИНН: {1}
+КПП: {2}
+ИД контрагента: {3}
+ИД участника эл. обмена: {4}
+ИД филиала: {5}</value>
+  </data>
+</root>

@@ -1,0 +1,16 @@
+{
+  "Control_Caption_8be7c527ef0448948cdf5c1594dfcbde": {
+    "en-US": "Subject",
+    "ru-RU": "Тема"
+  },
+  "Description": {
+    "en-US": "View of an assignment to rework a document for employees included in role \"Users of manager's interface\" (within a document review task).",
+    "ru-RU": "Отображение карточки задания на доработку (рассмотрение) для пользователей, которые входят в роль \"Пользователи интерфейса для руководителей\".",
+    "hash": "d773bf0e74dc41d58688b0c7b1e5113e"
+  },
+  "Name": {
+    "en-US": "Assignment to rework document within document review task (for managers)",
+    "ru-RU": "Задание на доработку (для руководителей) в рассмотрении",
+    "hash": "eda0338bc803618b346fab86810f8b5c"
+  }
+}

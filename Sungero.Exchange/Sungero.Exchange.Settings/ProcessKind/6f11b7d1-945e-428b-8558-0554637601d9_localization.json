@@ -1,0 +1,22 @@
+{
+  "Description": {
+    "default": "Processing of incoming documents sent by counterparties via services of electronic document exchange",
+    "ru-RU": "Обработка входящих документов от контрагентов в сервисах электронного обмена",
+    "hash": "814fe31ff940eaef8045bb94774a954f"
+  },
+  "Name": {
+    "default": "Processing of incoming documents of electronic exchange",
+    "ru-RU": "Обработка входящих документов эл. обмена",
+    "hash": "df93d55192d2380a18207a3fffa66e3c"
+  },
+  "Subject_SE_1": {
+    "default": "{0}",
+    "ru-RU": "{0}",
+    "hash": "031926624c88fbc0578b59ea78a99849"
+  },
+  "Title_SE_1": {
+    "default": "Exchange Document Processing",
+    "ru-RU": "Обработка входящих документов эл. обмена",
+    "hash": "39490b430af772c9d2d8217312eeec74"
+  }
+}

@@ -1,0 +1,197 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="DisplayName" xml:space="preserve">
+    <value>Базовый договорной документ</value>
+  </data>
+  <data name="AccusativeDisplayName" xml:space="preserve">
+    <value>Базовый договорной документ</value>
+  </data>
+  <data name="CollectionDisplayName" xml:space="preserve">
+    <value>Базовые договорные документы</value>
+  </data>
+  <data name="Property_Counterparty" xml:space="preserve">
+    <value>Контрагент</value>
+  </data>
+  <data name="Property_CounterpartySignatory" xml:space="preserve">
+    <value>Подписал</value>
+  </data>
+  <data name="Enum_LifeCycleState_Obsolete" xml:space="preserve">
+    <value>Аннулирован</value>
+  </data>
+  <data name="ControlGroup_406e14dc17444a7f85d8f6eef8abaa3f" xml:space="preserve">
+    <value>Основное</value>
+  </data>
+  <data name="ControlGroup_b8017e2288d643da8d6d8d11917b1dd6" xml:space="preserve">
+    <value>Дополнительно</value>
+  </data>
+  <data name="ControlGroup_f888b205dc3d4510ba242b0b6fc2acf9" xml:space="preserve">
+    <value>Контрагент</value>
+  </data>
+  <data name="ControlGroup_eac82508a0a44f0c9b68a896b4972e85" xml:space="preserve">
+    <value>Наша сторона</value>
+  </data>
+  <data name="ControlGroup_2a9b759d673b4a94bb3b3d6bdcae0d5d" xml:space="preserve">
+    <value>Контрагент</value>
+  </data>
+  <data name="ControlGroup_519f2394febe4501adcaa34ee883d986" xml:space="preserve">
+    <value>Наша сторона</value>
+  </data>
+  <data name="Enum_Operation_SetToObsolete" xml:space="preserve">
+    <value>Отметка об аннулировании</value>
+  </data>
+  <data name="Property_TotalAmount" xml:space="preserve">
+    <value>Общая сумма</value>
+  </data>
+  <data name="Property_Currency" xml:space="preserve">
+    <value>Валюта</value>
+  </data>
+  <data name="Action_PrintEnvelope" xml:space="preserve">
+    <value>Напечатать конверты</value>
+  </data>
+  <data name="Action_PrintEnvelopeDescription" xml:space="preserve">
+    <value>Печать конвертов для выбранных документов. Доступные форматы: С4, С5, С65, Е65.
+
+Для выбора документов нажмите и удерживайте клавишу CTRL, затем выделите элементы левой кнопкой мыши.</value>
+  </data>
+  <data name="Action_PrintEnvelopeHint" xml:space="preserve">
+    <value>Напечатать конверты</value>
+  </data>
+  <data name="Action_PrintEnvelopeCard" xml:space="preserve">
+    <value>Напечатать конверт</value>
+  </data>
+  <data name="Action_PrintEnvelopeCardDescription" xml:space="preserve">
+    <value>Печать конверта.
+Доступные форматы: С4, С5, С65, Е65.
+</value>
+  </data>
+  <data name="Action_PrintEnvelopeCardHint" xml:space="preserve">
+    <value>Печать конверта</value>
+  </data>
+  <data name="Ribbon_PostCommands_28c968f19006442fa146ea81cefa5f9e" xml:space="preserve">
+    <value>Почта</value>
+  </data>
+  <data name="Ribbon_PostCommands_dcd7f348df1047b1887448d483d71d65" xml:space="preserve">
+    <value>Почта</value>
+  </data>
+  <data name="Property_DocumentGroup" xml:space="preserve">
+    <value>Группа документов</value>
+  </data>
+  <data name="ControlGroup_24f189f9fc0e40cfafc7fc3d96e9667b" xml:space="preserve">
+    <value>Условия</value>
+  </data>
+  <data name="ControlGroup_4f726d80cc91414a822d98cd52484652" xml:space="preserve">
+    <value>Наша сторона</value>
+  </data>
+  <data name="ControlGroup_c3986f619bdd4120849c503614b57516" xml:space="preserve">
+    <value>Контрагент</value>
+  </data>
+  <data name="Property_CounterpartySigningReason" xml:space="preserve">
+    <value>Основание</value>
+  </data>
+  <data name="Property_VatRate" xml:space="preserve">
+    <value>Ставка НДС</value>
+  </data>
+  <data name="Property_VatAmount" xml:space="preserve">
+    <value>Сумма НДС</value>
+  </data>
+  <data name="Property_NetAmount" xml:space="preserve">
+    <value>Сумма без НДС</value>
+  </data>
+  <data name="Property_PurchaseOrderNumber" xml:space="preserve">
+    <value>Номер заказа</value>
+  </data>
+  <data name="Resource_fc50c88831554ff196e8ff7064894ead" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Control_fc50c88831554ff196e8ff7064894ead_EmptyText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Resource_ddf41ead829a4a3f8d12d40a52b7440c" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Control_ddf41ead829a4a3f8d12d40a52b7440c_EmptyText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Resource_f0607051ea774af2b7966d11cd8a7374" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Control_f0607051ea774af2b7966d11cd8a7374_EmptyText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Resource_a915c070568d4f08a7365fbdabe9e559" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Control_a915c070568d4f08a7365fbdabe9e559_EmptyText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ControlGroup_c18501e47af044de8ac7873abb63e9d6" xml:space="preserve">
+    <value>Дополнительно</value>
+  </data>
+  <data name="ControlGroup_9a854522b3684ca9ae201ed8d99ffa2d" xml:space="preserve">
+    <value>Дополнительно</value>
+  </data>
+  <data name="ControlGroup_cd5f195d55f44de297951109f550726b" xml:space="preserve">
+    <value>Дополнительно</value>
+  </data>
+  <data name="ControlGroup_7b1efe6b2205410780638ca14d8558ce" xml:space="preserve">
+    <value>Дополнительно</value>
+  </data>
+</root>

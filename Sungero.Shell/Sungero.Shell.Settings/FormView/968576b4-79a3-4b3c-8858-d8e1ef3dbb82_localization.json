@@ -1,0 +1,21 @@
+{
+  "Control_Caption_beeda66fccee4443a48c16e93f435ba3": {
+    "en-US": "Subject",
+    "ru-RU": "Тема"
+  },
+  "Description": {
+    "en-US": "View of an assignment to approve a document for employees included in role \"Users of manager's interface\" (within rule-based approval).",
+    "ru-RU": "Отображение карточки задания на согласование (регламент) для пользователей, которые входят в роль \"Пользователи интерфейса для руководителей\".",
+    "hash": "d90e0ef8157052fcd9932acb7e8fea2e"
+  },
+  "Name": {
+    "en-US": "Assignment to sign document within rule- based approval (for managers)",
+    "ru-RU": "Задание на согласование (для руководителей) в согласовании по регламенту",
+    "hash": "76940b353b3dffbcfb8fa61c2330dd70"
+  },
+  "Thread_Title_a2b1a03300e7415c9eca8ae12d0ed849": {
+    "en-US": "Thread",
+    "ru-RU": "Переписка",
+    "hash": "041eec598ca6e8ea8b76021de6822cb0"
+  }
+}

@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AIAssistantOnlyOne" xml:space="preserve">
+    <value>The manager already has a virtual assistant.</value>
+  </data>
+  <data name="WrongClassificationLimit" xml:space="preserve">
+    <value>Specify the lower bound of classification confidence between 0 and {0}.</value>
+  </data>
+  <data name="ResetClassifierResults" xml:space="preserve">
+    <value>Reset Training Results?</value>
+  </data>
+  <data name="ResetClassifierResultsDescription" xml:space="preserve">
+    <value>All the data that has been used for training the virtual assistant will be deleted. The training will restart.</value>
+  </data>
+  <data name="DateFrom" xml:space="preserve">
+    <value>Start date</value>
+  </data>
+  <data name="ClassifierTrainingDialogTitle" xml:space="preserve">
+    <value>Train Virtual Assistant</value>
+  </data>
+  <data name="WrongDatePeriod" xml:space="preserve">
+    <value>Start date cannot be later than the current date.</value>
+  </data>
+  <data name="TrainButton" xml:space="preserve">
+    <value>Train</value>
+  </data>
+  <data name="TraininResultsWillReset" xml:space="preserve">
+    <value>Previous training results will be deleted.</value>
+  </data>
+  <data name="FailedToCreateClassifier" xml:space="preserve">
+    <value>An error occurred while creating a classifier. Make sure that Ario services are available.</value>
+  </data>
+  <data name="ClassifierModelNotFound" xml:space="preserve">
+    <value>Cannot find a classifier model to delete training results.</value>
+  </data>
+  <data name="FailedToUnpublishClassifierModel" xml:space="preserve">
+    <value>An error occurred while deleting training results. Make sure that Ario services are available.</value>
+  </data>
+  <data name="ClassifierTrainingAlreadyStarted" xml:space="preserve">
+    <value>Training has already been started at {0}. Wait until the processing is completed.</value>
+  </data>
+  <data name="EmptyDateFromMinTrainCount" xml:space="preserve">
+    <value>The start date is not specified. The virtual assistant will be trained on last {0} action items.</value>
+  </data>
+</root>

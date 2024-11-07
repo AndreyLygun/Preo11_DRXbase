@@ -1,0 +1,9 @@
+{
+  "$type": "Sungero.DataExport.ExportingObject, Sungero.DataExport",
+  "Uuid": "df83a2ea-8d43-4ec4-a34a-2e61863014df",
+  "ModuleNameGuid": "df83a2ea-8d43-4ec4-a34a-2e61863014df",
+  "HelpCode": "sungero_docflow",
+  "Status": "Active",
+  "SortingPriority": "Low",
+  "StoreAsDefaultSetting": true
+}

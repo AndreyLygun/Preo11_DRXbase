@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="DisplayName" xml:space="preserve">
+    <value>Incoming Exchange Document</value>
+  </data>
+  <data name="AccusativeDisplayName" xml:space="preserve">
+    <value>Incoming Exchange Document</value>
+  </data>
+  <data name="CollectionDisplayName" xml:space="preserve">
+    <value>Incoming Exchange Documents</value>
+  </data>
+  <data name="Resource_fc50c88831554ff196e8ff7064894ead" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Control_fc50c88831554ff196e8ff7064894ead_EmptyText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ControlGroup_406e14dc17444a7f85d8f6eef8abaa3f" xml:space="preserve">
+    <value>Main</value>
+  </data>
+  <data name="Property_Counterparty" xml:space="preserve">
+    <value>Counterparty</value>
+  </data>
+  <data name="ControlGroup_03fde41782544f08950cd543871033a8" xml:space="preserve">
+    <value>Vertical Group</value>
+  </data>
+  <data name="ControlGroup_42612188cf984a66a4cc5c674787d208" xml:space="preserve">
+    <value>Notes</value>
+  </data>
+  <data name="Resource_0e47ae684ffc4acb80bf3d6f715ce7c2" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Control_0e47ae684ffc4acb80bf3d6f715ce7c2_EmptyText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Resource_206b91b3920941ba91fcf50db5cdcb8c" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ControlGroup_f1bb25112ea0463f8e5cc990e5345728" xml:space="preserve">
+    <value>Paper Documents Tracking</value>
+  </data>
+  <data name="Ribbon_Sign_dfd909f17161415da17d9b83c93af065" xml:space="preserve">
+    <value>Sign</value>
+  </data>
+  <data name="Property_BusinessUnitBox" xml:space="preserve">
+    <value>Business Unit Box</value>
+  </data>
+  <data name="AdditionalInfoTemplate" xml:space="preserve">
+    <value>Author [Author]</value>
+  </data>
+  <data name="Ribbon_Service_2ba6f58b3bca4ab1a1e26d6db4e78ff5" xml:space="preserve">
+    <value>Service</value>
+  </data>
+  <data name="Property_CounterpartySignatory" xml:space="preserve">
+    <value>Signed by</value>
+  </data>
+  <data name="Property_CounterpartySigningReason" xml:space="preserve">
+    <value>Signing authority</value>
+  </data>
+</root>

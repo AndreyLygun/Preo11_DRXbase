@@ -1,0 +1,256 @@
+{
+  "Action_Description_0220f1aaf7dd4b86a982430a07355947": {
+    "default": "Create a new letter, order, official note or another kind of document.",
+    "ru-RU": "Быстрое создание писем, приказов, служебных записок и других делопроизводственных документов",
+    "hash": "f1f7cba766b9c965b13f1979a729642b"
+  },
+  "Action_Description_0dcb1e6bd84f4b5b956f1a294f21afc7": {
+    "default": "Show other internal documents.",
+    "ru-RU": "Показать прочие внутренние документы.",
+    "hash": "be6ee34ac7edc43f4ce23e82f7ee4a5a"
+  },
+  "Action_Description_13c48e6358844d6895d8994e921142a9": {
+    "default": "List of documents that were not returned from departments.",
+    "ru-RU": "Перечень документов, которые не были возвращены из подразделений.",
+    "hash": "ca525ccc166282291437f2eaa222c95e"
+  },
+  "Action_Description_188899be8fff4149974113936b7df40b": {
+    "default": "Control location of documents",
+    "ru-RU": "Контроль местонахождения документов",
+    "hash": "ee7001f66c6fbf7c5ca6fefc3ba530c2"
+  },
+  "Action_Description_1c79c71efe9c48318c84373c6d3e5df5": {
+    "default": "List of all registered documents related to the incoming document flow.",
+    "ru-RU": "Список входящих зарегистрированных документов.",
+    "hash": "f00e37ad3b8ec4320d6e2c79af02b05c"
+  },
+  "Action_Description_37afa3c00dac4203aa49dff9f6fa16e1": {
+    "default": "List of all registered documents related to the outgoing document flow.",
+    "ru-RU": "Список исходящих зарегистрированных документов.",
+    "hash": "e3dc64fefb30002cd3940d018ec04689"
+  },
+  "Action_Description_44892f59bc3241eeb56dfbdf5c3b559a": {
+    "default": "Show all outgoing documents",
+    "ru-RU": "Показать все исходящие документы",
+    "hash": "1174448261c310f47df34ad56432ab1a"
+  },
+  "Action_Description_590bc6dfe74e4ae2a17c821b38c135af": {
+    "default": "Show all incoming and outgoing documents related to the specified counterparty",
+    "ru-RU": "Показать все входящие и исходящие документы, связанные с указанным корреспондентом",
+    "hash": "172cbba1aef82450785107afa5f4ed97"
+  },
+  "Action_Description_62c6423d1cc644bca524c531caf2267f": {
+    "default": "Personal settings for working in the system.",
+    "ru-RU": "Личные настройки отдельных параметров работы системы.",
+    "hash": "070dffa0a403109e04b439983dd5923c"
+  },
+  "Action_Description_7104dc5ec1a343edac47e0b28e94d652": {
+    "default": "Distribution lists of the outgoing letters.",
+    "ru-RU": "Списки рассылки исходящих писем.",
+    "hash": "c01ae6bab55ccd3a154729a4f894f141"
+  },
+  "Action_Description_74fbee7e1b6c4e149974862c656e81a2": {
+    "default": "Control of assigned action items",
+    "ru-RU": "Контроль выданных поручений",
+    "hash": "45f446bc5ad7b26743d891d1914bcc24"
+  },
+  "Action_Description_8c7c571fb6ba4169a3f67088dc54eae6": {
+    "default": "List of action items with planned deadline coming within a specified period.",
+    "ru-RU": "Список поручений с плановым сроком исполнения в выбранном периоде.",
+    "hash": "00c568ed165fbbaa2233b7a9a73585a0"
+  },
+  "Action_Description_8d7b112a0e5d4523971bd0b4fbce0fdd": {
+    "default": "Show all incoming documents",
+    "ru-RU": "Показать все входящие документы",
+    "hash": "61f19b8eda93bc4b49bd592006de6935"
+  },
+  "Action_Description_a26e3c5911bf4d5bb1ee92eb089a8a05": {
+    "default": "Powers of attorney, including formalized powers of attorney, issued to business unit employees.",
+    "ru-RU": "Доверенности, выданные сотрудникам нашей организации, в том числе электронные.",
+    "hash": "52da757e62a9b12cdbcffe8c99b48156"
+  },
+  "Action_Description_b269337d5c3a4f0c8384f6ef5fd20f0e": {
+    "default": "Lists of employees to review or acquaint with documents.",
+    "ru-RU": "Списки сотрудников для ознакомления или рассмотрения документов.",
+    "hash": "3ad7bc1156cf33ccf7b1579ba2ed9f2a"
+  },
+  "Action_Description_b385e8f25e4c41c4a95677ed82acfb7c": {
+    "default": "Search documents by common registration data",
+    "ru-RU": "Поиск документов по основным регистрационным данным",
+    "hash": "2b4887ba0eca574cfa2d0212ae28cf4a"
+  },
+  "Action_Description_c4d89d6aa14c47da8ec99b7639f1e76c": {
+    "default": "List of all module reports.",
+    "ru-RU": "Список всех отчетов модуля.",
+    "hash": "b2a754516188f6920ebe8840d7220e33"
+  },
+  "Action_Description_cf195402f6194b0daceb04fe3f7e7662": {
+    "default": "List of the document numbering skips in the document register with an allowance for the period and the numbering separator.",
+    "ru-RU": "Отчет для контроля пропусков в нумерации документов в указанном журнале с учетом периода и разреза нумерации.",
+    "hash": "94d76ef49e41909184fb4f373532a50f"
+  },
+  "Action_Description_d64540d83c394794a40b68ddb72bd373": {
+    "default": "List of all registered documents related to the internal document flow.",
+    "ru-RU": "Список внутренних зарегистрированных документов.",
+    "hash": "edbdc169d5d97dca097937be2980910a"
+  },
+  "Action_Description_ecc9047de6774d9db47d457cff19d32c": {
+    "default": "Show memos.",
+    "ru-RU": "Показать служебные записки.",
+    "hash": "60aa697db9824e25a36e5dc61f7afc39"
+  },
+  "Action_Description_fd97eef16de34cde9328ff6ee36d96b9": {
+    "default": "Show orders and company directives.",
+    "ru-RU": "Показать приказы и распоряжения.",
+    "hash": "18b0ef540ed31ce69b37fb53436e423b"
+  },
+  "Action_Title_0220f1aaf7dd4b86a982430a07355947": {
+    "default": "New Document",
+    "ru-RU": "Создать документ",
+    "hash": "505c1f1703ca0d50878e24fafa099a10"
+  },
+  "Action_Title_0dcb1e6bd84f4b5b956f1a294f21afc7": {
+    "default": "All Internal Documents",
+    "ru-RU": "Внутренние документы",
+    "hash": "e638893a66d67aea25b6a18e96c1121f"
+  },
+  "Action_Title_13c48e6358844d6895d8994e921142a9": {
+    "default": "Check Document Return",
+    "ru-RU": "Контроль возврата документов",
+    "hash": "a784f02d331459fab8d2bcb81a47a99c"
+  },
+  "Action_Title_188899be8fff4149974113936b7df40b": {
+    "default": "Paper Documents Tracking",
+    "ru-RU": "Выданные документы",
+    "hash": "cab399f5840e3e3d6703a740a28ec7c2"
+  },
+  "Action_Title_1c79c71efe9c48318c84373c6d3e5df5": {
+    "default": "Incoming Documents Register",
+    "ru-RU": "Журнал входящих документов",
+    "hash": "e7c0e365fee1d076c666e0f3d705143f"
+  },
+  "Action_Title_37afa3c00dac4203aa49dff9f6fa16e1": {
+    "default": "Outgoing Documents Register",
+    "ru-RU": "Журнал исходящих документов",
+    "hash": "144010d29d59ab68bbdec57e18a6c8a3"
+  },
+  "Action_Title_44892f59bc3241eeb56dfbdf5c3b559a": {
+    "default": "All Outgoing Documents",
+    "ru-RU": "Исходящие документы",
+    "hash": "b4b15c8d35a12242e09e780a347fc292"
+  },
+  "Action_Title_590bc6dfe74e4ae2a17c821b38c135af": {
+    "default": "Business Correspondence",
+    "ru-RU": "Официальная переписка с корреспондентом",
+    "hash": "b0039939f4d0fc90a909ca8290692f02"
+  },
+  "Action_Title_62c6423d1cc644bca524c531caf2267f": {
+    "default": "Personal Settings",
+    "ru-RU": "Персональные настройки",
+    "hash": "816ac553d3c885c5ec617e3a207da9c8"
+  },
+  "Action_Title_7104dc5ec1a343edac47e0b28e94d652": {
+    "default": "Distribution Lists",
+    "ru-RU": "Списки рассылки",
+    "hash": "b9036a539a42b1744ca6f7a44e60724b"
+  },
+  "Action_Title_74fbee7e1b6c4e149974862c656e81a2": {
+    "default": "Action Items",
+    "ru-RU": "Поручения",
+    "hash": "72e72f6994d3f17bef2c0ed37e19a5b4"
+  },
+  "Action_Title_8c7c571fb6ba4169a3f67088dc54eae6": {
+    "default": "Follow Up Action Item Execution Deadline",
+    "ru-RU": "Контроль сроков исполнения поручений",
+    "hash": "8f04c7981efd80981db54aaed256752e"
+  },
+  "Action_Title_8d7b112a0e5d4523971bd0b4fbce0fdd": {
+    "default": "All Incoming Documents",
+    "ru-RU": "Входящие документы",
+    "hash": "45dd569a1215b28570f67586e9242b04"
+  },
+  "Action_Title_a26e3c5911bf4d5bb1ee92eb089a8a05": {
+    "default": "Power of Attorney List",
+    "ru-RU": "Реестр доверенностей",
+    "hash": "0a6fc01bc02e855d70f2bc1ec2f41ca8"
+  },
+  "Action_Title_b269337d5c3a4f0c8384f6ef5fd20f0e": {
+    "default": "Acquaintance and Review Lists",
+    "ru-RU": "Списки ознакомления/рассмотрения",
+    "hash": "f3579767612b03e8e8bbea5d13979a77"
+  },
+  "Action_Title_b385e8f25e4c41c4a95677ed82acfb7c": {
+    "default": "Search by Registration Data",
+    "ru-RU": "Поиск по регистрационным данным",
+    "hash": "4ab3b2c64821992a8863adbf45627c18"
+  },
+  "Action_Title_c4d89d6aa14c47da8ec99b7639f1e76c": {
+    "default": "All Reports",
+    "ru-RU": "Все отчеты",
+    "hash": "a7888b33b5089d380498792cb7b091f6"
+  },
+  "Action_Title_cf195402f6194b0daceb04fe3f7e7662": {
+    "default": "Document Numbering Skips",
+    "ru-RU": "Контроль пропусков в нумерации документов",
+    "hash": "3d23d126b2caeec323094bd37bfe99b7"
+  },
+  "Action_Title_d64540d83c394794a40b68ddb72bd373": {
+    "default": "Internal Documents Register",
+    "ru-RU": "Журнал внутренних документов",
+    "hash": "36ad1987be55adee49ccb9be3bd89bf6"
+  },
+  "Action_Title_ecc9047de6774d9db47d457cff19d32c": {
+    "default": "Memos",
+    "ru-RU": "Служебные записки",
+    "hash": "912a39589c3cb04bc48b481d55359764"
+  },
+  "Action_Title_fd97eef16de34cde9328ff6ee36d96b9": {
+    "default": "Orders & Company Directives",
+    "ru-RU": "Приказы и распоряжения",
+    "hash": "c78a663cb471c3e776bc55ed315c8f32"
+  },
+  "Group_Title_23367c4a92924e6e8ff5beafb228f180": {
+    "default": "Settings",
+    "ru-RU": "Настройки",
+    "hash": "57b7fc0bc0d4865c3c17bc04940219ff"
+  },
+  "Group_Title_8cc549b8f94441cc969a468b608051db": {
+    "default": "Documents",
+    "ru-RU": "Документы",
+    "hash": "81aea7b35bf41d1b67b701e1fba4026b"
+  },
+  "Group_Title_a80d8f71043b4e01bc6b079aa5279e60": {
+    "default": "Control",
+    "ru-RU": "Контроль",
+    "hash": "fdeeebff7cbacc5bdd28e019a0c76137"
+  },
+  "Group_Title_bb01f24730cc48e6aac6213f25a76a29": {
+    "default": "Reports",
+    "ru-RU": "Отчеты",
+    "hash": "269295bfcf8b9d5f4d39a3bda47e4e2f"
+  },
+  "Group_Title_f03e4ca2daf746f2834e746380354e7e": {
+    "default": "Document Search",
+    "ru-RU": "Поиск документов",
+    "hash": "5653f38c1dd166b7a1442fdbbf4d88f2"
+  },
+  "Header_Description_23eb07e1859c42f69942c836ab826bd7": {
+    "default": "The module is designed to automate legal documents processing.",
+    "ru-RU": "Модуль предназначен для автоматизации работы с официальными документами",
+    "hash": "3c6c87e64e6e385bc9c698ff5809ccb5"
+  },
+  "Header_Title_23eb07e1859c42f69942c836ab826bd7": {
+    "default": "Records Management",
+    "ru-RU": "Делопроизводство",
+    "hash": "e5e731970c6ea07ce789ca148a928aa3"
+  },
+  "Name": {
+    "default": "Records management",
+    "ru-RU": "Делопроизводство",
+    "hash": "c758dd8d99f3cdc977e53da6fbf72459"
+  },
+  "Tab_Title_276a4d3118d84f4894fd03dfefa3cc5b": {
+    "default": "Tab",
+    "hash": "308b6abade3f7962098e8bd8cb7db726"
+  }
+}

@@ -1,0 +1,224 @@
+{
+  "Description": {
+    "en-US": "Document review by manager with draft resolution that can be prepared by manager assistant",
+    "ru-RU": "Рассмотрение документа руководителем с возможностью предварительной подготовки проекта резолюции помощником руководителя",
+    "hash": "3d5563e77bb1a61581ffe88ed384166c"
+  },
+  "Description_2c498521-2d77-4954-af2f-8368455e3b0e": {},
+  "Description_73d79c22-d28d-45b6-8547-0cf0fd9b4508": {
+    "en-US": "Employee who reviews the document",
+    "ru-RU": "Сотрудник, который рассматривает документ",
+    "hash": "2ce900883dd9a9cb034ef43c974d5740"
+  },
+  "Description_9eb0a8f4-b351-46dd-b82d-87817d4852db": {
+    "en-US": "Employee on whose behalf the draft resolution is prepared",
+    "ru-RU": "Сотрудник, от имени которого подготовлен проект резолюции",
+    "hash": "11c2d1b767e11af22d2d24df33a06b61"
+  },
+  "Description_a4d07eca-98e1-4e36-97e9-2cd43c5f16c4": {
+    "en-US": "Document has been reviewed and does not require further actions",
+    "ru-RU": "Документ рассмотрен, и дальнейшие работы по нему не требуются",
+    "hash": "ac889e018c1a34768600f657a9f67a69"
+  },
+  "Description_e07a3b9b-d5a6-49bd-9841-1ee57af0352f": {
+    "en-US": "Employees to notify about completion of document review",
+    "ru-RU": "Сотрудники, которых необходимо уведомить о завершении рассмотрения",
+    "hash": "83528d22715e9d7c2601d7840442f4ee"
+  },
+  "DraftResolutionActiveText_SE_67": {
+    "en-US": "Complete the action item",
+    "ru-RU": "В работу",
+    "hash": "baad85004038f18683ad6ea9992f97ae"
+  },
+  "Name": {
+    "en-US": "Document review by one addressee",
+    "ru-RU": "Рассмотрение документа одним адресатом",
+    "hash": "e5b852c789c14e16f81b6024783057ca"
+  },
+  "Name_2c498521-2d77-4954-af2f-8368455e3b0e": {
+    "en-US": "Draft resolution is checked by manager's assistant",
+    "ru-RU": "Проект резолюции проверен помощником руководителя",
+    "hash": "7029f167a16734780cc33fb000aa6dc7"
+  },
+  "Name_73d79c22-d28d-45b6-8547-0cf0fd9b4508": {
+    "en-US": "Addressee",
+    "ru-RU": "Адресат",
+    "hash": "6973bd31396c141d7f23cfd762a8206f"
+  },
+  "Name_9eb0a8f4-b351-46dd-b82d-87817d4852db": {
+    "en-US": "Action item author",
+    "ru-RU": "Автор поручения",
+    "hash": "a664a48467f3f00245565f5f0777efa5"
+  },
+  "Name_a4d07eca-98e1-4e36-97e9-2cd43c5f16c4": {
+    "en-US": "Addressee is informed about document",
+    "ru-RU": "Документ принят к сведению",
+    "hash": "f802646e1195c44ef6bac6f29a58a2ce"
+  },
+  "Name_e07a3b9b-d5a6-49bd-9841-1ee57af0352f": {
+    "en-US": "Employees to notify about completion of document review",
+    "ru-RU": "Кого уведомить о завершении рассмотрения",
+    "hash": "d13a3d014f39b84fa7933757f99bce04"
+  },
+  "Subject_SE_12": {
+    "en-US": "Prepare draft resolution for addressee {0}: {1}",
+    "ru-RU": "Подготовьте проект резолюции, адресат {0}: {1}",
+    "hash": "9031caae442a59d0bdbada09e6f1d912"
+  },
+  "Subject_SE_15": {
+    "en-US": "Document review completed: {0}",
+    "ru-RU": "Завершено рассмотрение: {0}",
+    "hash": "fb59f7111d73eb4a933f5b173e396014"
+  },
+  "Subject_SE_16": {
+    "en-US": "Informed: {0}",
+    "ru-RU": "Принято к сведению: {0}",
+    "hash": "4cff82edccc45ea2569bd3863b94e917"
+  },
+  "Subject_SE_2": {
+    "en-US": "Document review started: {0}",
+    "ru-RU": "Начато рассмотрение: {0}",
+    "hash": "58768a6ae0a7c687796c68f7c8d39977"
+  },
+  "Subject_SE_23": {
+    "en-US": "Document review completed: {0}",
+    "ru-RU": "Завершено рассмотрение: {0}",
+    "hash": "fb59f7111d73eb4a933f5b173e396014"
+  },
+  "Subject_SE_26": {
+    "en-US": "Create action item: {0}",
+    "ru-RU": "Создайте поручение: {0}",
+    "hash": "4705976d40b6e35950ce34ca2ad68714"
+  },
+  "Subject_SE_28": {
+    "en-US": "Rework draft resolution for addressee {0}: {1}",
+    "ru-RU": "Доработайте проект резолюции, адресат {0}: {1}",
+    "hash": "b68289de0746778fc736a6d8513e210e"
+  },
+  "Subject_SE_41": {
+    "en-US": "Rework: {0}",
+    "ru-RU": "Доработайте: {0}",
+    "hash": "ca276ccb9ced9ddaeab9d482049bfc7e"
+  },
+  "Subject_SE_55": {
+    "en-US": "Document review completed: {0}",
+    "ru-RU": "Завершено рассмотрение: {0}",
+    "hash": "fb59f7111d73eb4a933f5b173e396014"
+  },
+  "Subject_SE_8": {
+    "en-US": "Review document: {0}",
+    "ru-RU": "Рассмотрите: {0}",
+    "hash": "55ba20c0eb28a0905522bc45c397024e"
+  },
+  "ThreadSubject_SE_15": {
+    "en-US": "Notice about document review completion",
+    "ru-RU": "Уведомление о завершении рассмотрения",
+    "hash": "5c3ecb84c3c38f7b1f9ebc0736936bb8"
+  },
+  "ThreadSubject_SE_16": {
+    "en-US": "Notice about document review completion",
+    "ru-RU": "Уведомление о завершении рассмотрения",
+    "hash": "5c3ecb84c3c38f7b1f9ebc0736936bb8"
+  },
+  "ThreadSubject_SE_2": {
+    "en-US": "Notice about document review start",
+    "ru-RU": "Уведомление о начале рассмотрения",
+    "hash": "82ece13fa76765c12a98ab488146a904"
+  },
+  "ThreadSubject_SE_23": {
+    "en-US": "Notice about document review completion",
+    "ru-RU": "Уведомление о завершении рассмотрения",
+    "hash": "5c3ecb84c3c38f7b1f9ebc0736936bb8"
+  },
+  "ThreadSubject_SE_28": {
+    "en-US": "Rework draft resolution",
+    "ru-RU": "Доработка проекта резолюции",
+    "hash": "27a282cee92f02014762887a0ab8c024"
+  },
+  "ThreadSubject_SE_55": {
+    "en-US": "Notice about document review completion",
+    "ru-RU": "Уведомление о завершении рассмотрения",
+    "hash": "5c3ecb84c3c38f7b1f9ebc0736936bb8"
+  },
+  "ThreadSubject_SE_8": {
+    "en-US": "Review document by manager",
+    "ru-RU": "Рассмотрение руководителем",
+    "hash": "0f034f3ef02cefed4d162e9330898a41"
+  },
+  "Title_SE_12": {
+    "en-US": "Prepare draft resolution by assistant",
+    "ru-RU": "Подготовка проекта резолюции помощником"
+  },
+  "Title_SE_13": {
+    "en-US": "Does assistant prepare draft resolution?",
+    "ru-RU": "Помощник готовит проект резолюции?"
+  },
+  "Title_SE_15": {
+    "en-US": "Notice to observers about review result",
+    "ru-RU": "Уведомление наблюдателям о результате рассмотрения"
+  },
+  "Title_SE_16": {
+    "en-US": "Notice to assistant that document does not require further actions",
+    "ru-RU": "Уведомление помощника о принятии к сведению"
+  },
+  "Title_SE_2": {
+    "en-US": "Notice to observers about start of action item execution",
+    "ru-RU": "Уведомление наблюдателей о начале рассмотрения"
+  },
+  "Title_SE_23": {
+    "en-US": "Notice to task participants about review result",
+    "ru-RU": "Уведомление участников о результате рассмотрения"
+  },
+  "Title_SE_26": {
+    "en-US": "Start action items based on resolution",
+    "ru-RU": "Отправка поручений по вынесенной резолюции "
+  },
+  "Title_SE_28": {
+    "en-US": "Rework draft resolution by assistant",
+    "ru-RU": "Доработка проекта резолюции помощником"
+  },
+  "Title_SE_29": {
+    "en-US": "Notify about being informed of document?",
+    "ru-RU": "Уведомить о принятии к сведению?"
+  },
+  "Title_SE_31": {
+    "en-US": "Delete unapproved draft resolution",
+    "ru-RU": "Удаление неутвержденного проекта резолюции"
+  },
+  "Title_SE_35": {
+    "en-US": "Assign access rights to documents to participants ",
+    "ru-RU": "Назначение участникам прав на документы "
+  },
+  "Title_SE_41": {
+    "en-US": "Rework by initiator",
+    "ru-RU": "Доработка инициатором"
+  },
+  "Title_SE_54": {
+    "en-US": "Does task initiator create action items?",
+    "ru-RU": "Отправитель создает поручения?"
+  },
+  "Title_SE_55": {
+    "en-US": "Notice to task initiator about review result",
+    "ru-RU": "Уведомление отправителю о результате рассмотрения"
+  },
+  "Title_SE_58": {
+    "en-US": "Process forwarding of assignment to review document",
+    "ru-RU": "Обработка переадресации рассмотрения"
+  },
+  "Title_SE_65": {
+    "en-US": "Process forwarding of assignment to review document",
+    "ru-RU": "Обработка переадресации рассмотрения"
+  },
+  "Title_SE_66": {
+    "en-US": "Does virtual assistant prepare action item draft?",
+    "ru-RU": "Вирт. помощник готовит проект поручения?"
+  },
+  "Title_SE_67": {
+    "en-US": "Prepare draft resolution",
+    "ru-RU": "Подготовка проекта резолюции"
+  },
+  "Title_SE_8": {
+    "en-US": "Review document by addressee",
+    "ru-RU": "Рассмотрение документа адресатом"
+  }
+}

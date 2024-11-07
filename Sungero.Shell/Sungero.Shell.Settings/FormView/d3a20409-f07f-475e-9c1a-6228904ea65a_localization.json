@@ -1,0 +1,16 @@
+{
+  "Control_Caption_0b77ae2859e04446b2fc2c26dc6197cb": {
+    "en-US": "Subject",
+    "ru-RU": "Тема"
+  },
+  "Description": {
+    "en-US": "View of an assignment to accept work on action item without an attached document for employees included in role \"Users of manager's interface\".",
+    "ru-RU": "Отображение карточки задания на приемку без документа для пользователей, которые входят в роль \"Пользователи интерфейса для руководителей\".",
+    "hash": "083e080c0d706623aa4a49efb875f048"
+  },
+  "Name": {
+    "en-US": "Assignment to accept work without attached document (for managers)",
+    "ru-RU": "Задание на приемку работ без документа (для руководителей)",
+    "hash": "6d4615b8ab526b1af5f4804d2ef1b3f9"
+  }
+}

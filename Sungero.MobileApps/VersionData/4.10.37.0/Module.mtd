@@ -1,0 +1,148 @@
+{
+  "$type": "Sungero.Metadata.ModuleMetadata, Sungero.Metadata",
+  "NameGuid": "1a7ef5ec-c6f4-47df-98c1-b3eae77dabae",
+  "Name": "MobileApps",
+  "AsyncHandlers": [
+    {
+      "NameGuid": "1cbca43b-5744-457c-a51b-6f94d7024853",
+      "Name": "UpdateMobileDeviceStatusHandler",
+      "DelayPeriod": 15,
+      "DelayStrategy": "ExponentialDelayStrategy",
+      "IsHandlerGenerated": true,
+      "Parameters": [
+        {
+          "NameGuid": "3e4092db-4b2d-4677-b01a-682bd4d8dde3",
+          "Name": "Id",
+          "ParameterType": "LongInteger"
+        },
+        {
+          "NameGuid": "a229b1a1-b0f5-470f-9694-78ab622b500c",
+          "Name": "IntStatus",
+          "ParameterType": "Integer"
+        }
+      ]
+    },
+    {
+      "NameGuid": "a6f5d21b-a0cc-41cd-bf9f-d7e464be7214",
+      "Name": "UpdateMobileDeviceInfoHandler",
+      "DelayPeriod": 15,
+      "DelayStrategy": "ExponentialDelayStrategy",
+      "IsHandlerGenerated": true,
+      "Parameters": [
+        {
+          "NameGuid": "0811ffbd-9a9b-4d78-9d14-e21ab87eb2d4",
+          "Name": "AppVersion",
+          "ParameterType": "String"
+        },
+        {
+          "NameGuid": "4b7473fa-27d5-4446-8da0-fb67c0a39499",
+          "Name": "Id",
+          "ParameterType": "LongInteger"
+        },
+        {
+          "NameGuid": "7d0528f3-b032-4b76-ae84-0d32abef213d",
+          "Name": "OsVersion",
+          "ParameterType": "String"
+        },
+        {
+          "NameGuid": "d70cb732-84b1-4791-bc04-4c80aa74cd8f",
+          "Name": "DeviceName",
+          "ParameterType": "String"
+        }
+      ]
+    }
+  ],
+  "ClientAssemblyName": "Sungero.MobileApps.Client",
+  "ClientBaseAssemblyName": "Sungero.MobileApps.ClientBase",
+  "ClientBaseNamespace": "Sungero.MobileApps.ClientBase",
+  "ClientNamespace": "Sungero.MobileApps.Client",
+  "Code": "MobApps",
+  "CompanyCode": "Sungero",
+  "Cover": {
+    "NameGuid": "942f4209-8866-45a5-9cc0-40ab5aef57e2",
+    "Actions": [],
+    "Background": null,
+    "Footer": {
+      "NameGuid": "fad0d3bb-68ff-403f-a0a7-6628f6da123c",
+      "BackgroundPosition": "Stretch"
+    },
+    "Groups": [],
+    "Header": {
+      "NameGuid": "fa8a48c6-3714-473a-b11f-067051f36ebd",
+      "BackgroundPosition": "Stretch"
+    },
+    "RemoteControls": [],
+    "Tabs": []
+  },
+  "Dependencies": [
+    {
+      "Id": "e4fe1153-919e-4732-aadc-2c8e9b5c0b5a",
+      "IsSolutionModule": true,
+      "MaxVersion": "",
+      "MinVersion": ""
+    }
+  ],
+  "ExplorerTreeOrder": [
+    {
+      "ItemId": "2856cdf1-671b-41d1-a442-d1e0badff032"
+    },
+    {
+      "ItemId": "210b9d5c-0218-43c5-b950-c69a65caec9b",
+      "PreviousItemId": "2856cdf1-671b-41d1-a442-d1e0badff032"
+    }
+  ],
+  "HandledEvents": [
+    "InitializingServer"
+  ],
+  "IconResourcesKeys": [],
+  "Importance": "Low",
+  "InterfaceAssemblyName": "Sungero.Domain.Interfaces",
+  "InterfaceNamespace": "Sungero.MobileApps",
+  "IsolatedAssemblyName": "Sungero.MobileApps.Isolated",
+  "IsolatedNamespace": "Sungero.MobileApps.Isolated",
+  "IsVisible": false,
+  "Libraries": [
+    {
+      "NameGuid": "0c7d66b1-d396-4b8f-97cd-78169aa966b1",
+      "Name": "MobileAppsExtensions",
+      "Scope": "Server"
+    }
+  ],
+  "Overridden": [
+    "IsVisible",
+    "Importance"
+  ],
+  "PublicConstants": [
+    {
+      "Name": "MobileAppQueueName",
+      "ParentClasses": [
+        "Module"
+      ],
+      "TypeName": "System.String",
+      "Value": "\"mobile_app_events\""
+    }
+  ],
+  "PublicStructures": [],
+  "ResourceInterfaceAssemblyName": "Sungero.Domain.Interfaces",
+  "ResourceInterfaceNamespace": "Sungero.MobileApps",
+  "ResourcesKeys": [
+    "CreateMobileAppSettingName"
+  ],
+  "ServerAssemblyName": "Sungero.MobileApps.Server",
+  "ServerNamespace": "Sungero.MobileApps.Server",
+  "SharedAssemblyName": "Sungero.MobileApps.Shared",
+  "SharedNamespace": "Sungero.MobileApps.Shared",
+  "SpecialFolders": [],
+  "Version": "4.10.37.0",
+  "Widgets": [],
+  "Versions": [
+    {
+      "Type": "ModuleMetadata",
+      "Number": 8
+    },
+    {
+      "Type": "DomainApi",
+      "Number": 3
+    }
+  ]
+}

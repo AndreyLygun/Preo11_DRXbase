@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Action_AcquaintedDescription" xml:space="preserve">
+    <value>Выполнение задания подтверждает факт ознакомления с документом.</value>
+  </data>
+  <data name="Action_AcquaintedConfirmationMessage" xml:space="preserve">
+    <value>Выполнить задание?</value>
+  </data>
+  <data name="Action_AcquaintedHint" xml:space="preserve">
+    <value>С документом ознакомлен</value>
+  </data>
+  <data name="Enum_Result_Acquainted" xml:space="preserve">
+    <value>Ознакомлен</value>
+  </data>
+  <data name="Action_Acquainted" xml:space="preserve">
+    <value>Ознакомлен</value>
+  </data>
+  <data name="Ribbon_AsgGroup_ac82503a7a4749d0b90c9bb512c4559c" xml:space="preserve">
+    <value>Ознакомление</value>
+  </data>
+  <data name="DisplayName" xml:space="preserve">
+    <value>Ознакомление</value>
+  </data>
+  <data name="AccusativeDisplayName" xml:space="preserve">
+    <value>Ознакомление</value>
+  </data>
+  <data name="CollectionDisplayName" xml:space="preserve">
+    <value>Задания на ознакомление</value>
+  </data>
+  <data name="Property_AcquaintanceVersions" xml:space="preserve">
+    <value>Версии документов для ознакомления</value>
+  </data>
+  <data name="Action_ExtendDeadline" xml:space="preserve">
+    <value>Запросить продление срока</value>
+  </data>
+  <data name="Action_ExtendDeadlineDescription" xml:space="preserve">
+    <value>Отправить запрос продления срока задания</value>
+  </data>
+  <data name="Action_ExtendDeadlineHint" xml:space="preserve">
+    <value>Запросить продление срока задания</value>
+  </data>
+  <data name="Ribbon_DeadlineGroup_a348f2a278554f9da544ce531740a1b5" xml:space="preserve">
+    <value>Срок</value>
+  </data>
+  <data name="Property_Description" xml:space="preserve">
+    <value>Пояснение</value>
+  </data>
+  <data name="ControlGroup_3399b3be705547d888c8400e2a4ceea1" xml:space="preserve">
+    <value>Пояснение</value>
+  </data>
+  <data name="Footer_ActiveEmptyText" xml:space="preserve">
+    <value>Оставьте комментарий, прежде чем выполнить задание…</value>
+  </data>
+  <data name="Action_OpenDocumentHint" xml:space="preserve">
+    <value>Открыть версию документа</value>
+  </data>
+  <data name="Action_OpenDocument" xml:space="preserve">
+    <value>Открыть версию</value>
+  </data>
+  <data name="Action_OpenDocumentDescription" xml:space="preserve">
+    <value>Открыть версию документа для чтения</value>
+  </data>
+</root>

@@ -1,0 +1,222 @@
+{
+  "Description": {
+    "en-US": "Default process of outgoing letter approval that includes sending them to an addressee without requesting their signature",
+    "ru-RU": "Типовой процесс для согласования исходящих писем с отправкой без запроса подписи получателя",
+    "hash": "d41394b46dfa437e025d1115f52efe17"
+  },
+  "Description_46597312-c494-415d-8d3a-daefbd62db0c": {
+    "en-US": "Employees who must receive notices about sending the document to the next approval stage",
+    "ru-RU": "Сотрудники, которым необходимо отправить уведомление при отправке документа на повторное согласование",
+    "hash": "ed821876d28c137362b8407a808b2abf"
+  },
+  "Description_4adf0eae-08c6-4bba-b80b-8312166b777e": {
+    "en-US": "Employee who sent assignment for rework to the assignee",
+    "ru-RU": "Сотрудник, который направил задание на доработку исполнителю",
+    "hash": "abad29740492883c186fbb5f39e2e36f"
+  },
+  "Description_9a387230-56bb-4ede-8a41-c762f69444a3": {
+    "en-US": "Delivery method selected for document sending",
+    "ru-RU": "Способ доставки, который указан для передачи документа",
+    "hash": "8c60ee86b62e65c0ad5012c7adab3573"
+  },
+  "Description_9e2d83b6-346f-48ea-bdaf-a3cca10efeaf": {
+    "en-US": "Document exchange service specified for document sending",
+    "ru-RU": "Сервис обмена, который указан для передачи документа",
+    "hash": "0e90c17a77fa16234e1c18d6889290ae"
+  },
+  "Description_e4b8513b-4025-4929-9103-b7c55361df28": {
+    "en-US": "Employees who must approve documents within the current task",
+    "ru-RU": "Сотрудники, с которыми необходимо согласовать документ в рамках текущей задачи",
+    "hash": "811a7ed81e7585513a75be7a7a192638"
+  },
+  "Instruction_SE_45": {
+    "en-US": "The document has not been converted to PDF. Convert it manually:\n1. In the document card, in the \"Sign\" dropdown list, select \"Create PDF with Marks\".\n2. In the dialog box, in the \"Position\" dropdown list, select one of the following options:\n\"According to template\" – if you want the system to place the mark in a predefined position.\n\"By coordinates\" – if you want to specify the registration mark coordinates manually.\n3. Click \"Create\".",
+    "ru-RU": "Не удалось преобразовать документ в PDF. Преобразуйте его вручную. Для этого:\n1. В карточке документа в выпадающем списке \"Подписание\" выберите пункт \"Создать PDF с отметками\".\n2. В открывшемся окне в выпадающем списке \"Расположение\" выберите один из вариантов:\n\"По шаблону\" — чтобы система автоматически расположила отметку о регистрации в заданном месте документа.\n\"По координатам\" — чтобы самостоятельно указать координаты расположения отметки о регистрации.\n3. Нажмите кнопку \"Создать\"."
+  },
+  "Name": {
+    "en-US": "Default process of outgoing letter approval",
+    "ru-RU": "Процесс согласования исходящих писем по умолчанию",
+    "hash": "0b1e7e5b95058f265f28a61181c8be24"
+  },
+  "Name_46597312-c494-415d-8d3a-daefbd62db0c": {
+    "en-US": "Recipients of notice on new approval stage",
+    "ru-RU": "Получатели уведомлений при повторном согласовании",
+    "hash": "d7d45efcf7becdabf04e5b3634526648"
+  },
+  "Name_4adf0eae-08c6-4bba-b80b-8312166b777e": {
+    "en-US": "Initiator of assignment for rework",
+    "ru-RU": "Отправитель задания на доработку",
+    "hash": "34297b4801de3d202d7a51583eb622ef"
+  },
+  "Name_9a387230-56bb-4ede-8a41-c762f69444a3": {
+    "en-US": "Delivery method",
+    "ru-RU": "Способ доставки",
+    "hash": "df8412dcd5417253644ca87359cc8593"
+  },
+  "Name_9e2d83b6-346f-48ea-bdaf-a3cca10efeaf": {
+    "en-US": "Document exchange service",
+    "ru-RU": "Сервис обмена",
+    "hash": "e2af359486e9476f34822bb75969ebfb"
+  },
+  "Name_e4b8513b-4025-4929-9103-b7c55361df28": {
+    "en-US": "Additional approvers",
+    "ru-RU": "Дополнительные согласующие",
+    "hash": "2079c6b972005587e6476fafd96783d4"
+  },
+  "Subject_SE_1": {
+    "en-US": "Approve: {0}",
+    "ru-RU": "Согласуйте: {0}",
+    "hash": "76fe31b1d36124615ad5f4b3d8701635"
+  },
+  "Subject_SE_10": {
+    "en-US": "Sending: {0}",
+    "ru-RU": "Отправьте контрагенту: {0}",
+    "hash": "b5f64750cae777906514f190bad3be7b"
+  },
+  "Subject_SE_2": {
+    "en-US": "Approve: {0}",
+    "ru-RU": "Согласуйте: {0}",
+    "hash": "76fe31b1d36124615ad5f4b3d8701635"
+  },
+  "Subject_SE_24": {
+    "en-US": "\nPrint and submit for signature: {0}",
+    "ru-RU": "Распечатайте и передайте на подпись: {0}",
+    "hash": "b5e4c8c8c2f25c9e3b7802cf270d4ccb"
+  },
+  "Subject_SE_3": {
+    "en-US": "Rework: {0}",
+    "ru-RU": "Доработайте: {0}",
+    "hash": "ca276ccb9ced9ddaeab9d482049bfc7e"
+  },
+  "Subject_SE_34": {
+    "en-US": "Document signed: {0}",
+    "ru-RU": "Подписан документ: {0}",
+    "hash": "39337435edb954506972a385bf1a86ad"
+  },
+  "Subject_SE_43": {
+    "en-US": "Notice of sending document for reapproval: {0}",
+    "ru-RU": "Отправлен на повторное согласование: {0}",
+    "hash": "51fa4b62ed52e57c53671ed21d15f1b6"
+  },
+  "Subject_SE_45": {
+    "en-US": "Convert to PDF: {0}",
+    "ru-RU": "Преобразуйте в PDF: {0}"
+  },
+  "Subject_SE_47": {
+    "en-US": "Registration: {0}",
+    "ru-RU": "Зарегистрируйте: {0}"
+  },
+  "Subject_SE_9": {
+    "en-US": "Sign: {0}",
+    "ru-RU": "Подпишите: {0}",
+    "hash": "93e350663060bc255a72037dad5d266a"
+  },
+  "ThreadSubject_SE_1": {
+    "en-US": "Аpproval",
+    "ru-RU": "Согласование",
+    "hash": "feb26211dbd381f3d806ef6ccbe3eaf7"
+  },
+  "ThreadSubject_SE_10": {
+    "en-US": "Sending to recipient",
+    "ru-RU": "Отправка контрагенту",
+    "hash": "d319d74f2d710808b239f60ca31f308e"
+  },
+  "ThreadSubject_SE_2": {
+    "en-US": "Аpproval",
+    "ru-RU": "Согласование",
+    "hash": "feb26211dbd381f3d806ef6ccbe3eaf7"
+  },
+  "ThreadSubject_SE_24": {
+    "en-US": "Printing",
+    "ru-RU": "Печать документа",
+    "hash": "49bc19eb4cfdb0dcb3b444bac93b2a37"
+  },
+  "ThreadSubject_SE_3": {
+    "en-US": "Rework",
+    "ru-RU": "Доработка",
+    "hash": "ab0eb9f9d0631491a8c038217f7d36b6"
+  },
+  "ThreadSubject_SE_34": {
+    "en-US": "Document signed notice",
+    "ru-RU": "Подписан документ",
+    "hash": "79c7a18ec392b91fd5a4a363bafcdbe4"
+  },
+  "ThreadSubject_SE_43": {
+    "en-US": "Notice of sending document for reapproval",
+    "ru-RU": "Отправлен на повторное согласование",
+    "hash": "ce860780b5fae1f2ef61c4da7dfc2137"
+  },
+  "ThreadSubject_SE_45": {
+    "en-US": "Convert to PDF",
+    "ru-RU": "Преобразование в PDF"
+  },
+  "ThreadSubject_SE_47": {
+    "en-US": "Register",
+    "ru-RU": "Регистрация"
+  },
+  "ThreadSubject_SE_9": {
+    "en-US": "Signing",
+    "ru-RU": "Подписание",
+    "hash": "6016c3b3d47608357d93ac07ff36433c"
+  },
+  "Title_SE_1": {
+    "en-US": "Approve by manager",
+    "ru-RU": "Согласование с руководителем"
+  },
+  "Title_SE_10": {
+    "en-US": " Register and send document",
+    "ru-RU": "Отправка контрагенту"
+  },
+  "Title_SE_12": {
+    "en-US": "Skip approval by manager?",
+    "ru-RU": "Пропустить согласование с руководителем?",
+    "hash": "63170d98a33cecccc9fa7cf17e260a24"
+  },
+  "Title_SE_2": {
+    "en-US": "Approve by additional approvers",
+    "ru-RU": "Согласование с доп. согласующими"
+  },
+  "Title_SE_20": {
+    "en-US": "Is document to be delivered on paper?",
+    "ru-RU": "Способ доставки – на бумажном носителе?",
+    "hash": "53ebc717176824358e1f55e3a63fe7fc"
+  },
+  "Title_SE_24": {
+    "en-US": "Printing",
+    "ru-RU": "Печать"
+  },
+  "Title_SE_3": {
+    "en-US": "Rework",
+    "ru-RU": "Доработка"
+  },
+  "Title_SE_32": {
+    "en-US": "Convert to PDF",
+    "ru-RU": "Преобразование в PDF"
+  },
+  "Title_SE_33": {
+    "en-US": "Is document to be delivered on paper?",
+    "ru-RU": "Способ доставки – на бумажном носителе?",
+    "hash": "53ebc717176824358e1f55e3a63fe7fc"
+  },
+  "Title_SE_34": {
+    "en-US": "Notice to initatior about document signing",
+    "ru-RU": "Уведомление инициатора о подписании"
+  },
+  "Title_SE_43": {
+    "en-US": "Notice of new approval stage beginning",
+    "ru-RU": "Уведомление о новом круге согласования",
+    "hash": "3a38345d171fccadbb4e3152a3338247"
+  },
+  "Title_SE_45": {
+    "en-US": "Convert to PDF",
+    "ru-RU": "Преобразование в PDF"
+  },
+  "Title_SE_47": {
+    "en-US": " Register and send document",
+    "ru-RU": "Регистрация"
+  },
+  "Title_SE_9": {
+    "en-US": "Signing",
+    "ru-RU": "Подписание"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "Description": {
+    "default": "Direct manager of the employee responsible for preparation, approval, and execution of the document.",
+    "ru-RU": "Непосредственный руководитель сотрудника, ответственного за подготовку, согласование и исполнение документа.",
+    "hash": "3a1a9a5db2a62653b8d99d8e3b50fd12"
+  },
+  "Name": {
+    "default": "Manager of employee responsible for document",
+    "ru-RU": "Руководитель ответственного за документ",
+    "hash": "7bac976c4a83e40bf495aa59ebbc7c4f"
+  }
+}

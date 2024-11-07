@@ -1,0 +1,16 @@
+{
+  "Control_Caption_745468807d74482b8028c68d839b6806": {
+    "en-US": "Subject",
+    "ru-RU": "Тема"
+  },
+  "Description": {
+    "en-US": "View of a deadline extension rejected assignment without an attached document for employees included in role \"Users of manager's interface\".",
+    "ru-RU": "Отображение карточки задания на отказ в продлении срока без документа для пользователей, которые входят в роль \"Пользователи интерфейса для руководителей\".",
+    "hash": "17c1e6f54e3c96b7d45dfc7fdf4ffbc5"
+  },
+  "Name": {
+    "en-US": "Deadline extension rejected assignment without document (for managers)",
+    "ru-RU": "Задание на отказ в продлении срока без документа (для руководителей)",
+    "hash": "0805503143d8484091d430abe86305b1"
+  }
+}

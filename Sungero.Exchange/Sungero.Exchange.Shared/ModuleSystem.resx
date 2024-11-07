@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="DisplayName" xml:space="preserve">
+    <value>Exchange</value>
+  </data>
+  <data name="CoverTitle" xml:space="preserve">
+    <value>Exchange</value>
+  </data>
+  <data name="JobDisplayName_65fa7815170d489cb613c2c2366161a4" xml:space="preserve">
+    <value>Electronic exchange. Convert documents to PDF</value>
+  </data>
+  <data name="JobDescription_65fa7815170d489cb613c2c2366161a4" xml:space="preserve">
+    <value>Convert electronic exchange documents to PDF with adding a digital signature mark</value>
+  </data>
+  <data name="JobDisplayName_13f61e218bb94a3db72be92da64c60b4" xml:space="preserve">
+    <value>Electronic exchange. Receive messages</value>
+  </data>
+  <data name="JobDescription_13f61e218bb94a3db72be92da64c60b4" xml:space="preserve">
+    <value>Receive messages from exchange services</value>
+  </data>
+  <data name="JobDisplayName_e7b6f44d78eb4c9fb6e5ffa66a262e91" xml:space="preserve">
+    <value>Electronic exchange. Create tasks to send document receipt notifications</value>
+  </data>
+  <data name="JobDescription_e7b6f44d78eb4c9fb6e5ffa66a262e91" xml:space="preserve">
+    <value>Create tasks to send document receipt notifications</value>
+  </data>
+  <data name="JobDisplayName_b54f0e860cac49bfb99b30ffd8030d9b" xml:space="preserve">
+    <value>Electronic exchange. Create document receipt notifications</value>
+  </data>
+  <data name="JobDescription_b54f0e860cac49bfb99b30ffd8030d9b" xml:space="preserve">
+    <value>Create notifications about receipt of electronic exchange documents</value>
+  </data>
+  <data name="JobDisplayName_a050e9dcac0a40c2a3227f1832e53f36" xml:space="preserve">
+    <value>Electronic exchange. Send document receipt notifications</value>
+  </data>
+  <data name="JobDescription_a050e9dcac0a40c2a3227f1832e53f36" xml:space="preserve">
+    <value>Send notifications about receipt of documents from exchange service</value>
+  </data>
+  <data name="AsyncHandler_Description_a55a422f80524ad2bf69f7e362bf9d4e" xml:space="preserve">
+    <value>Process messages from an exchange service.</value>
+  </data>
+  <data name="JobDisplayName_86815feac9d84531b90d44100affbaa6" xml:space="preserve">
+    <value>Electronic exchange. Receive historical messages</value>
+  </data>
+  <data name="JobDescription_86815feac9d84531b90d44100affbaa6" xml:space="preserve">
+    <value>Receive historical messages from exchange services</value>
+  </data>
+  <data name="AsyncHandler_Description_a0d6af7a25e14ca0b01b169b2478fdbb" xml:space="preserve">
+    <value>Convert electronic exchange documents to PDF and add a digital signature mark.</value>
+  </data>
+</root>

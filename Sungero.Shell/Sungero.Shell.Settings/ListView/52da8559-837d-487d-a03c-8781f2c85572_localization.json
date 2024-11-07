@@ -1,0 +1,12 @@
+{
+  "Description": {
+    "en-US": "Compact view of folder \"To register\" for employees included in role \"Users of manager's interface\".",
+    "ru-RU": "Компактное представление папки \"На регистрацию\" для пользователей, которые входят в роль \"Пользователи интерфейса для руководителей\".",
+    "hash": "5e3f3d599de2a6e6ab84bee59993cacf"
+  },
+  "Name": {
+    "en-US": "To register  (for managers)",
+    "ru-RU": "На регистрацию (для руководителей)",
+    "hash": "7a4c5cf77788ee7c072f2ff4071d6dcf"
+  }
+}

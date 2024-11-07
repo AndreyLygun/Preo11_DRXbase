@@ -1,0 +1,12 @@
+{
+  "Description": {
+    "en-US": "Compact view of folder \"Sent\" for employees included in role \"Users of manager's interface\".",
+    "ru-RU": "Компактное представление папки \"Исходящие\" для пользователей, которые входят в роль \"Пользователи интерфейса для руководителей\".",
+    "hash": "57ec34f7e81cc58e44998dcfe2186ed9"
+  },
+  "Name": {
+    "en-US": "Sent (for managers)",
+    "ru-RU": "Исходящие (для руководителей)",
+    "hash": "69acfea7a39b646cbf91f9c1c70e4d82"
+  }
+}

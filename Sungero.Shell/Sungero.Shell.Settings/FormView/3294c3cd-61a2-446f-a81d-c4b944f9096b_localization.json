@@ -1,0 +1,16 @@
+{
+  "Control_Caption_f3013c40ca294c7ea3e3feaf8be208a6": {
+    "en-US": "Subject",
+    "ru-RU": "Тема"
+  },
+  "Description": {
+    "en-US": "View of an assignment to review a document without draft resolution for employees included in role \"Users of manager's interface\" (within a document review task).",
+    "ru-RU": "Отображение карточки задания на рассмотрение руководителем без проекта резолюции (рассмотрение) для пользователей, которые входят в роль \"Пользователи интерфейса для руководителей\".",
+    "hash": "01dad0012c16d9c3fe8793398400f7c0"
+  },
+  "Name": {
+    "en-US": "Assignment to review document without draft resolution within document review task (for managers)",
+    "ru-RU": "Задание на рассмотрение без проекта резолюции (для руководителей) в рассмотрении",
+    "hash": "d7e0c7bf936159dae510cd1001d36f25"
+  }
+}

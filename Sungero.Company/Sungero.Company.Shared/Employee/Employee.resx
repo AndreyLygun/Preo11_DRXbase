@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="DeparmentLockedByUser" xml:space="preserve">
+    <value>Department {0} is locked by {1}</value>
+  </data>
+  <data name="PopupPhoneDescription" xml:space="preserve">
+    <value>Work phone:</value>
+  </data>
+  <data name="PopupManagerDescription" xml:space="preserve">
+    <value>Manager:</value>
+  </data>
+  <data name="GetAssistantWhoPreparesDraftResolutionExpressionName" xml:space="preserve">
+    <value>Responsible for preparing resolution</value>
+  </data>
+  <data name="GetAssistantWhoPreparesDraftResolutionExpressionDescription" xml:space="preserve">
+    <value>Employee who prepares a draft resolution for the manager</value>
+  </data>
+  <data name="GetShortNameExpressionName" xml:space="preserve">
+    <value>Last name and initials</value>
+  </data>
+  <data name="GetShortNameExpressionDescription" xml:space="preserve">
+    <value>Returns last name and initials</value>
+  </data>
+  <data name="Enum_Operation_TransferAR" xml:space="preserve">
+    <value>Transfer access rights</value>
+  </data>
+  <data name="Enum_OperationDetailed_TransferAR" xml:space="preserve">
+    <value>Manager {0}</value>
+  </data>
+  <data name="GetAssistantsExpressionName" xml:space="preserve">
+    <value>Manager's assistants</value>
+  </data>
+  <data name="GetAssistantsExpressionDescription" xml:space="preserve">
+    <value>Returns employee's assistants</value>
+  </data>
+  <data name="GetAssistantWhoPerformsMainAssistantFunctionsExpressionName" xml:space="preserve">
+    <value>Manager's assistant</value>
+  </data>
+  <data name="GetAssistantWhoPerformsMainAssistantFunctionsExpressionDescription" xml:space="preserve">
+    <value>Employee who performs assistant's main functions</value>
+  </data>
+</root>

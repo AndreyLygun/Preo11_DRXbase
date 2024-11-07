@@ -1,0 +1,20 @@
+{
+  "Control_Caption_10fb495671744e2580c35746d6f8bf7f": {
+    "en-US": "Subject",
+    "ru-RU": "Тема"
+  },
+  "Description": {
+    "en-US": "View of a simple assignment for employees included in role \"Users of manager's interface\" (within rule-based approval).",
+    "ru-RU": "Отображение карточки простого задания (регламент) для пользователей, которые входят в роль \"Пользователи интерфейса для руководителей\".",
+    "hash": "551db50e3416b398e724f21eecf6fb23"
+  },
+  "Name": {
+    "en-US": "Assignment within rule-based approval (for managers)",
+    "ru-RU": "Задание (для руководителей) в согласовании по регламенту",
+    "hash": "5739bb288aaec9385227a6c4400957f2"
+  },
+  "Thread_Title_a2b1a03300e7415c9eca8ae12d0ed849": {
+    "en-US": "Thread",
+    "ru-RU": "Переписка"
+  }
+}

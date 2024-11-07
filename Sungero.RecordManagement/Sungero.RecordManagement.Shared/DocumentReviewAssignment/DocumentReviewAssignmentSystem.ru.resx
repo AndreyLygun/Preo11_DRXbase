@@ -1,0 +1,275 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="DisplayName" xml:space="preserve">
+    <value>Рассмотрение</value>
+  </data>
+  <data name="AccusativeDisplayName" xml:space="preserve">
+    <value>Рассмотрение</value>
+  </data>
+  <data name="CollectionDisplayName" xml:space="preserve">
+    <value>Задания на рассмотрение</value>
+  </data>
+  <data name="Enum_Result_Informed" xml:space="preserve">
+    <value>Принято к сведению</value>
+  </data>
+  <data name="Action_Informed" xml:space="preserve">
+    <value>Принято к сведению</value>
+  </data>
+  <data name="Action_InformedHint" xml:space="preserve">
+    <value>Документ принят к сведению</value>
+  </data>
+  <data name="Action_InformedConfirmationMessage" xml:space="preserve">
+    <value>Завершить рассмотрение документа без отправки поручений в работу?</value>
+  </data>
+  <data name="Action_InformedDescription" xml:space="preserve">
+    <value>Ознакомление с документом без вынесения резолюции и отправки его в работу.
+
+Поручения из проекта резолюции удалятся</value>
+  </data>
+  <data name="AttachmentGroup_DocumentForReviewGroupTitle" xml:space="preserve">
+    <value>Документ на рассмотрение</value>
+  </data>
+  <data name="AttachmentGroup_DocumentForReviewGroupInformationMessage" xml:space="preserve">
+    <value>Вложите документ на рассмотрение</value>
+  </data>
+  <data name="AttachmentGroup_AddendaGroupTitle" xml:space="preserve">
+    <value>Приложения</value>
+  </data>
+  <data name="AttachmentGroup_AddendaGroupInformationMessage" xml:space="preserve">
+    <value>Приложения к документу отсутствуют</value>
+  </data>
+  <data name="AttachmentGroup_OtherGroupTitle" xml:space="preserve">
+    <value>Дополнительно</value>
+  </data>
+  <data name="AttachmentGroup_ResolutionGroupTitle" xml:space="preserve">
+    <value>Проект резолюции</value>
+  </data>
+  <data name="Property_Addressee" xml:space="preserve">
+    <value>Переадресовать сотруднику</value>
+  </data>
+  <data name="Enum_Result_DraftResApprove" xml:space="preserve">
+    <value>Отправить на исполнение</value>
+  </data>
+  <data name="Action_DraftResApproveDescription" xml:space="preserve">
+    <value>Утверждение проекта резолюции.
+
+Поручения из проекта резолюции отправятся на исполнение</value>
+  </data>
+  <data name="Action_DraftResApproveConfirmationMessage" xml:space="preserve">
+    <value>Утвердить проект резолюции и отправить поручения в работу?</value>
+  </data>
+  <data name="Action_DraftResApprove" xml:space="preserve">
+    <value>Утвердить проект резолюции</value>
+  </data>
+  <data name="Action_DraftResApproveHint" xml:space="preserve">
+    <value>Утвердить проект резолюции</value>
+  </data>
+  <data name="Enum_Result_Forward" xml:space="preserve">
+    <value>Переадресовать рассмотрение</value>
+  </data>
+  <data name="Action_Forward" xml:space="preserve">
+    <value>Переадресовать рассмотрение</value>
+  </data>
+  <data name="Action_ForwardHint" xml:space="preserve">
+    <value>Переадресовать рассмотрение документа</value>
+  </data>
+  <data name="Action_ForwardConfirmationMessage" xml:space="preserve">
+    <value>Переадресовать рассмотрение документа?</value>
+  </data>
+  <data name="Action_ForwardDescription" xml:space="preserve">
+    <value>Отправка документа на рассмотрение другому сотруднику</value>
+  </data>
+  <data name="Resource_1bbfaba9c44445878d1c51150787fb2e" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Control_1bbfaba9c44445878d1c51150787fb2e_EmptyText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Resource_c9c4beefec5b4b3796d4959c17991279" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Control_c9c4beefec5b4b3796d4959c17991279_EmptyText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Resource_45c3f7afea6f40948e21e643b6358f4a" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Control_45c3f7afea6f40948e21e643b6358f4a_EmptyText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Resource_ad03c4af7bfe4967aa2cdaa3265bdbe3" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ControlGroup_4917364762724459ab15867c0b3c85a2" xml:space="preserve">
+    <value>Горизонтальная группа</value>
+  </data>
+  <data name="ControlGroup_ebfeb539df3646ebb16c88e4afe77109" xml:space="preserve">
+    <value>Основное</value>
+  </data>
+  <data name="ControlGroup_2843c476ecee44d3a08869784756d9f0" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ControlGroup_7d052a6b05aa4586abbfca9d980cf36c" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ControlGroup_eca46beba27c4abc91e73bf3186fd8f8" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Action_CreateActionItem" xml:space="preserve">
+    <value>Создать поручение</value>
+  </data>
+  <data name="Footer_ActiveEmptyText" xml:space="preserve">
+    <value>Текст резолюции или замечания…</value>
+  </data>
+  <data name="autotext_d74c0b99-b7ca-480f-bb05-0fccf92a47b6_0" xml:space="preserve">
+    <value>В работу</value>
+  </data>
+  <data name="autotext_d74c0b99-b7ca-480f-bb05-0fccf92a47b6_1" xml:space="preserve">
+    <value>Подготовить ответ</value>
+  </data>
+  <data name="autotext_d74c0b99-b7ca-480f-bb05-0fccf92a47b6_2" xml:space="preserve">
+    <value>Рассмотреть</value>
+  </data>
+  <data name="autotext_d74c0b99-b7ca-480f-bb05-0fccf92a47b6_3" xml:space="preserve">
+    <value>К исполнению</value>
+  </data>
+  <data name="autotext_d74c0b99-b7ca-480f-bb05-0fccf92a47b6_4" xml:space="preserve">
+    <value>Предоставить</value>
+  </data>
+  <data name="autotext_d74c0b99-b7ca-480f-bb05-0fccf92a47b6_5" xml:space="preserve">
+    <value>К сведению</value>
+  </data>
+  <data name="ControlGroup_38dc7005cf144527856c12e24ec7990d" xml:space="preserve">
+    <value>Проект резолюции</value>
+  </data>
+  <data name="Action_CreateActionItemHint" xml:space="preserve">
+    <value>Создать поручение по документу</value>
+  </data>
+  <data name="Action_CreateActionItemDescription" xml:space="preserve">
+    <value>Создание поручения и отправка его на исполнение</value>
+  </data>
+  <data name="Ribbon_ExecutionGroup_51c9ce715f444738a32b31f11e937385" xml:space="preserve">
+    <value>Исполнение</value>
+  </data>
+  <data name="Enum_Result_ActionItemsSent" xml:space="preserve">
+    <value>Отправлено на исполнение</value>
+  </data>
+  <data name="Action_ActionItemsSent" xml:space="preserve">
+    <value>Отправлено на исполнение</value>
+  </data>
+  <data name="Action_ActionItemsSentHint" xml:space="preserve">
+    <value>Документ отправлен на исполнение</value>
+  </data>
+  <data name="Action_ActionItemsSentConfirmationMessage" xml:space="preserve">
+    <value>Поручения по документу отправлены в работу. Выполнить задание?</value>
+  </data>
+  <data name="Action_ActionItemsSentDescription" xml:space="preserve">
+    <value>Подтверждение отправки документа на исполнение</value>
+  </data>
+  <data name="Enum_Result_DocsRework" xml:space="preserve">
+    <value>Вернуть инициатору</value>
+  </data>
+  <data name="Action_DocsRework" xml:space="preserve">
+    <value>Вернуть инициатору</value>
+  </data>
+  <data name="Action_DocsReworkHint" xml:space="preserve">
+    <value>Отправить инициатору на доработку</value>
+  </data>
+  <data name="Action_DocsReworkConfirmationMessage" xml:space="preserve">
+    <value>Отправить инициатору на доработку?</value>
+  </data>
+  <data name="Action_DocsReworkDescription" xml:space="preserve">
+    <value>Отправка инициатору на доработку</value>
+  </data>
+  <data name="Enum_Result_DraftResRework" xml:space="preserve">
+    <value>Вернуть помощнику</value>
+  </data>
+  <data name="Action_DraftResRework" xml:space="preserve">
+    <value>Вернуть помощнику</value>
+  </data>
+  <data name="Action_DraftResReworkHint" xml:space="preserve">
+    <value>Вернуть проект резолюции на доработку</value>
+  </data>
+  <data name="Action_DraftResReworkConfirmationMessage" xml:space="preserve">
+    <value>Отправить проект резолюции на доработку?</value>
+  </data>
+  <data name="Action_DraftResReworkDescription" xml:space="preserve">
+    <value>Отправка проекта резолюции помощнику на доработку</value>
+  </data>
+  <data name="Enum_Result_ResPassed" xml:space="preserve">
+    <value>Вынесена резолюция</value>
+  </data>
+  <data name="Action_ResPassed" xml:space="preserve">
+    <value>Вынесена резолюция</value>
+  </data>
+  <data name="Action_ResPassedHint" xml:space="preserve">
+    <value>Вынесена резолюция по документу</value>
+  </data>
+  <data name="Action_ResPassedConfirmationMessage" xml:space="preserve">
+    <value>Отправить резолюцию для создания поручений?</value>
+  </data>
+  <data name="Action_ResPassedDescription" xml:space="preserve">
+    <value>Отправка резолюции помощнику для создания поручений</value>
+  </data>
+  <data name="Property_AssistantPrepareResolution" xml:space="preserve">
+    <value>Помощник готовит проект резолюции</value>
+  </data>
+</root>

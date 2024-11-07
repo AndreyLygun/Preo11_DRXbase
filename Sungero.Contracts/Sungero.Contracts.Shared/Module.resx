@@ -1,0 +1,178 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AutomaticRenewalContractExpires" xml:space="preserve">
+    <value>Automatic renewal contract expires soon: "{0}"</value>
+  </data>
+  <data name="ContractKindName" xml:space="preserve">
+    <value>Contract</value>
+  </data>
+  <data name="ContractKindShortName" xml:space="preserve">
+    <value>Contract</value>
+  </data>
+  <data name="ContractTypeName" xml:space="preserve">
+    <value>Contract</value>
+  </data>
+  <data name="DefaultApprovalRuleNameContracts" xml:space="preserve">
+    <value>Default approval rule for contract documents</value>
+  </data>
+  <data name="DefaultApprovalRuleNameInvoice" xml:space="preserve">
+    <value>Default approval rule for incoming invoices</value>
+  </data>
+  <data name="DescriptionContractsRegistrarRole" xml:space="preserve">
+    <value>Users who are authorized to register contractual documents.</value>
+  </data>
+  <data name="DescriptionResponsibleForContractsRole" xml:space="preserve">
+    <value>Users who are authorized to create contractual documents.</value>
+  </data>
+  <data name="ExpiringContractsRenewalText" xml:space="preserve">
+    <value>Renewable contract "{1}" expires on {0}</value>
+  </data>
+  <data name="ExpiringContractsSubject" xml:space="preserve">
+    <value>Expires soon: "{0}"</value>
+  </data>
+  <data name="ExpiringContractsText" xml:space="preserve">
+    <value>"{1}" expires on {0}</value>
+  </data>
+  <data name="GiveInAccountant" xml:space="preserve">
+    <value>Forward invoice to the accounting office</value>
+  </data>
+  <data name="GiveInvoiceApprovalStageName" xml:space="preserve">
+    <value>Submit invoice</value>
+  </data>
+  <data name="IncomingInvoiceKindName" xml:space="preserve">
+    <value>Incoming invoice</value>
+  </data>
+  <data name="IncomingInvoiceKindShortName" xml:space="preserve">
+    <value>Inc. invoice</value>
+  </data>
+  <data name="IncomingInvoiceTypeName" xml:space="preserve">
+    <value>Incoming Invoice</value>
+  </data>
+  <data name="RegistersAndSettingsSupAgreementIndex" xml:space="preserve">
+    <value>SUP</value>
+  </data>
+  <data name="RegistersAndSettingsSupAgreementName" xml:space="preserve">
+    <value>Supplemental agreements</value>
+  </data>
+  <data name="RelationAccountingDescription" xml:space="preserve">
+    <value>Financial document</value>
+  </data>
+  <data name="RelationAccountingSourceTitle" xml:space="preserve">
+    <value>Leading document</value>
+  </data>
+  <data name="RelationAccountingTargetTitle" xml:space="preserve">
+    <value>Financial documents</value>
+  </data>
+  <data name="RelationSupAgreementDescription" xml:space="preserve">
+    <value>Supplemental agreement</value>
+  </data>
+  <data name="RelationSupAgreementSourceTitle" xml:space="preserve">
+    <value>Contractual Document</value>
+  </data>
+  <data name="RelationSupAgreementTargetTitle" xml:space="preserve">
+    <value>Supplemental agreements</value>
+  </data>
+  <data name="RoleDescriptionContractResponsible" xml:space="preserve">
+    <value>Employee responsible for preparation, approval and execution of the contract document. Responsible employee is specified in the document card.</value>
+  </data>
+  <data name="RoleDescriptionContractResponsibleManager" xml:space="preserve">
+    <value>Manager of the employee responsible for preparation, approval and execution of the contract document.</value>
+  </data>
+  <data name="SupAgreementKindName" xml:space="preserve">
+    <value>Supplemental agreement</value>
+  </data>
+  <data name="SupAgreementKindShortName" xml:space="preserve">
+    <value>Supp. agreement</value>
+  </data>
+  <data name="SupAgreementTypeName" xml:space="preserve">
+    <value>Supplemental Agreement</value>
+  </data>
+  <data name="ContractMilestoneTaskSubject" xml:space="preserve">
+    <value>Complete work: "{0}" under {1}</value>
+  </data>
+  <data name="ContractMilestoneTaskText" xml:space="preserve">
+    <value>Complete work under {0}.</value>
+  </data>
+  <data name="ContractMilestoneTaskTextNote" xml:space="preserve">
+    <value>Note: {0}</value>
+  </data>
+  <data name="OutgoingInvoiceTypeName" xml:space="preserve">
+    <value>Outgoing Invoice</value>
+  </data>
+  <data name="OutgoingInvoiceKindName" xml:space="preserve">
+    <value>Outgoing Invoice</value>
+  </data>
+  <data name="OutgoingInvoiceKindShortName" xml:space="preserve">
+    <value>Out. Invoice</value>
+  </data>
+  <data name="RegistersAndSettingsOutgoingInvoiceIndex" xml:space="preserve">
+    <value>OI</value>
+  </data>
+  <data name="RegistersAndSettingsOutgoingInvoiceName" xml:space="preserve">
+    <value>Outgoing Invoices</value>
+  </data>
+  <data name="RoleNameUsersWithAccessToContracts" xml:space="preserve">
+    <value>Employees with quick access to contracts</value>
+  </data>
+  <data name="DescriptionUsersWithAccessToContractsRole" xml:space="preserve">
+    <value>Employees with quick access to the list of contracts, list of powers of attorney, lists of incoming and outgoing invoices. </value>
+  </data>
+</root>

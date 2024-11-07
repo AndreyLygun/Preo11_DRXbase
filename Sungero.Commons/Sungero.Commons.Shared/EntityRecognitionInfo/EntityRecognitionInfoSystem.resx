@@ -1,0 +1,193 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Property_Name" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="DisplayName" xml:space="preserve">
+    <value>Entity Recognition Info</value>
+  </data>
+  <data name="AccusativeDisplayName" xml:space="preserve">
+    <value>Entity Recognition Info</value>
+  </data>
+  <data name="CollectionDisplayName" xml:space="preserve">
+    <value>Entity Recognition Infos</value>
+  </data>
+  <data name="Property_RecognizedClass" xml:space="preserve">
+    <value>Recognized class</value>
+  </data>
+  <data name="Property_ClassProbability" xml:space="preserve">
+    <value>Probability</value>
+  </data>
+  <data name="Property_EntityId" xml:space="preserve">
+    <value>Entity ID</value>
+  </data>
+  <data name="Property_EntityType" xml:space="preserve">
+    <value>EntityType</value>
+  </data>
+  <data name="Property_Facts" xml:space="preserve">
+    <value>Facts Fields</value>
+  </data>
+  <data name="ControlGroup_88560c69cea248eeb1c0cc3e550830b8" xml:space="preserve">
+    <value>Facts and Fields</value>
+  </data>
+  <data name="Property_AdditionalClassifiers" xml:space="preserve">
+    <value>Additional Classifiers</value>
+  </data>
+  <data name="Form_4656b0982f584029b9f29c65b534ae67" xml:space="preserve">
+    <value>Extra</value>
+  </data>
+  <data name="ControlGroup_d465f2a33d7d4121968a9028dc84788e" xml:space="preserve">
+    <value>Additional Classifiers</value>
+  </data>
+  <data name="Property_DocTypeClassifierTrainingSession" xml:space="preserve">
+    <value>Training session</value>
+  </data>
+  <data name="Enum_ClassifierTrainingSession_Awaiting" xml:space="preserve">
+    <value>Awaiting</value>
+  </data>
+  <data name="Enum_ClassifierTrainingSession_Started" xml:space="preserve">
+    <value>Training started</value>
+  </data>
+  <data name="Enum_ClassifierTrainingSession_Completed" xml:space="preserve">
+    <value>Training completed</value>
+  </data>
+  <data name="Enum_ClassifierTrainingSession_Error" xml:space="preserve">
+    <value>An error occurred</value>
+  </data>
+  <data name="Property_VerifiedClass" xml:space="preserve">
+    <value>Verified class</value>
+  </data>
+  <data name="Property_DocTypeClassifierTrainingStatus" xml:space="preserve">
+    <value>State of training of classifier by types</value>
+  </data>
+  <data name="ControlGroup_55f47cfddd4b4653b5f83ec5e4073f64" xml:space="preserve">
+    <value>Training of Classifier by Types</value>
+  </data>
+  <data name="ControlGroup_dc3a9d386bf840949feee5d954c35700" xml:space="preserve">
+    <value>Additional Classifiers</value>
+  </data>
+  <data name="Enum_DocTypeClassifierTrainingStatus_Awaiting" xml:space="preserve">
+    <value>Awaiting</value>
+  </data>
+  <data name="Enum_DocTypeClassifierTrainingStatus_InProcess" xml:space="preserve">
+    <value>Training in process</value>
+  </data>
+  <data name="Enum_DocTypeClassifierTrainingStatus_Completed" xml:space="preserve">
+    <value>Training completed</value>
+  </data>
+  <data name="Enum_DocTypeClassifierTrainingStatus_Error" xml:space="preserve">
+    <value>An error occurred</value>
+  </data>
+  <data name="Property_Created" xml:space="preserve">
+    <value>Created at</value>
+  </data>
+  <data name="Action_ShowDocument" xml:space="preserve">
+    <value>Document Card</value>
+  </data>
+  <data name="Action_ShowDocumentDescription" xml:space="preserve">
+    <value>Open card of the document processed by Ario</value>
+  </data>
+  <data name="Action_ShowDocumentHint" xml:space="preserve">
+    <value>Open document card</value>
+  </data>
+  <data name="Action_ShowDocumentConfirmationMessage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Action_ShowDocumentConfirmationDescription" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Ribbon_ShowCommands_02ac50d508c145538b2198e9d3c2c262" xml:space="preserve">
+    <value>Show</value>
+  </data>
+  <data name="Property_Verified" xml:space="preserve">
+    <value>Verified</value>
+  </data>
+  <data name="Property_FirstPageClassifierTrainingStatus" xml:space="preserve">
+    <value>State of training of first page classifier</value>
+  </data>
+  <data name="Property_FirstPageClassifierTrainingSession" xml:space="preserve">
+    <value>Session of first page classifier training</value>
+  </data>
+  <data name="Property_VerifiedVersionNumber" xml:space="preserve">
+    <value>Verified version</value>
+  </data>
+  <data name="Enum_FirstPageClassifierTrainingStatus_Awaiting" xml:space="preserve">
+    <value>Awaiting</value>
+  </data>
+  <data name="Enum_FirstPageClassifierTrainingStatus_InProcess" xml:space="preserve">
+    <value>Training in process</value>
+  </data>
+  <data name="Enum_FirstPageClassifierTrainingStatus_Completed" xml:space="preserve">
+    <value>Training completed</value>
+  </data>
+  <data name="Enum_FirstPageClassifierTrainingStatus_Error" xml:space="preserve">
+    <value>An error occurred</value>
+  </data>
+  <data name="ControlGroup_c5da0cb350924d0bb045637168b1c280" xml:space="preserve">
+    <value>Training of First Page Classifier</value>
+  </data>
+  <data name="Property_FilledByFuzzySearch" xml:space="preserve">
+    <value>Filled by fuzzy search</value>
+  </data>
+  <data name="ControlGroup_4e86de9a3fde4d0e9cc7149c01bdc04b" xml:space="preserve">
+    <value>Recognition Result</value>
+  </data>
+</root>

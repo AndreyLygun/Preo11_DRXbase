@@ -1,0 +1,581 @@
+{
+  "$type": "Sungero.Metadata.EntityMetadata, Sungero.Metadata",
+  "NameGuid": "2856cdf1-671b-41d1-a442-d1e0badff032",
+  "Name": "MobileDevice",
+  "Actions": [
+    {
+      "NameGuid": "1ba985df-54d4-459e-b40b-55bd0a329e61",
+      "Name": "RequestLogs",
+      "ActionArea": "CardAndCollection",
+      "GenerateHandler": true,
+      "LargeIconName": "Action_RequestLogs_large_1ba985df54d4459eb40b55bd0a329e61.png",
+      "SmallIconName": "Action_RequestLogs_small_1ba985df54d4459eb40b55bd0a329e61.png"
+    },
+    {
+      "NameGuid": "8793af0f-d830-4a74-8d5b-b14c215288f6",
+      "Name": "DeleteData",
+      "ActionArea": "CardAndCollection",
+      "GenerateHandler": true,
+      "LargeIconName": "Action_DeleteData_large_8793af0fd8304a748d5bb14c215288f6.png",
+      "NeedConfirmation": true,
+      "SmallIconName": "Action_DeleteData_small_8793af0fd8304a748d5bb14c215288f6.png"
+    },
+    {
+      "NameGuid": "f7a82463-7241-4055-9c84-ed528e5cd576",
+      "Name": "ResetSession",
+      "ActionArea": "CardAndCollection",
+      "GenerateHandler": true,
+      "LargeIconName": "Action_ReloadData_large_f7a82463724140559c84ed528e5cd576.png",
+      "NeedConfirmation": true,
+      "SmallIconName": "Action_ReloadData_small_f7a82463724140559c84ed528e5cd576.png"
+    }
+  ],
+  "BaseGuid": "04581d26-0780-4cfd-b3cd-c2cafc5798b0",
+  "CanBeNavigationPropertyType": true,
+  "CanBeSearch": true,
+  "Code": "MobileDevice",
+  "CreationAreaMetadata": {
+    "NameGuid": "f7766750-eee2-4fcd-8003-5c06a90d1f44",
+    "Name": "CreationArea",
+    "Buttons": [],
+    "IsAncestorMetadata": true
+  },
+  "ExtraSearchProperties": [],
+  "FilterPanel": {
+    "NameGuid": "b0125fbd-3b91-4dbb-914a-689276216404",
+    "Name": "FilterPanel",
+    "Controls": [],
+    "IsAncestorMetadata": true
+  },
+  "Forms": [
+    {
+      "$type": "Sungero.Metadata.StandaloneFormMetadata, Sungero.Metadata",
+      "NameGuid": "2c08e9f4-caa1-4437-9833-91266bed51ec",
+      "Name": "Card",
+      "Controls": [
+        {
+          "$type": "Sungero.Metadata.ControlGroupMetadata, Sungero.Metadata",
+          "NameGuid": "442892aa-bea5-4338-8072-5ebb7af5d242",
+          "Name": "ControlGroup",
+          "ColumnDefinitions": [
+            {
+              "Percentage": 50.0
+            },
+            {
+              "Percentage": 50.0
+            }
+          ]
+        },
+        {
+          "$type": "Sungero.Metadata.ControlMetadata, Sungero.Metadata",
+          "NameGuid": "8704960e-20e1-43bf-98f9-12fc0f1ce177",
+          "Name": "DeviceName",
+          "ColumnNumber": 0,
+          "ColumnSpan": 1,
+          "DataBinderTypeName": "Sungero.Presentation.CommonDataBinders.StringEditorToStringBinder",
+          "ParentGuid": "442892aa-bea5-4338-8072-5ebb7af5d242",
+          "PropertyGuid": "e5f8b666-a4ab-436e-ab76-f0d63314183c",
+          "RowNumber": 1,
+          "RowSpan": 1,
+          "Settings": []
+        },
+        {
+          "$type": "Sungero.Metadata.ControlMetadata, Sungero.Metadata",
+          "NameGuid": "b2318741-c8ff-47ae-bfa4-a4ddba74ae71",
+          "Name": "Employee",
+          "ColumnNumber": 0,
+          "ColumnSpan": 1,
+          "DataBinderTypeName": "Sungero.Presentation.CommonDataBinders.DropDownEditorToNavigationBinder",
+          "ParentGuid": "442892aa-bea5-4338-8072-5ebb7af5d242",
+          "PropertyGuid": "7f57554c-3560-4eb8-b8a3-d115e25e3648",
+          "RowNumber": 0,
+          "RowSpan": 1,
+          "Settings": []
+        },
+        {
+          "$type": "Sungero.Metadata.ControlMetadata, Sungero.Metadata",
+          "NameGuid": "16e77fad-6c0b-4397-8800-57d851a0cdae",
+          "Name": "AppVersion",
+          "ColumnNumber": 1,
+          "ColumnSpan": 1,
+          "DataBinderTypeName": "Sungero.Presentation.CommonDataBinders.StringEditorToStringBinder",
+          "ParentGuid": "442892aa-bea5-4338-8072-5ebb7af5d242",
+          "PropertyGuid": "e2c5f1ed-15b1-4680-9874-1ed7cf9e5f49",
+          "RowNumber": 1,
+          "RowSpan": 1,
+          "Settings": []
+        },
+        {
+          "$type": "Sungero.Metadata.ControlMetadata, Sungero.Metadata",
+          "NameGuid": "8848b207-a869-43b4-a917-41af3be30dbf",
+          "Name": "DeviceId",
+          "ColumnNumber": 1,
+          "ColumnSpan": 1,
+          "DataBinderTypeName": "Sungero.Presentation.CommonDataBinders.StringEditorToStringBinder",
+          "ParentGuid": "442892aa-bea5-4338-8072-5ebb7af5d242",
+          "PropertyGuid": "97fe4193-1039-4cae-9244-763a95e4fc89",
+          "RowNumber": 2,
+          "RowSpan": 1,
+          "Settings": []
+        },
+        {
+          "$type": "Sungero.Metadata.ControlMetadata, Sungero.Metadata",
+          "NameGuid": "fde2c7a6-5a17-4525-ae54-66a458a51e98",
+          "Name": "DeviceStatus",
+          "ColumnNumber": 0,
+          "ColumnSpan": 1,
+          "DataBinderTypeName": "Sungero.Presentation.CommonDataBinders.DropDownEditorToEnumerationBinder",
+          "ParentGuid": "442892aa-bea5-4338-8072-5ebb7af5d242",
+          "PropertyGuid": "8abcc95a-1dec-47d9-9fa2-902a617127ff",
+          "RowNumber": 2,
+          "RowSpan": 1,
+          "Settings": []
+        },
+        {
+          "$type": "Sungero.Metadata.ControlMetadata, Sungero.Metadata",
+          "NameGuid": "d4568da1-f140-474a-9ee1-09df03553fdc",
+          "Name": "OsVersion",
+          "ColumnNumber": 1,
+          "ColumnSpan": 1,
+          "DataBinderTypeName": "Sungero.Presentation.CommonDataBinders.StringEditorToStringBinder",
+          "ParentGuid": "442892aa-bea5-4338-8072-5ebb7af5d242",
+          "PropertyGuid": "7b667776-7864-4622-8981-e2347c0b97cc",
+          "RowNumber": 0,
+          "RowSpan": 1,
+          "Settings": []
+        },
+        {
+          "$type": "Sungero.Metadata.ControlMetadata, Sungero.Metadata",
+          "NameGuid": "ba1c88ed-52a8-43fd-bc39-1efbadb4aeb6",
+          "Name": "LastActivity",
+          "ColumnNumber": 0,
+          "ColumnSpan": 1,
+          "DataBinderTypeName": "Sungero.Presentation.CommonDataBinders.DateTimeEditorToDateTimeBinder",
+          "ParentGuid": "442892aa-bea5-4338-8072-5ebb7af5d242",
+          "PropertyGuid": "5fcc052e-7479-4940-802e-7373d5455a49",
+          "RowNumber": 3,
+          "RowSpan": 1,
+          "Settings": []
+        }
+      ]
+    }
+  ],
+  "IconResourcesKeys": [],
+  "IsAutoCreated": true,
+  "IsVisible": false,
+  "OperationsClass": "",
+  "Overridden": [
+    "IsVisible",
+    "HideFromNavigationEditorCreationArea",
+    "HideFromCreationArea",
+    "IsAutoCreated",
+    "CanBeSearch"
+  ],
+  "Properties": [
+    {
+      "$type": "Sungero.Metadata.StringPropertyMetadata, Sungero.Metadata",
+      "NameGuid": "3229321e-b410-45cc-bb28-dd1486512eee",
+      "Name": "Name",
+      "CanBeSearch": false,
+      "Code": "Name",
+      "IsDisplayValue": true,
+      "IsEnabled": false,
+      "IsQuickSearchAllowed": true,
+      "ListDataBinderTypeName": "Sungero.Presentation.CommonDataBinders.StringEditorToStringBinder",
+      "PreviousPropertyGuid": "1dcedc29-5140-4770-ac92-eabc212326a1"
+    },
+    {
+      "$type": "Sungero.Metadata.NavigationPropertyMetadata, Sungero.Metadata",
+      "NameGuid": "7f57554c-3560-4eb8-b8a3-d115e25e3648",
+      "Name": "Employee",
+      "Code": "Employee",
+      "EntityGuid": "b7905516-2be5-4931-961c-cb38d5677565",
+      "HandledEvents": [
+        "ChangedShared"
+      ],
+      "IsEnabled": false,
+      "ListDataBinderTypeName": "Sungero.Presentation.CommonDataBinders.DropDownEditorToNavigationBinder",
+      "PreviousPropertyGuid": "3229321e-b410-45cc-bb28-dd1486512eee"
+    },
+    {
+      "$type": "Sungero.Metadata.StringPropertyMetadata, Sungero.Metadata",
+      "NameGuid": "97fe4193-1039-4cae-9244-763a95e4fc89",
+      "Name": "DeviceId",
+      "CanBeSearch": false,
+      "Code": "DeviceId",
+      "IsEnabled": false,
+      "Length": 50,
+      "ListDataBinderTypeName": "Sungero.Presentation.CommonDataBinders.StringEditorToStringBinder",
+      "PreviousPropertyGuid": "7f57554c-3560-4eb8-b8a3-d115e25e3648"
+    },
+    {
+      "$type": "Sungero.Metadata.StringPropertyMetadata, Sungero.Metadata",
+      "NameGuid": "7b667776-7864-4622-8981-e2347c0b97cc",
+      "Name": "OsVersion",
+      "Code": "OsVersion",
+      "IsEnabled": false,
+      "Length": 50,
+      "ListDataBinderTypeName": "Sungero.Presentation.CommonDataBinders.StringEditorToStringBinder",
+      "PreviousPropertyGuid": "97fe4193-1039-4cae-9244-763a95e4fc89",
+      "Versions": []
+    },
+    {
+      "$type": "Sungero.Metadata.StringPropertyMetadata, Sungero.Metadata",
+      "NameGuid": "e2c5f1ed-15b1-4680-9874-1ed7cf9e5f49",
+      "Name": "AppVersion",
+      "Code": "AppVersion",
+      "IsEnabled": false,
+      "Length": 50,
+      "ListDataBinderTypeName": "Sungero.Presentation.CommonDataBinders.StringEditorToStringBinder",
+      "PreviousPropertyGuid": "7b667776-7864-4622-8981-e2347c0b97cc",
+      "Versions": []
+    },
+    {
+      "$type": "Sungero.Metadata.EnumPropertyMetadata, Sungero.Metadata",
+      "NameGuid": "8abcc95a-1dec-47d9-9fa2-902a617127ff",
+      "Name": "DeviceStatus",
+      "Code": "DeviceStatus",
+      "DirectValues": [
+        {
+          "NameGuid": "4e60ce87-600e-43b7-af43-193b2d200a79",
+          "Name": "None",
+          "Code": "None"
+        },
+        {
+          "NameGuid": "79e78169-99ff-4f67-9738-1f0cb966e18b",
+          "Name": "Enabled",
+          "Code": "Enabled"
+        },
+        {
+          "NameGuid": "bf299c39-9025-4512-a525-90a9fbd9119d",
+          "Name": "Disabled",
+          "Code": "Disabled"
+        }
+      ],
+      "IsEnabled": false,
+      "ListDataBinderTypeName": "Sungero.Presentation.CommonDataBinders.DropDownEditorToEnumerationBinder",
+      "PreviousPropertyGuid": "e2c5f1ed-15b1-4680-9874-1ed7cf9e5f49"
+    },
+    {
+      "$type": "Sungero.Metadata.StringPropertyMetadata, Sungero.Metadata",
+      "NameGuid": "e5f8b666-a4ab-436e-ab76-f0d63314183c",
+      "Name": "DeviceName",
+      "Code": "DeviceName",
+      "HandledEvents": [
+        "ChangedShared"
+      ],
+      "IsEnabled": false,
+      "ListDataBinderTypeName": "Sungero.Presentation.CommonDataBinders.StringEditorToStringBinder",
+      "PreviousPropertyGuid": "8abcc95a-1dec-47d9-9fa2-902a617127ff"
+    },
+    {
+      "$type": "Sungero.Metadata.DateTimePropertyMetadata, Sungero.Metadata",
+      "NameGuid": "5fcc052e-7479-4940-802e-7373d5455a49",
+      "Name": "LastActivity",
+      "Code": "LastActivity",
+      "DateTimeFormat": "DateTime",
+      "IsEnabled": false,
+      "ListDataBinderTypeName": "Sungero.Presentation.CommonDataBinders.DateTimeEditorToDateTimeBinder",
+      "PreviousPropertyGuid": "e5f8b666-a4ab-436e-ab76-f0d63314183c"
+    }
+  ],
+  "PublicFunctions": [
+    {
+      "Name": "DeleteData",
+      "IsRemote": true,
+      "Parameters": [
+        {
+          "Name": "mobileDevice",
+          "ParameterType": "global::Sungero.MobileApps.IMobileDevice",
+          "ParameterTypeFullName": "Sungero.MobileApps.IMobileDevice, Sungero.Domain.Interfaces"
+        }
+      ],
+      "Placement": "Shared",
+      "ReturnType": "void",
+      "ReturnTypeFullName": "System.Void"
+    },
+    {
+      "Name": "GetLogRequestDelay",
+      "IsRemote": true,
+      "Parameters": [
+        {
+          "Name": "mobileDevice",
+          "ParameterType": "global::Sungero.MobileApps.IMobileDevice",
+          "ParameterTypeFullName": "Sungero.MobileApps.IMobileDevice, Sungero.Domain.Interfaces"
+        }
+      ],
+      "Placement": "Shared",
+      "ReturnType": "global::System.Int32",
+      "ReturnTypeFullName": "System.Int32"
+    },
+    {
+      "Name": "RequestLogs",
+      "IsRemote": true,
+      "Parameters": [
+        {
+          "Name": "mobileDevice",
+          "ParameterType": "global::Sungero.MobileApps.IMobileDevice",
+          "ParameterTypeFullName": "Sungero.MobileApps.IMobileDevice, Sungero.Domain.Interfaces"
+        }
+      ],
+      "Placement": "Shared",
+      "ReturnType": "void",
+      "ReturnTypeFullName": "System.Void"
+    },
+    {
+      "Name": "ResetSeance",
+      "IsRemote": true,
+      "Parameters": [
+        {
+          "Name": "mobileDevice",
+          "ParameterType": "global::Sungero.MobileApps.IMobileDevice",
+          "ParameterTypeFullName": "Sungero.MobileApps.IMobileDevice, Sungero.Domain.Interfaces"
+        }
+      ],
+      "Placement": "Shared",
+      "ReturnType": "void",
+      "ReturnTypeFullName": "System.Void"
+    }
+  ],
+  "PublicStructures": [
+    {
+      "Name": "MobileDeviceDeleteDataEventArgs",
+      "IsPublic": true,
+      "Properties": [
+        {
+          "Name": "UserId",
+          "TypeFullName": "global::System.Int64"
+        },
+        {
+          "Name": "DeviceId",
+          "IsNullable": true,
+          "TypeFullName": "global::System.String"
+        }
+      ],
+      "StructureNamespace": "Sungero.MobileApps.Structures.MobileDevice"
+    },
+    {
+      "Name": "MobileDeviceRequestLogsEventArgs",
+      "IsPublic": true,
+      "Properties": [
+        {
+          "Name": "UserId",
+          "TypeFullName": "global::System.Int64"
+        },
+        {
+          "Name": "DeviceId",
+          "IsNullable": true,
+          "TypeFullName": "global::System.String"
+        }
+      ],
+      "StructureNamespace": "Sungero.MobileApps.Structures.MobileDevice"
+    },
+    {
+      "Name": "MobileDeviceResetSeanceEventArgs",
+      "IsPublic": true,
+      "Properties": [
+        {
+          "Name": "UserId",
+          "TypeFullName": "global::System.Int64"
+        },
+        {
+          "Name": "DeviceId",
+          "IsNullable": true,
+          "TypeFullName": "global::System.String"
+        }
+      ],
+      "StructureNamespace": "Sungero.MobileApps.Structures.MobileDevice"
+    }
+  ],
+  "ResourcesKeys": [
+    "LogRequestEstimateSeconds",
+    "LogRequestHasBeenSent",
+    "ResetSessionHasBeenSent",
+    "DataRemovalHasBeenSent"
+  ],
+  "RibbonCardMetadata": {
+    "NameGuid": "faa04c08-0fbe-4e99-a8f7-483af11cc846",
+    "Name": "RibbonCard",
+    "Categories": [],
+    "Elements": [
+      {
+        "$type": "Sungero.Metadata.RibbonActionButtonMetadata, Sungero.Metadata",
+        "NameGuid": "9107126c-ce40-4cd8-b854-2e7a297159b1",
+        "Name": "CopyEntity",
+        "ActionGuid": "00fae4b6-935a-4047-831d-312fd3c02faf",
+        "Index": 35,
+        "IsAncestorMetadata": true,
+        "IsVisible": false,
+        "Overridden": [
+          "IsVisible"
+        ],
+        "ParentGuid": "f3b0ddcd-9d1e-4ca3-8780-695ae25a9e8b"
+      },
+      {
+        "$type": "Sungero.Metadata.RibbonActionButtonMetadata, Sungero.Metadata",
+        "NameGuid": "e34e3e39-bcb9-4de3-a0ea-849c79ad9dcb",
+        "Name": "Cancel",
+        "ActionGuid": "8049bcb6-eb35-463f-bb18-45090e8b3add",
+        "Index": 50,
+        "IsAncestorMetadata": true,
+        "IsVisible": false,
+        "Overridden": [
+          "IsVisible"
+        ],
+        "ParentGuid": "f3b0ddcd-9d1e-4ca3-8780-695ae25a9e8b"
+      },
+      {
+        "$type": "Sungero.Metadata.RibbonActionButtonMetadata, Sungero.Metadata",
+        "NameGuid": "4bb1fd7f-4ebe-4031-9b06-dace797d038f",
+        "Name": "Save",
+        "ActionGuid": "81c99eb3-d82b-4625-ad2f-97b8ffa7a71f",
+        "ButtonSize": "Large",
+        "DefaultIndexInQuickAccessToolBar": 20,
+        "Index": 10,
+        "IsAncestorMetadata": true,
+        "IsVisible": false,
+        "Overridden": [
+          "IsVisible"
+        ],
+        "ParentGuid": "f3b0ddcd-9d1e-4ca3-8780-695ae25a9e8b"
+      },
+      {
+        "$type": "Sungero.Metadata.RibbonActionButtonMetadata, Sungero.Metadata",
+        "NameGuid": "7094fb6e-d58d-4f7f-a2bf-ac560ff93ed7",
+        "Name": "SaveAndClose",
+        "ActionGuid": "bca1ca04-dbf7-499f-bc3e-c5b4d5db7805",
+        "ButtonSize": "Large",
+        "Index": 20,
+        "IsAncestorMetadata": true,
+        "IsVisible": false,
+        "Overridden": [
+          "IsVisible"
+        ],
+        "ParentGuid": "f3b0ddcd-9d1e-4ca3-8780-695ae25a9e8b"
+      },
+      {
+        "$type": "Sungero.Metadata.RibbonActionButtonMetadata, Sungero.Metadata",
+        "NameGuid": "172c92ae-19ce-4c20-a44d-a9ef21533ed4",
+        "Name": "SelectAndClose",
+        "ActionGuid": "4f89a2af-43db-4f87-91c0-54b32427580e",
+        "ButtonSize": "Large",
+        "Index": 21,
+        "IsAncestorMetadata": true,
+        "IsVisible": false,
+        "Overridden": [
+          "IsVisible"
+        ],
+        "ParentGuid": "f3b0ddcd-9d1e-4ca3-8780-695ae25a9e8b"
+      },
+      {
+        "$type": "Sungero.Metadata.RibbonActionButtonMetadata, Sungero.Metadata",
+        "NameGuid": "cf33be74-4432-4889-8371-0bfea1c87081",
+        "Name": "DeleteData",
+        "ActionGuid": "8793af0f-d830-4a74-8d5b-b14c215288f6",
+        "Index": 43,
+        "ParentGuid": "f3b0ddcd-9d1e-4ca3-8780-695ae25a9e8b"
+      },
+      {
+        "$type": "Sungero.Metadata.RibbonActionButtonMetadata, Sungero.Metadata",
+        "NameGuid": "b305ab7a-2be8-4072-a54d-9fe9700b9169",
+        "Name": "RequestLogs",
+        "ActionGuid": "1ba985df-54d4-459e-b40b-55bd0a329e61",
+        "Index": 41,
+        "ParentGuid": "f3b0ddcd-9d1e-4ca3-8780-695ae25a9e8b"
+      },
+      {
+        "$type": "Sungero.Metadata.RibbonActionButtonMetadata, Sungero.Metadata",
+        "NameGuid": "c13f38d2-daed-4979-8568-11faaead8c0a",
+        "Name": "ResetReance",
+        "ActionGuid": "f7a82463-7241-4055-9c84-ed528e5cd576",
+        "Index": 42,
+        "ParentGuid": "f3b0ddcd-9d1e-4ca3-8780-695ae25a9e8b"
+      }
+    ],
+    "Groups": [],
+    "IsAncestorMetadata": true,
+    "Pages": [],
+    "RibbonKind": "Card"
+  },
+  "RibbonCollectionMetadata": {
+    "NameGuid": "9baecf4d-f1b6-4e10-a66c-ed877b38cc8e",
+    "Name": "RibbonCollection",
+    "Categories": [],
+    "Elements": [
+      {
+        "$type": "Sungero.Metadata.RibbonActionButtonMetadata, Sungero.Metadata",
+        "NameGuid": "efe4a00f-bffb-41ce-8e5a-40162463bdea",
+        "Name": "CopyEntity",
+        "ActionGuid": "00fae4b6-935a-4047-831d-312fd3c02faf",
+        "DefaultIndexInQuickAccessToolBar": 20,
+        "Index": 20,
+        "IsAncestorMetadata": true,
+        "IsVisible": false,
+        "Overridden": [
+          "IsShowInContextMenu",
+          "IsVisible"
+        ],
+        "ParentGuid": "b88b0a3a-c1ca-4f7f-80a0-336cd61c9c94"
+      },
+      {
+        "$type": "Sungero.Metadata.RibbonActionButtonMetadata, Sungero.Metadata",
+        "NameGuid": "5133599e-202e-4a71-876e-45af52df2b7b",
+        "Name": "SetAccessRights",
+        "ActionGuid": "40975f07-51e4-46d4-80d7-6592cd03f66e",
+        "Index": 30,
+        "IsAncestorMetadata": true,
+        "IsVisible": false,
+        "Overridden": [
+          "IsVisible",
+          "IsShowInContextMenu"
+        ],
+        "ParentGuid": "b88b0a3a-c1ca-4f7f-80a0-336cd61c9c94"
+      },
+      {
+        "$type": "Sungero.Metadata.RibbonActionButtonMetadata, Sungero.Metadata",
+        "NameGuid": "07eef63c-3d22-4643-900d-082310732f2c",
+        "Name": "DeleteEntities",
+        "ActionGuid": "9f70df4c-99a1-4c55-bbd8-dd6c7727a479",
+        "Index": 40,
+        "IsAncestorMetadata": true,
+        "Overridden": [
+          "IsShowInContextMenu"
+        ],
+        "ParentGuid": "b88b0a3a-c1ca-4f7f-80a0-336cd61c9c94"
+      },
+      {
+        "$type": "Sungero.Metadata.RibbonActionButtonMetadata, Sungero.Metadata",
+        "NameGuid": "26d9946f-ae00-439b-8827-da1d75d428e8",
+        "Name": "RequestLogs",
+        "ActionGuid": "1ba985df-54d4-459e-b40b-55bd0a329e61",
+        "Index": 41,
+        "ParentGuid": "b88b0a3a-c1ca-4f7f-80a0-336cd61c9c94"
+      },
+      {
+        "$type": "Sungero.Metadata.RibbonActionButtonMetadata, Sungero.Metadata",
+        "NameGuid": "de3277ea-ce3c-4730-8f9f-75735acac262",
+        "Name": "ResetSession",
+        "ActionGuid": "f7a82463-7241-4055-9c84-ed528e5cd576",
+        "Index": 42,
+        "ParentGuid": "b88b0a3a-c1ca-4f7f-80a0-336cd61c9c94"
+      },
+      {
+        "$type": "Sungero.Metadata.RibbonActionButtonMetadata, Sungero.Metadata",
+        "NameGuid": "ee37c2e6-b4c6-4bfa-a56e-fd2cc9d8a828",
+        "Name": "DeleteData",
+        "ActionGuid": "8793af0f-d830-4a74-8d5b-b14c215288f6",
+        "Index": 43,
+        "ParentGuid": "b88b0a3a-c1ca-4f7f-80a0-336cd61c9c94"
+      }
+    ],
+    "Groups": [],
+    "IsAncestorMetadata": true,
+    "Pages": []
+  },
+  "Versions": [
+    {
+      "Type": "EntityMetadata",
+      "Number": 12
+    }
+  ]
+}

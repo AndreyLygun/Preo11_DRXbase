@@ -1,0 +1,372 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="WrongEmailFormat" xml:space="preserve">
+    <value>Введенный адрес электронной почты имеет неверный формат.</value>
+  </data>
+  <data name="WrongWebsite" xml:space="preserve">
+    <value>Не удалось перейти на сайт. Введен некорректный адрес сайта.</value>
+  </data>
+  <data name="WizardTinInputStepDescription" xml:space="preserve">
+    <value>Шаг 1. Введите ИНН контрагента для отправки приглашения к электронному обмену документами. При необходимости укажите КПП.</value>
+  </data>
+  <data name="WizardCounterpartySelectedStepDescription" xml:space="preserve">
+    <value>Шаг 2. Отправьте контрагенту приглашение к обмену документами.
+
+В сервисах обмена найдено контрагентов: {0}.
+При необходимости измените контрагента и абонентский ящик нашей организации.</value>
+  </data>
+  <data name="WizardMailInviteStepDescription" xml:space="preserve">
+    <value>Шаг 2. Пригласите контрагента по электронной почте.
+
+Контрагент с ИНН {0} и КПП {1} не зарегистрирован в указанных сервисах обмена. Вы можете пригласить его по электронной почте.
+</value>
+  </data>
+  <data name="WizardMailInviteStepDescriptionShort" xml:space="preserve">
+    <value>Шаг 2. Пригласите контрагента по электронной почте.
+
+Контрагент с ИНН {0} не зарегистрирован в указанных сервисах обмена. Вы можете пригласить его по электронной почте.
+</value>
+  </data>
+  <data name="WizardStatusStepDescriptionShort" xml:space="preserve">
+    <value>Обмен документами с этим контрагентом уже разрешен.</value>
+  </data>
+  <data name="WizardStatusStepActiveDescription" xml:space="preserve">
+    <value>Обмен с контрагентом разрешен.</value>
+  </data>
+  <data name="WizardInviteResultStepDecriptionShort" xml:space="preserve">
+    <value>Приглашение контрагенту успешно отправлено.</value>
+  </data>
+  <data name="WizardInviteResultStepDecription" xml:space="preserve">
+    <value>Приглашение контрагенту успешно отправлено.
+
+Контрагент: {0} (ИНН {1}, КПП {2}).
+Наша организация: {3}.
+Сервис обмена: {4}.</value>
+  </data>
+  <data name="WizardTitle" xml:space="preserve">
+    <value>Пригласить контрагента по ИНН</value>
+  </data>
+  <data name="TIN" xml:space="preserve">
+    <value>ИНН</value>
+  </data>
+  <data name="Counterparty" xml:space="preserve">
+    <value>Контрагент</value>
+  </data>
+  <data name="WizardFrom" xml:space="preserve">
+    <value>Абонентский ящик</value>
+  </data>
+  <data name="WizardBack" xml:space="preserve">
+    <value>Назад</value>
+  </data>
+  <data name="WizardNext" xml:space="preserve">
+    <value>Далее</value>
+  </data>
+  <data name="OpenCard" xml:space="preserve">
+    <value>Открыть карточку</value>
+  </data>
+  <data name="WizardInviteByEmail" xml:space="preserve">
+    <value>Пригласить по эл. почте</value>
+  </data>
+  <data name="WizardInvite" xml:space="preserve">
+    <value>Пригласить</value>
+  </data>
+  <data name="WizardCompleted" xml:space="preserve">
+    <value>Готово</value>
+  </data>
+  <data name="WizardCounterpartyView" xml:space="preserve">
+    <value>{0} (ИНН {1}, КПП {2}, {3})</value>
+  </data>
+  <data name="WizardCounterpartyViewShort" xml:space="preserve">
+    <value>{0} (ИНН {1}, {2})</value>
+  </data>
+  <data name="ContactAdministrator" xml:space="preserve">
+    <value>Обратитесь к администратору системы.</value>
+  </data>
+  <data name="NeedToBeIncludedInRole" xml:space="preserve">
+    <value>Для приглашения контрагента к обмену необходимо быть участником роли "Пользователи с правами на работу через сервис обмена".</value>
+  </data>
+  <data name="WizardStatusStepBlockedDescription" xml:space="preserve">
+    <value>Обмен с контрагентом заблокирован.</value>
+  </data>
+  <data name="WizardStatusStepApprovingByCADescription" xml:space="preserve">
+    <value>От контрагента ожидается ответ на приглашение к обмену.</value>
+  </data>
+  <data name="WizardStatusStepApprovingByUsDescription" xml:space="preserve">
+    <value>От контрагента поступило встречное приглашение к обмену.</value>
+  </data>
+  <data name="WizardMailBody" xml:space="preserve">
+    <value>Добрый день!%0D%0A%0D%0A
+{0} приглашает вас к обмену электронными документами через сервис {2}.%0D%0A
+Ссылка для регистрации: {3}%0D%0A%0D%0A
+С Уважением,%0D%0A
+{1}%0D%0A
+</value>
+  </data>
+  <data name="WizardMailSubject" xml:space="preserve">
+    <value>{0} приглашает к обмену электронными документами</value>
+  </data>
+  <data name="WizardCancel" xml:space="preserve">
+    <value>Отмена</value>
+  </data>
+  <data name="TRRC" xml:space="preserve">
+    <value>КПП</value>
+  </data>
+  <data name="WizardCounterpartyFullName" xml:space="preserve">
+    <value>{0} (ИНН {1}, КПП {2})</value>
+  </data>
+  <data name="WizardCounterpartyFullNameShort" xml:space="preserve">
+    <value>{0} (ИНН {1})</value>
+  </data>
+  <data name="WizardExchangeServices" xml:space="preserve">
+    <value>Сервисы обмена</value>
+  </data>
+  <data name="WizardCounterpartySelectedStepOneDescription" xml:space="preserve">
+    <value>Шаг 2. Отправьте контрагенту приглашение к обмену документами.
+</value>
+  </data>
+  <data name="WizardCounterpartyInfo" xml:space="preserve">
+    <value>
+
+Контрагент: {0} (ИНН {1}, КПП {2}).</value>
+  </data>
+  <data name="WizardCounterpartyInfoShort" xml:space="preserve">
+    <value>
+
+Контрагент: {0} (ИНН {1}).</value>
+  </data>
+  <data name="WizardBusinessUnitInfo" xml:space="preserve">
+    <value>- {0} ({1}) - {2}</value>
+  </data>
+  <data name="WizardFromMany" xml:space="preserve">
+    <value>Абонентские ящики:</value>
+  </data>
+  <data name="WizardSyncronizationInProcess" xml:space="preserve">
+    <value>Выполняется синхронизация контрагента. Вы сможете открыть карточку контрагента и начать обмен документами после завершения синхронизации.</value>
+  </data>
+  <data name="DistributionListCounterpartyName" xml:space="preserve">
+    <value>По списку рассылки</value>
+  </data>
+  <data name="OrganizationResponsible" xml:space="preserve">
+    <value>Ответственный за организацию</value>
+  </data>
+  <data name="OtherDocumentsKindName" xml:space="preserve">
+    <value>Иные документы</value>
+  </data>
+  <data name="OtherDocumentsKindShortName" xml:space="preserve">
+    <value>Документ</value>
+  </data>
+  <data name="BirthCertificateKindName" xml:space="preserve">
+    <value>Свидетельство о рождении</value>
+  </data>
+  <data name="BirthCertificateKindShortName" xml:space="preserve">
+    <value>Свидетельство о рождении</value>
+  </data>
+  <data name="MilitaryIDKindName" xml:space="preserve">
+    <value>Военный билет</value>
+  </data>
+  <data name="MilitaryIDKindShortName" xml:space="preserve">
+    <value>Военный билет</value>
+  </data>
+  <data name="ForeignCitizenPassportKindName" xml:space="preserve">
+    <value>Паспорт иностранного гражданина</value>
+  </data>
+  <data name="ForeignCitizenPassportKindShortName" xml:space="preserve">
+    <value>Паспорт иностр. гражданина</value>
+  </data>
+  <data name="CertificateOfConsiderationAsRefugeeKindName" xml:space="preserve">
+    <value>Свидетельство о рассмотрении ходатайства о признании лица беженцем на территории Российской Федерации по существу</value>
+  </data>
+  <data name="CertificateOfConsiderationAsRefugeeKindShortName" xml:space="preserve">
+    <value>Свидетельство рассмотрения ходатайства о признании лица беженцем</value>
+  </data>
+  <data name="ResidentCardKindName" xml:space="preserve">
+    <value>Вид на жительство в Российской Федерации</value>
+  </data>
+  <data name="ResidentCardKindShortName" xml:space="preserve">
+    <value>Вид на жительство</value>
+  </data>
+  <data name="RefugeeCertificateKindName" xml:space="preserve">
+    <value>Удостоверение беженца</value>
+  </data>
+  <data name="RefugeeCertificateKindShortName" xml:space="preserve">
+    <value>Удостоверение беженца</value>
+  </data>
+  <data name="TemporaryResidencePermitKindName" xml:space="preserve">
+    <value>Разрешение на временное проживание в Российской Федерации</value>
+  </data>
+  <data name="TemporaryResidencePermitKindShortName" xml:space="preserve">
+    <value>Разрешение на временное проживание</value>
+  </data>
+  <data name="CertificateOfProvisionTemporaryAsylumKindName" xml:space="preserve">
+    <value>Свидетельство о предоставлении временного убежища на территории Российской Федерации</value>
+  </data>
+  <data name="CertificateOfProvisionTemporaryAsylumKindShortName" xml:space="preserve">
+    <value>Свидетельство о предоставлении временного убежища</value>
+  </data>
+  <data name="CitizenPassportKindName" xml:space="preserve">
+    <value>Паспорт гражданина Российской Федерации</value>
+  </data>
+  <data name="CitizenPassportKindShortName" xml:space="preserve">
+    <value>Паспорт</value>
+  </data>
+  <data name="IdentityCardOfMilitaryPersonnelKindName" xml:space="preserve">
+    <value>Удостоверение личности военнослужащего Российской Федерации</value>
+  </data>
+  <data name="IdentityCardOfMilitaryPersonnelKindShortName" xml:space="preserve">
+    <value>Удостоверение личности военнослужащего</value>
+  </data>
+  <data name="BirthCertificateKindCode" xml:space="preserve">
+    <value>03</value>
+  </data>
+  <data name="MilitaryIDKindCode" xml:space="preserve">
+    <value>07</value>
+  </data>
+  <data name="ForeignCitizenPassportKindCode" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="CertificateOfConsiderationAsRefugeeKindCode" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="ResidentCardKindCode" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="RefugeeCertificateKindCode" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="TemporaryResidencePermitKindCode" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="CertificateOfProvisionTemporaryAsylumKindCode" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="CitizenPassportKindShortCode" xml:space="preserve">
+    <value>21</value>
+  </data>
+  <data name="IdentityCardOfMilitaryPersonnelKindCode" xml:space="preserve">
+    <value>24</value>
+  </data>
+  <data name="OtherDocumentsKindCode" xml:space="preserve">
+    <value>91</value>
+  </data>
+  <data name="DiplomaticPassportKindName" xml:space="preserve">
+    <value>Дипломатический паспорт</value>
+  </data>
+  <data name="DiplomaticPassportKindShortName" xml:space="preserve">
+    <value>Дип. паспорт</value>
+  </data>
+  <data name="DiplomaticPassportKindCode" xml:space="preserve">
+    <value>09</value>
+  </data>
+  <data name="TemporaryIDKindName" xml:space="preserve">
+    <value>Временное удостоверение личности гражданина Российской Федерации</value>
+  </data>
+  <data name="TemporaryIDKindShortName" xml:space="preserve">
+    <value>Временное удостоверение личности</value>
+  </data>
+  <data name="TemporaryIDKindCode" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="InternationalPassportKindName" xml:space="preserve">
+    <value>Загранпаспорт гражданина Российской Федерации</value>
+  </data>
+  <data name="InternationalPassportKindShortName" xml:space="preserve">
+    <value>Загранпаспорт</value>
+  </data>
+  <data name="InternationalPassportKindCode" xml:space="preserve">
+    <value>22</value>
+  </data>
+  <data name="SailorPassportKindName" xml:space="preserve">
+    <value>Паспорт моряка</value>
+  </data>
+  <data name="SailorPassportKindShortName" xml:space="preserve">
+    <value>Паспорт моряка</value>
+  </data>
+  <data name="SailorPassportKindCode" xml:space="preserve">
+    <value>26</value>
+  </data>
+  <data name="RoleNameUsersWithAccessToCounterparty" xml:space="preserve">
+    <value>Пользователи с доступом к контрагентам</value>
+  </data>
+  <data name="DescriptionUsersWithAccessToCounterpartyRole" xml:space="preserve">
+    <value>Пользователи, имеющие быстрый доступ к справочникам "Организации", "Банки", "Контактные лица", "Персоны".</value>
+  </data>
+  <data name="CreateCompanyFunctionName" xml:space="preserve">
+    <value>Создать организацию</value>
+  </data>
+  <data name="CreateContactFunctionName" xml:space="preserve">
+    <value>Создать контакт</value>
+  </data>
+  <data name="CreatePersonFunctionName" xml:space="preserve">
+    <value>Создать персону</value>
+  </data>
+  <data name="InviteCounterpartyToExchangeFunctionName" xml:space="preserve">
+    <value>Пригласить контрагента по ИНН</value>
+  </data>
+  <data name="InviteCounterpartyToExchangeFunctionDescription" xml:space="preserve">
+    <value>Быстрое приглашение контрагента по его ИНН/КПП к электронному обмену через сервисы юридически значимого документооборота.</value>
+  </data>
+  <data name="ShowCounterpartiesAvailableForExchangeFunctionName" xml:space="preserve">
+    <value>Обмен разрешен</value>
+  </data>
+  <data name="ShowCounterpartiesAvailableForExchangeFunctionDescription" xml:space="preserve">
+    <value>Контрагенты, с которыми разрешен электронный обмен через сервисы юридически значимого документооборота.</value>
+  </data>
+</root>

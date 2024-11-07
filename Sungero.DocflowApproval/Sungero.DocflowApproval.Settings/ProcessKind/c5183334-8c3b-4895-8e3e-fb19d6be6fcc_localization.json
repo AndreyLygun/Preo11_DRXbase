@@ -1,0 +1,137 @@
+{
+  "Description": {
+    "default": "Default process of project document approval and signing",
+    "ru-RU": "Типовой процесс для согласования и подписания проектных документов",
+    "hash": "d6c4eab9251e986cae166e8bbf0e5ba7"
+  },
+  "Description_5aab0985-f5e5-4e17-b338-8ed6e050799a": {
+    "default": "Employee who sent assignment for rework to the assignee",
+    "ru-RU": "Сотрудник, который направил задание на доработку исполнителю",
+    "hash": "abad29740492883c186fbb5f39e2e36f"
+  },
+  "Description_95449c66-1d30-4c78-9d2d-3e8a97813c5a": {
+    "default": "Employees who must receive notices about sending the document to the next approval stage",
+    "ru-RU": "Сотрудники, которым необходимо отправить уведомление при отправке документа на повторное согласование",
+    "hash": "ed821876d28c137362b8407a808b2abf"
+  },
+  "Description_c34af663-fc43-44a7-9507-cb6f827598ce": {
+    "default": "Employees who must approve documents within the current task",
+    "ru-RU": "Сотрудники, с которыми необходимо согласовать документ в рамках текущей задачи",
+    "hash": "811a7ed81e7585513a75be7a7a192638"
+  },
+  "Name": {
+    "default": "Default process of project document approval",
+    "ru-RU": "Процесс согласования проектных документов по умолчанию",
+    "hash": "43e4d8f78def2a805c254161ce36e13a"
+  },
+  "Name_5aab0985-f5e5-4e17-b338-8ed6e050799a": {
+    "default": "Initiator of assignment for rework",
+    "ru-RU": "Отправитель задания на доработку",
+    "hash": "34297b4801de3d202d7a51583eb622ef"
+  },
+  "Name_95449c66-1d30-4c78-9d2d-3e8a97813c5a": {
+    "default": "Recipients of notice on new approval stage",
+    "ru-RU": "Получатели уведомлений при повторном согласовании",
+    "hash": "d7d45efcf7becdabf04e5b3634526648"
+  },
+  "Name_c34af663-fc43-44a7-9507-cb6f827598ce": {
+    "default": "Additional approvers",
+    "ru-RU": "Дополнительные согласующие",
+    "hash": "2079c6b972005587e6476fafd96783d4"
+  },
+  "Subject_SE_1": {
+    "default": "Approve: {0}",
+    "ru-RU": "Согласуйте: {0}",
+    "hash": "76fe31b1d36124615ad5f4b3d8701635"
+  },
+  "Subject_SE_15": {
+    "default": "Document approved with suggestions: {0}",
+    "ru-RU": "Документ согласовали с замечаниями: {0}",
+    "hash": "1cecf7e203c65eeafa7a0458e690d8a9"
+  },
+  "Subject_SE_2": {
+    "default": "Approve: {0}",
+    "ru-RU": "Согласуйте: {0}",
+    "hash": "76fe31b1d36124615ad5f4b3d8701635"
+  },
+  "Subject_SE_20": {
+    "default": "Notice of sending document for reapproval: {0}",
+    "ru-RU": "Отправлен на повторное согласование: {0}",
+    "hash": "51fa4b62ed52e57c53671ed21d15f1b6"
+  },
+  "Subject_SE_3": {
+    "default": "Rework: {0}",
+    "ru-RU": "Доработайте: {0}",
+    "hash": "ca276ccb9ced9ddaeab9d482049bfc7e"
+  },
+  "Subject_SE_6": {
+    "default": "Document signed: {0}",
+    "ru-RU": "Подписан документ: {0}",
+    "hash": "39337435edb954506972a385bf1a86ad"
+  },
+  "Subject_SE_7": {
+    "default": "Document approved with suggestions: {0}",
+    "ru-RU": "Документ согласовали с замечаниями: {0}",
+    "hash": "1cecf7e203c65eeafa7a0458e690d8a9"
+  },
+  "Subject_SE_9": {
+    "default": "Sign: {0}",
+    "ru-RU": "Подпишите: {0}",
+    "hash": "93e350663060bc255a72037dad5d266a"
+  },
+  "ThreadSubject_SE_1": {
+    "default": "Аpproval",
+    "ru-RU": "Согласование",
+    "hash": "feb26211dbd381f3d806ef6ccbe3eaf7"
+  },
+  "ThreadSubject_SE_2": {
+    "default": "Аpproval",
+    "ru-RU": "Согласование",
+    "hash": "feb26211dbd381f3d806ef6ccbe3eaf7"
+  },
+  "ThreadSubject_SE_20": {
+    "default": "Notice of sending document for reapproval",
+    "ru-RU": "Отправлен на повторное согласование",
+    "hash": "ce860780b5fae1f2ef61c4da7dfc2137"
+  },
+  "ThreadSubject_SE_3": {
+    "default": "Rework",
+    "ru-RU": "Доработка",
+    "hash": "ab0eb9f9d0631491a8c038217f7d36b6"
+  },
+  "ThreadSubject_SE_6": {
+    "default": "Document signed notice",
+    "ru-RU": "Подписан документ",
+    "hash": "79c7a18ec392b91fd5a4a363bafcdbe4"
+  },
+  "ThreadSubject_SE_9": {
+    "default": "Signing",
+    "ru-RU": "Подписание",
+    "hash": "6016c3b3d47608357d93ac07ff36433c"
+  },
+  "Title_SE_1": {
+    "default": "Approve by project manager",
+    "ru-RU": "Согласование с руководителем проекта"
+  },
+  "Title_SE_2": {
+    "default": "Approve by additional approvers",
+    "ru-RU": "Согласование с доп. согласующими"
+  },
+  "Title_SE_20": {
+    "default": "Notice of new approval stage beginning",
+    "ru-RU": "Уведомление о новом круге согласования",
+    "hash": "3a38345d171fccadbb4e3152a3338247"
+  },
+  "Title_SE_3": {
+    "default": "Rework",
+    "ru-RU": "Доработка"
+  },
+  "Title_SE_6": {
+    "default": "Notice to initatior about document signing",
+    "ru-RU": "Уведомление инициатора о подписании"
+  },
+  "Title_SE_9": {
+    "default": "Signing",
+    "ru-RU": "Подписание"
+  }
+}

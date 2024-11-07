@@ -1,0 +1,12 @@
+{
+  "Description": {
+    "default": "Employee responsible for achieving objectives of the project to which the document is related.",
+    "ru-RU": "Сотрудник, ответственный за достижение целей проекта, к которому относится документ.",
+    "hash": "f163ed5e9ad8ce68ae7947c8f48fabc7"
+  },
+  "Name": {
+    "default": "Project manager",
+    "ru-RU": "Руководитель проекта",
+    "hash": "d7e8d5742409f259a0e27a9152798716"
+  }
+}

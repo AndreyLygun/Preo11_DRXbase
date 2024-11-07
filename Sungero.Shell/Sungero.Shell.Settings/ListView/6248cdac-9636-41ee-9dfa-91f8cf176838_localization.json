@@ -1,0 +1,12 @@
+{
+  "Description": {
+    "en-US": "Compact view of folder \"To accept\" for employees included in role \"Users of manager's interface\".",
+    "ru-RU": "Компактное представление папки \"На приемку\" для пользователей, которые входят в роль \"Пользователи интерфейса для руководителей\".",
+    "hash": "f62969b3063f05f58c2f26904f37ff0e"
+  },
+  "Name": {
+    "en-US": "To accept (for managers)",
+    "ru-RU": "На приемку (для руководителей)",
+    "hash": "fc32f921a6bad300ddfb0dce98e1b5d3"
+  }
+}

@@ -1,0 +1,241 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ControlGroup_9840db3d06134c92bf9003f5b6a5fb53" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ControlGroup_d6c060c899f940e8b510951a77739e9e" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ControlGroup_e9749c549e2f4c06b14785369ac565c2" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Enum_Result_Approved" xml:space="preserve">
+    <value>Approved</value>
+  </data>
+  <data name="Action_Approved" xml:space="preserve">
+    <value>Approve</value>
+  </data>
+  <data name="Action_ApprovedHint" xml:space="preserve">
+    <value>Approve Document</value>
+  </data>
+  <data name="Action_ApprovedConfirmationMessage" xml:space="preserve">
+    <value>Approve the document?</value>
+  </data>
+  <data name="Action_ApprovedDescription" xml:space="preserve">
+    <value>Complete the assignment and sign the document with result "Approved".</value>
+  </data>
+  <data name="Enum_Result_ForRevision" xml:space="preserve">
+    <value>For Rework</value>
+  </data>
+  <data name="Action_ForRevision" xml:space="preserve">
+    <value>For Rework</value>
+  </data>
+  <data name="Action_ForRevisionHint" xml:space="preserve">
+    <value>Send Document for rework</value>
+  </data>
+  <data name="Action_ForRevisionConfirmationMessage" xml:space="preserve">
+    <value>Send the document for rework?</value>
+  </data>
+  <data name="Action_ForRevisionDescription" xml:space="preserve">
+    <value>Send document for rework and sign the document with result "Not Approved".</value>
+  </data>
+  <data name="DisplayName" xml:space="preserve">
+    <value>Approve document</value>
+  </data>
+  <data name="AccusativeDisplayName" xml:space="preserve">
+    <value>Approve document</value>
+  </data>
+  <data name="CollectionDisplayName" xml:space="preserve">
+    <value>Approve document</value>
+  </data>
+  <data name="Ribbon_AsgGroup_ac82503a7a4749d0b90c9bb512c4559c" xml:space="preserve">
+    <value>Assignment</value>
+  </data>
+  <data name="Form_Page" xml:space="preserve">
+    <value>Stages</value>
+  </data>
+  <data name="ControlGroup_71fb5a310c2749e6919734e27268bc44" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Control_c2da7557f93e4b97bb253fee90c78831_EmptyText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Property_Stage" xml:space="preserve">
+    <value>Stage</value>
+  </data>
+  <data name="Footer_ActiveEmptyText" xml:space="preserve">
+    <value>Note…</value>
+  </data>
+  <data name="Action_ApprovalForm" xml:space="preserve">
+    <value>Approval Form</value>
+  </data>
+  <data name="Action_ApprovalFormDescription" xml:space="preserve">
+    <value>View approval form for the document</value>
+  </data>
+  <data name="Action_ApprovalFormHint" xml:space="preserve">
+    <value>View Approval Form</value>
+  </data>
+  <data name="Action_ApprovalFormConfirmationMessage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Ribbon_Approving_eeeb17f829784cdc8b626872df872710" xml:space="preserve">
+    <value>Report</value>
+  </data>
+  <data name="Form_bb8e2659234e4989a1443f1159fbcc6d" xml:space="preserve">
+    <value>Stages</value>
+  </data>
+  <data name="ControlGroup_65a562a9a3ed4bc9adef7bb62a48a6d6" xml:space="preserve">
+    <value>Stages</value>
+  </data>
+  <data name="Property_StageNumber" xml:space="preserve">
+    <value>Stage number</value>
+  </data>
+  <data name="Action_ExtendDeadline" xml:space="preserve">
+    <value>Deadline Extension Request</value>
+  </data>
+  <data name="Action_ExtendDeadlineDescription" xml:space="preserve">
+    <value>Send request for deadline extension of assignment</value>
+  </data>
+  <data name="Action_ExtendDeadlineHint" xml:space="preserve">
+    <value>Request for Deadline Extension</value>
+  </data>
+  <data name="Action_ExtendDeadlineConfirmationMessage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Action_ExtendDeadlineConfirmationDescription" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Ribbon_DeadlineGroup_a470a278907242f2849cdc2a10404f90" xml:space="preserve">
+    <value>Deadline</value>
+  </data>
+  <data name="ControlGroup_7f66bd321edd49e1b8de14947ac240d8" xml:space="preserve">
+    <value>Document Requisites</value>
+  </data>
+  <data name="Enum_Result_Forward" xml:space="preserve">
+    <value>Forward</value>
+  </data>
+  <data name="Action_Forward" xml:space="preserve">
+    <value>Forward</value>
+  </data>
+  <data name="Action_ForwardHint" xml:space="preserve">
+    <value>Forward Document Approval</value>
+  </data>
+  <data name="Action_ForwardConfirmationMessage" xml:space="preserve">
+    <value>Forward the assignment to approve the document?</value>
+  </data>
+  <data name="Action_ForwardDescription" xml:space="preserve">
+    <value>Send the document for approval to another employee.</value>
+  </data>
+  <data name="Action_AddApprover" xml:space="preserve">
+    <value>Add Approver</value>
+  </data>
+  <data name="Action_AddApproverDescription" xml:space="preserve">
+    <value>Specify the employee who will receive the approval assignment.</value>
+  </data>
+  <data name="Action_AddApproverHint" xml:space="preserve">
+    <value>Add Approver</value>
+  </data>
+  <data name="Action_AddApproverConfirmationMessage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Action_AddApproverConfirmationDescription" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Ribbon_ApprovalGroup_2763ef3675ec4facb77bd41d738922d0" xml:space="preserve">
+    <value>Approval</value>
+  </data>
+  <data name="Property_Addressee" xml:space="preserve">
+    <value>Forward to employee</value>
+  </data>
+  <data name="Action_CreateMeeting" xml:space="preserve">
+    <value>Add to calendar</value>
+  </data>
+  <data name="Action_CreateMeetingHint" xml:space="preserve">
+    <value>Add to calendar</value>
+  </data>
+  <data name="Action_CreateMeetingDescription" xml:space="preserve">
+    <value>Create iCalendar file to add a meeting to the calendar.</value>
+  </data>
+  <data name="Property_ReworkPerformer" xml:space="preserve">
+    <value>Send for rework to</value>
+  </data>
+  <data name="Control_1d138ed06ce54583bd3d3a313a31e6f6_EmptyText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Enum_Result_WithSuggestions" xml:space="preserve">
+    <value>Approve with suggestions</value>
+  </data>
+  <data name="Action_WithSuggestions" xml:space="preserve">
+    <value>Approve with suggestions</value>
+  </data>
+  <data name="Action_WithSuggestionsHint" xml:space="preserve">
+    <value>Approve Document With Suggestions</value>
+  </data>
+  <data name="Action_WithSuggestionsConfirmationMessage" xml:space="preserve">
+    <value>Approve the document with suggestions?</value>
+  </data>
+  <data name="Action_WithSuggestionsDescription" xml:space="preserve">
+    <value>Complete the assignment and sign the document with the "Endorsed with suggestions" result. In your suggestions, specify what should be taken into account at the next approval stages.</value>
+  </data>
+  <data name="ControlGroup_4e94e189a7464492a435b8a937e0e8fc" xml:space="preserve">
+    <value>Main</value>
+  </data>
+</root>

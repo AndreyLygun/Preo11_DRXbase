@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Confirmation" xml:space="preserve">
+    <value>Подтверждение</value>
+  </data>
+  <data name="EmptyAbortingReason" xml:space="preserve">
+    <value>Заполните причину прекращения задачи.</value>
+  </data>
+  <data name="CantUpdateTask" xml:space="preserve">
+    <value>Задача была изменена. Закройте окно подтверждения и прекратите задачу повторно.</value>
+  </data>
+  <data name="DocumentStateWillBeUpdatedLater" xml:space="preserve">
+    <value>Жизненный цикл документа обновится в ближайшее время.</value>
+  </data>
+  <data name="AbortNoticeSubject" xml:space="preserve">
+    <value>Прекращено согласование</value>
+  </data>
+  <data name="AbortApprovalTask" xml:space="preserve">
+    <value>Прекращено</value>
+  </data>
+  <data name="CantSendTaskByNonEmployee" xml:space="preserve">
+    <value>Отправить задачу может только сотрудник. Войдите в систему под учетной записью сотрудника.</value>
+  </data>
+  <data name="ApprovalText" xml:space="preserve">
+    <value>Прошу выполнить соответствующие действия в рамках процесса по документу.</value>
+  </data>
+  <data name="TaskSubject" xml:space="preserve">
+    <value>Согласование по процессу: {0}</value>
+  </data>
+  <data name="ProcessBasedApproval" xml:space="preserve">
+    <value>Согласование по процессу</value>
+  </data>
+  <data name="BaseProcess" xml:space="preserve">
+    <value>Процесс: </value>
+  </data>
+  <data name="DraftTaskCreated" xml:space="preserve">
+    <value>Создан черновик задачи</value>
+  </data>
+  <data name="DocumentIsSentForApprovalByProcess" xml:space="preserve">
+    <value>Документ отправлен на согласование по процессу</value>
+  </data>
+  <data name="FailedToComputeBlockPerformer" xml:space="preserve">
+    <value>Не вычислен исполнитель блока "{0}". Проверьте поле "Подписал" в карточке основного документа или обратитесь к администратору.</value>
+  </data>
+  <data name="BlockPerformerHasNoRightsToApproveDocument" xml:space="preserve">
+    <value>У исполнителя {0} блока "{1}" нет прав на утверждение документа. Обратитесь к администратору.</value>
+  </data>
+  <data name="SaveDocumentsBeforeStart" xml:space="preserve">
+    <value>Для старта задачи сохраните документ и его приложения.</value>
+  </data>
+  <data name="GetStateViewFunctionName" xml:space="preserve">
+    <value>Информация по задаче</value>
+  </data>
+  <data name="GetStateViewFunctionDescription" xml:space="preserve">
+    <value>Отображение краткой сводки по задаче и ее заданиям</value>
+  </data>
+</root>

@@ -1,0 +1,9 @@
+{
+  "$type": "Sungero.DataExport.ExportingObject, Sungero.DataExport",
+  "Uuid": "e99ae7e2-edb7-4904-a19a-4577f07609a4",
+  "ModuleNameGuid": "59797aba-7718-45df-8ac1-5bb7a36c7a66",
+  "HelpCode": "sungero_financialarchiveui",
+  "Status": "Active",
+  "SortingPriority": "High",
+  "StoreAsDefaultSetting": true
+}

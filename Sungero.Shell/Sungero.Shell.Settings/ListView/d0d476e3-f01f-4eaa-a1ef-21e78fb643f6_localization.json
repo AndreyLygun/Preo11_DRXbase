@@ -1,0 +1,12 @@
+{
+  "Description": {
+    "en-US": "Compact view of folder \"Notices\" for employees included in role \"Users of manager's interface\".",
+    "ru-RU": "Компактное представление папки \"Уведомления\" для пользователей, которые входят в роль \"Пользователи интерфейса для руководителей\".",
+    "hash": "bdf469dbc6fb620ef97b9f191d4a4a4f"
+  },
+  "Name": {
+    "en-US": "Notices (for managers)",
+    "ru-RU": "Уведомления (для руководителей)",
+    "hash": "cae6e68bc68a23bfa1277dccfc183d50"
+  }
+}

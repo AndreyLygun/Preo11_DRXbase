@@ -1,0 +1,186 @@
+{
+  "Action_Description_0d55833a5ff0467fa4c8167bf4c0e71f": {
+    "default": "Сounterparties with which you can exchange legal documents via exchange services",
+    "ru-RU": "Контрагенты, с которыми разрешен электронный обмен через сервисы юридически значимого документооборота",
+    "hash": "0aa8e1c3c3969b153a9e58352131c4db"
+  },
+  "Action_Description_137e44819ed64f95aa582d42676a69ff": {
+    "default": "Stores information about representatives of your counterparties so you can contact them quickly",
+    "ru-RU": "Справочник предназначен для хранения сведений о представителях организаций-контрагентов для быстрой связи с ними",
+    "hash": "d04c91f7d7efa904230045a356a9d389"
+  },
+  "Action_Description_39e66b83cdc6446383cd168fed6b68d0": {
+    "default": "Сounterparties with which document exchange is not allowed",
+    "ru-RU": "Контрагенты, с которыми электронный обмен заблокирован",
+    "hash": "9c484f489bcdc7117a1af42cd301c148"
+  },
+  "Action_Description_3d040fabf8984cc79a9aa0665985e6ed": {
+    "default": "Stores information about countries",
+    "ru-RU": "Справочник стран",
+    "hash": "c2fbf238451f347bfdca457c0882b695"
+  },
+  "Action_Description_55369c69e6e743f0ad30969c9bb195c7": {
+    "default": "Register of banks",
+    "ru-RU": "Реестр банков",
+    "hash": "77362035bb4337f027151e1600106703"
+  },
+  "Action_Description_61032167e1ba434c91537ab97c8b6e9b": {
+    "default": "Stores information about states and provinces of the country",
+    "ru-RU": "Справочник предназначен для хранения сведений об административно-территориальном делении стран",
+    "hash": "04c33b83cd51f1038658051710c19826"
+  },
+  "Action_Description_761f1052b0624b4181ea902f993afa7c": {
+    "default": "Counterparties who have not replied to our exchange invitation yet or who have sent an invitation to our company",
+    "ru-RU": "Контрагенты, от которых ожидается ответ на приглашение или от которых поступило приглашение к электронному обмену",
+    "hash": "1bac23cc577272dd697b0b940c199e3a"
+  },
+  "Action_Description_8ca0cb08aa1a477eba98ad7a3ae0b6a8": {
+    "default": "Stores information about companies that our company deals with",
+    "ru-RU": "Справочник предназначен для хранения сведений об организациях, с которыми взаимодействует наша компания",
+    "hash": "004b333af58c258fec939a71afe0c9fe"
+  },
+  "Action_Description_8cd12bff77424d1b8f19c3d43d95367d": {
+    "default": "Stores information about all individuals (counterparties, employees, contacts) that our company deals with",
+    "ru-RU": "Справочник предназначен для хранения структурированных сведений обо всех физических лицах (контрагентах, сотрудниках, контактах), с которыми взаимодействует наша компания",
+    "hash": "7c661b99ee3699888a0a13694f16c5e9"
+  },
+  "Action_Description_8db1da1040824c2d8b1e93616f64e177": {
+    "default": "Quickly invite a counterparty by its TIN and TRRC to exchange legal documents via exchange services",
+    "ru-RU": "Быстрое приглашение контрагента по его ИНН/КПП к электронному обмену через сервисы юридически значимого документооборота",
+    "hash": "167c1dcba7df3d51e1e10bbbe638296b"
+  },
+  "Action_Description_b93c42517be0435fa879327630bb1314": {
+    "default": "Stores information about cities, towns and other settlements",
+    "ru-RU": "Справочник населенных пунктов",
+    "hash": "c97cae0c20d578a8cb56ad74d26d39a5"
+  },
+  "Action_Description_e5600c071a264262bca7059d7c040718": {
+    "default": "Stores information on websites used for counterparty due diligence",
+    "ru-RU": "Справочник предназначен для настройки сайтов, используемых для проверки надежности контрагента",
+    "hash": "073667247707cf8584816d906f06f038"
+  },
+  "Action_Title_0d55833a5ff0467fa4c8167bf4c0e71f": {
+    "default": "Exchange Allowed",
+    "ru-RU": "Обмен разрешен",
+    "hash": "94a9d023ac10b32a21c89b1b2d99efac"
+  },
+  "Action_Title_137e44819ed64f95aa582d42676a69ff": {
+    "default": "Contact Persons",
+    "ru-RU": "Контактные лица",
+    "hash": "69712b92735c40c72124df812db36822"
+  },
+  "Action_Title_249b98a3ea784863a712d7c795c463cc": {
+    "default": "New Company",
+    "ru-RU": "Создать организацию",
+    "hash": "0b24e28fe8d9527da60f84d8ab8e62c6"
+  },
+  "Action_Title_39e66b83cdc6446383cd168fed6b68d0": {
+    "default": "Exchange Blocked",
+    "ru-RU": "Обмен заблокирован",
+    "hash": "dfd0f2ca560ae71ac1b6d238207b3dff"
+  },
+  "Action_Title_3d040fabf8984cc79a9aa0665985e6ed": {
+    "default": "Countries",
+    "ru-RU": "Страны",
+    "hash": "51a3b366b3e90bdfa6866dafbd5a1c7c"
+  },
+  "Action_Title_55369c69e6e743f0ad30969c9bb195c7": {
+    "default": "Banks",
+    "ru-RU": "Банки",
+    "hash": "9d333d324a5ba09fde5796105d654a9f"
+  },
+  "Action_Title_61032167e1ba434c91537ab97c8b6e9b": {
+    "default": "Regions",
+    "ru-RU": "Регионы",
+    "hash": "f233ec0ee1088fc53e0c7d2ed365233b"
+  },
+  "Action_Title_761f1052b0624b4181ea902f993afa7c": {
+    "default": "Waiting For Reply",
+    "ru-RU": "Ожидается ответ на приглашение",
+    "hash": "6e7661b09fafc3cc72f1d087114fb9e1"
+  },
+  "Action_Title_78b4e7ee99c643e888496cebd4f9eb6d": {
+    "default": "New Contact Person",
+    "ru-RU": "Создать контакт",
+    "hash": "b525af1c806859f91a6cf135f0d3c188"
+  },
+  "Action_Title_87042d20fa3944098ee8eaae4d6ee3db": {
+    "default": "New Person",
+    "ru-RU": "Создать персону",
+    "hash": "77c0389f2b2ce191d0057b63a72aa795"
+  },
+  "Action_Title_8ca0cb08aa1a477eba98ad7a3ae0b6a8": {
+    "default": "Companies",
+    "ru-RU": "Организации",
+    "hash": "2a40c8a277ebc700e9f4c92c2b3b8186"
+  },
+  "Action_Title_8cd12bff77424d1b8f19c3d43d95367d": {
+    "default": "Persons",
+    "ru-RU": "Персоны",
+    "hash": "2fcc675fa94cac470934d87696f017ca"
+  },
+  "Action_Title_8db1da1040824c2d8b1e93616f64e177": {
+    "default": "Invite Counterparty by TIN",
+    "ru-RU": "Пригласить контрагента по ИНН",
+    "hash": "8f1458a173549f8d169a320c8f7f5a46"
+  },
+  "Action_Title_b93c42517be0435fa879327630bb1314": {
+    "default": "Cities",
+    "ru-RU": "Населенные пункты",
+    "hash": "48d26da9058e3f32da9fe63722a700cc"
+  },
+  "Action_Title_e5600c071a264262bca7059d7c040718": {
+    "default": "Counterparty Due Diligence Websites",
+    "ru-RU": "Сайты проверки контрагента",
+    "hash": "c015578b3732963a85ea8ad6797498c1"
+  },
+  "Group_Title_0054d7ffbbbb45e9b7a3c21c3c240556": {
+    "default": "Electronic Exchange",
+    "ru-RU": "Электронный обмен",
+    "hash": "65c6e48af83bc976b5967aea2c47affd"
+  },
+  "Group_Title_556a78c4d5a24bcc9e2b8d6e81acd39d": {
+    "default": "Persons",
+    "ru-RU": "Персоны",
+    "hash": "2fcc675fa94cac470934d87696f017ca"
+  },
+  "Group_Title_5ee5b711444f4226a7f254f495c846fb": {
+    "default": "Contact Persons",
+    "ru-RU": "Контактные лица организаций",
+    "hash": "8ea3f0da6f2aed41b42c1b80a5afff14"
+  },
+  "Group_Title_aa49539f99ef462a9b17d273fec1f809": {
+    "default": "Companies",
+    "ru-RU": "Организации",
+    "hash": "2a40c8a277ebc700e9f4c92c2b3b8186"
+  },
+  "Group_Title_b17c8c1d4f7f4288973def2ec77b2f55": {
+    "default": "Integration",
+    "ru-RU": "Интеграция",
+    "hash": "9f1b2b35e63516c580a9524eb51d8213"
+  },
+  "Group_Title_e5308854816c421b94dc65e02ccbc599": {
+    "default": "Related Information",
+    "ru-RU": "Связанная информация",
+    "hash": "4f3a6a60b3de9b5162f268b4b1aa8fdf"
+  },
+  "Header_Description_351f5de00cf647d488caaa6ea79c367e": {
+    "default": "This module is where you can organize and save information about the people and companies that you communicate with.",
+    "ru-RU": "Модуль предназначен для управления сведениями об организациях и физических лицах, контактных лицах организаций-контрагентов.",
+    "hash": "619b8838dd4ef42f2b806a6b46469a8e"
+  },
+  "Header_Title_351f5de00cf647d488caaa6ea79c367e": {
+    "default": "Counterparties",
+    "ru-RU": "Контрагенты",
+    "hash": "1f20813ce7cc21c09468dd4bb911d5f8"
+  },
+  "Name": {
+    "default": "Counterparties (for configuration)",
+    "ru-RU": "Контрагенты (для настройки)",
+    "hash": "2d727935bb553a6246e085d543219059"
+  },
+  "Tab_Title_5ce9f057c5d9427bbaff767316a72809": {
+    "default": "Tab",
+    "hash": "308b6abade3f7962098e8bd8cb7db726"
+  }
+}

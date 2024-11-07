@@ -1,0 +1,12 @@
+{
+  "Description": {
+    "en-US": "Compact view of folder \"To review\" for employees included in role \"Users of manager's interface\".",
+    "ru-RU": "Компактное представление папки \"На рассмотрение\" для пользователей, которые входят в роль \"Пользователи интерфейса для руководителей\".",
+    "hash": "8aa103e2c802e84bb20b63cdb6959e5a"
+  },
+  "Name": {
+    "en-US": "To review (for managers)",
+    "ru-RU": "На рассмотрение (для руководителей)",
+    "hash": "8c5d79b95c7e4f78a563a6b326de192b"
+  }
+}

@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="MarkDocumentAsObsolete" xml:space="preserve">
+    <value>Mark document as obsolete</value>
+  </data>
+  <data name="CancelNumberingDescription" xml:space="preserve">
+    <value>After you cancel number assignment, the registration number, date and register will be cleared.
+Delete the version with the registration stamp.</value>
+  </data>
+  <data name="CancelRegistrationDescription" xml:space="preserve">
+    <value>After you cancel registration, the registration number, date and register will be cleared.
+You must delete the version with the registration stamp.</value>
+  </data>
+  <data name="AddRegistrationStampDialogTitle" xml:space="preserve">
+    <value>Create PDF with Registration Stamp</value>
+  </data>
+  <data name="AddRegistrationStampDialogRightIndent" xml:space="preserve">
+    <value>Right indent (cm)</value>
+  </data>
+  <data name="AddRegistrationStampDialogBottomIndent" xml:space="preserve">
+    <value>Bottom indent (cm)</value>
+  </data>
+  <data name="AddRegistrationStampDialogPosition" xml:space="preserve">
+    <value>Stamp position</value>
+  </data>
+  <data name="AddRegistrationStampDialogBottomRightPosition" xml:space="preserve">
+    <value>Bottom right corner</value>
+  </data>
+  <data name="AddRegistrationStampDialogBottomCenterPosition" xml:space="preserve">
+    <value>Bottom center</value>
+  </data>
+  <data name="AddRegistrationStampDialogCustomPosition" xml:space="preserve">
+    <value>Custom coordinates</value>
+  </data>
+  <data name="AddRegistrationStampDialogCreateButton" xml:space="preserve">
+    <value>Create</value>
+  </data>
+  <data name="AddRegistrationStampCompleteNotification" xml:space="preserve">
+    <value>Document {0} has been converted to PDF with registration stamp.</value>
+  </data>
+  <data name="AddRegistrationStampErrorNotification" xml:space="preserve">
+    <value>An error occurred while converting the document to PDF with registration stamp. Contact your system administrator.{1} {1}{0}</value>
+  </data>
+</root>

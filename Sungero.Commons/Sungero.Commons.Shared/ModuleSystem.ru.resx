@@ -1,0 +1,163 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="DisplayName" xml:space="preserve">
+    <value>Общие справочники</value>
+  </data>
+  <data name="CoverTitle" xml:space="preserve">
+    <value>Общие справочники</value>
+  </data>
+  <data name="CoverDescription" xml:space="preserve">
+    <value>Модуль предназначен для управления информационно-справочными сведениями общего характера.</value>
+  </data>
+  <data name="CoverGroup_Info" xml:space="preserve">
+    <value>Дополнительная информация</value>
+  </data>
+  <data name="CoverAction_ShowVatRates" xml:space="preserve">
+    <value>Ставки НДС</value>
+  </data>
+  <data name="CoverAction_AddLocation" xml:space="preserve">
+    <value>Добавить населенный пункт</value>
+  </data>
+  <data name="CoverAction_location" xml:space="preserve">
+    <value>Населенный пункт</value>
+  </data>
+  <data name="CoverAction_Locations" xml:space="preserve">
+    <value>Населенные пункты</value>
+  </data>
+  <data name="CoverAction_ShowLocations" xml:space="preserve">
+    <value>Населенные пункты</value>
+  </data>
+  <data name="CoverAction_ShowRegions" xml:space="preserve">
+    <value>Регионы</value>
+  </data>
+  <data name="CoverAction_ShowCountries" xml:space="preserve">
+    <value>Страны</value>
+  </data>
+  <data name="CoverAction_ShowExchangeRates" xml:space="preserve">
+    <value>На сегодня</value>
+  </data>
+  <data name="CoverAction_ShowCurrency" xml:space="preserve">
+    <value>Валюты</value>
+  </data>
+  <data name="CoverAction_ShowWorldCurrencies" xml:space="preserve">
+    <value>Мировые валюты</value>
+  </data>
+  <data name="CoverAction_ShowHistoryExchangeRates" xml:space="preserve">
+    <value>История курсов валют</value>
+  </data>
+  <data name="CoverGroup_ExchangeRates" xml:space="preserve">
+    <value>Курсы валют</value>
+  </data>
+  <data name="CoverAction_ShowHistory" xml:space="preserve">
+    <value>История</value>
+  </data>
+  <data name="CoverGroup_Location" xml:space="preserve">
+    <value>Территориальное устройство</value>
+  </data>
+  <data name="CoverDescription_AddLocation" xml:space="preserve">
+    <value>Создать новый населенный пункт.</value>
+  </data>
+  <data name="CoverDescription_ShowLocations" xml:space="preserve">
+    <value>Показать все населенные пункты.</value>
+  </data>
+  <data name="CoverDescription_ShowRegions" xml:space="preserve">
+    <value>Справочник предназначен для хранения сведений об административно-территориальном делении стран.</value>
+  </data>
+  <data name="CoverDescription_ShowExchangeRates" xml:space="preserve">
+    <value>Показать курсы валют на сегодня.</value>
+  </data>
+  <data name="CoverDescription_ShowHistory" xml:space="preserve">
+    <value>Показать историю курсов валют.</value>
+  </data>
+  <data name="CoverDescription_ShowWorldCurrencies" xml:space="preserve">
+    <value>Показать все мировые валюты.</value>
+  </data>
+  <data name="CoverAction_CreateLocation" xml:space="preserve">
+    <value>Добавить населенный пункт</value>
+  </data>
+  <data name="CoverDescription_CreateLocation" xml:space="preserve">
+    <value>Создать новый населенный пункт.</value>
+  </data>
+  <data name="CoverAction_CreateCity" xml:space="preserve">
+    <value>Создать населенный пункт</value>
+  </data>
+  <data name="CoverAction_ShowSettlements" xml:space="preserve">
+    <value>Населенные пункты</value>
+  </data>
+  <data name="CoverDescription_ShowSettlements" xml:space="preserve">
+    <value>Открытие справочника населенных пунктов.</value>
+  </data>
+  <data name="CoverDescription_ShowCountries" xml:space="preserve">
+    <value>Открытие справочника стран.</value>
+  </data>
+  <data name="CoverDescription_ShowCurrency" xml:space="preserve">
+    <value>Открытие справочника валют.</value>
+  </data>
+  <data name="CoverDescription_ShowVatRates" xml:space="preserve">
+    <value>Ставки налога на добавленную стоимость.</value>
+  </data>
+  <data name="AsyncHandler_Description_1e83eeb6e56d478698e6dd3b7290f3d5" xml:space="preserve">
+    <value>Индексирование сущности в поисковой системе</value>
+  </data>
+  <data name="AsyncHandler_Description_cb668a390ffc4e039217d07d59997c66" xml:space="preserve">
+    <value>Удаление сущности из индекса поисковой системы</value>
+  </data>
+</root>

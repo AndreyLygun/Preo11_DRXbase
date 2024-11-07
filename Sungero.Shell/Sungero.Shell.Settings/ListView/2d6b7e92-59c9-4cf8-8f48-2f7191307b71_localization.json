@@ -1,0 +1,12 @@
+{
+  "Description": {
+    "en-US": "Compact view of folder \"To execute\" for employees included in role \"Users of manager's interface\".",
+    "ru-RU": "Компактное представление папки \"На исполнение\" для пользователей, которые входят в роль \"Пользователи интерфейса для руководителей\".",
+    "hash": "0c14b34c19114139105dd233c89e3846"
+  },
+  "Name": {
+    "en-US": "To execute (for managers)",
+    "ru-RU": "На исполнение (для руководителей)",
+    "hash": "daf52b5088ed251c174d4983f8ba3b75"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "Description": {
+    "en-US": "Review of document sent to several employees",
+    "ru-RU": "Рассмотрение документа, адресованного нескольким сотрудникам организации",
+    "hash": "411fd0c4884e77dae0837f550f6529a1"
+  },
+  "Name": {
+    "en-US": "Document review by several addressees",
+    "ru-RU": "Рассмотрение документа несколькими адресатами",
+    "hash": "eda0cda75072dddea70302f3fb4d7f57"
+  },
+  "Subject_SE_4": {
+    "en-US": "Document review started: {0}",
+    "ru-RU": "Начато рассмотрение: {0}",
+    "hash": "58768a6ae0a7c687796c68f7c8d39977"
+  },
+  "ThreadSubject_SE_4": {
+    "en-US": "Notice about document review start",
+    "ru-RU": "Уведомление о начале рассмотрения",
+    "hash": "82ece13fa76765c12a98ab488146a904"
+  },
+  "ThreadSubject_SE_8": {
+    "en-US": "{0}",
+    "ru-RU": "{0}",
+    "hash": "031926624c88fbc0578b59ea78a99849"
+  },
+  "Title_SE_4": {
+    "en-US": "Notice to observers about document review start",
+    "ru-RU": "Уведомление наблюдателей о начале рассмотрения"
+  },
+  "Title_SE_7": {
+    "en-US": "Assign access rights to documents to participants",
+    "ru-RU": "Назначение участникам прав на документы"
+  },
+  "Title_SE_8": {
+    "en-US": "Send tasks to review document",
+    "ru-RU": "Отправка задач на рассмотрение"
+  }
+}

@@ -1,0 +1,145 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Enum_Result_Complete" xml:space="preserve">
+    <value>Completed</value>
+  </data>
+  <data name="Action_Complete" xml:space="preserve">
+    <value>Complete</value>
+  </data>
+  <data name="Action_CompleteHint" xml:space="preserve">
+    <value>Finish Acquaintance</value>
+  </data>
+  <data name="Action_CompleteConfirmationMessage" xml:space="preserve">
+    <value>Complete the assignment?</value>
+  </data>
+  <data name="Action_CompleteDescription" xml:space="preserve">
+    <value>Finish work within the document acquaintance.</value>
+  </data>
+  <data name="Ribbon_AsgGroup_ac82503a7a4749d0b90c9bb512c4559c" xml:space="preserve">
+    <value>Acquaintance</value>
+  </data>
+  <data name="DisplayName" xml:space="preserve">
+    <value>Acquaintance Finish</value>
+  </data>
+  <data name="AccusativeDisplayName" xml:space="preserve">
+    <value>Acquaintance Finish</value>
+  </data>
+  <data name="CollectionDisplayName" xml:space="preserve">
+    <value>Acquaintance Finish</value>
+  </data>
+  <data name="Action_ExtendDeadline" xml:space="preserve">
+    <value>Extend Deadline</value>
+  </data>
+  <data name="Action_ExtendDeadlineDescription" xml:space="preserve">
+    <value>Extend deadline of the current assignment</value>
+  </data>
+  <data name="Action_ExtendDeadlineHint" xml:space="preserve">
+    <value>Extend Assignment Deadline</value>
+  </data>
+  <data name="Action_ExtendDeadlineConfirmationMessage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Action_ExtendDeadlineConfirmationDescription" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Ribbon_DeadlineGroup_6104be22144b49128868bb1dae3f7f37" xml:space="preserve">
+    <value>Deadline</value>
+  </data>
+  <data name="Action_ShowAcquaintanceReport" xml:space="preserve">
+    <value>Acquaintance Report</value>
+  </data>
+  <data name="Action_ShowAcquaintanceReportDescription" xml:space="preserve">
+    <value>View document acquaintance report</value>
+  </data>
+  <data name="Action_ShowAcquaintanceReportHint" xml:space="preserve">
+    <value>Document Acquaintance Report</value>
+  </data>
+  <data name="Action_ShowAcquaintanceReportConfirmationMessage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Action_ShowAcquaintanceReportConfirmationDescription" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Ribbon_ReportGroup_da8f402517524ed9a777e9ff3d5e60d9" xml:space="preserve">
+    <value>Report</value>
+  </data>
+  <data name="Resource_c9c4beefec5b4b3796d4959c17991279" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Control_c9c4beefec5b4b3796d4959c17991279_EmptyText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Resource_45c3f7afea6f40948e21e643b6358f4a" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Control_45c3f7afea6f40948e21e643b6358f4a_EmptyText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Resource_ad03c4af7bfe4967aa2cdaa3265bdbe3" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ControlGroup_5eeb4bbf598d47d782cda9a9598a1e8e" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="Property_Description" xml:space="preserve">
+    <value>Description</value>
+  </data>
+</root>

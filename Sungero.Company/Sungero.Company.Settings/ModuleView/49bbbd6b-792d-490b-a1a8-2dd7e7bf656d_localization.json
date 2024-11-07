@@ -1,0 +1,126 @@
+{
+  "Action_Description_66eddf6e146c4ec3a2513998e3e2cafa": {
+    "default": "Stores information about the job titles of our employees.",
+    "ru-RU": "Справочник предназначен для хранения должностей наших сотрудников.",
+    "hash": "7f36978fd64102782c086788dd4ae201"
+  },
+  "Action_Description_678ae27cbd274f59b53df84fcea04f3b": {
+    "default": "Stores information about persons who substitute absent employees. Substitution is designed to delegate tasks, duties and access rights of an absent employee to another employee of your company.",
+    "ru-RU": "Замещение предназначено для передачи обязанностей и прав доступа сотрудника на время его отсутствия другому сотруднику компании.",
+    "hash": "6c2b7f1109c1eab0cba0d27ca1def952"
+  },
+  "Action_Description_9d68c48edf6a41e4a1978897e07a01b7": {
+    "default": "Stores information about structure units of our company. A department may be either a part of a business unit or a stand-alone unit.",
+    "ru-RU": "Структурные части компании, осуществляющие свою деятельность в рамках деятельности нашей компании. Подразделения могут быть как привязаны к нашим организациям, так и быть обособленными.",
+    "hash": "c847425815536543d2c00c18df28c3bd"
+  },
+  "Action_Description_baa2217701ea4bc78169681b040cb0f0": {
+    "default": "List of all reports on document flow.",
+    "ru-RU": "Список всех отчетов по документообороту.",
+    "hash": "6a67149078f7959073189c6a793ac187"
+  },
+  "Action_Description_bed8bf51547846729ca15bd189d22471": {
+    "default": "Assign assistants and select functions they will perform on behalf of managers.",
+    "ru-RU": "Назначение ассистентов и выбор функций, которые они будут выполнять за руководителей.",
+    "hash": "ffb7ce29ee48d73a477fed39ff48c1c9"
+  },
+  "Action_Description_f1cf4fbd57b44f5ba848dfb55a6b7d18": {
+    "default": "Stores information about our employees. Each employee is associated with an account.",
+    "ru-RU": "Справочник предназначен для хранения сведений о наших сотрудниках. Каждый сотрудник связан с учетной записью для работы с системой.",
+    "hash": "01d9565baeae3ad8509974dc042a6506"
+  },
+  "Action_Description_fc3ca435b95844b699f0fd26ca54df37": {
+    "default": "Stores information about all legal entities of our company.",
+    "ru-RU": "Юридические лица, филиалы и представительства, в лице которых действует наша компания.",
+    "hash": "19dd3e5104c38cdd9c4f24415ea19dad"
+  },
+  "Action_Description_fca9ba4443d84b56b43aef014fa175fc": {
+    "default": "Stores information about working days, days off and holidays.",
+    "ru-RU": "Календари рабочего времени содержат информацию по рабочему времени, выходным и праздничным дням.",
+    "hash": "f55cd6200371bbc04e3cb03b6da2c1b6"
+  },
+  "Action_Description_fd0cc0990ffb49f4be000c87e0203eab": {
+    "default": "Stores information about roles. Roles help you to group users according to their responsibilities.",
+    "ru-RU": "Роли предназначены для группировки сотрудников по функциональным обязанностям.",
+    "hash": "8a38f78329ebcc0434b31a7572f679ef"
+  },
+  "Action_Title_66eddf6e146c4ec3a2513998e3e2cafa": {
+    "default": "Job Titles",
+    "ru-RU": "Должности",
+    "hash": "e90fa7baf3a3b7b6203b772ba0de1bd2"
+  },
+  "Action_Title_678ae27cbd274f59b53df84fcea04f3b": {
+    "default": "Substitutions",
+    "ru-RU": "Замещения",
+    "hash": "3232663997c32fa17951995941f9fc6a"
+  },
+  "Action_Title_9d68c48edf6a41e4a1978897e07a01b7": {
+    "default": "Departments",
+    "ru-RU": "Подразделения",
+    "hash": "370be76d375b498c06997ea36d6a4dbf"
+  },
+  "Action_Title_baa2217701ea4bc78169681b040cb0f0": {
+    "default": "All Reports",
+    "ru-RU": "Все отчеты",
+    "hash": "a7888b33b5089d380498792cb7b091f6"
+  },
+  "Action_Title_bed8bf51547846729ca15bd189d22471": {
+    "default": "Assistant Managers",
+    "ru-RU": "Ассистенты руководителей",
+    "hash": "0d36130714cfc80d8082c9567158ab7a"
+  },
+  "Action_Title_f1cf4fbd57b44f5ba848dfb55a6b7d18": {
+    "default": "Employees",
+    "ru-RU": "Сотрудники",
+    "hash": "cc22a93735c0da53f53ef9e61581acea"
+  },
+  "Action_Title_fc3ca435b95844b699f0fd26ca54df37": {
+    "default": "Business Units",
+    "ru-RU": "Наши организации",
+    "hash": "062954484ba9ea2fd6ab73174c694fc5"
+  },
+  "Action_Title_fca9ba4443d84b56b43aef014fa175fc": {
+    "default": "Working Time Calendars",
+    "ru-RU": "Календари рабочего времени",
+    "hash": "735ce2be32335f724beca3506dc015d8"
+  },
+  "Action_Title_fd0cc0990ffb49f4be000c87e0203eab": {
+    "default": "Roles",
+    "ru-RU": "Роли",
+    "hash": "64276701af946215224a9cd06454b74d"
+  },
+  "Group_Title_68df04814fb4404cae07637782bebc16": {
+    "default": "Reports",
+    "ru-RU": "Отчеты",
+    "hash": "269295bfcf8b9d5f4d39a3bda47e4e2f"
+  },
+  "Group_Title_7cc5a1e5eba5420ca52c90d77aaa9f1d": {
+    "default": "Corporate Structure",
+    "ru-RU": "Организационная структура",
+    "hash": "4265928c5ee09e76b066c43b2ec7ebd0"
+  },
+  "Group_Title_b89b97a4318b440cb05c7627aacff3bd": {
+    "default": "Related Information",
+    "ru-RU": "Связанная информация",
+    "hash": "4f3a6a60b3de9b5162f268b4b1aa8fdf"
+  },
+  "Header_Description_44c54208fe3246169983301f0dad52ad": {
+    "default": "This module is where you can manage internal corporate structure.",
+    "ru-RU": "Модуль предназначен для управления внутренней структурой нашей компании.",
+    "hash": "cd80462bfcd1aaa64a6132f4a5bfefff"
+  },
+  "Header_Title_44c54208fe3246169983301f0dad52ad": {
+    "default": "Our Company",
+    "ru-RU": "Компания",
+    "hash": "c9f39be570a4b3350529d29f64902f01"
+  },
+  "Name": {
+    "default": "Company",
+    "ru-RU": "Компания",
+    "hash": "213277c8ab603740ec50d81c099ed50a"
+  },
+  "Tab_Title_24eff53a65d849c6b9927dece99fdb93": {
+    "default": "Tab",
+    "hash": "308b6abade3f7962098e8bd8cb7db726"
+  }
+}

@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<queries>
+  <query key="SelectTaskAttachments">
+    <mssql><![CDATA[SELECT AttachmentId FROM Sungero_WF_Attachment WHERE [MainTask] = '{0}']]></mssql>
+    <postgres><![CDATA[SELECT AttachmentId FROM Sungero_WF_Attachment WHERE MainTask = '{0}']]></postgres>
+  </query>
+</queries>

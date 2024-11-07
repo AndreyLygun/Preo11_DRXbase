@@ -1,0 +1,133 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Enum_Result_Done" xml:space="preserve">
+    <value>Send Report</value>
+  </data>
+  <data name="Action_Done" xml:space="preserve">
+    <value>Send Report</value>
+  </data>
+  <data name="Action_DoneHint" xml:space="preserve">
+    <value>Send Status Report</value>
+  </data>
+  <data name="Action_DoneDescription" xml:space="preserve">
+    <value>Send action item status report to supervisor.</value>
+  </data>
+  <data name="ControlGroup_f6953b3a3ac4440981ef47b9e53b6b8b" xml:space="preserve">
+    <value>Main</value>
+  </data>
+  <data name="DisplayName" xml:space="preserve">
+    <value>Prepare report on action item</value>
+  </data>
+  <data name="AccusativeDisplayName" xml:space="preserve">
+    <value>Prepare report on action item</value>
+  </data>
+  <data name="CollectionDisplayName" xml:space="preserve">
+    <value>Assignments to prepare report on action item</value>
+  </data>
+  <data name="Action_DoneConfirmationMessage" xml:space="preserve">
+    <value>Submit the action item status report?</value>
+  </data>
+  <data name="Ribbon_AsgGroup_ac82503a7a4749d0b90c9bb512c4559c" xml:space="preserve">
+    <value>Report on Action Item</value>
+  </data>
+  <data name="Footer_ActiveEmptyText" xml:space="preserve">
+    <value>Action item status report…</value>
+  </data>
+  <data name="Control_21d30395301e4d198f17aa2af22ea67b_EmptyText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Form_f92622dc1ff641959df9f2155943d305" xml:space="preserve">
+    <value>Action item</value>
+  </data>
+  <data name="ControlGroup_12ae26375b854e4b8b2b2c1524334a75" xml:space="preserve">
+    <value>Action Item Tree</value>
+  </data>
+  <data name="Property_IsRework" xml:space="preserve">
+    <value>Rework</value>
+  </data>
+  <data name="Ribbon_DeadlineGroup_65bebb113ca44f0992c06d6539d63f31" xml:space="preserve">
+    <value>Deadline</value>
+  </data>
+  <data name="Action_ExtendDeadline" xml:space="preserve">
+    <value>Deadline Extension Request</value>
+  </data>
+  <data name="Action_ExtendDeadlineDescription" xml:space="preserve">
+    <value>Send request for deadline extension of assignment</value>
+  </data>
+  <data name="Action_ExtendDeadlineHint" xml:space="preserve">
+    <value>Request for Deadline Extension</value>
+  </data>
+  <data name="Action_ExtendDeadlineConfirmationMessage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Action_ExtendDeadlineConfirmationDescription" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Enum_Status_Suspended" xml:space="preserve">
+    <value>Suspended</value>
+  </data>
+  <data name="Enum_Status_Completed" xml:space="preserve">
+    <value>Completed</value>
+  </data>
+  <data name="Enum_Status_Aborted" xml:space="preserve">
+    <value>Aborted</value>
+  </data>
+</root>

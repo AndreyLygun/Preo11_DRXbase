@@ -1,0 +1,283 @@
+{
+  "$type": "Sungero.DataExport.ExportingObject, Sungero.DataExport",
+  "EntityType": "018e582e-5b0e-4e4f-af57-be1e0a468efa",
+  "Form": {
+    "$type": "Sungero.NoCode.Settings.Interfaces.Models.Entity.EntitySettings, Sungero.NoCode.Settings.Interfaces",
+    "FormDifferences": {
+      "$type": "System.Collections.Generic.List`1[[Sungero.NoCode.Settings.Interfaces.Models.Entity.BaseSettingsElement, Sungero.NoCode.Settings.Interfaces]], System.Private.CoreLib",
+      "$values": [
+        {
+          "$type": "Sungero.NoCode.Settings.Interfaces.Models.Entity.Form.FlexCard.FlexControlLayout, Sungero.NoCode.Settings.Interfaces",
+          "PreviousGuid": "00000000-0000-0000-0000-000000000000",
+          "FlexGrow": 100,
+          "IsVisible": true,
+          "PropertyName": "Subject",
+          "AdditionalNavigationPropertyGuids": {
+            "$type": "System.Collections.Generic.List`1[[System.String, System.Private.CoreLib]], System.Private.CoreLib",
+            "$values": []
+          },
+          "HeaderLocation": "Left",
+          "Height": 70,
+          "NeedExpand": false,
+          "NeedAutosize": false,
+          "Binder": 3,
+          "IsAutotextEnabled": false,
+          "PropertyGuid": "f01c370b-01c7-444e-8067-eec938c3debb",
+          "ParentGuid": "bee55226-5ff5-45f8-975a-1ee1484e72f2",
+          "RealParentGuid": "bee55226-5ff5-45f8-975a-1ee1484e72f2",
+          "IsReadOnly": false,
+          "IsFake": false,
+          "ElementType": "Control",
+          "OverriddenFields": {
+            "$type": "System.Collections.ObjectModel.Collection`1[[System.String, System.Private.CoreLib]], System.Private.CoreLib",
+            "$values": [
+              "Height",
+              "FlexGrow"
+            ]
+          },
+          "IsAncestorSettings": true,
+          "ParentEntityGuid": "018e582e-5b0e-4e4f-af57-be1e0a468efa",
+          "NameGuid": "b98f1428-e0e0-4591-b53d-8c402ded9e72",
+          "Name": "Subject",
+          "LocalizationStrings": []
+        },
+        {
+          "$type": "Sungero.NoCode.Settings.Interfaces.Models.Entity.Form.FlexCard.FlexControlLayout, Sungero.NoCode.Settings.Interfaces",
+          "PreviousGuid": "00000000-0000-0000-0000-000000000000",
+          "FlexGrow": 33,
+          "IsVisible": true,
+          "PropertyName": "Performer",
+          "AdditionalNavigationPropertyGuids": {
+            "$type": "System.Collections.Generic.List`1[[System.String, System.Private.CoreLib]], System.Private.CoreLib",
+            "$values": []
+          },
+          "HeaderLocation": "Left",
+          "NeedExpand": false,
+          "NeedAutosize": false,
+          "Binder": 6,
+          "IsAutotextEnabled": false,
+          "PropertyGuid": "4d924904-9c82-4187-ac18-b3620cf6ec87",
+          "ParentGuid": "7171f7e5-ca0a-4e8f-af3a-010000000000",
+          "RealParentGuid": "bee55226-5ff5-45f8-975a-1ee1484e72f2",
+          "IsReadOnly": false,
+          "IsFake": false,
+          "ElementType": "Control",
+          "OverriddenFields": {
+            "$type": "System.Collections.ObjectModel.Collection`1[[System.String, System.Private.CoreLib]], System.Private.CoreLib",
+            "$values": [
+              "PreviousGuid"
+            ]
+          },
+          "IsAncestorSettings": true,
+          "ParentEntityGuid": "018e582e-5b0e-4e4f-af57-be1e0a468efa",
+          "NameGuid": "fc373ae2-0a94-4728-8ff4-5e92a55877b4",
+          "Name": "Performer",
+          "LocalizationStrings": []
+        },
+        {
+          "$type": "Sungero.NoCode.Settings.Interfaces.Models.Entity.Form.FlexCard.FlexGroupLayout, Sungero.NoCode.Settings.Interfaces",
+          "Children": {
+            "$type": "System.Collections.ObjectModel.Collection`1[[Sungero.NoCode.Settings.Interfaces.Models.Entity.Form.FlexCard.FlexElementLayout, Sungero.NoCode.Settings.Interfaces]], System.Private.CoreLib",
+            "$values": []
+          },
+          "CanChangeSubGroupsWidth": false,
+          "NeedExpand": false,
+          "Direction": "Row",
+          "GroupType": 0,
+          "ParentGuid": "bee55226-5ff5-45f8-975a-1ee1484e72f2",
+          "RealParentGuid": "bee55226-5ff5-45f8-975a-1ee1484e72f2",
+          "IsVisible": true,
+          "IsReadOnly": false,
+          "IsFake": true,
+          "ElementType": "Group",
+          "FlexGrow": 33,
+          "PreviousGuid": "987f4926-c4b3-4c81-b46f-f89895c04fd4",
+          "OverriddenFields": {
+            "$type": "System.Collections.ObjectModel.Collection`1[[System.String, System.Private.CoreLib]], System.Private.CoreLib",
+            "$values": [
+              "IsDeleted",
+              "PreviousGuid"
+            ]
+          },
+          "IsAncestorSettings": true,
+          "IsDeleted": true,
+          "ParentEntityGuid": "018e582e-5b0e-4e4f-af57-be1e0a468efa",
+          "NameGuid": "7171f7e5-ca0a-4e8f-af3a-010000000000",
+          "Name": null,
+          "LocalizationStrings": []
+        },
+        {
+          "$type": "Sungero.NoCode.Settings.Interfaces.Models.Entity.Form.FlexCard.FlexControlLayout, Sungero.NoCode.Settings.Interfaces",
+          "PreviousGuid": "b98f1428-e0e0-4591-b53d-8c402ded9e72",
+          "FlexGrow": 33,
+          "IsVisible": true,
+          "PropertyName": "Author",
+          "AdditionalNavigationPropertyGuids": {
+            "$type": "System.Collections.Generic.List`1[[System.String, System.Private.CoreLib]], System.Private.CoreLib",
+            "$values": []
+          },
+          "HeaderLocation": "Left",
+          "NeedExpand": false,
+          "NeedAutosize": false,
+          "Binder": 6,
+          "IsAutotextEnabled": false,
+          "PropertyGuid": "51a65ccf-9098-46d5-a853-c9a7f7e95d28",
+          "ParentGuid": "bee55226-5ff5-45f8-975a-1ee1484e72f2",
+          "RealParentGuid": "bee55226-5ff5-45f8-975a-1ee1484e72f2",
+          "IsReadOnly": false,
+          "IsFake": false,
+          "ElementType": "Control",
+          "OverriddenFields": {
+            "$type": "System.Collections.ObjectModel.Collection`1[[System.String, System.Private.CoreLib]], System.Private.CoreLib",
+            "$values": [
+              "PreviousGuid",
+              "ParentGuid"
+            ]
+          },
+          "IsAncestorSettings": true,
+          "ParentEntityGuid": "018e582e-5b0e-4e4f-af57-be1e0a468efa",
+          "NameGuid": "db53be54-0e72-429d-b0fe-8ff522170867",
+          "Name": "Author",
+          "LocalizationStrings": []
+        },
+        {
+          "$type": "Sungero.NoCode.Settings.Interfaces.Models.Entity.Form.FlexCard.FlexControlLayout, Sungero.NoCode.Settings.Interfaces",
+          "PreviousGuid": "db53be54-0e72-429d-b0fe-8ff522170867",
+          "FlexGrow": 33,
+          "IsVisible": true,
+          "PropertyName": "Deadline",
+          "AdditionalNavigationPropertyGuids": {
+            "$type": "System.Collections.Generic.List`1[[System.String, System.Private.CoreLib]], System.Private.CoreLib",
+            "$values": []
+          },
+          "HeaderLocation": "Left",
+          "NeedExpand": false,
+          "NeedAutosize": false,
+          "Binder": 9,
+          "IsAutotextEnabled": false,
+          "PropertyGuid": "5380ec02-41db-47eb-8c29-18704454f122",
+          "ParentGuid": "bee55226-5ff5-45f8-975a-1ee1484e72f2",
+          "RealParentGuid": "bee55226-5ff5-45f8-975a-1ee1484e72f2",
+          "IsReadOnly": false,
+          "IsFake": false,
+          "ElementType": "Control",
+          "OverriddenFields": {
+            "$type": "System.Collections.ObjectModel.Collection`1[[System.String, System.Private.CoreLib]], System.Private.CoreLib",
+            "$values": [
+              "PreviousGuid",
+              "ParentGuid"
+            ]
+          },
+          "IsAncestorSettings": true,
+          "ParentEntityGuid": "018e582e-5b0e-4e4f-af57-be1e0a468efa",
+          "NameGuid": "987f4926-c4b3-4c81-b46f-f89895c04fd4",
+          "Name": "Deadline",
+          "LocalizationStrings": []
+        },
+        {
+          "$type": "Sungero.NoCode.Settings.Interfaces.Models.Entity.Form.InplaceFormLayout, Sungero.NoCode.Settings.Interfaces",
+          "Header": null,
+          "Footer": null,
+          "IsMain": false,
+          "IsVisible": true,
+          "PreviousGuid": "0d22291d-fcdb-4220-b4b4-310b4baa7fa4",
+          "OverriddenFields": {
+            "$type": "System.Collections.ObjectModel.Collection`1[[System.String, System.Private.CoreLib]], System.Private.CoreLib",
+            "$values": [
+              "IsDeleted",
+              "PreviousGuid"
+            ]
+          },
+          "IsAncestorSettings": true,
+          "IsDeleted": true,
+          "ParentEntityGuid": "018e582e-5b0e-4e4f-af57-be1e0a468efa",
+          "NameGuid": "ebdfa239-2ed0-426c-bbcf-57d36c78bfa9",
+          "Name": "History",
+          "LocalizationStrings": []
+        },
+        {
+          "$type": "Sungero.NoCode.Settings.Interfaces.Models.Entity.Form.InplaceFormLayout, Sungero.NoCode.Settings.Interfaces",
+          "Header": null,
+          "Footer": null,
+          "IsMain": false,
+          "IsVisible": true,
+          "PreviousGuid": "0d22291d-fcdb-4220-b4b4-310b4baa7fa4",
+          "OverriddenFields": {
+            "$type": "System.Collections.ObjectModel.Collection`1[[System.String, System.Private.CoreLib]], System.Private.CoreLib",
+            "$values": [
+              "IsDeleted"
+            ]
+          },
+          "IsAncestorSettings": true,
+          "IsDeleted": true,
+          "ParentEntityGuid": "018e582e-5b0e-4e4f-af57-be1e0a468efa",
+          "NameGuid": "e0f6f211-ebce-410f-811d-bd0db1ecf7f2",
+          "Name": "WorkflowState",
+          "LocalizationStrings": []
+        },
+        {
+          "$type": "Sungero.NoCode.Settings.Interfaces.Models.Entity.Form.PanelFormLayout, Sungero.NoCode.Settings.Interfaces",
+          "Position": "Left",
+          "Header": null,
+          "Footer": null,
+          "IsMain": false,
+          "IsVisible": false,
+          "PreviousGuid": "ebdfa239-2ed0-426c-bbcf-57d36c78bfa9",
+          "OverriddenFields": {
+            "$type": "System.Collections.ObjectModel.Collection`1[[System.String, System.Private.CoreLib]], System.Private.CoreLib",
+            "$values": [
+              "IsVisible",
+              "Position"
+            ]
+          },
+          "IsAncestorSettings": true,
+          "ParentEntityGuid": "018e582e-5b0e-4e4f-af57-be1e0a468efa",
+          "NameGuid": "76b0f627-0948-4726-99e6-c9d35dfd58ca",
+          "Name": "Attachments",
+          "LocalizationStrings": []
+        },
+        {
+          "$type": "Sungero.NoCode.Settings.Interfaces.Models.Entity.Form.PanelFormLayout, Sungero.NoCode.Settings.Interfaces",
+          "Position": "Left",
+          "Header": null,
+          "Footer": null,
+          "IsMain": false,
+          "IsVisible": true,
+          "PreviousGuid": "76b0f627-0948-4726-99e6-c9d35dfd58ca",
+          "OverriddenFields": {
+            "$type": "System.Collections.ObjectModel.Collection`1[[System.String, System.Private.CoreLib]], System.Private.CoreLib",
+            "$values": [
+              "Position"
+            ]
+          },
+          "IsAncestorSettings": true,
+          "ParentEntityGuid": "018e582e-5b0e-4e4f-af57-be1e0a468efa",
+          "NameGuid": "ca9bd824-9eef-401c-acc4-626c7f0b41b8",
+          "Name": "AttachmentsPreview",
+          "LocalizationStrings": []
+        }
+      ]
+    },
+    "CardRibbon": {
+      "$type": "Sungero.NoCode.Settings.Interfaces.Models.Entity.Ribbon.RibbonSettings, Sungero.NoCode.Settings.Interfaces",
+      "Groups": {
+        "$type": "System.Collections.ObjectModel.ReadOnlyCollection`1[[Sungero.NoCode.Settings.Interfaces.Models.Entity.Ribbon.RibbonSettingsGroup, Sungero.NoCode.Settings.Interfaces]], System.Private.CoreLib",
+        "$values": []
+      },
+      "Buttons": {
+        "$type": "System.Collections.ObjectModel.ReadOnlyCollection`1[[Sungero.NoCode.Settings.Interfaces.Models.Entity.Ribbon.RibbonSettingsButton, Sungero.NoCode.Settings.Interfaces]], System.Private.CoreLib",
+        "$values": []
+      }
+    },
+    "CollectionRibbon": null,
+    "ContextMenu": null,
+    "ChildCollectionPropertyRibbon": null
+  },
+  "Criteria": "{\"$type\":\"Sungero.NoCode.Expression.UnionExpression, Sungero.NoCode.Expression\",\"Expressions\":[{\"$type\":\"Sungero.NoCode.Expression.ConditionExpression, Sungero.NoCode.Expression\",\"LeftExpression\":{\"$type\":\"Sungero.NoCode.Expression.SimpleExpression, Sungero.NoCode.Expression\",\"Tokens\":[{\"$type\":\"Sungero.NoCode.Expression.Tokens.FunctionToken, Sungero.NoCode.Expression\",\"Name\":\"GetCurrentUser\",\"ParentTypeId\":\"000005ef-064d-4cbc-bc6c-d2c8cebedc9e\",\"Parameters\":[]}],\"Version\":2},\"Operator\":{\"$type\":\"Sungero.NoCode.Expression.Tokens.FunctionToken, Sungero.NoCode.Expression\",\"Name\":\"IncludedIn\",\"ParentTypeId\":\"04608308-d517-4988-93b4-4312c3ed0c4c\",\"Parameters\":[{\"$type\":\"Sungero.NoCode.Expression.Tokens.FunctionParameter, Sungero.NoCode.Expression\",\"Name\":\"value\",\"Type\":\"Sungero.Domain.Shared.IEntity, Sungero.Domain.Shared\"},{\"$type\":\"Sungero.NoCode.Expression.Tokens.FunctionParameter, Sungero.NoCode.Expression\",\"Name\":\"collection\",\"Type\":\"System.Collections.Generic.IEnumerable`1[[Sungero.Domain.Shared.IEntity, Sungero.Domain.Shared]], System.Private.CoreLib\"}]},\"RightExpression\":{\"$type\":\"Sungero.NoCode.Expression.EntityListExpression, Sungero.NoCode.Expression\",\"EntityTokens\":[{\"$type\":\"Sungero.NoCode.Expression.Tokens.EntityAdaptationToken`1[[System.Guid, System.Private.CoreLib]], Sungero.NoCode.Expression\",\"Value\":\"fc4f9d00-fc90-456f-8b55-37d325b21e6d\",\"TypeGuid\":\"5e9b55c2-c1f5-4e4f-aa09-7b6d461d87ed\"}],\"Version\":0},\"LogicalOperator\":null,\"Version\":3}],\"Version\":0}",
+  "Priority": 0,
+  "SettingsVersion": 3,
+  "Uuid": "56164872-ac17-40da-9e17-8e06b549dd4f",
+  "ModuleNameGuid": "fcc573ab-5f4e-4b20-88e8-7b1e11a7a59a",
+  "StoreAsDefaultSetting": true,
+  "Status": "Active"
+}

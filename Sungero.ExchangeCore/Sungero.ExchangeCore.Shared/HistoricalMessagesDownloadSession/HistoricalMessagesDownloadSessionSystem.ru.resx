@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Property_Name" xml:space="preserve">
+    <value>Имя</value>
+  </data>
+  <data name="DisplayName" xml:space="preserve">
+    <value>Сессия загрузки исторических сообщений</value>
+  </data>
+  <data name="AccusativeDisplayName" xml:space="preserve">
+    <value>Сессии загрузки исторических сообщений</value>
+  </data>
+  <data name="CollectionDisplayName" xml:space="preserve">
+    <value>Сессии загрузки исторических сообщений</value>
+  </data>
+  <data name="Property_PeriodBegin" xml:space="preserve">
+    <value>Начало периода</value>
+  </data>
+  <data name="Property_PeriodEnd" xml:space="preserve">
+    <value>Конец периода</value>
+  </data>
+  <data name="Property_BusinessUnitBox" xml:space="preserve">
+    <value>Абонентский ящик</value>
+  </data>
+  <data name="Property_LastMessageDate" xml:space="preserve">
+    <value>Дата последнего загруженного сообщения</value>
+  </data>
+  <data name="Property_DownloadingState" xml:space="preserve">
+    <value>Состояние загрузки</value>
+  </data>
+  <data name="Enum_DownloadingState_InWork" xml:space="preserve">
+    <value>В работе</value>
+  </data>
+  <data name="Enum_DownloadingState_Aborted" xml:space="preserve">
+    <value>Прекращено</value>
+  </data>
+  <data name="Enum_DownloadingState_Completed" xml:space="preserve">
+    <value>Завершено</value>
+  </data>
+  <data name="Property_LastIncomingMessageId" xml:space="preserve">
+    <value>ИД последнего обработанного входящего сообщения</value>
+  </data>
+  <data name="Property_LastOutgoingMessageId" xml:space="preserve">
+    <value>ИД последнего обработанного исходящего сообщения</value>
+  </data>
+  <data name="ControlGroup_f205026b10bb4aa9a8dd78a7a9f0cc7f" xml:space="preserve">
+    <value>Сессия загрузки</value>
+  </data>
+</root>

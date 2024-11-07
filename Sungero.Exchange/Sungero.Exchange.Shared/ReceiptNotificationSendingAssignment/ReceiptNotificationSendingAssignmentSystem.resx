@@ -1,0 +1,158 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Enum_Result_Complete" xml:space="preserve">
+    <value>Document receipt notifications sent</value>
+  </data>
+  <data name="Action_Complete" xml:space="preserve">
+    <value>Send Notifications</value>
+  </data>
+  <data name="Action_CompleteHint" xml:space="preserve">
+    <value>Send Document Receipt Notifications</value>
+  </data>
+  <data name="Action_CompleteConfirmationMessage" xml:space="preserve">
+    <value>Send notifications on receipt of documents?</value>
+  </data>
+  <data name="Action_CompleteDescription" xml:space="preserve">
+    <value>Send notifications of document receipt and close the assignment card</value>
+  </data>
+  <data name="DisplayName" xml:space="preserve">
+    <value>Send notifications</value>
+  </data>
+  <data name="AccusativeDisplayName" xml:space="preserve">
+    <value>Send notifications</value>
+  </data>
+  <data name="CollectionDisplayName" xml:space="preserve">
+    <value>Assignments to send notifications</value>
+  </data>
+  <data name="Property_Box" xml:space="preserve">
+    <value>Business Unit Exchange Box</value>
+  </data>
+  <data name="Action_ShowDocuments" xml:space="preserve">
+    <value>List of Documents</value>
+  </data>
+  <data name="Action_ShowDocumentsDescription" xml:space="preserve">
+    <value>Show list of documents received from exchange service for which receipt notifications will be sent.</value>
+  </data>
+  <data name="Action_ShowDocumentsHint" xml:space="preserve">
+    <value>Documents received from exchange service for which receipt notifications should be sent.
+</value>
+  </data>
+  <data name="Action_ShowDocumentsConfirmationMessage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Action_ShowDocumentsConfirmationDescription" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Resource_1bbfaba9c44445878d1c51150787fb2e" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Resource_c9c4beefec5b4b3796d4959c17991279" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Resource_45c3f7afea6f40948e21e643b6358f4a" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Resource_ad03c4af7bfe4967aa2cdaa3265bdbe3" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ControlGroup_4917364762724459ab15867c0b3c85a2" xml:space="preserve">
+    <value>Horizontal Group</value>
+  </data>
+  <data name="ControlGroup_ebfeb539df3646ebb16c88e4afe77109" xml:space="preserve">
+    <value>Main</value>
+  </data>
+  <data name="ControlGroup_2843c476ecee44d3a08869784756d9f0" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ControlGroup_7d052a6b05aa4586abbfca9d980cf36c" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ControlGroup_eca46beba27c4abc91e73bf3186fd8f8" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Ribbon_Documents_7a0fe95160b247e0ab5d5981ecd7382c" xml:space="preserve">
+    <value>Documents</value>
+  </data>
+  <data name="Ribbon_Documents_d4bb222a7ca048bcb4050e4a38f25087" xml:space="preserve">
+    <value>Documents</value>
+  </data>
+  <data name="Action_ForwardedDescription" xml:space="preserve">
+    <value>Forward the assignment to the selected employee</value>
+  </data>
+  <data name="Action_ForwardedConfirmationMessage" xml:space="preserve">
+    <value>Forward the assignment?</value>
+  </data>
+  <data name="Action_ForwardedHint" xml:space="preserve">
+    <value>Forward Assignment</value>
+  </data>
+  <data name="Enum_Result_Forwarded" xml:space="preserve">
+    <value>Forwarded</value>
+  </data>
+  <data name="Action_Forwarded" xml:space="preserve">
+    <value>Forward</value>
+  </data>
+  <data name="Property_Addressee" xml:space="preserve">
+    <value>Forward to employee</value>
+  </data>
+  <data name="Property_NewDeadline" xml:space="preserve">
+    <value>New deadline</value>
+  </data>
+</root>

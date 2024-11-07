@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings>
+  <ViewName>Default</ViewName>
+  <Collection838fb0be8b2245e5a063ba4e88eb3890 FormGuid="02fae1ba-d7a8-4205-ace1-b3b605572b4c">
+    <XtraSerializer version="1.0" application="GridControl">
+      <property name="#LayoutVersion" isnull="true" />
+      <property name="$GridControl" iskey="true" value="GridControl">
+        <property name="View" isnull="true" iskey="true">
+          <property name="LinesPerRowMode">None</property>
+          <property name="ColumnChooserState" isnull="true" iskey="true">
+            <property name="Location">663.2,-2.80000000000001</property>
+            <property name="Size">220,250</property>
+          </property>
+          <property name="AllowMoveColumnToDropArea">false</property>
+          <property name="AllowColumnMoving">true</property>
+          <property name="AllowSorting">true</property>
+          <property name="ShowTotalSummary">false</property>
+          <property name="IsRowCellMenuEnabled">false</property>
+          <property name="ShowGroupPanel">false</property>
+          <property name="AutoWidth">false</property>
+          <property name="AllowGrouping">false</property>
+        </property>
+        <property name="TotalSummary" iskey="true" value="0" />
+        <property name="SortInfo" iskey="true" value="0" />
+        <property name="GroupSummary" iskey="true" value="0" />
+        <property name="GroupCount">0</property>
+        <property name="Columns" iskey="true" value="6">
+          <property name="Item1" isnull="true" iskey="true">
+            <property name="Visible">true</property>
+            <property name="Name">ActionItemExecutionTask_ActionItemParts_ActionItemPart</property>
+            <property name="FieldName">ActionItemPart</property>
+            <property name="VisibleIndex">2</property>
+            <property name="ActualWidth">17*</property>
+          </property>
+          <property name="Item2" isnull="true" iskey="true">
+            <property name="Visible">true</property>
+            <property name="Name">ActionItemExecutionTask_ActionItemParts_Assignee</property>
+            <property name="FieldName">Assignee</property>
+            <property name="VisibleIndex">1</property>
+            <property name="ActualWidth">13*</property>
+          </property>
+          <property name="Item3" isnull="true" iskey="true">
+            <property name="Visible">true</property>
+            <property name="Name">ActionItemExecutionTask_ActionItemParts_Deadline</property>
+            <property name="FieldName">Deadline</property>
+            <property name="VisibleIndex">3</property>
+            <property name="ActualWidth">9*</property>
+          </property>
+          <property name="Item4" isnull="true" iskey="true">
+            <property name="Visible">true</property>
+            <property name="Name">ActionItemExecutionTask_ActionItemParts_Number</property>
+            <property name="FieldName">Number</property>
+            <property name="VisibleIndex">0</property>
+            <property name="ActualWidth">6*</property>
+          </property>
+          <property name="Item5" isnull="true" iskey="true">
+            <property name="Visible">true</property>
+            <property name="Name">ActionItemExecutionTask_ActionItemParts_CoAssignees</property>
+            <property name="FieldName">CoAssignees</property>
+            <property name="VisibleIndex">4</property>
+            <property name="ActualWidth">14*</property>
+          </property>
+          <property name="Item6" isnull="true" iskey="true">
+            <property name="Visible">true</property>
+            <property name="Name">ActionItemExecutionTask_ActionItemParts_Supervisor</property>
+            <property name="FieldName">Supervisor</property>
+            <property name="VisibleIndex">5</property>
+            <property name="ActualWidth">11*</property>
+          </property>
+        </property>
+        <property name="GroupSummarySortInfo" iskey="true" value="0" />
+      </property>
+    </XtraSerializer>
+  </Collection838fb0be8b2245e5a063ba4e88eb3890>
+</settings>

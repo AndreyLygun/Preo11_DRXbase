@@ -1,0 +1,1763 @@
+{
+  "$type": "Sungero.Metadata.ModuleMetadata, Sungero.Metadata",
+  "NameGuid": "459fa497-ee5b-49a4-9980-de00cada9b7a",
+  "Name": "Commons",
+  "AsyncHandlers": [
+    {
+      "NameGuid": "1e83eeb6-e56d-4786-98e6-dd3b7290f3d5",
+      "Name": "IndexEntity",
+      "DelayPeriod": 15,
+      "DelayStrategy": "ExponentialDelayStrategy",
+      "IsHandlerGenerated": true,
+      "Parameters": [
+        {
+          "NameGuid": "056ceed8-4474-4864-80e1-c911a3dcd47c",
+          "Name": "AllowCreateRecord",
+          "ParameterType": "Boolean"
+        },
+        {
+          "NameGuid": "223d3e5d-bd6d-4ad9-a2b0-fc393129af40",
+          "Name": "IndexName",
+          "ParameterType": "String"
+        },
+        {
+          "NameGuid": "3821109a-a822-4e88-a91e-0795c0eae41e",
+          "Name": "EntityId",
+          "ParameterType": "LongInteger"
+        },
+        {
+          "NameGuid": "a7a7a3e5-32fa-4df4-9d35-828cf1030bcb",
+          "Name": "Json",
+          "ParameterType": "String"
+        },
+        {
+          "NameGuid": "b92fefd3-9f88-4e85-9ba7-ba771d7a3dbc",
+          "Name": "AsyncCreated",
+          "ParameterType": "DateTime"
+        }
+      ]
+    },
+    {
+      "NameGuid": "cb668a39-0ffc-4e03-9217-d07d59997c66",
+      "Name": "RemoveEntityFromIndex",
+      "DelayPeriod": 15,
+      "DelayStrategy": "ExponentialDelayStrategy",
+      "IsHandlerGenerated": true,
+      "Parameters": [
+        {
+          "NameGuid": "172caa65-ec88-4111-a33b-01000cea9d7c",
+          "Name": "IndexName",
+          "ParameterType": "String"
+        },
+        {
+          "NameGuid": "6a5aca32-4e24-4d00-978b-e5c8bd72604b",
+          "Name": "EntityId",
+          "ParameterType": "LongInteger"
+        }
+      ]
+    }
+  ],
+  "ClientAssemblyName": "Sungero.Commons.Client",
+  "ClientBaseAssemblyName": "Sungero.Commons.ClientBase",
+  "ClientBaseNamespace": "Sungero.Commons.ClientBase",
+  "ClientNamespace": "Sungero.Commons.Client",
+  "Code": "Commons",
+  "CompanyCode": "Sungero",
+  "Cover": {
+    "NameGuid": "d4c0d93c-8e47-4d87-8887-93ea823aa01f",
+    "Actions": [
+      {
+        "$type": "Sungero.Metadata.CoverEntityListActionMetadata, Sungero.Metadata",
+        "NameGuid": "059d9914-e97a-4900-ac5b-8f2a0eff8289",
+        "Name": "ShowSettlements",
+        "EntityTypeId": "3a0c21f8-aa88-429c-891f-56c24d56fcef",
+        "GroupId": "00df3aee-c8d5-4194-a21b-a4617a8e53e0",
+        "PreviousItemGuid": "dc2ee527-c481-4bc0-983b-ed2161dd8d07",
+        "Versions": []
+      },
+      {
+        "$type": "Sungero.Metadata.CoverEntityListActionMetadata, Sungero.Metadata",
+        "NameGuid": "4ff8580d-eac8-4224-9482-cc450cf93eaa",
+        "Name": "ShowRegions",
+        "EntityTypeId": "4efe2fa9-b1d1-4b47-b366-4128fe0a391c",
+        "GroupId": "00df3aee-c8d5-4194-a21b-a4617a8e53e0",
+        "PreviousItemGuid": "059d9914-e97a-4900-ac5b-8f2a0eff8289",
+        "Versions": []
+      },
+      {
+        "$type": "Sungero.Metadata.CoverEntityListActionMetadata, Sungero.Metadata",
+        "NameGuid": "532a3286-089e-4996-8b7e-029fc1a5ef88",
+        "Name": "ShowCurrency",
+        "EntityTypeId": "ffc2629f-dc30-4106-a3ce-c402ae7d32b9",
+        "GroupId": "056413d6-d13e-41cf-a4e3-1b05196c4d4f",
+        "Versions": []
+      },
+      {
+        "$type": "Sungero.Metadata.CoverEntityListActionMetadata, Sungero.Metadata",
+        "NameGuid": "73c2ee10-0b5e-420d-9a71-b5012b2bf23d",
+        "Name": "ShowVatRates",
+        "EntityTypeId": "fe0ed345-5965-40d6-a559-24dcde189a95",
+        "GroupId": "056413d6-d13e-41cf-a4e3-1b05196c4d4f",
+        "PreviousItemGuid": "532a3286-089e-4996-8b7e-029fc1a5ef88"
+      },
+      {
+        "$type": "Sungero.Metadata.CoverEntityListActionMetadata, Sungero.Metadata",
+        "NameGuid": "bd8fdfe9-c73f-42e6-8199-77fee7478cbc",
+        "Name": "ShowCountries",
+        "EntityTypeId": "1f612925-95fc-4662-807d-c92c810a62b1",
+        "GroupId": "00df3aee-c8d5-4194-a21b-a4617a8e53e0",
+        "PreviousItemGuid": "4ff8580d-eac8-4224-9482-cc450cf93eaa",
+        "Versions": []
+      },
+      {
+        "$type": "Sungero.Metadata.CoverFunctionActionMetadata, Sungero.Metadata",
+        "NameGuid": "dc2ee527-c481-4bc0-983b-ed2161dd8d07",
+        "Name": "CreateCity",
+        "FunctionName": "CreateNewCity",
+        "GroupId": "00df3aee-c8d5-4194-a21b-a4617a8e53e0",
+        "Versions": []
+      }
+    ],
+    "Background": null,
+    "Footer": {
+      "NameGuid": "db759dcd-27e3-433e-ab04-6e372c138253",
+      "BackgroundPosition": "Stretch",
+      "Versions": []
+    },
+    "Groups": [
+      {
+        "NameGuid": "00df3aee-c8d5-4194-a21b-a4617a8e53e0",
+        "Name": "Location",
+        "BackgroundPosition": "Stretch",
+        "IconName": "GroupIconLocation_00df3aeec8d54194a21ba4617a8e53e0.png",
+        "TabId": "cdd0df61-5cc5-4342-9c3c-942e567a5520",
+        "Versions": []
+      },
+      {
+        "NameGuid": "056413d6-d13e-41cf-a4e3-1b05196c4d4f",
+        "Name": "Info",
+        "BackgroundPosition": "Stretch",
+        "IconName": "GroupIconInfo_056413d6d13e41cfa4e31b05196c4d4f.png",
+        "PreviousItemGuid": "00df3aee-c8d5-4194-a21b-a4617a8e53e0",
+        "TabId": "cdd0df61-5cc5-4342-9c3c-942e567a5520",
+        "Versions": []
+      }
+    ],
+    "Header": {
+      "NameGuid": "fe802c21-fe26-49f6-8074-24d53d8be47f",
+      "BackgroundPosition": "Stretch",
+      "IconName": "",
+      "Versions": []
+    },
+    "RemoteControls": [],
+    "Tabs": [
+      {
+        "NameGuid": "cdd0df61-5cc5-4342-9c3c-942e567a5520",
+        "Name": "Tab"
+      }
+    ],
+    "Versions": []
+  },
+  "Dependencies": [
+    {
+      "Id": "e4fe1153-919e-4732-aadc-2c8e9b5c0b5a",
+      "IsSolutionModule": true,
+      "MaxVersion": "",
+      "MinVersion": "0.0.1.0"
+    }
+  ],
+  "ExplorerTreeOrder": [
+    {
+      "ItemId": "3a0c21f8-aa88-429c-891f-56c24d56fcef",
+      "Versions": []
+    },
+    {
+      "ItemId": "4efe2fa9-b1d1-4b47-b366-4128fe0a391c",
+      "PreviousItemId": "3a0c21f8-aa88-429c-891f-56c24d56fcef",
+      "Versions": []
+    },
+    {
+      "ItemId": "1f612925-95fc-4662-807d-c92c810a62b1",
+      "PreviousItemId": "4efe2fa9-b1d1-4b47-b366-4128fe0a391c",
+      "Versions": []
+    },
+    {
+      "ItemId": "ffc2629f-dc30-4106-a3ce-c402ae7d32b9",
+      "PreviousItemId": "1f612925-95fc-4662-807d-c92c810a62b1",
+      "Versions": []
+    },
+    {
+      "ItemId": "4346363e-39b9-40eb-9c12-64f0cf48d87f",
+      "PreviousItemId": "ffc2629f-dc30-4106-a3ce-c402ae7d32b9",
+      "Versions": []
+    },
+    {
+      "ItemId": "32ea0857-adf7-41c2-bc0c-188320e40786",
+      "PreviousItemId": "4346363e-39b9-40eb-9c12-64f0cf48d87f",
+      "Versions": []
+    },
+    {
+      "ItemId": "fe0ed345-5965-40d6-a559-24dcde189a95",
+      "PreviousItemId": "32ea0857-adf7-41c2-bc0c-188320e40786"
+    },
+    {
+      "ItemId": "d79390ea-86ea-4e79-ba28-a4ce5e5550c1",
+      "PreviousItemId": "fe0ed345-5965-40d6-a559-24dcde189a95"
+    }
+  ],
+  "HandledEvents": [
+    "InitializingServer"
+  ],
+  "IconResourcesKeys": [],
+  "Importance": "Low",
+  "InitializationFunctions": [
+    {
+      "Name": "GetInitializationMarkVersionInParams",
+      "Parameters": [
+        {
+          "Name": "name",
+          "ParameterType": "global::System.String",
+          "ParameterTypeFullName": "System.String"
+        }
+      ],
+      "ReturnType": "System.Version"
+    },
+    {
+      "Name": "HasInitializationMarkInParams",
+      "Parameters": [
+        {
+          "Name": "name",
+          "ParameterType": "global::System.String",
+          "ParameterTypeFullName": "System.String"
+        }
+      ],
+      "ReturnType": "global::System.Boolean",
+      "ReturnTypeFullName": "System.Boolean"
+    },
+    {
+      "Name": "ModuleVersionInit",
+      "Parameters": [
+        {
+          "Name": "initAction",
+          "ParameterType": "System.Action"
+        },
+        {
+          "Name": "moduleInitMark",
+          "ParameterType": "global::System.String",
+          "ParameterTypeFullName": "System.String"
+        },
+        {
+          "Name": "initCodeVersion",
+          "ParameterType": "System.Version"
+        }
+      ],
+      "ReturnType": "void",
+      "ReturnTypeFullName": "System.Void"
+    },
+    {
+      "Name": "SetInitializationMarkInParams",
+      "Parameters": [
+        {
+          "Name": "name",
+          "ParameterType": "global::System.String",
+          "ParameterTypeFullName": "System.String"
+        },
+        {
+          "Name": "version",
+          "ParameterType": "System.Version"
+        }
+      ],
+      "ReturnType": "void",
+      "ReturnTypeFullName": "System.Void"
+    }
+  ],
+  "InterfaceAssemblyName": "Sungero.Domain.Interfaces",
+  "InterfaceNamespace": "Sungero.Commons",
+  "IsolatedAssemblyName": "Sungero.Commons.Isolated",
+  "IsolatedNamespace": "Sungero.Commons.Isolated",
+  "IsVisible": false,
+  "Libraries": [
+    {
+      "NameGuid": "8e2130d4-0102-4329-9a7f-1051c509488d",
+      "Name": "ElasticsearchExtensions",
+      "Scope": "Both"
+    }
+  ],
+  "NeedResetAppliedCache": true,
+  "Overridden": [
+    "NeedResetCache",
+    "NeedResetAppliedCache",
+    "IsVisible"
+  ],
+  "PublicConstants": [
+    {
+      "Name": "AllIndicesExistParamName",
+      "ParentClasses": [
+        "Module"
+      ],
+      "TypeName": "System.String",
+      "Value": "\"AllIndicesExist\""
+    },
+    {
+      "Name": "BulkOperationIndexToTarget",
+      "ParentClasses": [
+        "Module"
+      ],
+      "TypeName": "System.String",
+      "Value": "\"{\\\"index\\\":{}}\""
+    },
+    {
+      "Name": "DefaultLimitPercent",
+      "ParentClasses": [
+        "Module",
+        "ElasticsearchScore"
+      ],
+      "TypeName": "System.Double",
+      "Value": "67"
+    },
+    {
+      "Name": "DefaultMinLimit",
+      "ParentClasses": [
+        "Module",
+        "ElasticsearchScore"
+      ],
+      "TypeName": "System.Double",
+      "Value": "0.5"
+    },
+    {
+      "Name": "DefaultResultsLimit",
+      "ParentClasses": [
+        "Module",
+        "ElasticsearchScore"
+      ],
+      "TypeName": "System.Int32",
+      "Value": "1"
+    },
+    {
+      "Name": "FuzzyAnd",
+      "ParentClasses": [
+        "Module",
+        "ElasticsearchType"
+      ],
+      "TypeName": "System.String",
+      "Value": "\"FuzzyAnd\""
+    },
+    {
+      "Name": "FuzzyOr",
+      "ParentClasses": [
+        "Module",
+        "ElasticsearchType"
+      ],
+      "TypeName": "System.String",
+      "Value": "\"FuzzyOr\""
+    },
+    {
+      "Name": "IntelligenceGuid",
+      "ParentClasses": [
+        "Module"
+      ],
+      "TypeName": "System.Guid",
+      "Value": "new System.Guid(\"e08dc659-2828-4d50-b90d-7d06408ab7cb\")"
+    },
+    {
+      "Name": "IsIndexedEntityInsertedParamKey",
+      "ParentClasses": [
+        "Module"
+      ],
+      "TypeName": "System.String",
+      "Value": "\"IsIndexedEntityInserted\""
+    },
+    {
+      "Name": "LegalFormSynonyms",
+      "ParentClasses": [
+        "Module"
+      ],
+      "TypeName": "System.String",
+      "Value": "@\"\r\n      Автономная некоммерческая организация,АНО;\r\n      Автономное образовательное учреждение,АОУ;\r\n      Автономное учреждение,АУ;\r\n      Автономное учреждение дополнительного образования,АУДО;\r\n      Автономное учреждение дополнительного образования детей,АУДОД;\r\n      Автономное учреждение дополнительного профессионального образования,АУДПО;\r\n      Автономное учреждение культуры,АУК;\r\n      Автономное учреждение социального обслуживания населения,АУ СОН;\r\n      Агропромышленный холдинг,АПХ;\r\n      Акционерное общество,АО;\r\n      Акционерный коммерческий банк,АКБ;\r\n      Бюджетное профессиональное образовательное учреждение,БПОУ;\r\n      Бюджетное учреждение,БУ;\r\n      Бюджетное учреждение культуры,БУК;\r\n      Бюро технической инвентаризации,БТИ;\r\n      Военный комиссариат,ВК;\r\n      Всероссийский научно-исследовательский институт,ВНИИ;\r\n      Всероссийское общественное движение,ВОД;\r\n      Гаражно-строительный кооператив,ГСК;\r\n      Главное управление внутренних дел,ГУВД;\r\n      Государственная компания,ГК;\r\n      Государственная телерадиокомпания,ГТРК;\r\n      Государственное автономное образовательное учреждение высшего образования,ГАОУ ВО;\r\n      Государственное автономное образовательное учреждение высшего профессионального образования,ГАОУ ВПО;\r\n      Государственное автономное образовательное учреждение дополнительного профессионального образования,ГАОУ ДПО;\r\n      Государственное автономное образовательное учреждение среднего профессионального образования,ГАОУ СПО;\r\n      Государственное автономное профессиональное образовательное учреждение,ГАПОУ;\r\n      Государственное автономное учреждение,ГАУ;\r\n      Государственное автономное учреждение здравоохранения,ГАУЗ;\r\n      Государственное автономное учреждение культуры,ГАУК;\r\n      Государственное бюджетное образовательное учреждение,ГБОУ;\r\n      Государственное бюджетное образовательное учреждение высшего профессионального образования,ГБОУ ВПО;\r\n      Государственное бюджетное образовательное учреждение дополнительного профессионального образования,ГБОУ ДПО;\r\n      Государственное бюджетное образовательное учреждение среднего профессионального образования,ГБОУ СПО;\r\n      Государственное бюджетное профессиональное образовательное учреждение,ГБПОУ;\r\n      Государственное бюджетное учреждение,ГБУ;\r\n      Государственное бюджетное учреждение здравоохранения,ГБУЗ;\r\n      Государственное бюджетное учреждение культуры,ГБУК;\r\n      Государственное военное образовательное учреждение высшего профессионального образования,ГВОУ ВПО;\r\n      Государственное казённое учреждение,ГКУ;\r\n      Государственное казённое учреждение культуры,ГКУК;\r\n      Государственное краевое бюджетное учреждение,ГКБУ;\r\n      Государственное краевое бюджетное учреждение культуры,ГКБУК;\r\n      Государственное лечебно профилактическое учреждение,ГЛПУ;\r\n      государственное научное учреждение,ГНУ;\r\n      государственное областное образовательное учреждение,ГООУ;\r\n      Государственное образовательное бюджетное учреждение культуры,ГОБУК;\r\n      Государственное образовательное учреждение высшего образования,ГОУ ВО;\r\n      Государственное образовательное учреждение высшего профессионального образования,ГОУ ВПО;\r\n      Государственное образовательное учреждение доплнительного профессионального образования,ГОУ ДПО;\r\n      Государственное образовательное учреждение среднего профессионального образования,ГОУ СПО;\r\n      Государственное предприятие,ГП;\r\n      Государственное профессиональное образовательное учреждение,ГПОУ;\r\n      Государственное спортивное учреждение,ГСУ;\r\n      Государственное унитарное предприятие,ГУП;\r\n      Государственное учреждение,ГУ;\r\n      Государственное учреждение здравоохранения,ГУЗ;\r\n      Государственное учреждение культуры,ГУК;\r\n      Дачное некоммерческое товарищество,ДНТ;\r\n      Детская юношеская спортивная школа,ДЮСШ;\r\n      Добровольное общество содействии армии, авиации и флоту,ДОАСААФ;\r\n      Дорожно-патрульная служба,ДПС;\r\n      Дочернее открытое акционерное общество,ДОАО;\r\n      Жилищностроительный кооператив,ЖСК;\r\n      Закрытое акционерное общество,ЗАО;\r\n      Инвестиционный коммерческий банк развития,ИКБР;\r\n      Индивидуальный предприниматель,ИП;\r\n      Инспекция Федеральной налоговой службы России,ИФНС;\r\n      Информационный центр,ИЦ;\r\n      Коммерческий банк,КБ;\r\n      Коммерческий инвестиционный банк ,КИБ;\r\n      Комплексный центр социального обслуживания населения,КЦСОН;\r\n      Краевое государственное автономное профессиональное образовательное учреждение,КГА ПОУ;\r\n      Краевое государственное автономное учреждение,КГАУ;\r\n      Краевое государственное автономное учреждение культуры,КГАУК ;\r\n      Краевое государственное бюджетное научное учреждение культуры,КГБНУК;\r\n      Краевое государственное бюджетное учреждение,КГБУ;\r\n      Краевое государственное казённое учреждение,КГКУ;\r\n      Краевое государственное учреждение,КГУ;\r\n      Крестьянское (фермерское) хозяйство,КФХ;\r\n      Межмуниципальный отдел Министерства внутренних дел,МО МВД;\r\n      Межотраслевой Коммерческий Банк,МБК;\r\n      Межрегиональная общественная организация,МОО;\r\n      Министерство внутренних дел,МВД;\r\n      Муниципальное автономное дошкольное образовательное учреждение,МАДОУ;\r\n      Муниципальное автономное образовательное учреждение дополнительного образования детей,МАОУДОД;\r\n      Муниципальное автономное общеобразовательное учреждение,МАОУ;\r\n      Муниципальное автономное учреждение,МАУ;\r\n      Муниципальное автономное учреждение культуры,МАУК;\r\n      Муниципальное бюджетное общеобразовательное учреждение,МБОУ;\r\n      Муниципальное бюджетное учреждение,МБУ;\r\n      Муниципальное бюджетное учреждение культуры,МБУК;\r\n      Муниципальное дошкольное образование,МДОУ;\r\n      Муниципальное казённое учреждение,МКУ;\r\n      Муниципальное казённое учреждение культуры,МКУК ;\r\n      Муниципальное медицинское лечебно-профилактические учреждение,ММЛПУ;\r\n      Муниципальное образовательное учреждение,МОУ;\r\n      Муниципальное унитарное предприятие,МУП;\r\n      Муниципальное учреждение,МУ;\r\n      Муниципальное учреждение здравоохранения,МУЗ;\r\n      Муниципальное учреждение культуры,МУК ;\r\n      Научно-исследовательский институт,НИИ;\r\n      Научно-производственное объединение,НПО;\r\n      Научно-производственное предприятие,НПП;\r\n      Научно-технический центр,НТЦ;\r\n      Негосударственное образовательное учреждение высшего профессионального образования,НОУ ВПО;\r\n      Негосударственное образовательное учреждение дополнительного профессионального образования,НОУ ДПО;\r\n      Негосударственное образовательное учреждение среднего профессионального образования,НОУ СПО;\r\n      Негосударственное образовательное частное учреждение,НОЧУ;\r\n      Негосударственное учреждение здравоохранения,НУЗ ;\r\n      Некоммерческая организация,НО;\r\n      Некоммерческое партнерство,НП;\r\n      Неправительственная некоммерческая организация,ННО;\r\n      Нефтегазодобывающее управление,НГДУ;\r\n      Областное бюджетное учреждение культуры,ОБУК;\r\n      Областное государственное автономное учреждение,ОГАУ;\r\n      Областное государственное автономное учреждение культуры,ОГАУК;\r\n      Областное государственное бюджетное учреждение,ОГБУ;\r\n      Областное государственное бюджетное учреждение культуры,ОГБУК;\r\n      Областное государственное казённое учреждение,ОГКУ;\r\n      Областное государственное казённое учреждение культуры,ОГКУК ;\r\n      Областное государственное унитарное предприятие,ОГУП;\r\n      Областное государственное учреждение,ОГУ;\r\n      Общероссийская физкультурно-спортивная общественная организация,ОФСОО;\r\n      Общество с ограниченной ответственностью,ООО;\r\n      Отдел внутренних дел,ОВД;\r\n      Отдел социальной защиты населения,ОСЗН;\r\n      Открытое акционерное общество,ОАО;\r\n      Платежная небанковская кредитная организация,ПНКО;\r\n      Полевое учреждение,ПУ;\r\n      Производственный кооператив,ПК;\r\n      Публичное акционерное общество,ПАО;\r\n      Районный отдел судебных приставов,РОСП;\r\n      Расчетно-кассовый центр,РКЦ;\r\n      Региональная общественная организация,РОО;\r\n      Рекламно-информационное агентство,РИА;\r\n      Российский государственный университет,РГУ;\r\n      Садовое некоммерческое товарищество,СНТ;\r\n      Саморегулируемая организация,СРО;\r\n      Сельскохозяйственный производственный кооператив,СХПК;\r\n      Средняя общеобразовательная школа,СОШ;\r\n      Территориальное общественное самоуправление,ТОС;\r\n      Территориально-производственный комплекс,ТПК;\r\n      Товарищество с ограниченной ответственностью,ТОО;\r\n      Товарищество собственников жилья,ТСЖ;\r\n      Товарищество собственников недвижимости,ТСН;\r\n      Управление вневедомственной охраны,УВО;\r\n      Управление внутренних дел,УВД;\r\n      Управление министерства внутренних дел,УМВД;\r\n      Управление социальной защиты населения,УСЗН;\r\n      Управление Федеральной миграционной службы,УФМС;\r\n      Управление Федеральной налоговой службы,УФНС;\r\n      Управление Федеральной почтовой связи,УФПС;\r\n      Управление Федеральной службы исполнения наказаний,УФСИН;\r\n      Управление Федеральной службы судебных приставов,УФССП;\r\n      Управляющая компания,УК;\r\n      Федеральная налоговая служба,ФНС;\r\n      Федеральное автономное учреждение,ФАУ;\r\n      Федеральное бюджетное учреждение,ФБУ;\r\n      Федеральное бюджетное учреждение здравоохранения,ФБУЗ;\r\n      Федеральное бюджетное учреждение науки,ФБУН;\r\n      Федеральное государственное автономное образовательное учреждение высшего образования,ФГАОУ ВО;\r\n      Федеральное государственное автономное образовательное учреждение высшего профессионального образования,ФГАОУ ВПО;\r\n      Федеральное государственное автономное образовательное учреждение дополнительного профессионального образования,ФГАОУ ДПО;\r\n      Федеральное государственное автономное образовательное учреждение среднего профессионального образования,ФГАОУ СПО;\r\n      Федеральное государственное бюджетное военное образовательное учреждение высшего образования,ФГБВОУ ВО;\r\n      Федеральное государственное бюджетное научное учреждение,ФГБНУ;\r\n      Федеральное государственное бюджетное научно-исследовательское учреждение,ФГБНИУ;\r\n      Федеральное государственное бюджетное образовательное учреждение,ФГБОУ;\r\n      Федеральное государственное бюджетное образовательное учреждение высшего профессионального образования,ФГБОУ ВПО;\r\n      Федеральное государственное бюджетное образовательное учреждение дополнительного профессионального образования,ФГБОУ ДПО;\r\n      Федеральное государственное бюджетное образовательное учреждение среднего профессионального образования,ФГБОУ СПО;\r\n      Федеральное государственное бюджетное учреждение,ФГБУ;\r\n      Федеральное государственное бюджетное учреждение культуры,ФГБУК;\r\n      Федеральное государственное бюджетное учреждение науки,ФГБУН;\r\n      Федеральное государственное военное образовательное учреждение высшего профессионального образования,ФГВОУ ВПО;\r\n      Федеральное государственное казённое военное образовательное учреждение,ФГКВОУ;\r\n      Федеральное государственное казённое образовательное учреждение,ФГКОУ;\r\n      Федеральное государственное казённое учреждение,ФГКУ;\r\n      Федеральное государственное образовательное учреждение,ФГОУ;\r\n      Федеральное государственное образовательное учреждение высшего профессионального образования,ФГОУ ВПО;\r\n      Федеральное государственное образовательное учреждение дополнительного профессионального образования,ФГОУ ДПО;\r\n      Федеральное государственное образовательное учреждение среднего профессионального образования,ФГОУ СПО;\r\n      Федеральное государственное унитарное предприятие,ФГУП;\r\n      Федеральное государственное учреждение,ФГУ;\r\n      Федеральное государственное учреждение здравоохранения,ФГУЗ;\r\n      Федеральное государственное учреждение культуры,ФГУК;\r\n      Федеральное казённое предприятие,ФКП;\r\n      Федеральное казённое учреждение,ФКУ;\r\n      Федеральное казённое учреждение культуры,ФКУК;\r\n      Фонд социального страхования,ФСС;\r\n      Центр занятости населения,ЦЗН;\r\n      Центр социальной помощи населению,ЦСПН;\r\n      Частная охранная организация,ЧОО;\r\n      Частное образовательное учреждение дополнительного профессионального образования,ЧОУ ДПО;\""
+    },
+    {
+      "Name": "MatchAnd",
+      "ParentClasses": [
+        "Module",
+        "ElasticsearchType"
+      ],
+      "TypeName": "System.String",
+      "Value": "\"MatchAnd\""
+    },
+    {
+      "Name": "MatchExact",
+      "ParentClasses": [
+        "Module",
+        "ElasticsearchType"
+      ],
+      "TypeName": "System.String",
+      "Value": "\"MatchExact\""
+    },
+    {
+      "Name": "MatchOr",
+      "ParentClasses": [
+        "Module",
+        "ElasticsearchType"
+      ],
+      "TypeName": "System.String",
+      "Value": "\"MatchOr\""
+    },
+    {
+      "Name": "MatchPhrase",
+      "ParentClasses": [
+        "Module",
+        "ElasticsearchType"
+      ],
+      "TypeName": "System.String",
+      "Value": "\"MatchPhrase\""
+    },
+    {
+      "Name": "MaxQueryIds",
+      "ParentClasses": [
+        "Module"
+      ],
+      "TypeName": "System.Int32",
+      "Value": "999"
+    },
+    {
+      "Name": "Term",
+      "ParentClasses": [
+        "Module",
+        "ElasticsearchType"
+      ],
+      "TypeName": "System.String",
+      "Value": "\"Term\""
+    },
+    {
+      "Name": "Wildcard",
+      "ParentClasses": [
+        "Module",
+        "ElasticsearchType"
+      ],
+      "TypeName": "System.String",
+      "Value": "\"Wildcard\""
+    }
+  ],
+  "PublicFunctions": [
+    {
+      "Name": "AddOrUpdateEntityParams",
+      "Parameters": [
+        {
+          "Name": "entity",
+          "ParameterType": "global::Sungero.Domain.Shared.IEntity",
+          "ParameterTypeFullName": "Sungero.Domain.Shared.IEntity, Sungero.Domain.Shared"
+        },
+        {
+          "Name": "paramName",
+          "ParameterType": "global::System.String",
+          "ParameterTypeFullName": "System.String"
+        },
+        {
+          "Name": "paramValue",
+          "ParameterType": "System.Object"
+        }
+      ],
+      "Placement": "Shared",
+      "ReturnType": "void",
+      "ReturnTypeFullName": "System.Void"
+    },
+    {
+      "Name": "CreateIndexEntityAsyncHandler",
+      "Parameters": [
+        {
+          "Name": "entityName",
+          "ParameterType": "global::System.String",
+          "ParameterTypeFullName": "System.String"
+        },
+        {
+          "Name": "entityId",
+          "ParameterType": "global::System.Int64",
+          "ParameterTypeFullName": "System.Int64"
+        },
+        {
+          "Name": "contentJson",
+          "ParameterType": "global::System.String",
+          "ParameterTypeFullName": "System.String"
+        },
+        {
+          "Name": "allowCreateRecord",
+          "ParameterType": "global::System.Boolean",
+          "ParameterTypeFullName": "System.Boolean"
+        }
+      ],
+      "ReturnType": "void",
+      "ReturnTypeFullName": "System.Void"
+    },
+    {
+      "Name": "CreateRemoveEntityFromIndexAsyncHandler",
+      "Parameters": [
+        {
+          "Name": "entityName",
+          "ParameterType": "global::System.String",
+          "ParameterTypeFullName": "System.String"
+        },
+        {
+          "Name": "entityId",
+          "ParameterType": "global::System.Int64",
+          "ParameterTypeFullName": "System.Int64"
+        }
+      ],
+      "ReturnType": "void",
+      "ReturnTypeFullName": "System.Void"
+    },
+    {
+      "Name": "CreateSearchFieldQuery",
+      "Parameters": [
+        {
+          "Name": "arioField",
+          "ParameterType": "global::Sungero.Commons.Structures.Module.IArioFactField",
+          "ParameterTypeFullName": "Sungero.Commons.Structures.Module.IArioFactField"
+        },
+        {
+          "Name": "elasticFieldName",
+          "ParameterType": "global::System.String",
+          "ParameterTypeFullName": "System.String"
+        },
+        {
+          "Name": "searchType",
+          "ParameterType": "global::System.String",
+          "ParameterTypeFullName": "System.String"
+        }
+      ],
+      "ReturnType": "global::Sungero.Commons.Structures.Module.IArioFieldElasticsearchData",
+      "ReturnTypeFullName": "Sungero.Commons.Structures.Module.IArioFieldElasticsearchData"
+    },
+    {
+      "Name": "CreateSearchFieldQuery",
+      "Parameters": [
+        {
+          "Name": "arioField",
+          "ParameterType": "global::Sungero.Commons.Structures.Module.IArioFactField",
+          "ParameterTypeFullName": "Sungero.Commons.Structures.Module.IArioFactField"
+        },
+        {
+          "Name": "elasticFieldName",
+          "ParameterType": "global::System.String",
+          "ParameterTypeFullName": "System.String"
+        },
+        {
+          "Name": "searchType",
+          "ParameterType": "global::System.String",
+          "ParameterTypeFullName": "System.String"
+        },
+        {
+          "Name": "searchValue",
+          "ParameterType": "global::System.String",
+          "ParameterTypeFullName": "System.String"
+        }
+      ],
+      "ReturnType": "global::Sungero.Commons.Structures.Module.IArioFieldElasticsearchData",
+      "ReturnTypeFullName": "Sungero.Commons.Structures.Module.IArioFieldElasticsearchData"
+    },
+    {
+      "Name": "CreateSearchFieldQuery",
+      "Parameters": [
+        {
+          "Name": "searchValue",
+          "ParameterType": "global::System.String",
+          "ParameterTypeFullName": "System.String"
+        },
+        {
+          "Name": "elasticFieldName",
+          "ParameterType": "global::System.String",
+          "ParameterTypeFullName": "System.String"
+        },
+        {
+          "Name": "searchType",
+          "ParameterType": "global::System.String",
+          "ParameterTypeFullName": "System.String"
+        },
+        {
+          "Name": "isRefineSearchOnly",
+          "ParameterType": "global::System.Boolean",
+          "ParameterTypeFullName": "System.Boolean"
+        }
+      ],
+      "ReturnType": "global::Sungero.Commons.Structures.Module.IArioFieldElasticsearchData",
+      "ReturnTypeFullName": "Sungero.Commons.Structures.Module.IArioFieldElasticsearchData"
+    },
+    {
+      "Name": "CreateSearchFieldQuery",
+      "Parameters": [
+        {
+          "Name": "arioField",
+          "ParameterType": "global::Sungero.Commons.Structures.Module.IArioFactField",
+          "ParameterTypeFullName": "Sungero.Commons.Structures.Module.IArioFactField"
+        },
+        {
+          "Name": "elasticFieldName",
+          "ParameterType": "global::System.String",
+          "ParameterTypeFullName": "System.String"
+        },
+        {
+          "Name": "searchType",
+          "ParameterType": "global::System.String",
+          "ParameterTypeFullName": "System.String"
+        },
+        {
+          "Name": "isRefineSearchOnly",
+          "ParameterType": "global::System.Boolean",
+          "ParameterTypeFullName": "System.Boolean"
+        }
+      ],
+      "ReturnType": "global::Sungero.Commons.Structures.Module.IArioFieldElasticsearchData",
+      "ReturnTypeFullName": "Sungero.Commons.Structures.Module.IArioFieldElasticsearchData"
+    },
+    {
+      "Name": "CreateSearchFieldQuery",
+      "Parameters": [
+        {
+          "Name": "arioField",
+          "ParameterType": "global::Sungero.Commons.Structures.Module.IArioFactField",
+          "ParameterTypeFullName": "Sungero.Commons.Structures.Module.IArioFactField"
+        },
+        {
+          "Name": "elasticFieldName",
+          "ParameterType": "global::System.String",
+          "ParameterTypeFullName": "System.String"
+        },
+        {
+          "Name": "searchType",
+          "ParameterType": "global::System.String",
+          "ParameterTypeFullName": "System.String"
+        },
+        {
+          "Name": "searchValue",
+          "ParameterType": "global::System.String",
+          "ParameterTypeFullName": "System.String"
+        },
+        {
+          "Name": "isRefineSearchOnly",
+          "ParameterType": "global::System.Boolean",
+          "ParameterTypeFullName": "System.Boolean"
+        },
+        {
+          "Name": "isClosedEntitySearch",
+          "ParameterType": "global::System.Boolean",
+          "ParameterTypeFullName": "System.Boolean"
+        }
+      ],
+      "ReturnType": "global::Sungero.Commons.Structures.Module.IArioFieldElasticsearchData",
+      "ReturnTypeFullName": "Sungero.Commons.Structures.Module.IArioFieldElasticsearchData"
+    },
+    {
+      "Name": "DeleteEntityParams",
+      "Parameters": [
+        {
+          "Name": "entity",
+          "ParameterType": "global::Sungero.Domain.Shared.IEntity",
+          "ParameterTypeFullName": "Sungero.Domain.Shared.IEntity, Sungero.Domain.Shared"
+        },
+        {
+          "Name": "paramName",
+          "ParameterType": "global::System.String",
+          "ParameterTypeFullName": "System.String"
+        }
+      ],
+      "Placement": "Shared",
+      "ReturnType": "void",
+      "ReturnTypeFullName": "System.Void"
+    },
+    {
+      "Name": "ElasticsearchBulk",
+      "Parameters": [
+        {
+          "Name": "indexName",
+          "ParameterType": "global::System.String",
+          "ParameterTypeFullName": "System.String"
+        },
+        {
+          "Name": "contentJson",
+          "ParameterType": "global::System.String",
+          "ParameterTypeFullName": "System.String"
+        }
+      ],
+      "ReturnType": "void",
+      "ReturnTypeFullName": "System.Void"
+    },
+    {
+      "Name": "ElasticsearchCloseIndex",
+      "Parameters": [
+        {
+          "Name": "indexName",
+          "ParameterType": "global::System.String",
+          "ParameterTypeFullName": "System.String"
+        }
+      ],
+      "ReturnType": "void",
+      "ReturnTypeFullName": "System.Void"
+    },
+    {
+      "Name": "ElasticsearchCreateIndex",
+      "Parameters": [
+        {
+          "Name": "indexName",
+          "ParameterType": "global::System.String",
+          "ParameterTypeFullName": "System.String"
+        },
+        {
+          "Name": "configJson",
+          "ParameterType": "global::System.String",
+          "ParameterTypeFullName": "System.String"
+        }
+      ],
+      "ReturnType": "void",
+      "ReturnTypeFullName": "System.Void"
+    },
+    {
+      "Name": "ElasticsearchGetIndexSynonyms",
+      "Parameters": [
+        {
+          "Name": "indexName",
+          "ParameterType": "global::System.String",
+          "ParameterTypeFullName": "System.String"
+        }
+      ],
+      "ReturnType": "global::System.Collections.Generic.List<global::System.String>",
+      "ReturnTypeFullName": "System.Collections.Generic.List"
+    },
+    {
+      "Name": "ElasticsearchIndexEntity",
+      "Parameters": [
+        {
+          "Name": "indexName",
+          "ParameterType": "global::System.String",
+          "ParameterTypeFullName": "System.String"
+        },
+        {
+          "Name": "contentJson",
+          "ParameterType": "global::System.String",
+          "ParameterTypeFullName": "System.String"
+        },
+        {
+          "Name": "entityId",
+          "ParameterType": "global::System.Int64",
+          "ParameterTypeFullName": "System.Int64"
+        },
+        {
+          "Name": "entityUpdated",
+          "ParameterType": "global::System.DateTime",
+          "ParameterTypeFullName": "System.DateTime"
+        },
+        {
+          "Name": "allowCreateRecord",
+          "ParameterType": "global::System.Boolean",
+          "ParameterTypeFullName": "System.Boolean"
+        }
+      ],
+      "ReturnType": "void",
+      "ReturnTypeFullName": "System.Void"
+    },
+    {
+      "Name": "ElasticsearchOpenIndex",
+      "Parameters": [
+        {
+          "Name": "indexName",
+          "ParameterType": "global::System.String",
+          "ParameterTypeFullName": "System.String"
+        }
+      ],
+      "ReturnType": "void",
+      "ReturnTypeFullName": "System.Void"
+    },
+    {
+      "Name": "ElasticsearchRemoveEntity",
+      "Parameters": [
+        {
+          "Name": "indexName",
+          "ParameterType": "global::System.String",
+          "ParameterTypeFullName": "System.String"
+        },
+        {
+          "Name": "entityId",
+          "ParameterType": "global::System.Int64",
+          "ParameterTypeFullName": "System.Int64"
+        }
+      ],
+      "ReturnType": "void",
+      "ReturnTypeFullName": "System.Void"
+    },
+    {
+      "Name": "ElasticsearchUpdateIndexSettings",
+      "Parameters": [
+        {
+          "Name": "indexName",
+          "ParameterType": "global::System.String",
+          "ParameterTypeFullName": "System.String"
+        },
+        {
+          "Name": "configJson",
+          "ParameterType": "global::System.String",
+          "ParameterTypeFullName": "System.String"
+        }
+      ],
+      "ReturnType": "void",
+      "ReturnTypeFullName": "System.Void"
+    },
+    {
+      "Name": "EntityParamsContainsKey",
+      "Parameters": [
+        {
+          "Name": "entity",
+          "ParameterType": "global::Sungero.Domain.Shared.IEntity",
+          "ParameterTypeFullName": "Sungero.Domain.Shared.IEntity, Sungero.Domain.Shared"
+        },
+        {
+          "Name": "paramName",
+          "ParameterType": "global::System.String",
+          "ParameterTypeFullName": "System.String"
+        }
+      ],
+      "Placement": "Shared",
+      "ReturnType": "global::System.Boolean",
+      "ReturnTypeFullName": "System.Boolean"
+    },
+    {
+      "Name": "ExecuteElasticsearchQuery",
+      "Parameters": [
+        {
+          "Name": "factQueryData",
+          "ParameterType": "global::Sungero.Commons.Structures.Module.IArioFactElasticsearchData",
+          "ParameterTypeFullName": "Sungero.Commons.Structures.Module.IArioFactElasticsearchData"
+        }
+      ],
+      "ReturnType": "global::Sungero.Commons.Structures.Module.IArioFactElasticsearchData",
+      "ReturnTypeFullName": "Sungero.Commons.Structures.Module.IArioFactElasticsearchData"
+    },
+    {
+      "Name": "ExecuteElasticsearchQuery",
+      "Parameters": [
+        {
+          "Name": "queryData",
+          "ParameterType": "global::Sungero.Commons.Structures.Module.IArioFieldElasticsearchData",
+          "ParameterTypeFullName": "Sungero.Commons.Structures.Module.IArioFieldElasticsearchData"
+        }
+      ],
+      "ReturnType": "global::Sungero.Commons.Structures.Module.IArioFieldElasticsearchData",
+      "ReturnTypeFullName": "Sungero.Commons.Structures.Module.IArioFieldElasticsearchData"
+    },
+    {
+      "Name": "ExecuteElasticsearchQuery",
+      "Parameters": [
+        {
+          "Name": "entityName",
+          "ParameterType": "global::System.String",
+          "ParameterTypeFullName": "System.String"
+        },
+        {
+          "Name": "query",
+          "ParameterType": "global::System.String",
+          "ParameterTypeFullName": "System.String"
+        }
+      ],
+      "ReturnType": "global::System.Collections.Generic.List<global::System.Int64>",
+      "ReturnTypeFullName": "System.Collections.Generic.List"
+    },
+    {
+      "Name": "ExecuteElasticsearchQuery",
+      "Parameters": [
+        {
+          "Name": "entityName",
+          "ParameterType": "global::System.String",
+          "ParameterTypeFullName": "System.String"
+        },
+        {
+          "Name": "query",
+          "ParameterType": "global::System.String",
+          "ParameterTypeFullName": "System.String"
+        },
+        {
+          "Name": "minScore",
+          "ParameterType": "global::System.Double",
+          "ParameterTypeFullName": "System.Double"
+        }
+      ],
+      "ReturnType": "global::System.Collections.Generic.List<global::System.Int64>",
+      "ReturnTypeFullName": "System.Collections.Generic.List"
+    },
+    {
+      "Name": "GetAggregateFieldsProbability",
+      "Parameters": [
+        {
+          "Name": "fact",
+          "ParameterType": "global::Sungero.Commons.Structures.Module.IArioFact",
+          "ParameterTypeFullName": "Sungero.Commons.Structures.Module.IArioFact"
+        },
+        {
+          "Name": "weightedFields",
+          "ParameterType": "System.Collections.Generic.IDictionary<global::System.String, global::System.Double>"
+        }
+      ],
+      "ReturnType": "global::System.Double",
+      "ReturnTypeFullName": "System.Double"
+    },
+    {
+      "Name": "GetAggregateFieldsProbability",
+      "Parameters": [
+        {
+          "Name": "weightedFields",
+          "ParameterType": "System.Collections.Generic.IDictionary<global::Sungero.Commons.Structures.Module.IArioFactField, global::System.Double>"
+        }
+      ],
+      "ReturnType": "global::System.Double",
+      "ReturnTypeFullName": "System.Double"
+    },
+    {
+      "Name": "GetBooleanEntityParamsValue",
+      "Parameters": [
+        {
+          "Name": "entity",
+          "ParameterType": "global::Sungero.Domain.Shared.IEntity",
+          "ParameterTypeFullName": "Sungero.Domain.Shared.IEntity, Sungero.Domain.Shared"
+        },
+        {
+          "Name": "paramName",
+          "ParameterType": "global::System.String",
+          "ParameterTypeFullName": "System.String"
+        }
+      ],
+      "Placement": "Shared",
+      "ReturnType": "global::System.Boolean",
+      "ReturnTypeFullName": "System.Boolean"
+    },
+    {
+      "Name": "GetBoolQuery",
+      "Parameters": [
+        {
+          "Name": "must",
+          "ParameterType": "global::System.String",
+          "ParameterTypeFullName": "System.String"
+        },
+        {
+          "Name": "should",
+          "ParameterType": "global::System.String",
+          "ParameterTypeFullName": "System.String"
+        },
+        {
+          "Name": "filter",
+          "ParameterType": "global::System.String",
+          "ParameterTypeFullName": "System.String"
+        }
+      ],
+      "ReturnType": "global::System.String",
+      "ReturnTypeFullName": "System.String"
+    },
+    {
+      "Name": "GetElasticsearchUrl",
+      "ReturnType": "global::System.String",
+      "ReturnTypeFullName": "System.String"
+    },
+    {
+      "Name": "GetEntityParamsValue",
+      "Parameters": [
+        {
+          "Name": "entity",
+          "ParameterType": "global::Sungero.Domain.Shared.IEntity",
+          "ParameterTypeFullName": "Sungero.Domain.Shared.IEntity, Sungero.Domain.Shared"
+        },
+        {
+          "Name": "paramName",
+          "ParameterType": "global::System.String",
+          "ParameterTypeFullName": "System.String"
+        }
+      ],
+      "Placement": "Shared",
+      "ReturnType": "System.Object"
+    },
+    {
+      "Name": "GetExternalEntityLinks",
+      "Parameters": [
+        {
+          "Name": "uuid",
+          "ParameterType": "global::System.String",
+          "ParameterTypeFullName": "System.String"
+        },
+        {
+          "Name": "sysid",
+          "ParameterType": "global::System.String",
+          "ParameterTypeFullName": "System.String"
+        }
+      ],
+      "ReturnType": "global::System.Linq.IQueryable<global::Sungero.Commons.IExternalEntityLink>",
+      "ReturnTypeFullName": "System.Linq.IQueryable"
+    },
+    {
+      "Name": "GetFactLabel",
+      "Parameters": [
+        {
+          "Name": "fact",
+          "ParameterType": "global::Sungero.Commons.Structures.Module.IArioFact",
+          "ParameterTypeFullName": "Sungero.Commons.Structures.Module.IArioFact"
+        },
+        {
+          "Name": "propertyName",
+          "ParameterType": "global::System.String",
+          "ParameterTypeFullName": "System.String"
+        }
+      ],
+      "ReturnType": "global::System.String",
+      "ReturnTypeFullName": "System.String"
+    },
+    {
+      "Name": "GetFacts",
+      "Parameters": [
+        {
+          "Name": "facts",
+          "ParameterType": "global::System.Collections.Generic.List<global::Sungero.Commons.Structures.Module.IArioFact>",
+          "ParameterTypeFullName": "System.Collections.Generic.List"
+        },
+        {
+          "Name": "factName",
+          "ParameterType": "global::System.String",
+          "ParameterTypeFullName": "System.String"
+        }
+      ],
+      "ReturnType": "global::System.Collections.Generic.List<global::Sungero.Commons.Structures.Module.IArioFact>",
+      "ReturnTypeFullName": "System.Collections.Generic.List"
+    },
+    {
+      "Name": "GetFacts",
+      "Parameters": [
+        {
+          "Name": "facts",
+          "ParameterType": "global::System.Collections.Generic.List<global::Sungero.Commons.Structures.Module.IArioFact>",
+          "ParameterTypeFullName": "System.Collections.Generic.List"
+        },
+        {
+          "Name": "factName",
+          "ParameterType": "global::System.String",
+          "ParameterTypeFullName": "System.String"
+        },
+        {
+          "Name": "fieldName",
+          "ParameterType": "global::System.String",
+          "ParameterTypeFullName": "System.String"
+        }
+      ],
+      "ReturnType": "global::System.Collections.Generic.List<global::Sungero.Commons.Structures.Module.IArioFact>",
+      "ReturnTypeFullName": "System.Collections.Generic.List"
+    },
+    {
+      "Name": "GetField",
+      "Parameters": [
+        {
+          "Name": "fact",
+          "ParameterType": "global::Sungero.Commons.Structures.Module.IArioFact",
+          "ParameterTypeFullName": "Sungero.Commons.Structures.Module.IArioFact"
+        },
+        {
+          "Name": "fieldName",
+          "ParameterType": "global::System.String",
+          "ParameterTypeFullName": "System.String"
+        }
+      ],
+      "ReturnType": "global::Sungero.Commons.Structures.Module.IArioFactField",
+      "ReturnTypeFullName": "Sungero.Commons.Structures.Module.IArioFactField"
+    },
+    {
+      "Name": "GetFieldDateTimeValue",
+      "Parameters": [
+        {
+          "Name": "fact",
+          "ParameterType": "global::Sungero.Commons.Structures.Module.IArioFact",
+          "ParameterTypeFullName": "Sungero.Commons.Structures.Module.IArioFact"
+        },
+        {
+          "Name": "fieldName",
+          "ParameterType": "global::System.String",
+          "ParameterTypeFullName": "System.String"
+        }
+      ],
+      "ReturnType": "global::System.Nullable<global::System.DateTime>",
+      "ReturnTypeFullName": "System.Nullable"
+    },
+    {
+      "Name": "GetFieldNumericalValue",
+      "Parameters": [
+        {
+          "Name": "fact",
+          "ParameterType": "global::Sungero.Commons.Structures.Module.IArioFact",
+          "ParameterTypeFullName": "Sungero.Commons.Structures.Module.IArioFact"
+        },
+        {
+          "Name": "fieldName",
+          "ParameterType": "global::System.String",
+          "ParameterTypeFullName": "System.String"
+        }
+      ],
+      "ReturnType": "global::System.Nullable<global::System.Double>",
+      "ReturnTypeFullName": "System.Nullable"
+    },
+    {
+      "Name": "GetFieldProbability",
+      "Parameters": [
+        {
+          "Name": "fact",
+          "ParameterType": "global::Sungero.Commons.Structures.Module.IArioFact",
+          "ParameterTypeFullName": "Sungero.Commons.Structures.Module.IArioFact"
+        },
+        {
+          "Name": "fieldName",
+          "ParameterType": "global::System.String",
+          "ParameterTypeFullName": "System.String"
+        }
+      ],
+      "ReturnType": "global::System.Nullable<global::System.Double>",
+      "ReturnTypeFullName": "System.Nullable"
+    },
+    {
+      "Name": "GetFields",
+      "Parameters": [
+        {
+          "Name": "fact",
+          "ParameterType": "global::Sungero.Commons.Structures.Module.IArioFact",
+          "ParameterTypeFullName": "Sungero.Commons.Structures.Module.IArioFact"
+        },
+        {
+          "Name": "fieldNames",
+          "ParameterType": "global::System.Collections.Generic.List<global::System.String>",
+          "ParameterTypeFullName": "System.Collections.Generic.List"
+        }
+      ],
+      "ReturnType": "global::System.Linq.IQueryable<global::Sungero.Commons.Structures.Module.IArioFactField>",
+      "ReturnTypeFullName": "System.Linq.IQueryable"
+    },
+    {
+      "Name": "GetFieldValue",
+      "Parameters": [
+        {
+          "Name": "fact",
+          "ParameterType": "global::Sungero.Commons.Structures.Module.IArioFact",
+          "ParameterTypeFullName": "Sungero.Commons.Structures.Module.IArioFact"
+        },
+        {
+          "Name": "fieldName",
+          "ParameterType": "global::System.String",
+          "ParameterTypeFullName": "System.String"
+        }
+      ],
+      "ReturnType": "global::System.String",
+      "ReturnTypeFullName": "System.String"
+    },
+    {
+      "Name": "GetFieldValue",
+      "Parameters": [
+        {
+          "Name": "facts",
+          "ParameterType": "global::System.Collections.Generic.List<global::Sungero.Commons.Structures.Module.IArioFact>",
+          "ParameterTypeFullName": "System.Collections.Generic.List"
+        },
+        {
+          "Name": "factName",
+          "ParameterType": "global::System.String",
+          "ParameterTypeFullName": "System.String"
+        },
+        {
+          "Name": "fieldName",
+          "ParameterType": "global::System.String",
+          "ParameterTypeFullName": "System.String"
+        }
+      ],
+      "ReturnType": "global::System.String",
+      "ReturnTypeFullName": "System.String"
+    },
+    {
+      "Name": "GetFinalTypeName",
+      "Parameters": [
+        {
+          "Name": "entity",
+          "ParameterType": "global::Sungero.Domain.Shared.IEntity",
+          "ParameterTypeFullName": "Sungero.Domain.Shared.IEntity, Sungero.Domain.Shared"
+        }
+      ],
+      "ReturnType": "global::System.String",
+      "ReturnTypeFullName": "System.String"
+    },
+    {
+      "Name": "GetIndexName",
+      "Parameters": [
+        {
+          "Name": "entityName",
+          "ParameterType": "global::System.String",
+          "ParameterTypeFullName": "System.String"
+        }
+      ],
+      "ReturnType": "global::System.String",
+      "ReturnTypeFullName": "System.String"
+    },
+    {
+      "Name": "GetLegalFormSynonyms",
+      "ReturnType": "global::System.String",
+      "ReturnTypeFullName": "System.String"
+    },
+    {
+      "Name": "GetMatchFuzzyQuery",
+      "Parameters": [
+        {
+          "Name": "fieldName",
+          "ParameterType": "global::System.String",
+          "ParameterTypeFullName": "System.String"
+        },
+        {
+          "Name": "searchValue",
+          "ParameterType": "global::System.String",
+          "ParameterTypeFullName": "System.String"
+        },
+        {
+          "Name": "andOperator",
+          "ParameterType": "global::System.Boolean",
+          "ParameterTypeFullName": "System.Boolean"
+        }
+      ],
+      "ReturnType": "global::System.String",
+      "ReturnTypeFullName": "System.String"
+    },
+    {
+      "Name": "GetMatchQuery",
+      "Parameters": [
+        {
+          "Name": "fieldName",
+          "ParameterType": "global::System.String",
+          "ParameterTypeFullName": "System.String"
+        },
+        {
+          "Name": "searchValue",
+          "ParameterType": "global::System.String",
+          "ParameterTypeFullName": "System.String"
+        },
+        {
+          "Name": "andOperator",
+          "ParameterType": "global::System.Boolean",
+          "ParameterTypeFullName": "System.Boolean"
+        }
+      ],
+      "ReturnType": "global::System.String",
+      "ReturnTypeFullName": "System.String"
+    },
+    {
+      "Name": "GetOrderedFacts",
+      "Parameters": [
+        {
+          "Name": "facts",
+          "ParameterType": "global::System.Collections.Generic.List<global::Sungero.Commons.Structures.Module.IArioFact>",
+          "ParameterTypeFullName": "System.Collections.Generic.List"
+        },
+        {
+          "Name": "factName",
+          "ParameterType": "global::System.String",
+          "ParameterTypeFullName": "System.String"
+        },
+        {
+          "Name": "orderFieldName",
+          "ParameterType": "global::System.String",
+          "ParameterTypeFullName": "System.String"
+        }
+      ],
+      "ReturnType": "global::System.Collections.Generic.List<global::Sungero.Commons.Structures.Module.IArioFact>",
+      "ReturnTypeFullName": "System.Collections.Generic.List"
+    },
+    {
+      "Name": "GetOrderedFactsByFieldPriorities",
+      "Parameters": [
+        {
+          "Name": "facts",
+          "ParameterType": "global::System.Collections.Generic.List<global::Sungero.Commons.Structures.Module.IArioFact>",
+          "ParameterTypeFullName": "System.Collections.Generic.List"
+        },
+        {
+          "Name": "factName",
+          "ParameterType": "global::System.String",
+          "ParameterTypeFullName": "System.String"
+        },
+        {
+          "Name": "fieldWeights",
+          "ParameterType": "System.Collections.Generic.IDictionary<global::System.String, global::System.Double>"
+        }
+      ],
+      "ReturnType": "global::System.Collections.Generic.List<global::Sungero.Commons.Structures.Module.IArioFact>",
+      "ReturnTypeFullName": "System.Collections.Generic.List"
+    },
+    {
+      "Name": "GetOrderedFactsByType",
+      "Parameters": [
+        {
+          "Name": "facts",
+          "ParameterType": "global::System.Collections.Generic.List<global::Sungero.Commons.Structures.Module.IArioFact>",
+          "ParameterTypeFullName": "System.Collections.Generic.List"
+        },
+        {
+          "Name": "factName",
+          "ParameterType": "global::System.String",
+          "ParameterTypeFullName": "System.String"
+        },
+        {
+          "Name": "factType",
+          "ParameterType": "global::System.String",
+          "ParameterTypeFullName": "System.String"
+        },
+        {
+          "Name": "typeFieldName",
+          "ParameterType": "global::System.String",
+          "ParameterTypeFullName": "System.String"
+        },
+        {
+          "Name": "orderFieldName",
+          "ParameterType": "global::System.String",
+          "ParameterTypeFullName": "System.String"
+        }
+      ],
+      "ReturnType": "global::System.Collections.Generic.List<global::Sungero.Commons.Structures.Module.IArioFact>",
+      "ReturnTypeFullName": "System.Collections.Generic.List"
+    },
+    {
+      "Name": "GetPreviousPropertyRecognitionResults",
+      "Parameters": [
+        {
+          "Name": "fact",
+          "ParameterType": "global::Sungero.Commons.Structures.Module.IArioFact",
+          "ParameterTypeFullName": "Sungero.Commons.Structures.Module.IArioFact"
+        },
+        {
+          "Name": "propertyName",
+          "ParameterType": "global::System.String",
+          "ParameterTypeFullName": "System.String"
+        }
+      ],
+      "ReturnType": "global::Sungero.Commons.IEntityRecognitionInfoFacts",
+      "ReturnTypeFullName": "Sungero.Commons.IEntityRecognitionInfoFacts, Sungero.Domain.Interfaces"
+    },
+    {
+      "Name": "GetPreviousPropertyRecognitionResults",
+      "Parameters": [
+        {
+          "Name": "fact",
+          "ParameterType": "global::Sungero.Commons.Structures.Module.IArioFact",
+          "ParameterTypeFullName": "Sungero.Commons.Structures.Module.IArioFact"
+        },
+        {
+          "Name": "propertyName",
+          "ParameterType": "global::System.String",
+          "ParameterTypeFullName": "System.String"
+        },
+        {
+          "Name": "filterPropertyValue",
+          "ParameterType": "global::System.String",
+          "ParameterTypeFullName": "System.String"
+        },
+        {
+          "Name": "filterPropertyName",
+          "ParameterType": "global::System.String",
+          "ParameterTypeFullName": "System.String"
+        }
+      ],
+      "ReturnType": "global::Sungero.Commons.IEntityRecognitionInfoFacts",
+      "ReturnTypeFullName": "Sungero.Commons.IEntityRecognitionInfoFacts, Sungero.Domain.Interfaces"
+    },
+    {
+      "Name": "GetTermQuery",
+      "Parameters": [
+        {
+          "Name": "termName",
+          "ParameterType": "global::System.String",
+          "ParameterTypeFullName": "System.String"
+        },
+        {
+          "Name": "termValue",
+          "ParameterType": "global::System.String",
+          "ParameterTypeFullName": "System.String"
+        }
+      ],
+      "ReturnType": "global::System.String",
+      "ReturnTypeFullName": "System.String"
+    },
+    {
+      "Name": "GetTermsQuery",
+      "Parameters": [
+        {
+          "Name": "termName",
+          "ParameterType": "global::System.String",
+          "ParameterTypeFullName": "System.String"
+        },
+        {
+          "Name": "termValues",
+          "ParameterType": "global::System.Collections.Generic.List<global::System.String>",
+          "ParameterTypeFullName": "System.Collections.Generic.List"
+        }
+      ],
+      "ReturnType": "global::System.String",
+      "ReturnTypeFullName": "System.String"
+    },
+    {
+      "Name": "GetTypeDisplayValue",
+      "Parameters": [
+        {
+          "Name": "entity",
+          "ParameterType": "global::Sungero.Domain.Shared.IEntity",
+          "ParameterTypeFullName": "Sungero.Domain.Shared.IEntity, Sungero.Domain.Shared"
+        },
+        {
+          "Name": "declension",
+          "ParameterType": "CommonLibrary.DeclensionCase"
+        }
+      ],
+      "Placement": "Shared",
+      "ReturnType": "global::System.String",
+      "ReturnTypeFullName": "System.String"
+    },
+    {
+      "Name": "GetValueAsString",
+      "Parameters": [
+        {
+          "Name": "propertyValue",
+          "ParameterType": "System.Object"
+        }
+      ],
+      "Placement": "Shared",
+      "ReturnType": "global::System.String",
+      "ReturnTypeFullName": "System.String"
+    },
+    {
+      "Name": "GetVatAmountFromTotal",
+      "Parameters": [
+        {
+          "Name": "totalAmount",
+          "ParameterType": "global::System.Double",
+          "ParameterTypeFullName": "System.Double"
+        },
+        {
+          "Name": "vatRate",
+          "ParameterType": "global::Sungero.Commons.IVatRate",
+          "ParameterTypeFullName": "Sungero.Commons.IVatRate, Sungero.Domain.Interfaces"
+        }
+      ],
+      "Placement": "Shared",
+      "ReturnType": "global::System.Double",
+      "ReturnTypeFullName": "System.Double"
+    },
+    {
+      "Name": "GetWildcardQuery",
+      "Parameters": [
+        {
+          "Name": "fieldName",
+          "ParameterType": "global::System.String",
+          "ParameterTypeFullName": "System.String"
+        },
+        {
+          "Name": "fieldValue",
+          "ParameterType": "global::System.String",
+          "ParameterTypeFullName": "System.String"
+        }
+      ],
+      "ReturnType": "global::System.String",
+      "ReturnTypeFullName": "System.String"
+    },
+    {
+      "Name": "IsAllExternalEntityLinksDeleted",
+      "Parameters": [
+        {
+          "Name": "entity",
+          "ParameterType": "global::Sungero.Domain.Shared.IEntity",
+          "ParameterTypeFullName": "Sungero.Domain.Shared.IEntity, Sungero.Domain.Shared"
+        }
+      ],
+      "ReturnType": "global::System.Boolean",
+      "ReturnTypeFullName": "System.Boolean"
+    },
+    {
+      "Name": "IsElasticsearchConfigured",
+      "ReturnType": "global::System.Boolean",
+      "ReturnTypeFullName": "System.Boolean"
+    },
+    {
+      "Name": "IsElasticsearchEnabled",
+      "ReturnType": "global::System.Boolean",
+      "ReturnTypeFullName": "System.Boolean"
+    },
+    {
+      "Name": "IsIndexExist",
+      "Parameters": [
+        {
+          "Name": "indexName",
+          "ParameterType": "global::System.String",
+          "ParameterTypeFullName": "System.String"
+        }
+      ],
+      "ReturnType": "global::System.Boolean",
+      "ReturnTypeFullName": "System.Boolean"
+    },
+    {
+      "Name": "IsIntelligenceEnabled",
+      "ReturnType": "global::System.Boolean",
+      "ReturnTypeFullName": "System.Boolean"
+    },
+    {
+      "Name": "IsServerCultureRussian",
+      "ReturnType": "global::System.Boolean",
+      "ReturnTypeFullName": "System.Boolean"
+    },
+    {
+      "Name": "SynonymsParse",
+      "Parameters": [
+        {
+          "Name": "synonyms",
+          "ParameterType": "global::System.String",
+          "ParameterTypeFullName": "System.String"
+        }
+      ],
+      "ReturnType": "global::System.String",
+      "ReturnTypeFullName": "System.String"
+    },
+    {
+      "Name": "TrimSpecialSymbols",
+      "Parameters": [
+        {
+          "Name": "stringToConvert",
+          "ParameterType": "global::System.String",
+          "ParameterTypeFullName": "System.String"
+        }
+      ],
+      "ReturnType": "global::System.String",
+      "ReturnTypeFullName": "System.String"
+    }
+  ],
+  "PublicStructures": [
+    {
+      "Name": "ArioFact",
+      "IsPublic": true,
+      "Properties": [
+        {
+          "Name": "Id",
+          "TypeFullName": "global::System.Int32"
+        },
+        {
+          "Name": "Name",
+          "IsNullable": true,
+          "TypeFullName": "global::System.String"
+        },
+        {
+          "Name": "Fields",
+          "IsList": true,
+          "IsNullable": true,
+          "TypeFullName": "global::System.Collections.Generic.List<global::Sungero.Commons.Structures.Module.IArioFactField>"
+        }
+      ],
+      "StructureNamespace": "Sungero.Commons.Structures.Module"
+    },
+    {
+      "Name": "ArioFactElasticsearchData",
+      "IsPublic": true,
+      "Properties": [
+        {
+          "Name": "Fact",
+          "IsNullable": true,
+          "TypeFullName": "global::Sungero.Commons.Structures.Module.IArioFact"
+        },
+        {
+          "Name": "EntityName",
+          "IsNullable": true,
+          "TypeFullName": "global::System.String"
+        },
+        {
+          "Name": "Queries",
+          "IsList": true,
+          "IsNullable": true,
+          "TypeFullName": "global::System.Collections.Generic.List<global::Sungero.Commons.Structures.Module.IArioFieldElasticsearchData>"
+        },
+        {
+          "Name": "ScoredResultsLimit",
+          "TypeFullName": "global::System.Int32"
+        },
+        {
+          "Name": "EntityIds",
+          "IsList": true,
+          "IsNullable": true,
+          "TypeFullName": "global::System.Collections.Generic.List<global::System.Int64>"
+        },
+        {
+          "Name": "EntityId",
+          "TypeFullName": "global::System.Int64"
+        },
+        {
+          "Name": "AggregateFieldsProbability",
+          "TypeFullName": "global::System.Double"
+        },
+        {
+          "Name": "FoundedFields",
+          "IsList": true,
+          "IsNullable": true,
+          "TypeFullName": "global::System.Collections.Generic.List<global::Sungero.Commons.Structures.Module.IArioFactField>"
+        }
+      ],
+      "StructureNamespace": "Sungero.Commons.Structures.Module"
+    },
+    {
+      "Name": "ArioFactField",
+      "IsPublic": true,
+      "Properties": [
+        {
+          "Name": "Id",
+          "TypeFullName": "global::System.Int32"
+        },
+        {
+          "Name": "Name",
+          "IsNullable": true,
+          "TypeFullName": "global::System.String"
+        },
+        {
+          "Name": "Value",
+          "IsNullable": true,
+          "TypeFullName": "global::System.String"
+        },
+        {
+          "Name": "Probability",
+          "TypeFullName": "global::System.Double"
+        }
+      ],
+      "StructureNamespace": "Sungero.Commons.Structures.Module"
+    },
+    {
+      "Name": "ArioFieldElasticsearchData",
+      "IsPublic": true,
+      "Properties": [
+        {
+          "Name": "ArioField",
+          "IsNullable": true,
+          "TypeFullName": "global::Sungero.Commons.Structures.Module.IArioFactField"
+        },
+        {
+          "Name": "EntityName",
+          "IsNullable": true,
+          "TypeFullName": "global::System.String"
+        },
+        {
+          "Name": "ElasticFieldName",
+          "IsNullable": true,
+          "TypeFullName": "global::System.String"
+        },
+        {
+          "Name": "SearchType",
+          "IsNullable": true,
+          "TypeFullName": "global::System.String"
+        },
+        {
+          "Name": "SearchValue",
+          "IsNullable": true,
+          "TypeFullName": "global::System.String"
+        },
+        {
+          "Name": "IsClosedEntitySearch",
+          "TypeFullName": "global::System.Boolean"
+        },
+        {
+          "Name": "IsRefineSearchOnly",
+          "TypeFullName": "global::System.Boolean"
+        },
+        {
+          "Name": "RefineSearchFilter",
+          "IsNullable": true,
+          "TypeFullName": "global::System.String"
+        },
+        {
+          "Name": "ScoreMinLimit",
+          "TypeFullName": "global::System.Double"
+        },
+        {
+          "Name": "ScoreLimitPercent",
+          "TypeFullName": "global::System.Double"
+        },
+        {
+          "Name": "ScoredResultsLimit",
+          "TypeFullName": "global::System.Int32"
+        },
+        {
+          "Name": "EntityIds",
+          "IsList": true,
+          "IsNullable": true,
+          "TypeFullName": "global::System.Collections.Generic.List<global::System.Int64>"
+        },
+        {
+          "Name": "EntityId",
+          "TypeFullName": "global::System.Int64"
+        },
+        {
+          "Name": "EntityCount",
+          "TypeFullName": "global::System.Int32"
+        }
+      ],
+      "StructureNamespace": "Sungero.Commons.Structures.Module"
+    },
+    {
+      "Name": "ArioSignature",
+      "IsPublic": true,
+      "Properties": [
+        {
+          "Name": "Probability",
+          "TypeFullName": "global::System.Double"
+        },
+        {
+          "Name": "Position",
+          "IsNullable": true,
+          "TypeFullName": "global::System.String"
+        },
+        {
+          "Name": "Angle",
+          "TypeFullName": "global::System.Double"
+        }
+      ],
+      "StructureNamespace": "Sungero.Commons.Structures.Module"
+    },
+    {
+      "Name": "ArioStamp",
+      "IsPublic": true,
+      "Properties": [
+        {
+          "Name": "Probability",
+          "TypeFullName": "global::System.Double"
+        },
+        {
+          "Name": "Position",
+          "IsNullable": true,
+          "TypeFullName": "global::System.String"
+        },
+        {
+          "Name": "Angle",
+          "TypeFullName": "global::System.Double"
+        }
+      ],
+      "StructureNamespace": "Sungero.Commons.Structures.Module"
+    }
+  ],
+  "ResourceInterfaceAssemblyName": "Sungero.Domain.Interfaces",
+  "ResourceInterfaceNamespace": "Sungero.Commons",
+  "ResourcesKeys": [
+    "DuplicateDetected",
+    "DuplicateNotFound",
+    "Empty",
+    "HasLinkedExternalEntities",
+    "RequiredPropertiesNotFilledIn",
+    "LinkedEntityLocked",
+    "CreateNewCityFunctionName"
+  ],
+  "ServerAssemblyName": "Sungero.Commons.Server",
+  "ServerNamespace": "Sungero.Commons.Server",
+  "SharedAssemblyName": "Sungero.Commons.Shared",
+  "SharedNamespace": "Sungero.Commons.Shared",
+  "SpecialFolders": [],
+  "Version": "4.11.37.0",
+  "Widgets": [],
+  "Versions": [
+    {
+      "Type": "ModuleMetadata",
+      "Number": 8
+    },
+    {
+      "Type": "DomainApi",
+      "Number": 3
+    }
+  ]
+}

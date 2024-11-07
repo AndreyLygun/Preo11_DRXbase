@@ -1,0 +1,117 @@
+{
+  "Action_Description_05298e4aac3e4966995ac915e895654e": {
+    "default": "Information about companies that our company deals with.",
+    "ru-RU": "Справочник организаций-контрагентов.",
+    "hash": "fd33d6a127f564ceb39e200f06df769d"
+  },
+  "Action_Description_1086016c60e04d16a2ee3fd88fac13f3": {
+    "default": "All representatives of your counterparties so you can contact them quickly.",
+    "ru-RU": "Информация о контактных лицах организаций.",
+    "hash": "b884850a87270ce9a4fc6e8834944a36"
+  },
+  "Action_Description_20a6435e60744a669c583ddd9518c3ff": {
+    "default": "Quick search for documents related to a project.",
+    "ru-RU": "Быстрый поиск документов, относящихся к проектам.",
+    "hash": "cca0805b2c0d18e341a3d699de76e0bb"
+  },
+  "Action_Description_3677b345ad574048a9e0371cc6106912": {
+    "default": "Create new project documents (charter, scheduled plan, report, technical requirements), meeting minutes, etc.",
+    "ru-RU": "Быстрое создание проектных документов (уставов, планов-графиков, отчетов, технических заданий), протоколов совещаний и других документов по проектам.",
+    "hash": "34390a1883ca57983810b71a4e1b0418"
+  },
+  "Action_Description_a276f4cc87f54f52bdb12ed41f599b15": {
+    "default": "All projects of the company that can be sorted by type, manager, duration, etc.",
+    "ru-RU": "Перечень проектов компании с разбивкой по видам, руководителям, срокам и т.д.",
+    "hash": "73c4389433982cf8892e04025d3547de"
+  },
+  "Action_Description_c9fbcdb4e8a0493e8f710a590fbdb345": {
+    "default": "Information about employees.",
+    "ru-RU": "Справочник сотрудников",
+    "hash": "f6eab669acc946f93900c4857e459ef2"
+  },
+  "Action_Description_f6624e96e38f4151bf51d88743dd6d13": {
+    "default": "Classifies projects by its targets and objectives.",
+    "ru-RU": "Классификация проектов по направлениям деятельности компании (инвестиционные проекты, проекты по развитию и др.)",
+    "hash": "7a422dd5ba34a9eca3c494f880766f8f"
+  },
+  "Action_Title_05298e4aac3e4966995ac915e895654e": {
+    "default": "Companies",
+    "ru-RU": "Организации",
+    "hash": "2a40c8a277ebc700e9f4c92c2b3b8186"
+  },
+  "Action_Title_1086016c60e04d16a2ee3fd88fac13f3": {
+    "default": "Contact Persons",
+    "ru-RU": "Контакты",
+    "hash": "e07b077cefa44d1fd9fa0412a53214fd"
+  },
+  "Action_Title_20a6435e60744a669c583ddd9518c3ff": {
+    "default": "Project Documents",
+    "ru-RU": "Документы по проектам",
+    "hash": "6bc661ecb0dfbf40952f8918007eb141"
+  },
+  "Action_Title_3677b345ad574048a9e0371cc6106912": {
+    "default": "New Document",
+    "ru-RU": "Создать документ",
+    "hash": "505c1f1703ca0d50878e24fafa099a10"
+  },
+  "Action_Title_9f34a39d1c3041199fab08f7fc33765c": {
+    "default": "New Project",
+    "ru-RU": "Создать проект",
+    "hash": "6a4c73a47e88e2ec3c15886bcb08afa8"
+  },
+  "Action_Title_a276f4cc87f54f52bdb12ed41f599b15": {
+    "default": "Register of Projects",
+    "ru-RU": "Реестр проектов",
+    "hash": "797456f31e9ebeeab01df119c9459433"
+  },
+  "Action_Title_c9fbcdb4e8a0493e8f710a590fbdb345": {
+    "default": "Employees",
+    "ru-RU": "Сотрудники",
+    "hash": "cc22a93735c0da53f53ef9e61581acea"
+  },
+  "Action_Title_f6624e96e38f4151bf51d88743dd6d13": {
+    "default": "Project Kinds",
+    "ru-RU": "Виды проектов",
+    "hash": "dfa74afa4e675564bb492f9c26d68064"
+  },
+  "Group_Title_1e6b57f2bfc44a899bfc7e6f94be8ad7": {
+    "default": "Related Information",
+    "ru-RU": "Связанная информация",
+    "hash": "4f3a6a60b3de9b5162f268b4b1aa8fdf"
+  },
+  "Group_Title_4ad7c683b09641c1980455f58f08ea3d": {
+    "default": "Documents",
+    "ru-RU": "Документы",
+    "hash": "81aea7b35bf41d1b67b701e1fba4026b"
+  },
+  "Group_Title_92fbaa9e04bf4d21b0f33a64c1681bf9": {
+    "default": "Settings",
+    "ru-RU": "Настройки",
+    "hash": "57b7fc0bc0d4865c3c17bc04940219ff"
+  },
+  "Group_Title_fbae626ff2614a63a99c719f82133871": {
+    "default": "Projects",
+    "ru-RU": "Проекты",
+    "hash": "62dfceb68a22a316f5dca2ac7073d448"
+  },
+  "Header_Description_59c8a1ac75954cb1b94d3eed6d10e2a5": {
+    "default": "This module is where you can manage projects and project documents.",
+    "ru-RU": "Модуль предназначен для управления проектами и проектной документацией.",
+    "hash": "32813afc1ab6576ec1869428a08ab196"
+  },
+  "Header_Title_59c8a1ac75954cb1b94d3eed6d10e2a5": {
+    "default": "Project Management",
+    "ru-RU": "Управление проектами",
+    "hash": "8f385be92b420255cb7f5d2e0c24c85d"
+  },
+  "Name": {
+    "default": "Projects",
+    "ru-RU": "Проекты",
+    "hash": "62dfceb68a22a316f5dca2ac7073d448"
+  },
+  "Tab_Title_6fa3fb470e974111a837d62db2537860": {
+    "default": "Projects",
+    "ru-RU": "Проекты",
+    "hash": "62dfceb68a22a316f5dca2ac7073d448"
+  }
+}

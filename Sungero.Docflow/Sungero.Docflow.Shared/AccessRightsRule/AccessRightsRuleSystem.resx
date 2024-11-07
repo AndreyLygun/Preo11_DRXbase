@@ -1,0 +1,160 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Property_Name" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="DisplayName" xml:space="preserve">
+    <value>Rule to Grant Access</value>
+  </data>
+  <data name="AccusativeDisplayName" xml:space="preserve">
+    <value>Rule to Grant Access</value>
+  </data>
+  <data name="CollectionDisplayName" xml:space="preserve">
+    <value>Rules to Grant Access</value>
+  </data>
+  <data name="Property_DocumentKinds" xml:space="preserve">
+    <value>Document kinds</value>
+  </data>
+  <data name="Property_BusinessUnits" xml:space="preserve">
+    <value>Business units</value>
+  </data>
+  <data name="Property_Departments" xml:space="preserve">
+    <value>Departments</value>
+  </data>
+  <data name="Property_DocumentGroups" xml:space="preserve">
+    <value>Contract categories</value>
+  </data>
+  <data name="Property_GrantRightsOnLeadingDocument" xml:space="preserve">
+    <value>Grant the same access rights to related addenda, supp. agreements, and financial documents</value>
+  </data>
+  <data name="Property_Note" xml:space="preserve">
+    <value>Note</value>
+  </data>
+  <data name="Property_Members" xml:space="preserve">
+    <value>Groups and users</value>
+  </data>
+  <data name="ControlGroup_a234c13e63554416b19adb6e8fd4f1b5" xml:space="preserve">
+    <value>Rule</value>
+  </data>
+  <data name="ControlGroup_2a0e5cce66f447e9beb7ac6b01aec715" xml:space="preserve">
+    <value>Main</value>
+  </data>
+  <data name="ControlGroup_d7e18ccdbe604ae1bb0c51b5ada78be3" xml:space="preserve">
+    <value>Criteria</value>
+  </data>
+  <data name="ControlGroup_5e623d993549456a8fbf4e04c60e3d4a" xml:space="preserve">
+    <value>Grant Access</value>
+  </data>
+  <data name="Property_Modified" xml:space="preserve">
+    <value>Modified</value>
+  </data>
+  <data name="ControlGroup_20990f4fc809490fa38b95f19b509048" xml:space="preserve">
+    <value>Note</value>
+  </data>
+  <data name="FilterPanel_Status_1d31f344378142438e97df8aa6e51ae8" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="FilterPanel_Active_2cac9f0f39fe484ab940c215ca20ba42" xml:space="preserve">
+    <value>Active</value>
+  </data>
+  <data name="FilterPanel_Closed_b342e0dfd34446768d571d285ea76db3" xml:space="preserve">
+    <value>Closed</value>
+  </data>
+  <data name="FilterPanel_Criteria_d54b5f3c19184494bfb0149c6e8e9aad" xml:space="preserve">
+    <value>Criteria</value>
+  </data>
+  <data name="FilterPanel_BusinessUnit_1b780081d98f4a67996b613978a35f9f" xml:space="preserve">
+    <value>Business unit</value>
+  </data>
+  <data name="FilterPanel_DocumentKind_f939d8d9ba254eb3bb2b28b54e92ec19" xml:space="preserve">
+    <value>Document kind</value>
+  </data>
+  <data name="FilterPanel_Department_9d15d857ea4a4e7b8630a12bd87a91a6" xml:space="preserve">
+    <value>Department</value>
+  </data>
+  <data name="Property_GrantRightsOnExistingDocuments" xml:space="preserve">
+    <value>Bulk grant access rights to existing documents</value>
+  </data>
+  <data name="AdditionalInfoTemplate" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Property_BulkProcessingState" xml:space="preserve">
+    <value>Bulk assign access</value>
+  </data>
+  <data name="Enum_BulkProcessingState_InProcess" xml:space="preserve">
+    <value>In process</value>
+  </data>
+  <data name="Enum_BulkProcessingState_Planned" xml:space="preserve">
+    <value>Scheduled</value>
+  </data>
+  <data name="Property_LaunchId" xml:space="preserve">
+    <value>Launch ID</value>
+  </data>
+  <data name="Action_CancelBulkProcessing" xml:space="preserve">
+    <value>Stop Assigning Access</value>
+  </data>
+  <data name="Action_CancelBulkProcessingDescription" xml:space="preserve">
+    <value>Stop bulk assigning access to existing documents</value>
+  </data>
+  <data name="Action_CancelBulkProcessingHint" xml:space="preserve">
+    <value>Stop bulk assigning access to existing documents</value>
+  </data>
+</root>

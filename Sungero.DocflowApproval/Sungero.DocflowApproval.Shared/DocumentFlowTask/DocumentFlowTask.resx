@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Confirmation" xml:space="preserve">
+    <value>Confirmation</value>
+  </data>
+  <data name="EmptyAbortingReason" xml:space="preserve">
+    <value>Specify the reason for task abortion.</value>
+  </data>
+  <data name="CantUpdateTask" xml:space="preserve">
+    <value>The task has been changed. Close the confirmation dialog box and abort the task again.</value>
+  </data>
+  <data name="DocumentStateWillBeUpdatedLater" xml:space="preserve">
+    <value>Document lifecycle status will be updated soon.</value>
+  </data>
+  <data name="AbortNoticeSubject" xml:space="preserve">
+    <value>Task for approval was aborted</value>
+  </data>
+  <data name="AbortApprovalTask" xml:space="preserve">
+    <value>Aborted</value>
+  </data>
+  <data name="CantSendTaskByNonEmployee" xml:space="preserve">
+    <value>Only employees can send the task. Log on to the system by using an employee's account.</value>
+  </data>
+  <data name="ApprovalText" xml:space="preserve">
+    <value>Process the document in accordance with document process regulations.</value>
+  </data>
+  <data name="TaskSubject" xml:space="preserve">
+    <value>Process-based approval: {0}</value>
+  </data>
+  <data name="ProcessBasedApproval" xml:space="preserve">
+    <value>Process-based approval</value>
+  </data>
+  <data name="BaseProcess" xml:space="preserve">
+    <value>Process: </value>
+  </data>
+  <data name="DraftTaskCreated" xml:space="preserve">
+    <value>Draft task created</value>
+  </data>
+  <data name="DocumentIsSentForApprovalByProcess" xml:space="preserve">
+    <value>Document is sent for approval by process</value>
+  </data>
+  <data name="FailedToComputeBlockPerformer" xml:space="preserve">
+    <value>Cannot calculate the performer of block "{0}". Check the "Signed by" field in the document card or contact your system administrator.</value>
+  </data>
+  <data name="BlockPerformerHasNoRightsToApproveDocument" xml:space="preserve">
+    <value>Performer {0} of block "{1}" does not have rights to sign the document with the "Approve" result. Contact your system administrator.</value>
+  </data>
+  <data name="SaveDocumentsBeforeStart" xml:space="preserve">
+    <value>To start the task, save the document and its addenda.</value>
+  </data>
+  <data name="GetStateViewFunctionName" xml:space="preserve">
+    <value>Task information</value>
+  </data>
+  <data name="GetStateViewFunctionDescription" xml:space="preserve">
+    <value>Display summary on task and its assignments</value>
+  </data>
+</root>

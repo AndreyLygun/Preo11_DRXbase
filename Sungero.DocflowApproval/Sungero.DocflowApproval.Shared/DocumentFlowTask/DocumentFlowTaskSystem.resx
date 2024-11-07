@@ -1,0 +1,178 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="DisplayName" xml:space="preserve">
+    <value>Process-based approval task</value>
+  </data>
+  <data name="AccusativeDisplayName" xml:space="preserve">
+    <value>Process-based approval task</value>
+  </data>
+  <data name="CollectionDisplayName" xml:space="preserve">
+    <value>Process-based approval tasks</value>
+  </data>
+  <data name="AttachmentGroup_DocumentGroupTitle" xml:space="preserve">
+    <value>Document</value>
+  </data>
+  <data name="AttachmentGroup_DocumentGroupInformationMessage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Action_StartHint" xml:space="preserve">
+    <value>Send Document for Approval</value>
+  </data>
+  <data name="Action_StartDescription" xml:space="preserve">
+    <value>Send the document for approval and close the card</value>
+  </data>
+  <data name="Action_StartConfirmationMessage" xml:space="preserve">
+    <value>Send the document for process-based approval?</value>
+  </data>
+  <data name="Resource_035869ed2baa4573bdfe9e4f5e10c4b3" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Control_035869ed2baa4573bdfe9e4f5e10c4b3_EmptyText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Resource_74e85eafe5944dc5b4724e791948b781" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Control_74e85eafe5944dc5b4724e791948b781_EmptyText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Resource_679cef60166e482cbfa7a1ec861f0263" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Control_679cef60166e482cbfa7a1ec861f0263_EmptyText" xml:space="preserve">
+    <value>Specify observers…</value>
+  </data>
+  <data name="Action_AbortHint" xml:space="preserve">
+    <value>Abort Approval</value>
+  </data>
+  <data name="Action_AbortDescription" xml:space="preserve">
+    <value>Abort the task and all assignments within the process, and notify participants</value>
+  </data>
+  <data name="Property_AbortingReason" xml:space="preserve">
+    <value>Reason to abort task</value>
+  </data>
+  <data name="AttachmentGroup_OtherGroupTitle" xml:space="preserve">
+    <value>More</value>
+  </data>
+  <data name="AttachmentGroup_OtherGroupInformationMessage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ControlGroup_73e7c55ab14d49d89a690ed7d46bf563" xml:space="preserve">
+    <value>Main</value>
+  </data>
+  <data name="ControlGroup_3849ac3b252941c6aa0d03907f402a05" xml:space="preserve">
+    <value>Vertical Group</value>
+  </data>
+  <data name="ControlGroup_9d4733fa937d4cb1908507a06672b7c4" xml:space="preserve">
+    <value>Approvers</value>
+  </data>
+  <data name="Control_35b1e42695034fa193ddeb08014aa549_EmptyText" xml:space="preserve">
+    <value>Specify additional approvers…</value>
+  </data>
+  <data name="Property_AddApprovers" xml:space="preserve">
+    <value>Additional</value>
+  </data>
+  <data name="Action_ApprovalForm" xml:space="preserve">
+    <value>Approval Form</value>
+  </data>
+  <data name="Action_ApprovalFormDescription" xml:space="preserve">
+    <value>View approval form for the document</value>
+  </data>
+  <data name="Action_ApprovalFormHint" xml:space="preserve">
+    <value>View Approval Form</value>
+  </data>
+  <data name="Action_ApprovalFormConfirmationMessage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Action_ApprovalFormConfirmationDescription" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Ribbon_Report_833ebb2cf20e434e9c27ad1dc92113ed" xml:space="preserve">
+    <value>Report</value>
+  </data>
+  <data name="Property_DeliveryMethod" xml:space="preserve">
+    <value>Delivery method</value>
+  </data>
+  <data name="ControlGroup_d7baaeb4babd487285f355881528ee72" xml:space="preserve">
+    <value>Send Documents to Counterparty</value>
+  </data>
+  <data name="Property_ExchangeService" xml:space="preserve">
+    <value>Exchange service</value>
+  </data>
+  <data name="AttachmentGroup_AddendaGroupTitle" xml:space="preserve">
+    <value>AddendaGroup</value>
+  </data>
+  <data name="AttachmentGroup_AddendaGroupInformationMessage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ControlGroup_64b79a37e83b42e3b31305618adc47d7" xml:space="preserve">
+    <value>Other Participants</value>
+  </data>
+  <data name="Property_Addressees" xml:space="preserve">
+    <value>Addressees</value>
+  </data>
+  <data name="Control_3405460860684d0b9a2f4a694ef39e37_EmptyText" xml:space="preserve">
+    <value>Specify addressees</value>
+  </data>
+  <data name="Property_RevokedDocumentsRights" xml:space="preserve">
+    <value>Access rights to documents before limitation</value>
+  </data>
+</root>

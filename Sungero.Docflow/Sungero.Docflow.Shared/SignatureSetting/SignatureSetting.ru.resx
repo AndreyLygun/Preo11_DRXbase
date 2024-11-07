@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="NegativeAmount" xml:space="preserve">
+    <value>Сумма не может быть отрицательной.</value>
+  </data>
+  <data name="IncorrectValidDates" xml:space="preserve">
+    <value>Дата завершения действия права подписи должна быть больше даты начала.</value>
+  </data>
+  <data name="DocumentAmountLessThen" xml:space="preserve">
+    <value> - документы с суммой до {0} {1}</value>
+  </data>
+  <data name="IncorrectValidTill" xml:space="preserve">
+    <value>Период действия права подписи должен быть меньше или равен периоду действия доверенности.</value>
+  </data>
+  <data name="IncorrectDocumentType" xml:space="preserve">
+    <value>Необходимо выбрать доверенность.</value>
+  </data>
+  <data name="IncompatibleDocumentKindsExcluded" xml:space="preserve">
+    <value>Несовместимые виды документов были исключены из условий.</value>
+  </data>
+  <data name="IncompatibleCategoriesExcluded" xml:space="preserve">
+    <value>Несовместимые категории договоров были исключены из условий.</value>
+  </data>
+  <data name="DocumentCategories" xml:space="preserve">
+    <value> - категории договоров </value>
+  </data>
+  <data name="DocumentAdditionalCategories" xml:space="preserve">
+    <value> и категорией </value>
+  </data>
+  <data name="DefaultSignatureSettingNote" xml:space="preserve">
+    <value>Руководитель НОР – все документы организации</value>
+  </data>
+  <data name="Statute" xml:space="preserve">
+    <value>Устав</value>
+  </data>
+  <data name="DutiesDisplayName" xml:space="preserve">
+    <value>Должностные обязанности ({0})</value>
+  </data>
+  <data name="FormalizedPoASigningReasonDocumentName" xml:space="preserve">
+    <value>Доверенность</value>
+  </data>
+  <data name="SettingValidityPeriodShouldNotExtendDocumentValidityPeriod" xml:space="preserve">
+    <value>Период действия права подписи должен быть меньше либо равен периоду действия доверенности.</value>
+  </data>
+  <data name="SignatoryDataDoesNotMatchWithDocument" xml:space="preserve">
+    <value>Указанные данные не соответствуют документу-основанию.</value>
+  </data>
+  <data name="FormalizedPoATooManyBusinessUnits" xml:space="preserve">
+    <value>В праве подписи на основании электронной доверенности можно указать только одну нашу организацию.</value>
+  </data>
+  <data name="FormalizedPoAIsNotActive" xml:space="preserve">
+    <value>В праве подписи можно указать только действующую эл. доверенность.</value>
+  </data>
+</root>

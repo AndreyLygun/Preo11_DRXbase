@@ -1,0 +1,41 @@
+{
+  "$type": "Sungero.DataExport.ExportingObject, Sungero.DataExport",
+  "Uuid": "990954db-9589-4846-b923-cfb202492427",
+  "Recipients": {
+    "$type": "Sungero.DataExport.ExportingObject[], Sungero.DataExport",
+    "$values": [
+      {
+        "$type": "Sungero.DataExport.ExportingObject, Sungero.DataExport",
+        "Uuid": "dad38a7d-9864-4c96-94ad-f02e8f444297",
+        "ExplorerView": {
+          "$type": "Sungero.DataExport.ExportingObjectId, Sungero.DataExport",
+          "TypeGuid": "f1bc9488-3907-4e85-86aa-a37232d5a558",
+          "Identifier": "990954db-9589-4846-b923-cfb202492427"
+        },
+        "Recipient": {
+          "$type": "Sungero.DataExport.ExportingObjectId, Sungero.DataExport",
+          "TypeGuid": "5e9b55c2-c1f5-4e4f-aa09-7b6d461d87ed",
+          "Identifier": "fc4f9d00-fc90-456f-8b55-37d325b21e6d"
+        }
+      }
+    ]
+  },
+  "ModuleNameGuid": "fcc573ab-5f4e-4b20-88e8-7b1e11a7a59a",
+  "NavigationPanelCollapsed": true,
+  "ShowMainActionsPanel": true,
+  "AutoMoveToNextEntity": true,
+  "IsPreviewAndAttachmentsOnRight": true,
+  "InboxVisible": true,
+  "SentVisible": true,
+  "SubstitutionVisible": false,
+  "FavoritesVisible": true,
+  "RecDocumentsVisible": false,
+  "RecAssignmentsVisible": false,
+  "BookmarksVisible": false,
+  "PublicFoldersVisible": false,
+  "ModulesVisible": false,
+  "Priority": 0,
+  "Status": "Active",
+  "StoreAsDefaultSetting": true,
+  "StartupExplorerModule": null
+}

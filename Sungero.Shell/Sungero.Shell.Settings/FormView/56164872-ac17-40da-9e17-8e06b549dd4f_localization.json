@@ -1,0 +1,12 @@
+{
+  "Description": {
+    "en-US": "View of an assignment to process resolution for employees included in role \"Users of manager's interface\".",
+    "ru-RU": "Отображение карточки задания на обработку резолюции для пользователей, которые входят в роль \"Пользователи интерфейса для руководителей\".",
+    "hash": "1f4eccef7da3573e8da02e661a7d53df"
+  },
+  "Name": {
+    "en-US": "Assignment to process resolution (for managers)",
+    "ru-RU": "Задание на обработку резолюции (для руководителей)",
+    "hash": "41a9a047c4103e6d0cfca7a01dc595c9"
+  }
+}

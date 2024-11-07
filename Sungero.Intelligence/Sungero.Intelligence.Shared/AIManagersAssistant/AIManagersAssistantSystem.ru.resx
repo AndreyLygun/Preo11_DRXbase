@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Property_Classifiers" xml:space="preserve">
+    <value>Классификаторы</value>
+  </data>
+  <data name="DisplayName" xml:space="preserve">
+    <value>Виртуальный ассистент</value>
+  </data>
+  <data name="AccusativeDisplayName" xml:space="preserve">
+    <value>Виртуального ассистента</value>
+  </data>
+  <data name="CollectionDisplayName" xml:space="preserve">
+    <value>Виртуальные ассистенты</value>
+  </data>
+  <data name="Form_5d99880ab8e640b4b5cce5d4b836d034" xml:space="preserve">
+    <value>Дополнительно</value>
+  </data>
+  <data name="Action_UnpublishClassifierModel" xml:space="preserve">
+    <value>Сбросить результаты обучения</value>
+  </data>
+  <data name="Action_UnpublishClassifierModelHint" xml:space="preserve">
+    <value>Сбросить модель классификатора поручений</value>
+  </data>
+  <data name="Action_UnpublishClassifierModelDescription" xml:space="preserve">
+    <value>Удаление данных, на которых обучался виртуальный ассистент.</value>
+  </data>
+  <data name="ControlGroup_7358ed54176d460abd2286072e84017a" xml:space="preserve">
+    <value>Параметры классификаторов Ario</value>
+  </data>
+  <data name="Ribbon_TrainingCommands_c2b1aee9062a434f893a98d1dea21083" xml:space="preserve">
+    <value>Обучение</value>
+  </data>
+  <data name="Action_TrainClassifierModel" xml:space="preserve">
+    <value>Обучить</value>
+  </data>
+  <data name="Action_TrainClassifierModelHint" xml:space="preserve">
+    <value>Подготовить данные для обучения виртуального ассистента</value>
+  </data>
+  <data name="Action_TrainClassifierModelDescription" xml:space="preserve">
+    <value>Подготовка данных для обучения виртуального ассистента. Предыдущие данные будут удалены.</value>
+  </data>
+</root>

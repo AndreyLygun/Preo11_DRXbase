@@ -1,0 +1,827 @@
+{
+  "$type": "Sungero.Metadata.ModuleMetadata, Sungero.Metadata",
+  "NameGuid": "1ecb3185-14ae-422d-99c6-babcf2ab059f",
+  "Name": "PowerOfAttorneyCore",
+  "AsyncHandlers": [],
+  "ClientAssemblyName": "Sungero.PowerOfAttorneyCore.Client",
+  "ClientBaseAssemblyName": "Sungero.PowerOfAttorneyCore.ClientBase",
+  "ClientBaseNamespace": "Sungero.PowerOfAttorneyCore.ClientBase",
+  "ClientNamespace": "Sungero.PowerOfAttorneyCore.Client",
+  "Code": "PoaCore",
+  "CompanyCode": "Sungero",
+  "Cover": {
+    "NameGuid": "d64fac48-5678-41ce-b6f0-a76c7a21bf10",
+    "Actions": [],
+    "Background": null,
+    "Footer": {
+      "NameGuid": "2203aed5-d0fe-41a2-9b76-064a83318e79",
+      "BackgroundPosition": "Stretch"
+    },
+    "Groups": [],
+    "Header": {
+      "NameGuid": "db6f4194-88cf-4647-94b4-e66795736302",
+      "BackgroundPosition": "Stretch"
+    },
+    "RemoteControls": [],
+    "Tabs": []
+  },
+  "Dependencies": [
+    {
+      "Id": "e4fe1153-919e-4732-aadc-2c8e9b5c0b5a",
+      "IsSolutionModule": true,
+      "MaxVersion": "",
+      "MinVersion": ""
+    }
+  ],
+  "ExplorerTreeOrder": [
+    {
+      "ItemId": "6858d083-8a73-4e42-8997-3319584c1d4f"
+    },
+    {
+      "ItemId": "bc50cd7f-9a13-4d02-aa8b-fcc4d76c25d8",
+      "PreviousItemId": "6858d083-8a73-4e42-8997-3319584c1d4f"
+    },
+    {
+      "ItemId": "bfef027a-cf5f-4dac-9b16-a05bcf6e863c",
+      "PreviousItemId": "bc50cd7f-9a13-4d02-aa8b-fcc4d76c25d8"
+    },
+    {
+      "ItemId": "037ffabf-759b-4c49-951e-aa03767bbad5",
+      "PreviousItemId": "bfef027a-cf5f-4dac-9b16-a05bcf6e863c"
+    }
+  ],
+  "HandledEvents": [
+    "InitializingServer"
+  ],
+  "IconResourcesKeys": [],
+  "Importance": "Medium",
+  "InterfaceAssemblyName": "Sungero.Domain.Interfaces",
+  "InterfaceNamespace": "Sungero.PowerOfAttorneyCore",
+  "IsolatedAssemblyName": "Sungero.PowerOfAttorneyCore.Isolated",
+  "IsolatedNamespace": "Sungero.PowerOfAttorneyCore.Isolated",
+  "IsVisible": false,
+  "Libraries": [
+    {
+      "NameGuid": "7b0a54eb-3f7c-4710-903a-f045d9516de1",
+      "Name": "PowerOfAttorneyServiceExtensions",
+      "Scope": "Both"
+    }
+  ],
+  "Overridden": [
+    "IsVisible"
+  ],
+  "PublicConstants": [
+    {
+      "Name": "Active",
+      "ParentClasses": [
+        "Module",
+        "PowerOfAttorneyStateStatus"
+      ],
+      "TypeName": "System.String",
+      "Value": "\"Active\""
+    },
+    {
+      "Name": "ConnectionError",
+      "ParentClasses": [
+        "Module",
+        "PowerOfAttorneyServiceErrors"
+      ],
+      "TypeName": "System.String",
+      "Value": "\"ConnectionError\""
+    },
+    {
+      "Name": "Created",
+      "ParentClasses": [
+        "Module",
+        "PowerOfAttorneyStateStatus"
+      ],
+      "TypeName": "System.String",
+      "Value": "\"Created\""
+    },
+    {
+      "Name": "Delivered",
+      "ParentClasses": [
+        "Module",
+        "PowerOfAttorneyDeliveryStatus"
+      ],
+      "TypeName": "System.String",
+      "Value": "\"Delivered\""
+    },
+    {
+      "Name": "DoNotDeliver",
+      "ParentClasses": [
+        "Module",
+        "PowerOfAttorneyDeliveryStatus"
+      ],
+      "TypeName": "System.String",
+      "Value": "\"DoNotDeliver\""
+    },
+    {
+      "Name": "EmptyRequestParametersError",
+      "ParentClasses": [
+        "Module"
+      ],
+      "TypeName": "System.String",
+      "Value": "\"EmptyRequestParametersError\""
+    },
+    {
+      "Name": "Error",
+      "ParentClasses": [
+        "Module",
+        "PowerOfAttorneyDeliveryStatus"
+      ],
+      "TypeName": "System.String",
+      "Value": "\"Error\""
+    },
+    {
+      "Name": "Expired",
+      "ParentClasses": [
+        "Module",
+        "PowerOfAttorneyStateStatus"
+      ],
+      "TypeName": "System.String",
+      "Value": "\"Expired\""
+    },
+    {
+      "Name": "FtsSystemName",
+      "ParentClasses": [
+        "Module"
+      ],
+      "TypeName": "System.String",
+      "Value": "\"fns\""
+    },
+    {
+      "Name": "NetworkError",
+      "ParentClasses": [
+        "Module",
+        "PowerOfAttorneyServiceErrors"
+      ],
+      "TypeName": "System.String",
+      "Value": "\"NetworkError\""
+    },
+    {
+      "Name": "NotFound",
+      "ParentClasses": [
+        "Module",
+        "PowerOfAttorneyStateStatus"
+      ],
+      "TypeName": "System.String",
+      "Value": "\"NotFound\""
+    },
+    {
+      "Name": "PoANotFound",
+      "ParentClasses": [
+        "Module",
+        "PowerOfAttorneyServiceErrors"
+      ],
+      "TypeName": "System.String",
+      "Value": "\"poaNotFound\""
+    },
+    {
+      "Name": "PoANotFoundErrorCode",
+      "ParentClasses": [
+        "Module"
+      ],
+      "TypeName": "System.String",
+      "Value": "\"PoaNotFound\""
+    },
+    {
+      "Name": "ProcessingError",
+      "ParentClasses": [
+        "Module",
+        "PowerOfAttorneyServiceErrors"
+      ],
+      "TypeName": "System.String",
+      "Value": "\"ProcessingError\""
+    },
+    {
+      "Name": "Queued",
+      "ParentClasses": [
+        "Module",
+        "PowerOfAttorneyDeliveryStatus"
+      ],
+      "TypeName": "System.String",
+      "Value": "\"Queued\""
+    },
+    {
+      "Name": "Revoked",
+      "ParentClasses": [
+        "Module",
+        "PowerOfAttorneyStateStatus"
+      ],
+      "TypeName": "System.String",
+      "Value": "\"Revoked\""
+    },
+    {
+      "Name": "Source",
+      "ParentClasses": [
+        "Module",
+        "PowerOfAttorneyDeliveryStatus"
+      ],
+      "TypeName": "System.String",
+      "Value": "\"Source\""
+    },
+    {
+      "Name": "StateIsOutdated",
+      "ParentClasses": [
+        "Module",
+        "PowerOfAttorneyServiceErrors"
+      ],
+      "TypeName": "System.String",
+      "Value": "\"stateIsOutdated\""
+    }
+  ],
+  "PublicFunctions": [
+    {
+      "Name": "CheckPowerOfAttorneyState",
+      "Parameters": [
+        {
+          "Name": "businessUnit",
+          "ParameterType": "global::Sungero.Company.IBusinessUnit",
+          "ParameterTypeFullName": "Sungero.Company.IBusinessUnit, Sungero.Domain.Interfaces"
+        },
+        {
+          "Name": "unifiedRegistrationNumber",
+          "ParameterType": "global::System.String",
+          "ParameterTypeFullName": "System.String"
+        },
+        {
+          "Name": "agent",
+          "ParameterType": "global::Sungero.PowerOfAttorneyCore.Structures.Module.IAgent",
+          "ParameterTypeFullName": "Sungero.PowerOfAttorneyCore.Structures.Module.IAgent"
+        },
+        {
+          "Name": "powerOfAttorneyXml",
+          "ParameterType": "System.Byte[]"
+        },
+        {
+          "Name": "powerOfAttorneySignature",
+          "ParameterType": "System.Byte[]"
+        }
+      ],
+      "ReturnType": "global::Sungero.PowerOfAttorneyCore.Structures.Module.IPowerOfAttorneyValidationState",
+      "ReturnTypeFullName": "Sungero.PowerOfAttorneyCore.Structures.Module.IPowerOfAttorneyValidationState"
+    },
+    {
+      "Name": "CheckPowerOfAttorneyState",
+      "Parameters": [
+        {
+          "Name": "businessUnit",
+          "ParameterType": "global::Sungero.Company.IBusinessUnit",
+          "ParameterTypeFullName": "Sungero.Company.IBusinessUnit, Sungero.Domain.Interfaces"
+        },
+        {
+          "Name": "unifiedRegistrationNumber",
+          "ParameterType": "global::System.String",
+          "ParameterTypeFullName": "System.String"
+        },
+        {
+          "Name": "mainPrincipal",
+          "ParameterType": "global::Sungero.PowerOfAttorneyCore.Structures.Module.IPrincipal",
+          "ParameterTypeFullName": "Sungero.PowerOfAttorneyCore.Structures.Module.IPrincipal"
+        },
+        {
+          "Name": "agent",
+          "ParameterType": "global::Sungero.PowerOfAttorneyCore.Structures.Module.IAgent",
+          "ParameterTypeFullName": "Sungero.PowerOfAttorneyCore.Structures.Module.IAgent"
+        },
+        {
+          "Name": "powerOfAttorneyXml",
+          "ParameterType": "System.Byte[]"
+        },
+        {
+          "Name": "powerOfAttorneySignature",
+          "ParameterType": "System.Byte[]"
+        }
+      ],
+      "ReturnType": "global::Sungero.PowerOfAttorneyCore.Structures.Module.IPowerOfAttorneyValidationState",
+      "ReturnTypeFullName": "Sungero.PowerOfAttorneyCore.Structures.Module.IPowerOfAttorneyValidationState"
+    },
+    {
+      "Name": "EnqueuePoAImportOperation",
+      "Parameters": [
+        {
+          "Name": "serviceConnection",
+          "ParameterType": "global::Sungero.PowerOfAttorneyCore.IPowerOfAttorneyServiceConnection",
+          "ParameterTypeFullName": "Sungero.PowerOfAttorneyCore.IPowerOfAttorneyServiceConnection, Sungero.Domain.Interfaces"
+        },
+        {
+          "Name": "unifiedRegistrationNumber",
+          "ParameterType": "global::System.String",
+          "ParameterTypeFullName": "System.String"
+        },
+        {
+          "Name": "principalTin",
+          "ParameterType": "global::System.String",
+          "ParameterTypeFullName": "System.String"
+        },
+        {
+          "Name": "representativeTin",
+          "ParameterType": "global::System.String",
+          "ParameterTypeFullName": "System.String"
+        }
+      ],
+      "ReturnType": "global::Sungero.PowerOfAttorneyCore.Structures.Module.IResponseResult",
+      "ReturnTypeFullName": "Sungero.PowerOfAttorneyCore.Structures.Module.IResponseResult"
+    },
+    {
+      "Name": "EnqueuePoAValidation",
+      "Parameters": [
+        {
+          "Name": "serviceConnection",
+          "ParameterType": "global::Sungero.PowerOfAttorneyCore.IPowerOfAttorneyServiceConnection",
+          "ParameterTypeFullName": "Sungero.PowerOfAttorneyCore.IPowerOfAttorneyServiceConnection, Sungero.Domain.Interfaces"
+        },
+        {
+          "Name": "businessUnit",
+          "ParameterType": "global::Sungero.Company.IBusinessUnit",
+          "ParameterTypeFullName": "Sungero.Company.IBusinessUnit, Sungero.Domain.Interfaces"
+        },
+        {
+          "Name": "unifiedRegistrationNumber",
+          "ParameterType": "global::System.String",
+          "ParameterTypeFullName": "System.String"
+        },
+        {
+          "Name": "agent",
+          "ParameterType": "global::Sungero.PowerOfAttorneyCore.Structures.Module.IAgent",
+          "ParameterTypeFullName": "Sungero.PowerOfAttorneyCore.Structures.Module.IAgent"
+        },
+        {
+          "Name": "powerOfAttorneyXml",
+          "ParameterType": "System.Byte[]"
+        },
+        {
+          "Name": "powerOfAttorneySignature",
+          "ParameterType": "System.Byte[]"
+        }
+      ],
+      "ReturnType": "global::Sungero.PowerOfAttorneyCore.Structures.Module.IResponseResult",
+      "ReturnTypeFullName": "Sungero.PowerOfAttorneyCore.Structures.Module.IResponseResult"
+    },
+    {
+      "Name": "EnqueuePoAValidation",
+      "Parameters": [
+        {
+          "Name": "serviceConnection",
+          "ParameterType": "global::Sungero.PowerOfAttorneyCore.IPowerOfAttorneyServiceConnection",
+          "ParameterTypeFullName": "Sungero.PowerOfAttorneyCore.IPowerOfAttorneyServiceConnection, Sungero.Domain.Interfaces"
+        },
+        {
+          "Name": "businessUnit",
+          "ParameterType": "global::Sungero.Company.IBusinessUnit",
+          "ParameterTypeFullName": "Sungero.Company.IBusinessUnit, Sungero.Domain.Interfaces"
+        },
+        {
+          "Name": "unifiedRegistrationNumber",
+          "ParameterType": "global::System.String",
+          "ParameterTypeFullName": "System.String"
+        },
+        {
+          "Name": "mainPrincipal",
+          "ParameterType": "global::Sungero.PowerOfAttorneyCore.Structures.Module.IPrincipal",
+          "ParameterTypeFullName": "Sungero.PowerOfAttorneyCore.Structures.Module.IPrincipal"
+        },
+        {
+          "Name": "agent",
+          "ParameterType": "global::Sungero.PowerOfAttorneyCore.Structures.Module.IAgent",
+          "ParameterTypeFullName": "Sungero.PowerOfAttorneyCore.Structures.Module.IAgent"
+        },
+        {
+          "Name": "powerOfAttorneyXml",
+          "ParameterType": "System.Byte[]"
+        },
+        {
+          "Name": "powerOfAttorneySignature",
+          "ParameterType": "System.Byte[]"
+        }
+      ],
+      "ReturnType": "global::Sungero.PowerOfAttorneyCore.Structures.Module.IResponseResult",
+      "ReturnTypeFullName": "Sungero.PowerOfAttorneyCore.Structures.Module.IResponseResult"
+    },
+    {
+      "Name": "GetActiveServiceConnections",
+      "ReturnType": "global::System.Collections.Generic.List<global::Sungero.PowerOfAttorneyCore.IPowerOfAttorneyServiceConnection>",
+      "ReturnTypeFullName": "System.Collections.Generic.List"
+    },
+    {
+      "Name": "GetOrganizationIdFromService",
+      "IsRemote": true,
+      "Parameters": [
+        {
+          "Name": "poaServiceConnection",
+          "ParameterType": "global::Sungero.PowerOfAttorneyCore.IPowerOfAttorneyServiceConnection",
+          "ParameterTypeFullName": "Sungero.PowerOfAttorneyCore.IPowerOfAttorneyServiceConnection, Sungero.Domain.Interfaces"
+        }
+      ],
+      "Placement": "Shared",
+      "ReturnType": "global::System.String",
+      "ReturnTypeFullName": "System.String"
+    },
+    {
+      "Name": "GetPoAImportOperationState",
+      "Parameters": [
+        {
+          "Name": "serviceConnection",
+          "ParameterType": "global::Sungero.PowerOfAttorneyCore.IPowerOfAttorneyServiceConnection",
+          "ParameterTypeFullName": "Sungero.PowerOfAttorneyCore.IPowerOfAttorneyServiceConnection, Sungero.Domain.Interfaces"
+        },
+        {
+          "Name": "operationId",
+          "ParameterType": "global::System.String",
+          "ParameterTypeFullName": "System.String"
+        }
+      ],
+      "ReturnType": "global::Sungero.PowerOfAttorneyCore.Structures.Module.IResponseResult",
+      "ReturnTypeFullName": "Sungero.PowerOfAttorneyCore.Structures.Module.IResponseResult"
+    },
+    {
+      "Name": "GetPoAValidationState",
+      "Parameters": [
+        {
+          "Name": "serviceConnection",
+          "ParameterType": "global::Sungero.PowerOfAttorneyCore.IPowerOfAttorneyServiceConnection",
+          "ParameterTypeFullName": "Sungero.PowerOfAttorneyCore.IPowerOfAttorneyServiceConnection, Sungero.Domain.Interfaces"
+        },
+        {
+          "Name": "operationId",
+          "ParameterType": "global::System.String",
+          "ParameterTypeFullName": "System.String"
+        }
+      ],
+      "ReturnType": "global::Sungero.PowerOfAttorneyCore.Structures.Module.IPowerOfAttorneyValidationState",
+      "ReturnTypeFullName": "Sungero.PowerOfAttorneyCore.Structures.Module.IPowerOfAttorneyValidationState"
+    },
+    {
+      "Name": "GetPowerOfAttorneyRevocationInfo",
+      "IsRemote": true,
+      "Parameters": [
+        {
+          "Name": "serviceConnection",
+          "ParameterType": "global::Sungero.PowerOfAttorneyCore.IPowerOfAttorneyServiceConnection",
+          "ParameterTypeFullName": "Sungero.PowerOfAttorneyCore.IPowerOfAttorneyServiceConnection, Sungero.Domain.Interfaces"
+        },
+        {
+          "Name": "unifiedRegistrationNumber",
+          "ParameterType": "global::System.String",
+          "ParameterTypeFullName": "System.String"
+        }
+      ],
+      "Placement": "Shared",
+      "ReturnType": "global::Sungero.PowerOfAttorneyCore.Structures.Module.IPowerOfAttorneyRevocationInfo",
+      "ReturnTypeFullName": "Sungero.PowerOfAttorneyCore.Structures.Module.IPowerOfAttorneyRevocationInfo"
+    },
+    {
+      "Name": "GetPowerOfAttorneyServiceConnection",
+      "Parameters": [
+        {
+          "Name": "businessUnit",
+          "ParameterType": "global::Sungero.Company.IBusinessUnit",
+          "ParameterTypeFullName": "Sungero.Company.IBusinessUnit, Sungero.Domain.Interfaces"
+        }
+      ],
+      "ReturnType": "global::Sungero.PowerOfAttorneyCore.IPowerOfAttorneyServiceConnection",
+      "ReturnTypeFullName": "Sungero.PowerOfAttorneyCore.IPowerOfAttorneyServiceConnection, Sungero.Domain.Interfaces"
+    },
+    {
+      "Name": "GetPowerOfAttorneyState",
+      "Parameters": [
+        {
+          "Name": "businessUnit",
+          "ParameterType": "global::Sungero.Company.IBusinessUnit",
+          "ParameterTypeFullName": "Sungero.Company.IBusinessUnit, Sungero.Domain.Interfaces"
+        },
+        {
+          "Name": "unifiedRegistrationNumber",
+          "ParameterType": "global::System.String",
+          "ParameterTypeFullName": "System.String"
+        }
+      ],
+      "ReturnType": "global::Sungero.PowerOfAttorneyCore.Structures.Module.IPowerOfAttorneyState",
+      "ReturnTypeFullName": "Sungero.PowerOfAttorneyCore.Structures.Module.IPowerOfAttorneyState"
+    },
+    {
+      "Name": "GetRegistrationState",
+      "Parameters": [
+        {
+          "Name": "businessUnit",
+          "ParameterType": "global::Sungero.Company.IBusinessUnit",
+          "ParameterTypeFullName": "Sungero.Company.IBusinessUnit, Sungero.Domain.Interfaces"
+        },
+        {
+          "Name": "operationId",
+          "ParameterType": "global::System.String",
+          "ParameterTypeFullName": "System.String"
+        }
+      ],
+      "ReturnType": "global::Sungero.PowerOfAttorneyCore.Structures.Module.IResponseResult",
+      "ReturnTypeFullName": "Sungero.PowerOfAttorneyCore.Structures.Module.IResponseResult"
+    },
+    {
+      "Name": "GetRevocationState",
+      "Parameters": [
+        {
+          "Name": "businessUnit",
+          "ParameterType": "global::Sungero.Company.IBusinessUnit",
+          "ParameterTypeFullName": "Sungero.Company.IBusinessUnit, Sungero.Domain.Interfaces"
+        },
+        {
+          "Name": "operationId",
+          "ParameterType": "global::System.String",
+          "ParameterTypeFullName": "System.String"
+        }
+      ],
+      "ReturnType": "global::Sungero.PowerOfAttorneyCore.Structures.Module.IResponseResult",
+      "ReturnTypeFullName": "Sungero.PowerOfAttorneyCore.Structures.Module.IResponseResult"
+    },
+    {
+      "Name": "HasPowerOfAttorneyServiceConnection",
+      "Parameters": [
+        {
+          "Name": "businessUnit",
+          "ParameterType": "global::Sungero.Company.IBusinessUnit",
+          "ParameterTypeFullName": "Sungero.Company.IBusinessUnit, Sungero.Domain.Interfaces"
+        }
+      ],
+      "ReturnType": "global::System.Boolean",
+      "ReturnTypeFullName": "System.Boolean"
+    },
+    {
+      "Name": "SendPowerOfAttorneyForRegistration",
+      "Parameters": [
+        {
+          "Name": "businessUnit",
+          "ParameterType": "global::Sungero.Company.IBusinessUnit",
+          "ParameterTypeFullName": "Sungero.Company.IBusinessUnit, Sungero.Domain.Interfaces"
+        },
+        {
+          "Name": "powerOfAttorneyXml",
+          "ParameterType": "System.Byte[]"
+        },
+        {
+          "Name": "powerOfAttorneySignature",
+          "ParameterType": "System.Byte[]"
+        }
+      ],
+      "ReturnType": "global::Sungero.PowerOfAttorneyCore.Structures.Module.IResponseResult",
+      "ReturnTypeFullName": "Sungero.PowerOfAttorneyCore.Structures.Module.IResponseResult"
+    },
+    {
+      "Name": "SendPowerOfAttorneyRevocation",
+      "Parameters": [
+        {
+          "Name": "businessUnit",
+          "ParameterType": "global::Sungero.Company.IBusinessUnit",
+          "ParameterTypeFullName": "Sungero.Company.IBusinessUnit, Sungero.Domain.Interfaces"
+        },
+        {
+          "Name": "revocationXml",
+          "ParameterType": "System.Byte[]"
+        },
+        {
+          "Name": "revocationSignature",
+          "ParameterType": "System.Byte[]"
+        }
+      ],
+      "ReturnType": "global::Sungero.PowerOfAttorneyCore.Structures.Module.IResponseResult",
+      "ReturnTypeFullName": "Sungero.PowerOfAttorneyCore.Structures.Module.IResponseResult"
+    }
+  ],
+  "PublicStructures": [
+    {
+      "Name": "Agent",
+      "IsPublic": true,
+      "Properties": [
+        {
+          "Name": "Name",
+          "IsNullable": true,
+          "TypeFullName": "global::System.String"
+        },
+        {
+          "Name": "Surname",
+          "IsNullable": true,
+          "TypeFullName": "global::System.String"
+        },
+        {
+          "Name": "Middlename",
+          "IsNullable": true,
+          "TypeFullName": "global::System.String"
+        },
+        {
+          "Name": "INILA",
+          "IsNullable": true,
+          "TypeFullName": "global::System.String"
+        },
+        {
+          "Name": "TIN",
+          "IsNullable": true,
+          "TypeFullName": "global::System.String"
+        },
+        {
+          "Name": "TINUl",
+          "IsNullable": true,
+          "TypeFullName": "global::System.String"
+        },
+        {
+          "Name": "TRRC",
+          "IsNullable": true,
+          "TypeFullName": "global::System.String"
+        }
+      ],
+      "StructureNamespace": "Sungero.PowerOfAttorneyCore.Structures.Module"
+    },
+    {
+      "Name": "PowerOfAttorneyRevocationInfo",
+      "IsPublic": true,
+      "Properties": [
+        {
+          "Name": "Date",
+          "IsNullable": true,
+          "TypeFullName": "global::System.DateTime"
+        },
+        {
+          "Name": "Reason",
+          "IsNullable": true,
+          "TypeFullName": "global::System.String"
+        },
+        {
+          "Name": "ErrorType",
+          "IsNullable": true,
+          "TypeFullName": "global::System.String"
+        },
+        {
+          "Name": "ErrorCode",
+          "IsNullable": true,
+          "TypeFullName": "global::System.String"
+        }
+      ],
+      "StructureNamespace": "Sungero.PowerOfAttorneyCore.Structures.Module"
+    },
+    {
+      "Name": "PowerOfAttorneyState",
+      "IsPublic": true,
+      "Properties": [
+        {
+          "Name": "PoAStatus",
+          "IsNullable": true,
+          "TypeFullName": "global::System.String"
+        },
+        {
+          "Name": "PoADeliveryStatus",
+          "IsNullable": true,
+          "TypeFullName": "global::System.String"
+        },
+        {
+          "Name": "RevocationDeliveryStatus",
+          "IsNullable": true,
+          "TypeFullName": "global::System.String"
+        },
+        {
+          "Name": "RevocationReason",
+          "IsNullable": true,
+          "TypeFullName": "global::System.String"
+        },
+        {
+          "Name": "RevocationDate",
+          "IsNullable": true,
+          "TypeFullName": "global::System.Nullable<global::System.DateTime>"
+        },
+        {
+          "Name": "ErrorCodes",
+          "IsList": true,
+          "IsNullable": true,
+          "TypeFullName": "global::System.Collections.Generic.List<global::System.String>"
+        }
+      ],
+      "StructureNamespace": "Sungero.PowerOfAttorneyCore.Structures.Module"
+    },
+    {
+      "Name": "PowerOfAttorneyValidationState",
+      "IsPublic": true,
+      "Properties": [
+        {
+          "Name": "OperationStatus",
+          "IsNullable": true,
+          "TypeFullName": "global::System.String"
+        },
+        {
+          "Name": "Result",
+          "IsNullable": true,
+          "TypeFullName": "global::System.String"
+        },
+        {
+          "Name": "StatusCode",
+          "TypeFullName": "global::System.Int32"
+        },
+        {
+          "Name": "Errors",
+          "IsList": true,
+          "IsNullable": true,
+          "TypeFullName": "global::System.Collections.Generic.List<global::Sungero.PowerOfAttorneyCore.Structures.Module.IValidationOperationError>"
+        }
+      ],
+      "StructureNamespace": "Sungero.PowerOfAttorneyCore.Structures.Module"
+    },
+    {
+      "Name": "Principal",
+      "IsPublic": true,
+      "Properties": [
+        {
+          "Name": "TIN",
+          "IsNullable": true,
+          "TypeFullName": "global::System.String"
+        },
+        {
+          "Name": "TRRC",
+          "IsNullable": true,
+          "TypeFullName": "global::System.String"
+        }
+      ],
+      "StructureNamespace": "Sungero.PowerOfAttorneyCore.Structures.Module"
+    },
+    {
+      "Name": "ResponseResult",
+      "IsPublic": true,
+      "Properties": [
+        {
+          "Name": "OperationId",
+          "IsNullable": true,
+          "TypeFullName": "global::System.String"
+        },
+        {
+          "Name": "ErrorType",
+          "IsNullable": true,
+          "TypeFullName": "global::System.String"
+        },
+        {
+          "Name": "ErrorCode",
+          "IsNullable": true,
+          "TypeFullName": "global::System.String"
+        },
+        {
+          "Name": "StatusCode",
+          "TypeFullName": "global::System.Int32"
+        },
+        {
+          "Name": "State",
+          "IsNullable": true,
+          "TypeFullName": "global::System.String"
+        },
+        {
+          "Name": "QueueItem",
+          "IsEntity": true,
+          "IsNullable": true,
+          "TypeFullName": "global::Sungero.Docflow.IPowerOfAttorneyQueueItem"
+        }
+      ],
+      "StructureNamespace": "Sungero.PowerOfAttorneyCore.Structures.Module"
+    },
+    {
+      "Name": "ValidationOperationError",
+      "IsPublic": true,
+      "Properties": [
+        {
+          "Name": "Type",
+          "IsNullable": true,
+          "TypeFullName": "global::System.String"
+        },
+        {
+          "Name": "Code",
+          "IsNullable": true,
+          "TypeFullName": "global::System.String"
+        },
+        {
+          "Name": "Message",
+          "IsNullable": true,
+          "TypeFullName": "global::System.String"
+        }
+      ],
+      "StructureNamespace": "Sungero.PowerOfAttorneyCore.Structures.Module"
+    }
+  ],
+  "ResourceInterfaceAssemblyName": "Sungero.Domain.Interfaces",
+  "ResourceInterfaceNamespace": "Sungero.PowerOfAttorneyCore",
+  "ResourcesKeys": [
+    "PowerOfAttorneyNoConnection",
+    "ServiceConnectionNotConfigured",
+    "CreateAndShowServiceAttorneyConnectionFunctionName",
+    "CreateAndShowServiceAttorneyConnectionFunctionDescription"
+  ],
+  "ServerAssemblyName": "Sungero.PowerOfAttorneyCore.Server",
+  "ServerNamespace": "Sungero.PowerOfAttorneyCore.Server",
+  "SharedAssemblyName": "Sungero.PowerOfAttorneyCore.Shared",
+  "SharedNamespace": "Sungero.PowerOfAttorneyCore.Shared",
+  "SpecialFolders": [],
+  "Version": "4.11.37.0",
+  "Widgets": [],
+  "Versions": [
+    {
+      "Type": "ModuleMetadata",
+      "Number": 8
+    },
+    {
+      "Type": "DomainApi",
+      "Number": 3
+    }
+  ]
+}

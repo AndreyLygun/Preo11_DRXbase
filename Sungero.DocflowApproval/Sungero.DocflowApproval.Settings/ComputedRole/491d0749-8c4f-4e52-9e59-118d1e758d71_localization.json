@@ -1,0 +1,12 @@
+{
+  "Description": {
+    "default": "Employee who provides facilitating, informational, and organizational support for the members of the project to which the document is related.",
+    "ru-RU": "Сотрудник, обеспечивающий координационную, информационную и организационную поддержку участников проекта, к которому относится документ.",
+    "hash": "37e91e31cde6810aecff78503b559c77"
+  },
+  "Name": {
+    "default": "Project administrator",
+    "ru-RU": "Администратор проекта",
+    "hash": "b68ed5945f3faecf513cdda56530b9cc"
+  }
+}

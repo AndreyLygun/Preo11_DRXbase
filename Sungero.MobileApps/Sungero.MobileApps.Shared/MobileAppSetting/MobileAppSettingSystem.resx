@@ -1,0 +1,130 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Property_Employee" xml:space="preserve">
+    <value>Employee</value>
+  </data>
+  <data name="DisplayName" xml:space="preserve">
+    <value>Setting of Mobile Apps</value>
+  </data>
+  <data name="CollectionDisplayName" xml:space="preserve">
+    <value>Settings of Mobile Apps</value>
+  </data>
+  <data name="AccusativeDisplayName" xml:space="preserve">
+    <value>Setting of Mobile Apps</value>
+  </data>
+  <data name="Property_VisibleFolders" xml:space="preserve">
+    <value>List of configured folders</value>
+  </data>
+  <data name="Action_Reset" xml:space="preserve">
+    <value>Update List</value>
+  </data>
+  <data name="Action_ResetDescription" xml:space="preserve">
+    <value>Fill in the list with the employee's folders</value>
+  </data>
+  <data name="Action_ResetHint" xml:space="preserve">
+    <value>Fill in the list with employee's folders</value>
+  </data>
+  <data name="Action_ResetConfirmationMessage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Action_ResetConfirmationDescription" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Action_AddFolder" xml:space="preserve">
+    <value>Add Folder</value>
+  </data>
+  <data name="Action_AddFolderDescription" xml:space="preserve">
+    <value>Add a folder to the list of visible folders</value>
+  </data>
+  <data name="Action_AddFolderHint" xml:space="preserve">
+    <value>Add a folder to the list of visible folders</value>
+  </data>
+  <data name="Action_AddFolderConfirmationMessage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Action_AddFolderConfirmationDescription" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ControlGroup_4ed36f1394244eaca790272944c366c7" xml:space="preserve">
+    <value>List of Configured Folders</value>
+  </data>
+  <data name="Property_IsSubstitutionFoldersHidden" xml:space="preserve">
+    <value>Hide substitution folders</value>
+  </data>
+  <data name="Property_IsVisibleFoldersLimited" xml:space="preserve">
+    <value>Restrict list of employee's visible folders</value>
+  </data>
+  <data name="Property_IsVisibleFoldersLimitedDescription" xml:space="preserve">
+    <value>Description/Hint</value>
+  </data>
+  <data name="Property_IsAllFoldersOnline" xml:space="preserve">
+    <value>Set all folders from the list to online</value>
+  </data>
+  <data name="Property_IsOfflineThreads" xml:space="preserve">
+    <value>Display task thread while being offline</value>
+  </data>
+  <data name="Property_IsOfflineThreadsDescription" xml:space="preserve">
+    <value>Description/Hint</value>
+  </data>
+  <data name="ControlGroup_810c47577f97465a962b15038c3cde32" xml:space="preserve">
+    <value>Settings</value>
+  </data>
+</root>

@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<queries>
+  <query key="CreateEmployeeTable">
+    <mssql><![CDATA[CREATE TABLE {0}
+(ReportSessionId varchar(256) NOT NULL,
+EmployeeId bigint NOT NULL,
+Employee nvarchar(max) NOT NULL, 
+JobTitle nvarchar(max) NULL, 
+Department nvarchar(max) NOT NULL)]]></mssql>
+    <postgres><![CDATA[CREATE TABLE {0}
+(ReportSessionId varchar NOT NULL,
+EmployeeId bigint NOT NULL,
+Employee varchar NOT NULL, 
+JobTitle varchar NULL, 
+Department varchar NOT NULL)]]></postgres>
+  </query>
+  <query key="InsertIntoEmployeeTable">
+    <default><![CDATA[INSERT INTO {0} (ReportSessionId, EmployeeId, Employee, JobTitle, Department)
+select
+  '{1}',
+  emp.Id,
+  emp.Name,
+  pos.Name,
+  dep.Name
+from
+  Sungero_Core_Recipient emp
+  join Sungero_Core_Recipient dep on
+    emp.Department_Company_Sungero = dep.Id  
+  left join Sungero_Company_JobTitle pos on
+    emp.JobTitle_Company_Sungero = pos.Id
+where
+  emp.Discriminator = 'b7905516-2be5-4931-961c-cb38d5677565'    
+  and emp.Status = 'Active'
+  and emp.Login is not null
+  and ({2} = 0 or emp.Department_Company_Sungero = {2})]]></default>
+  </query>
+  <query key="CreateHistoryTable">
+    <mssql><![CDATA[CREATE TABLE {0}
+(ReportSessionId varchar(256) NOT NULL,
+EmployeeId bigint NOT NULL,
+EntityId bigint NOT NULL,
+ActionType nvarchar(6) NULL)]]></mssql>
+    <postgres><![CDATA[CREATE TABLE {0}
+(ReportSessionId varchar NOT NULL,
+EmployeeId bigint NOT NULL,
+EntityId bigint NOT NULL,
+ActionType varchar NULL)]]></postgres>
+  </query>
+  <query key="InsertIntoHistoryTable">
+    <mssql><![CDATA[INSERT INTO {0} (ReportSessionId, EmployeeId, EntityId, ActionType)
+select
+  distinct '{1}',
+-- если писать User и Action без [] то будет падать.
+  h.[User], 
+  EntityId,
+  case 
+    when [Action] = 'Create'
+      then 'Create'
+    when [Action] = 'Update' and (Operation = 'UpdateVerBody' or Operation = 'CreateVersion')
+       then 'Update'
+    when [Action] = 'Read' and Operation = 'ReadVerBody'
+       then 'Read'
+  end
+from 
+Sungero_Content_DocHistory h
+where
+EntityId <> 0
+and [Action] in ('Create', 'Update', 'Read')
+and HistoryDate between '{2}' and '{3}'
+and h.[User] is not null]]></mssql>
+    <postgres><![CDATA[INSERT INTO {0} (ReportSessionId, EmployeeId, EntityId, ActionType)
+select
+  distinct '{1}',
+-- если писать user без "" или без алиаса таблицы, то запрос будет падать так как написание user(или User) в postgre выводит в результат имя текущего пользователя, работающего с БД
+  h.user, 
+  EntityId,
+  case 
+    when Action = 'Create'
+      then 'Create'
+    when Action = 'Update' and (Operation = 'UpdateVerBody' or Operation = 'CreateVersion')
+       then 'Update'
+    when Action = 'Read' and Operation = 'ReadVerBody'
+       then 'Read'
+  end
+from 
+Sungero_Content_DocHistory h
+where
+EntityId <> 0
+and Action in ('Create', 'Update', 'Read')
+and HistoryDate between '{2}' and '{3}'
+and h.user is not null]]></postgres>
+  </query>
+  <query key="ResultQuery">
+    <mssql><![CDATA[select
+  emp.Employee,
+  emp.JobTitle,
+  emp.Department,
+  ISNULL(SUM(case when his.ActionType = 'Create' then 1 else 0 end), 0) as Created,
+  ISNULL(SUM(case when his.ActionType = 'Update' then 1 else 0 end), 0) as Updated,
+  ISNULL(SUM(case when his.ActionType = 'Read' then 1 else 0 end), 0) as Readed
+from dbo.Sungero_Reports_DocumentUsageReport_Employees emp
+  left join dbo.Sungero_Reports_DocumentUsageReport_History his on
+    emp.EmployeeId = his.EmployeeId and
+    emp.ReportSessionId = his.ReportSessionId and
+    his.ActionType is not null
+where emp.ReportSessionId = @ReportSessionId
+group by
+  emp.Employee, emp.JobTitle, emp.Department
+order by
+  ISNULL(SUM(case when his.ActionType = 'Create' then 1 else 0 end), 0) +
+  ISNULL(SUM(case when his.ActionType = 'Update' then 1 else 0 end), 0) +
+  ISNULL(SUM(case when his.ActionType = 'Read' then 1 else 0 end), 0),
+  emp.Department, emp.Employee]]></mssql>
+    <postgres><![CDATA[select
+  emp.Employee,
+  emp.JobTitle,
+  emp.Department,
+  COALESCE(SUM(case when his.ActionType = 'Create' then 1 else 0 end), 0) as Created,
+  COALESCE(SUM(case when his.ActionType = 'Update' then 1 else 0 end), 0) as Updated,
+  COALESCE(SUM(case when his.ActionType = 'Read' then 1 else 0 end), 0) as Readed
+from Sungero_Reports_DocumentUsageReport_Employees emp
+  left join Sungero_Reports_DocumentUsageReport_History his on
+    emp.EmployeeId = his.EmployeeId and
+    emp.ReportSessionId = his.ReportSessionId and
+    his.ActionType is not null
+where emp.ReportSessionId = @ReportSessionId
+group by
+  emp.Employee, emp.JobTitle, emp.Department
+order by
+  COALESCE(SUM(case when his.ActionType = 'Create' then 1 else 0 end), 0) +
+  COALESCE(SUM(case when his.ActionType = 'Update' then 1 else 0 end), 0) +
+  COALESCE(SUM(case when his.ActionType = 'Read' then 1 else 0 end), 0),
+  emp.Department, emp.Employee]]></postgres>
+  </query>
+</queries>

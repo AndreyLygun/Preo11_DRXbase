@@ -1,0 +1,21 @@
+{
+  "Description": {
+    "en-US": "Acceptance of invitation for electronic document exchange from counterparty",
+    "ru-RU": "Прием приглашения к электронному обмену от контрагента",
+    "hash": "b49563a96465235faf44238f00a45d69"
+  },
+  "Name": {
+    "en-US": "Processing of invitation for electronic document exchange from counterparty",
+    "ru-RU": "Обработка приглашения к эл. обмену от контрагента",
+    "hash": "3d926e90a9d3d1491c2683e1e4a01bf0"
+  },
+  "Subject_SE_1": {
+    "en-US": "{0}",
+    "ru-RU": "{0}",
+    "hash": "031926624c88fbc0578b59ea78a99849"
+  },
+  "Title_SE_1": {
+    "en-US": "Process invitation for electronic document exchange",
+    "ru-RU": "Обработка приглашения к эл. обмену"
+  }
+}

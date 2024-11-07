@@ -1,0 +1,12 @@
+{
+  "Description": {
+    "default": "Chief accountant of the business unit.",
+    "ru-RU": "Главный бухгалтер нашей организации.",
+    "hash": "2ee8b48d99422aa8c2aabf2c496cfed0"
+  },
+  "Name": {
+    "default": "Chief accountant",
+    "ru-RU": "Главный бухгалтер",
+    "hash": "b3eca86ec540b7d157c47ee59c43f32e"
+  }
+}

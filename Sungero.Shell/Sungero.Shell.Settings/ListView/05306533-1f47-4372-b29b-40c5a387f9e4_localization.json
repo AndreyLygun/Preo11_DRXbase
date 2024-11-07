@@ -1,0 +1,12 @@
+{
+  "Description": {
+    "en-US": "Compact view of folder \"Inbox\" for employees included in role \"Users of manager's interface\".",
+    "ru-RU": "Компактное представление папки \"Входящие\" для пользователей, которые входят в роль \"Пользователи интерфейса для руководителей\".",
+    "hash": "abc4dde13cfd8fe1053c21a412915f84"
+  },
+  "Name": {
+    "en-US": "Inbox (for managers)",
+    "ru-RU": "Входящие (для руководителей)",
+    "hash": "7b2b822ecfa9fafe15076b8993d41a3f"
+  }
+}

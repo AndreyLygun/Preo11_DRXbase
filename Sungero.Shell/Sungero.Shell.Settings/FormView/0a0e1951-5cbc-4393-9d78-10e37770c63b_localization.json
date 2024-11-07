@@ -1,0 +1,26 @@
+{
+  "Control_Caption_52da3f838f2b4c05868c5ad5c77f79df": {
+    "en-US": "Subject",
+    "ru-RU": "Тема"
+  },
+  "Description": {
+    "en-US": "View of an assignment to rework a document for employees included in role \"Users of manager's interface\" (within rule-based approval).",
+    "ru-RU": "Отображение карточки задания на доработку (регламент) для пользователей, которые входят в роль \"Пользователи интерфейса для руководителей\".",
+    "hash": "b98dcdfe3806163a83138b0f8ca0ac8c"
+  },
+  "Group_Caption_69e3d80d52c74a45a5db7a81d79a6f8f": {
+    "en-US": "Vertical group",
+    "ru-RU": "Вертикальная группа",
+    "hash": "a3f4921f8fe4bf0c5925862bfa0f8836"
+  },
+  "Name": {
+    "en-US": "Assignment to rework document within rule-based approval (for managers)",
+    "ru-RU": "Задание на доработку (для руководителей) в согласовании по регламенту",
+    "hash": "8e3cff450bf5775e8a708edd7b2453ef"
+  },
+  "Thread_Title_a2b1a03300e7415c9eca8ae12d0ed849": {
+    "en-US": "Thread",
+    "ru-RU": "Переписка",
+    "hash": "041eec598ca6e8ea8b76021de6822cb0"
+  }
+}

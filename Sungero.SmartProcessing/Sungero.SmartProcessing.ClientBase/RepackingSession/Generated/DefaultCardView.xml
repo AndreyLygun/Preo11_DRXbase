@@ -1,0 +1,143 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings>
+  <ViewName>Default</ViewName>
+  <Collectionf5fff09238af406d8166a547da7ab48c FormGuid="bddc9471-ada0-42f2-96d2-baa459ac95f3">
+    <XtraSerializer version="1.0" application="GridControl">
+      <property name="#LayoutVersion" isnull="true" />
+      <property name="$GridControl" iskey="true" value="GridControl">
+        <property name="View" isnull="true" iskey="true">
+          <property name="LinesPerRowMode">None</property>
+          <property name="ColumnChooserState" isnull="true" iskey="true">
+            <property name="Location">761,-102</property>
+            <property name="Size">220,250</property>
+          </property>
+          <property name="AllowMoveColumnToDropArea">false</property>
+          <property name="AllowColumnMoving">true</property>
+          <property name="AllowSorting">true</property>
+          <property name="ShowTotalSummary">false</property>
+          <property name="IsRowCellMenuEnabled">false</property>
+          <property name="ShowGroupPanel">false</property>
+          <property name="AutoWidth">false</property>
+          <property name="AllowGrouping">false</property>
+        </property>
+        <property name="TotalSummary" iskey="true" value="0" />
+        <property name="SortInfo" iskey="true" value="0" />
+        <property name="GroupSummary" iskey="true" value="0" />
+        <property name="GroupCount">0</property>
+        <property name="Columns" iskey="true" value="1">
+          <property name="Item1" isnull="true" iskey="true">
+            <property name="Visible">true</property>
+            <property name="Name">RepackingSession_NewDocuments_DocumentId</property>
+            <property name="FieldName">DocumentId</property>
+            <property name="VisibleIndex">0</property>
+            <property name="Width">181</property>
+            <property name="ActualWidth">11*</property>
+          </property>
+        </property>
+        <property name="GroupSummarySortInfo" iskey="true" value="0" />
+      </property>
+    </XtraSerializer>
+  </Collectionf5fff09238af406d8166a547da7ab48c>
+  <Collection6228834fb46c4426ad5ea2fc2e37637e FormGuid="bddc9471-ada0-42f2-96d2-baa459ac95f3">
+    <XtraSerializer version="1.0" application="GridControl">
+      <property name="#LayoutVersion" isnull="true" />
+      <property name="$GridControl" iskey="true" value="GridControl">
+        <property name="View" isnull="true" iskey="true">
+          <property name="LinesPerRowMode">None</property>
+          <property name="ColumnChooserState" isnull="true" iskey="true">
+            <property name="Location">761,-172</property>
+            <property name="Size">220,250</property>
+          </property>
+          <property name="AllowMoveColumnToDropArea">false</property>
+          <property name="AllowColumnMoving">true</property>
+          <property name="AllowSorting">true</property>
+          <property name="ShowTotalSummary">false</property>
+          <property name="IsRowCellMenuEnabled">false</property>
+          <property name="ShowGroupPanel">false</property>
+          <property name="AutoWidth">false</property>
+          <property name="AllowGrouping">false</property>
+        </property>
+        <property name="TotalSummary" iskey="true" value="0" />
+        <property name="SortInfo" iskey="true" value="0" />
+        <property name="GroupSummary" iskey="true" value="0" />
+        <property name="GroupCount">0</property>
+        <property name="Columns" iskey="true" value="1">
+          <property name="Item1" isnull="true" iskey="true">
+            <property name="Visible">true</property>
+            <property name="Name">RepackingSession_Errors_Text</property>
+            <property name="FieldName">Text</property>
+            <property name="VisibleIndex">0</property>
+            <property name="Width">953</property>
+            <property name="ActualWidth">58*</property>
+          </property>
+        </property>
+        <property name="GroupSummarySortInfo" iskey="true" value="0" />
+      </property>
+    </XtraSerializer>
+  </Collection6228834fb46c4426ad5ea2fc2e37637e>
+  <Collection63d6fb03053e4b18880eb86204496b51 FormGuid="bddc9471-ada0-42f2-96d2-baa459ac95f3">
+    <XtraSerializer version="1.0" application="GridControl">
+      <property name="#LayoutVersion" isnull="true" />
+      <property name="$GridControl" iskey="true" value="GridControl">
+        <property name="View" isnull="true" iskey="true">
+          <property name="LinesPerRowMode">None</property>
+          <property name="ColumnChooserState" isnull="true" iskey="true">
+            <property name="Location">571,-2</property>
+            <property name="Size">220,250</property>
+          </property>
+          <property name="AllowMoveColumnToDropArea">false</property>
+          <property name="AllowColumnMoving">true</property>
+          <property name="AllowSorting">true</property>
+          <property name="ShowTotalSummary">false</property>
+          <property name="IsRowCellMenuEnabled">false</property>
+          <property name="ShowGroupPanel">false</property>
+          <property name="AutoWidth">false</property>
+          <property name="AllowGrouping">false</property>
+        </property>
+        <property name="TotalSummary" iskey="true" value="0" />
+        <property name="SortInfo" iskey="true" value="1">
+          <property name="Item1" isnull="true" iskey="true">
+            <property name="FieldName">ResultVersionNumber</property>
+            <property name="SortOrder">Ascending</property>
+          </property>
+        </property>
+        <property name="GroupSummary" iskey="true" value="0" />
+        <property name="GroupCount">0</property>
+        <property name="Columns" iskey="true" value="4">
+          <property name="Item1" isnull="true" iskey="true">
+            <property name="Visible">true</property>
+            <property name="Name">RepackingSession_OriginalDocuments_DocumentId</property>
+            <property name="FieldName">DocumentId</property>
+            <property name="VisibleIndex">0</property>
+            <property name="Width">164</property>
+            <property name="ActualWidth">10*</property>
+          </property>
+          <property name="Item2" isnull="true" iskey="true">
+            <property name="Visible">true</property>
+            <property name="Name">RepackingSession_OriginalDocuments_VersionNumber</property>
+            <property name="FieldName">VersionNumber</property>
+            <property name="VisibleIndex">1</property>
+            <property name="Width">164</property>
+            <property name="ActualWidth">10*</property>
+          </property>
+          <property name="Item3" isnull="true" iskey="true">
+            <property name="Visible">true</property>
+            <property name="Name">RepackingSession_OriginalDocuments_DocumentName</property>
+            <property name="FieldName">DocumentName</property>
+            <property name="VisibleIndex">2</property>
+            <property name="Width">706</property>
+            <property name="ActualWidth">43*</property>
+          </property>
+          <property name="Item4" isnull="true" iskey="true">
+            <property name="Visible">true</property>
+            <property name="Name">RepackingSession_OriginalDocuments_ResultVersionNumber</property>
+            <property name="FieldName">ResultVersionNumber</property>
+            <property name="VisibleIndex">3</property>
+            <property name="ActualWidth">NaN</property>
+          </property>
+        </property>
+        <property name="GroupSummarySortInfo" iskey="true" value="0" />
+      </property>
+    </XtraSerializer>
+  </Collection63d6fb03053e4b18880eb86204496b51>
+</settings>

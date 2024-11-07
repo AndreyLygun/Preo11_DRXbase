@@ -1,0 +1,160 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Action_ApprovedDescription" xml:space="preserve">
+    <value>Выполнение задания и подписание документа с результатом "Согласовано".</value>
+  </data>
+  <data name="Action_ApprovedConfirmationMessage" xml:space="preserve">
+    <value>Согласовать документ?</value>
+  </data>
+  <data name="Action_ApprovedHint" xml:space="preserve">
+    <value>Согласовать документ</value>
+  </data>
+  <data name="Action_Approved" xml:space="preserve">
+    <value>Согласовать</value>
+  </data>
+  <data name="Enum_Result_Approved" xml:space="preserve">
+    <value>Согласовано</value>
+  </data>
+  <data name="Enum_Result_ForRework" xml:space="preserve">
+    <value>Отправлено на доработку</value>
+  </data>
+  <data name="Action_ForRework" xml:space="preserve">
+    <value>На доработку</value>
+  </data>
+  <data name="Action_ForReworkHint" xml:space="preserve">
+    <value>Отправить документ на доработку</value>
+  </data>
+  <data name="Action_ForReworkConfirmationMessage" xml:space="preserve">
+    <value>Отправить документ на доработку?</value>
+  </data>
+  <data name="Action_ForReworkDescription" xml:space="preserve">
+    <value>Отправка на доработку и подписание документа с результатом "На доработку"</value>
+  </data>
+  <data name="DisplayName" xml:space="preserve">
+    <value>Согласование</value>
+  </data>
+  <data name="AccusativeDisplayName" xml:space="preserve">
+    <value>Согласование</value>
+  </data>
+  <data name="CollectionDisplayName" xml:space="preserve">
+    <value>Согласование</value>
+  </data>
+  <data name="Action_ExtendDeadline" xml:space="preserve">
+    <value>Запросить продление срока</value>
+  </data>
+  <data name="Action_ExtendDeadlineDescription" xml:space="preserve">
+    <value>Отправить запрос продления срока задания</value>
+  </data>
+  <data name="Action_ExtendDeadlineHint" xml:space="preserve">
+    <value>Запросить продление срока задания</value>
+  </data>
+  <data name="Ribbon_DeadlineGroup_99bb7b57b6b94e31b4eb3a2983082c4e" xml:space="preserve">
+    <value>Срок</value>
+  </data>
+  <data name="Action_AddApprover" xml:space="preserve">
+    <value>Добавить согласующего</value>
+  </data>
+  <data name="Action_AddApproverDescription" xml:space="preserve">
+    <value>Выбор сотрудника для отправки ему задания на согласование.</value>
+  </data>
+  <data name="Action_AddApproverHint" xml:space="preserve">
+    <value>Добавить согласующего</value>
+  </data>
+  <data name="Ribbon_AsgGroup_ac82503a7a4749d0b90c9bb512c4559c" xml:space="preserve">
+    <value>Задание</value>
+  </data>
+  <data name="Enum_Result_Forward" xml:space="preserve">
+    <value>Переадресовать</value>
+  </data>
+  <data name="Action_Forward" xml:space="preserve">
+    <value>Переадресовать</value>
+  </data>
+  <data name="Action_ForwardHint" xml:space="preserve">
+    <value>Переадресовать согласование документа</value>
+  </data>
+  <data name="Action_ForwardConfirmationMessage" xml:space="preserve">
+    <value>Переадресовать согласование документа?</value>
+  </data>
+  <data name="Action_ForwardDescription" xml:space="preserve">
+    <value>Отправка документа на согласование другому сотруднику.</value>
+  </data>
+  <data name="Property_Addressee" xml:space="preserve">
+    <value>Переадресовать сотруднику</value>
+  </data>
+  <data name="Property_Subject" xml:space="preserve">
+    <value>Тема</value>
+  </data>
+  <data name="Ribbon_ApprovalGroup_79e25988029e440cb90519d4d5be068b" xml:space="preserve">
+    <value>Согласование</value>
+  </data>
+  <data name="Property_AddresseeDeadline" xml:space="preserve">
+    <value>Новый срок</value>
+  </data>
+  <data name="Action_DeleteEntityConfirmationMessage" xml:space="preserve">
+    <value>Удалить запись?</value>
+  </data>
+  <data name="ControlGroup_ebfeb539df3646ebb16c88e4afe77109" xml:space="preserve">
+    <value>Основное</value>
+  </data>
+  <data name="ControlGroup_4917364762724459ab15867c0b3c85a2" xml:space="preserve">
+    <value>Горизонтальная группа</value>
+  </data>
+</root>

@@ -1,0 +1,16 @@
+{
+  "Description": {
+    "en-US": "Resolving conflicts of counterparties synchronization with exchange services",
+    "ru-RU": "Разрешение конфликтов синхронизации контрагентов из сервисов обмена",
+    "hash": "52ad06308e904b4c6994fc515145993b"
+  },
+  "Name": {
+    "en-US": "Processing of synchronization conflicts",
+    "ru-RU": "Обработка конфликтов синхронизации",
+    "hash": "39273370bfea244df750265057bcf136"
+  },
+  "Title_SE_1": {
+    "en-US": "Assignment to process synchronization conflicts",
+    "ru-RU": "Задание на обработку конфликтов синхронизации"
+  }
+}

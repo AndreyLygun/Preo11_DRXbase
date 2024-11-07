@@ -1,0 +1,178 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AcquaintanceTaskSubject" xml:space="preserve">
+    <value>Ознакомление с документом: {0}</value>
+  </data>
+  <data name="AcquaintanceTaskDocumentWithoutBodyMessage" xml:space="preserve">
+    <value>Для отправки документа на электронное ознакомление необходимо создать версию документа.</value>
+  </data>
+  <data name="FromSignAssignmentDesription" xml:space="preserve">
+    <value>Ознакомьтесь с документом, подойдите к ответственному и поставьте личную подпись.</value>
+  </data>
+  <data name="TaskAutoText" xml:space="preserve">
+    <value>Прошу ознакомиться с документом.</value>
+  </data>
+  <data name="AcquaintanceAssignmentSubject" xml:space="preserve">
+    <value>Ознакомьтесь: {0}</value>
+  </data>
+  <data name="AcquaintanceFinishAssignmentSubject" xml:space="preserve">
+    <value>Завершите работы по ознакомлению: {0}</value>
+  </data>
+  <data name="CompletedBySubstitution" xml:space="preserve">
+    <value>Для выполнения задания за сотрудника необходимо оставить комментарий.</value>
+  </data>
+  <data name="DocumentNotReaded" xml:space="preserve">
+    <value>Для выполнения задания необходимо ознакомиться с версией {0} документа.</value>
+  </data>
+  <data name="DocumentSignatureNotValid" xml:space="preserve">
+    <value>Утверждающая подпись документа недействительна, обратитесь к ответственному за ознакомление.</value>
+  </data>
+  <data name="CompletedByAnother" xml:space="preserve">
+    <value>Выполнено.</value>
+  </data>
+  <data name="PerformersCantBeEmpty" xml:space="preserve">
+    <value>В списке ознакомления должен быть хотя бы один сотрудник.</value>
+  </data>
+  <data name="NotAutomatedUserWithoutSubstitutionError" xml:space="preserve">
+    <value>Для отправки документа на ознакомление необходимо, чтобы у всех сотрудников были учетные записи или настроено замещение.</value>
+  </data>
+  <data name="DocumentCantBeEmpty" xml:space="preserve">
+    <value>В задачу должен быть вложен "Документ на ознакомление".</value>
+  </data>
+  <data name="ElectronicAcquaintanceDecription" xml:space="preserve">
+    <value>Ознакомление в электронном виде.</value>
+  </data>
+  <data name="SelfSignAcquaintanceDecription" xml:space="preserve">
+    <value>Ознакомление под личную подпись.</value>
+  </data>
+  <data name="StateViewDocumentSendFromAcquaintance" xml:space="preserve">
+    <value>Документ отправлен на ознакомление.</value>
+  </data>
+  <data name="StateViewDocumentElectonicAcquaintance" xml:space="preserve">
+    <value>Ознакомление с документом в электронном виде</value>
+  </data>
+  <data name="StateViewAcquainted" xml:space="preserve">
+    <value>Ознакомлен</value>
+  </data>
+  <data name="StateViewCompleted" xml:space="preserve">
+    <value>Выполнено</value>
+  </data>
+  <data name="StateViewFinish" xml:space="preserve">
+    <value>На завершении</value>
+  </data>
+  <data name="StateViewAsquaintance" xml:space="preserve">
+    <value>Ознакомление</value>
+  </data>
+  <data name="StateViewFinishAssignment" xml:space="preserve">
+    <value>Завершение работ по ознакомлению</value>
+  </data>
+  <data name="Acquainted" xml:space="preserve">
+    <value>Ознакомлен.</value>
+  </data>
+  <data name="StateViewDocumentSelfSignAcquaintance" xml:space="preserve">
+    <value>Ознакомление с документом под личную подпись</value>
+  </data>
+  <data name="DocumentNotReadedLastVersion" xml:space="preserve">
+    <value>Для выполнения задания необходимо ознакомиться с документом.</value>
+  </data>
+  <data name="TooManyPerformers" xml:space="preserve">
+    <value>В задаче на ознакомление более {0} сотрудников. Создайте задачи на ознакомление по подразделениям или нашим организациям.</value>
+  </data>
+  <data name="RecommendApprovalSignature" xml:space="preserve">
+    <value>Для юридической значимости рекомендуется подписать документ ЭП с результатом "Утверждено".</value>
+  </data>
+  <data name="AcquaintanceCompletedSubject" xml:space="preserve">
+    <value>Ознакомление завершено: {0}</value>
+  </data>
+  <data name="ExcludeFromAcquaintanceDialogTitle" xml:space="preserve">
+    <value>Исключение участников ознакомления</value>
+  </data>
+  <data name="ExcludeFromAcquaintanceDialogPerformers" xml:space="preserve">
+    <value>Участники</value>
+  </data>
+  <data name="ExcludeFromAcquaintanceDialogExcludePerformers" xml:space="preserve">
+    <value>Выбрать участников</value>
+  </data>
+  <data name="ExcludeFromAcquaintanceDialogExcludeButton" xml:space="preserve">
+    <value>Исключить</value>
+  </data>
+  <data name="ExcludeFromAcquaintanceDialogSelectPerformers" xml:space="preserve">
+    <value>Выберите участников для исключения</value>
+  </data>
+  <data name="ExcludeFromAcquaintanceCompletedNotification" xml:space="preserve">
+    <value>Задания на ознакомление с документом {0} прекращены у выбранных участников.</value>
+  </data>
+  <data name="AcquaintanceInCreatingProcess" xml:space="preserve">
+    <value>Задания на ознакомление находятся в процессе создания. Повторите исключение участников из ознакомления позднее.</value>
+  </data>
+  <data name="AcquaintanceTaskPerformers" xml:space="preserve">
+    <value>Участники ознакомления</value>
+  </data>
+  <data name="AcquaintanceTaskPerformersDescription" xml:space="preserve">
+    <value>Получить список участников ознакомления</value>
+  </data>
+  <data name="GetStateViewFunctionName" xml:space="preserve">
+    <value>Информация по задаче</value>
+  </data>
+  <data name="GetStateViewFunctionDescription" xml:space="preserve">
+    <value>Отображение краткой сводки по задаче и ее заданиям</value>
+  </data>
+</root>

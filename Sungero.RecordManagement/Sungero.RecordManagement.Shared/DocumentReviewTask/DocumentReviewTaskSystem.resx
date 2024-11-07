@@ -1,0 +1,258 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ControlGroup_72daf404a3534f9cb5c14239db6eb38d" xml:space="preserve">
+    <value>Main</value>
+  </data>
+  <data name="DisplayName" xml:space="preserve">
+    <value>Task to review document</value>
+  </data>
+  <data name="AccusativeDisplayName" xml:space="preserve">
+    <value>Task to review document</value>
+  </data>
+  <data name="CollectionDisplayName" xml:space="preserve">
+    <value>Tasks to review document</value>
+  </data>
+  <data name="Property_Performer" xml:space="preserve">
+    <value>Performer</value>
+  </data>
+  <data name="Property_Addressee" xml:space="preserve">
+    <value>Addressee</value>
+  </data>
+  <data name="Property_Deadline" xml:space="preserve">
+    <value>Deadline</value>
+  </data>
+  <data name="Property_ResolutionText" xml:space="preserve">
+    <value>Resolution text</value>
+  </data>
+  <data name="Property_MaxDeadline" xml:space="preserve">
+    <value>Final deadline</value>
+  </data>
+  <data name="AttachmentGroup_DocumentForReviewGroupTitle" xml:space="preserve">
+    <value>Document for review</value>
+  </data>
+  <data name="AttachmentGroup_DocumentForReviewGroupInformationMessage" xml:space="preserve">
+    <value>Attach document for review</value>
+  </data>
+  <data name="AttachmentGroup_OtherGroupTitle" xml:space="preserve">
+    <value>Other attachments</value>
+  </data>
+  <data name="AttachmentGroup_OtherGroupInformationMessage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Property_ResolutionObservers" xml:space="preserve">
+    <value>CC</value>
+  </data>
+  <data name="Ribbon_TaskCommands_e4e6fdd481594a37a25d70ee43c07975" xml:space="preserve">
+    <value>Review</value>
+  </data>
+  <data name="Action_StartDescription" xml:space="preserve">
+    <value>Send document for review and close card</value>
+  </data>
+  <data name="Action_StartHint" xml:space="preserve">
+    <value>Send Document for Review</value>
+  </data>
+  <data name="Action_RestartConfirmationMessage" xml:space="preserve">
+    <value>Restart document review?</value>
+  </data>
+  <data name="Action_RestartHint" xml:space="preserve">
+    <value>Restart Document Review</value>
+  </data>
+  <data name="Action_RestartDescription" xml:space="preserve">
+    <value>Restart document review process and open the task card</value>
+  </data>
+  <data name="Action_AbortDescription" xml:space="preserve">
+    <value>Abort task and all its assignments</value>
+  </data>
+  <data name="Footer_ActiveEmptyText" xml:space="preserve">
+    <value>Note to review incoming document…</value>
+  </data>
+  <data name="Action_Start" xml:space="preserve">
+    <value>Send</value>
+  </data>
+  <data name="Action_StartConfirmationMessage" xml:space="preserve">
+    <value>Send the document for review?</value>
+  </data>
+  <data name="Action_Restart" xml:space="preserve">
+    <value>Restart</value>
+  </data>
+  <data name="Action_Abort" xml:space="preserve">
+    <value>Abort</value>
+  </data>
+  <data name="Action_AbortHint" xml:space="preserve">
+    <value>Stop Reviewing Document</value>
+  </data>
+  <data name="Action_AbortConfirmationMessage" xml:space="preserve">
+    <value>Abort document review?</value>
+  </data>
+  <data name="Property_NeedsReview" xml:space="preserve">
+    <value>Assignment for review</value>
+  </data>
+  <data name="AttachmentGroup_AddendaGroupTitle" xml:space="preserve">
+    <value>Addenda</value>
+  </data>
+  <data name="AttachmentGroup_AddendaGroupInformationMessage" xml:space="preserve">
+    <value>There are no addenda to document</value>
+  </data>
+  <data name="Property_MainTask" xml:space="preserve">
+    <value>Main task</value>
+  </data>
+  <data name="Control_352419b30b6043278c82bafd23a75b45_EmptyText" xml:space="preserve">
+    <value>Specify observers…</value>
+  </data>
+  <data name="AttachmentGroup_ResolutionGroupTitle" xml:space="preserve">
+    <value>Draft Resolution</value>
+  </data>
+  <data name="AttachmentGroup_ResolutionGroupInformationMessage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="AttachmentGroup_ResolutionTitle" xml:space="preserve">
+    <value />
+  </data>
+  <data name="AttachmentGroup_ResolutionInformationMessage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Action_AddResolution" xml:space="preserve">
+    <value>Add Action Item</value>
+  </data>
+  <data name="Action_AddResolutionDescription" xml:space="preserve">
+    <value>Add an action item to the draft resolution.
+
+The created action items will be sent to the manager for review</value>
+  </data>
+  <data name="Action_AddResolutionHint" xml:space="preserve">
+    <value>Add Action Item to "Draft Resolution"</value>
+  </data>
+  <data name="Action_AddResolutionConfirmationMessage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Action_AddResolutionConfirmationDescription" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Ribbon_ResolutionGroup_2fef45136bae41d5b127a84c6332e0bd" xml:space="preserve">
+    <value>Draft Resolution</value>
+  </data>
+  <data name="Property_NeedDeleteActionItems" xml:space="preserve">
+    <value>Delete draft resolution</value>
+  </data>
+  <data name="Property_Addressees" xml:space="preserve">
+    <value>Addressees</value>
+  </data>
+  <data name="Property_AddedAddenda" xml:space="preserve">
+    <value>Documents added to the Addenda group</value>
+  </data>
+  <data name="Property_RemovedAddenda" xml:space="preserve">
+    <value>Documents removed from the Addenda group</value>
+  </data>
+  <data name="Block_383ec871742d4b89b95507ebcde770e7" xml:space="preserve">
+    <value>Prepare draft resolution</value>
+  </data>
+  <data name="Block_ab0b298143e046f6a03fd96e100d4615" xml:space="preserve">
+    <value>Send draft resolution for execution</value>
+  </data>
+  <data name="Block_3ec91932536d4a7696fb97db86b8248c" xml:space="preserve">
+    <value>Rework</value>
+  </data>
+  <data name="Block_50196cf483724d6a8434b2bf72fcb8bc" xml:space="preserve">
+    <value>Send task to review document</value>
+  </data>
+  <data name="Block_3911b2c7bbde42e5aad049bbfd560363" xml:space="preserve">
+    <value>Delete draft resolution</value>
+  </data>
+  <data name="Block_cfb9a90106fb463a9165b1ba26ba9ac7" xml:space="preserve">
+    <value>Wait until review is completed</value>
+  </data>
+  <data name="Block_941083cadd924a1d98fe8df3a6b96767" xml:space="preserve">
+    <value>Change addressee in task</value>
+  </data>
+  <data name="Block_941083cadd924a1d98fe8df3a6b96767_Property_9534a10851e84bb1b738318a37cf73ba" xml:space="preserve">
+    <value>Addressee</value>
+  </data>
+  <data name="Block_3911b2c7bbde42e5aad049bbfd560363_Property_6a0f940c050748f19cbd502eff9cc905" xml:space="preserve">
+    <value>Except for prepared on behalf of the addressee</value>
+  </data>
+  <data name="Block_57ac112f4eff4ab186165706c2686195" xml:space="preserve">
+    <value>Assign access rights to documents</value>
+  </data>
+  <data name="Block_383ec871742d4b89b95507ebcde770e7_Property_51cb82e6169146fcb1e2e916be0e77ee" xml:space="preserve">
+    <value>Assign default access rights</value>
+  </data>
+  <data name="Block_ab0b298143e046f6a03fd96e100d4615_Property_da1082a77b374813bbd97ce8832d29f7" xml:space="preserve">
+    <value>Assign default access rights</value>
+  </data>
+  <data name="Block_3ec91932536d4a7696fb97db86b8248c_Property_ede0d42232674667ab9f3251b5dee2de" xml:space="preserve">
+    <value>Assign default access rights</value>
+  </data>
+  <data name="Block_941083cadd924a1d98fe8df3a6b96767_Property_ba1318007994421d974446e54bb0e4db" xml:space="preserve">
+    <value>Delete action items except for those assigned by</value>
+  </data>
+  <data name="Block_ef068982d75b4f39b7ba4166fefb671e" xml:space="preserve">
+    <value>Send tasks to review document</value>
+  </data>
+  <data name="Block_87d7a4b009844872ae48a0d72f5ee7c4" xml:space="preserve">
+    <value>Prepare draft resolution</value>
+  </data>
+  <data name="Block_87d7a4b009844872ae48a0d72f5ee7c4_Property_73d8bf9d42b74dea911821795d44d5dd" xml:space="preserve">
+    <value>Draft resolution deadline</value>
+  </data>
+  <data name="Block_87d7a4b009844872ae48a0d72f5ee7c4_Property_786890898a7741a39889a6d97498ef3f" xml:space="preserve">
+    <value>Draft resolution active text</value>
+  </data>
+</root>

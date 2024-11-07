@@ -1,0 +1,131 @@
+{
+  "Action_Description_27a3767363e84af8a7f03c62eb729ae4": {
+    "default": "List of meeting action items whose execution deadline is in the specified period.",
+    "ru-RU": "Список поручений по совещаниям с плановым сроком исполнения в выбранном периоде.",
+    "hash": "4cf6bc8eef21c081b6b2601e4c8445f8"
+  },
+  "Action_Description_5207dcd95bca4e5592f9f7ee013df4d8": {
+    "default": "All meetings of the company that can be sorted by participants and deadlines.",
+    "ru-RU": "Перечень всех совещаний, проводимых в компании, с разбивкой по участникам и срокам.",
+    "hash": "295abf6d926fe583e40d26914b23b731"
+  },
+  "Action_Description_64c0e8630b0748048e2b82b6d955962d": {
+    "default": "Quick creation of meeting agendas.",
+    "ru-RU": "Быстрое создание повесток по совещаниям.",
+    "hash": "405620213a160a0860e0763ff91a4ea6"
+  },
+  "Action_Description_6afad2f7d3e640cfbaa7febfbb8ba4be": {
+    "default": "List of all meeting agendas.",
+    "ru-RU": "Список всех повесток по совещаниям.",
+    "hash": "9b6e24fdd675ebf6c639671f9515d586"
+  },
+  "Action_Description_781a05cb26e84d68a496b039dfe69a00": {
+    "default": "Information about employees.",
+    "ru-RU": "Справочник сотрудников",
+    "hash": "f6eab669acc946f93900c4857e459ef2"
+  },
+  "Action_Description_9f08b32c5db74c5fa2b5c161a605a609": {
+    "default": "List of all meeting minutes.",
+    "ru-RU": "Список всех протоколов по совещаниям.",
+    "hash": "2be36b7106928eceef6e7fdf94720b83"
+  },
+  "Action_Description_d20c687e77c54287bfad37df902e6644": {
+    "default": "List of action items created on meeting minutes.",
+    "ru-RU": "Список всех поручений, созданных по протоколам совещаний.",
+    "hash": "526cf61224ea9386602c137910755b87"
+  },
+  "Action_Description_dfd1e37954d045f3a3153a86c0093c08": {
+    "default": "Quick creation of meeting minutes.",
+    "ru-RU": "Быстрое создание протоколов по совещаниям.",
+    "hash": "86b0cbdfdc377401c904a1f8928669da"
+  },
+  "Action_Title_27a3767363e84af8a7f03c62eb729ae4": {
+    "default": "Track Execution of Action Items Based on Meetings",
+    "ru-RU": "Контроль исполнения поручений по совещаниям",
+    "hash": "bace66af20d31f686fc32bd6d156a854"
+  },
+  "Action_Title_5207dcd95bca4e5592f9f7ee013df4d8": {
+    "default": "Meeting List",
+    "ru-RU": "Реестр совещаний",
+    "hash": "642bd066ec36c6b5d56df57005e508b8"
+  },
+  "Action_Title_64c0e8630b0748048e2b82b6d955962d": {
+    "default": "New Agenda",
+    "ru-RU": "Создать повестку",
+    "hash": "6a3a64ba33e494d4bb9062d62abeec34"
+  },
+  "Action_Title_6afad2f7d3e640cfbaa7febfbb8ba4be": {
+    "default": "Meeting Agendas",
+    "ru-RU": "Повестки совещаний",
+    "hash": "b26187ca72ec5d994b08be210a77026c"
+  },
+  "Action_Title_781a05cb26e84d68a496b039dfe69a00": {
+    "default": "Employees",
+    "ru-RU": "Сотрудники",
+    "hash": "cc22a93735c0da53f53ef9e61581acea"
+  },
+  "Action_Title_9f08b32c5db74c5fa2b5c161a605a609": {
+    "default": "Meeting Minutes",
+    "ru-RU": "Протоколы совещаний",
+    "hash": "ce8cd40cd2418e1c46b33f1afe86b4e1"
+  },
+  "Action_Title_d20c687e77c54287bfad37df902e6644": {
+    "default": "Meeting Action Items",
+    "ru-RU": "Поручения по совещаниям",
+    "hash": "9398e1b69f2f00ea49ebdbfb46a604bf"
+  },
+  "Action_Title_dfd1e37954d045f3a3153a86c0093c08": {
+    "default": "New Minutes",
+    "ru-RU": "Создать протокол",
+    "hash": "7baeb705427565f1bc17bc36fe53386d"
+  },
+  "Action_Title_e694c62fc5e04fdc8d07e4b8328abd11": {
+    "default": "New Meeting",
+    "ru-RU": "Создать совещание",
+    "hash": "dfa4f8c6a1ced07b4549065f79b2ce9c"
+  },
+  "Group_Title_172836751aa94cd98181d72f4efe867c": {
+    "default": "Meetings",
+    "ru-RU": "Совещания",
+    "hash": "9089115e97b0c3300d473c29ddfa7b83"
+  },
+  "Group_Title_395e64c63908490b9238c2d90c2b5ef3": {
+    "default": "Related Information",
+    "ru-RU": "Связанная информация",
+    "hash": "4f3a6a60b3de9b5162f268b4b1aa8fdf"
+  },
+  "Group_Title_721f7f00d252427e93d0e85dc92ad05e": {
+    "default": "Minutes",
+    "ru-RU": "Протоколы совещаний",
+    "hash": "c5964cad354da7c1c56af0700ac2813c"
+  },
+  "Group_Title_aa00d9b9838247bba3dc58ad9b5ac546": {
+    "default": "Agendas",
+    "ru-RU": "Повестки совещаний",
+    "hash": "812658ccb4cca01a4993c6189ffd2dde"
+  },
+  "Group_Title_cfcc3a86cb294063b5865d382024da68": {
+    "default": "Reports",
+    "ru-RU": "Отчеты",
+    "hash": "269295bfcf8b9d5f4d39a3bda47e4e2f"
+  },
+  "Header_Description_abfd6cb87fbc4e82b0ae00c78e77a9cb": {
+    "default": "This module is where you can work with meeting agendas, minutes and make sure decisions made on the meeting are fully executed. ",
+    "ru-RU": "Модуль предназначен для работы с повестками и протоколами совещаний, а также для исполнения принятых решений.",
+    "hash": "03260a102f34188687f54ec169c5774b"
+  },
+  "Header_Title_abfd6cb87fbc4e82b0ae00c78e77a9cb": {
+    "default": "Meeting Management",
+    "ru-RU": "Управление совещаниями",
+    "hash": "ffb9ab463561a2907b683d1d98c8919a"
+  },
+  "Name": {
+    "default": "Meetings",
+    "ru-RU": "Совещания",
+    "hash": "9089115e97b0c3300d473c29ddfa7b83"
+  },
+  "Tab_Title_bfa4295b35e8461fb7cf6211c64bcd2e": {
+    "default": "Tab",
+    "hash": "308b6abade3f7962098e8bd8cb7db726"
+  }
+}

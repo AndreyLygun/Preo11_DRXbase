@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Property_Employee" xml:space="preserve">
+    <value>Сотрудник</value>
+  </data>
+  <data name="DisplayName" xml:space="preserve">
+    <value>Настройка мобильных приложений</value>
+  </data>
+  <data name="CollectionDisplayName" xml:space="preserve">
+    <value>Настройки мобильных приложений</value>
+  </data>
+  <data name="AccusativeDisplayName" xml:space="preserve">
+    <value>Настройку мобильных приложений</value>
+  </data>
+  <data name="Property_VisibleFolders" xml:space="preserve">
+    <value>Список настроенных папок</value>
+  </data>
+  <data name="Action_Reset" xml:space="preserve">
+    <value>Заполнить список</value>
+  </data>
+  <data name="Action_ResetDescription" xml:space="preserve">
+    <value>Заполняет список папками по умолчанию</value>
+  </data>
+  <data name="Action_ResetHint" xml:space="preserve">
+    <value>Заполняет список папками по умолчанию</value>
+  </data>
+  <data name="Action_AddFolder" xml:space="preserve">
+    <value>Добавить папку</value>
+  </data>
+  <data name="Action_AddFolderHint" xml:space="preserve">
+    <value>Добавление папки в список видимых папок</value>
+  </data>
+  <data name="Action_AddFolderDescription" xml:space="preserve">
+    <value>Добавление папки в список видимых папок</value>
+  </data>
+  <data name="ControlGroup_4ed36f1394244eaca790272944c366c7" xml:space="preserve">
+    <value>Список настроенных папок</value>
+  </data>
+  <data name="Property_IsSubstitutionFoldersHidden" xml:space="preserve">
+    <value>Скрыть папки по замещению</value>
+  </data>
+  <data name="Property_IsVisibleFoldersLimitedDescription" xml:space="preserve">
+    <value>Описание/подсказка</value>
+  </data>
+  <data name="Property_IsAllFoldersOnline" xml:space="preserve">
+    <value>Установить тип онлайн для всех папок из списка</value>
+  </data>
+  <data name="Property_IsVisibleFoldersLimited" xml:space="preserve">
+    <value>Ограничить список видимых папок</value>
+  </data>
+  <data name="Property_IsOfflineThreads" xml:space="preserve">
+    <value>Отображать переписку по заданиям без доступа к интернету</value>
+  </data>
+  <data name="Property_IsOfflineThreadsDescription" xml:space="preserve">
+    <value>Описание/Подсказка</value>
+  </data>
+  <data name="ControlGroup_810c47577f97465a962b15038c3cde32" xml:space="preserve">
+    <value>Настройки</value>
+  </data>
+</root>

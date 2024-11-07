@@ -1,0 +1,187 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Property_Name" xml:space="preserve">
+    <value>Имя</value>
+  </data>
+  <data name="DisplayName" xml:space="preserve">
+    <value>Результат распознавания сущности</value>
+  </data>
+  <data name="CollectionDisplayName" xml:space="preserve">
+    <value>Результаты распознавания сущности</value>
+  </data>
+  <data name="AccusativeDisplayName" xml:space="preserve">
+    <value>Результат распознавания сущности</value>
+  </data>
+  <data name="Property_RecognizedClass" xml:space="preserve">
+    <value>Распознанный класс</value>
+  </data>
+  <data name="Property_ClassProbability" xml:space="preserve">
+    <value>Вероятность</value>
+  </data>
+  <data name="Property_EntityId" xml:space="preserve">
+    <value>ИД сущности</value>
+  </data>
+  <data name="Property_EntityType" xml:space="preserve">
+    <value>Тип сущности</value>
+  </data>
+  <data name="Property_Facts" xml:space="preserve">
+    <value>Поля фактов</value>
+  </data>
+  <data name="ControlGroup_88560c69cea248eeb1c0cc3e550830b8" xml:space="preserve">
+    <value>Факты и поля</value>
+  </data>
+  <data name="Property_AdditionalClassifiers" xml:space="preserve">
+    <value>Дополнительные классификаторы</value>
+  </data>
+  <data name="Form_4656b0982f584029b9f29c65b534ae67" xml:space="preserve">
+    <value>Дополнительно</value>
+  </data>
+  <data name="Property_DocTypeClassifierTrainingSession" xml:space="preserve">
+    <value>Сессия обучения по типам</value>
+  </data>
+  <data name="Enum_ClassifierTrainingSession_Awaiting" xml:space="preserve">
+    <value>В ожидании</value>
+  </data>
+  <data name="Enum_ClassifierTrainingSession_Started" xml:space="preserve">
+    <value>Обучение начато</value>
+  </data>
+  <data name="Enum_ClassifierTrainingSession_Completed" xml:space="preserve">
+    <value>Обучение завершено</value>
+  </data>
+  <data name="Enum_ClassifierTrainingSession_Error" xml:space="preserve">
+    <value>Возникла ошибка</value>
+  </data>
+  <data name="Property_VerifiedClass" xml:space="preserve">
+    <value>Подтвержденный класс</value>
+  </data>
+  <data name="Property_DocTypeClassifierTrainingStatus" xml:space="preserve">
+    <value>Статус обучения классификатора по типам</value>
+  </data>
+  <data name="ControlGroup_55f47cfddd4b4653b5f83ec5e4073f64" xml:space="preserve">
+    <value>Обучение классификатора по типам</value>
+  </data>
+  <data name="ControlGroup_d465f2a33d7d4121968a9028dc84788e" xml:space="preserve">
+    <value>Дополнительные классификаторы</value>
+  </data>
+  <data name="ControlGroup_dc3a9d386bf840949feee5d954c35700" xml:space="preserve">
+    <value>Дополнительные классификаторы</value>
+  </data>
+  <data name="Enum_DocTypeClassifierTrainingStatus_Error" xml:space="preserve">
+    <value>Возникла ошибка</value>
+  </data>
+  <data name="Enum_DocTypeClassifierTrainingStatus_Completed" xml:space="preserve">
+    <value>Обучение завершено</value>
+  </data>
+  <data name="Enum_DocTypeClassifierTrainingStatus_InProcess" xml:space="preserve">
+    <value>Обучение в процессе</value>
+  </data>
+  <data name="Enum_DocTypeClassifierTrainingStatus_Awaiting" xml:space="preserve">
+    <value>Ожидание обучения</value>
+  </data>
+  <data name="Property_Created" xml:space="preserve">
+    <value>Создан</value>
+  </data>
+  <data name="Action_ShowDocument" xml:space="preserve">
+    <value>Карточка документа</value>
+  </data>
+  <data name="Action_ShowDocumentHint" xml:space="preserve">
+    <value>Открыть карточку документа</value>
+  </data>
+  <data name="Action_ShowDocumentDescription" xml:space="preserve">
+    <value>Открытие карточки обработанного в Ario документа</value>
+  </data>
+  <data name="Ribbon_ShowCommands_02ac50d508c145538b2198e9d3c2c262" xml:space="preserve">
+    <value>Показать</value>
+  </data>
+  <data name="Property_Verified" xml:space="preserve">
+    <value>Проверено</value>
+  </data>
+  <data name="Property_FirstPageClassifierTrainingStatus" xml:space="preserve">
+    <value>Статус обучения классификатора первых страниц</value>
+  </data>
+  <data name="Property_FirstPageClassifierTrainingSession" xml:space="preserve">
+    <value>Сессия обучения классификатора первых страниц</value>
+  </data>
+  <data name="Property_VerifiedVersionNumber" xml:space="preserve">
+    <value>Верифицированная версия</value>
+  </data>
+  <data name="Enum_FirstPageClassifierTrainingStatus_Awaiting" xml:space="preserve">
+    <value>Ожидание обучения</value>
+  </data>
+  <data name="Enum_FirstPageClassifierTrainingStatus_InProcess" xml:space="preserve">
+    <value>Обучение в процессе</value>
+  </data>
+  <data name="Enum_FirstPageClassifierTrainingStatus_Completed" xml:space="preserve">
+    <value>Обучение завершено</value>
+  </data>
+  <data name="Enum_FirstPageClassifierTrainingStatus_Error" xml:space="preserve">
+    <value>Возникла ошибка</value>
+  </data>
+  <data name="ControlGroup_c5da0cb350924d0bb045637168b1c280" xml:space="preserve">
+    <value>Обучение классификатора первых страниц</value>
+  </data>
+  <data name="Property_FilledByFuzzySearch" xml:space="preserve">
+    <value>Заполнено нечетким поиском</value>
+  </data>
+  <data name="ControlGroup_4e86de9a3fde4d0e9cc7149c01bdc04b" xml:space="preserve">
+    <value>Результат распознавания</value>
+  </data>
+</root>

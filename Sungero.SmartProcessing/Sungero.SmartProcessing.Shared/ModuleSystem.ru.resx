@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="DisplayName" xml:space="preserve">
+    <value>Интеллектуальная обработка</value>
+  </data>
+  <data name="CoverTitle" xml:space="preserve">
+    <value>Интеллектуальная обработка документов</value>
+  </data>
+  <data name="JobDisplayName_aed5a3c776e74ba8b24a46e14937f44d" xml:space="preserve">
+    <value>Интеллектуальная обработка. Удаление пакетов бинарных образов документов</value>
+  </data>
+  <data name="JobDescription_aed5a3c776e74ba8b24a46e14937f44d" xml:space="preserve">
+    <value>Удаление пакетов бинарных образов документов, которые отправлены на верификацию</value>
+  </data>
+  <data name="AsyncHandler_Description_2a536470c8d5466a9ad58489733edf0c" xml:space="preserve">
+    <value>Удаление результатов распознавания сущности</value>
+  </data>
+  <data name="AsyncHandler_Description_396a79ad296547b691c312c44e8681e2" xml:space="preserve">
+    <value>Проверка состояния распознавания сервисами Ario документов из пакета</value>
+  </data>
+  <data name="JobDisplayName_3f749e3c3fee40cf81cadd605388dc63" xml:space="preserve">
+    <value>Интеллектуальные функции. Дообучение классификатора по типам документов</value>
+  </data>
+  <data name="JobDescription_3f749e3c3fee40cf81cadd605388dc63" xml:space="preserve">
+    <value>Дообучение классификатора по типам. Выполняется на верифицированных документах с измененным типом, накопленных в системе за указанный в расписании период</value>
+  </data>
+  <data name="AsyncHandler_Description_1e242010c3694d379f8d83b9cd9bab10" xml:space="preserve">
+    <value>Проверка статуса обучения классификатора в сервисах Ario</value>
+  </data>
+  <data name="AsyncHandler_Description_4a96850abcd54023a35757691c0db237" xml:space="preserve">
+    <value>Смена статуса дообучения в результате распознавания сущности</value>
+  </data>
+  <data name="AsyncHandler_Description_27031b75984345169320bdd8dd0cd3bf" xml:space="preserve">
+    <value>Пересоздание индексов Elasticsearch для нечеткого поиска в справочниках</value>
+  </data>
+  <data name="JobDisplayName_4289f5c9eac24c518fab8fdd917e6d73" xml:space="preserve">
+    <value>Интеллектуальные функции. Дообучение классификатора первых страниц</value>
+  </data>
+  <data name="JobDescription_4289f5c9eac24c518fab8fdd917e6d73" xml:space="preserve">
+    <value>Дообучение классификатора первых страниц. Выполняется на верифицированных документах, созданных при перекомплектовании и накопленных в системе за указанный в расписании период</value>
+  </data>
+  <data name="Block_4cd54a46361f4a70bc9d6138384bdb0c" xml:space="preserve">
+    <value>Анализ распознавания типов документов и свойств</value>
+  </data>
+</root>
